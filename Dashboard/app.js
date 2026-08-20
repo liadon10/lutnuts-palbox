@@ -210,6 +210,201 @@ function setupEventListeners() {
   if (addBtn) addBtn.addEventListener('click', openAddModal);
 
   const addTeamBtn = document.getElementById('addTeamBtn');
+];
+
+document.addEventListener('DOMContentLoaded', () => {
+  fetchPalsData();
+  setupEventListeners();
+  setupCustomElemDropdown();
+  setupGridCardClickDelegation();
+});
+
+function ensureAllPalsHaveGuids() {
+  if (!Array.isArray(allPals)) return;
+  allPals.forEach((p, idx) => {
+    if (!p.instance_guid) {
+      p.instance_guid = `pal-gen-${idx}-${(p.name || '').toLowerCase().replace(/ /g, '-').replace(/['.]/g, '')}`;
+    }
+  });
+}
+
+async function fetchPalsData() {
+  // Always clear stale or empty localStorage on startup if present
+  const savedData = localStorage.getItem('palbox_custom_pals');
+  if (savedData) {
+    try {
+      const parsed = JSON.parse(savedData);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        allPals = parsed;
+        console.log(`[Palbox] Loaded ${allPals.length} Pals from localStorage.`);
+        ensureAllPalsHaveGuids();
+        document.getElementById('totalCount').textContent = allPals.length;
+        renderMainView();
+        return;
+      }
+    } catch (e) {
+      console.error('Error parsing localStorage custom pals:', e);
+    }
+    localStorage.removeItem('palbox_custom_pals');
+  }
+
+  // Helper function to apply PALS_DATA array
+  const applyPalsData = (data) => {
+    if (Array.isArray(data) && data.length > 0) {
+      allPals = data;
+      ensureAllPalsHaveGuids();
+      document.getElementById('totalCount').textContent = allPals.length;
+      renderMainView();
+      return true;
+    }
+    return false;
+  };
+
+  // 1. Check if window.PALS_DATA is loaded (pals.js is first script tag)
+  if (applyPalsData(window.PALS_DATA)) return;
+
+  // 2. Poll for window.PALS_DATA (up to 3 seconds)
+  for (let i = 0; i < 30; i++) {
+    await new Promise(r => setTimeout(r, 100));
+    if (applyPalsData(window.PALS_DATA)) return;
+  }
+
+  // 3. Fallback: Dynamically load pals.js
+  try {
+    await loadScript('pals.js');
+    if (applyPalsData(window.PALS_DATA)) return;
+  } catch (err) {
+    console.warn('loadScript("pals.js") failed:', err);
+  }
+
+  // 4. Fallback: fetch pals.json for web server
+  try {
+    const response = await fetch('pals.json');
+    if (response.ok) {
+      const jsonPals = await response.json();
+      if (applyPalsData(jsonPals)) return;
+    }
+  } catch (err) {
+    console.warn('Fetch pals.json failed:', err);
+  }
+
+  document.getElementById('palGrid').innerHTML = `
+    <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
+      <h3>⚠️ Could not load Pal data</h3>
+      <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
+      <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
+    </div>
+  `;
+}
+
+function getSynergyTeamsData() {
+  const savedTeams = localStorage.getItem('synergy_custom_teams');
+  if (savedTeams) {
+    try {
+      const parsed = JSON.parse(savedTeams);
+      if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+    } catch (e) {
+      console.error('Error parsing custom teams:', e);
+    }
+  }
+  return window.SYNERGY_TEAMS || [];
+}
+
+function savePalsState() {
+  localStorage.setItem('palbox_custom_pals', JSON.stringify(allPals));
+}
+
+function saveTeamsState(teams) {
+  localStorage.setItem('synergy_custom_teams', JSON.stringify(teams));
+}
+
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+function setupCustomElemDropdown() {
+  const trigger = document.getElementById('elemDropdownTrigger');
+  const optionsContainer = document.getElementById('elemDropdownOptions');
+  const hiddenInput = document.getElementById('elemFilter');
+  const selectedSpan = document.getElementById('elemDropdownSelected');
+
+  if (!trigger || !optionsContainer || !hiddenInput) return;
+
+  trigger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    optionsContainer.classList.toggle('open');
+  });
+
+  document.addEventListener('click', () => {
+    optionsContainer.classList.remove('open');
+  });
+
+  const options = optionsContainer.querySelectorAll('.custom-option');
+  options.forEach(opt => {
+    opt.addEventListener('click', (e) => {
+      e.stopPropagation();
+      options.forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+
+      const val = opt.getAttribute('data-value');
+      hiddenInput.value = val;
+      selectedSpan.innerHTML = opt.innerHTML;
+      optionsContainer.classList.remove('open');
+      renderMainView();
+    });
+  });
+}
+
+function handlePalCardClick(e, guid) {
+  if (!guid) return;
+  if (e.target.closest('.card-edit-btn') || 
+      e.target.closest('.portrait-link') || 
+      e.target.closest('.table-portrait-link') || 
+      e.target.closest('a')) {
+    return;
+  }
+  openPalDetailModal(guid);
+}
+
+function setupGridCardClickDelegation() {
+  const grid = document.getElementById('palGrid');
+  if (!grid) return;
+
+  grid.addEventListener('click', (e) => {
+    if (e.target.closest('.card-edit-btn') || 
+        e.target.closest('.portrait-link') || 
+        e.target.closest('.table-portrait-link') || 
+        e.target.closest('a')) {
+      return;
+    }
+
+    const card = e.target.closest('.pal-card, .pal-list-table tbody tr');
+    if (card) {
+      const guid = card.getAttribute('data-guid') || card.dataset.guid;
+      if (guid) {
+        openPalDetailModal(guid);
+      }
+    }
+  });
+}
+
+function setupEventListeners() {
+  const inputs = ['searchInput', 'locationFilter', 'rankFilter', 'sortSelect'];
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('input', renderMainView);
+  });
+
+  const addBtn = document.getElementById('addPalBtn');
+  if (addBtn) addBtn.addEventListener('click', openAddModal);
+
+  const addTeamBtn = document.getElementById('addTeamBtn');
   if (addTeamBtn) addTeamBtn.addEventListener('click', openAddTeamModal);
 
   const syncBtn = document.getElementById('syncMyPalsBtn');
@@ -1135,9 +1330,18 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
       <div class="location-bar has-tooltip">
         <div class="location-bar-content">
           ${locSvg}
-          <span>${locationHTML}</span>
+          <select class="inline-location-select" data-guid="${pal.instance_guid}" onchange="inlineLocationChange(event, '${pal.instance_guid}')" onclick="event.stopPropagation()">
+            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>⚔️ Active Party</option>
+            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>📦 Palbox</option>
+            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>🏠 Main Base</option>
+            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>⛏️ Mining Base</option>
+            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>🐑 Ranching Base</option>
+            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>🥚 Breeding Base</option>
+            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>🛢️ Oil Base</option>
+            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>🌐 Global Palbox</option>
+            ${(!['Active Party', 'Palbox Storage', 'Main Base', 'Mining Base', 'Ranching Base', 'Breeding Base', 'Oil Base', 'Global Palbox'].includes(pal.location || 'Palbox Storage')) ? `<option value="${pal.location}" selected>${pal.location}</option>` : ''}
+          </select>
         </div>
-        <span class="location-chevron">▼</span>
         ${locTooltipHTML}
       </div>
     </div>
@@ -1225,7 +1429,22 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
       ${showPartnerSkill ? partnerTdHTML : ''}
       <td><div style="display:flex; gap:4px; flex-wrap:wrap;">${workBadgesHTML}</div></td>
       <td>${passivesGridHTML}</td>
-      <td><span class="has-tooltip" style="color:var(--text-muted);">${pal.location || 'Palbox Storage'}${getLocationTooltipHTML(pal.location)}</span></td>
+      <td>
+        <span class="has-tooltip" style="color:var(--text-muted);">
+          <select class="inline-location-select-table" data-guid="${pal.instance_guid}" onchange="inlineLocationChange(event, '${pal.instance_guid}')" onclick="event.stopPropagation()">
+            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>⚔️ Active Party</option>
+            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>📦 Palbox</option>
+            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>🏠 Main Base</option>
+            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>⛏️ Mining Base</option>
+            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>🐑 Ranching Base</option>
+            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>🥚 Breeding Base</option>
+            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>🛢️ Oil Base</option>
+            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>🌐 Global Palbox</option>
+            ${(!['Active Party', 'Palbox Storage', 'Main Base', 'Mining Base', 'Ranching Base', 'Breeding Base', 'Oil Base', 'Global Palbox'].includes(pal.location || 'Palbox Storage')) ? `<option value="${pal.location}" selected>${pal.location}</option>` : ''}
+          </select>
+          ${getLocationTooltipHTML(pal.location)}
+        </span>
+      </td>
       <td>${pal.instance_guid ? `<button class="card-edit-btn" onclick="openEditModal('${pal.instance_guid}')" title="Edit Pal">✏️ Edit</button>` : '-'}</td>
     </tr>
   `;
@@ -1654,3 +1873,45 @@ function deletePalFromModal() {
     document.getElementById('totalCount').textContent = allPals.length;
   }
 }
+
+// ----------------------------------------------------
+// INLINE LOCATION EDIT & AUTO-SYNC
+// ----------------------------------------------------
+async function inlineLocationChange(event, guid) {
+  const newLocation = event.target.value;
+  const palIndex = allPals.findIndex(p => p.instance_guid === guid);
+  
+  if (palIndex > -1) {
+    allPals[palIndex].location = newLocation;
+    savePalsState();
+    // Only re-render the specific card/row if possible, but for simplicity re-render all to apply SVG and sorting
+    renderMainView();
+    
+    // Auto-sync and push to Git
+    const syncBtn = document.getElementById('syncPalsBtn');
+    if (syncBtn) syncBtn.innerHTML = '🔄 Syncing...';
+    
+    try {
+      const response = await fetch('/api/sync', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(allPals)
+      });
+      const data = await response.json();
+      if (data.status === 'success') {
+        if (syncBtn) syncBtn.innerHTML = '✅ Synced & Pushed!';
+        setTimeout(() => { if (syncBtn) syncBtn.innerHTML = '☁️ Sync to My Pals'; }, 2000);
+      } else {
+        console.error("Auto-sync failed:", data.message);
+        if (syncBtn) syncBtn.innerHTML = '⚠️ Sync Failed';
+      }
+    } catch (e) {
+      console.error('Error during auto-sync:', e);
+      if (syncBtn) syncBtn.innerHTML = '⚠️ Network Error';
+    }
+  }
+}
+
+

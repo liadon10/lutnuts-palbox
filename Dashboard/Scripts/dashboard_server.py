@@ -4,6 +4,7 @@ import json
 import pathlib
 import sys
 import threading
+import subprocess
 
 # Add Scripts directory to sys.path
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -43,12 +44,23 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                     
                 print(f"[Dashboard Server] Saved {len(pals_data)} Pals to pals.json and pals.js.")
 
-                # 3. Trigger Google Sheet 'My Pals' sync
+                # 3. Trigger Google Sheet 'My Pals' sync and Git push
                 def bg_sheet_sync():
                     try:
                         sheet_sync.sync_dashboard_json_to_sheet()
                     except Exception as err:
                         print(f"[!] Background Sheet sync error: {err}")
+                    
+                    try:
+                        print("[Dashboard Server] Pushing changes to GitHub Pages...")
+                        repo_dir = DASHBOARD_DIR.parent
+                        subprocess.run(["git", "add", "."], cwd=repo_dir, check=True)
+                        subprocess.run(["git", "commit", "-m", "Auto-save: Updated Palbox data"], cwd=repo_dir, check=True)
+                        subprocess.run(["git", "push", "origin", "main"], cwd=repo_dir, check=True)
+                        print("[Dashboard Server] Successfully pushed to GitHub!")
+                    except subprocess.CalledProcessError as err:
+                        # git commit fails if there are no changes, which is fine
+                        print(f"[!] Background Git sync info: {err}")
 
                 threading.Thread(target=bg_sheet_sync, daemon=True).start()
 
