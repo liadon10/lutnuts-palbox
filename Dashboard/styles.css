@@ -572,38 +572,45 @@ select {
   gap: 6px;
 }
 
-.btn-add {
-  background: #2563eb;
-  color: #ffffff;
-  border-color: #3b82f6;
-}
-
-.btn-add:hover {
-  background: #1d4ed8;
-  transform: translateY(-1px);
-}
-
+/* Header Action Buttons (Alternating Color 1 [Royal Blurple] & Color 2 [Deep Crimson]) */
+.btn-add,
 .btn-export {
-  background: #059669;
+  background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
   color: #ffffff;
-  border-color: #10b981;
+  border: 1px solid rgba(99, 102, 241, 0.45);
+  box-shadow: 0 3px 10px rgba(99, 102, 241, 0.25);
 }
 
+.btn-add:hover,
 .btn-export:hover {
-  background: #047857;
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+  box-shadow: 0 5px 16px rgba(99, 102, 241, 0.45);
   transform: translateY(-1px);
 }
 
-.btn-reset {
-  background: #374151;
-  color: #d1d5db;
-  border-color: #4b5563;
+.btn-add-team,
+.btn-sync-save {
+  background: linear-gradient(135deg, #991b1b 0%, #6b1111 100%);
+  color: #ffffff;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  box-shadow: 0 3px 10px rgba(153, 27, 27, 0.25);
 }
 
-.btn-reset:hover {
-  background: #4b5563;
-  color: #ffffff;
+.btn-add-team:hover,
+.btn-sync-save:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%);
+  box-shadow: 0 5px 16px rgba(239, 68, 68, 0.45);
+  transform: translateY(-1px);
 }
+
+
+.btn-action:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
 
 /* Alpha Pal Emblem Icon */
 .alpha-badge-icon {
@@ -897,27 +904,8 @@ select {
   min-width: 150px;
 }
 
-.btn-add-team {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  color: #ffffff;
-  border: 1px solid rgba(16, 185, 129, 0.4);
-  font-weight: 700;
-  padding: 8px 16px;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.2s ease;
-}
-
-.btn-add-team:hover {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
-}
-
 /* Portrait Link to Palworld.gg */
+
 .portrait-link,
 .table-portrait-link {
   display: inline-block;

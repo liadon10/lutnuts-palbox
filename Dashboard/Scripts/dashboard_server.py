@@ -121,9 +121,80 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
                 return
+        elif self.path in ("/api/run-palworld-sync", "/api/sync-from-save"):
+            try:
+                base_dir = DASHBOARD_DIR.parent
+                sync_script = base_dir / "Scripts" / "palworld_sync.py"
+                python_exe = sys.executable
+                print(f"[Dashboard Server] Running Palworld Sync script: {sync_script}")
+
+                res = subprocess.run(
+                    [python_exe, str(sync_script)],
+                    cwd=str(base_dir),
+                    capture_output=True,
+                    text=True,
+                    timeout=300
+                )
+                if res.stdout:
+                    print(f"[palworld_sync output]\n{res.stdout}")
+
+                if res.returncode != 0:
+                    print(f"[!] palworld_sync error (exit code {res.returncode}):\n{res.stderr}")
+                    self.send_response(500)
+                    self.send_header('Content-type', 'application/json')
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "status": "error",
+                        "message": f"Sync process failed (exit code {res.returncode}): {res.stderr[:200] if res.stderr else 'Unknown error'}"
+                    }).encode('utf-8'))
+                    return
+
+                # Background Git commit & push
+                def bg_git_push():
+                    try:
+                        print("[Dashboard Server] Pushing sync changes to GitHub Pages...")
+                        subprocess.run(["git", "add", "."], cwd=base_dir, check=True)
+                        subprocess.run(["git", "commit", "-m", "Auto-sync: Updated save data and Palbox"], cwd=base_dir, check=True)
+                        subprocess.run(["git", "push", "origin", "main"], cwd=base_dir, check=True)
+                        print("[Dashboard Server] Successfully pushed to GitHub!")
+                    except Exception as err:
+                        print(f"[!] Background Git sync info: {err}")
+
+                threading.Thread(target=bg_git_push, daemon=True).start()
+
+                # Get count of updated pals from pals.json
+                json_path = DASHBOARD_DIR / "pals.json"
+                count = 0
+                if json_path.exists():
+                    try:
+                        with open(json_path, "r", encoding="utf-8") as f:
+                            pals_data = json.load(f)
+                            count = len(pals_data)
+                    except Exception:
+                        pass
+
+                response = {
+                    "status": "success",
+                    "message": f"Successfully scanned save game, updated Google Sheets 'My Pals', and synced {count} Pals to Dashboard!",
+                    "count": count
+                }
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps(response).encode('utf-8'))
+                return
+
+            except Exception as e:
+                print(f"[!] Error during save file sync: {e}")
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+                return
         else:
             self.send_response(404)
             self.end_headers()
+
 
 class ThreadedHTTPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     daemon_threads = True

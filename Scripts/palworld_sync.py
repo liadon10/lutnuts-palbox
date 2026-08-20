@@ -1807,6 +1807,142 @@ def is_game_running():
     return False
 
 
+def export_pals_to_dashboard(pals_rows):
+    """Formats raw parsed Pal rows into JSON and writes to Dashboard/pals.json and pals.js"""
+    try:
+        dashboard_dir = BASE_SCRIPT_DIR / "Dashboard"
+        if not dashboard_dir.is_dir():
+            return
+
+        structured_pals = []
+        for row in pals_rows:
+            if len(row) < 26:
+                continue
+
+            paldeck_num = row[0]
+            display_name = row[1]
+            raw_id = row[5]
+            level = row[6]
+            star_str = row[7]
+            gender_raw = row[8]
+            fav_str = row[9]
+            location = row[10]
+            origin_str = row[11]
+            work_str = row[12]
+            is_alpha_str = row[13]
+            hp_iv = row[14]
+            melee_iv = row[15]
+            shot_iv = row[16]
+            def_iv = row[17]
+            active_skills = [s for s in row[18:21] if s and s != "-"]
+            passive_skills = [p for p in row[21:25] if p and p != "-"]
+            inst_guid = row[25]
+
+            pal_info = get_pal_info(raw_id)
+            elem1 = pal_info[2] if len(pal_info) > 2 else "Neutral"
+            elem2 = pal_info[3] if len(pal_info) > 3 and pal_info[3] else None
+
+            work_badges = []
+            if work_str and work_str != "-":
+                parts = [p.strip() for p in str(work_str).split(",")]
+                for part in parts:
+                    tokens = part.split()
+                    if len(tokens) == 2:
+                        emoji, lvl = tokens[0], tokens[1]
+                        work_badges.append({"emoji": emoji, "level": lvl})
+
+            passive_heatmap_map = {
+                5: "#f59e0b",
+                4: "#f59e0b",
+                3: "#4CAF50",
+                2: "#2196F3",
+                1: "#9E9E9E",
+                -1: "#ef4444",
+                -2: "#dc2626",
+                -3: "#b91c1c"
+            }
+
+            passive_objs = []
+            for p_name in passive_skills:
+                lvl = get_passive_skill_level(p_name)
+                hex_color = passive_heatmap_map.get(lvl, "#2a2d34")
+                passive_objs.append({
+                    "name": p_name,
+                    "tier": lvl,
+                    "color": hex_color
+                })
+
+            gender_type = "male" if "♂" in str(gender_raw) else "female" if "♀" in str(gender_raw) else "unknown"
+
+            name_slug = display_name.lower().replace(" ", "-").replace("'", "").replace(".", "")
+            clean_id = raw_id.replace("BOSS_", "").replace("Raid_", "").replace("NPC_", "").replace("SUMMON_", "").lower()
+            clean_id_dash = clean_id.replace("_", "-")
+
+            slug_map = {
+                "astralyn": "astralym.png",
+                "lilyqueen-noct": "lyleen-noct.png",
+                "worldtreedragon": "astralym.png",
+                "lilyqueen_dark": "lyleen-noct.png"
+            }
+
+            img_base_dir = dashboard_dir / "Images" / "Everything Else" / "Palworld Complete Palpedia List"
+            portrait_path = None
+            if name_slug in slug_map:
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[name_slug]}"
+            elif clean_id in slug_map:
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id]}"
+            elif clean_id_dash in slug_map:
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id_dash]}"
+            elif (img_base_dir / f"{name_slug}.png").exists():
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{name_slug}.png"
+            elif (img_base_dir / f"{clean_id}.png").exists():
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id}.png"
+            elif (img_base_dir / f"{clean_id_dash}.png").exists():
+                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id_dash}.png"
+            else:
+                portrait_path = f"https://raw.githubusercontent.com/palworld-modding/icons/main/pals/{clean_id}.png"
+
+            pal_obj = {
+                "paldeck_num": paldeck_num,
+                "name": display_name,
+                "raw_id": raw_id,
+                "portrait_url": portrait_path,
+                "level": level,
+                "stars": star_str,
+                "gender": gender_type,
+                "gender_symbol": gender_raw,
+                "favorite": fav_str,
+                "location": location,
+                "is_imported": "IMAGE" in str(origin_str) or "Global" in str(location),
+                "element1": elem1,
+                "element2": elem2,
+                "work_suitabilities": work_badges,
+                "is_boss": is_alpha_str == "Yes (Alpha)",
+                "hp_iv": hp_iv,
+                "melee_iv": melee_iv,
+                "shot_iv": shot_iv,
+                "def_iv": def_iv,
+                "active_skills": active_skills,
+                "passive_skills": passive_objs,
+                "instance_guid": inst_guid
+            }
+            structured_pals.append(pal_obj)
+
+        json_out = dashboard_dir / "pals.json"
+        with open(json_out, "w", encoding="utf-8") as f:
+            json.dump(structured_pals, f, indent=2, ensure_ascii=False)
+
+        js_out = dashboard_dir / "pals.js"
+        with open(js_out, "w", encoding="utf-8") as f:
+            f.write("window.PALS_DATA = ")
+            json.dump(structured_pals, f, indent=2, ensure_ascii=False)
+            f.write(";\n")
+
+        print(f"[OK] Exported {len(structured_pals)} Pals to Dashboard ({json_out.name} and {js_out.name})")
+    except Exception as e:
+        print(f"[!] Error exporting Pals to Dashboard: {e}")
+
+
 def run_single_sync():
     print("=" * 65)
     print("       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)")
@@ -1847,6 +1983,7 @@ def run_single_sync():
             pals = parse_palworld_save(Path(target_save))
             if pals:
                 upload_to_google_sheet(pals, GOOGLE_CREDENTIALS_JSON)
+                export_pals_to_dashboard(pals)
             else:
                 print("[!] No Pal data recovered from save.")
         else:

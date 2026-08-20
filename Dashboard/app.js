@@ -1,4 +1,4 @@
-﻿let allPals = [];
+let allPals = [];
 let currentViewMode = 'grid'; // 'grid' | 'list'
 let currentMainView = 'all_pals'; // 'all_pals' | 'synergy_teams'
 
@@ -220,17 +220,18 @@ function setupEventListeners() {
   const addTeamBtn = document.getElementById('addTeamBtn');
   if (addTeamBtn) addTeamBtn.addEventListener('click', openAddSynergyTeamModal);
 
-  const syncBtn = document.getElementById('syncPalsBtn') || document.getElementById('syncMyPalsBtn');
-  if (syncBtn) syncBtn.addEventListener('click', syncPalsToServer);
+  const syncMyPalsBtn = document.getElementById('syncMyPalsBtn') || document.getElementById('syncPalsBtn');
+  if (syncMyPalsBtn) syncMyPalsBtn.addEventListener('click', syncToMyPalsTable);
 
-  const resetBtn = document.getElementById('resetDataBtn');
-  if (resetBtn) resetBtn.addEventListener('click', resetPalsData);
+  const syncSaveBtn = document.getElementById('syncSaveBtn');
+  if (syncSaveBtn) syncSaveBtn.addEventListener('click', syncFromSaveFile);
 
   const gridBtn = document.getElementById('gridModeBtn');
   const listBtn = document.getElementById('listModeBtn');
   if (gridBtn) gridBtn.addEventListener('click', () => { currentViewMode = 'grid'; renderMainView(); });
   if (listBtn) listBtn.addEventListener('click', () => { currentViewMode = 'list'; renderMainView(); });
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
   fetchPalsData();
@@ -511,12 +512,42 @@ function setupEventListeners() {
   }
 }
 
-function resetPalsData() {
-  if (confirm('Are you sure you want to reset all custom edits to original save file data?')) {
-    localStorage.clear();
-    location.reload();
+async function syncFromSaveFile() {
+  const btn = document.getElementById('syncSaveBtn');
+  const originalText = btn ? btn.innerHTML : '🔄 Sync from Save';
+
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = '⌛ Scanning Save & Syncing...';
+  }
+
+  try {
+    const response = await fetch('/api/run-palworld-sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    if (response.ok) {
+      const resData = await response.json();
+      // Clear any cached offline data to ensure fresh save data is loaded
+      localStorage.removeItem('palbox_custom_pals');
+      await fetchPalsData();
+      alert(`✅ ${resData.message || 'Successfully scanned save game, updated Google Sheets, and synced Dashboard!'}`);
+    } else {
+      const errData = await response.json().catch(() => ({}));
+      throw new Error(errData.message || `HTTP ${response.status}`);
+    }
+  } catch (err) {
+    console.error('Error running save file sync:', err);
+    alert(`⚠️ Could not complete save file sync:\n${err.message || err}\n\nMake sure the local dashboard server is running.`);
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalText;
+    }
   }
 }
+
 
 async function syncToMyPalsTable() {
   const syncBtn = document.getElementById('syncMyPalsBtn');
