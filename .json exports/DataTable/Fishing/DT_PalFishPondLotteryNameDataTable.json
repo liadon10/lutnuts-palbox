@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFishPondLotteryNameDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Fishing/DT_PalFishPondLotteryNameDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishPondLotteryNameData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Small": {
+        "TextId": "NAME_SHADOW_SMALL"
+      },
+      "Medium": {
+        "TextId": "NAME_SHADOW_MEDIUM"
+      },
+      "Big": {
+        "TextId": "NAME_SHADOW_BIG"
+      }
+    }
+  }
+]

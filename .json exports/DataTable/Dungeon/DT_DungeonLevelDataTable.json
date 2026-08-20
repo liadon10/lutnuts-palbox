@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DungeonLevelDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Dungeon/DT_DungeonLevelDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalDungeonLevelData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SpawnAreaId": "TestDebug01",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "TestDebug01",
+        "BonusExpRate": 1.0
+      },
+      "2": {
+        "SpawnAreaId": "Grass001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Grass001_01",
+        "BonusExpRate": 3.0
+      },
+      "3": {
+        "SpawnAreaId": "Grass002",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Grass002_01",
+        "BonusExpRate": 3.5
+      },
+      "4": {
+        "SpawnAreaId": "Forest001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Forest001_01",
+        "BonusExpRate": 4.0
+      },
+      "5": {
+        "SpawnAreaId": "Forest002",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Forest002_01",
+        "BonusExpRate": 4.5
+      },
+      "6": {
+        "SpawnAreaId": "Dessert001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Dessert001_01",
+        "BonusExpRate": 5.0
+      },
+      "7": {
+        "SpawnAreaId": "Volcano001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Volcano001_01",
+        "BonusExpRate": 5.5
+      },
+      "8": {
+        "SpawnAreaId": "Snow001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Snow001_01",
+        "BonusExpRate": 6.0
+      },
+      "9": {
+        "SpawnAreaId": "Island001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Island001_01",
+        "BonusExpRate": 3.0
+      },
+      "10": {
+        "SpawnAreaId": "Island002",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Island002_01",
+        "BonusExpRate": 3.0
+      },
+      "11": {
+        "SpawnAreaId": "Island003",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Island003_01",
+        "BonusExpRate": 3.0
+      },
+      "12": {
+        "SpawnAreaId": "Sakura001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Sakura001_01",
+        "BonusExpRate": 6.5
+      },
+      "13": {
+        "SpawnAreaId": "Viking001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Viking001_01",
+        "BonusExpRate": 7.0
+      },
+      "14": {
+        "SpawnAreaId": "Yakushima001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Yakushima001_01",
+        "BonusExpRate": 7.5
+      },
+      "15": {
+        "SpawnAreaId": "Skyland001",
+        "WeightInSpawnArea": 1.0,
+        "LevelName": "Skyland001_01",
+        "BonusExpRate": 8.0
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NPCOtomoWaza",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Waza/DT_NPCOtomoWaza",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalNPCOtomoWazaDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "PalName": {
+          "Key": "ColorfulBird"
+        },
+        "Waza1": "EPalWazaID::SelfExplosion",
+        "Waza2": "EPalWazaID::HyperBeam",
+        "Waza3": "EPalWazaID::PowerShot"
+      },
+      "NewRow_0": {
+        "PalName": {
+          "Key": "RobinHood_Ground"
+        },
+        "Waza1": "EPalWazaID::RockLance",
+        "Waza2": "EPalWazaID::SandTornado",
+        "Waza3": "EPalWazaID::Unique_RobinHood_BowSnipe"
+      }
+    }
+  }
+]

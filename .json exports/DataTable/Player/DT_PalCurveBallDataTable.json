@@ -1,0 +1,287 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalCurveBallDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Player/DT_PalCurveBallDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCurveBallTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "CurveID": "EPalCurveBall::Straight001",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 13000.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_6": {
+        "CurveID": "EPalCurveBall::Straight002",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 20000.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_5": {
+        "CurveID": "EPalCurveBall::Straight003",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_9": {
+        "CurveID": "EPalCurveBall::Left001",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_10": {
+        "CurveID": "EPalCurveBall::Left002",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_1": {
+        "CurveID": "EPalCurveBall::Left003",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_7": {
+        "CurveID": "EPalCurveBall::LeftDown001",
+        "InitVelocity": {
+          "X": 1200.0,
+          "Y": 800.0
+        },
+        "CurveVelocity": {
+          "X": -2500.0,
+          "Y": -800.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 3.0,
+        "GravityInterval": 0.2
+      },
+      "NewRow_8": {
+        "CurveID": "EPalCurveBall::LeftDown002",
+        "InitVelocity": {
+          "X": 2000.0,
+          "Y": 1000.0
+        },
+        "CurveVelocity": {
+          "X": -2500.0,
+          "Y": -1250.0
+        },
+        "CurveInterval": 5.0,
+        "ForwardVelocity": 100.0,
+        "GravityScale": 0.0,
+        "GravityInterval": 1.0
+      },
+      "NewRow_0": {
+        "CurveID": "EPalCurveBall::LeftDown003",
+        "InitVelocity": {
+          "X": 8000.0,
+          "Y": 2000.0
+        },
+        "CurveVelocity": {
+          "X": -5000.0,
+          "Y": -1500.0
+        },
+        "CurveInterval": 5.0,
+        "ForwardVelocity": 5000.0,
+        "GravityScale": 0.0,
+        "GravityInterval": 1.0
+      },
+      "NewRow_11": {
+        "CurveID": "EPalCurveBall::Right001",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": -1000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_12": {
+        "CurveID": "EPalCurveBall::Right002",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": -1000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_2": {
+        "CurveID": "EPalCurveBall::Right003",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 3000.0,
+          "Y": -1000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_3": {
+        "CurveID": "EPalCurveBall::RightDown001",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": -3000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_13": {
+        "CurveID": "EPalCurveBall::RightDown002",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": -3000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_14": {
+        "CurveID": "EPalCurveBall::RightDown003",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": -3000.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 1.8,
+        "GravityInterval": 0.2
+      },
+      "NewRow_4": {
+        "CurveID": "EPalCurveBall::Down001",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 200.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 3.0,
+        "GravityInterval": 0.1
+      },
+      "NewRow_15": {
+        "CurveID": "EPalCurveBall::Down002",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 5.0,
+        "GravityInterval": 0.1
+      },
+      "NewRow_16": {
+        "CurveID": "EPalCurveBall::Down003",
+        "InitVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveVelocity": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "CurveInterval": 1.0,
+        "ForwardVelocity": 0.0,
+        "GravityScale": 5.0,
+        "GravityInterval": 0.1
+      }
+    }
+  }
+]

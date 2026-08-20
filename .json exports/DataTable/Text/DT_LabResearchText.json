@@ -1,0 +1,1649 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LabResearchText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_LabResearchText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_HANDCRAFT1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT1_TextData",
+          "SourceString": "手作業速度1",
+          "LocalizedString": "手作業速度1"
+        }
+      },
+      "NAME_HANDCRAFT2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT2_TextData",
+          "SourceString": "手作業速度2",
+          "LocalizedString": "手作業速度2"
+        }
+      },
+      "NAME_HANDCRAFT3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT3_TextData",
+          "SourceString": "手作業速度3",
+          "LocalizedString": "手作業速度3"
+        }
+      },
+      "NAME_HANDCRAFT4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT4_TextData",
+          "SourceString": "手作業速度4",
+          "LocalizedString": "手作業速度4"
+        }
+      },
+      "NAME_HANDCRAFT5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT5_TextData",
+          "SourceString": "手作業速度5",
+          "LocalizedString": "手作業速度5"
+        }
+      },
+      "NAME_HANDCRAFT21": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT21_TextData",
+          "SourceString": "手作業速度6",
+          "LocalizedString": "手作業速度6"
+        }
+      },
+      "NAME_HANDCRAFT6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT6_TextData",
+          "SourceString": "防具製作の節約術1",
+          "LocalizedString": "防具製作の節約術1"
+        }
+      },
+      "NAME_HANDCRAFT7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT7_TextData",
+          "SourceString": "パルギア製作の節約術1",
+          "LocalizedString": "パルギア製作の節約術1"
+        }
+      },
+      "NAME_HANDCRAFT8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT8_TextData",
+          "SourceString": "武器製作の節約術1",
+          "LocalizedString": "武器製作の節約術1"
+        }
+      },
+      "NAME_HANDCRAFT9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT9_TextData",
+          "SourceString": "防具製作の節約術2",
+          "LocalizedString": "防具製作の節約術2"
+        }
+      },
+      "NAME_HANDCRAFT10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT10_TextData",
+          "SourceString": "パルギア製作の節約術2",
+          "LocalizedString": "パルギア製作の節約術2"
+        }
+      },
+      "NAME_HANDCRAFT11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT11_TextData",
+          "SourceString": "武器製作の節約術2",
+          "LocalizedString": "武器製作の節約術2"
+        }
+      },
+      "NAME_HANDCRAFT12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT12_TextData",
+          "SourceString": "手作業研究のコツ1",
+          "LocalizedString": "手作業研究のコツ1"
+        }
+      },
+      "NAME_HANDCRAFT13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT13_TextData",
+          "SourceString": "手作業研究のコツ2",
+          "LocalizedString": "手作業研究のコツ2"
+        }
+      },
+      "NAME_HANDCRAFT14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT14_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_HANDCRAFT15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT15_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_HANDCRAFT22": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT22_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_HANDCRAFT16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT16_TextData",
+          "SourceString": "スフィア複製技術1",
+          "LocalizedString": "スフィア複製技術1"
+        }
+      },
+      "NAME_HANDCRAFT17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT17_TextData",
+          "SourceString": "弾薬複製技術1",
+          "LocalizedString": "弾薬複製技術1"
+        }
+      },
+      "NAME_HANDCRAFT18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT18_TextData",
+          "SourceString": "スフィア複製技術2",
+          "LocalizedString": "スフィア複製技術2"
+        }
+      },
+      "NAME_HANDCRAFT19": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT19_TextData",
+          "SourceString": "弾薬複製技術2",
+          "LocalizedString": "弾薬複製技術2"
+        }
+      },
+      "NAME_HANDCRAFT20": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_HANDCRAFT20_TextData",
+          "SourceString": "大きな工具箱の開発",
+          "LocalizedString": "大きな工具箱の開発"
+        }
+      },
+      "DESC_HANDCRAFT20": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_HANDCRAFT20_TextData",
+          "SourceString": "テクノロジー「大きな工具箱」の解放",
+          "LocalizedString": "テクノロジー「大きな工具箱」の解放"
+        }
+      },
+      "NAME_EMITFIRE1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE1_TextData",
+          "SourceString": "火おこし作業研究1",
+          "LocalizedString": "火おこし作業研究1"
+        }
+      },
+      "NAME_EMITFIRE2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE2_TextData",
+          "SourceString": "火おこし作業研究2",
+          "LocalizedString": "火おこし作業研究2"
+        }
+      },
+      "NAME_EMITFIRE3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE3_TextData",
+          "SourceString": "火おこし作業研究3",
+          "LocalizedString": "火おこし作業研究3"
+        }
+      },
+      "NAME_EMITFIRE4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE4_TextData",
+          "SourceString": "火おこし作業研究4",
+          "LocalizedString": "火おこし作業研究4"
+        }
+      },
+      "NAME_EMITFIRE5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE5_TextData",
+          "SourceString": "火おこし作業研究5",
+          "LocalizedString": "火おこし作業研究5"
+        }
+      },
+      "NAME_EMITFIRE19": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE19_TextData",
+          "SourceString": "火おこし作業研究6",
+          "LocalizedString": "火おこし作業研究6"
+        }
+      },
+      "NAME_EMITFIRE6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE6_TextData",
+          "SourceString": "孵化促進1",
+          "LocalizedString": "孵化促進1"
+        }
+      },
+      "NAME_EMITFIRE7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE7_TextData",
+          "SourceString": "孵化促進2",
+          "LocalizedString": "孵化促進2"
+        }
+      },
+      "NAME_EMITFIRE8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE8_TextData",
+          "SourceString": "孵化促進3",
+          "LocalizedString": "孵化促進3"
+        }
+      },
+      "NAME_EMITFIRE9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE9_TextData",
+          "SourceString": "孵化促進4",
+          "LocalizedString": "孵化促進4"
+        }
+      },
+      "NAME_EMITFIRE10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE10_TextData",
+          "SourceString": "火おこし研究のコツ1",
+          "LocalizedString": "火おこし研究のコツ1"
+        }
+      },
+      "NAME_EMITFIRE11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE11_TextData",
+          "SourceString": "火おこし研究のコツ2",
+          "LocalizedString": "火おこし研究のコツ2"
+        }
+      },
+      "NAME_EMITFIRE12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE12_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_EMITFIRE13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE13_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_EMITFIRE20": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE20_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_EMITFIRE14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE14_TextData",
+          "SourceString": "大量調理術1",
+          "LocalizedString": "大量調理術1"
+        }
+      },
+      "NAME_EMITFIRE15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE15_TextData",
+          "SourceString": "精錬の工夫1",
+          "LocalizedString": "精錬の工夫1"
+        }
+      },
+      "NAME_EMITFIRE16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE16_TextData",
+          "SourceString": "大量調理術2",
+          "LocalizedString": "大量調理術2"
+        }
+      },
+      "NAME_EMITFIRE17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE17_TextData",
+          "SourceString": "精錬の工夫2",
+          "LocalizedString": "精錬の工夫2"
+        }
+      },
+      "NAME_EMITFIRE18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_EMITFIRE18_TextData",
+          "SourceString": "聖火台の開発",
+          "LocalizedString": "聖火台の開発"
+        }
+      },
+      "DESC_EMITFIRE18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EMITFIRE18_TextData",
+          "SourceString": "テクノロジー「聖火台」の解放",
+          "LocalizedString": "テクノロジー「聖火台」の解放"
+        }
+      },
+      "NAME_WATERING1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING1_TextData",
+          "SourceString": "水やり作業研究1",
+          "LocalizedString": "水やり作業研究1"
+        }
+      },
+      "NAME_WATERING2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING2_TextData",
+          "SourceString": "水やり作業研究2",
+          "LocalizedString": "水やり作業研究2"
+        }
+      },
+      "NAME_WATERING3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING3_TextData",
+          "SourceString": "水やり作業研究3",
+          "LocalizedString": "水やり作業研究3"
+        }
+      },
+      "NAME_WATERING4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING4_TextData",
+          "SourceString": "水やり作業研究4",
+          "LocalizedString": "水やり作業研究4"
+        }
+      },
+      "NAME_WATERING5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING5_TextData",
+          "SourceString": "水やり作業研究5",
+          "LocalizedString": "水やり作業研究5"
+        }
+      },
+      "NAME_WATERING17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING17_TextData",
+          "SourceString": "水やり作業研究6",
+          "LocalizedString": "水やり作業研究6"
+        }
+      },
+      "NAME_WATERING6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING6_TextData",
+          "SourceString": "作物の知識1",
+          "LocalizedString": "作物の知識1"
+        }
+      },
+      "NAME_WATERING7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING7_TextData",
+          "SourceString": "収穫の知識1",
+          "LocalizedString": "収穫の知識1"
+        }
+      },
+      "NAME_WATERING8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING8_TextData",
+          "SourceString": "作物の知識2",
+          "LocalizedString": "作物の知識2"
+        }
+      },
+      "NAME_WATERING9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING9_TextData",
+          "SourceString": "収穫の知識2",
+          "LocalizedString": "収穫の知識2"
+        }
+      },
+      "NAME_WATERING10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING10_TextData",
+          "SourceString": "水やり研究のコツ1",
+          "LocalizedString": "水やり研究のコツ1"
+        }
+      },
+      "NAME_WATERING11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING11_TextData",
+          "SourceString": "水やり研究のコツ2",
+          "LocalizedString": "水やり研究のコツ2"
+        }
+      },
+      "NAME_WATERING12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING12_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_WATERING13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING13_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_WATERING18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING18_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_WATERING14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING14_TextData",
+          "SourceString": "パルジウム破砕術1",
+          "LocalizedString": "パルジウム破砕術1"
+        }
+      },
+      "NAME_WATERING15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING15_TextData",
+          "SourceString": "パルジウム破砕術2",
+          "LocalizedString": "パルジウム破砕術2"
+        }
+      },
+      "NAME_WATERING16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_WATERING16_TextData",
+          "SourceString": "噴水の開発",
+          "LocalizedString": "噴水の開発"
+        }
+      },
+      "DESC_WATERING16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_WATERING16_TextData",
+          "SourceString": "テクノロジー「噴水」の解放",
+          "LocalizedString": "テクノロジー「噴水」の解放"
+        }
+      },
+      "NAME_SEEDING1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING1_TextData",
+          "SourceString": "種まき作業研究1",
+          "LocalizedString": "種まき作業研究1"
+        }
+      },
+      "NAME_SEEDING2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING2_TextData",
+          "SourceString": "種まき作業研究2",
+          "LocalizedString": "種まき作業研究2"
+        }
+      },
+      "NAME_SEEDING3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING3_TextData",
+          "SourceString": "種まき作業研究3",
+          "LocalizedString": "種まき作業研究3"
+        }
+      },
+      "NAME_SEEDING4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING4_TextData",
+          "SourceString": "種まき作業研究4",
+          "LocalizedString": "種まき作業研究4"
+        }
+      },
+      "NAME_SEEDING5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING5_TextData",
+          "SourceString": "種まき作業研究5",
+          "LocalizedString": "種まき作業研究5"
+        }
+      },
+      "NAME_SEEDING18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING18_TextData",
+          "SourceString": "種まき作業研究6",
+          "LocalizedString": "種まき作業研究6"
+        }
+      },
+      "NAME_SEEDING6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING6_TextData",
+          "SourceString": "作物の知識1",
+          "LocalizedString": "作物の知識1"
+        }
+      },
+      "NAME_SEEDING7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING7_TextData",
+          "SourceString": "収穫の知識1",
+          "LocalizedString": "収穫の知識1"
+        }
+      },
+      "NAME_SEEDING8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING8_TextData",
+          "SourceString": "作物の知識2",
+          "LocalizedString": "作物の知識2"
+        }
+      },
+      "NAME_SEEDING9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING9_TextData",
+          "SourceString": "作物の知識3",
+          "LocalizedString": "作物の知識3"
+        }
+      },
+      "NAME_SEEDING10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING10_TextData",
+          "SourceString": "収穫の知識2",
+          "LocalizedString": "収穫の知識2"
+        }
+      },
+      "NAME_SEEDING11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING11_TextData",
+          "SourceString": "収穫の知識3",
+          "LocalizedString": "収穫の知識3"
+        }
+      },
+      "NAME_SEEDING12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING12_TextData",
+          "SourceString": "種まき研究のコツ1",
+          "LocalizedString": "種まき研究のコツ1"
+        }
+      },
+      "NAME_SEEDING13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING13_TextData",
+          "SourceString": "種まき研究のコツ2",
+          "LocalizedString": "種まき研究のコツ2"
+        }
+      },
+      "NAME_SEEDING14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING14_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_SEEDING15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING15_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_SEEDING19": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING19_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_SEEDING16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING16_TextData",
+          "SourceString": "花壇の開発",
+          "LocalizedString": "花壇の開発"
+        }
+      },
+      "NAME_SEEDING17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_SEEDING17_TextData",
+          "SourceString": "サイロの開発",
+          "LocalizedString": "サイロの開発"
+        }
+      },
+      "DESC_SEEDING16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_SEEDING16_TextData",
+          "SourceString": "テクノロジー「花壇」の解放",
+          "LocalizedString": "テクノロジー「花壇」の解放"
+        }
+      },
+      "DESC_SEEDING17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_SEEDING17_TextData",
+          "SourceString": "テクノロジー「サイロ」の解放",
+          "LocalizedString": "テクノロジー「サイロ」の解放"
+        }
+      },
+      "NAME_GEN_ENERGY1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY1_TextData",
+          "SourceString": "発電作業研究1",
+          "LocalizedString": "発電作業研究1"
+        }
+      },
+      "NAME_GEN_ENERGY2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY2_TextData",
+          "SourceString": "発電作業研究2",
+          "LocalizedString": "発電作業研究2"
+        }
+      },
+      "NAME_GEN_ENERGY3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY3_TextData",
+          "SourceString": "発電作業研究3",
+          "LocalizedString": "発電作業研究3"
+        }
+      },
+      "NAME_GEN_ENERGY4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY4_TextData",
+          "SourceString": "発電作業研究4",
+          "LocalizedString": "発電作業研究4"
+        }
+      },
+      "NAME_GEN_ENERGY5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY5_TextData",
+          "SourceString": "発電作業研究5",
+          "LocalizedString": "発電作業研究5"
+        }
+      },
+      "NAME_GEN_ENERGY17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY17_TextData",
+          "SourceString": "発電作業研究6",
+          "LocalizedString": "発電作業研究6"
+        }
+      },
+      "NAME_GEN_ENERGY6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY6_TextData",
+          "SourceString": "蓄電の工夫1",
+          "LocalizedString": "蓄電の工夫1"
+        }
+      },
+      "NAME_GEN_ENERGY7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY7_TextData",
+          "SourceString": "蓄電の工夫2",
+          "LocalizedString": "蓄電の工夫2"
+        }
+      },
+      "NAME_GEN_ENERGY8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY8_TextData",
+          "SourceString": "蓄電の工夫3",
+          "LocalizedString": "蓄電の工夫3"
+        }
+      },
+      "NAME_GEN_ENERGY9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY9_TextData",
+          "SourceString": "発電研究のコツ1",
+          "LocalizedString": "発電研究のコツ1"
+        }
+      },
+      "NAME_GEN_ENERGY10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY10_TextData",
+          "SourceString": "発電研究のコツ2",
+          "LocalizedString": "発電研究のコツ2"
+        }
+      },
+      "NAME_GEN_ENERGY11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY11_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_GEN_ENERGY12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY12_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_GEN_ENERGY18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY18_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_GEN_ENERGY13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY13_TextData",
+          "SourceString": "節電の極意1",
+          "LocalizedString": "節電の極意1"
+        }
+      },
+      "NAME_GEN_ENERGY14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY14_TextData",
+          "SourceString": "節電の極意2",
+          "LocalizedString": "節電の極意2"
+        }
+      },
+      "NAME_GEN_ENERGY15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY15_TextData",
+          "SourceString": "節電の極意3",
+          "LocalizedString": "節電の極意3"
+        }
+      },
+      "NAME_GEN_ENERGY16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_GEN_ENERGY16_TextData",
+          "SourceString": "送電塔の開発",
+          "LocalizedString": "送電塔の開発"
+        }
+      },
+      "DESC_GEN_ENERGY16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_GEN_ENERGY16_TextData",
+          "SourceString": "テクノロジー「送電塔」の解放",
+          "LocalizedString": "テクノロジー「送電塔」の解放"
+        }
+      },
+      "NAME_DEFOREST1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST1_TextData",
+          "SourceString": "伐採作業研究1",
+          "LocalizedString": "伐採作業研究1"
+        }
+      },
+      "NAME_DEFOREST2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST2_TextData",
+          "SourceString": "伐採作業研究2",
+          "LocalizedString": "伐採作業研究2"
+        }
+      },
+      "NAME_DEFOREST3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST3_TextData",
+          "SourceString": "伐採作業研究3",
+          "LocalizedString": "伐採作業研究3"
+        }
+      },
+      "NAME_DEFOREST4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST4_TextData",
+          "SourceString": "伐採作業研究4",
+          "LocalizedString": "伐採作業研究4"
+        }
+      },
+      "NAME_DEFOREST5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST5_TextData",
+          "SourceString": "伐採作業研究5",
+          "LocalizedString": "伐採作業研究5"
+        }
+      },
+      "NAME_DEFOREST17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST17_TextData",
+          "SourceString": "伐採作業研究6",
+          "LocalizedString": "伐採作業研究6"
+        }
+      },
+      "NAME_DEFOREST6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST6_TextData",
+          "SourceString": "時短遠征1",
+          "LocalizedString": "時短遠征1"
+        }
+      },
+      "NAME_DEFOREST7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST7_TextData",
+          "SourceString": "遠征の極意1",
+          "LocalizedString": "遠征の極意1"
+        }
+      },
+      "NAME_DEFOREST8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST8_TextData",
+          "SourceString": "時短遠征2",
+          "LocalizedString": "時短遠征2"
+        }
+      },
+      "NAME_DEFOREST9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST9_TextData",
+          "SourceString": "遠征の極意2",
+          "LocalizedString": "遠征の極意2"
+        }
+      },
+      "NAME_DEFOREST10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST10_TextData",
+          "SourceString": "時短遠征3",
+          "LocalizedString": "時短遠征3"
+        }
+      },
+      "NAME_DEFOREST11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST11_TextData",
+          "SourceString": "遠征の極意3",
+          "LocalizedString": "遠征の極意3"
+        }
+      },
+      "NAME_DEFOREST12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST12_TextData",
+          "SourceString": "伐採研究のコツ1",
+          "LocalizedString": "伐採研究のコツ1"
+        }
+      },
+      "NAME_DEFOREST13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST13_TextData",
+          "SourceString": "伐採研究のコツ2",
+          "LocalizedString": "伐採研究のコツ2"
+        }
+      },
+      "NAME_DEFOREST14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST14_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_DEFOREST15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST15_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_DEFOREST18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST18_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_DEFOREST16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_DEFOREST16_TextData",
+          "SourceString": "切り株と斧の開発",
+          "LocalizedString": "切り株と斧の開発"
+        }
+      },
+      "DESC_DEFOREST16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_DEFOREST16_TextData",
+          "SourceString": "テクノロジー「切り株と斧」の解放",
+          "LocalizedString": "テクノロジー「切り株と斧」の解放"
+        }
+      },
+      "NAME_MINING1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING1_TextData",
+          "SourceString": "採掘作業研究1",
+          "LocalizedString": "採掘作業研究1"
+        }
+      },
+      "NAME_MINING2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING2_TextData",
+          "SourceString": "採掘作業研究2",
+          "LocalizedString": "採掘作業研究2"
+        }
+      },
+      "NAME_MINING3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING3_TextData",
+          "SourceString": "採掘作業研究3",
+          "LocalizedString": "採掘作業研究3"
+        }
+      },
+      "NAME_MINING4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING4_TextData",
+          "SourceString": "採掘作業研究4",
+          "LocalizedString": "採掘作業研究4"
+        }
+      },
+      "NAME_MINING5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING5_TextData",
+          "SourceString": "採掘作業研究5",
+          "LocalizedString": "採掘作業研究5"
+        }
+      },
+      "NAME_MINING18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING18_TextData",
+          "SourceString": "採掘作業研究6",
+          "LocalizedString": "採掘作業研究6"
+        }
+      },
+      "NAME_MINING6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING6_TextData",
+          "SourceString": "時短遠征1",
+          "LocalizedString": "時短遠征1"
+        }
+      },
+      "NAME_MINING7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING7_TextData",
+          "SourceString": "遠征の極意1",
+          "LocalizedString": "遠征の極意1"
+        }
+      },
+      "NAME_MINING8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING8_TextData",
+          "SourceString": "時短遠征2",
+          "LocalizedString": "時短遠征2"
+        }
+      },
+      "NAME_MINING9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING9_TextData",
+          "SourceString": "遠征の極意2",
+          "LocalizedString": "遠征の極意2"
+        }
+      },
+      "NAME_MINING10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING10_TextData",
+          "SourceString": "採掘研究のコツ1",
+          "LocalizedString": "採掘研究のコツ1"
+        }
+      },
+      "NAME_MINING11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING11_TextData",
+          "SourceString": "採掘研究のコツ2",
+          "LocalizedString": "採掘研究のコツ2"
+        }
+      },
+      "NAME_MINING12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING12_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_MINING13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING13_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_MINING19": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING19_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_MINING14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING14_TextData",
+          "SourceString": "原油抽出の効率化1",
+          "LocalizedString": "原油抽出の効率化1"
+        }
+      },
+      "NAME_MINING15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING15_TextData",
+          "SourceString": "原油抽出の効率化2",
+          "LocalizedString": "原油抽出の効率化2"
+        }
+      },
+      "NAME_MINING16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING16_TextData",
+          "SourceString": "原油抽出の効率化3",
+          "LocalizedString": "原油抽出の効率化3"
+        }
+      },
+      "NAME_MINING17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MINING17_TextData",
+          "SourceString": "採掘ワゴンの開発",
+          "LocalizedString": "採掘ワゴンの開発"
+        }
+      },
+      "DESC_MINING17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_MINING17_TextData",
+          "SourceString": "テクノロジー「採掘ワゴン」の解放",
+          "LocalizedString": "テクノロジー「採掘ワゴン」の解放"
+        }
+      },
+      "NAME_COOL1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL1_TextData",
+          "SourceString": "冷却保存1",
+          "LocalizedString": "冷却保存1"
+        }
+      },
+      "NAME_COOL2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL2_TextData",
+          "SourceString": "冷却作業研究1",
+          "LocalizedString": "冷却作業研究1"
+        }
+      },
+      "NAME_COOL3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL3_TextData",
+          "SourceString": "冷却作業研究2",
+          "LocalizedString": "冷却作業研究2"
+        }
+      },
+      "NAME_COOL4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL4_TextData",
+          "SourceString": "冷却作業研究3",
+          "LocalizedString": "冷却作業研究3"
+        }
+      },
+      "NAME_COOL5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL5_TextData",
+          "SourceString": "冷却作業研究4",
+          "LocalizedString": "冷却作業研究4"
+        }
+      },
+      "NAME_COOL18": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL18_TextData",
+          "SourceString": "冷却作業研究5",
+          "LocalizedString": "冷却作業研究5"
+        }
+      },
+      "NAME_COOL6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL6_TextData",
+          "SourceString": "孵化促進1",
+          "LocalizedString": "孵化促進1"
+        }
+      },
+      "NAME_COOL7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL7_TextData",
+          "SourceString": "孵化促進2",
+          "LocalizedString": "孵化促進2"
+        }
+      },
+      "NAME_COOL8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL8_TextData",
+          "SourceString": "孵化促進3",
+          "LocalizedString": "孵化促進3"
+        }
+      },
+      "NAME_COOL9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL9_TextData",
+          "SourceString": "孵化促進4",
+          "LocalizedString": "孵化促進4"
+        }
+      },
+      "NAME_COOL10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL10_TextData",
+          "SourceString": "冷却研究のコツ1",
+          "LocalizedString": "冷却研究のコツ1"
+        }
+      },
+      "NAME_COOL11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL11_TextData",
+          "SourceString": "冷却研究のコツ2",
+          "LocalizedString": "冷却研究のコツ2"
+        }
+      },
+      "NAME_COOL12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL12_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_COOL13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL13_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_COOL19": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL19_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_COOL14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL14_TextData",
+          "SourceString": "冷却保存2",
+          "LocalizedString": "冷却保存2"
+        }
+      },
+      "NAME_COOL15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL15_TextData",
+          "SourceString": "冷却保存3",
+          "LocalizedString": "冷却保存3"
+        }
+      },
+      "NAME_COOL16": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL16_TextData",
+          "SourceString": "冷却保存4",
+          "LocalizedString": "冷却保存4"
+        }
+      },
+      "NAME_COOL17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_COOL17_TextData",
+          "SourceString": "雪だるまの開発",
+          "LocalizedString": "雪だるまの開発"
+        }
+      },
+      "DESC_COOL17": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_COOL17_TextData",
+          "SourceString": "テクノロジー「雪だるま」の解放",
+          "LocalizedString": "テクノロジー「雪だるま」の解放"
+        }
+      },
+      "NAME_MEDICINE1": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE1_TextData",
+          "SourceString": "製薬作業研究1",
+          "LocalizedString": "製薬作業研究1"
+        }
+      },
+      "NAME_MEDICINE2": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE2_TextData",
+          "SourceString": "製薬作業研究2",
+          "LocalizedString": "製薬作業研究2"
+        }
+      },
+      "NAME_MEDICINE3": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE3_TextData",
+          "SourceString": "製薬作業研究3",
+          "LocalizedString": "製薬作業研究3"
+        }
+      },
+      "NAME_MEDICINE4": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE4_TextData",
+          "SourceString": "製薬作業研究4",
+          "LocalizedString": "製薬作業研究4"
+        }
+      },
+      "NAME_MEDICINE5": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE5_TextData",
+          "SourceString": "製薬作業研究5",
+          "LocalizedString": "製薬作業研究5"
+        }
+      },
+      "NAME_MEDICINE14": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE14_TextData",
+          "SourceString": "製薬作業研究6",
+          "LocalizedString": "製薬作業研究6"
+        }
+      },
+      "NAME_MEDICINE6": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE6_TextData",
+          "SourceString": "製薬研究のコツ1",
+          "LocalizedString": "製薬研究のコツ1"
+        }
+      },
+      "NAME_MEDICINE7": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE7_TextData",
+          "SourceString": "製薬研究のコツ2",
+          "LocalizedString": "製薬研究のコツ2"
+        }
+      },
+      "NAME_MEDICINE8": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE8_TextData",
+          "SourceString": "拠点パル強化1",
+          "LocalizedString": "拠点パル強化1"
+        }
+      },
+      "NAME_MEDICINE9": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE9_TextData",
+          "SourceString": "拠点パル強化2",
+          "LocalizedString": "拠点パル強化2"
+        }
+      },
+      "NAME_MEDICINE15": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE15_TextData",
+          "SourceString": "拠点パル強化3",
+          "LocalizedString": "拠点パル強化3"
+        }
+      },
+      "NAME_MEDICINE10": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE10_TextData",
+          "SourceString": "製薬の節約術1",
+          "LocalizedString": "製薬の節約術1"
+        }
+      },
+      "NAME_MEDICINE11": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE11_TextData",
+          "SourceString": "製薬の節約術2",
+          "LocalizedString": "製薬の節約術2"
+        }
+      },
+      "NAME_MEDICINE12": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE12_TextData",
+          "SourceString": "製薬の節約術3",
+          "LocalizedString": "製薬の節約術3"
+        }
+      },
+      "NAME_MEDICINE13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "NAME_MEDICINE13_TextData",
+          "SourceString": "魔女の鍋の開発",
+          "LocalizedString": "魔女の鍋の開発"
+        }
+      },
+      "DESC_MEDICINE13": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_MEDICINE13_TextData",
+          "SourceString": "テクノロジー「魔女の鍋」の解放",
+          "LocalizedString": "テクノロジー「魔女の鍋」の解放"
+        }
+      },
+      "DESC_EFFECT_CraftSpeed": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_CraftSpeed_TextData",
+          "SourceString": "{WorkSuitability}の作業速度 {EffectValue}%",
+          "LocalizedString": "{WorkSuitability}の作業速度 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ProductExtraItemProbability": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ProductExtraItemProbability_TextData",
+          "SourceString": "{ItemType}の追加クラフト確率 {EffectValue}%",
+          "LocalizedString": "{ItemType}の追加クラフト確率 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_PalEggHatchingSpeed": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_PalEggHatchingSpeed_TextData",
+          "SourceString": "タマゴの孵化速度 {EffectValue}%",
+          "LocalizedString": "タマゴの孵化速度 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_FarmCropHarvestNumRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_FarmCropHarvestNumRate_TextData",
+          "SourceString": "農園の収穫量 {EffectValue}%",
+          "LocalizedString": "農園の収穫量 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_EnergyStorageRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_EnergyStorageRate_TextData",
+          "SourceString": "蓄電量 {EffectValue}%",
+          "LocalizedString": "蓄電量 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ConsumeEnergyRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ConsumeEnergyRate_TextData",
+          "SourceString": "消費電力量 {EffectValue}%",
+          "LocalizedString": "消費電力量 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_AttackRateBaseCampWorker": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_AttackRateBaseCampWorker_TextData",
+          "SourceString": "拠点パルの攻撃力 {EffectValue}%",
+          "LocalizedString": "拠点パルの攻撃力 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_DefenseRateBaseCampWorker": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_DefenseRateBaseCampWorker_TextData",
+          "SourceString": "拠点パルの防御力 {EffectValue}%",
+          "LocalizedString": "拠点パルの防御力 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_OilExtractionSpeedRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_OilExtractionSpeedRate_TextData",
+          "SourceString": "原油抽出速度 {EffectValue}%",
+          "LocalizedString": "原油抽出速度 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ItemCorruptionSpeedRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ItemCorruptionSpeedRate_TextData",
+          "SourceString": "アイテム腐敗速度 {EffectValue}%",
+          "LocalizedString": "アイテム腐敗速度 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ExpeditionTimeCostRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ExpeditionTimeCostRate_TextData",
+          "SourceString": "遠征時間 {EffectValue}%",
+          "LocalizedString": "遠征時間 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ExpeditionRewardRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ExpeditionRewardRate_TextData",
+          "SourceString": "遠征報酬 {EffectValue}%",
+          "LocalizedString": "遠征報酬 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_LabResearchSpeed": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_LabResearchSpeed_TextData",
+          "SourceString": "{WorkSuitability}の研究速度 {EffectValue}%",
+          "LocalizedString": "{WorkSuitability}の研究速度 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_ProductItemConsumeMaterialNumRate": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_ProductItemConsumeMaterialNumRate_TextData",
+          "SourceString": "{ItemType}の生産に必要な素材 {EffectValue}%",
+          "LocalizedString": "{ItemType}の生産に必要な素材 {EffectValue}%"
+        }
+      },
+      "DESC_EFFECT_FarmCropGrowupSpeed": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "DESC_EFFECT_FarmCropGrowupSpeed_TextData",
+          "SourceString": "農園の作物の成長速度 {EffectValue}%",
+          "LocalizedString": "農園の作物の成長速度 {EffectValue}%"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Bullet": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Bullet_TextData",
+          "SourceString": "弾薬",
+          "LocalizedString": "弾薬"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Dish": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Dish_TextData",
+          "SourceString": "料理",
+          "LocalizedString": "料理"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Ingot": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Ingot_TextData",
+          "SourceString": "インゴット",
+          "LocalizedString": "インゴット"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Ore": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Ore_TextData",
+          "SourceString": "鉱石",
+          "LocalizedString": "鉱石"
+        }
+      },
+      "EFFECT_OPTION_ITEM_CaptureBall": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_CaptureBall_TextData",
+          "SourceString": "スフィア",
+          "LocalizedString": "スフィア"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Glider": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Glider_TextData",
+          "SourceString": "グライダー",
+          "LocalizedString": "グライダー"
+        }
+      },
+      "EFFECT_OPTION_ITEM_ArmorBody": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_ArmorBody_TextData",
+          "SourceString": "防具",
+          "LocalizedString": "防具"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Weapon": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Weapon_TextData",
+          "SourceString": "武器",
+          "LocalizedString": "武器"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Medicine": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Medicine_TextData",
+          "SourceString": "薬",
+          "LocalizedString": "薬"
+        }
+      },
+      "EFFECT_OPTION_ITEM_Shield": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_Shield_TextData",
+          "SourceString": "シールド",
+          "LocalizedString": "シールド"
+        }
+      },
+      "EFFECT_OPTION_ITEM_PalGear": {
+        "TextData": {
+          "Namespace": "DT_LabResearchText",
+          "Key": "EFFECT_OPTION_ITEM_PalGear_TextData",
+          "SourceString": "パルギア",
+          "LocalizedString": "パルギア"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ArenaUnusableItemTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Arena/DT_ArenaUnusableItemTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalArenaUnusableItemRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "HomingSphereLauncher": {
+        "ItemId": "HomingSphereLauncher"
+      },
+      "SphereLauncher_Once": {
+        "ItemId": "SphereLauncher_Once"
+      },
+      "SphereLauncher": {
+        "ItemId": "SphereLauncher"
+      },
+      "PalDopingShot": {
+        "ItemId": "PalDopingShot"
+      },
+      "PalDopingShot_2": {
+        "ItemId": "PalDopingShot_2"
+      },
+      "PalDopingShot_3": {
+        "ItemId": "PalDopingShot_3"
+      },
+      "PalHealingGrenade": {
+        "ItemId": "PalHealingGrenade"
+      }
+    }
+  }
+]

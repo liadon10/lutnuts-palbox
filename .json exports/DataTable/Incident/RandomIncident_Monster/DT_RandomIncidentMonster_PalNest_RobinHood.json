@@ -1,0 +1,207 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentMonster_PalNest_RobinHood",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_Monster/DT_RandomIncidentMonster_PalNest_RobinHood",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnMonsterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MONSTER0": {
+        "CharacterID": {
+          "Key": "BOSS_RobinHood"
+        },
+        "Level": 30,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": -1500.0
+        },
+        "SpawnRadius": 1000.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 25,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 1000.0
+        },
+        "SpawnRadius": 600.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_0": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 25,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 1200.0
+        },
+        "SpawnRadius": 100.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_1": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 26,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 2000.0
+        },
+        "SpawnRadius": 900.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_2": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 27,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 1500.0
+        },
+        "SpawnRadius": 1000.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_3": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 27,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": -1200.0
+        },
+        "SpawnRadius": 700.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_4": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 28,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": -900.0
+        },
+        "SpawnRadius": 400.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_5": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 28,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": -2000.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_6": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 25,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": -200.0
+        },
+        "SpawnRadius": 500.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER1_7": {
+        "CharacterID": {
+          "Key": "RobinHood"
+        },
+        "Level": 26,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 200.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      }
+    }
+  }
+]

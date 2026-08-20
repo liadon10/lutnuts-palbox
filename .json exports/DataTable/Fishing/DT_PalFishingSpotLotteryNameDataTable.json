@@ -1,0 +1,362 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFishingSpotLotteryNameDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Fishing/DT_PalFishingSpotLotteryNameDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishingSpotLotteryNameDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Spot_Test": {
+        "RespawnTime": 60.0
+      },
+      "Spot_01": {
+        "RespawnTime": 60.0
+      },
+      "ShadowCheck01": {
+        "RespawnTime": 60.0
+      },
+      "ShadowCheck02": {
+        "RespawnTime": 60.0
+      },
+      "ShadowCheck03": {
+        "RespawnTime": 60.0
+      },
+      "ShadowCheck04": {
+        "RespawnTime": 60.0
+      },
+      "ShadowCheck05": {
+        "RespawnTime": 60.0
+      },
+      "FishingSpot_A_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_A_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_B_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_B_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_B_Start_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_B_Start_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_C_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_C_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_D_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_D_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_D_Start_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_D_Start_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FisihingSpot_D_SnowMountain_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_E_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_E_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_F_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_F_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_G_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_G_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_H_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_H_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_I_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_I_Red_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_I_Red_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_I_Blue_Ocean_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_I_Blue_River_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_A_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_A_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_B_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_B_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_B_Start_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_B_Start_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_C_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_C_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_D_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_D_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_D_Start_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_D_Start_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FisihingSpot_D_SnowMountain_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_E_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_E_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_F_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_F_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_G_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_G_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_H_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_H_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Red_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Red_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Blue_Ocean_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Blue_River_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_A_Oilrig_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_D_Oilrig_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_I_Oilrig_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Sanctuary_Grass_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Sanctuary_Dessert_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Sanctuary_Volcano_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Dungeon_Forest_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Dungeon_Desert_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Dungeon_Snow_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Dungeon_Sakurajima_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Dungeon_DarkIsland_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Dungeon_DarkIsland_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Dungeon_Forest_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Dungeon_Desert_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Dungeon_Snow_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Dungeon_Sakurajima_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Ice_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Ice_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_C_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Shipwreck_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Shipwreck_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Ice_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Ice_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_C_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Shipwreck_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Shipwreck_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_A_mini_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_B_mini_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_C_mini_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Tropical_A_mini_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_B_mini_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Tropical_C_mini_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_SkyIsland_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_SkyIsland_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_WorldTree_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_WorldTree_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_WorldTree_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_WorldTree_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Desert_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Desert_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Desert_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Desert_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Desert_C_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Desert_C_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Volcano_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Volcano_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Volcano_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Volcano_B_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Ancient_A_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Ancient_A_Rare": {
+        "RespawnTime": 3600.0
+      },
+      "FishingSpot_Island_Ancient_B_Common": {
+        "RespawnTime": 900.0
+      },
+      "FishingSpot_Island_Ancient_B_Rare": {
+        "RespawnTime": 3600.0
+      }
+    }
+  }
+]

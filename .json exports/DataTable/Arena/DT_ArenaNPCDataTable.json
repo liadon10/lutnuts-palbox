@@ -1,0 +1,417 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ArenaNPCDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Arena/DT_ArenaNPCDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalArenaNPCData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Ranking1": {
+        "NameTextID": "NAME_DarkTrader",
+        "RankPoint": 5000
+      },
+      "Ranking2": {
+        "NameTextID": "NAME_Female_Presenter01",
+        "RankPoint": 4950
+      },
+      "Ranking3": {
+        "NameTextID": "NAME_PalPassive_Doctor",
+        "RankPoint": 4900
+      },
+      "Ranking4": {
+        "NameTextID": "NAME_BattlePaltamer006",
+        "RankPoint": 4850
+      },
+      "Ranking5": {
+        "NameTextID": "NAME_MedalTrader",
+        "RankPoint": 4800
+      },
+      "Ranking6": {
+        "NameTextID": "NAME_Male_Soldier02_Invader",
+        "RankPoint": 4750
+      },
+      "Ranking7": {
+        "NameTextID": "NAME_Ninja_2",
+        "RankPoint": 4700
+      },
+      "Ranking8": {
+        "NameTextID": "NAME_Viking_Elite",
+        "RankPoint": 4650
+      },
+      "Ranking9": {
+        "NameTextID": "NAME_QUEST_SCHOLAR01",
+        "RankPoint": 4600
+      },
+      "Ranking10": {
+        "NameTextID": "NAME_Reward_BossDefeat",
+        "RankPoint": 4550
+      },
+      "Ranking11": {
+        "NameTextID": "PvPVillage002",
+        "RankPoint": 4500
+      },
+      "Ranking12": {
+        "NameTextID": "NAME_BattlePaltamer006",
+        "RankPoint": 4450
+      },
+      "Ranking13": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 4400
+      },
+      "Ranking14": {
+        "NameTextID": "PvPVillage003",
+        "RankPoint": 4350
+      },
+      "Ranking15": {
+        "NameTextID": "NAME_BattlePaltamer006",
+        "RankPoint": 4300
+      },
+      "Ranking16": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 4250
+      },
+      "Ranking17": {
+        "NameTextID": "NAME_Reward_PalCaptureCount",
+        "RankPoint": 4200
+      },
+      "Ranking18": {
+        "NameTextID": "NAME_BattlePaltamer006",
+        "RankPoint": 4150
+      },
+      "Ranking19": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 4100
+      },
+      "Ranking20": {
+        "NameTextID": "SKILLED_PALTAMIER",
+        "RankPoint": 4050
+      },
+      "Ranking21": {
+        "NameTextID": "NAME_Female_Soldier03_Invader",
+        "RankPoint": 4000
+      },
+      "Ranking22": {
+        "NameTextID": "NAME_Female_Soldier03_Invader",
+        "RankPoint": 3950
+      },
+      "Ranking23": {
+        "NameTextID": "Head_of_Village",
+        "RankPoint": 3900
+      },
+      "Ranking24": {
+        "NameTextID": "NAME_BattlePaltamer006",
+        "RankPoint": 3850
+      },
+      "Ranking25": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 3800
+      },
+      "Ranking26": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 3750
+      },
+      "Ranking27": {
+        "NameTextID": "NAME_Solider",
+        "RankPoint": 3700
+      },
+      "Ranking28": {
+        "NameTextID": "NAME_HUNTER_BOSS",
+        "RankPoint": 3650
+      },
+      "Ranking29": {
+        "NameTextID": "NAME_Viking",
+        "RankPoint": 3600
+      },
+      "Ranking30": {
+        "NameTextID": "NAME_Ninja",
+        "RankPoint": 3550
+      },
+      "Ranking31": {
+        "NameTextID": "NAME_Labmen",
+        "RankPoint": 3500
+      },
+      "Ranking32": {
+        "NameTextID": "NAME_FireCult",
+        "RankPoint": 3450
+      },
+      "Ranking33": {
+        "NameTextID": "NAME_QUEST_RANGER04",
+        "RankPoint": 3400
+      },
+      "Ranking34": {
+        "NameTextID": "NAME_Reward_Emote",
+        "RankPoint": 3350
+      },
+      "Ranking35": {
+        "NameTextID": "NAME_Reward_Paldex",
+        "RankPoint": 3300
+      },
+      "Ranking36": {
+        "NameTextID": "NAME_Recruiter",
+        "RankPoint": 3250
+      },
+      "Ranking37": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 3200
+      },
+      "Ranking38": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 3150
+      },
+      "Ranking39": {
+        "NameTextID": "NAME_CaravanLeader01",
+        "RankPoint": 3100
+      },
+      "Ranking40": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 3050
+      },
+      "Ranking41": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 3000
+      },
+      "Ranking42": {
+        "NameTextID": "NAME_PAL_DEALER",
+        "RankPoint": 2950
+      },
+      "Ranking43": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 2900
+      },
+      "Ranking44": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2850
+      },
+      "Ranking45": {
+        "NameTextID": "InnkeeperA",
+        "RankPoint": 2800
+      },
+      "Ranking46": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 2750
+      },
+      "Ranking47": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2700
+      },
+      "Ranking48": {
+        "NameTextID": "Yamishima_guide5",
+        "RankPoint": 2650
+      },
+      "Ranking49": {
+        "NameTextID": "NAME_BattlePaltamer005",
+        "RankPoint": 2600
+      },
+      "Ranking50": {
+        "NameTextID": "NAME_HUNTER_7",
+        "RankPoint": 2550
+      },
+      "Ranking51": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2500
+      },
+      "Ranking52": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 2450
+      },
+      "Ranking53": {
+        "NameTextID": "NAME_HUNTER_6",
+        "RankPoint": 2400
+      },
+      "Ranking54": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2350
+      },
+      "Ranking55": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 2300
+      },
+      "Ranking56": {
+        "NameTextID": "NAME_HUNTER_9",
+        "RankPoint": 2250
+      },
+      "Ranking57": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2200
+      },
+      "Ranking58": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 2150
+      },
+      "Ranking59": {
+        "NameTextID": "NAME_HUNTER_6",
+        "RankPoint": 2100
+      },
+      "Ranking60": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 2050
+      },
+      "Ranking61": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 2000
+      },
+      "Ranking62": {
+        "NameTextID": "NAME_HUNTER_5",
+        "RankPoint": 1950
+      },
+      "Ranking63": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 1900
+      },
+      "Ranking64": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1850
+      },
+      "Ranking65": {
+        "NameTextID": "NAME_HUNTER_9",
+        "RankPoint": 1800
+      },
+      "Ranking66": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 1750
+      },
+      "Ranking67": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1700
+      },
+      "Ranking68": {
+        "NameTextID": "NAME_HUNTER_6",
+        "RankPoint": 1650
+      },
+      "Ranking69": {
+        "NameTextID": "NAME_BattlePaltamer004",
+        "RankPoint": 1600
+      },
+      "Ranking70": {
+        "NameTextID": "NAME_HUNTER_5",
+        "RankPoint": 1550
+      },
+      "Ranking71": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1500
+      },
+      "Ranking72": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 1450
+      },
+      "Ranking73": {
+        "NameTextID": "NAME_HUNTER_3",
+        "RankPoint": 1400
+      },
+      "Ranking74": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1350
+      },
+      "Ranking75": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 1300
+      },
+      "Ranking76": {
+        "NameTextID": "NAME_HUNTER_4",
+        "RankPoint": 1250
+      },
+      "Ranking77": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1200
+      },
+      "Ranking78": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 1150
+      },
+      "Ranking79": {
+        "NameTextID": "NAME_HUNTER_3",
+        "RankPoint": 1100
+      },
+      "Ranking80": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 1050
+      },
+      "Ranking81": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 1000
+      },
+      "Ranking82": {
+        "NameTextID": "NAME_HUNTER_4",
+        "RankPoint": 950
+      },
+      "Ranking83": {
+        "NameTextID": "NAME_BattlePaltamer003",
+        "RankPoint": 900
+      },
+      "Ranking84": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 850
+      },
+      "Ranking85": {
+        "NameTextID": "NAME_HUNTER_3",
+        "RankPoint": 800
+      },
+      "Ranking86": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 750
+      },
+      "Ranking87": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 700
+      },
+      "Ranking88": {
+        "NameTextID": "NAME_HUNTER_2",
+        "RankPoint": 650
+      },
+      "Ranking89": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 600
+      },
+      "Ranking90": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 550
+      },
+      "Ranking91": {
+        "NameTextID": "NAME_HUNTER_11",
+        "RankPoint": 500
+      },
+      "Ranking92": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 450
+      },
+      "Ranking93": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 400
+      },
+      "Ranking94": {
+        "NameTextID": "NAME_HUNTER_2",
+        "RankPoint": 350
+      },
+      "Ranking95": {
+        "NameTextID": "NAME_BattlePaltamer002",
+        "RankPoint": 300
+      },
+      "Ranking96": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 250
+      },
+      "Ranking97": {
+        "NameTextID": "NAME_HUNTER_10",
+        "RankPoint": 200
+      },
+      "Ranking98": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 150
+      },
+      "Ranking99": {
+        "NameTextID": "NAME_HUNTER",
+        "RankPoint": 100
+      },
+      "Ranking100": {
+        "NameTextID": "NAME_BattlePaltamer001",
+        "RankPoint": 50
+      }
+    }
+  }
+]

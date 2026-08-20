@@ -1,0 +1,2457 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFirstActivatedInfoText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_PalFirstActivatedInfoText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_FIRST_SPAWN_DESC_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Alpaca_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<characterName id=|KingAlpaca|/>の防御力と移動速度が上がる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<characterName id=|KingAlpaca|/>の防御力と移動速度が上がる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態を無効にする。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態を無効にする。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Anubis_TextData",
+          "SourceString": "発動すると、<characterName id=|Anubis|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。\r\n戦闘中、たまに高速ステップで攻撃を回避する。",
+          "LocalizedString": "発動すると、<characterName id=|Anubis|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。\r\n戦闘中、たまに高速ステップで攻撃を回避する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Baphomet_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Baphomet_SwallowKite| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Baphomet_Dark_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Baphomet_Dark_DarkKite| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Bastet_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Money| style=|Status_Keyword|/>を掘り出すことがある。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Money| style=|Status_Keyword|/>を掘り出すことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Bastet_Ice_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Iceorgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Iceorgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BeardedDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BerryGoat_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、背中から<itemName id=|Berries| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、5分に1回、満腹度が最も低いパルの満腹度を<Status_Up>{Passive1_EffectValue1}</>回復する。（重複不可）",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、背中から<itemName id=|Berries| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、5分に1回、満腹度が最も低いパルの満腹度を<Status_Up>{Passive1_EffectValue1}</>回復する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BirdDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーが敵の弱点部位へ攻撃した際のダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーが敵の弱点部位へ攻撃した際のダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BirdDragon_Ice_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーが敵の弱点部位へ攻撃した際のダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーが敵の弱点部位へ攻撃した際のダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackCentaur_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になり、<activeSkillName id=|Unique_BlackCentaur_TwoSpearRushes| style=|Status_Keyword|/>を発動すると、手持ちの<characterName id=|SaintCentaur|/>が1体出現して一緒に攻撃する。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になり、<activeSkillName id=|Unique_BlackCentaur_TwoSpearRushes| style=|Status_Keyword|/>を発動すると、手持ちの<characterName id=|SaintCentaur|/>が1体出現して一緒に攻撃する。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackFurDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackGriffon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の攻撃が<Status_Up>{Passive1_EffectValue1}%</>強化される。\r\n空を飛んでいる間、移動速度が上昇する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の攻撃が<Status_Up>{Passive1_EffectValue1}%</>強化される。\r\n空を飛んでいる間、移動速度が上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackMetalDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、鉱石に対して与えるダメージが<Status_Up>{Passive1_EffectValue1}%</>増え、<itemName id=|CopperOre| style=|Status_Keyword|/>が<Status_Up>{Passive2_EffectValue1}%</>多く獲得できる。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、鉱石に対して与えるダメージが<Status_Up>{Passive1_EffectValue1}%</>増え、<itemName id=|CopperOre| style=|Status_Keyword|/>が<Status_Up>{Passive2_EffectValue1}%</>多く獲得できる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueDragon_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BluePlatypus_TextData",
+          "SourceString": "発動すると、<characterName id=|BluePlatypus|/>が敵に向かってボディサーフィンをしながら突っ込む。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<characterName id=|BluePlatypus|/>が敵に向かってボディサーフィンをしながら突っ込む。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Boar": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Boar_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中は、岩を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中は、岩を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BrownRabbit_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーはダッシュ中に<Status_Up>{Passive1_EffectValue1}%</>の防御力増加を得る。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーはダッシュ中に<Status_Up>{Passive1_EffectValue1}%</>の防御力増加を得る。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Carbunclo_TextData",
+          "SourceString": "発動するとプレイヤーの頭の上に乗り、攻撃にあわせてサブマシンガンで追撃を行う。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動するとプレイヤーの頭の上に乗り、攻撃にあわせてサブマシンガンで追撃を行う。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatBat_TextData",
+          "SourceString": "発動すると、超音波の力で近くにある<Status_Keyword>ダンジョンと宝箱とガラクタの場所</>を探知できる。\r\n{ReferenceMsgId_SearchAreaCoolTime}",
+          "LocalizedString": "発動すると、超音波の力で近くにある<Status_Keyword>ダンジョンと宝箱とガラクタの場所</>を探知できる。\r\n{ReferenceMsgId_SearchAreaCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatMage_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。\r\nまた、パルスフィアを投げたときに、<Status_Up>{Passive2_EffectValue1}%</>の確率でパルスフィアを消費しない。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。\r\nまた、パルスフィアを投げたときに、<Status_Up>{Passive2_EffectValue1}%</>の確率でパルスフィアを消費しない。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatVampire_TextData",
+          "SourceString": "一緒に戦っている間、与えたダメージの<Status_Up>{Passive1_EffectValue1}%</>を吸収し、<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/><Status_Keyword>を回復する</>ライフスティール効果を、プレイヤーと<characterName id=|CatVampire|/>に付与する。",
+          "LocalizedString": "一緒に戦っている間、与えたダメージの<Status_Up>{Passive1_EffectValue1}%</>を吸収し、<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/><Status_Keyword>を回復する</>ライフスティール効果を、プレイヤーと<characterName id=|CatVampire|/>に付与する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ChickenPal_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Egg| style=|Status_Keyword|/>を産むことがある。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Egg| style=|Status_Keyword|/>を産むことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ColorfulBird_TextData",
+          "SourceString": "発動すると、プレイヤーに装備され、爆発する卵を生むランチャーと化す。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、プレイヤーに装備され、爆発する卵を生むランチャーと化す。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CowPal_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Milk| style=|Status_Keyword|/>を出すことがある。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Milk| style=|Status_Keyword|/>を出すことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteButterfly_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|PoisonFog| style=|Status_Keyword|/>で攻撃する。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|PoisonFog| style=|Status_Keyword|/>で攻撃する。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteFox_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、地面からアイテムを掘り出すことがある。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、地面からアイテムを掘り出すことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CuteMole_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが採掘するときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加し、<itemName id=|Stone| style=|Status_Keyword|/>の重量を<Status_Up>{Passive2_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが採掘するときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加し、<itemName id=|Stone| style=|Status_Keyword|/>の重量を<Status_Up>{Passive2_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkCrow_TextData",
+          "SourceString": "発動すると、暗い場所でも見える<Status_Keyword>暗視</>が有効になる。\r\n再度発動すると解除される。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Bone| style=|Status_Keyword|/>を掘り出すことがある。",
+          "LocalizedString": "発動すると、暗い場所でも見える<Status_Keyword>暗視</>が有効になる。\r\n再度発動すると解除される。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Bone| style=|Status_Keyword|/>を掘り出すことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkMutant_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkScorpion_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの防御力が<Status_Up>{Passive2_EffectValue1}%</>増加し、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの防御力が<Status_Up>{Passive2_EffectValue1}%</>増加し、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Deer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Deer_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中は<Status_Keyword>2段ジャンプ</>が可能になり、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中は<Status_Keyword>2段ジャンプ</>が可能になり、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Deer_Ground_TextData",
+          "SourceString": "背中に乗って移動でき、ライド中は<Status_Keyword>2段ジャンプ</>が可能になる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Deforest| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "背中に乗って移動でき、ライド中は<Status_Keyword>2段ジャンプ</>が可能になる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Deforest| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DreamDemon_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の魔弾で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の魔弾で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DrillGame_TextData",
+          "SourceString": "発動すると、<activeSkillName id=|Unique_DrillGame_ShellAttack| style=|Status_Keyword|/>状態になる。\r\n回転しながらプレイヤーに追随し、鉱石を壊す効率が<Status_Up>{ReferencePassive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "発動すると、<activeSkillName id=|Unique_DrillGame_ShellAttack| style=|Status_Keyword|/>状態になる。\r\n回転しながらプレイヤーに追随し、鉱石を壊す効率が<Status_Up>{ReferencePassive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Eagle_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライドが高速になり、右手で銃を撃つことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライドが高速になり、右手で銃を撃つことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecCat_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|ElectricOrgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|ElectricOrgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecLion_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecPanda_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、ミニガンを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、ミニガンを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FairyDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n空を飛んでいる間、移動速度が上昇する。\r\n手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n空を飛んでいる間、移動速度が上昇する。\r\n手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FairyDragon_Water_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n空を飛んでいる間、移動速度が上昇する。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n空を飛んでいる間、移動速度が上昇する。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FeatherOstrich_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n<Status_Keyword>砂の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\n<Status_Keyword>砂の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FengyunDeeper_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FireKirin_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlameBuffalo_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>寒さ耐性</>が<Status_Keyword>+2</>される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>寒さ耐性</>が<Status_Keyword>+2</>される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDinosaur_Electric_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDoll_TextData",
+          "SourceString": "発動すると、花の癒しの力でプレイヤーのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Seeding| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "発動すると、花の癒しの力でプレイヤーのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Seeding| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerRabbit_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わり、プレイヤーの<Status_Keyword>落下ダメージを無効</>にする。\r\nグライド中は、長時間素早く移動することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わり、プレイヤーの<Status_Keyword>落下ダメージを無効</>にする。\r\nグライド中は、長時間素早く移動することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxMage_TextData",
+          "SourceString": "発動すると、<characterName id=|FoxMage|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|FoxMage|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ganesha_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーのHPが30%以下になったらHPが<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）\r\n※発動後、再発動に{ReferencePassive1_EffectValue1}秒のクールタイムが必要",
+          "LocalizedString": "手持ちにいる間、プレイヤーのHPが30%以下になったらHPが<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）\r\n※発動後、再発動に{ReferencePassive1_EffectValue1}秒のクールタイムが必要"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Garm": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Garm_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド時の移動速度が少し速いのが特徴。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド時の移動速度が少し速いのが特徴。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostBeast_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、敵を倒すたびに、全ての手持ちパルのアクティブスキルのクールタイムが<Status_Up>{Passive1_EffectValue1}%</>短縮される。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、敵を倒すたびに、全ての手持ちパルのアクティブスキルのクールタイムが<Status_Up>{Passive1_EffectValue1}%</>短縮される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Gorilla_TextData",
+          "SourceString": "発動すると野性の力を解放し、一定時間<characterName id=|Gorilla|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると野性の力を解放し、一定時間<characterName id=|Gorilla|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がり、鉱石を壊す効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がり、鉱石を壊す効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMammoth_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がり、鉱石を壊す効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、木を壊す効率が<Status_Up>{Passive1_EffectValue1}%</>上がり、鉱石を壊す効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、グレネードランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、グレネードランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassPanda_Electric_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、グレネードランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、グレネードランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassRabbitMan_TextData",
+          "SourceString": "手持ちにいる間、追加で<Status_Keyword>+{Passive1_EffectValue1}回</>のジャンプと<Status_Keyword>+{Passive1_EffectValue2}回</>の空中ダッシュが可能になる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、追加で<Status_Keyword>+{Passive1_EffectValue1}回</>のジャンプと<Status_Keyword>+{Passive1_EffectValue2}回</>の空中ダッシュが可能になる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GuardianDog_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n一緒に戦っている間、このパルと同じパッシブスキルを持ったパルに遭遇する確率が<Status_Up>{Passive1_EffectValue1}%</>上がる。\r\n※一部のパッシブスキルを除く",
+          "LocalizedString": "背中に乗って移動できる。\r\n一緒に戦っている間、このパルと同じパッシブスキルを持ったパルに遭遇する確率が<Status_Up>{Passive1_EffectValue1}%</>上がる。\r\n※一部のパッシブスキルを除く"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HadesBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HawkBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Hedgehog_TextData",
+          "SourceString": "発動すると、<characterName id=|Hedgehog|/>が手に装備され、敵に投げつけると着弾時に<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>の爆発を起こす。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<characterName id=|Hedgehog|/>が手に装備され、敵に投げつけると着弾時に<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>の爆発を起こす。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Hedgehog_Ice_TextData",
+          "SourceString": "発動すると、<characterName id=|Hedgehog_Ice|/>が手に装備され、敵に投げつけると着弾時に<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>の爆発を起こす。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<characterName id=|Hedgehog_Ice|/>が手に装備され、敵に投げつけると着弾時に<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>の爆発を起こす。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近接攻撃が<Status_Up>{Passive1_EffectValue1}秒</>以内に5発ヒットすると、プレイヤーの周囲に<Status_Keyword>バリアを生成</>する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近接攻撃が<Status_Up>{Passive1_EffectValue1}秒</>以内に5発ヒットすると、プレイヤーの周囲に<Status_Keyword>バリアを生成</>する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Horus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Horus_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceDeer_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>暑さ耐性</>が<Status_Keyword>+2</>される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>暑さ耐性</>が<Status_Keyword>+2</>される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceFox_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|IceOrgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|IceOrgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇し、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/>の状態異常値が<Status_Up>{Passive3_EffectValue1}</>付与される。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇し、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Elem_Ice|/>の状態異常値が<Status_Up>{Passive3_EffectValue1}</>付与される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceHorse_Dark_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇し、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>の状態異常値が<Status_Up>{Passive3_EffectValue1}</>付与される。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇し、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>の状態異常値が<Status_Up>{Passive3_EffectValue1}</>付与される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JetDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kelpie_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalFluid| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalFluid| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kelpie_Fire_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingAlpaca_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nこのパルの防御力と移動速度は、手持ちにいる<characterName id=|Alpaca| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nこのパルの防御力と移動速度は、手持ちにいる<characterName id=|Alpaca| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingAlpaca_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nこのパルの防御力と移動速度は、手持ちにいる<characterName id=|Alpaca| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nこのパルの防御力と移動速度は、手持ちにいる<characterName id=|Alpaca| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、敵を倒すと一緒に戦っているパルの攻撃力と防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。\r\nこの効果は20秒続き、最大5までスタックする。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、敵を倒すと一緒に戦っているパルの攻撃力と防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。\r\nこの効果は20秒続き、最大5までスタックする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kirin_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kitsunebi_TextData",
+          "SourceString": "発動すると、プレイヤーに装備され、火炎放射器と化す。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、プレイヤーに装備され、火炎放射器と化す。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyDragon_Electric_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、ミサイルランチャーを連射できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LilyQueen_TextData",
+          "SourceString": "発動すると、女王の癒しの力でプレイヤーと手持ちパルのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。",
+          "LocalizedString": "発動すると、女王の癒しの力でプレイヤーと手持ちパルのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LilyQueen_Dark_TextData",
+          "SourceString": "発動すると、女王の癒しの力でプレイヤーと手持ちパルのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。",
+          "LocalizedString": "発動すると、女王の癒しの力でプレイヤーと手持ちパルのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LittleBriarRose_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LizardMan_TextData",
+          "SourceString": "発動すると<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒間、<characterName id=|LizardMan|/>とプレイヤーが<Status_Keyword>透明</>になり、敵の視界に映らなくなる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "発動すると<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒間、<characterName id=|LizardMan|/>とプレイヤーが<Status_Keyword>透明</>になり、敵の視界に映らなくなる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LizardMan_Fire_TextData",
+          "SourceString": "発動すると<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒間、<characterName id=|LizardMan_Fire|/>とプレイヤーが<Status_Keyword>透明</>になり、敵の視界に映らなくなる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "発動すると<Status_Up>{ActiveSkillOverWriteEffectTime}</>秒間、<characterName id=|LizardMan_Fire|/>とプレイヤーが<Status_Keyword>透明</>になり、敵の視界に映らなくなる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Manticore_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Manticore_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Monkey_TextData",
+          "SourceString": "発動すると、一定時間<characterName id=|Monkey|/>が付近の敵にアサルトライフルを撃ちまくる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、一定時間<characterName id=|Monkey|/>が付近の敵にアサルトライフルを撃ちまくる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MopBaby_TextData",
+          "SourceString": "手持ちにいる間、<characterName id=|MopKing| style=|Status_Keyword|/>の防御力と攻撃力が上がる。",
+          "LocalizedString": "手持ちにいる間、<characterName id=|MopKing| style=|Status_Keyword|/>の防御力と攻撃力が上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MopKing_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nこのパルの防御力と攻撃力は、手持ちにいる<characterName id=|MopBaby| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nこのパルの防御力と攻撃力は、手持ちにいる<characterName id=|MopBaby| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Mutant_TextData",
+          "SourceString": "手持ちにいる間、スフィアがパルを<Status_Keyword>ホーミング</>するようになり、所持重量上限が<Status_Up>{Passive1_EffectValue1}</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、スフィアがパルを<Status_Keyword>ホーミング</>するようになり、所持重量上限が<Status_Up>{Passive1_EffectValue1}</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NaughtyCat_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>パルのタマゴ</>を拾ったときに、<Status_Up>{Passive1_EffectValue1}%</>の確率でもう1個拾うことがある。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>パルのタマゴ</>を拾ったときに、<Status_Up>{Passive1_EffectValue1}%</>の確率でもう1個拾うことがある。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeKoala_TextData",
+          "SourceString": "発動すると、<characterName id=|NegativeKoala|/>がエナジードリンクを一気飲みしたせいで<characterName id=|NegativeKoala|/>の移動速度と作業速度が<Status_Up>{ReferencePassive1_EffectValue1}%</>上昇する。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Venom| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "発動すると、<characterName id=|NegativeKoala|/>がエナジードリンクを一気飲みしたせいで<characterName id=|NegativeKoala|/>の移動速度と作業速度が<Status_Up>{ReferencePassive1_EffectValue1}%</>上昇する。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Venom| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeOctopus_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ふわふわと長時間浮くことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ふわふわと長時間浮くことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightFox_TextData",
+          "SourceString": "発動すると、近くにある<Status_Keyword>パルの像</>を探知できる。\r\n{ReferenceMsgId_SearchAreaCoolTime}",
+          "LocalizedString": "発動すると、近くにある<Status_Keyword>パルの像</>を探知できる。\r\n{ReferenceMsgId_SearchAreaCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Penguin_TextData",
+          "SourceString": "発動すると、<itemName id=|Launcher_Default|/>が装備され、<characterName id=|Penguin|/>を弾丸として射出する。\r\n着弾して爆発すると<characterName id=|Penguin|/>は瀕死になる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<itemName id=|Launcher_Default|/>が装備され、<characterName id=|Penguin|/>を弾丸として射出する。\r\n着弾して爆発すると<characterName id=|Penguin|/>は瀕死になる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkCat_TextData",
+          "SourceString": "手持ちにいる間、<characterName id=|PinkCat|/>が荷物を肩代わりして、プレイヤーの所持重量上限が<Status_Up>{Passive1_EffectValue1}</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<characterName id=|PinkCat|/>が荷物を肩代わりして、プレイヤーの所持重量上限が<Status_Up>{Passive1_EffectValue1}</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkLizard_TextData",
+          "SourceString": "一緒に戦っている間、与えたダメージの<Status_Up>{Passive1_EffectValue1}%</>を吸収し、<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/><Status_Keyword>を回復する</>ライフスティール効果を、プレイヤーと<characterName id=|PinkLizard|/>に付与する。",
+          "LocalizedString": "一緒に戦っている間、与えたダメージの<Status_Up>{Passive1_EffectValue1}%</>を吸収し、<uiCommon id=|COMMON_STATUS_HP| style=|Status_Keyword|/><Status_Keyword>を回復する</>ライフスティール効果を、プレイヤーと<characterName id=|PinkLizard|/>に付与する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Handcraft| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive2_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Handcraft| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive2_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PlantSlime_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが伐採するときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加し、<Status_Keyword>すべての木材類</>の重量を<Status_Up>{Passive2_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが伐採するときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加し、<Status_Keyword>すべての木材類</>の重量を<Status_Up>{Passive2_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_QueenBee_TextData",
+          "SourceString": "このパルの攻撃力は、手持ちにいる<characterName id=|SoldierBee| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "このパルの攻撃力は、手持ちにいる<characterName id=|SoldierBee| style=|Status_Keyword|/>の数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RaijinDaughter_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>の稲妻で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_Funnel}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>の稲妻で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_Funnel}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RedArmorBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RobinHood_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>弓矢のダメージ</>が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>弓矢のダメージ</>が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RobinHood_Ground_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>弓矢のチャージ速度</>が<Status_Up>{Passive1_EffectValue1}%</>高速化する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>弓矢のチャージ速度</>が<Status_Up>{Passive1_EffectValue1}%</>高速化する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ronin_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SaintCentaur_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>3段ジャンプ</>が可能になり、<activeSkillName id=|Unique_SaintCentaur_OneSpearRushes| style=|Status_Keyword|/>を発動すると、手持ちの<characterName id=|BlackCentaur|/>が1体出現して一緒に攻撃する。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>3段ジャンプ</>が可能になり、<activeSkillName id=|Unique_SaintCentaur_OneSpearRushes| style=|Status_Keyword|/>を発動すると、手持ちの<characterName id=|BlackCentaur|/>が1体出現して一緒に攻撃する。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SakuraSaurus_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、拾ったタマゴが<Status_Up>{Passive1_EffectValue1}%</>の確率でアルファパルのタマゴになる。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、拾ったタマゴが<Status_Up>{Passive1_EffectValue1}%</>の確率でアルファパルのタマゴになる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SakuraSaurus_Water_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、拾ったタマゴが<Status_Up>{Passive1_EffectValue1}%</>の確率でアルファパルのタマゴになる。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、拾ったタマゴが<Status_Up>{Passive1_EffectValue1}%</>の確率でアルファパルのタマゴになる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ScorpionMan_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Serpent_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Leather| style=|Status_Keyword|/>を落とすことがある。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Leather| style=|Status_Keyword|/>を落とすことがある。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Serpent_Ground_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SkyDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SharkKid_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|WaterGun| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|WaterGun| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|WaterGun| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|WaterGun| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SharkKid_Fire_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|FireSeed| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|FireSeed| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|FireSeed| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|FireSeed| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SifuDog_TextData",
+          "SourceString": "発動すると、最も近くの拠点へ移動することができる。\r\nダンジョンの中などでは使用できない。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "発動すると、最も近くの拠点へ移動することができる。\r\nダンジョンの中などでは使用できない。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SheepBall_TextData",
+          "SourceString": "発動すると、プレイヤーに装備され盾になる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "発動すると、プレイヤーに装備され盾になる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SoldierBee_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Honey| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、<characterName id=|QueenBee| style=|Status_Keyword|/>の攻撃力が上がる。",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Honey| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、<characterName id=|QueenBee| style=|Status_Keyword|/>の攻撃力が上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Suzaku_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|Suzaku|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|Suzaku|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Suzaku_Water_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|Suzaku_Water|/>以外の<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|Suzaku_Water|/>以外の<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SweetsSheep_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Sweet| style=|Status_Keyword|/>を落とすことがある。\r\n拠点にいる間、拠点パルの<uiCommon id=|COMMON_STATUS_HUNGER|/>の減少割合が<Status_Up>{Passive1_EffectValue1}%</>される。（重複不可）",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Sweet| style=|Status_Keyword|/>を落とすことがある。\r\n拠点にいる間、拠点パルの<uiCommon id=|COMMON_STATUS_HUNGER|/>の減少割合が<Status_Up>{Passive1_EffectValue1}%</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_TextData",
+          "SourceString": "手持ちにいる間、<itemName id=|CopperOre| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<itemName id=|CopperOre| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive3_EffectValue1}%</>上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderBird|/>以外の<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive3_EffectValue1}%</>上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderBird|/>以外の<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDog_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderDog|/>以外の<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderDog|/>以外の<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDragonMan_TextData",
+          "SourceString": "手持ちにいる間、敵に弾丸を当てると一緒に戦っているパルの攻撃力と防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。\r\nこの効果は5秒続き、最大30までスタックする。（重複不可）",
+          "LocalizedString": "手持ちにいる間、敵に弾丸を当てると一緒に戦っているパルの攻撃力と防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。\r\nこの効果は5秒続き、最大30までスタックする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Umihebi_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Umihebi_Fire_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>溶岩のダメージを無効化</>して、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>溶岩のダメージを無効化</>して、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VioletFairy_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<Status_Keyword>様々な種</>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<Status_Keyword>様々な種</>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>すべての鉱石類</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>すべての鉱石類</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanicMonster_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>すべての鉱石類</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>すべての鉱石類</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Werewolf_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>近接武器の攻撃速度</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Werewolf_Scratch| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>近接武器の攻撃速度</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteMoth_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Cloth2| style=|Status_Keyword|/>を作ることがある。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|IcicleThrow| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Cloth2| style=|Status_Keyword|/>を作ることがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteTiger_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Windchimes_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ゆっくりと上昇することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ゆっくりと上昇することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Windchimes_Ice_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ゆっくりと上昇することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ゆっくりと上昇することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WizardOwl_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Yeti_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Transport| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Transport| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Yeti_Grass_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WoolFox_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Wool| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyCatfish_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalOil| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalOil| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LavaGirl_TextData",
+          "SourceString": "手持ちにいる間、非戦闘時にプレイヤーと手持ちのパルのHPを毎秒<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、非戦闘時にプレイヤーと手持ちのパルのHPを毎秒<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlameBambi_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|FireOrgan| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Human": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Human_TextData",
+          "SourceString": "人間はパルではないので、パートナースキルを持たない。",
+          "LocalizedString": "人間はパルではないので、パートナースキルを持たない。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightLady": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightLady_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_NightLady_WarpBeam_Straight| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightLady_Dark_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_NightLady_WarpBeam| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Mushroom| style=|Status_Keyword|/>か<itemName id=|CaveMushroom| style=|Status_Keyword|/>を落とすことがある。",
+          "LocalizedString": "背中に乗って移動できる。\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Mushroom| style=|Status_Keyword|/>か<itemName id=|CaveMushroom| style=|Status_Keyword|/>を落とすことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomDragon_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n拠点にいる間、<characterName id=|MushroomDragon_Dark|/>の不思議な胞子で拠点のパルのSAN値が<Status_Up>{Passive1_EffectValue2}%</>減りにくくなる。",
+          "LocalizedString": "背中に乗って移動できる。\r\n拠点にいる間、<characterName id=|MushroomDragon_Dark|/>の不思議な胞子で拠点のパルのSAN値が<Status_Up>{Passive1_EffectValue2}%</>減りにくくなる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LeafPrincess_TextData",
+          "SourceString": "拠点にいる間、<characterName id=|LeafPrincess|/>が農園に元気を注ぎ込み作物の成長速度が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "拠点にいる間、<characterName id=|LeafPrincess|/>が農園に元気を注ぎ込み作物の成長速度が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MoonQueen_TextData",
+          "SourceString": "背中の月に乗って空を飛ぶことができる。\r\nライド中、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>と<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の攻撃が<Status_Up>{Passive1_EffectValue1}%</>強化される。",
+          "LocalizedString": "背中の月に乗って空を飛ぶことができる。\r\nライド中、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>と<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の攻撃が<Status_Up>{Passive1_EffectValue1}%</>強化される。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SmallArmadillo_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CandleGhost_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Bone| style=|Status_Keyword|/>を掘り出すことがある。",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、地面から<itemName id=|Bone| style=|Status_Keyword|/>を掘り出すことがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WingGolem_TextData",
+          "SourceString": "発動すると鋼鉄の覚悟により、一定時間<characterName id=|WingGolem|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>、防御力が<Status_Up>{ReferencePassive2_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると鋼鉄の覚悟により、一定時間<characterName id=|WingGolem|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>、防御力が<Status_Up>{ReferencePassive2_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkAlien_TextData",
+          "SourceString": "手持ちにいる間、フルオート武器のマガジン内にある最後の銃弾のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、フルオート武器のマガジン内にある最後の銃弾のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MimicDog_TextData",
+          "SourceString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力により、鍵を使用せずにあらゆるグレードの宝箱を開けることができる。\r\nただし、特定の作業適性が必要な宝箱は開けられない。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "一緒に戦っている間、<characterName id=|MimicDog|/>の力により、鍵を使用せずにあらゆるグレードの宝箱を開けることができる。\r\nただし、特定の作業適性が必要な宝箱は開けられない。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_TextData",
+          "SourceString": "発動すると、<characterName id=|KendoFrog|/>が忠誠心と膨らんだ腹部で力を溜め、プレイヤーが上に乗ると高くジャンプできる。\r\n着地するまでの間、プレイヤーの攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|KendoFrog|/>が忠誠心と膨らんだ腹部で力を溜め、プレイヤーが上に乗ると高くジャンプできる。\r\n着地するまでの間、プレイヤーの攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingBahamut_Dragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HerculesBeetle_Ground_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近接攻撃が<Status_Up>{Passive1_EffectValue1}秒</>以内に5発ヒットすると、プレイヤーの周囲に<Status_Keyword>バリアを生成</>する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近接攻撃が<Status_Up>{Passive1_EffectValue1}秒</>以内に5発ヒットすると、プレイヤーの周囲に<Status_Keyword>バリアを生成</>する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Gorilla_Ground_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの崖登りの速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの崖登りの速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HadesBird_Electric_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkScorpion_Ground_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの防御力が<Status_Up>{Passive2_EffectValue1}%</>増加し、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの防御力が<Status_Up>{Passive2_EffectValue1}%</>増加し、<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Ronin_Dark_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーが使用する<Status_Keyword>近接武器</>のダメージが、非戦闘時のみ<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Ronin_Iai| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーが使用する<Status_Keyword>近接武器</>のダメージが、非戦闘時のみ<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CatMage_Fire_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_EmitFlame| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_EmitFlame| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxMage_Dark_TextData",
+          "SourceString": "発動すると、<characterName id=|FoxMage_Dark|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|FoxMage_Dark|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SkyDragon_Grass_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WeaselDragon_Fire_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteAlienDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーが使用する<Status_Keyword>エネルギー武器</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーが使用する<Status_Keyword>エネルギー武器</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kitsunebi_Ice_TextData",
+          "SourceString": "発動すると、プレイヤーに装備され、冷気を放出して攻撃できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、プレイヤーに装備され、冷気を放出して攻撃できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BerryGoat_Dark_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、背中から<itemName id=|Venom| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、5分に1回、満腹度が最も低いパルの満腹度を<Status_Up>{Passive1_EffectValue1}</>回復する。（重複不可）",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、背中から<itemName id=|Venom| style=|Status_Keyword|/>を落とすことがある。\r\n手持ちにいる間、5分に1回、満腹度が最も低いパルの満腹度を<Status_Up>{Passive1_EffectValue1}</>回復する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PinkRabbit_Grass_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<characterName id=|PinkRabbit_Grass|/>が武器製作台や武器工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Werewolf_Ice_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>近接武器の攻撃速度</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>で攻撃する。\r\nこのパルが使用する<activeSkillName id=|Unique_Werewolf_Ice_SnowScratch| style=|Status_Keyword|/>の威力は<Status_Up>{ActiveSkillMainValueByRank}倍</>に強化される。\r\n手持ちにいる間、プレイヤーの<Status_Keyword>近接武器の攻撃速度</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_AmaterasuWolf_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>状態を無効にする。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>状態を無効にする。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RaijinDaughter_Water_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の稲妻で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_Funnel}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n敵対した相手に<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の稲妻で追撃を行う。\r\nこの追撃でとどめを刺すことはできない。\r\n{ReferenceMsgId_Funnel}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteTiger_Ground_TextData",
+          "SourceString": "手持ちにいる間、攻撃が<Status_Keyword>弱点部位</>にヒットすると次の弱点部位ヒットの威力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、攻撃が<Status_Keyword>弱点部位</>にヒットすると次の弱点部位ヒットの威力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FengyunDeeper_Electric_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Horus_Water_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkMechaDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<Status_Keyword>武器を持ったパルのパートナースキル</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、<Status_Keyword>武器を持ったパルのパートナースキル</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostRabbit_TextData",
+          "SourceString": "手持ちにいる間、パルを倒した際のソウルの獲得量が<Status_Up>+{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、パルを倒した際のソウルの獲得量が<Status_Up>+{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightBlueHorse_TextData",
+          "SourceString": "背中に乗って移動でき、ライド中はジャンプ力が上昇する。\r\n夜の間、このパルの移動速度が<Status_Up>+{Passive1_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動でき、ライド中はジャンプ力が上昇する。\r\n夜の間、このパルの移動速度が<Status_Up>+{Passive1_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteShieldDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーのシールドの回復開始までの時間が<Status_Up>{Passive1_EffectValue1}%</>短縮され、シールドが受けるダメージの量を<Status_Up>{Passive2_EffectValue1}%</>抑える。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーのシールドの回復開始までの時間が<Status_Up>{Passive1_EffectValue1}%</>短縮され、シールドが受けるダメージの量を<Status_Up>{Passive2_EffectValue1}%</>抑える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackPuppy_TextData",
+          "SourceString": "発動すると、鋭い嗅覚で、近くにある<itemName id=|Chromium| style=|Status_Keyword|/>の場所を探知できる。\r\n一緒に戦っている間、<itemName id=|Chromium| style=|Status_Keyword|/>の獲得量が<Status_Up>+{Passive1_EffectValue1}%</>になる。",
+          "LocalizedString": "発動すると、鋭い嗅覚で、近くにある<itemName id=|Chromium| style=|Status_Keyword|/>の場所を探知できる。\r\n一緒に戦っている間、<itemName id=|Chromium| style=|Status_Keyword|/>の獲得量が<Status_Up>+{Passive1_EffectValue1}%</>になる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteDeer_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|WhiteDeer|/>以外の<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>パルの数×<Status_Up>{Passive2_EffectValue1}%</>増加する。\r\n手持ちにいる間、非戦闘時にプレイヤーと手持ちのパルのHPを毎秒<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|WhiteDeer|/>以外の<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>パルの数×<Status_Up>{Passive2_EffectValue1}%</>増加する。\r\n手持ちにいる間、非戦闘時にプレイヤーと手持ちのパルのHPを毎秒<Status_Up>{Passive1_EffectValue1}%</>回復する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MysteryMask_TextData",
+          "SourceString": "手持ちにいる間、手持ちのパルの<Status_Keyword>経験値の獲得量</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、手持ちのパルの<Status_Keyword>経験値の獲得量</>が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrimGirl_TextData",
+          "SourceString": "手持ちにいる間、<itemName id=|MeatCutterKnife|/>で解体を行った際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<itemName id=|MeatCutterKnife|/>で解体を行った際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PurpleSpider_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\nまた、射撃地点にクモの糸を飛ばして、グラップリングで高速移動できる。\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\nまた、射撃地点にクモの糸を飛ばして、グラップリングで高速移動できる。\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueThunderHorse_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nまた、<Status_Keyword>空中でダッシュ</>し高速で移動できる。\r\n{ReferenceMsgId_ShortDashSpeedCoolTime}",
+          "LocalizedString": "背中に乗って移動できる。\r\nまた、<Status_Keyword>空中でダッシュ</>し高速で移動できる。\r\n{ReferenceMsgId_ShortDashSpeedCoolTime}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnowTigerBeastman_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のハンマーを振り下ろして攻撃できる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のハンマーを振り下ろして攻撃できる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueberryFairy_TextData",
+          "SourceString": "拠点にいる間、<characterName id=|BlueberryFairy|/>が捧げる祈りによって作物の収穫量が<Status_Up>{Passive1_EffectValue1}%</>上がる。",
+          "LocalizedString": "拠点にいる間、<characterName id=|BlueberryFairy|/>が捧げる祈りによって作物の収穫量が<Status_Up>{Passive1_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BadCatgirl_TextData",
+          "SourceString": "発動すると、一定時間<characterName id=|BadCatgirl|/>が付近の敵にショットガンを撃ちまくる。\r\n手持ちにいる間、プレイヤーが使用するショットガンのダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "発動すると、一定時間<characterName id=|BadCatgirl|/>が付近の敵にショットガンを撃ちまくる。\r\n手持ちにいる間、プレイヤーが使用するショットガンのダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GoldenHorse_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NegativeOctopus_Neutral_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ふわふわと長時間浮くことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わる。\r\nグライド中は、ふわふわと長時間浮くことができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Penguin_Electric_TextData",
+          "SourceString": "発動すると、<itemName id=|Launcher_Default|/>が装備され、<characterName id=|Penguin_Electric|/>を弾丸として射出する。\r\n着弾して爆発すると<characterName id=|Penguin_Electric|/>は瀕死になる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<itemName id=|Launcher_Default|/>が装備され、<characterName id=|Penguin_Electric|/>を弾丸として射出する。\r\n着弾して爆発すると<characterName id=|Penguin_Electric|/>は瀕死になる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CaptainPenguin_Black_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlyingManta_Thunder_TextData",
+          "SourceString": "手持ちにいる間、装備中のグライダーの性能が変わり、プレイヤーの<Status_Keyword>落下ダメージを無効</>にする。\r\nグライド中は、長時間素早く移動することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}",
+          "LocalizedString": "手持ちにいる間、装備中のグライダーの性能が変わり、プレイヤーの<Status_Keyword>落下ダメージを無効</>にする。\r\nグライド中は、長時間素早く移動することができる。\r\n{ReferenceMsgId_GriderPerformanceUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BluePlatypus_Fire_TextData",
+          "SourceString": "発動すると、<characterName id=|BluePlatypus_Fire|/>が敵に向かってファイアーサーフィンをしながら突っ込む。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、<characterName id=|BluePlatypus_Fire|/>が敵に向かってファイアーサーフィンをしながら突っ込む。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LazyCatfish_Gold_TextData",
+          "SourceString": "手持ちにいる間、倒した敵がドロップする<itemName id=|Money|/>の量が<Status_Up>+{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalOil| style=|Status_Keyword|/>か、低確率で<itemName id=|Money| style=|Status_Keyword|/>を落とす。",
+          "LocalizedString": "手持ちにいる間、倒した敵がドロップする<itemName id=|Money|/>の量が<Status_Up>+{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|PalOil| style=|Status_Keyword|/>か、低確率で<itemName id=|Money| style=|Status_Keyword|/>を落とす。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_Ground_TextData",
+          "SourceString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<itemName id=|Sulfur| style=|Status_Keyword|/>と<itemName id=|Coal| style=|Status_Keyword|/>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減して、プレイヤーとパルが<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KendoFrog_Dark_TextData",
+          "SourceString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "発動すると、<characterName id=|KendoFrog_Dark|/>が忠誠心と膨らんだ腹部で力を溜める。\r\nプレイヤーが上に乗ると高くジャンプする。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueDragon_Ice_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceNarwhal_Fire_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、釣りの捕獲ゲージが通常より<Status_Up>{Passive1_EffectValue1}%</>上昇した状態でミニゲームが開始し、バーが重なっている間の捕獲ゲージの上昇量が<Status_Up>{Passive2_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、釣りの捕獲ゲージが通常より<Status_Up>{Passive1_EffectValue1}%</>上昇した状態でミニゲームが開始し、バーが重なっている間の捕獲ゲージの上昇量が<Status_Up>{Passive2_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_Fire_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|GhostAnglerfish_Fire|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>もしくは<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|GhostAnglerfish_Fire|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>もしくは<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_Fire_TextData",
+          "SourceString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<characterName id=|StuffedShark_Fire|/>が荷物を肩代わりして、インベントリ内の武器の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減する。\r\nまた、プレイヤーとパルが<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive2_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TentacleTurtle_NotUse_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OctopusGirl_TextData",
+          "SourceString": "手持ちにいる間、釣りのミニゲームでバーが重なっていない場合の捕獲ゲージの減少量が<Status_Up>{Passive1_EffectValue1}%</>少なくなる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、釣りのミニゲームでバーが重なっていない場合の捕獲ゲージの減少量が<Status_Up>{Passive1_EffectValue1}%</>少なくなる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceNarwhal_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、釣りの捕獲ゲージが通常より<Status_Up>{Passive1_EffectValue1}%</>上昇した状態でミニゲームが開始し、バーが重なっている間の捕獲ゲージの上昇量が<Status_Up>{Passive2_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、釣りの捕獲ゲージが通常より<Status_Up>{Passive1_EffectValue1}%</>上昇した状態でミニゲームが開始し、バーが重なっている間の捕獲ゲージの上昇量が<Status_Up>{Passive2_EffectValue1}%</>増える。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JellyfishFairy_TextData",
+          "SourceString": "手持ちにいる間、釣りで手に入るアイテムの獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\nまた、<characterName id=|JellyfishFairy|/>と<characterName id=|JellyfishGhost|/>が拠点にいる間、<characterName id=|JellyfishFairy|/>の水やりの作業速度が<Status_Up>{Passive3_EffectValue1}%</>上がる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、釣りで手に入るアイテムの獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\nまた、<characterName id=|JellyfishFairy|/>と<characterName id=|JellyfishGhost|/>が拠点にいる間、<characterName id=|JellyfishFairy|/>の水やりの作業速度が<Status_Up>{Passive3_EffectValue1}%</>上がる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_JellyfishGhost_TextData",
+          "SourceString": "手持ちにいる間、サルベージで手に入るアイテムの獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\nまた、<characterName id=|JellyfishFairy|/>と<characterName id=|JellyfishGhost|/>が拠点にいる間、<characterName id=|JellyfishGhost|/>の水やりの作業速度が<Status_Up>{Passive2_EffectValue1}%</>上がる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、サルベージで手に入るアイテムの獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）\r\nまた、<characterName id=|JellyfishFairy|/>と<characterName id=|JellyfishGhost|/>が拠点にいる間、<characterName id=|JellyfishGhost|/>の水やりの作業速度が<Status_Up>{Passive2_EffectValue1}%</>上がる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostAnglerfish_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|GhostAnglerfish|/>以外の<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>もしくは<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|GhostAnglerfish|/>以外の<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>もしくは<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceWitch_TextData",
+          "SourceString": "発動すると、<characterName id=|IceWitch|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|IceWitch|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LeafMomonga_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが瀕死になると、<characterName id=|LeafMomonga|/>が癒しの力でプレイヤーを<uiCommon id=|COMMON_STATUS_HP2|/>の<Status_Up>{ActiveSkillMainValueByRank}%</>で<Status_Keyword>復活</>させる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "手持ちにいる間、プレイヤーが瀕死になると、<characterName id=|LeafMomonga|/>が癒しの力でプレイヤーを<uiCommon id=|COMMON_STATUS_HP2|/>の<Status_Up>{ActiveSkillMainValueByRank}%</>で<Status_Keyword>復活</>させる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceCrocodile_TextData",
+          "SourceString": "手持ちにいる間、<Status_Keyword>食材</>と<Status_Keyword>料理</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減し、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>パルが元々持っている腐敗防止効果に加えて、腐敗速度がさらに<Status_Up>{Passive2_EffectValue1}%</>される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<Status_Keyword>食材</>と<Status_Keyword>料理</>の重量を<Status_Up>{Passive1_EffectValue1}%</>軽減し、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>パルが元々持っている腐敗防止効果に加えて、腐敗速度がさらに<Status_Up>{Passive2_EffectValue1}%</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_StuffedShark_TextData",
+          "SourceString": "発動すると、<characterName id=|StuffedShark|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|StuffedShark|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceSeal_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n<Status_Keyword>雪の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。\r\nまた、斜面で勢いよく滑り降りることができる。",
+          "LocalizedString": "背中に乗って移動できる。\r\n<Status_Keyword>雪の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。\r\nまた、斜面で勢いよく滑り降りることができる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Plesiosaur_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n拠点にいる間、<mapObjectName id=|BreedFarm|/>にアサインしたパルのタマゴ生成速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n拠点にいる間、<mapObjectName id=|BreedFarm|/>にアサインしたパルのタマゴ生成速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_TropicalOstrich_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n<Status_Keyword>草むらの上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\n<Status_Keyword>草むらの上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnowPeafowl_TextData",
+          "SourceString": "手持ちにいる間、<characterName id=|SnowPeafowl|/>の冷気で集中力が高まり、プレイヤーの<Status_Keyword>リロード速度</>が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<characterName id=|SnowPeafowl|/>の冷気で集中力が高まり、プレイヤーの<Status_Keyword>リロード速度</>が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PoseidonOrca_TextData",
+          "SourceString": "一緒に戦っている間、プレイヤーの攻撃にあわせて<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>の槍で追撃を行う。\r\n背中に乗って水上を移動できる。\r\nライド中、水上で高く飛び上がることができる。\r\n{ReferenceMsgId_SwimSpeedUp_CooldownReduction}",
+          "LocalizedString": "一緒に戦っている間、プレイヤーの攻撃にあわせて<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>の槍で追撃を行う。\r\n背中に乗って水上を移動できる。\r\nライド中、水上で高く飛び上がることができる。\r\n{ReferenceMsgId_SwimSpeedUp_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Blue": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Blue_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Red": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Red_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Purple_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Pink": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Pink_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster001_Rainbow_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、高くジャンプできる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_Small": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_Small_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster002": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster002_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルを倒した際のドロップアイテム獲得量が<Status_Up>{Passive1_EffectValue1}%</>増える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster003": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_Purple": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaMonster003_Purple_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}",
+          "LocalizedString": "手持ちにいる間、プレイヤーの近くに出現する。\r\n自動で近くにあるアイテムを拾いに行く。\r\n{ReferenceMsgId_ItemCollectRangeUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_YakushimaBoss001": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_YakushimaBoss001_TextData",
+          "SourceString": "発動すると、狙いを定めた敵に向かって<characterName id=|YakushimaBoss001|/>が突進で攻撃する。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、狙いを定めた敵に向かって<characterName id=|YakushimaBoss001|/>が突進で攻撃する。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LegendDeer_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、あらゆる攻撃を防ぐバリアを生成できる。\r\nまた、ライド中、<Status_Keyword>3段ジャンプ</>が可能になる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、あらゆる攻撃を防ぐバリアを生成できる。\r\nまた、ライド中、<Status_Keyword>3段ジャンプ</>が可能になる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Kirin_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ClioneTwins_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Watering| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Watering| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FluffyBird_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態のパルの捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態のパルの捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MoonChild_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CloverFairy_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Collection| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Collection| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ClownRabbit_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーのHPが50%以下になったときに、<characterName id=|ClownRabbit|/>がプレイヤーの周囲に爆風を発生させる（<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> / 威力: <Status_Up>{Passive1_EffectValue1}</> / <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>蓄積値: <Status_Keyword>{ReferencePassive1_EffectValue1}</>）。\r\nまた、プレイヤーのHPが50%以下の間、プレイヤーの攻撃が<Status_Up>{Passive2_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーのHPが50%以下になったときに、<characterName id=|ClownRabbit|/>がプレイヤーの周囲に爆風を発生させる（<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/> / 威力: <Status_Up>{Passive1_EffectValue1}</> / <uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>蓄積値: <Status_Keyword>{ReferencePassive1_EffectValue1}</>）。\r\nまた、プレイヤーのHPが50%以下の間、プレイヤーの攻撃が<Status_Up>{Passive2_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlackPuppy_Ice_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Cool| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Cool| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_TextData",
+          "SourceString": "発動すると、<characterName id=|SwordCutlassfish|/>がプレイヤーの刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）となる。\r\nすぐに体を戻さないと<characterName id=|SwordCutlassfish|/>が瀕死になる。\r\n居合切りを発動しても瀕死になる。",
+          "LocalizedString": "発動すると、<characterName id=|SwordCutlassfish|/>がプレイヤーの刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）となる。\r\nすぐに体を戻さないと<characterName id=|SwordCutlassfish|/>が瀕死になる。\r\n居合切りを発動しても瀕死になる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SwordCutlassfish_Fire_TextData",
+          "SourceString": "発動すると、<characterName id=|SwordCutlassfish_Fire|/>がプレイヤーの刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）となる。\r\nすぐに体を戻さないと<characterName id=|SwordCutlassfish_Fire|/>が瀕死になる。\r\n居合切りを発動しても瀕死になる。",
+          "LocalizedString": "発動すると、<characterName id=|SwordCutlassfish_Fire|/>がプレイヤーの刀（<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>：<Status_Up>{ActiveSkillMainValueByRank}</>）となる。\r\nすぐに体を戻さないと<characterName id=|SwordCutlassfish_Fire|/>が瀕死になる。\r\n居合切りを発動しても瀕死になる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem|/>の右手から<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassGolem_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<characterName id=|GrassGolem_Dark|/>の右手から<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>の強力なレーザーを照射できる。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerDoll_Fire_TextData",
+          "SourceString": "発動すると、花の癒しの力でプレイヤーのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "発動すると、花の癒しの力でプレイヤーのHPが<Status_Up>{ActiveSkillMainValueByRank}%</>回復する。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MushroomLady_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_ProductMedicine| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_ProductMedicine| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SumoDog_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CactusDoll_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RockBeast_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Muddy| style=|Effect_Muddy|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThiefBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n手持ちにいる間、プレイヤーとパルが<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Effect_Darkness|/>状態の敵に与えるダメージを<Status_Up>{Passive1_EffectValue1}%</>アップさせる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SleeveRabbit_TextData",
+          "SourceString": "手持ちにいる間、手持ちにいる他のパルが持つ<Status_Keyword>パートナースキルのクールタイム</>が<Status_Up>{Passive1_EffectValue2}%</>減少する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、手持ちにいる他のパルが持つ<Status_Keyword>パートナースキルのクールタイム</>が<Status_Up>{Passive1_EffectValue2}%</>減少する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SnakeGirl_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Darkness| style=|Elem_Dark|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KabukiMan_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SamuraiDog_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>近接武器</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが使用する<Status_Keyword>近接武器</>のダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Sekhmet_TextData",
+          "SourceString": "拠点にいる間、拠点内にいる<characterName id=|Anubis| style=|Status_Keyword|/>の作業速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）\r\n<characterName id=|Sekhmet|/>が作業台や作業工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。",
+          "LocalizedString": "拠点にいる間、拠点内にいる<characterName id=|Anubis| style=|Status_Keyword|/>の作業速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）\r\n<characterName id=|Sekhmet|/>が作業台や作業工場などで働くときの作業効率が<Status_Up>{Passive2_EffectValue1}%</>上がる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostRabbit_Grass_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RockBeast_Ice_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LotusDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Monkey_Fire_TextData",
+          "SourceString": "発動すると、一定時間<characterName id=|Monkey_Fire|/>が付近の敵に<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のアサルトライフルを撃ちまくる。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "発動すると、一定時間<characterName id=|Monkey_Fire|/>が付近の敵に<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>のアサルトライフルを撃ちまくる。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DarkFlameFox_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵の周囲に炎が発生</>し、触れている敵に継続的にプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵の周囲に炎が発生</>し、触れている敵に継続的にプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FoxExorcist_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵が爆発</>し、追加でプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Burn| style=|Effect_Burn|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵が爆発</>し、追加でプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VenusFlytrap_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーがローリングやステップをすると、<characterName id=|VenusFlytrap|/>が旋風を発生させ、触れた敵にダメージを与える（<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> / 威力: <Status_Up>{Passive1_EffectValue1}</>）。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーがローリングやステップをすると、<characterName id=|VenusFlytrap|/>が旋風を発生させ、触れた敵にダメージを与える（<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/> / 威力: <Status_Up>{Passive1_EffectValue1}</>）。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecLizard_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵から電気が放出</>し、周囲の敵にプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵から電気が放出</>し、周囲の敵にプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MonochromeQueen_TextData",
+          "SourceString": "手持ちにいる間、全ての手持ちのパルの種類が異なるとき、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、全ての手持ちのパルの種類が異なるとき、プレイヤーの攻撃力が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecSnail_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Electrical| style=|Effect_Electrical|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecSnail_Ground_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーとパルが受ける<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のダメージが<Status_Up>{Passive1_EffectValue1}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CactusDoll_Dark_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>の状態異常値が<Status_Up>{Passive1_EffectValue1}</>付与される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OctopusGirl_Neutral_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Water|/><uiCommon id=|COMMON_ELEMENT_NAME_Water| style=|Elem_Water|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_HoodGhost_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが非戦闘状態のエネミーへ与えるダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが非戦闘状態のエネミーへ与えるダメージが<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_BlueSkyDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力は、手持ちにいる<characterName id=|BlueSkyDragon|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力は、手持ちにいる<characterName id=|BlueSkyDragon|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|GhostDragon|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>または<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|GhostDragon|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>または<img id=|ElemIcon_Dark|/><uiCommon id=|COMMON_ELEMENT_NAME_Dark| style=|Elem_Dark|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_PandaGirl_TextData",
+          "SourceString": "このパルの攻撃力と防御力は、手持ちにいる<characterName id=|PandaGirl|/>以外の<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "このパルの攻撃力と防御力は、手持ちにいる<characterName id=|PandaGirl|/>以外の<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nこのパルの攻撃力は、手持ちにいる<characterName id=|VolcanoDragon|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>または<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動できる。\r\nこのパルの攻撃力は、手持ちにいる<characterName id=|VolcanoDragon|/>以外の<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>または<img id=|ElemIcon_Ground|/><uiCommon id=|COMMON_ELEMENT_NAME_Earth| style=|Elem_Ground|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_MummyPal_TextData",
+          "SourceString": "一緒に戦っている間、<characterName id=|MummyPal|/>が瀕死になったときに、<characterName id=|MummyPal|/>の満腹度が0になる代わりに<Status_Keyword>復活</>する。\r\n{ReferenceMsgId_CooldownReduction}",
+          "LocalizedString": "一緒に戦っている間、<characterName id=|MummyPal|/>が瀕死になったときに、<characterName id=|MummyPal|/>の満腹度が0になる代わりに<Status_Keyword>復活</>する。\r\n{ReferenceMsgId_CooldownReduction}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SweetsSheep_Ground_TextData",
+          "SourceString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Sweet_Caramel| style=|Status_Keyword|/>を落とすことがある。\r\n拠点にいる間、拠点パルの<uiCommon id=|COMMON_STATUS_HUNGER|/>の減少割合が<Status_Up>{Passive1_EffectValue1}%</>される。（重複不可）",
+          "LocalizedString": "<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Sweet_Caramel| style=|Status_Keyword|/>を落とすことがある。\r\n拠点にいる間、拠点パルの<uiCommon id=|COMMON_STATUS_HUNGER|/>の減少割合が<Status_Up>{Passive1_EffectValue1}%</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingWhale_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n拠点に1匹までしか召喚できない。\r\n拠点にいる間、常に拠点上空を回遊し侵入者に対しては遥か上空から砲撃を行う。\r\n{ReferenceMsgId_DamageUp}",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n拠点に1匹までしか召喚できない。\r\n拠点にいる間、常に拠点上空を回遊し侵入者に対しては遥か上空から砲撃を行う。\r\n{ReferenceMsgId_DamageUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LanternButler_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが放った矢が<Status_Keyword>着弾時に爆発</>して、追加でプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーが放った矢が<Status_Keyword>着弾時に爆発</>して、追加でプレイヤーの攻撃の<Status_Up>{Passive1_EffectValue1}%</>のダメージを与える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_LongCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_LongCat_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーにかかる重力が低下し、ジャンプや落下時にふわふわする。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーにかかる重力が低下し、ジャンプや落下時にふわふわする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteMoth_Neutral_TextData",
+          "SourceString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Cloth2| style=|Status_Keyword|/>を作ることがある。",
+          "LocalizedString": "手持ちにいる間、<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n<mapObjectName id=|MonsterFarm|/>にアサインすると、<itemName id=|Cloth2| style=|Status_Keyword|/>を作ることがある。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CubeTurtle_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Mining| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_Mining| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ScorpionMan_Electric_TextData",
+          "SourceString": "発動すると、<characterName id=|ScorpionMan_Electric|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|ScorpionMan_Electric|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DandelionGirl_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態のパルの捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態のパルの捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_RedFlowerBird_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーがローリングやステップをするときの無敵時間が<Status_Up>{Passive1_EffectValue2}%</>長くなる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、プレイヤーがローリングやステップをするときの無敵時間が<Status_Up>{Passive1_EffectValue2}%</>長くなる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderFluffyBird_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\n拠点にいる間、タマゴの孵化速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\n拠点にいる間、タマゴの孵化速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_SmallYeti_TextData",
+          "SourceString": "手持ちにいる間、敵に気づかれにくくなる。（重複不可）\r\n{ReferenceMsgId_EnemySightRate}",
+          "LocalizedString": "手持ちにいる間、敵に気づかれにくくなる。（重複不可）\r\n{ReferenceMsgId_EnemySightRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_Mothman": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_Mothman_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵が爆発</>し、追加でプレイヤーの攻撃の<Status_Up>{Passive2_EffectValue1}%</>のダメージを与える。（重複不可）\r\nまた、プレイヤーとパルは<Status_Keyword>世界樹の起爆胞子を無効化</>する。",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_IvyCling| style=|Effect_IvyCling|/>状態の敵にプレイヤーの攻撃を当てると<Status_Keyword>敵が爆発</>し、追加でプレイヤーの攻撃の<Status_Up>{Passive2_EffectValue1}%</>のダメージを与える。（重複不可）\r\nまた、プレイヤーとパルは<Status_Keyword>世界樹の起爆胞子を無効化</>する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_IceSeal_Ground_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n<Status_Keyword>雪の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。\r\nまた、斜面で勢いよく滑り降りることができる。\r\n滑るとき、初速は遅いが、最高速度が高い。",
+          "LocalizedString": "背中に乗って移動できる。\r\n<Status_Keyword>雪の上</>にいる間、移動速度が<Status_Up>{Passive1_EffectValue1}%</>上昇する。\r\nまた、斜面で勢いよく滑り降りることができる。\r\n滑るとき、初速は遅いが、最高速度が高い。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostBlackCat_TextData",
+          "SourceString": "手持ちにいる間、<Status_Keyword>背面ボーナス</>時の捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}",
+          "LocalizedString": "手持ちにいる間、<Status_Keyword>背面ボーナス</>時の捕獲確率が上昇する。（重複不可）\r\n{ReferenceMsgId_CaptureRate}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_OniGhostGirl_TextData",
+          "SourceString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態の敵を攻撃すると、その敵の攻撃力を<Status_Up>{Passive1_EffectValue1}%</>低下させる。（重複不可）",
+          "LocalizedString": "手持ちにいる間、<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態の敵を攻撃すると、その敵の攻撃力を<Status_Up>{Passive1_EffectValue1}%</>低下させる。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMinotaur_TextData",
+          "SourceString": "発動すると、<characterName id=|GrassMinotaur|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると、<characterName id=|GrassMinotaur|/>が力を分け与えてプレイヤーの攻撃が<img id=|ElemIcon_Grass|/><uiCommon id=|COMMON_ELEMENT_NAME_Leaf| style=|Elem_Grass|/>に変化し、攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingSunfish_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、通常より<Status_Keyword>才能のあるパル</>が釣れやすくなる。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\n手持ちにいる間、通常より<Status_Keyword>才能のあるパル</>が釣れやすくなる。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_KingSunfish_Thunder_TextData",
+          "SourceString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\nまた、手持ちにいる間、通常より<Status_Keyword>才能のあるパル</>が釣れやすくなる。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}",
+          "LocalizedString": "背中に乗って水上を移動できる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Electric|/><uiCommon id=|COMMON_ELEMENT_NAME_Electricity| style=|Elem_Electric|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive2_EffectValue1}%</>上昇する。\r\nまた、手持ちにいる間、通常より<Status_Keyword>才能のあるパル</>が釣れやすくなる。（重複不可）\r\n{ReferenceMsgId_SwimSpeedUp}"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GhostDragon_Fire_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|GhostDragon_Fire|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>または<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nこのパルの攻撃力と移動速度は、手持ちにいる<characterName id=|GhostDragon_Fire|/>以外の<img id=|ElemIcon_Dragon|/><uiCommon id=|COMMON_ELEMENT_NAME_Dragon| style=|Elem_Dragon|/>または<img id=|ElemIcon_Fire|/><uiCommon id=|COMMON_ELEMENT_NAME_Fire| style=|Elem_Fire|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WingGolem_Fire_TextData",
+          "SourceString": "発動すると鋼鉄の覚悟により、一定時間<characterName id=|WingGolem_Fire|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>、防御力が<Status_Up>{ReferencePassive2_EffectValue1}%</>増加する。",
+          "LocalizedString": "発動すると鋼鉄の覚悟により、一定時間<characterName id=|WingGolem_Fire|/>の攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>、防御力が<Status_Up>{ReferencePassive2_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderBird_Ice_TextData",
+          "SourceString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive3_EffectValue1}%</>上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderBird_Ice|/>以外の<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って空を飛ぶことができる。\r\nライド中、プレイヤーの攻撃が<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>に変化し、プレイヤーの攻撃力が<Status_Up>{Passive3_EffectValue1}%</>上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|ThunderBird_Ice|/>以外の<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ElecPomeranian_TextData",
+          "SourceString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_GenerateElectricity| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）",
+          "LocalizedString": "拠点にいる間、他の拠点パルの<uiCommon id=|COMMON_WORK_SUITABILITY_GenerateElectricity| style=|Status_Keyword|/>の作業適性レベルが<Status_Keyword>+{Passive1_EffectValue1}</>される。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WhiteDeer_Dark_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、一緒に戦っているパルのHPが徐々に減っていく代わりに、そのパルの攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、一緒に戦っているパルのHPが徐々に減っていく代わりに、そのパルの攻撃力が<Status_Up>{ReferencePassive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_CubeTurtle_Neutral_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>武器</>と<Status_Keyword>防具</>の耐久度消耗を<Status_Up>{Passive1_EffectValue1}%</>抑える。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、<Status_Keyword>武器</>と<Status_Keyword>防具</>の耐久度消耗を<Status_Up>{Passive1_EffectValue1}%</>抑える。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_GrassMinotaur_Ice_TextData",
+          "SourceString": "手持ちにいる間、プレイヤーが<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態の敵を攻撃すると、一発で<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態になる。",
+          "LocalizedString": "手持ちにいる間、プレイヤーが<uiCommon id=|ADDITIONAL_EFFECT_Wetness| style=|Effect_Wetness|/>状態の敵を攻撃すると、一発で<uiCommon id=|ADDITIONAL_EFFECT_Freeze| style=|Effect_Freeze|/>状態になる。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_VolcanoDragon_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>で弱点属性を突いたときのダメージが<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_DomeArmorDragon_TextData",
+          "SourceString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<Status_Keyword>爆発する攻撃</>を受けた際にダメージを<Status_Up>{Passive1_EffectValue2}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Stun| style=|Effect_Stun|/>状態を無効にする。（重複不可）",
+          "LocalizedString": "背中に乗って移動できる。\r\n手持ちにいる間、プレイヤーとパルが<Status_Keyword>爆発する攻撃</>を受けた際にダメージを<Status_Up>{Passive1_EffectValue2}%</>軽減し、<uiCommon id=|ADDITIONAL_EFFECT_Stun| style=|Effect_Stun|/>状態を無効にする。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_FlowerPrince_TextData",
+          "SourceString": "発動すると、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>の状態異常値が<Status_Up>{ReferencePassive1_EffectValue1}</>付与される。\r\n手持ちにいる間、プレイヤーとパルは<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態を無効にして、世界樹エリアの<Status_Keyword>毒ガスを無効化</>する。（重複不可）",
+          "LocalizedString": "発動すると、プレイヤーの攻撃に<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>の状態異常値が<Status_Up>{ReferencePassive1_EffectValue1}</>付与される。\r\n手持ちにいる間、プレイヤーとパルは<uiCommon id=|ADDITIONAL_EFFECT_Poison| style=|Effect_Poison|/>状態を無効にして、世界樹エリアの<Status_Keyword>毒ガスを無効化</>する。（重複不可）"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_WorldTreeDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_WorldTreeDragon_TextData",
+          "SourceString": "このパルが得意なことは調査中だ。",
+          "LocalizedString": "このパルが得意なことは調査中だ。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_NightBlueHorse_Neutral_TextData",
+          "SourceString": "背中に乗って移動でき、ライド中はジャンプ力が上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|NightBlueHorse_Neutral|/>以外の<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。",
+          "LocalizedString": "背中に乗って移動でき、ライド中はジャンプ力が上昇する。\r\nこのパルの移動速度は、手持ちにいる<characterName id=|NightBlueHorse_Neutral|/>以外の<img id=|ElemIcon_Neutral|/><uiCommon id=|COMMON_ELEMENT_NAME_Normal| style=|Elem_Neutral|/>パルの数×<Status_Up>{Passive1_EffectValue1}%</>増加する。"
+        }
+      },
+      "PAL_FIRST_SPAWN_DESC_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PAL_FIRST_SPAWN_DESC_ThunderDog_Ice_TextData",
+          "SourceString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}",
+          "LocalizedString": "背中に乗って移動できる。\r\nライド中、<Status_Keyword>2段ジャンプ</>が可能になる。\r\n手持ちにいる間、<img id=|ElemIcon_Ice|/><uiCommon id=|COMMON_ELEMENT_NAME_Ice| style=|Elem_Ice|/>のパルの防御力が<Status_Up>{Passive1_EffectValue1}%</>増加する。（重複不可）\r\n{ReferenceMsgId_RideSpeedUp}"
+        }
+      }
+    }
+  }
+]

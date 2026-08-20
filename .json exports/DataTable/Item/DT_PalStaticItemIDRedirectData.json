@@ -1,0 +1,394 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalStaticItemIDRedirectData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_PalStaticItemIDRedirectData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalItemIDRedirectTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "ACHP": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_HP_3"
+          },
+          {
+            "Key": "Accessory_HP_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_HP_1"
+        }
+      },
+      "ACAT": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_AT_2"
+          },
+          {
+            "Key": "Accessory_AT_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_AT_1"
+        }
+      },
+      "ACDF": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_defense_2"
+          },
+          {
+            "Key": "Accessory_defense_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_defense_1"
+        }
+      },
+      "ACWS": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_WorkSpeed_2"
+          },
+          {
+            "Key": "Accessory_WorkSpeed_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_WorkSpeed_1"
+        }
+      },
+      "ACHR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_HeatResist_2"
+          },
+          {
+            "Key": "Accessory_HeatResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_HeatResist_1"
+        }
+      },
+      "ACCR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_CoolResist_2"
+          },
+          {
+            "Key": "Accessory_CoolResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_CoolResist_1"
+        }
+      },
+      "ACNR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_NormalResist_2"
+          },
+          {
+            "Key": "Accessory_NormalResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_NormalResist_1"
+        }
+      },
+      "ACFR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_FireResist_2"
+          },
+          {
+            "Key": "Accessory_FireResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_FireResist_1"
+        }
+      },
+      "ACAR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_AquaResist_2"
+          },
+          {
+            "Key": "Accessory_AquaResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_AquaResist_1"
+        }
+      },
+      "ACTR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_ThunderResist_2"
+          },
+          {
+            "Key": "Accessory_ThunderResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_ThunderResist_1"
+        }
+      },
+      "ACLR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_LeafResist_2"
+          },
+          {
+            "Key": "Accessory_LeafResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_LeafResist_1"
+        }
+      },
+      "ACIR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_IceResist_3"
+          },
+          {
+            "Key": "Accessory_IceResist_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_IceResist_1"
+        }
+      },
+      "ACER": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_EarthResist_2"
+          },
+          {
+            "Key": "Accessory_EarthResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_EarthResist_1"
+        }
+      },
+      "ACDR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_DarkResist_2"
+          },
+          {
+            "Key": "Accessory_DarkResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_DarkResist_1"
+        }
+      },
+      "ACDGR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_DragonResist_2"
+          },
+          {
+            "Key": "Accessory_DragonResist_3"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_DragonResist_1"
+        }
+      },
+      "ACHCR": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_HeatColdResist_3"
+          },
+          {
+            "Key": "Accessory_HeatColdResist_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_HeatColdResist_1"
+        }
+      },
+      "ACMW": {
+        "SourceItemIds": [
+          {
+            "Key": "Accessory_MaxWeightUp_03"
+          },
+          {
+            "Key": "Accessory_MaxWeightUp_02"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Accessory_MaxWeightUp_01"
+        }
+      },
+      "Otomo_Normal": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Normal_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Normal_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Normal_1"
+        }
+      },
+      "Otomo_Frie": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Fire_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Fire_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Fire_1"
+        }
+      },
+      "Otomo_Water": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Water_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Water_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Water_1"
+        }
+      },
+      "Otomo_Electricity": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Electricity_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Electricity_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Electricity_1"
+        }
+      },
+      "Otomo_Leaf": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Leaf_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Leaf_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Leaf_1"
+        }
+      },
+      "Otomo_Ice": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Ice_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Ice_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Ice_1"
+        }
+      },
+      "Otomo_Earth": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Earth_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Earth_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Earth_1"
+        }
+      },
+      "Otomo_Dark": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Dark_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Dark_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Dark_1"
+        }
+      },
+      "Otomo_Dragon": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_ElementBoost_Dragon_3"
+          },
+          {
+            "Key": "Otomo_ElementBoost_Dragon_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_ElementBoost_Dragon_1"
+        }
+      },
+      "Otomo_AT": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_Attack_up3"
+          },
+          {
+            "Key": "Otomo_Attack_up2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_Attack_up1"
+        }
+      },
+      "Otomo_DF": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_Defense_up3"
+          },
+          {
+            "Key": "Otomo_Defense_up2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_Defense_up1"
+        }
+      },
+      "Otomo_PalExp": {
+        "SourceItemIds": [
+          {
+            "Key": "Otomo_PalExp_Increase_3"
+          },
+          {
+            "Key": "Otomo_PalExp_Increase_2"
+          }
+        ],
+        "DestinationItemId": {
+          "Key": "Otomo_PalExp_Increase_1"
+        }
+      }
+    }
+  }
+]

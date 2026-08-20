@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectLotteryDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/MapObject/DT_MapObjectLotteryDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalMapObjectLotteryData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "FieldName": "Grass01",
+        "Weight": 4.0,
+        "MapObjectId": "PickupItem_Lotus_Attack_01"
+      },
+      "2": {
+        "FieldName": "Grass01",
+        "Weight": 1.0,
+        "MapObjectId": "PickupItem_Lotus_Attack_02"
+      }
+    }
+  }
+]

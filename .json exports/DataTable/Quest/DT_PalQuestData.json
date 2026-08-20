@@ -1,0 +1,977 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalQuestData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Quest/DT_PalQuestData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalQuestDataSetRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Main_UnlockFastTravel": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_PalQuestData_UnlockFasttTavel.BP_MainQuest_PalQuestData_UnlockFasttTavel_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_OpenSurvivalGuide": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_OpenSurvivalGuide.BP_MainQuest_OpenSurvivalGuide_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_PickupWood": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_PickupItem.BP_MainQuest_PickupItem_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BuildWorkBench_Old": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_WorkBench.BP_MainQuest_WorkBench_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_UnlockPalSphere": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_UnlockPalSphere.BP_MainQuest_UnlockPalSphere_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CollectCrystal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CollectPalCrystal.BP_MainQuest_CollectPalCrystal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CraftPalSphere": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CraftPalSphere.BP_MainQuest_CraftPalSphere_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CapturePal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CaptureAnyPal.BP_MainQuest_CaptureAnyPal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_UnlockPalBox": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_UnlockPalBox.BP_MainQuest_UnlockPalBox_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BuildPalBox": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TutorialBaseCamp.BP_MainQuest_TutorialBaseCamp_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_WorkerPal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_Worker.BP_MainQuest_Worker_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_Meal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_Meal.BP_MainQuest_Meal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_EquipClothArmor": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_EquipArmor.BP_MainQuest_EquipArmor_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_GainStatus": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_UseStatusPoint.BP_MainQuest_UseStatusPoint_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CaptureSheepBall_Old": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CaptureSheepBall_Old.BP_MainQuest_CaptureSheepBall_Old_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CraftShield": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CraftShield.BP_MainQuest_CraftShield_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_UseGlider": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_Glider.BP_MainQuest_Glider_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_Capture30Pal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_Capture30Pals.BP_MainQuest_Capture30Pals_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_Craft_PalGear": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_Craft_PalGear.BP_MainQuest_Craft_PalGear_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatWildBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatWildBoss.BP_MainQuest_DefeatWildBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CraftMealPouch": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CraftMealPouch.BP_MainQuest_CraftMealPouch_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatDungeonBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatImprisonmentBoss.BP_MainQuest_DefeatImprisonmentBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BuildHatchingMachine": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TutorialBuildHatchingMachine.BP_MainQuest_TutorialBuildHatchingMachine_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BaseCampLevel": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TutorialBaseCampLevel.BP_MainQuest_TutorialBaseCampLevel_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatGrassBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatGrassBoss.BP_MainQuest_DefeatGrassBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CaptureDeerGround": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CaptureDeerGround.BP_MainQuest_CaptureDeerGround_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatForestBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatForestBoss.BP_MainQuest_DefeatForestBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatVolcanoBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatVolcanoBoss.BP_MainQuest_DefeatVolcanoBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatDesertBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatDesertBoss.BP_MainQuest_DefeatDesertBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatSnowyMountainBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatSnowyMountainBoss.BP_MainQuest_DefeatSnowyMountainBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatSakurajimaBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatSakurajimaBoss.BP_MainQuest_DefeatSakurajimaBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatVikingBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatVikingBoss.BP_MainQuest_DefeatVikingBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Farmer01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Farmer01.BP_SubQuest_Farmer01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Farmer02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Farmer02.BP_SubQuest_Farmer02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Farmer03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Farmer03.BP_SubQuest_Farmer03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Farmer04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Farmer04.BP_SubQuest_Farmer04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Scholar01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Scholar01.BP_SubQuest_Scholar01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Scholar02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Scholar02.BP_SubQuest_Scholar02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Scholar03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Scholar03.BP_SubQuest_Scholar03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Scholar04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Scholar04.BP_SubQuest_Scholar04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Breeder01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Breeder01.BP_SubQuest_Breeder01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Breeder02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Breeder02.BP_SubQuest_Breeder02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Breeder03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Breeder03.BP_SubQuest_Breeder03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Breeder04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Breeder04.BP_SubQuest_Breeder04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Ranger01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Ranger01.BP_SubQuest_Ranger01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Ranger02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Ranger02.BP_SubQuest_Ranger02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Ranger03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Ranger03.BP_SubQuest_Ranger03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Ranger04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Ranger04.BP_SubQuest_Ranger04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Nomad01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Nomad01.BP_SubQuest_Nomad01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Nomad02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Nomad02.BP_SubQuest_Nomad02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Nomad03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Nomad03.BP_SubQuest_Nomad03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Nomad04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Nomad04.BP_SubQuest_Nomad04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Zoe01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Zoe01.BP_SubQuest_Zoe01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Zoe02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Zoe02.BP_SubQuest_Zoe02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Zoe03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Zoe03.BP_SubQuest_Zoe03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Angler01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Angler01.BP_SubQuest_Angler01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_A_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_A_01.BP_SubQuest_PalDisplay_A_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_B_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_B_01.BP_SubQuest_PalDisplay_B_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_C_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_C_01.BP_SubQuest_PalDisplay_C_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_D_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_D_01.BP_SubQuest_PalDisplay_D_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_E_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_E_01.BP_SubQuest_PalDisplay_E_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_F_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_F_01.BP_SubQuest_PalDisplay_F_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_G_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_G_01.BP_SubQuest_PalDisplay_G_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_H_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_H_01.BP_SubQuest_PalDisplay_H_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalDisplay_I_01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalDisplay_I_01.BP_SubQuest_PalDisplay_I_01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PalCaptureCountReward": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PalCaptureCountReward.BP_SubQuest_PalCaptureCountReward_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_BossDefeatReward": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_BossDefeatReward.BP_SubQuest_BossDefeatReward_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_PaldexReward": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_PaldexReward.BP_SubQuest_PaldexReward_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_FoodReward": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_RewardFood.BP_SubQuest_RewardFood_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Kigurumi01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Kigurumi01.BP_SubQuest_Kigurumi01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Zoe04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Zoe04.BP_SubQuest_Zoe04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": true
+      },
+      "Sub_Zoe_Halloween": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Zoe_Halloween.BP_SubQuest_Zoe_Halloween_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_Kigurumi01_Replay": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_Kigurumi01_Replay.BP_SubQuest_Kigurumi01_Replay_C",
+          "SubPathString": ""
+        },
+        "bReorderable": true
+      },
+      "Hidden_ChangeWeaponBulletTutorialTrigger": {
+        "QuestType": "EPalQuestType::Hidden",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/HiddenQuest/BP_HiddenQuest_ChangeWeaponBulletTutorialTrigger.BP_HiddenQuest_ChangeWeaponBulletTutorialTrigger_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_StrongOldMan01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_StrongOldMan01.BP_SubQuest_StrongOldMan01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_StrongOldMan02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_StrongOldMan02.BP_SubQuest_StrongOldMan02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_StrongOldMan03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_StrongOldMan03.BP_SubQuest_StrongOldMan03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_StrongOldMan04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_StrongOldMan04.BP_SubQuest_StrongOldMan04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_StrongOldMan05": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_StrongOldMan05.BP_SubQuest_StrongOldMan05_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_TutorialStart": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TutorialStart.BP_MainQuest_TutorialStart_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BuildWorkbench": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_BuildWorkbench.BP_MainQuest_BuildWorkbench_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_StatusUp": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_StatusUp.BP_MainQuest_StatusUp_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CatchPal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CatchPal.BP_MainQuest_CatchPal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_WorkPal": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_WorkPal.BP_MainQuest_WorkPal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_EatFood": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_EatFood.BP_MainQuest_EatFood_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CaptureSheepBall": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CaptureSheepBall_New.BP_MainQuest_CaptureSheepBall_New_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_PrepareEquipment": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_PrepareEquipment.BP_MainQuest_PrepareEquipment_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_BeginAdventure": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_BeginAdventure.BP_MainQuest_BeginAdventure_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_SmallVillage": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_SmallVillage.BP_MainQuest_SmallVillage_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CraftPalGear": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CraftPalGear.BP_MainQuest_CraftPalGear_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_RayneSyndicate": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_RayneSyndicate.BP_MainQuest_RayneSyndicate_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_ReturnSmallVillage": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_ReturnSmallVillage.BP_MainQuest_ReturnSmallVillage_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_TalkGrassBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TalkGrassBoss.BP_MainQuest_TalkGrassBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CollectKeySpheres": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CollectKeySpheres.BP_MainQuest_CollectKeySpheres_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_TalkSkyBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TalkSkyBoss.BP_MainQuest_TalkSkyBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_TalkSkyBossAgain": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TalkSkyBossAgain.BP_MainQuest_TalkSkyBossAgain_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatKingWhale": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatKingWhale.BP_MainQuest_DefeatKingWhale_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_ReachWorldTree": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_ReachWorldTree.BP_MainQuest_ReachWorldTree_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_TalkWorldTreeNPC": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_TalkWorldTreeNPC.BP_MainQuest_TalkWorldTreeNPC_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_WorldTreeAbyss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_WorldTreeAbyss.BP_MainQuest_WorldTreeAbyss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatWorldTreeDragon": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatWorldTreeDragon.BP_MainQuest_DefeatWorldTreeDragon_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Hidden_WhaleWhistlePickUpTrigger": {
+        "QuestType": "EPalQuestType::Hidden",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/HiddenQuest/BP_HiddenQuest_ChangeWeaponBulletTutorialTrigger.BP_HiddenQuest_ChangeWeaponBulletTutorialTrigger_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Hidden_WhaleWhistleTrigger": {
+        "QuestType": "EPalQuestType::Hidden",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/HiddenQuest/BP_HiddenQuest_WhaleWhistlePickUpTrigger.BP_HiddenQuest_WhaleWhistlePickUpTrigger_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Test_UnlockAreaBarriers": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/PalEditor/Maps/Quest/Test_Hidden_UnlockAreaBarriers/BP_Quest_Test_UnlockAreaBarriers.BP_Quest_Test_UnlockAreaBarriers_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_CraftTools": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_CraftTools.BP_MainQuest_CraftTools_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatSkyIslandBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatSkyIslandBoss.BP_MainQuest_DefeatSkyIslandBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Main_DefeatWorldTreeMiddleBoss": {
+        "QuestType": "EPalQuestType::Main",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/MainQuest/BP_MainQuest_DefeatWorldTreeMiddleBoss.BP_MainQuest_DefeatWorldTreeMiddleBoss_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_RookieExpeditionTeam01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_RookieExpeditionTeam01.BP_SubQuest_RookieExpeditionTeam01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_RookieExpeditionTeam02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_RookieExpeditionTeam02.BP_SubQuest_RookieExpeditionTeam02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_RookieExpeditionTeam03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_RookieExpeditionTeam03.BP_SubQuest_RookieExpeditionTeam03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_RookieExpeditionTeam04": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_RookieExpeditionTeam04.BP_SubQuest_RookieExpeditionTeam04_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_LoneWolf01": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_LoneWolf01.BP_SubQuest_LoneWolf01_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_LoneWolf02": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_LoneWolf02.BP_SubQuest_LoneWolf02_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_LoneWolf03": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_LoneWolf03.BP_SubQuest_LoneWolf03_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_DeliverySulfur": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_DeliverySulfur.BP_SubQuest_DeliverySulfur_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_DeliveryWood_Fine": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_DeliveryWood_Fine.BP_SubQuest_DeliveryWood_Fine_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_DeliveryQuartz": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_DeliveryQuartz.BP_SubQuest_DeliveryQuartz_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_DeliveryRainbowCrystal": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_DeliveryRainbowCrystal.BP_SubQuest_DeliveryRainbowCrystal_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_DeliverySkyIslandOre": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_DeliverySkyIslandOre.BP_SubQuest_DeliverySkyIslandOre_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      },
+      "Sub_HowSurviveWorldTree": {
+        "QuestType": "EPalQuestType::Sub",
+        "QuestData": {
+          "AssetPathName": "/Game/Pal/Blueprint/Quest/SubQuest/BP_SubQuest_HowSurviveWorldTree.BP_SubQuest_HowSurviveWorldTree_C",
+          "SubPathString": ""
+        },
+        "bReorderable": false
+      }
+    }
+  }
+]

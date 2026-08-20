@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalGamepadButtonImage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/UI/DT_PalGamepadButtonImage",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalGamepadButtonImageDatabaseRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_A.T_KeyGuide_A",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_FaceButton_Bottom"
+        }
+      },
+      "NewRow_0": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_B.T_KeyGuide_B",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_FaceButton_Right"
+        }
+      },
+      "NewRow_1": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_X.T_KeyGuide_X",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_FaceButton_Left"
+        }
+      },
+      "NewRow_2": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_Y.T_KeyGuide_Y",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_FaceButton_Top"
+        }
+      },
+      "NewRow_3": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_L1.T_KeyGuide_L1",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftShoulder"
+        }
+      },
+      "NewRow_4": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_L2.T_KeyGuide_L2",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftTrigger"
+        }
+      },
+      "NewRow_5": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_L3.T_KeyGuide_L3",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftThumbstick"
+        }
+      },
+      "NewRow_6": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_R1.T_KeyGuide_R1",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightShoulder"
+        }
+      },
+      "NewRow_7": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_R2.T_KeyGuide_R2",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightTrigger"
+        }
+      },
+      "NewRow_8": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_R3.T_KeyGuide_R3",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightThumbstick"
+        }
+      },
+      "NewRow_9": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_View.T_KeyGuide_View",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_Special_Left"
+        }
+      },
+      "NewRow_10": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_Menu.T_KeyGuide_Menu",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_Special_Right"
+        }
+      },
+      "NewRow_11": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_LR.T_KeyGuide_StickL_LR",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftX"
+        }
+      },
+      "NewRow_12": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_L.T_KeyGuide_StickL_L",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftStick_Left"
+        }
+      },
+      "NewRow_13": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_R.T_KeyGuide_StickL_R",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftStick_Right"
+        }
+      },
+      "NewRow_14": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_UD.T_KeyGuide_StickL_UD",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftY"
+        }
+      },
+      "NewRow_15": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_U.T_KeyGuide_StickL_U",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftStick_Up"
+        }
+      },
+      "NewRow_16": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickL_D.T_KeyGuide_StickL_D",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_LeftStick_Down"
+        }
+      },
+      "NewRow_17": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_LR.T_KeyGuide_StickR_LR",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightX"
+        }
+      },
+      "NewRow_18": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_L.T_KeyGuide_StickR_L",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightStick_Left"
+        }
+      },
+      "NewRow_19": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_R.T_KeyGuide_StickR_R",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightStick_Right"
+        }
+      },
+      "NewRow_20": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_UD.T_KeyGuide_StickR_UD",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightY"
+        }
+      },
+      "NewRow_21": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_U.T_KeyGuide_StickR_U",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightStick_Up"
+        }
+      },
+      "NewRow_22": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_StickR_D.T_KeyGuide_StickR_D",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_RightStick_Down"
+        }
+      },
+      "NewRow_23": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_CrossU.T_KeyGuide_CrossU",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_DPad_Up"
+        }
+      },
+      "NewRow_24": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_CrossD.T_KeyGuide_CrossD",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_DPad_Down"
+        }
+      },
+      "NewRow_25": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_CrossL.T_KeyGuide_CrossL",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_DPad_Left"
+        }
+      },
+      "NewRow_26": {
+        "XboxButtonImage": {
+          "AssetPathName": "/Game/Pal/Texture/UI/KeyGuide/T_KeyGuide_CrossR.T_KeyGuide_CrossR",
+          "SubPathString": ""
+        },
+        "Key": {
+          "KeyName": "Gamepad_DPad_Right"
+        }
+      }
+    }
+  }
+]

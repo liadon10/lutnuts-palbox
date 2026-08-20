@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalRecruitAppealDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitAppealDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRecruitAppealRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_FullStomach_Down_3": {
+        "PassiveSkill": "PAL_FullStomach_Down_3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_FullStomach_Down_3"
+      },
+      "Deffence_up3": {
+        "PassiveSkill": "Deffence_up3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Deffence_up3"
+      },
+      "CraftSpeed_up3": {
+        "PassiveSkill": "CraftSpeed_up3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CraftSpeed_up3"
+      },
+      "PAL_ALLAttack_up3": {
+        "PassiveSkill": "PAL_ALLAttack_up3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ALLAttack_up3"
+      },
+      "MoveSpeed_up_3": {
+        "PassiveSkill": "MoveSpeed_up_3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_MoveSpeed_up_3"
+      },
+      "PAL_Sanity_Down_3": {
+        "PassiveSkill": "PAL_Sanity_Down_3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_Sanity_Down_3"
+      },
+      "PAL_FullStomach_Down_2": {
+        "PassiveSkill": "PAL_FullStomach_Down_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_FullStomach_Down_2"
+      },
+      "Deffence_up2": {
+        "PassiveSkill": "Deffence_up2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Deffence_up2"
+      },
+      "SalePrice_Up_1": {
+        "PassiveSkill": "SalePrice_Up_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_SalePrice_Up_1"
+      },
+      "CraftSpeed_up2": {
+        "PassiveSkill": "CraftSpeed_up2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CraftSpeed_up2"
+      },
+      "PAL_ALLAttack_up2": {
+        "PassiveSkill": "PAL_ALLAttack_up2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ALLAttack_up2"
+      },
+      "Noukin": {
+        "PassiveSkill": "Noukin",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Noukin"
+      },
+      "MoveSpeed_up_2": {
+        "PassiveSkill": "MoveSpeed_up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_MoveSpeed_up_2"
+      },
+      "TrainerATK_UP_1": {
+        "PassiveSkill": "TrainerATK_UP_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_TrainerATK_UP_1"
+      },
+      "TrainerDEF_UP_1": {
+        "PassiveSkill": "TrainerDEF_UP_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_TrainerDEF_UP_1"
+      },
+      "TrainerWorkSpeed_UP_1": {
+        "PassiveSkill": "TrainerWorkSpeed_UP_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_TrainerWorkSpeed_UP_1"
+      },
+      "TrainerMining_up1": {
+        "PassiveSkill": "TrainerMining_up1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_TrainerMining_up1"
+      },
+      "TrainerLogging_up1": {
+        "PassiveSkill": "TrainerLogging_up1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_TrainerLogging_up1"
+      },
+      "Vampire": {
+        "PassiveSkill": "Vampire",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Vampire"
+      },
+      "Test_PalEgg_HatchingSpeed_Up": {
+        "PassiveSkill": "Test_PalEgg_HatchingSpeed_Up",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Test_PalEgg_HatchingSpeed_Up"
+      },
+      "Stamina_Up_3": {
+        "PassiveSkill": "Stamina_Up_3",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Stamina_Up_3"
+      },
+      "Stamina_Up_1": {
+        "PassiveSkill": "Stamina_Up_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Stamina_Up_1"
+      },
+      "CoolTimeReduction_Up_1": {
+        "PassiveSkill": "CoolTimeReduction_Up_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CoolTimeReduction_Up_1"
+      },
+      "PAL_Sanity_Down_2": {
+        "PassiveSkill": "PAL_Sanity_Down_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_Sanity_Down_2"
+      },
+      "PAL_FullStomach_Down_1": {
+        "PassiveSkill": "PAL_FullStomach_Down_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_FullStomach_Down_1"
+      },
+      "Deffence_up1": {
+        "PassiveSkill": "Deffence_up1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Deffence_up1"
+      },
+      "PAL_masochist": {
+        "PassiveSkill": "PAL_masochist",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_masochist"
+      },
+      "ElementBoost_Normal_1_PAL": {
+        "PassiveSkill": "ElementBoost_Normal_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Normal_1_PAL"
+      },
+      "ElementBoost_Fire_1_PAL": {
+        "PassiveSkill": "ElementBoost_Fire_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Fire_1_PAL"
+      },
+      "ElementBoost_Aqua_1_PAL": {
+        "PassiveSkill": "ElementBoost_Aqua_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Aqua_1_PAL"
+      },
+      "ElementBoost_Thunder_1_PAL": {
+        "PassiveSkill": "ElementBoost_Thunder_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Thunder_1_PAL"
+      },
+      "ElementBoost_Leaf_1_PAL": {
+        "PassiveSkill": "ElementBoost_Leaf_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Leaf_1_PAL"
+      },
+      "ElementBoost_Ice_1_PAL": {
+        "PassiveSkill": "ElementBoost_Ice_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Ice_1_PAL"
+      },
+      "ElementBoost_Earth_1_PAL": {
+        "PassiveSkill": "ElementBoost_Earth_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Earth_1_PAL"
+      },
+      "ElementBoost_Dark_1_PAL": {
+        "PassiveSkill": "ElementBoost_Dark_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Dark_1_PAL"
+      },
+      "ElementBoost_Dragon_1_PAL": {
+        "PassiveSkill": "ElementBoost_Dragon_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementBoost_Dragon_1_PAL"
+      },
+      "ElementResist_Normal_1_PAL": {
+        "PassiveSkill": "ElementResist_Normal_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Normal_1_PAL"
+      },
+      "ElementResist_Fire_1_PAL": {
+        "PassiveSkill": "ElementResist_Fire_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Fire_1_PAL"
+      },
+      "ElementResist_Aqua_1_PAL": {
+        "PassiveSkill": "ElementResist_Aqua_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Aqua_1_PAL"
+      },
+      "ElementResist_Thunder_1_PAL": {
+        "PassiveSkill": "ElementResist_Thunder_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Thunder_1_PAL"
+      },
+      "ElementResist_Leaf_1_PAL": {
+        "PassiveSkill": "ElementResist_Leaf_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Leaf_1_PAL"
+      },
+      "ElementResist_Ice_1_PAL": {
+        "PassiveSkill": "ElementResist_Ice_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Ice_1_PAL"
+      },
+      "ElementResist_Earth_1_PAL": {
+        "PassiveSkill": "ElementResist_Earth_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Earth_1_PAL"
+      },
+      "ElementResist_Dark_1_PAL": {
+        "PassiveSkill": "ElementResist_Dark_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Dark_1_PAL"
+      },
+      "ElementResist_Dragon_1_PAL": {
+        "PassiveSkill": "ElementResist_Dragon_1_PAL",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_ElementResist_Dragon_1_PAL"
+      },
+      "SalePrice_Up_2": {
+        "PassiveSkill": "SalePrice_Up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_SalePrice_Up_2"
+      },
+      "CraftSpeed_up1": {
+        "PassiveSkill": "CraftSpeed_up1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CraftSpeed_up1"
+      },
+      "PAL_conceited": {
+        "PassiveSkill": "PAL_conceited",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_conceited"
+      },
+      "PAL_CorporateSlave": {
+        "PassiveSkill": "PAL_CorporateSlave",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_CorporateSlave"
+      },
+      "PAL_ALLAttack_up1": {
+        "PassiveSkill": "PAL_ALLAttack_up1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ALLAttack_up1"
+      },
+      "PAL_rude": {
+        "PassiveSkill": "PAL_rude",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_rude"
+      },
+      "PAL_sadist": {
+        "PassiveSkill": "PAL_sadist",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_sadist"
+      },
+      "PAL_oraora": {
+        "PassiveSkill": "PAL_oraora",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_oraora"
+      },
+      "MoveSpeed_up_1": {
+        "PassiveSkill": "MoveSpeed_up_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_MoveSpeed_up_1"
+      },
+      "Nocturnal": {
+        "PassiveSkill": "Nocturnal",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Nocturnal"
+      },
+      "NonKilling": {
+        "PassiveSkill": "NonKilling",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_NonKilling"
+      },
+      "Stamina_Up_2": {
+        "PassiveSkill": "Stamina_Up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Stamina_Up_2"
+      },
+      "CoolTimeReduction_Up_2": {
+        "PassiveSkill": "CoolTimeReduction_Up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CoolTimeReduction_Up_2"
+      },
+      "PAL_Sanity_Down_1": {
+        "PassiveSkill": "PAL_Sanity_Down_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_Sanity_Down_1"
+      },
+      "PAL_FullStomach_Up_1": {
+        "PassiveSkill": "PAL_FullStomach_Up_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_FullStomach_Up_1"
+      },
+      "PAL_FullStomach_Up_2": {
+        "PassiveSkill": "PAL_FullStomach_Up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_FullStomach_Up_2"
+      },
+      "Deffence_down1": {
+        "PassiveSkill": "Deffence_down1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Deffence_down1"
+      },
+      "Deffence_down2": {
+        "PassiveSkill": "Deffence_down2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Deffence_down2"
+      },
+      "SalePrice_Down_1": {
+        "PassiveSkill": "SalePrice_Down_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_SalePrice_Down_1"
+      },
+      "CraftSpeed_down1": {
+        "PassiveSkill": "CraftSpeed_down1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CraftSpeed_down1"
+      },
+      "CraftSpeed_down2": {
+        "PassiveSkill": "CraftSpeed_down2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CraftSpeed_down2"
+      },
+      "PAL_ALLAttack_down1": {
+        "PassiveSkill": "PAL_ALLAttack_down1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ALLAttack_down1"
+      },
+      "PAL_ALLAttack_down2": {
+        "PassiveSkill": "PAL_ALLAttack_down2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ALLAttack_down2"
+      },
+      "Stamina_Down_1": {
+        "PassiveSkill": "Stamina_Down_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_Stamina_Down_1"
+      },
+      "CoolTimeReduction_Down_1": {
+        "PassiveSkill": "CoolTimeReduction_Down_1",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_CoolTimeReduction_Down_1"
+      },
+      "PAL_SpiritualInst": {
+        "PassiveSkill": "PAL_SpiritualInst",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_SpiritualInst"
+      },
+      "PAL_Sanity_Up_2": {
+        "PassiveSkill": "PAL_Sanity_Up_2",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_Sanity_Up_2"
+      },
+      "PlayerSP_DecreaseRate_Passive": {
+        "PassiveSkill": "PlayerSP_DecreaseRate_Passive",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PlayerSP_DecreaseRate_Passive"
+      },
+      "AutoHPRegeneRate_Passive": {
+        "PassiveSkill": "AutoHPRegeneRate_Passive",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_AutoHPRegeneRate_Passive"
+      },
+      "ReloadSpeedUp_Passive": {
+        "PassiveSkill": "ReloadSpeedUp_Passive",
+        "TextId": "PALRECRUIT_APPEAL_TEXT_DEFAULT_PAL_ReloadSpeedUp_Passive"
+      }
+    }
+  }
+]

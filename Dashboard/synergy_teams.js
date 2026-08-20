@@ -1,0 +1,272 @@
+window.SYNERGY_TEAMS = [
+  {
+    "id": "team-1",
+    "team_name": "Ground Pounders",
+    "type": "Ground",
+    "icon": "\u26f0\ufe0f",
+    "members": [
+      {
+        "name": "Anubis",
+        "guid": ""
+      },
+      {
+        "name": "Surfent Terra",
+        "guid": ""
+      },
+      {
+        "name": "Dumud",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Dumud passive Earth ATK boost, Anubis unmounted Ground infusion.",
+    "recommendations": "Lead: Anubis (Legend, Earth Emperor, Musclehead, Demon God/Ferocious). Supports (Dumud, Solenne, Silvegis): Vanguard, Stronghold Strategist, Reload Master/Combat Bond."
+  },
+  {
+    "id": "team-2",
+    "team_name": "Ice Breakers",
+    "type": "Ice",
+    "icon": "\u2744\ufe0f",
+    "members": [
+      {
+        "name": "Frostallion",
+        "guid": ""
+      },
+      {
+        "name": "Icelyn",
+        "guid": ""
+      },
+      {
+        "name": "Foxcicle",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Foxcicle passive Ice ATK boost, Frostallion mounted Ice player damage infusion + Ice bonus.",
+    "recommendations": "Lead: Frostallion (Legend, Ice Emperor, Musclehead, Swift/Demon God). Ride Frostallion to convert Solenne-buffed weapon gunfire into pure Ice vs Dragon bosses."
+  },
+  {
+    "id": "team-3",
+    "team_name": "Fire Setters",
+    "type": "Fire",
+    "icon": "\ud83d\udd25",
+    "members": [
+      {
+        "name": "Renjishi",
+        "guid": ""
+      },
+      {
+        "name": "Jormuntide Ignis",
+        "guid": ""
+      },
+      {
+        "name": "Flaracle",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Jormuntide Ignis heavy AoE fire arts, Burn DoT status effects.",
+    "recommendations": "Lead: Jormuntide Ignis (Legend, Flame Emperor, Musclehead, Ferocious/Demon God). Focus on stacking Burn ticks with Fire Ball and Inferno while melting Grass/Ice targets."
+  },
+  {
+    "id": "team-4",
+    "team_name": "Electric Boogaloos",
+    "type": "Electric",
+    "icon": "\u26a1",
+    "members": [
+      {
+        "name": "Snock",
+        "guid": ""
+      },
+      {
+        "name": "Helzephyr Lux",
+        "guid": ""
+      },
+      {
+        "name": "Orserk",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Shock CC stun status, Orserk heavy Dragon/Electric scaling.",
+    "recommendations": "Lead: Orserk (Legend, Lord of Lightning, Musclehead, Tempest Fury/Demon God). Snock & Helzephyr Lux run Vanguard/Stronghold to maximize player crits during Shock stuns."
+  },
+  {
+    "id": "team-5",
+    "team_name": "Water Hazard Violations",
+    "type": "Water",
+    "icon": "\ud83d\udca7",
+    "members": [
+      {
+        "name": "Ophydia",
+        "guid": ""
+      },
+      {
+        "name": "Neptilius",
+        "guid": ""
+      },
+      {
+        "name": "Azurobe",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Azurobe mounted Water damage infusion, Drenched debuff (+100% Electric dmg taken).",
+    "recommendations": "Lead: Azurobe (Legend, Lord of the Sea, Musclehead, Swift). Mount Azurobe to apply Water infusion, soak targets, then shred with Solenne-boosted weapon DPS."
+  },
+  {
+    "id": "team-6",
+    "team_name": "Grass Touching Avoiders",
+    "type": "Grass",
+    "icon": "\ud83c\udf31",
+    "members": [
+      {
+        "name": "Silvance",
+        "guid": ""
+      },
+      {
+        "name": "Dandilord",
+        "guid": ""
+      },
+      {
+        "name": "Needoll Noct",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Tangled/Ivy crowd-control debuffs, massive AoE area denial.",
+    "recommendations": "Lead: Dandilord/Silvance (Legend, Spirit Emperor, Musclehead, Ferocious/Demon God). Maximize continuous zoning projectiles against heavy Ground bosses."
+  },
+  {
+    "id": "team-7",
+    "team_name": "Neutral NPC Energy",
+    "type": "Neutral",
+    "icon": "\u26aa",
+    "members": [
+      {
+        "name": "Cremis",
+        "guid": ""
+      },
+      {
+        "name": "Ribbunny",
+        "guid": ""
+      },
+      {
+        "name": "Lunaris",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Cremis/Ribbunny passive Neutral ATK stacking, Lunaris player carry weight boost.",
+    "recommendations": "Full Gunner Hypercarry: Run Vanguard + Stronghold Strategist + Combat Bond across all 4 pocket supports (Cremis, Ribbunny, Solenne, Silvegis) for pure maximum raw gun damage."
+  },
+  {
+    "id": "team-8",
+    "team_name": "Dark Mode Zealots",
+    "type": "Dark",
+    "icon": "\ud83c\udf11",
+    "members": [
+      {
+        "name": "Frostallion Noct",
+        "guid": ""
+      },
+      {
+        "name": "Hoocrates",
+        "guid": ""
+      },
+      {
+        "name": "Demon Eye",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Hoocrates passive Dark ATK aura, Frostallion Noct mounted Dark infusion + Dark bonus.",
+    "recommendations": "Lead: Frostallion Noct (Legend, Lord of the Underworld, Musclehead, Swift/Demon God). Mount Frostallion Noct with Hoocrates in pocket to melt Neutral legends (Paladius)."
+  },
+  {
+    "id": "team-9",
+    "team_name": "Dragon Wagon Hijackers",
+    "type": "Dragon",
+    "icon": "\ud83d\udc09",
+    "members": [
+      {
+        "name": "Orserk",
+        "guid": ""
+      },
+      {
+        "name": "Chillet",
+        "guid": ""
+      },
+      {
+        "name": "Quivern",
+        "guid": ""
+      },
+      {
+        "name": "Solenne",
+        "guid": "0a0812f7-d89f-4403-85e4-c104a198c81d"
+      },
+      {
+        "name": "Silvegis",
+        "guid": "700db970-1e73-4c15-9a6f-57c84ae4ddf0"
+      }
+    ],
+    "synergy_desc": "Solenne (+80% Player ATK), Silvegis (-60% Shield Delay, -80% Shield Dmg Taken), Chillet mounted Dragon player damage infusion, Quivern Dragon damage boost.",
+    "recommendations": "Lead: Chillet (Legend, Divine Dragon, Musclehead, Swift). Mount Chillet to convert Solenne's +80% ATK into Dragon bullets against Dark raid bosses (Bellanoir/Necromus)."
+  }
+];

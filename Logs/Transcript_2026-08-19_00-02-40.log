@@ -1,0 +1,25 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[✓] Successfully loaded 264 passive skill overrides from 'Passives and Implants' tab.
+[✓] Successfully loaded 45 active skill elements from 'Skill Fruits' tab.
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] Harvested 5285 modded passive skill definitions & ranks across installed mods.
+[*] PlM/PlZ Container: target=38MB, compressed=2MB, magic=b'PlM1'
+[✓] Decompressed PlM/Oodle stream (38MB)!
+[*] Scoping Pal parsing to CharacterSaveParameterMap (37MB)...
+[*] Found 4153 potential Pal name signatures in target map.
+[*] PlM/PlZ Container: target=5MB, compressed=0MB, magic=b'PlM1'
+[✓] Decompressed PlM/Oodle stream (5MB)!
+[✓] Extracted 265 Global Palbox Pals from LocalData.sav.
+[✓] Extracted 2989 total owned Pals with metadata.
+[✓] Successfully loaded 264 passive skill overrides from 'Passives and Implants' tab.
+[✓] Successfully loaded 45 active skill elements from 'Skill Fruits' tab.
+[*] Completely wiping sheet 'My Pals'...
+[✓] Success: Uploaded 2989 Pal entries (with Headers) to 'My Pals'.
+[*] Formatting alignment & Skill colors/heatmaps...
+[✓] Applied alignment & skill color formatting across 11616 requests.
+
+[✓] [00:03:21] Sync complete. Exiting script.

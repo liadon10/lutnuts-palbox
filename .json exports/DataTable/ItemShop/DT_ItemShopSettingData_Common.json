@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemShopSettingData_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/ItemShop/DT_ItemShopSettingData_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalItemShopSettingDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Medal_Shop_1": {
+        "CurrencyItemID": "DogCoin"
+      },
+      "Bounty_Shop_1": {
+        "CurrencyItemID": "BountyProof_1"
+      },
+      "Arena_Shop_1": {
+        "CurrencyItemID": "BattleTicket"
+      }
+    }
+  }
+]

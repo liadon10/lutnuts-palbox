@@ -1,0 +1,339 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_ItemShopLotteryData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Package": "Pal/Content/Pal/DataTable/ItemShop/DT_ItemShopLotteryData",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_ItemShopLotteryData_Common'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/ItemShop/DT_ItemShopLotteryData_Common.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalItemShopLotteryDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TestTable_1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Vagrant_Trader_1_1",
+            "Weight": 100
+          },
+          {
+            "ShopGroupName": "Vagrant_Trader_1_2",
+            "Weight": 50
+          },
+          {
+            "ShopGroupName": "Vagrant_Trader_1_3",
+            "Weight": 50
+          }
+        ]
+      },
+      "TestTable_2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Village_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "TestTable_3": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "TestShop_2",
+            "Weight": 25
+          },
+          {
+            "ShopGroupName": "TestShop_3",
+            "Weight": 50
+          }
+        ]
+      },
+      "DesertShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Desert_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "VolcanoShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Volcano_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "WanderShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Wander_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "DesertShopTable2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Desert_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "VolcanoShopTable2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Volcano_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "MedalShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Medal_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "SkinShopTest": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Skin_Shop_Test",
+            "Weight": 100
+          }
+        ]
+      },
+      "BountyShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Bounty_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop3": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_3",
+            "Weight": 100
+          }
+        ]
+      },
+      "ArenaShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Arena_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop4": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_4",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop5": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_5",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop6": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_6",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop7": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_7",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop8": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_8",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop9": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_9",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop10": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_10",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop11": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_11",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop12": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_12",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop13": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_13",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop14": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_14",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop15": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_15",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop16": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_16",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop17": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_17",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop18": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_18",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop19": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_19",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop20": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_20",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop21": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_21",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop22": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_22",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop23": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_23",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop24": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_24",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop25": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_25",
+            "Weight": 100
+          }
+        ]
+      },
+      "Dungeon_Shop_01": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Dungeon_Shop_01",
+            "Weight": 100
+          }
+        ]
+      }
+    }
+  }
+]

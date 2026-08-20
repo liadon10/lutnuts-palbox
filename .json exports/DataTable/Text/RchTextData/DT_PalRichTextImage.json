@@ -1,0 +1,809 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalRichTextImage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/RchTextData/DT_PalRichTextImage",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RichImageRow'",
+        "ObjectPath": "/Script/UMG"
+      }
+    },
+    "Rows": {
+      "Money": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 36.0,
+            "Y": 36.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_icon_money'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_icon_money.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "KillLog_Down": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 23.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_icon_notice_down'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/InGame/T_icon_notice_down.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "KillLog_Death": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 23.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.119792,
+              "B": 0.1373,
+              "A": 1.0,
+              "Hex": "FF6168"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_icon_notice_death'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/InGame/T_icon_notice_death.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Fire": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_01'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_01.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Water": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_02'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_02.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Electric": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_03'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_03.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Ground": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_07'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_07.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Grass": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_04'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_04.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Ice": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_08'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_08.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Dragon": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_06'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_06.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Dark": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_05'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_05.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      },
+      "ElemIcon_Neutral": {
+        "Brush": {
+          "bIsDynamicallyLoaded": false,
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 128.0,
+            "Y": 128.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Icon_element_00'",
+            "ObjectPath": "Pal/Content/Pal/Texture/UI/Main_Menu/T_Icon_element_00.0"
+          },
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          }
+        }
+      }
+    }
+  }
+]

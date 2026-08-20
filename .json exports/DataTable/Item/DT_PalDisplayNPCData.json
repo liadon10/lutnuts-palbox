@@ -1,0 +1,341 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalDisplayNPCData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_PalDisplayNPCData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalDisplayRequestData_DataAsset'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Area_A1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "Carbunclo",
+        "RewardItems": "((PalSphere,10), (TreasureBoxKey01,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_A1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "Garm",
+        "RewardItems": "((ExpBoost_01,3), (Herbs,3))",
+        "ExpBonusLevel": 1
+      },
+      "Area_A1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "CatBat",
+        "RewardItems": "((PalSphere_Mega,4), (Potion_Low,4))",
+        "ExpBonusLevel": 1
+      },
+      "Area_A1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "CaptainPenguin",
+        "RewardItems": "((ExpBoost_02,3), (Medicines,1), (Money,100))",
+        "ExpBonusLevel": 1
+      },
+      "Area_A1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "KingAlpaca",
+        "RewardItems": "((TechnologyBook_G1,1), (DeerStew,2), (TreasureBoxKey02,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_A1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_A1",
+        "RequestPalID": "GrassMammoth",
+        "RewardItems": "((Elixir_workspeed_01,1), (PalSphere_Tera,10), (BakedMeat_GrassMammoth,1))",
+        "ExpBonusLevel": 2
+      },
+      "Area_B1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "Serpent",
+        "RewardItems": "((PalSphere_Mega,5), (PalUpgradeStone,4))",
+        "ExpBonusLevel": 1
+      },
+      "Area_B1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "LazyCatfish",
+        "RewardItems": "((TechnologyBook_G1,1), (Herbs,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_B1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "MopKing",
+        "RewardItems": "((PalSphere_Giga,3), (PalUpgradeStone,4), (Money,800))",
+        "ExpBonusLevel": 1
+      },
+      "Area_B1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "DrillGame",
+        "RewardItems": "((ExpBoost_01,4), (Chowder,2), (Medicines,4))",
+        "ExpBonusLevel": 1
+      },
+      "Area_B1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "BirdDragon",
+        "RewardItems": "((AncientTechnologyBook_G1,1), (ExpBoost_02,2), (TreasureBoxKey02,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_B1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_B1",
+        "RequestPalID": "FengyunDeeper",
+        "RewardItems": "((Elixir_hp_01,2), (ExpBoost_03,2), (PalSphere_Tera,6))",
+        "ExpBonusLevel": 2
+      },
+      "Area_C1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "FluffyBird",
+        "RewardItems": "((PalUpgradeStone,3), (BakedMeat_Eagle,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_C1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "Eagle",
+        "RewardItems": "((TreasureBoxKey02,1), (PalSphere_Mega,8))",
+        "ExpBonusLevel": 1
+      },
+      "Area_C1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "Werewolf",
+        "RewardItems": "((ExpBoost_02,6), (PalUpgradeStone,4))",
+        "ExpBonusLevel": 1
+      },
+      "Area_C1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "FlowerDoll",
+        "RewardItems": "((ExpBoost_03,2), (PalSphere_Tera,6), (MachineParts,12))",
+        "ExpBonusLevel": 1
+      },
+      "Area_C1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "FairyDragon",
+        "RewardItems": "((TechnologyBook_G1,1), (Potion,2), (PalSphere_Tera,6))",
+        "ExpBonusLevel": 1
+      },
+      "Area_C1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_C1",
+        "RequestPalID": "SakuraSaurus",
+        "RewardItems": "((Elixir_stamina_01,4), (ExpBoost_03,1), (PalSphere_Giga,7))",
+        "ExpBonusLevel": 2
+      },
+      "Area_D1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "HerculesBeetle",
+        "RewardItems": "((ExpBoost_02,2), (PalUpgradeStone,5))",
+        "ExpBonusLevel": 1
+      },
+      "Area_D1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "LavaGirl",
+        "RewardItems": "((ExpBoost_03,2), (TreasureBoxKey02,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_D1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "Gorilla",
+        "RewardItems": "((TechnologyBook_G1,1), (PalSphere_Tera,9))",
+        "ExpBonusLevel": 1
+      },
+      "Area_D1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "IceFox",
+        "RewardItems": "((ExpBoost_03,1), (Medicines,5), (MeatAndPotatoes,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_D1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "AmaterasuWolf",
+        "RewardItems": "((PalSummon_NightLady_Parts,1), (PalSphere_Giga,7), (Potion,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_D1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_D1",
+        "RequestPalID": "GrassRabbitMan",
+        "RewardItems": "((Elixir_attack_01,1), (AncientTechnologyBook_G1,1), (ExpBoost_03,2))",
+        "ExpBonusLevel": 2
+      },
+      "Area_E1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_E1",
+        "RequestPalID": "Serpent_Ground",
+        "RewardItems": "((PalUpgradeStone2,2), (RoughBullet,11))",
+        "ExpBonusLevel": 1
+      },
+      "Area_E1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_E1",
+        "RequestPalID": "GrassPanda_Electric",
+        "RewardItems": "((PalSphere_Tera,10), (TreasureBoxKey02,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_E1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_E1",
+        "RequestPalID": "DarkScorpion",
+        "RewardItems": "((PalSphere_Giga,12), (FragGrenade,4), (Medicines,5))",
+        "ExpBonusLevel": 1
+      },
+      "Area_E1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_E1",
+        "RequestPalID": "VenusFlytrap",
+        "RewardItems": "((ExpBoost_03,2), (potion,2), (Sapphire,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_E1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_E1",
+        "RequestPalID": "Sekhmet",
+        "RewardItems": "((Rankup_1,1), (ExpBoost_04,2), (PalSummon_NightLady_Parts,1))",
+        "ExpBonusLevel": 2
+      },
+      "Area_F1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_F1",
+        "RequestPalID": "VolcanoDragon",
+        "RewardItems": "((PalSphere_Tera,2), (RoughBullet,21))",
+        "ExpBonusLevel": 1
+      },
+      "Area_F1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_F1",
+        "RequestPalID": "FireKirin_Dark",
+        "RewardItems": "((TechnologyBook_G1,1), (PalUpgradeStone2,3))",
+        "ExpBonusLevel": 1
+      },
+      "Area_F1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_F1",
+        "RequestPalID": "Manticore",
+        "RewardItems": "((ExpBoost_03,2), (PalSphere_Tera,11), (Sapphire,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_F1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_F1",
+        "RequestPalID": "VolcanicMonster",
+        "RewardItems": "((PalSummon_NightLady_Parts,1), (Potion,3), (Diamond,1))",
+        "ExpBonusLevel": 1
+      },
+      "Area_F1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_F1",
+        "RequestPalID": "KingBahamut",
+        "RewardItems": "((Rankup_2,1), (PalSphere_Giga,13), (PalItem_ToSell_05,1))",
+        "ExpBonusLevel": 2
+      },
+      "Area_G1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_G1",
+        "RequestPalID": "IceSeal",
+        "RewardItems": "((PalUpgradeStone3,2), (PalSphere_Tera,10))",
+        "ExpBonusLevel": 1
+      },
+      "Area_G1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_G1",
+        "RequestPalID": "WindChimes_Ice",
+        "RewardItems": "((PalSphere_Giga,5), (TreasureBoxKey03,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_G1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_G1",
+        "RequestPalID": "Yeti",
+        "RewardItems": "((TechnologyBook_G3,1), (Medicines,5), (Diamond,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_G1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_G1",
+        "RequestPalID": "VolcanicMonster_Ice",
+        "RewardItems": "((AncientTechnologyBook_G1,1), (ExpBoost_03,2), (MeatAndPotatoes,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_G1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_G1",
+        "RequestPalID": "KingAlpaca_Ice",
+        "RewardItems": "((WorkSuitability_AddTicket_Transport,1), (ExpBoost_04,2), (PalSphere_Master,8))",
+        "ExpBonusLevel": 2
+      },
+      "Area_H1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "HadesBird_Electric",
+        "RewardItems": "((PalUpgradeStone3,4), (PalSphere_Master,6))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "SumoDog",
+        "RewardItems": "((TreasureBoxKey03,1), (GrenadeBullet,6))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "CatMage_Fire",
+        "RewardItems": "((PalSphere_Legend,5), (FragGrenade_Fire,6))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "CandleGhost",
+        "RewardItems": "((PalUpgradeStone4,2), (ExpBoost_02,8))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "MoonQueen",
+        "RewardItems": "((TechnologyBook_G3,1), (FragGrenade_Dark,6), (MachineParts2,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "DarkScorpion_Ground",
+        "RewardItems": "((AncientTechnologyBook_G1,1), (ExpBoost_03,3), (Diamond,3))",
+        "ExpBonusLevel": 1
+      },
+      "Area_H1_7": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_H1",
+        "RequestPalID": "LilyQueen",
+        "RewardItems": "((WorkSuitability_AddTicket_Watering,1), (ExpBoost_04,2), (Money,7500))",
+        "ExpBonusLevel": 2
+      },
+      "Area_I1_1": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "GoldenHorse",
+        "RewardItems": "((PalUpgradeStone3,6), (Chromium,15))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_2": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "BlackPuppy",
+        "RewardItems": "((PalSphere_Master,9), (RainbowCrystal,5))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_3": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "BlueberryFairy",
+        "RewardItems": "((PalUpgradeStone4,4), (GatlingBullet,12))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_4": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "GhostRabbit",
+        "RewardItems": "((PalSphere_Ultimate,7), (LaserBullet,6))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_5": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "HerculesBeetle_Ground",
+        "RewardItems": "((ExpBoost_03,3), (PalSummon_KingBahamut_Dragon_Parts,1), (MachineParts2,2))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_6": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "MysteryMask",
+        "RewardItems": "((ExpBoost_04,2), (PalSummon_DarkMechaDragon_Parts,1), (Diamond,4))",
+        "ExpBonusLevel": 1
+      },
+      "Area_I1_7": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "WhiteDeer",
+        "RewardItems": "((Elixir_weight_02,1), (TechnologyBook_G3,2), (Money,20000))",
+        "ExpBonusLevel": 2
+      },
+      "Area_I1_8": {
+        "RequestCategory": "EPalPalDisplayCategory::Area_I1",
+        "RequestPalID": "SnowTigerBeastman",
+        "RewardItems": "((WorkSuitability_AddTicket_Handcraft,1), (AncientTechnologyBook_G1,2), (Money,20000))",
+        "ExpBonusLevel": 2
+      }
+    }
+  }
+]

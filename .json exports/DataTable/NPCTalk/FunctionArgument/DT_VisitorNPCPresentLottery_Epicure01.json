@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VisitorNPCPresentLottery_Epicure01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/DT_VisitorNPCPresentLottery_Epicure01",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'FPalPresentLotteryDataTableRow'",
+        "ObjectPath": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/FPalPresentLotteryDataTableRow.0"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "BakedMeat_Eagle",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 100.0
+      },
+      "2": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "BakedMeat_BerryGoat",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 100.0
+      },
+      "3": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "ChickenSaute",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 80.0
+      },
+      "3_0": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "GenghisKhan",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 80.0
+      },
+      "3_1": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "FriedChicken",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 80.0
+      },
+      "3_2": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "GrilledSheepHerbs",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 60.0
+      },
+      "3_3": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "BaconEggs",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 60.0
+      },
+      "3_4": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "Chowder",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 50.0
+      },
+      "3_5": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "DeerStew",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 40.0
+      },
+      "3_6": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "DeerLocoMoco",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 3,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 10,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 40.0
+      }
+    }
+  }
+]

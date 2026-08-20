@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalAwakeningItemElement",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_PalAwakeningItemElement",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalAwakeningItemElementDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PalAwakening_Water": {
+        "ElementType": "EPalElementType::Water"
+      },
+      "PalAwakening_Electric": {
+        "ElementType": "EPalElementType::Electricity"
+      },
+      "PalAwakening_Ground": {
+        "ElementType": "EPalElementType::Earth"
+      },
+      "PalAwakening_Grass": {
+        "ElementType": "EPalElementType::Leaf"
+      },
+      "PalAwakening_Fire": {
+        "ElementType": "EPalElementType::Fire"
+      },
+      "PalAwakening_Ice": {
+        "ElementType": "EPalElementType::Ice"
+      },
+      "PalAwakening_Dragon": {
+        "ElementType": "EPalElementType::Dragon"
+      },
+      "PalAwakening_Dark": {
+        "ElementType": "EPalElementType::Dark"
+      },
+      "PalAwakening_Neutral": {
+        "ElementType": "EPalElementType::Normal"
+      }
+    }
+  }
+]

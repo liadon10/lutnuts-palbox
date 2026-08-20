@@ -1,0 +1,386 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMapAreaData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/WorldMapAreaData/DT_WorldMapAreaData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalWorldMapAreaDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Arena": {
+        "MsgID": "REGION_Arena"
+      },
+      "Desert_001": {
+        "MsgID": "REGION_Desert_1"
+      },
+      "Desert_Small": {
+        "MsgID": "REGION_Desert_Small"
+      },
+      "Desert_UndergroundCave_001": {
+        "MsgID": "REGION_UndergroundCave_dessert01"
+      },
+      "Desert_UndergroundCave_002": {
+        "MsgID": "REGION_UndergroundCave_dessert02"
+      },
+      "Desert_UndergroundCave_003": {
+        "MsgID": "REGION_UndergroundCave_dessert03"
+      },
+      "Desert_Village_001": {
+        "MsgID": "REGION_Desert_1_Village"
+      },
+      "Forest_001": {
+        "MsgID": "REGION_Forest_1"
+      },
+      "Forest_002": {
+        "MsgID": "REGION_Forest_2"
+      },
+      "Forest_FixedDungeon_001": {
+        "MsgID": "REGION_FixedDungeon_forest_1"
+      },
+      "Forest_FixedDungeon_002": {
+        "MsgID": "REGION_FixedDungeon_forest_2"
+      },
+      "Forest_FixedDungeon_003": {
+        "MsgID": "REGION_FixedDungeon_forest_3"
+      },
+      "Forest_FixedDungeon_004": {
+        "MsgID": "REGION_FixedDungeon_forest_4"
+      },
+      "Forest_FixedDungeon_005": {
+        "MsgID": "REGION_FixedDungeon_forest_5"
+      },
+      "Forest_Ruin": {
+        "MsgID": "REGION_Forest_Ruin"
+      },
+      "Forest_UnderGroundCave_001": {
+        "MsgID": "REGION_UndergroundCave_forest01"
+      },
+      "Frost_001": {
+        "MsgID": "REGION_Frost_1"
+      },
+      "Frost_Small": {
+        "MsgID": "REGION_Frost_small"
+      },
+      "Frost_UnderGroundCave_001": {
+        "MsgID": "REGION_UndergroundCave_snow01"
+      },
+      "Frost_UnderGroundCave_002": {
+        "MsgID": "REGION_UndergroundCave_snow02"
+      },
+      "Grass_001": {
+        "MsgID": "REGION_Grass_1"
+      },
+      "Grass_001_Crunch": {
+        "MsgID": "REGION_Grass_1_Church"
+      },
+      "Grass_002": {
+        "MsgID": "REGION_Grass_2"
+      },
+      "Grass_FixedDungeon_001": {
+        "MsgID": "REGION_FixedDungeon_grass_1"
+      },
+      "Grass_FixedDungeon_002": {
+        "MsgID": "REGION_FixedDungeon_grass_2"
+      },
+      "Grass_FixedDungeon_003": {
+        "MsgID": "REGION_FixedDungeon_grass_3"
+      },
+      "Grass_FixedDungeon_004": {
+        "MsgID": "REGION_FixedDungeon_grass_4"
+      },
+      "Grass_FixedDungeon_005": {
+        "MsgID": "REGION_FixedDungeon_grass_5"
+      },
+      "Grass_FixedDungeon_006": {
+        "MsgID": "REGION_FixedDungeon_grass_6"
+      },
+      "Grass_FixedDungeon_007": {
+        "MsgID": "REGION_FixedDungeon_grass_7"
+      },
+      "Grass_UnderGroundCave_001": {
+        "MsgID": "REGION_UndergroundCave_grass01"
+      },
+      "Grass_UnderGroundCave_002": {
+        "MsgID": "REGION_UndergroundCave_grass02"
+      },
+      "Grass_UnderGroundCave_003": {
+        "MsgID": "REGION_UndergroundCave_grass03"
+      },
+      "Grass_UnderGroundCave_004": {
+        "MsgID": "REGION_UndergroundCave_grass04"
+      },
+      "Grass_Village_001": {
+        "MsgID": "REGION_Grass_1_Village"
+      },
+      "Oilrig_001": {
+        "MsgID": "REGION_Oilrig_1"
+      },
+      "Oilrig_002": {
+        "MsgID": "REGION_Oilrig_2"
+      },
+      "Oilrig_003": {
+        "MsgID": "REGION_Oilrig_3"
+      },
+      "Preserve_001": {
+        "MsgID": "REGION_Preserve1"
+      },
+      "Preserve_002": {
+        "MsgID": "REGION_Preserve2"
+      },
+      "Preserve_003": {
+        "MsgID": "REGION_Preserve3"
+      },
+      "PvPIsland_001": {
+        "MsgID": "REGION_PvP_1"
+      },
+      "PvPIsland_001_Crunch": {
+        "MsgID": "REGION_PvP_1_Church"
+      },
+      "PvPIsland_002": {
+        "MsgID": "REGION_PvP_2"
+      },
+      "PvPIsland_002_Crunch": {
+        "MsgID": "REGION_PvP_2_Church"
+      },
+      "PvPIsland_003": {
+        "MsgID": "REGION_PvP_3"
+      },
+      "PvPIsland_003_Crunch": {
+        "MsgID": "REGION_PvP_3_Church"
+      },
+      "PvPIsland_004": {
+        "MsgID": "REGION_PvP_4"
+      },
+      "PvPIsland_005": {
+        "MsgID": "REGION_PvP_5"
+      },
+      "Sakurajim_Mushroom": {
+        "MsgID": "REGION_Mushroom"
+      },
+      "Sakurajima_RockSand": {
+        "MsgID": "REGION_RockSand"
+      },
+      "Sakurajima_Sakura": {
+        "MsgID": "REGION_Sakura"
+      },
+      "Sakurajima_WhiteSand": {
+        "MsgID": "REGION_WhiteSand"
+      },
+      "Tower_Desert": {
+        "MsgID": "REGION_Desert_Boss"
+      },
+      "Tower_Forest": {
+        "MsgID": "REGION_Forest_Boss"
+      },
+      "Tower_Grass": {
+        "MsgID": "REGION_Grass_Boss"
+      },
+      "Tower_Sakurajima": {
+        "MsgID": "REGION_Sakurajima_Boss"
+      },
+      "Tower_Snowy": {
+        "MsgID": "REGION_Frost_Boss"
+      },
+      "Tower_Volcano": {
+        "MsgID": "REGION_Volcano_Boss"
+      },
+      "Volcano_001": {
+        "MsgID": "REGION_Volcano_1"
+      },
+      "Volcano_UnderGroundCave_001": {
+        "MsgID": "REGION_UndergroundCave_volcano01"
+      },
+      "Volcano_UnderGroundCave_002": {
+        "MsgID": "REGION_UndergroundCave_volcano02"
+      },
+      "Volcano_Village_001": {
+        "MsgID": "REGION_Volcano_1_Village"
+      },
+      "Darkisland03": {
+        "MsgID": "REGION_Darkisland03"
+      },
+      "Darkisland05": {
+        "MsgID": "REGION_Darkisland05"
+      },
+      "Darkisland08": {
+        "MsgID": "REGION_Darkisland08"
+      },
+      "Darkisland11": {
+        "MsgID": "REGION_Darkisland11"
+      },
+      "Darkisland_FT01": {
+        "MsgID": "REGION_Darkisland_FT01"
+      },
+      "Darkisland_FT03": {
+        "MsgID": "REGION_Darkisland_FT03"
+      },
+      "Darkisland_FT04": {
+        "MsgID": "REGION_Darkisland_FT04"
+      },
+      "Darkisland_FT05": {
+        "MsgID": "REGION_Darkisland_FT05"
+      },
+      "Darkisland_FT07": {
+        "MsgID": "REGION_Darkisland_FT07"
+      },
+      "Darkisland_FT08": {
+        "MsgID": "REGION_Darkisland_FT08"
+      },
+      "Darkisland_Boss": {
+        "MsgID": "REGION_Darkisland_Boss"
+      },
+      "Darkisland_FT09": {
+        "MsgID": "REGION_Darkisland_FT09"
+      },
+      "Darkisland_FT10": {
+        "MsgID": "REGION_Darkisland_FT10"
+      },
+      "Grass_3": {
+        "MsgID": "REGION_Grass_3"
+      },
+      "Grass_4": {
+        "MsgID": "REGION_Grass_4"
+      },
+      "Grass_5": {
+        "MsgID": "REGION_Grass_5"
+      },
+      "Grass_6": {
+        "MsgID": "REGION_Grass_6"
+      },
+      "Grass_7": {
+        "MsgID": "REGION_Grass_7"
+      },
+      "Grass_8": {
+        "MsgID": "REGION_Grass_8"
+      },
+      "Grass_9": {
+        "MsgID": "REGION_Grass_9"
+      },
+      "Frost_2": {
+        "MsgID": "REGION_Frost_2"
+      },
+      "Frost_3": {
+        "MsgID": "REGION_Frost_3"
+      },
+      "Volcano_2": {
+        "MsgID": "REGION_Volcano_2"
+      },
+      "Volcano_3": {
+        "MsgID": "REGION_Volcano_3"
+      },
+      "Volcano_4": {
+        "MsgID": "REGION_Volcano_4"
+      },
+      "UndergroundCave_Darkisland_1": {
+        "MsgID": "REGION_UndergroundCave_Darkisland_1"
+      },
+      "UndergroundCave_Darkisland_2": {
+        "MsgID": "REGION_UndergroundCave_Darkisland_2"
+      },
+      "UndergroundCave_Darkisland_3": {
+        "MsgID": "REGION_UndergroundCave_Darkisland_3"
+      },
+      "UndergroundCave_Darkisland_4": {
+        "MsgID": "REGION_UndergroundCave_Darkisland_4"
+      },
+      "UndergroundCave_Darkisland_5": {
+        "MsgID": "REGION_UndergroundCave_Darkisland_5"
+      },
+      "FixedDungeon_DarkIsland_1": {
+        "MsgID": "REGION_FixedDungeon_DarkIsland_1"
+      },
+      "FixedDungeon_DarkIsland_2": {
+        "MsgID": "REGION_FixedDungeon_DarkIsland_2"
+      },
+      "FixedDungeon_DarkIsland_3": {
+        "MsgID": "REGION_FixedDungeon_DarkIsland_3"
+      },
+      "FixedDungeon_DarkIsland_4": {
+        "MsgID": "REGION_FixedDungeon_DarkIsland_4"
+      },
+      "SmallIsland01": {
+        "MsgID": "REGION_SmallIsland01"
+      },
+      "SmallIsland02": {
+        "MsgID": "REGION_SmallIsland02"
+      },
+      "SmallIsland03": {
+        "MsgID": "REGION_SmallIsland03"
+      },
+      "SmallIsland04": {
+        "MsgID": "REGION_SmallIsland04"
+      },
+      "SmallIsland05": {
+        "MsgID": "REGION_SmallIsland05"
+      },
+      "SmallIsland06": {
+        "MsgID": "REGION_SmallIsland06"
+      },
+      "SmallIsland07": {
+        "MsgID": "REGION_SmallIsland07"
+      },
+      "FixedDungeon_Yakushima": {
+        "MsgID": "REGION_FixedDungeon_Yakushima"
+      },
+      "FixedDungeon_SmallIsland03": {
+        "MsgID": "REGION_FixedDungeon_SmallIsland03"
+      },
+      "Boss_KingWhale": {
+        "MsgID": "REGION_Boss_KingWhale"
+      },
+      "Skyisland01": {
+        "MsgID": "REGION_Skyisland01"
+      },
+      "Skyisland02": {
+        "MsgID": "REGION_Skyisland02"
+      },
+      "Skyisland03": {
+        "MsgID": "REGION_Skyisland03"
+      },
+      "Skyisland04": {
+        "MsgID": "REGION_Skyisland04"
+      },
+      "Skyisland05": {
+        "MsgID": "REGION_Skyisland05"
+      },
+      "Skyisland06": {
+        "MsgID": "REGION_Skyisland06"
+      },
+      "Skyisland07": {
+        "MsgID": "REGION_Skyisland07"
+      },
+      "FixedDungeon_SkyIsland_01": {
+        "MsgID": "REGION_FixedDungeon_SkyIsland_01"
+      },
+      "New_SmallIsland01": {
+        "MsgID": "REGION_New_SmallIsland01"
+      },
+      "New_SmallIsland02": {
+        "MsgID": "REGION_New_SmallIsland02"
+      },
+      "New_SmallIsland03": {
+        "MsgID": "REGION_New_SmallIsland03"
+      },
+      "New_SmallIsland04": {
+        "MsgID": "REGION_New_SmallIsland04"
+      },
+      "New_SmallIsland05": {
+        "MsgID": "REGION_New_SmallIsland05"
+      },
+      "New_SmallIsland06": {
+        "MsgID": "REGION_New_SmallIsland06"
+      },
+      "New_SmallIsland07": {
+        "MsgID": "REGION_New_SmallIsland07"
+      },
+      "FootOfWorldTree": {
+        "MsgID": "REGION_FootOfWorldTree"
+      }
+    }
+  }
+]

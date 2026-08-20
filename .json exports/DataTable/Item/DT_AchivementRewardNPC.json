@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AchivementRewardNPC",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_AchivementRewardNPC",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRecordCountRewardData_DataAsset'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "BossDefeat_1": {
+        "RequireCount": 5,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((ExpBoost_02,3))",
+        "ExpBonusLevel": 1
+      },
+      "BossDefeat_2": {
+        "RequireCount": 10,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((Fruit_hp_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "BossDefeat_3": {
+        "RequireCount": 20,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((AncientTechnologyBook_G1,2))",
+        "ExpBonusLevel": 1
+      },
+      "BossDefeat_4": {
+        "RequireCount": 30,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((WorkSuitability_AddTicket_Collection,1))",
+        "ExpBonusLevel": 1
+      },
+      "BossDefeat_5": {
+        "RequireCount": 50,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((Elixir_weight_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "BossDefeat_6": {
+        "RequireCount": 100,
+        "AchivementCategory": "EPalAchivementCategory::BossDefeat",
+        "RewardItemString": "((WorkSuitability_AddTicket_Watering,1))",
+        "ExpBonusLevel": 2
+      },
+      "PalCapture_1": {
+        "RequireCount": 100,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((TechnologyBook_G2,2))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_2": {
+        "RequireCount": 200,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((Elixir_stamina_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_3": {
+        "RequireCount": 300,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((ExpBoost_04,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_4": {
+        "RequireCount": 400,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((Elixir_workspeed_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_5": {
+        "RequireCount": 500,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((WorkSuitability_AddTicket_Mining,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_6": {
+        "RequireCount": 600,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((Elixir_hp_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_7": {
+        "RequireCount": 700,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((TreasureMap03,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_8": {
+        "RequireCount": 800,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((WorkSuitability_AddTicket_GenerateElectricity,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_9": {
+        "RequireCount": 900,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((Fruit_attack_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalCapture_10": {
+        "RequireCount": 1000,
+        "AchivementCategory": "EPalAchivementCategory::PalCapture",
+        "RewardItemString": "((WorkSuitability_AddTicket_Handcraft,1))",
+        "ExpBonusLevel": 2
+      },
+      "PalDex_1": {
+        "RequireCount": 10,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((TechnologyBook_G1,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_2": {
+        "RequireCount": 20,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((Elixir_attack_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_3": {
+        "RequireCount": 30,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((ExpBoost_04,3))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_4": {
+        "RequireCount": 40,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((Fruit__defense_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_5": {
+        "RequireCount": 50,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((WorkSuitability_AddTicket_ProductMedicine,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_6": {
+        "RequireCount": 60,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((TechnologyBook_G3,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_7": {
+        "RequireCount": 70,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((WorkSuitability_AddTicket_Seeding,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_8": {
+        "RequireCount": 80,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((TreasureMap03,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_9": {
+        "RequireCount": 90,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((AffectionFruit_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "PalDex_10": {
+        "RequireCount": 100,
+        "AchivementCategory": "EPalAchivementCategory::PalDex",
+        "RewardItemString": "((WorkSuitability_AddTicket_Deforest,1))",
+        "ExpBonusLevel": 2
+      }
+    }
+  }
+]

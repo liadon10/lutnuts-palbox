@@ -1,0 +1,873 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemPickupDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_ItemPickupDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalItemPickupMasterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Test_GrassLand01": {
+        "Item_01_Id": "Blueprint_BowGun_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "None",
+        "Item_02_Num": 0,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "A_FurArmor": {
+        "Item_01_Id": "Blueprint_FurArmor_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "A_BowGun": {
+        "Item_01_Id": "Blueprint_BowGun_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "A_FurHelmet": {
+        "Item_01_Id": "Blueprint_FurHelmet_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "A_WorkSpeed": {
+        "Item_01_Id": "Blueprint_Accessory_WorkSpeed_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_AquaResist": {
+        "Item_01_Id": "Blueprint_Accessory_AquaResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_HeatResist": {
+        "Item_01_Id": "Blueprint_Accessory_HeatResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_CopperArmorHeat": {
+        "Item_01_Id": "Blueprint_CopperArmorHeat_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_CopperHelmet": {
+        "Item_01_Id": "Blueprint_CopperHelmet_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_Musket": {
+        "Item_01_Id": "Blueprint_Musket_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_ElementBoost_Water": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Water_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_ElementBoost_Normal": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Normal_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_CoolResist": {
+        "Item_01_Id": "Blueprint_Accessory_CoolResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_ThunderResist": {
+        "Item_01_Id": "Blueprint_Accessory_ThunderResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_MakeshiftHandgun": {
+        "Item_01_Id": "Blueprint_MakeshiftHandgun_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_NormalResist": {
+        "Item_01_Id": "Blueprint_Accessory_NormalResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "B_ElementBoost_Electricity": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Electricity_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 20,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_HandGun": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Seeding",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_CopperArmorCold": {
+        "Item_01_Id": "Blueprint_CopperArmorCold_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_HP": {
+        "Item_01_Id": "Blueprint_Accessory_HP_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_DarkResist": {
+        "Item_01_Id": "Blueprint_Accessory_DarkResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_ElementBoost_Dark": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Dark_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_Sword": {
+        "Item_01_Id": "Blueprint_Sword_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "C_PalExp": {
+        "Item_01_Id": "Blueprint_Otomo_PalExp_Increase_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_OldRevolver": {
+        "Item_01_Id": "Blueprint_OldRevolver_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_ElementBoost_Leaf": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Leaf_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_IceResist": {
+        "Item_01_Id": "Blueprint_Accessory_IceResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_MakeshiftAssaultRifle": {
+        "Item_01_Id": "Blueprint_MakeshiftAssaultRifle_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_ElementBoost_Dragon": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Dragon_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_ElementBoost_Ice": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Ice_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_LeafResist": {
+        "Item_01_Id": "Blueprint_Accessory_LeafResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_MaxWeightUp": {
+        "Item_01_Id": "Blueprint_Accessory_MaxWeightUp_01_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_MakeshiftShotgun": {
+        "Item_01_Id": "Blueprint_MakeshiftShotgun_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "D_DragonResist": {
+        "Item_01_Id": "Blueprint_Accessory_DragonResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 25,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_ElementBoost_Earth": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Earth_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_AssaultRifle": {
+        "Item_01_Id": "Blueprint_AssaultRifle_Default3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_StealHelmet": {
+        "Item_01_Id": "Blueprint_StealHelmet_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_StealArmor": {
+        "Item_01_Id": "Blueprint_StealArmor_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_Defense_up": {
+        "Item_01_Id": "Blueprint_Otomo_Defense_up1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_EarthResist": {
+        "Item_01_Id": "Blueprint_Accessory_EarthResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_SemiAutoShotgun": {
+        "Item_01_Id": "Blueprint_SemiAutoShotgun_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_HeatColdResist": {
+        "Item_01_Id": "Blueprint_Accessory_HeatColdResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_Katana": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Transport",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_HeatFire": {
+        "Item_01_Id": "Blueprint_Accessory_HeatFire_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_AT": {
+        "Item_01_Id": "Blueprint_Accessory_AT_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "E_ATEarth_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATEarth_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_IronArmor": {
+        "Item_01_Id": "Blueprint_IronArmor_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_IronHelmet": {
+        "Item_01_Id": "Blueprint_IronHelmet_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_SubmachineGun": {
+        "Item_01_Id": "Blueprint_SubmachineGun_3",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_SingleShotRifle": {
+        "Item_01_Id": "Blueprint_SingleShotRifle_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_Attack_up": {
+        "Item_01_Id": "Blueprint_Otomo_Attack_up1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_ElementBoost_Fire": {
+        "Item_01_Id": "Blueprint_Otomo_ElementBoost_Fire_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_FireResist": {
+        "Item_01_Id": "Blueprint_Accessory_FireResist_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_defense": {
+        "Item_01_Id": "Blueprint_Accessory_defense_1_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_PalConfidence": {
+        "Item_01_Id": "Blueprint_Otomo_PalConfidence_Increase_1_fix",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "F_CompoundBow": {
+        "Item_01_Id": "Blueprint_Bat3_4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 30,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_PlasticArmor": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Cool",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_ATNormal_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATNormal_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_PlasticHelmet": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Deforest",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_GatlingGun": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Collection",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_Avoid": {
+        "Item_01_Id": "Blueprint_Accessory_Avoid_1_fix",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_DFIce_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFIce_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_DFDark_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFDark_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_Otomo_Ice": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Ice_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_ColdIce": {
+        "Item_01_Id": "Blueprint_Accessory_ColdIce_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_WKMC": {
+        "Item_01_Id": "Blueprint_Accessory_WKMC_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_NonkChecker": {
+        "Item_01_Id": "Blueprint_Accessory_NonkChecker_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_DFWater_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFWater_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "G_JumpAir_1": {
+        "Item_01_Id": "Blueprint_Accessory_JumpAir_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 35,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "H_DFLeaf_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFLeaf_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 40,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "H_SFBow": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Handcraft",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 40,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "H_PlasticArmorWeight": {
+        "Item_01_Id": "WorkSuitability_AddTicket_GenerateElectricity",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 40,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "H_DFHP": {
+        "Item_01_Id": "Blueprint_Accessory_DFHP_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 40,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "H_JumpAir_2": {
+        "Item_01_Id": "Blueprint_Accessory_JumpAir_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 40,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_HCHP": {
+        "Item_01_Id": "Blueprint_Accessory_HCHP_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATWater_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATWater_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_HCMW": {
+        "Item_01_Id": "Blueprint_Accessory_HCMW_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATDark_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATDark_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_SFArmor": {
+        "Item_01_Id": "Blueprint_Otomo_DFDragon_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATFire_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATFire_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_SFHelmet": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Watering",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATDragon_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATDragon_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_LaserGatlingGun": {
+        "Item_01_Id": "WorkSuitability_AddTicket_EmitFlame",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_Otomo_Dargon": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Dargon_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATElectricity_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATElectricity_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_DFNormal_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFNormal_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATIce_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATIce_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_PPDF": {
+        "Item_01_Id": "Blueprint_Accessory_PPDF_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_ATLeaf_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_ATLeaf_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_DFFire_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFFire_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_DFEarth_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFEarth_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_DFElectricity_ElementBoost": {
+        "Item_01_Id": "Blueprint_Otomo_DFElectricity_ElementBoost_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "I_SuperJumpAir_1": {
+        "Item_01_Id": "Blueprint_Accessory_SuperJumpAir_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_Launcher": {
+        "Item_01_Id": "WorkSuitability_AddTicket_Mining",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_PPAT": {
+        "Item_01_Id": "Blueprint_Accessory_PPAT_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_SuperJumpAir_2": {
+        "Item_01_Id": "Blueprint_Accessory_SuperJumpAir_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_MoveSpeed_up": {
+        "Item_01_Id": "APSE_UniplantMutation",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_SFArmorWeight": {
+        "Item_01_Id": "WorkSuitability_AddTicket_ProductMedicine",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Fire": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Fire_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Water": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Water_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Electricity": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Electricity_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Earth": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Earth_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Leaf": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Leaf_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Dark": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Dark_1",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "Island_Otomo_Fire_2": {
+        "Item_01_Id": "Blueprint_Accessory_Otomo_Fire_2",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 45,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_FullStomach_Down": {
+        "Item_01_Id": "APSE_Uniplant4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      },
+      "J_Sanity_Down": {
+        "Item_01_Id": "APSE_Uniplant4",
+        "Item_01_Num": 1,
+        "Item_02_Id": "DogCoin",
+        "Item_02_Num": 50,
+        "Item_03_Id": "None",
+        "Item_03_Num": 0
+      }
+    }
+  }
+]

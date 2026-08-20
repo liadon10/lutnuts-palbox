@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemRequestNPCData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_ItemRequestNPCData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCircumRequestData_DataAsset'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "FoodNPC_A_1": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "BakedMeat_LazyCatfish",
+        "RequestNum": 1,
+        "RewardItemString": "((TreasureBoxKey02,5))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_2": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "Pancake",
+        "RequestNum": 1,
+        "RewardItemString": "((PalSphere_Giga,18))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_3": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "Gyoza",
+        "RequestNum": 1,
+        "RewardItemString": "((ExpBoost_03,3))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_4": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "OctopusGirl_Takoyaki",
+        "RequestNum": 1,
+        "RewardItemString": "((AffectionFruit_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_5": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "BakedMeat_SakuraSaurus",
+        "RequestNum": 1,
+        "RewardItemString": "((TreasureMap01,1))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_6": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "Omelet",
+        "RequestNum": 1,
+        "RewardItemString": "((ExpBoost_04,2))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_7": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "StewedIceDeer",
+        "RequestNum": 1,
+        "RewardItemString": "((Elixir_stamina_01,1))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_8": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "GenghisKhan",
+        "RequestNum": 1,
+        "RewardItemString": "((PalSphere_Tera,8))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_9": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "Salad",
+        "RequestNum": 1,
+        "RewardItemString": "((LuxuryMedicines,1))",
+        "ExpBonusLevel": 1
+      },
+      "FoodNPC_A_10": {
+        "RequestCategory": "EPalItemRequireCategory::Food_A",
+        "RequestItem": "BakedMeat_GrassMammoth",
+        "RequestNum": 1,
+        "RewardItemString": "((WorkSuitability_AddTicket_EmitFlame,1))",
+        "ExpBonusLevel": 2
+      },
+      "Pizza_1": {
+        "RequestCategory": "EPalItemRequireCategory::Food_B",
+        "RequestItem": "Baked_Berries",
+        "RequestNum": 1,
+        "RewardItemString": "((Money,1), (Berry,1), (Cloth,1), (Arrow_Fire,1))",
+        "ExpBonusLevel": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BaseCampWorkerSickDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/BaseCamp/DT_BaseCampWorkerSickDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalBaseCampWorkerSickMasterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NoneSick": {
+        "SickType": "EPalBaseCampWorkerSickType::None",
+        "EffectiveItemRank": 0,
+        "Facial": "EPalFacialEyeType::None",
+        "WorkSpeed": 0,
+        "MoveSpeed": 0,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 0
+      },
+      "Cold": {
+        "SickType": "EPalBaseCampWorkerSickType::Cold",
+        "EffectiveItemRank": 1,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": -5,
+        "MoveSpeed": 0,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 20
+      },
+      "Sprain": {
+        "SickType": "EPalBaseCampWorkerSickType::Sprain",
+        "EffectiveItemRank": 1,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": 0,
+        "MoveSpeed": -5,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 20
+      },
+      "Bulimia": {
+        "SickType": "EPalBaseCampWorkerSickType::Bulimia",
+        "EffectiveItemRank": 1,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": 0,
+        "MoveSpeed": 0,
+        "SatietyDecrease": 50,
+        "RecoveryProbabilityPercentageInPalBox": 20
+      },
+      "GastricUlcer": {
+        "SickType": "EPalBaseCampWorkerSickType::GastricUlcer",
+        "EffectiveItemRank": 2,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": -10,
+        "MoveSpeed": -5,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 15
+      },
+      "Fracture": {
+        "SickType": "EPalBaseCampWorkerSickType::Fracture",
+        "EffectiveItemRank": 2,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": -5,
+        "MoveSpeed": -10,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 15
+      },
+      "Weakness": {
+        "SickType": "EPalBaseCampWorkerSickType::Weakness",
+        "EffectiveItemRank": 3,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": -10,
+        "MoveSpeed": -20,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 10
+      },
+      "DepressionSprain": {
+        "SickType": "EPalBaseCampWorkerSickType::DepressionSprain",
+        "EffectiveItemRank": 3,
+        "Facial": "EPalFacialEyeType::Trouble",
+        "WorkSpeed": -20,
+        "MoveSpeed": -10,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 10
+      },
+      "DisturbingElement": {
+        "SickType": "EPalBaseCampWorkerSickType::DisturbingElement",
+        "EffectiveItemRank": 4,
+        "Facial": "EPalFacialEyeType::Smile",
+        "WorkSpeed": -50,
+        "MoveSpeed": -50,
+        "SatietyDecrease": 0,
+        "RecoveryProbabilityPercentageInPalBox": 3
+      }
+    }
+  }
+]

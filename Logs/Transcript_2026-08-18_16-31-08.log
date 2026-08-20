@@ -1,0 +1,14 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] PlM/PlZ Container: target=38MB, compressed=2MB, magic=b'PlM1'
+[✓] Decompressed PlM/Oodle stream (38MB)!
+[*] Scoping Pal parsing to CharacterSaveParameterMap (7MB)...
+[*] Found 2788 potential Pal name signatures in target map.
+[✓] Extracted 2743 owned Pals with metadata.
+[✓] Success: Uploaded 2743 Pal entries to 'My Pals' (starting at row 2).
+
+[✓] [16:31:21] Sync complete. Exiting script.

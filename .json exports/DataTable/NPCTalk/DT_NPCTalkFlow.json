@@ -1,0 +1,1463 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NPCTalkFlow",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/NPCTalk/DT_NPCTalkFlow",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalNPCTalkFlowDataTable'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MedalTrader": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop_WithoutSell.FABP_CommonItemShop_WithoutSell",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "PalDealer": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalShop.FABP_CommonPalShop",
+          "SubPathString": ""
+        }
+      },
+      "NOVICEPALTIMER": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_NOVICETALTAMER.FABP_NOVICETALTAMER",
+          "SubPathString": ""
+        }
+      },
+      "Vigilante_lackey": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Vigilante_lackey.FABP_Vigilante_lackey",
+          "SubPathString": ""
+        }
+      },
+      "SKILLED_PALTAMIER": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SKILLEDPALTAMER.FABP_SKILLEDPALTAMER",
+          "SubPathString": ""
+        }
+      },
+      "Head_of_Village": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Head_of_Village_New.FABP_Head_of_Village_New",
+          "SubPathString": ""
+        }
+      },
+      "Police_dependable": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Police_dependable.FABP_Police_dependable",
+          "SubPathString": ""
+        }
+      },
+      "InnkeeperA": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_InnkeeperA.FABP_InnkeeperA",
+          "SubPathString": ""
+        }
+      },
+      "Rumor-loving_villagers": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Rumor-loving_villagers.FABP_Rumor-loving_villagers",
+          "SubPathString": ""
+        }
+      },
+      "Research-oriented_scholar": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Research-oriented_scholar.FABP_Research-oriented_scholar",
+          "SubPathString": ""
+        }
+      },
+      "Sweaty_paltimer": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Sweaty_paltimer.FABP_Sweaty_paltimer",
+          "SubPathString": ""
+        }
+      },
+      "DarkTrader": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DarkTrader.FABP_DarkTrader",
+          "SubPathString": ""
+        }
+      },
+      "DesertVillage001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertVillager001.FABP_DesertVillager001",
+          "SubPathString": ""
+        }
+      },
+      "DesertVillage002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertVillage002.FABP_DesertVillage002",
+          "SubPathString": ""
+        }
+      },
+      "DesertVillage003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertVillage003.FABP_DesertVillage003",
+          "SubPathString": ""
+        }
+      },
+      "DesertPolice001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertPolice001.FABP_DesertPolice001",
+          "SubPathString": ""
+        }
+      },
+      "DesertPolice002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertPolice002.FABP_DesertPolice002",
+          "SubPathString": ""
+        }
+      },
+      "DesertPolice003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertPolice003.FABP_DesertPolice003",
+          "SubPathString": ""
+        }
+      },
+      "Police001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertPolice001.FABP_DesertPolice001",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson_Desert": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "PalDealer_Desert": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalShop.FABP_CommonPalShop",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoVillage001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoVillage001.FABP_VolcanoVillage001",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoVillage002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoVillage002.FABP_VolcanoVillage002",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoVillage003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoVillage003.FABP_VolcanoVillage003",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoVillage004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoVillage004.FABP_VolcanoVillage004",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoPolice001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoPolice001.FABP_VolcanoPolice001",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoPolice002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VolcanoPolice002.FABP_VolcanoPolice002",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson_Volcano": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "PalDealer_Volcano": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalShop.FABP_CommonPalShop",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson_Wander": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "RandomBattle_Police": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_RandomBattle_Police.FABP_RandomBattle_Police",
+          "SubPathString": ""
+        }
+      },
+      "RandomBattle_PalTamer": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_RandomBattle_PalTamer.FABP_RandomBattle_PalTamer",
+          "SubPathString": ""
+        }
+      },
+      "RandomEventShop": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_RandomEventShop.FABP_RandomEventShop",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage001.FABP_PvPVillage001",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage002.FABP_PvPVillage002",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage003.FABP_PvPVillage003",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage004.FABP_PvPVillage004",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage005": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage005.FABP_PvPVillage005",
+          "SubPathString": ""
+        }
+      },
+      "PvPVillage006": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_PvPVillage006.FABP_PvPVillage006",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson_Desert2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "SalesPerson_Volcano2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer001.FABP_BattlePalTamer001",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer002.FABP_BattlePalTamer002",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer003.FABP_BattlePalTamer003",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer004.FABP_BattlePalTamer004",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer005": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer005.FABP_BattlePalTamer005",
+          "SubPathString": ""
+        }
+      },
+      "BattlePaltamer006": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BattlePalTamer006.FABP_BattlePalTamer006",
+          "SubPathString": ""
+        }
+      },
+      "MerchantwithPAL": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_MerchantwithPAL.FABP_MerchantwithPAL",
+          "SubPathString": ""
+        }
+      },
+      "Police_WarningOilrig": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Police_WarningOilrig.FABP_Police_WarningOilrig",
+          "SubPathString": ""
+        }
+      },
+      "NPC_FoodRequire_1": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Reward_Food.FABP_Reward_Food",
+          "SubPathString": ""
+        }
+      },
+      "Doctor": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Doctor.FABP_Doctor",
+          "SubPathString": ""
+        }
+      },
+      "NPC_PalDisplay_1": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_A_01.FABP_CommonPalDisplay_A_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_A_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_B_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_C_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_D_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_E_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_F_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_G_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_H_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Emote_I_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_A": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_A.FABP_BountyNavigator_A",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_B": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_B.FABP_BountyNavigator_B",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_C": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_C.FABP_BountyNavigator_C",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_D": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_D.FABP_BountyNavigator_D",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_E": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_E.FABP_BountyNavigator_E",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_F": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_F.FABP_BountyNavigator_F",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_G": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_G.FABP_BountyNavigator_G",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_H": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_H.FABP_BountyNavigator_H",
+          "SubPathString": ""
+        }
+      },
+      "CaravanLeader01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "CaravanLeader02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "CaravanLeader03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_A_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_A_01.FABP_CommonPalDisplay_A_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_B_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_B_01.FABP_CommonPalDisplay_B_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_C_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_C_01.FABP_CommonPalDisplay_C_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_D_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_D_01.FABP_CommonPalDisplay_D_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_E_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_E_01.FABP_CommonPalDisplay_E_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_F_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_F_01.FABP_CommonPalDisplay_F_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_G_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_G_01.FABP_CommonPalDisplay_G_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_H_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_H_01.FABP_CommonPalDisplay_H_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalDisplay_I_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonPalDisplay_I_01.FABP_CommonPalDisplay_I_01",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Food": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Reward_Food.FABP_Reward_Food",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_Paldex": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Reach_PalDex.FABP_Reach_PalDex",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_BossDefeat": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Reward_BossDefeat.FABP_Reward_BossDefeat",
+          "SubPathString": ""
+        }
+      },
+      "U_Reward_PalCaptureCount": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CheckPalCaptureCount.FABP_CheckPalCaptureCount",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_Yamijima_1": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_Yamijima_1.FABP_BountyNavigator_Yamijima_1",
+          "SubPathString": ""
+        }
+      },
+      "BountyNavigator_Yamijima_2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_BountyNavigator_Yamijima_2.FABP_BountyNavigator_Yamijima_2",
+          "SubPathString": ""
+        }
+      },
+      "BountyTrader": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonBountyTrader.FABP_CommonBountyTrader",
+          "SubPathString": ""
+        }
+      },
+      "Presenter001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Presenter001.FABP_Presenter001",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_A_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_A_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_B_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_B_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_C_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_C_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_D_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_D_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_E_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_E_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_F_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_F_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_G_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_G_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_H_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_H_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_I_01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Emote_location_I_02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_EmoteChecker.FABP_EmoteChecker",
+          "SubPathString": ""
+        }
+      },
+      "U_Yamishima_guide1": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Yamishima_guide1.FABP_U_Yamishima_guide1",
+          "SubPathString": ""
+        }
+      },
+      "U_Yamishima_guide2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Yamishima_guide2.FABP_U_Yamishima_guide2",
+          "SubPathString": ""
+        }
+      },
+      "U_Yamishima_guide3": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Yamishima_guide3.FABP_U_Yamishima_guide3",
+          "SubPathString": ""
+        }
+      },
+      "U_Yamishima_guide4": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Yamishima_guide4.FABP_U_Yamishima_guide4",
+          "SubPathString": ""
+        }
+      },
+      "U_Yamishima_guide5": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Yamishima_guide5.FABP_U_Yamishima_guide5",
+          "SubPathString": ""
+        }
+      },
+      "ArenaShop": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_ArenaShop.FABP_ArenaShop",
+          "SubPathString": ""
+        }
+      },
+      "DeathPenalty_guide": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DeathPenalty_guide.FABP_DeathPenalty_guide",
+          "SubPathString": ""
+        }
+      },
+      "Respawn_guide": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Respawn_guide.FABP_Respawn_guide",
+          "SubPathString": ""
+        }
+      },
+      "Ambassador01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Ambassador01.FABP_Ambassador01",
+          "SubPathString": ""
+        }
+      },
+      "Blacksmith01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Blacksmith01.FABP_Blacksmith01",
+          "SubPathString": ""
+        }
+      },
+      "Epicure01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Epicure01.FABP_Epicure01",
+          "SubPathString": ""
+        }
+      },
+      "Visitor_Recruiter": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Visitor_Recruiter.FABP_Visitor_Recruiter",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice001.FABP_CampPolice001",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice002.FABP_CampPolice002",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice003.FABP_CampPolice003",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice004.FABP_CampPolice004",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice005": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice005.FABP_CampPolice005",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice006": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice006.FABP_CampPolice006",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice007": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice007.FABP_CampPolice007",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice008": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice008.FABP_CampPolice008",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice009": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice009.FABP_CampPolice009",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice010": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice010.FABP_CampPolice010",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice011": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice011.FABP_CampPolice011",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice012": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice012.FABP_CampPolice012",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice013": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice013.FABP_CampPolice013",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice014": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice014.FABP_CampPolice014",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice015": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice015.FABP_CampPolice015",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice016": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice016.FABP_CampPolice016",
+          "SubPathString": ""
+        }
+      },
+      "CampPolice017": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CampPolice017.FABP_CampPolice017",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Farmer01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Farmer01.FABP_Quest_Farmer01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Farmer01_v02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Farmer02.FABP_Quest_Farmer02",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Farmer01_v03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Farmer03.FABP_Quest_Farmer03",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Farmer01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Farmer04.FABP_Quest_Farmer04",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Scholar01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Scholar01.FABP_Quest_Scholar01",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Scholar01_v02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Scholar02.FABP_Quest_Scholar02",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Scholar01_v03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Scholar03.FABP_Quest_Scholar03",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Scholar01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Scholar04.FABP_Quest_Scholar04",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Breeder01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Breeder01.FABP_Quest_Breeder01",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Breeder01_v02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Breeder02.FABP_Quest_Breeder02",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Breeder01_v03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Breeder03.FABP_Quest_Breeder03",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Breeder01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Breeder04.FABP_Quest_Breeder04",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Ranger01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Ranger01.FABP_Quest_Ranger01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Ranger01_v02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Ranger02.FABP_Quest_Ranger02",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Ranger01_v03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Ranger03.FABP_Quest_Ranger03",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Ranger01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Ranger04.FABP_Quest_Ranger04",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Nomad01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Nomad01.FABP_Quest_Nomad01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Nomad01_v02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Nomad02.FABP_Quest_Nomad02",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Nomad01_v03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Nomad03.FABP_Quest_Nomad03",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Nomad01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Nomad04.FABP_Quest_Nomad04",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_GrassBoss01.FABP_GrassBoss01",
+          "SubPathString": ""
+        }
+      },
+      "U_PalPassive_Doctor": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Doctor.FABP_Doctor",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Angler01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Angler01.FABP_Quest_Angler01",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_Kigurumi01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_Kigurumi01.FABP_Quest_Kigurumi01",
+          "SubPathString": ""
+        }
+      },
+      "U_Negotiator": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Negotiator.FABP_Negotiator",
+          "SubPathString": ""
+        }
+      },
+      "U_StrongOldMan001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan01.FABP_Quest_StrongOldMan01",
+          "SubPathString": ""
+        }
+      },
+      "U_StrongOldMan002": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan02.FABP_Quest_StrongOldMan02",
+          "SubPathString": ""
+        }
+      },
+      "U_StrongOldMan003": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan03.FABP_Quest_StrongOldMan03",
+          "SubPathString": ""
+        }
+      },
+      "U_StrongOldMan004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan04.FABP_Quest_StrongOldMan04",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss_Main": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_GrassBoss_Main.FABP_GrassBoss_Main",
+          "SubPathString": ""
+        }
+      },
+      "SkyBoss_Main": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SkyBoss.FABP_SkyBoss",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeNPC_Main": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_WorldTreeNPC.FABP_WorldTreeNPC",
+          "SubPathString": ""
+        }
+      },
+      "U_StrongOldMan001_Released": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_QUEST_StrongOldMan001_Released.FABP_QUEST_StrongOldMan001_Released",
+          "SubPathString": ""
+        }
+      },
+      "Male_StrongOldMan01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan01_Killed.FABP_Quest_StrongOldMan01_Killed",
+          "SubPathString": ""
+        }
+      },
+      "Male_StrongOldMan02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_StrongOldMan02.FABP_Quest_StrongOldMan02",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v05": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v06": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v07": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v08": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v09": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v10": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v11": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v12": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v13": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v14": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v15": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v16": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v17": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v18": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v19": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v20": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v21": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v22": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v23": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v24": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "Male_Trader01_v25": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonCaravan.FABP_CommonCaravan",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_DTairikuPeople01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_U_Male_DTairikuPeople01_v01.FABP_Quest_U_Male_DTairikuPeople01_v01",
+          "SubPathString": ""
+        }
+      },
+      "U_ForestBoss_Investigate": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_ForestBoss_Investigate.FABP_Quest_ForestBoss_Investigate",
+          "SubPathString": ""
+        }
+      },
+      "U_ForestBoss_Investigate_LilyHouse": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_ForestBoss_Investigate_LilyHouse.FABP_Quest_ForestBoss_Investigate_LilyHouse",
+          "SubPathString": ""
+        }
+      },
+      "DesertVillage004": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DesertVillage004.FABP_DesertVillage004",
+          "SubPathString": ""
+        }
+      },
+      "Object_DesertBoss_Investigate": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_DesertBoss_Investigate.FABP_Quest_DesertBoss_Investigate",
+          "SubPathString": ""
+        }
+      },
+      "Object_DesertBoss_Investigate2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Quest_DesertBoss_Investigate2.FABP_Quest_DesertBoss_Investigate2",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_SnowPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Female_SnowPeople01.FABP_U_Female_SnowPeople01",
+          "SubPathString": ""
+        }
+      },
+      "Object_SnowBoss_PalSphere": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SnowBoss_SearchSphere.FABP_SnowBoss_SearchSphere",
+          "SubPathString": ""
+        }
+      },
+      "Object_SnowBoss_Investigate": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SnowBoss_Investigate.FABP_SnowBoss_Investigate",
+          "SubPathString": ""
+        }
+      },
+      "Object_SnowBoss_Researcher": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SnowBoss_SearchResearcher.FABP_SnowBoss_SearchResearcher",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_SakurajimaPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Male_SakurajimaPeople01.FABP_U_Male_SakurajimaPeople01",
+          "SubPathString": ""
+        }
+      },
+      "Object_SakurajimaBoss_Katana": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SakurajimaBoss_Kanata.FABP_SakurajimaBoss_Kanata",
+          "SubPathString": ""
+        }
+      },
+      "Object_SakurajimaBoss_Investigate": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SakurajimaBoss_Investigate.FABP_SakurajimaBoss_Investigate",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_TenrakuPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Male_TenrakuPeople01.FABP_U_Male_TenrakuPeople01",
+          "SubPathString": ""
+        }
+      },
+      "Object_VikingBoss_Investigate": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VikingBoss_Investigate.FABP_VikingBoss_Investigate",
+          "SubPathString": ""
+        }
+      },
+      "Object_VikingBoss_Investigate2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_VikingBoss_Investigate2.FABP_VikingBoss_Investigate2",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_SorajimaPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Female_SorajimaPeople01.FABP_U_Female_SorajimaPeople01",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoPorter001": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_VolcanoPorter001.FABP_U_VolcanoPorter001",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_Nomad01_v05": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Female_Nomad01_v05.FABP_U_Female_Nomad01_v05",
+          "SubPathString": ""
+        }
+      },
+      "Object_WorldTreeMiddleBoss_Note": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_WorldTreeMiddleBoss_Note.FABP_WorldTreeMiddleBoss_Note",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyGirl01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyGirl01.FABP_U_SurveyGirl01",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyGirl02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyGirl02.FABP_U_SurveyGirl02",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyGirl03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyGirl03.FABP_U_SurveyGirl03",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyGirl04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyGirl04.FABP_U_SurveyGirl04",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyWoman01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyWoman01.FABP_U_SurveyWoman01",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyMan01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyMan01.FABP_U_SurveyMan01",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyMan02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyMan02.FABP_U_SurveyMan02",
+          "SubPathString": ""
+        }
+      },
+      "U_SurveyMan03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_SurveyMan03.FABP_U_SurveyMan03",
+          "SubPathString": ""
+        }
+      },
+      "Object_SurveyWomanRemain": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Object_SurveyWomanRemain.FABP_Object_SurveyWomanRemain",
+          "SubPathString": ""
+        }
+      },
+      "AmaterasuWolf_Dark_Quest_Friend_1": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_AmaterasuWolf_Dark_Quest_Friend_1.FABP_AmaterasuWolf_Dark_Quest_Friend_1",
+          "SubPathString": ""
+        }
+      },
+      "AmaterasuWolf_Dark_Quest_Friend_2": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_AmaterasuWolf_Dark_Quest_Friend_2.FABP_AmaterasuWolf_Dark_Quest_Friend_2",
+          "SubPathString": ""
+        }
+      },
+      "AmaterasuWolf_Dark_Quest_Friend_3": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_AmaterasuWolf_Dark_Quest_Friend_3.FABP_AmaterasuWolf_Dark_Quest_Friend_3",
+          "SubPathString": ""
+        }
+      },
+      "Object_LoneWolf01_Bag": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_LomeWolf1_Bag.FABP_LomeWolf1_Bag",
+          "SubPathString": ""
+        }
+      },
+      "Object_LoneWolf02_Katana": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_LomeWolf2_Katana.FABP_LomeWolf2_Katana",
+          "SubPathString": ""
+        }
+      },
+      "Police_dependable_Lonewolf": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_LomeWolf3_Police.FABP_LomeWolf3_Police",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_SnowPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Male_SnowPeople01.FABP_U_Male_SnowPeople01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_TenrakuPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Female_TenrakuPeople01.FABP_U_Female_TenrakuPeople01",
+          "SubPathString": ""
+        }
+      },
+      "U_Male_SorajimaPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Male_SorajimaPeople01.FABP_U_Male_SorajimaPeople01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_WorldTreePeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_U_Female_WorldTreePeople01.FABP_U_Female_WorldTreePeople01",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_DTairikuPeople01_v01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Female_DTairikuPeople.FABP_Female_DTairikuPeople",
+          "SubPathString": ""
+        }
+      },
+      "U_Female_SakurajimaPeople01": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_Female_SakurajimaPeople.FABP_Female_SakurajimaPeople",
+          "SubPathString": ""
+        }
+      },
+      "U_SorajimaTowerGuide": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_SorajimaTowerGuide.FABP_SorajimaTowerGuide",
+          "SubPathString": ""
+        }
+      },
+      "U_WildlifeSanctuary_guide": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_WildlifeSanctuary_guide.FABP_WildlifeSanctuary_guide",
+          "SubPathString": ""
+        }
+      },
+      "NPC_Dungeon_Shop": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_CommonItemShop.FABP_CommonItemShop",
+          "SubPathString": ""
+        }
+      },
+      "DarkTrader02": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DarkTrader.FABP_DarkTrader",
+          "SubPathString": ""
+        }
+      },
+      "DarkTrader03": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DarkTrader.FABP_DarkTrader",
+          "SubPathString": ""
+        }
+      },
+      "DarkTrader04": {
+        "SoftTalkFlowAsset": {
+          "AssetPathName": "/Game/Pal/Blueprint/FlowGraph/NPCTalkFlow/Graph/FABP_DarkTrader.FABP_DarkTrader",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

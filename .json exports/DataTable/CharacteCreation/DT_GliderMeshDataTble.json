@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GliderMeshDataTble",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/CharacteCreation/DT_GliderMeshDataTble",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalGliderMeshDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Glider_Old": {
+        "SkeletalMesh": {
+          "AssetPathName": "/Game/Pal/Model/Other/GliderWood/SK_GliderWood.SK_GliderWood",
+          "SubPathString": ""
+        },
+        "Materials": [
+          {
+            "AssetPathName": "/Game/Pal/Model/Other/GliderWood/MI_PalProp_GliderWood.MI_PalProp_GliderWood",
+            "SubPathString": ""
+          }
+        ]
+      },
+      "Glider_Good": {
+        "SkeletalMesh": {
+          "AssetPathName": "/Game/Pal/Model/Other/GliderBone/SK_GliderBone.SK_GliderBone",
+          "SubPathString": ""
+        },
+        "Materials": [
+          {
+            "AssetPathName": "/Game/Pal/Model/Other/GliderBone/MI_PalProp_GliderBone.MI_PalProp_GliderBone",
+            "SubPathString": ""
+          }
+        ]
+      },
+      "Glider_Super": {
+        "SkeletalMesh": {
+          "AssetPathName": "/Game/Pal/Model/Other/GliderIron/SK_GliderIron.SK_GliderIron",
+          "SubPathString": ""
+        },
+        "Materials": [
+          {
+            "AssetPathName": "/Game/Pal/Model/Other/GliderIron/MI_PalProp_GliderIron.MI_PalProp_GliderIron",
+            "SubPathString": ""
+          }
+        ]
+      },
+      "Glider_Legendary": {
+        "SkeletalMesh": {
+          "AssetPathName": "/Game/Pal/Model/Weapon/Glider/SK_Weapon_Glider_001/SK_Weapon_Glider_001.SK_Weapon_Glider_001",
+          "SubPathString": ""
+        },
+        "Materials": [
+          {
+            "AssetPathName": "/Game/Pal/Model/Weapon/Glider/SK_Weapon_Glider_001/Material/M_Weapon_Glider_001.M_Weapon_Glider_001",
+            "SubPathString": ""
+          }
+        ]
+      },
+      "Glider_Tera": {
+        "SkeletalMesh": {
+          "AssetPathName": "/Game/Pal/Model/Other/GliderIron/SK_GliderIron.SK_GliderIron",
+          "SubPathString": ""
+        },
+        "Materials": [
+          {
+            "AssetPathName": "/Game/Pal/Model/Other/GliderTera/MI_PalProp_GliderTera.MI_PalProp_GliderTera",
+            "SubPathString": ""
+          }
+        ]
+      }
+    }
+  }
+]

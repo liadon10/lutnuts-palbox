@@ -1,0 +1,641 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFishPondLotteryDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Fishing/DT_PalFishPondLotteryDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishPondLotteryData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "LotteryName": "Small",
+        "Weight": 0.5,
+        "CharacterID": "CaptainPenguin",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "2": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "NegativeOctopus",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "3": {
+        "LotteryName": "Small",
+        "Weight": 0.5,
+        "CharacterID": "BlueDragon",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "4": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "JellyfishFairy",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "5": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "TentacleTurtle",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "6": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "JellyfishGhost",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "7": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "FlyingManta",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "8": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "Penguin",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "9": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "Kelpie",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "10": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "KendoFrog",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "11": {
+        "LotteryName": "Small",
+        "Weight": 1.0,
+        "CharacterID": "BluePlatypus",
+        "CharacterLevelMin": 11,
+        "CharacterLevelMax": 18,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "12": {
+        "LotteryName": "Small",
+        "Weight": 0.025,
+        "CharacterID": "BOSS_CaptainPenguin",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "13": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_NegativeOctopus",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "14": {
+        "LotteryName": "Small",
+        "Weight": 0.025,
+        "CharacterID": "BOSS_BlueDragon",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "15": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_JellyfishFairy",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "16": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_TentacleTurtle",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "17": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_JellyfishGhost",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "18": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_FlyingManta",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "19": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_Penguin",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "20": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_Kelpie",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "21": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_KendoFrog",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "22": {
+        "LotteryName": "Small",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_BluePlatypus",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 24,
+        "GainItemLotteryName": "Grass01_FishPond"
+      },
+      "23": {
+        "LotteryName": "Medium",
+        "Weight": 0.7,
+        "CharacterID": "IceCrocodile",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Snow01_FishPond"
+      },
+      "24": {
+        "LotteryName": "Medium",
+        "Weight": 0.7,
+        "CharacterID": "StuffedShark",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "25": {
+        "LotteryName": "Medium",
+        "Weight": 0.7,
+        "CharacterID": "Serpent_Ground",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "26": {
+        "LotteryName": "Medium",
+        "Weight": 0.7,
+        "CharacterID": "Kelpie_Fire",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "27": {
+        "LotteryName": "Medium",
+        "Weight": 0.7,
+        "CharacterID": "BluePlatypus_Fire",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "28": {
+        "LotteryName": "Medium",
+        "Weight": 0.75,
+        "CharacterID": "NegativeOctopus_Neutral",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "29": {
+        "LotteryName": "Medium",
+        "Weight": 0.8,
+        "CharacterID": "Penguin_Electric",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "30": {
+        "LotteryName": "Medium",
+        "Weight": 0.9,
+        "CharacterID": "IceSeal",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Snow01_FishPond"
+      },
+      "31": {
+        "LotteryName": "Medium",
+        "Weight": 1.0,
+        "CharacterID": "FlyingManta_Thunder",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "32": {
+        "LotteryName": "Medium",
+        "Weight": 1.0,
+        "CharacterID": "Serpent",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "33": {
+        "LotteryName": "Medium",
+        "Weight": 1.0,
+        "CharacterID": "LazyCatfish",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "34": {
+        "LotteryName": "Medium",
+        "Weight": 1.05,
+        "CharacterID": "OctopusGirl",
+        "CharacterLevelMin": 16,
+        "CharacterLevelMax": 26,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "35": {
+        "LotteryName": "Medium",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_IceCrocodile",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Snow01_FishPond"
+      },
+      "36": {
+        "LotteryName": "Medium",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_StuffedShark",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "37": {
+        "LotteryName": "Medium",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_Serpent_Ground",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "38": {
+        "LotteryName": "Medium",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_Kelpie_Fire",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "39": {
+        "LotteryName": "Medium",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_BluePlatypus_Fire",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "40": {
+        "LotteryName": "Medium",
+        "Weight": 0.0375,
+        "CharacterID": "BOSS_NegativeOctopus_Neutral",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "41": {
+        "LotteryName": "Medium",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_Penguin_Electric",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Desert01_FishPond"
+      },
+      "42": {
+        "LotteryName": "Medium",
+        "Weight": 0.045,
+        "CharacterID": "BOSS_IceSeal",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Snow01_FishPond"
+      },
+      "43": {
+        "LotteryName": "Medium",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_FlyingManta_Thunder",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "44": {
+        "LotteryName": "Medium",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_Serpent",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Forest01_FishPond"
+      },
+      "45": {
+        "LotteryName": "Medium",
+        "Weight": 0.05,
+        "CharacterID": "BOSS_LazyCatfish",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "46": {
+        "LotteryName": "Medium",
+        "Weight": 0.0525,
+        "CharacterID": "BOSS_OctopusGirl",
+        "CharacterLevelMin": 22,
+        "CharacterLevelMax": 29,
+        "GainItemLotteryName": "Volcano01_FishPond"
+      },
+      "47": {
+        "LotteryName": "Big",
+        "Weight": 0.6,
+        "CharacterID": "StuffedShark_Fire",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "48": {
+        "LotteryName": "Big",
+        "Weight": 0.7,
+        "CharacterID": "GhostAnglerfish",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "49": {
+        "LotteryName": "Big",
+        "Weight": 0.8,
+        "CharacterID": "KendoFrog_Dark",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "50": {
+        "LotteryName": "Big",
+        "Weight": 0.8,
+        "CharacterID": "CaptainPenguin_Black",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "51": {
+        "LotteryName": "Big",
+        "Weight": 0.8,
+        "CharacterID": "IceNarwhal",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "52": {
+        "LotteryName": "Big",
+        "Weight": 0.8,
+        "CharacterID": "IceNarwhal_Fire",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "53": {
+        "LotteryName": "Big",
+        "Weight": 0.8,
+        "CharacterID": "GhostAnglerfish_Fire",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "54": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "LazyCatfish_Gold",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "55": {
+        "LotteryName": "Big",
+        "Weight": 1.1,
+        "CharacterID": "TentacleTurtle_Ground",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "56": {
+        "LotteryName": "Big",
+        "Weight": 1.2,
+        "CharacterID": "BlueDragon_Ice",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "57": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "OctopusGirl_Neutral",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "58": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "KingSunfish",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "SkyIsland_Treasure_FishPond"
+      },
+      "59": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "KingSunfish_Thunder",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "60": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "SwordCutlassfish",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "SkyIsland_Treasure_FishPond"
+      },
+      "61": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "SwordCutlassfish_Fire",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "62": {
+        "LotteryName": "Big",
+        "Weight": 0.4,
+        "CharacterID": "IceSeal_Ground",
+        "CharacterLevelMin": 36,
+        "CharacterLevelMax": 48,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "63": {
+        "LotteryName": "Big",
+        "Weight": 0.03,
+        "CharacterID": "BOSS_StuffedShark_Fire",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "64": {
+        "LotteryName": "Big",
+        "Weight": 0.035,
+        "CharacterID": "BOSS_GhostAnglerfish",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "65": {
+        "LotteryName": "Big",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_KendoFrog_Dark",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "66": {
+        "LotteryName": "Big",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_CaptainPenguin_Black",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "67": {
+        "LotteryName": "Big",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_IceNarwhal",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "68": {
+        "LotteryName": "Big",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_IceNarwhal_Fire",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "69": {
+        "LotteryName": "Big",
+        "Weight": 0.04,
+        "CharacterID": "BOSS_GhostAnglerfish_Fire",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "70": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_LazyCatfish_Gold",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "71": {
+        "LotteryName": "Big",
+        "Weight": 0.055,
+        "CharacterID": "BOSS_TentacleTurtle_Ground",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      },
+      "72": {
+        "LotteryName": "Big",
+        "Weight": 0.06,
+        "CharacterID": "BOSS_BlueDragon_Ice",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "DarkIsland_Treasure_FishPond"
+      },
+      "73": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_OctopusGirl_Neutral",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "74": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_KingSunfish",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "SkyIsland_Treasure_FishPond"
+      },
+      "75": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_KingSunfish_Thunder",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "76": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_SwordCutlassfish",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "SkyIsland_Treasure_FishPond"
+      },
+      "77": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_SwordCutlassfish_Fire",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "WorldTree_Treasure_FishPond"
+      },
+      "78": {
+        "LotteryName": "Big",
+        "Weight": 0.02,
+        "CharacterID": "BOSS_IceSeal_Ground",
+        "CharacterLevelMin": 44,
+        "CharacterLevelMax": 54,
+        "GainItemLotteryName": "Sakurajima_Treasure_FishPond"
+      }
+    }
+  }
+]

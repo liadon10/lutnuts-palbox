@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFishingSpotPalSpawnerDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Fishing/DT_PalFishingSpotPalSpawnerDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishingSpotPalSpawnerData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Pal_1": {
+        "PalName": {
+          "Key": "TentacleTurtle"
+        },
+        "LevelMin": 4,
+        "LevelMax": 8,
+        "OverrideBuoyancy": 1.5,
+        "OverrideInWaterRate": 0.64
+      },
+      "Pal_2": {
+        "PalName": {
+          "Key": "Penguin"
+        },
+        "LevelMin": 4,
+        "LevelMax": 8,
+        "OverrideBuoyancy": -1.0,
+        "OverrideInWaterRate": -1.0
+      },
+      "Pal_3": {
+        "PalName": {
+          "Key": "BluePlatypus"
+        },
+        "LevelMin": 4,
+        "LevelMax": 8,
+        "OverrideBuoyancy": -1.0,
+        "OverrideInWaterRate": -1.0
+      }
+    }
+  }
+]

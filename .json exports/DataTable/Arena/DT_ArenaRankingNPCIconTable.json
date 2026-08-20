@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ArenaRankingNPCIconTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Arena/DT_ArenaRankingNPCIconTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCharacterIconDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Ranking1": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Trader03.T_BOSS_NPC_Male_Trader03",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

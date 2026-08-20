@@ -1,0 +1,31 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] Detected GVAS stream at offset 20.
+[*] Performing direct binary extraction of Palbox records...
+[*] Found 99 potential Pal name signatures in binary.
+[✓] Extracted 13 owned Pals with metadata.
+[!] Google Sheets upload failed: <Response [200]>
+Traceback (most recent call last):
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\client.py", line 147, in open
+    properties = finditem(
+                 ^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\utils.py", line 224, in finditem
+    return next(item for item in seq if func(item))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 631, in upload_to_google_sheet
+    workbook = client.open(GOOGLE_SHEET_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\client.py", line 152, in open
+    raise SpreadsheetNotFound(response) from ex
+gspread.exceptions.SpreadsheetNotFound: <Response [200]>
+
+[✓] [14:53:34] Sync complete. Exiting script.

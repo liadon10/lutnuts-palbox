@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SupplyIncident_NPC_Sakura01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/SupplyIncident/DT_SupplyIncident_NPC_Sakura01",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnNPCData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {}
+  }
+]

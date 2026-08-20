@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectFarmSkillFruitsLottery",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/MapObject/DT_MapObjectFarmSkillFruitsLottery",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalMapObjectFarmSkillFruitsLotteryRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "SkillFruits_Same": {
+        "LotteryItemType": "EPalFarmSkillFruitsLotteryItemType::SkillFruits_Same",
+        "OtherItemId": "None",
+        "Weight": 15
+      },
+      "SkillFruits_Same_ElementType_Rarity1": {
+        "LotteryItemType": "EPalFarmSkillFruitsLotteryItemType::SkillFruits_Same_ElementType_Rarity1",
+        "OtherItemId": "None",
+        "Weight": 15
+      },
+      "SkillFruits_Same_ElementType_Rarity2": {
+        "LotteryItemType": "EPalFarmSkillFruitsLotteryItemType::SkillFruits_Same_ElementType_Rarity2",
+        "OtherItemId": "None",
+        "Weight": 7
+      },
+      "SkillFruits_Same_ElementType_Rarity3": {
+        "LotteryItemType": "EPalFarmSkillFruitsLotteryItemType::SkillFruits_Same_ElementType_Rarity3",
+        "OtherItemId": "None",
+        "Weight": 3
+      },
+      "Empty": {
+        "LotteryItemType": "EPalFarmSkillFruitsLotteryItemType::Empty",
+        "OtherItemId": "None",
+        "Weight": 60
+      }
+    }
+  }
+]

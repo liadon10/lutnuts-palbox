@@ -1,0 +1,413 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NoteTextureDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/NoteData/DT_NoteTextureDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalNoteMasterDataTextureTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Day-xx": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day-xx.T_Note_Day-xx",
+          "SubPathString": ""
+        }
+      },
+      "Day0": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day0.T_Note_Day0",
+          "SubPathString": ""
+        }
+      },
+      "Day1-1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day1-1.T_Note_Day1-1",
+          "SubPathString": ""
+        }
+      },
+      "Day1-2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day1-2.T_Note_Day1-2",
+          "SubPathString": ""
+        }
+      },
+      "Day2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day2.T_Note_Day2",
+          "SubPathString": ""
+        }
+      },
+      "Day3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day3_new.T_Note_Day3_new",
+          "SubPathString": ""
+        }
+      },
+      "Day5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day5_new.T_Note_Day5_new",
+          "SubPathString": ""
+        }
+      },
+      "Day6": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day6_new.T_Note_Day6_new",
+          "SubPathString": ""
+        }
+      },
+      "Day8": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day8.T_Note_Day8",
+          "SubPathString": ""
+        }
+      },
+      "Day10": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day10.T_Note_Day10",
+          "SubPathString": ""
+        }
+      },
+      "Day11": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day11.T_Note_Day11",
+          "SubPathString": ""
+        }
+      },
+      "Day12-1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day12-1.T_Note_Day12-1",
+          "SubPathString": ""
+        }
+      },
+      "Day12-2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day12-2.T_Note_Day12-2",
+          "SubPathString": ""
+        }
+      },
+      "Day12-3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day12-3_new.T_Note_Day12-3_new",
+          "SubPathString": ""
+        }
+      },
+      "Day13": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day13_new.T_Note_Day13_new",
+          "SubPathString": ""
+        }
+      },
+      "Day15": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day15.T_Note_Day15",
+          "SubPathString": ""
+        }
+      },
+      "Day18": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day18.T_Note_Day18",
+          "SubPathString": ""
+        }
+      },
+      "Day22": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day22.T_Note_Day22",
+          "SubPathString": ""
+        }
+      },
+      "Day25": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day25.T_Note_Day25",
+          "SubPathString": ""
+        }
+      },
+      "Day29": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day29.T_Note_Day29",
+          "SubPathString": ""
+        }
+      },
+      "Day30": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day30.T_Note_Day30",
+          "SubPathString": ""
+        }
+      },
+      "Day32": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day32.T_Note_Day32",
+          "SubPathString": ""
+        }
+      },
+      "Day38": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day38_new.T_Note_Day38_new",
+          "SubPathString": ""
+        }
+      },
+      "Day70": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day70.T_Note_Day70",
+          "SubPathString": ""
+        }
+      },
+      "Day??": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_Day_.T_Note_Day_",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_GrassBoss1.T_Note_GrassBoss1",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_GrassBoss2.T_Note_GrassBoss2",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_GrassBoss3.T_Note_GrassBoss3",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_GrassBoss4.T_Note_GrassBoss4",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_GrassBoss5.T_Note_GrassBoss5",
+          "SubPathString": ""
+        }
+      },
+      "ForestBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_ForestBoss1.T_Note_ForestBoss1",
+          "SubPathString": ""
+        }
+      },
+      "ForestBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_ForestBoss2.T_Note_ForestBoss2",
+          "SubPathString": ""
+        }
+      },
+      "ForestBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_ForestBoss3.T_Note_ForestBoss3",
+          "SubPathString": ""
+        }
+      },
+      "ForestBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_ForestBoss4_new.T_Note_ForestBoss4_new",
+          "SubPathString": ""
+        }
+      },
+      "DesertBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_DesertBoss1.T_Note_DesertBoss1",
+          "SubPathString": ""
+        }
+      },
+      "DesertBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_DesertBoss2_new.T_Note_DesertBoss2_new",
+          "SubPathString": ""
+        }
+      },
+      "DesertBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_DesertBoss3.T_Note_DesertBoss3",
+          "SubPathString": ""
+        }
+      },
+      "SnowBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SnowBoss1.T_Note_SnowBoss1",
+          "SubPathString": ""
+        }
+      },
+      "SnowBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SnowBoss3.T_Note_SnowBoss3",
+          "SubPathString": ""
+        }
+      },
+      "SnowBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SnowBoss2.T_Note_SnowBoss2",
+          "SubPathString": ""
+        }
+      },
+      "VolcanoBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VolcanoBoss1.T_Note_VolcanoBoss1",
+          "SubPathString": ""
+        }
+      },
+      "SakurajimaBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SakurajimaBoss1.T_Note_SakurajimaBoss1",
+          "SubPathString": ""
+        }
+      },
+      "SakurajimaBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SakurajimaBoss2.T_Note_SakurajimaBoss2",
+          "SubPathString": ""
+        }
+      },
+      "SakurajimaBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SakurajimaBoss3_new.T_Note_SakurajimaBoss3_new",
+          "SubPathString": ""
+        }
+      },
+      "SakurajimaBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SakurajimaBoss4.T_Note_SakurajimaBoss4",
+          "SubPathString": ""
+        }
+      },
+      "SakurajimaBoss5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SakurajimaBoss5.T_Note_SakurajimaBoss5",
+          "SubPathString": ""
+        }
+      },
+      "VikingBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VikingBoss1.T_Note_VikingBoss1",
+          "SubPathString": ""
+        }
+      },
+      "VikingBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VikingBoss2.T_Note_VikingBoss2",
+          "SubPathString": ""
+        }
+      },
+      "VikingBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VikingBoss3.T_Note_VikingBoss3",
+          "SubPathString": ""
+        }
+      },
+      "VikingBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VikingBoss4.T_Note_VikingBoss4",
+          "SubPathString": ""
+        }
+      },
+      "VikingBoss5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_VikingBoss5.T_Note_VikingBoss5",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss1.T_Note_SorajimaBoss1",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss2.T_Note_SorajimaBoss2",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss3.T_Note_SorajimaBoss3",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss4.T_Note_SorajimaBoss4",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss5.T_Note_SorajimaBoss5",
+          "SubPathString": ""
+        }
+      },
+      "SorajimaBoss6": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_SorajimaBoss6.T_Note_SorajimaBoss6",
+          "SubPathString": ""
+        }
+      },
+      "WorldTree1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTree1.T_Note_WorldTree1",
+          "SubPathString": ""
+        }
+      },
+      "WorldTree2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTree2.T_Note_WorldTree2",
+          "SubPathString": ""
+        }
+      },
+      "WorldTree3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTree3.T_Note_WorldTree3",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss1": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss1.T_Note_WorldTreeBoss1",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss2": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss2.T_Note_WorldTreeBoss2",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss3": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss3.T_Note_WorldTreeBoss3",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss4": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss4.T_Note_WorldTreeBoss4",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss5": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss5.T_Note_WorldTreeBoss5",
+          "SubPathString": ""
+        }
+      },
+      "WorldTreeBoss6": {
+        "Texture": {
+          "AssetPathName": "/Game/Pal/Texture/Note/T_Note_WorldTreeBoss6.T_Note_WorldTreeBoss6",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

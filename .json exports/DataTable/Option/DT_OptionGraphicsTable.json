@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OptionGraphicsTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Option/DT_OptionGraphicsTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalOptionGraphicsPresetRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "VeryLow": {
+        "GraphicsLevel": "EPalOptionGraphicsLevel::VeryLow",
+        "AntiAliasingType": "EAntiAliasingMethod::AAM_None",
+        "CommonQuality": 0,
+        "ViewDistanceQuality": 0,
+        "MapObjectDrawDistanceType": "EPalOptionMapObjectDrawDistanceType::Short",
+        "FoliageQuality": 0,
+        "ShadowQuality": 0,
+        "TextureQuality": 0,
+        "bEnableMotionBlur": false,
+        "ScreenPercentage": 50
+      },
+      "Low": {
+        "GraphicsLevel": "EPalOptionGraphicsLevel::Low",
+        "AntiAliasingType": "EAntiAliasingMethod::AAM_TSR",
+        "CommonQuality": 0,
+        "ViewDistanceQuality": 1,
+        "MapObjectDrawDistanceType": "EPalOptionMapObjectDrawDistanceType::Long",
+        "FoliageQuality": 1,
+        "ShadowQuality": 1,
+        "TextureQuality": 1,
+        "bEnableMotionBlur": false,
+        "ScreenPercentage": 50
+      },
+      "Medium": {
+        "GraphicsLevel": "EPalOptionGraphicsLevel::Medium",
+        "AntiAliasingType": "EAntiAliasingMethod::AAM_TSR",
+        "CommonQuality": 1,
+        "ViewDistanceQuality": 2,
+        "MapObjectDrawDistanceType": "EPalOptionMapObjectDrawDistanceType::VeryLong",
+        "FoliageQuality": 2,
+        "ShadowQuality": 2,
+        "TextureQuality": 2,
+        "bEnableMotionBlur": false,
+        "ScreenPercentage": 50
+      },
+      "High": {
+        "GraphicsLevel": "EPalOptionGraphicsLevel::High",
+        "AntiAliasingType": "EAntiAliasingMethod::AAM_TSR",
+        "CommonQuality": 2,
+        "ViewDistanceQuality": 3,
+        "MapObjectDrawDistanceType": "EPalOptionMapObjectDrawDistanceType::NoLimit",
+        "FoliageQuality": 3,
+        "ShadowQuality": 3,
+        "TextureQuality": 2,
+        "bEnableMotionBlur": true,
+        "ScreenPercentage": 75
+      },
+      "VeryHigh": {
+        "GraphicsLevel": "EPalOptionGraphicsLevel::VeryHigh",
+        "AntiAliasingType": "EAntiAliasingMethod::AAM_TSR",
+        "CommonQuality": 3,
+        "ViewDistanceQuality": 3,
+        "MapObjectDrawDistanceType": "EPalOptionMapObjectDrawDistanceType::NoLimit",
+        "FoliageQuality": 3,
+        "ShadowQuality": 3,
+        "TextureQuality": 3,
+        "bEnableMotionBlur": true,
+        "ScreenPercentage": 75
+      }
+    }
+  }
+]

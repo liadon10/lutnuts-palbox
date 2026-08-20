@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentMonster_MarchantwithPAL",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_Monster/DT_RandomIncidentMonster_MarchantwithPAL",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnMonsterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "CharacterID": {
+          "Key": "CowPal"
+        },
+        "Level": 8,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 50.0,
+          "Y": 50.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_MarchantPal_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_MarchantPal.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow_0": {
+        "CharacterID": {
+          "Key": "CowPal"
+        },
+        "Level": 8,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 50.0,
+          "Y": -50.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_MarchantPal_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_MarchantPal.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow_1": {
+        "CharacterID": {
+          "Key": "CowPal"
+        },
+        "Level": 9,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -50.0,
+          "Y": 50.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_MarchantPal_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_MarchantPal.0"
+        },
+        "DefaultActionClass": null
+      }
+    }
+  }
+]

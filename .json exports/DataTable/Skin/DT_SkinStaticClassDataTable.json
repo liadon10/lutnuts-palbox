@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SkinStaticClassDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Skin/DT_SkinStaticClassDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalEditorSkinStaticClassTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Armor": {
+        "ClassName": "Armor",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataArmor'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "Head": {
+        "ClassName": "Head",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataArmor'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "Body": {
+        "ClassName": "Body",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataArmor'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "Material": {
+        "ClassName": "Material",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataMaterials'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "SkeletalMesh": {
+        "ClassName": "SkeletalMesh",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataSkeletalMesh'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "StaticMesh": {
+        "ClassName": "StaticMesh",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataStaticMesh'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      "CharacterClass": {
+        "ClassName": "PalCharacterClass",
+        "StaticClass": {
+          "ObjectName": "Class'PalSkinDataPalCharacterClass'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    }
+  }
+]

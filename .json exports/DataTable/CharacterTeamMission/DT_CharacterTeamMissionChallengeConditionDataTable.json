@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionChallengeConditionDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/CharacterTeamMission/DT_CharacterTeamMissionChallengeConditionDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCharacterTeamMissionChallengeConditionMasterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DefeatGrassBoss": {
+        "DefeatBossType": "EPalBossType::GrassBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatForestBoss": {
+        "DefeatBossType": "EPalBossType::ForestBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatVolcanoBoss": {
+        "DefeatBossType": "EPalBossType::ElectricBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatDesertBoss": {
+        "DefeatBossType": "EPalBossType::DesertBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatSnowBoss": {
+        "DefeatBossType": "EPalBossType::SnowBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatSakurajimaBoss": {
+        "DefeatBossType": "EPalBossType::SakurajimaBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatDarkIslandBoss": {
+        "DefeatBossType": "EPalBossType::VikingBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatSkyIslandBoss": {
+        "DefeatBossType": "EPalBossType::SorajimaBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatWorldTreeBoss": {
+        "DefeatBossType": "EPalBossType::WorldTreeBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Normal",
+        "DefeatHardBossNum": 0
+      },
+      "DefeatGrassBossHard": {
+        "DefeatBossType": "EPalBossType::GrassBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatForestBossHard": {
+        "DefeatBossType": "EPalBossType::ForestBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatVolcanoBossHard": {
+        "DefeatBossType": "EPalBossType::ElectricBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatDesertBossHard": {
+        "DefeatBossType": "EPalBossType::DesertBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatSnowBossHard": {
+        "DefeatBossType": "EPalBossType::SnowBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatSakurajimaBossHard": {
+        "DefeatBossType": "EPalBossType::SakurajimaBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatDarkIslandBossHard": {
+        "DefeatBossType": "EPalBossType::VikingBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatSkyIslandBossHard": {
+        "DefeatBossType": "EPalBossType::SorajimaBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      },
+      "DefeatWorldTreeBossHard": {
+        "DefeatBossType": "EPalBossType::WorldTreeBoss",
+        "DefeatBossDifficulty": "EPalBossBattleDifficulty::Hard",
+        "DefeatHardBossNum": 1
+      }
+    }
+  }
+]

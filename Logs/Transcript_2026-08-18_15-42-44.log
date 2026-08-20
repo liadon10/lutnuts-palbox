@@ -1,0 +1,13 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] Detected GVAS stream at offset 20.
+[*] Performing direct binary extraction across all Palbox pages...
+[*] Found 99 potential Pal name signatures in binary.
+[✓] Extracted 26 owned Pals with metadata.
+[✓] Success: Uploaded 26 Pal entries to 'My Pals' (starting at row 2).
+
+[✓] [15:42:51] Sync complete. Exiting script.

@@ -1,0 +1,772 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BaseCampTask",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/BaseCamp/DT_BaseCampTask",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalBaseCampTaskDataSet_TableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Level": 1,
+        "workerNum": 1,
+        "WorkerNum_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_INCOMPLETE",
+        "WorkerNum_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_COMPLETE",
+        "BuildObject1": [
+          "ItemChest"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_CHEST_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_CHEST_COMPLETE",
+        "BuildObject2": [
+          "WorkBench"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKBENCH_INCOMPLETE",
+        "BuildObject2_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKBENCH_COMPLETE",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "2": {
+        "Level": 2,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "CampFire"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FEEDBOX_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FEEDBOX_COMPLETE",
+        "BuildObject2": [
+          "PlayerBed_02"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PLAYERBED_INCOMPLETE",
+        "BuildObject2_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PLAYERBED_COMPLETE",
+        "BuildObject3": [
+          "RepairBench"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "3": {
+        "Level": 3,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "PalFoodBox"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_CAMPFIRE_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_CAMPFIRE_COMPLETE",
+        "BuildObject2": [
+          "MedicalPalBed_02"
+        ],
+        "BuildObjectNum2": 3,
+        "BuildObject2_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PALBED_INCOMPLETE",
+        "BuildObject2_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PALBED_COMPLETE",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "4": {
+        "Level": 4,
+        "workerNum": 4,
+        "WorkerNum_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_INCOMPLETE",
+        "WorkerNum_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_COMPLETE",
+        "BuildObject1": [
+          "WorkBench_SkillUnlock"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PALGEAR_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_PALGEAR_COMPLETE",
+        "BuildObject2": [
+          "FarmBlockV2_Berries"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FARM_INCOMPLETE",
+        "BuildObject2_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FARM_COMPLETE",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "5": {
+        "Level": 5,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "Crusher"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "StonePit"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "StationDeforest2"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "6": {
+        "Level": 6,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "BlastFurnace"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FURNACE_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FURNACE_COMPLETE",
+        "BuildObject2": [
+          "BuildableGoddessStatue"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "Spa"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_Spa_INCOMPLETE",
+        "BuildObject3_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_Spa_COMPLETE"
+      },
+      "7": {
+        "Level": 7,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "Factory_Hard_01"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FACTORY_HARD_01_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_FACTORY_HARD_01_COMPLETE",
+        "BuildObject2": [
+          "MedicineFacility_01"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "FarmBlockV2_Berries"
+        ],
+        "BuildObjectNum3": 2,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "8": {
+        "Level": 8,
+        "workerNum": 8,
+        "WorkerNum_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_INCOMPLETE",
+        "WorkerNum_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WORKER3_COMPLETE",
+        "BuildObject1": [
+          "ItemChest_02"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "SphereFactory_Black_01"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "9": {
+        "Level": 9,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "CookingStove"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "FarmBlockV2_wheet"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "FlourMill"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "10": {
+        "Level": 10,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "WeaponFactory_Dirty_01"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WEAPONFACTRY_INCOMPLETE",
+        "BuildObject1_CompleteMsgID": "BASECAMP_TASK_TASK_TITLE_WEAPONFACTRY_COMPLETE",
+        "BuildObject2": [
+          "Lab"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "Expedition"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "11": {
+        "Level": 11,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "SphereFactory_Black_02"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "ElectricGenerator"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "12": {
+        "Level": 12,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "WeaponFactory_Dirty_02"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "Factory_Hard_02"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "Spa2"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "13": {
+        "Level": 13,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "BlastFurnace2"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "SphereFactory_Black_03"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "Altar"
+        ],
+        "BuildObjectNum3": 1,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "14": {
+        "Level": 14,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "ItemChest_03"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "Refrigerator"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [
+          "MedicalPalBed_04"
+        ],
+        "BuildObjectNum3": 3,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "15": {
+        "Level": 15,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "GuildChest"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "ElectricKitchen"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "16": {
+        "Level": 16,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "Factory_Hard_03"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "MedicineFacility_02"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "17": {
+        "Level": 17,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "BlastFurnace3"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "18": {
+        "Level": 18,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "WeaponFactory_Dirty_03"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "19": {
+        "Level": 19,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "BaseCampItemDispenser"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "20": {
+        "Level": 20,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "OilPump",
+          "OilPump02"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "21": {
+        "Level": 21,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "CoolerPalFoodBox"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "22": {
+        "Level": 22,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "IceCrusher"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "23": {
+        "Level": 23,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "BlastFurnace4"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "SphereFactory_Black_04"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "24": {
+        "Level": 24,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "MultiElectricHatchingPalEgg"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "25": {
+        "Level": 25,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "ItemChest_04"
+        ],
+        "BuildObjectNum1": 2,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "26": {
+        "Level": 26,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "MedicineFacility_03"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "27": {
+        "Level": 27,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "Factory_Hard_04"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "28": {
+        "Level": 28,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "WeaponFactory_Dirty_04"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "29": {
+        "Level": 29,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "AncientBlastFurnace"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "30": {
+        "Level": 30,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "AncientWorkBench"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "31": {
+        "Level": 31,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "FishingPond2"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "32": {
+        "Level": 32,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "AncientCookingStove"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "33": {
+        "Level": 33,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "Farm_SkillFruits"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "AncientElectricGenerator"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "34": {
+        "Level": 34,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [
+          "AncientMultiProduct"
+        ],
+        "BuildObjectNum1": 1,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [
+          "AncientFarmBlock"
+        ],
+        "BuildObjectNum2": 1,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      },
+      "35": {
+        "Level": 35,
+        "workerNum": 0,
+        "WorkerNum_IncompleteMsgID": "None",
+        "WorkerNum_CompleteMsgID": "None",
+        "BuildObject1": [],
+        "BuildObjectNum1": 0,
+        "BuildObject1_IncompleteMsgID": "None",
+        "BuildObject1_CompleteMsgID": "None",
+        "BuildObject2": [],
+        "BuildObjectNum2": 0,
+        "BuildObject2_IncompleteMsgID": "None",
+        "BuildObject2_CompleteMsgID": "None",
+        "BuildObject3": [],
+        "BuildObjectNum3": 0,
+        "BuildObject3_IncompleteMsgID": "None",
+        "BuildObject3_CompleteMsgID": "None"
+      }
+    }
+  }
+]

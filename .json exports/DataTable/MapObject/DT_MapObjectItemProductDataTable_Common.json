@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectItemProductDataTable_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/MapObject/DT_MapObjectItemProductDataTable_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalMapObjectItemProductData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Well": {
+        "Product_Id": "WaterBucket",
+        "RequiredWorkAmount": 1000.0,
+        "AutoWorkAmountBySec": 5.0
+      },
+      "StonePit": {
+        "Product_Id": "Stone",
+        "RequiredWorkAmount": 800.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "StationDeforest2": {
+        "Product_Id": "Wood",
+        "RequiredWorkAmount": 800.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "CopperPit": {
+        "Product_Id": "CopperOre",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "CopperPit_2": {
+        "Product_Id": "CopperOre",
+        "RequiredWorkAmount": 1600.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "OilPump": {
+        "Product_Id": "CrudeOil",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 150.0
+      },
+      "CoalPit": {
+        "Product_Id": "Coal",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "SulfurPit": {
+        "Product_Id": "Sulfur",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "QuartzPit": {
+        "Product_Id": "Quartz",
+        "RequiredWorkAmount": 10000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "CrystalPit": {
+        "Product_Id": "RainbowCrystal",
+        "RequiredWorkAmount": 20000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "SkyIslandOrePit": {
+        "Product_Id": "SkyIslandOre",
+        "RequiredWorkAmount": 25000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "StationDeforest3": {
+        "Product_Id": "Wood_Fine",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "PalCrstalPit": {
+        "Product_Id": "Pal_crystal_S",
+        "RequiredWorkAmount": 450.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "ChromiumPit": {
+        "Product_Id": "Chromium",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 0.0
+      },
+      "OilPump02": {
+        "Product_Id": "CrudeOil",
+        "RequiredWorkAmount": 8000.0,
+        "AutoWorkAmountBySec": 150.0
+      },
+      "ManganesePit": {
+        "Product_Id": "ManganeseOre",
+        "RequiredWorkAmount": 20000.0,
+        "AutoWorkAmountBySec": 0.0
+      }
+    }
+  }
+]

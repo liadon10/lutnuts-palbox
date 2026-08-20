@@ -1,0 +1,446 @@
+[
+  {
+    "id": "FTPoint1",
+    "name": "Mount Obsidian - Midpoint\\"
+  },
+  {
+    "id": "FTPoint100",
+    "name": "Verdant Stream\\"
+  },
+  {
+    "id": "FTPoint101",
+    "name": "Desiccated Coast\\"
+  },
+  {
+    "id": "FTPoint102",
+    "name": "Thirst"
+  },
+  {
+    "id": "FTPoint103",
+    "name": "Desert Backbone\\"
+  },
+  {
+    "id": "FTPoint104",
+    "name": "Sandbar of Solitude\\"
+  },
+  {
+    "id": "FTPoint105",
+    "name": "The Furthest Flats\\"
+  },
+  {
+    "id": "FTPoint106",
+    "name": "Seaward Passage\\"
+  },
+  {
+    "id": "FTPoint107",
+    "name": "Frozen Dune Cape\\"
+  },
+  {
+    "id": "FTPoint108",
+    "name": "Windwatch Outlook\\"
+  },
+  {
+    "id": "FTPoint109",
+    "name": "Mount Obsidian - Second Ascent\\"
+  },
+  {
+    "id": "FTPoint11",
+    "name": "Sand Dunes Entrance\\"
+  },
+  {
+    "id": "FTPoint110",
+    "name": "Mount Obsidian Trail\\"
+  },
+  {
+    "id": "FTPoint111",
+    "name": "Dry Dunes\\"
+  },
+  {
+    "id": "FTPoint112",
+    "name": "Heatwave Gate\\"
+  },
+  {
+    "id": "FTPoint113",
+    "name": "Thawtide Cape\\"
+  },
+  {
+    "id": "FTPoint114",
+    "name": "Garden Beneath the Astral Mountains\\"
+  },
+  {
+    "id": "FTPoint115",
+    "name": "Garden Beneath the Cliffs\\"
+  },
+  {
+    "id": "FTPoint116",
+    "name": "Sakurajima: West Coast\\"
+  },
+  {
+    "id": "FTPoint117",
+    "name": "Crimson Cliffs\\"
+  },
+  {
+    "id": "FTPoint118",
+    "name": "Hill Entrance\\"
+  },
+  {
+    "id": "FTPoint119",
+    "name": "Curved Redrock\\"
+  },
+  {
+    "id": "FTPoint12",
+    "name": "Duneshelter\\"
+  },
+  {
+    "id": "FTPoint120",
+    "name": "Scarlet Outlook\\"
+  },
+  {
+    "id": "FTPoint121",
+    "name": "Crimson Labyrinth\\"
+  },
+  {
+    "id": "FTPoint122",
+    "name": "Crystallized Great Tree\\"
+  },
+  {
+    "id": "FTPoint123",
+    "name": "Wildlands Floodgate\\"
+  },
+  {
+    "id": "FTPoint124",
+    "name": "Oilfield Overlook\\"
+  },
+  {
+    "id": "FTPoint125",
+    "name": "Shady Mushroom Cliffs\\"
+  },
+  {
+    "id": "FTPoint126",
+    "name": "Silent Lake\\"
+  },
+  {
+    "id": "FTPoint127",
+    "name": "Azure Cliffs\\"
+  },
+  {
+    "id": "FTPoint128",
+    "name": "Amethyst Outcrop\\"
+  },
+  {
+    "id": "FTPoint129",
+    "name": "Exile"
+  },
+  {
+    "id": "FTPoint13",
+    "name": "Deep Sand Dunes\\"
+  },
+  {
+    "id": "FTPoint14",
+    "name": "Cold Shore\\"
+  },
+  {
+    "id": "FTPoint15",
+    "name": "No Man"
+  },
+  {
+    "id": "FTPoint16",
+    "name": "Icy Weasel Hill\\"
+  },
+  {
+    "id": "FTPoint17",
+    "name": "Unthawable Lake\\"
+  },
+  {
+    "id": "FTPoint18",
+    "name": "Land of Absolute Zero\\"
+  },
+  {
+    "id": "FTPoint20",
+    "name": "PAL Genetic Research Unit Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint21",
+    "name": "Grassy Behemoth Hills\\"
+  },
+  {
+    "id": "FTPoint22",
+    "name": "Desolate Church\\"
+  },
+  {
+    "id": "FTPoint23",
+    "name": "Hill of Beginnings\\"
+  },
+  {
+    "id": "FTPoint24",
+    "name": "Small Settlement\\"
+  },
+  {
+    "id": "FTPoint25",
+    "name": "Ascetic Falls\\"
+  },
+  {
+    "id": "FTPoint26",
+    "name": "Foot of the Volcano\\"
+  },
+  {
+    "id": "FTPoint28",
+    "name": "Fort Ruins\\"
+  },
+  {
+    "id": "FTPoint3",
+    "name": "Eternal Pyre Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint30",
+    "name": "Investigator"
+  },
+  {
+    "id": "FTPoint31",
+    "name": "Ancient Ritual Site\\"
+  },
+  {
+    "id": "FTPoint32",
+    "name": "Mount Flopie Summit\\"
+  },
+  {
+    "id": "FTPoint33",
+    "name": "Lake Center\\"
+  },
+  {
+    "id": "FTPoint34",
+    "name": "Hypocrite Hill\\"
+  },
+  {
+    "id": "FTPoint35",
+    "name": "Sealed Realm of the Mystic\\"
+  },
+  {
+    "id": "FTPoint36",
+    "name": "Snowy Mountain Crossroads\\"
+  },
+  {
+    "id": "FTPoint37",
+    "name": "Frostbound Mountains Summit\\"
+  },
+  {
+    "id": "FTPoint39",
+    "name": "Mossanda Forest\\"
+  },
+  {
+    "id": "FTPoint4",
+    "name": "Ancient Civilization Ruins\\"
+  },
+  {
+    "id": "FTPoint40",
+    "name": "Gobfin"
+  },
+  {
+    "id": "FTPoint41",
+    "name": "Cinnamoth Forest\\"
+  },
+  {
+    "id": "FTPoint43",
+    "name": "Deep Bamboo Thicket\\"
+  },
+  {
+    "id": "FTPoint45",
+    "name": "Rayne Syndicate Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint48",
+    "name": "Pristine Snow Field\\"
+  },
+  {
+    "id": "FTPoint5",
+    "name": "Fisherman"
+  },
+  {
+    "id": "FTPoint51",
+    "name": "Kelpsea Hill\\"
+  },
+  {
+    "id": "FTPoint53",
+    "name": "Sea Breeze Archipelago Church\\"
+  },
+  {
+    "id": "FTPoint54",
+    "name": "Small Cove\\"
+  },
+  {
+    "id": "FTPoint55",
+    "name": "Islandhopper Coast\\"
+  },
+  {
+    "id": "FTPoint58",
+    "name": "Natural Bridge\\"
+  },
+  {
+    "id": "FTPoint59",
+    "name": "Isle of Silence Church Ruins\\"
+  },
+  {
+    "id": "FTPoint6",
+    "name": "Mount Obsidian - Anubis Statue\\"
+  },
+  {
+    "id": "FTPoint60",
+    "name": "Marsh Island Church Ruins\\"
+  },
+  {
+    "id": "FTPoint61",
+    "name": "Bridge of the Twin Knights\\"
+  },
+  {
+    "id": "FTPoint62",
+    "name": "Ravine Entrance\\"
+  },
+  {
+    "id": "FTPoint63",
+    "name": "Arena Entrance\\"
+  },
+  {
+    "id": "FTPoint64",
+    "name": "Sakurajima - Mushroom Wetlands\\"
+  },
+  {
+    "id": "FTPoint65",
+    "name": "Sakurajima - Southern Sandbar\\"
+  },
+  {
+    "id": "FTPoint67",
+    "name": "Moonflower Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint68",
+    "name": "Cherry Blossom Crossroads\\"
+  },
+  {
+    "id": "FTPoint69",
+    "name": "Sakurajima - Northern Rock Field\\"
+  },
+  {
+    "id": "FTPoint7",
+    "name": "Beach of Everlasting Summer\\"
+  },
+  {
+    "id": "FTPoint70",
+    "name": "Secluded Cemetery\\"
+  },
+  {
+    "id": "FTPoint71",
+    "name": "Scorched Ashland\\"
+  },
+  {
+    "id": "FTPoint72",
+    "name": "Stone Pillar Cave Entrance\\"
+  },
+  {
+    "id": "FTPoint73",
+    "name": "Loess Plains\\"
+  },
+  {
+    "id": "FTPoint74",
+    "name": "Hidden Passage to the Oculus Gate\\"
+  },
+  {
+    "id": "FTPoint75",
+    "name": "The Oculus Gate, Tower in Sight\\"
+  },
+  {
+    "id": "FTPoint76",
+    "name": "Feybreak Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint78",
+    "name": "Scorched Hill\\"
+  },
+  {
+    "id": "FTPoint79",
+    "name": "Deserted Ash Plateau\\"
+  },
+  {
+    "id": "FTPoint8",
+    "name": "Ruined Fortress City\\"
+  },
+  {
+    "id": "FTPoint80",
+    "name": "Emberstone Plateau\\"
+  },
+  {
+    "id": "FTPoint81",
+    "name": "Shield Dragon Tunnel\\"
+  },
+  {
+    "id": "FTPoint83",
+    "name": "Feybreak Shipwreck\\"
+  },
+  {
+    "id": "FTPoint84",
+    "name": "Sunlit Isle\\"
+  },
+  {
+    "id": "FTPoint85",
+    "name": "Oasis Isle\\"
+  },
+  {
+    "id": "FTPoint86",
+    "name": "Isle of the Glacial Core\\"
+  },
+  {
+    "id": "FTPoint87",
+    "name": "Frostbitten Isle\\"
+  },
+  {
+    "id": "FTPoint88",
+    "name": "Phantom Isle\\"
+  },
+  {
+    "id": "FTPoint89",
+    "name": "Isle of Decayed Treasures\\"
+  },
+  {
+    "id": "FTPoint9",
+    "name": "PIDF Tower Entrance\\"
+  },
+  {
+    "id": "FTPoint90",
+    "name": "Sealed Realm of Terraria\\"
+  },
+  {
+    "id": "FTPoint91",
+    "name": "Isle of Murmurs Beach\\"
+  },
+  {
+    "id": "FTPoint92",
+    "name": "Anubis Dunes\\"
+  },
+  {
+    "id": "FTPoint93",
+    "name": "Whisperwind Cliffs\\"
+  },
+  {
+    "id": "FTPoint94",
+    "name": "Whisperwind Hill\\"
+  },
+  {
+    "id": "FTPoint95",
+    "name": "Windscream Valley\\"
+  },
+  {
+    "id": "FTPoint96",
+    "name": "Sea Breeze Coast\\"
+  },
+  {
+    "id": "FTPoint97",
+    "name": "Dustview Coast\\"
+  },
+  {
+    "id": "FTPoint98",
+    "name": "Altar of the Windcaller\\"
+  },
+  {
+    "id": "FTPoint99",
+    "name": "Mossanda Inner Coast\\"
+  }
+]

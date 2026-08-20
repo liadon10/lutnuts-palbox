@@ -1,0 +1,611 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AreaFindBonusExpTableReferenceNum",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Exp/DT_AreaFindBonusExpTableReferenceNum",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalWorldMapAreaBonusExpTagleReferenceData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ReferenceTableNum": 1
+      },
+      "2": {
+        "ReferenceTableNum": 1
+      },
+      "3": {
+        "ReferenceTableNum": 1
+      },
+      "4": {
+        "ReferenceTableNum": 1
+      },
+      "5": {
+        "ReferenceTableNum": 1
+      },
+      "6": {
+        "ReferenceTableNum": 1
+      },
+      "7": {
+        "ReferenceTableNum": 1
+      },
+      "8": {
+        "ReferenceTableNum": 1
+      },
+      "9": {
+        "ReferenceTableNum": 1
+      },
+      "10": {
+        "ReferenceTableNum": 1
+      },
+      "11": {
+        "ReferenceTableNum": 1
+      },
+      "12": {
+        "ReferenceTableNum": 1
+      },
+      "13": {
+        "ReferenceTableNum": 1
+      },
+      "14": {
+        "ReferenceTableNum": 1
+      },
+      "15": {
+        "ReferenceTableNum": 1
+      },
+      "16": {
+        "ReferenceTableNum": 1
+      },
+      "17": {
+        "ReferenceTableNum": 1
+      },
+      "18": {
+        "ReferenceTableNum": 1
+      },
+      "19": {
+        "ReferenceTableNum": 1
+      },
+      "20": {
+        "ReferenceTableNum": 1
+      },
+      "21": {
+        "ReferenceTableNum": 2
+      },
+      "22": {
+        "ReferenceTableNum": 2
+      },
+      "23": {
+        "ReferenceTableNum": 2
+      },
+      "24": {
+        "ReferenceTableNum": 2
+      },
+      "25": {
+        "ReferenceTableNum": 2
+      },
+      "26": {
+        "ReferenceTableNum": 2
+      },
+      "27": {
+        "ReferenceTableNum": 2
+      },
+      "28": {
+        "ReferenceTableNum": 2
+      },
+      "29": {
+        "ReferenceTableNum": 2
+      },
+      "30": {
+        "ReferenceTableNum": 2
+      },
+      "31": {
+        "ReferenceTableNum": 2
+      },
+      "32": {
+        "ReferenceTableNum": 2
+      },
+      "33": {
+        "ReferenceTableNum": 2
+      },
+      "34": {
+        "ReferenceTableNum": 2
+      },
+      "35": {
+        "ReferenceTableNum": 2
+      },
+      "36": {
+        "ReferenceTableNum": 2
+      },
+      "37": {
+        "ReferenceTableNum": 2
+      },
+      "38": {
+        "ReferenceTableNum": 2
+      },
+      "39": {
+        "ReferenceTableNum": 2
+      },
+      "40": {
+        "ReferenceTableNum": 2
+      },
+      "41": {
+        "ReferenceTableNum": 2
+      },
+      "42": {
+        "ReferenceTableNum": 2
+      },
+      "43": {
+        "ReferenceTableNum": 2
+      },
+      "44": {
+        "ReferenceTableNum": 2
+      },
+      "45": {
+        "ReferenceTableNum": 2
+      },
+      "46": {
+        "ReferenceTableNum": 2
+      },
+      "47": {
+        "ReferenceTableNum": 2
+      },
+      "48": {
+        "ReferenceTableNum": 2
+      },
+      "49": {
+        "ReferenceTableNum": 2
+      },
+      "50": {
+        "ReferenceTableNum": 2
+      },
+      "51": {
+        "ReferenceTableNum": 2
+      },
+      "52": {
+        "ReferenceTableNum": 2
+      },
+      "53": {
+        "ReferenceTableNum": 2
+      },
+      "54": {
+        "ReferenceTableNum": 2
+      },
+      "55": {
+        "ReferenceTableNum": 2
+      },
+      "56": {
+        "ReferenceTableNum": 2
+      },
+      "57": {
+        "ReferenceTableNum": 2
+      },
+      "58": {
+        "ReferenceTableNum": 2
+      },
+      "59": {
+        "ReferenceTableNum": 2
+      },
+      "60": {
+        "ReferenceTableNum": 2
+      },
+      "61": {
+        "ReferenceTableNum": 3
+      },
+      "62": {
+        "ReferenceTableNum": 3
+      },
+      "63": {
+        "ReferenceTableNum": 3
+      },
+      "64": {
+        "ReferenceTableNum": 3
+      },
+      "65": {
+        "ReferenceTableNum": 3
+      },
+      "66": {
+        "ReferenceTableNum": 3
+      },
+      "67": {
+        "ReferenceTableNum": 3
+      },
+      "68": {
+        "ReferenceTableNum": 3
+      },
+      "69": {
+        "ReferenceTableNum": 3
+      },
+      "70": {
+        "ReferenceTableNum": 3
+      },
+      "71": {
+        "ReferenceTableNum": 3
+      },
+      "72": {
+        "ReferenceTableNum": 3
+      },
+      "73": {
+        "ReferenceTableNum": 3
+      },
+      "74": {
+        "ReferenceTableNum": 3
+      },
+      "75": {
+        "ReferenceTableNum": 3
+      },
+      "76": {
+        "ReferenceTableNum": 3
+      },
+      "77": {
+        "ReferenceTableNum": 3
+      },
+      "78": {
+        "ReferenceTableNum": 3
+      },
+      "79": {
+        "ReferenceTableNum": 3
+      },
+      "80": {
+        "ReferenceTableNum": 3
+      },
+      "81": {
+        "ReferenceTableNum": 3
+      },
+      "82": {
+        "ReferenceTableNum": 3
+      },
+      "83": {
+        "ReferenceTableNum": 3
+      },
+      "84": {
+        "ReferenceTableNum": 3
+      },
+      "85": {
+        "ReferenceTableNum": 3
+      },
+      "86": {
+        "ReferenceTableNum": 3
+      },
+      "87": {
+        "ReferenceTableNum": 3
+      },
+      "88": {
+        "ReferenceTableNum": 3
+      },
+      "89": {
+        "ReferenceTableNum": 3
+      },
+      "90": {
+        "ReferenceTableNum": 3
+      },
+      "91": {
+        "ReferenceTableNum": 3
+      },
+      "92": {
+        "ReferenceTableNum": 3
+      },
+      "93": {
+        "ReferenceTableNum": 3
+      },
+      "94": {
+        "ReferenceTableNum": 3
+      },
+      "95": {
+        "ReferenceTableNum": 3
+      },
+      "96": {
+        "ReferenceTableNum": 3
+      },
+      "97": {
+        "ReferenceTableNum": 3
+      },
+      "98": {
+        "ReferenceTableNum": 3
+      },
+      "99": {
+        "ReferenceTableNum": 3
+      },
+      "100": {
+        "ReferenceTableNum": 4
+      },
+      "101": {
+        "ReferenceTableNum": 4
+      },
+      "102": {
+        "ReferenceTableNum": 4
+      },
+      "103": {
+        "ReferenceTableNum": 4
+      },
+      "104": {
+        "ReferenceTableNum": 4
+      },
+      "105": {
+        "ReferenceTableNum": 4
+      },
+      "106": {
+        "ReferenceTableNum": 4
+      },
+      "107": {
+        "ReferenceTableNum": 4
+      },
+      "108": {
+        "ReferenceTableNum": 4
+      },
+      "109": {
+        "ReferenceTableNum": 4
+      },
+      "110": {
+        "ReferenceTableNum": 4
+      },
+      "111": {
+        "ReferenceTableNum": 4
+      },
+      "112": {
+        "ReferenceTableNum": 4
+      },
+      "113": {
+        "ReferenceTableNum": 4
+      },
+      "114": {
+        "ReferenceTableNum": 4
+      },
+      "115": {
+        "ReferenceTableNum": 4
+      },
+      "116": {
+        "ReferenceTableNum": 4
+      },
+      "117": {
+        "ReferenceTableNum": 4
+      },
+      "118": {
+        "ReferenceTableNum": 4
+      },
+      "119": {
+        "ReferenceTableNum": 4
+      },
+      "120": {
+        "ReferenceTableNum": 4
+      },
+      "121": {
+        "ReferenceTableNum": 4
+      },
+      "122": {
+        "ReferenceTableNum": 4
+      },
+      "123": {
+        "ReferenceTableNum": 4
+      },
+      "124": {
+        "ReferenceTableNum": 4
+      },
+      "125": {
+        "ReferenceTableNum": 4
+      },
+      "126": {
+        "ReferenceTableNum": 4
+      },
+      "127": {
+        "ReferenceTableNum": 4
+      },
+      "128": {
+        "ReferenceTableNum": 4
+      },
+      "129": {
+        "ReferenceTableNum": 4
+      },
+      "130": {
+        "ReferenceTableNum": 4
+      },
+      "131": {
+        "ReferenceTableNum": 4
+      },
+      "132": {
+        "ReferenceTableNum": 4
+      },
+      "133": {
+        "ReferenceTableNum": 4
+      },
+      "134": {
+        "ReferenceTableNum": 4
+      },
+      "135": {
+        "ReferenceTableNum": 4
+      },
+      "136": {
+        "ReferenceTableNum": 4
+      },
+      "137": {
+        "ReferenceTableNum": 4
+      },
+      "138": {
+        "ReferenceTableNum": 4
+      },
+      "139": {
+        "ReferenceTableNum": 4
+      },
+      "140": {
+        "ReferenceTableNum": 4
+      },
+      "141": {
+        "ReferenceTableNum": 4
+      },
+      "142": {
+        "ReferenceTableNum": 4
+      },
+      "143": {
+        "ReferenceTableNum": 4
+      },
+      "144": {
+        "ReferenceTableNum": 4
+      },
+      "145": {
+        "ReferenceTableNum": 4
+      },
+      "146": {
+        "ReferenceTableNum": 4
+      },
+      "147": {
+        "ReferenceTableNum": 4
+      },
+      "148": {
+        "ReferenceTableNum": 4
+      },
+      "149": {
+        "ReferenceTableNum": 4
+      },
+      "150": {
+        "ReferenceTableNum": 4
+      },
+      "151": {
+        "ReferenceTableNum": 4
+      },
+      "152": {
+        "ReferenceTableNum": 4
+      },
+      "153": {
+        "ReferenceTableNum": 4
+      },
+      "154": {
+        "ReferenceTableNum": 4
+      },
+      "155": {
+        "ReferenceTableNum": 4
+      },
+      "156": {
+        "ReferenceTableNum": 4
+      },
+      "157": {
+        "ReferenceTableNum": 4
+      },
+      "158": {
+        "ReferenceTableNum": 4
+      },
+      "159": {
+        "ReferenceTableNum": 4
+      },
+      "160": {
+        "ReferenceTableNum": 4
+      },
+      "161": {
+        "ReferenceTableNum": 4
+      },
+      "162": {
+        "ReferenceTableNum": 4
+      },
+      "163": {
+        "ReferenceTableNum": 4
+      },
+      "164": {
+        "ReferenceTableNum": 4
+      },
+      "165": {
+        "ReferenceTableNum": 4
+      },
+      "166": {
+        "ReferenceTableNum": 4
+      },
+      "167": {
+        "ReferenceTableNum": 4
+      },
+      "168": {
+        "ReferenceTableNum": 4
+      },
+      "169": {
+        "ReferenceTableNum": 4
+      },
+      "170": {
+        "ReferenceTableNum": 4
+      },
+      "171": {
+        "ReferenceTableNum": 4
+      },
+      "172": {
+        "ReferenceTableNum": 4
+      },
+      "173": {
+        "ReferenceTableNum": 4
+      },
+      "174": {
+        "ReferenceTableNum": 4
+      },
+      "175": {
+        "ReferenceTableNum": 4
+      },
+      "176": {
+        "ReferenceTableNum": 4
+      },
+      "177": {
+        "ReferenceTableNum": 4
+      },
+      "178": {
+        "ReferenceTableNum": 4
+      },
+      "179": {
+        "ReferenceTableNum": 4
+      },
+      "180": {
+        "ReferenceTableNum": 4
+      },
+      "181": {
+        "ReferenceTableNum": 4
+      },
+      "182": {
+        "ReferenceTableNum": 4
+      },
+      "183": {
+        "ReferenceTableNum": 4
+      },
+      "184": {
+        "ReferenceTableNum": 4
+      },
+      "185": {
+        "ReferenceTableNum": 4
+      },
+      "186": {
+        "ReferenceTableNum": 4
+      },
+      "187": {
+        "ReferenceTableNum": 4
+      },
+      "188": {
+        "ReferenceTableNum": 4
+      },
+      "189": {
+        "ReferenceTableNum": 4
+      },
+      "190": {
+        "ReferenceTableNum": 4
+      },
+      "191": {
+        "ReferenceTableNum": 4
+      },
+      "192": {
+        "ReferenceTableNum": 4
+      },
+      "193": {
+        "ReferenceTableNum": 4
+      },
+      "194": {
+        "ReferenceTableNum": 4
+      },
+      "195": {
+        "ReferenceTableNum": 4
+      },
+      "196": {
+        "ReferenceTableNum": 4
+      },
+      "197": {
+        "ReferenceTableNum": 4
+      },
+      "198": {
+        "ReferenceTableNum": 4
+      }
+    }
+  }
+]

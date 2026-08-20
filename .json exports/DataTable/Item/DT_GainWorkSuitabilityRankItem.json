@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GainWorkSuitabilityRankItem",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_GainWorkSuitabilityRankItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalGainWorkSuitabilityRankItemDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "WorkSuitability_AddTicket_EmitFlame": {
+        "WorkSuitability": "EPalWorkSuitability::EmitFlame"
+      },
+      "WorkSuitability_AddTicket_Watering": {
+        "WorkSuitability": "EPalWorkSuitability::Watering"
+      },
+      "WorkSuitability_AddTicket_Seeding": {
+        "WorkSuitability": "EPalWorkSuitability::Seeding"
+      },
+      "WorkSuitability_AddTicket_GenerateElectricity": {
+        "WorkSuitability": "EPalWorkSuitability::GenerateElectricity"
+      },
+      "WorkSuitability_AddTicket_Handcraft": {
+        "WorkSuitability": "EPalWorkSuitability::Handcraft"
+      },
+      "WorkSuitability_AddTicket_Collection": {
+        "WorkSuitability": "EPalWorkSuitability::Collection"
+      },
+      "WorkSuitability_AddTicket_Deforest": {
+        "WorkSuitability": "EPalWorkSuitability::Deforest"
+      },
+      "WorkSuitability_AddTicket_Mining": {
+        "WorkSuitability": "EPalWorkSuitability::Mining"
+      },
+      "WorkSuitability_AddTicket_ProductMedicine": {
+        "WorkSuitability": "EPalWorkSuitability::ProductMedicine"
+      },
+      "WorkSuitability_AddTicket_Cool": {
+        "WorkSuitability": "EPalWorkSuitability::Cool"
+      },
+      "WorkSuitability_AddTicket_Transport": {
+        "WorkSuitability": "EPalWorkSuitability::Transport"
+      },
+      "Dummy_WorkSuitability_AddTicket_OilExtraction": {
+        "WorkSuitability": "EPalWorkSuitability::OilExtraction"
+      },
+      "WorkSuitability_AddTicket_MonsterFarm": {
+        "WorkSuitability": "EPalWorkSuitability::MonsterFarm"
+      }
+    }
+  }
+]

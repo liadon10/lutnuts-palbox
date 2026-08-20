@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FishPondTargetTypeNameText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_FishPondTargetTypeNameText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_SHADOW_SMALL": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_SMALL_TextData",
+          "SourceString": "小さな魚影",
+          "LocalizedString": "小さな魚影"
+        }
+      },
+      "NAME_SHADOW_MEDIUM": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_MEDIUM_TextData",
+          "SourceString": "中ぐらいの魚影",
+          "LocalizedString": "中ぐらいの魚影"
+        }
+      },
+      "NAME_SHADOW_BIG": {
+        "TextData": {
+          "Namespace": "DT_FishPondTargetTypeNameText",
+          "Key": "NAME_SHADOW_BIG_TextData",
+          "SourceString": "大きな魚影",
+          "LocalizedString": "大きな魚影"
+        }
+      }
+    }
+  }
+]

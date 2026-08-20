@@ -1,0 +1,1345 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalQuestLocationData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Quest/DT_PalQuestLocationData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalQuestFixedObjectiveLocationSettingData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Main_UnlockFastTravel": {
+        "Position": {
+          "X": -358785.0,
+          "Y": 267940.0,
+          "Z": 8500.0
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatWildBoss": {
+        "Position": {
+          "X": -316071.7,
+          "Y": 237782.42,
+          "Z": 2600.0
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatDungeonBoss": {
+        "Position": {
+          "X": -285331.3,
+          "Y": 210162.69,
+          "Z": 1000.0
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatGrassBoss": {
+        "Position": {
+          "X": -321360.0,
+          "Y": 208989.0,
+          "Z": 150.0
+        },
+        "Range": -1.0
+      },
+      "Main_CaptureDeerGround": {
+        "Position": {
+          "X": -456797.8,
+          "Y": 197837.9,
+          "Z": -800.0
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatForestBoss": {
+        "Position": {
+          "X": -266303.22,
+          "Y": 174422.67,
+          "Z": 6132.834
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatDesertBoss": {
+        "Position": {
+          "X": 29984.934,
+          "Y": 413567.44,
+          "Z": 15776.714
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatVolcanoBoss": {
+        "Position": {
+          "X": -361827.38,
+          "Y": -112236.9,
+          "Z": 61411.742
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatSnowyMountainBoss": {
+        "Position": {
+          "X": 81363.0,
+          "Y": 90183.0,
+          "Z": 64048.504
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatSakurajimaBoss": {
+        "Position": {
+          "X": -29427.572,
+          "Y": -115900.055,
+          "Z": 6225.5356
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatVikingBoss": {
+        "Position": {
+          "X": -889805.2,
+          "Y": -435828.0,
+          "Z": 19038.922
+        },
+        "Range": -1.0
+      },
+      "Sub_Farmer03_Target": {
+        "Position": {
+          "X": -347065.78,
+          "Y": 194612.25,
+          "Z": 1115.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger02_Target": {
+        "Position": {
+          "X": -371361.0,
+          "Y": -61118.0,
+          "Z": 18954.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger03_Target": {
+        "Position": {
+          "X": -867560.9,
+          "Y": -441338.22,
+          "Z": 18840.152
+        },
+        "Range": -1.0
+      },
+      "Sub_Breeder03_Target": {
+        "Position": {
+          "X": -27124.027,
+          "Y": 293726.7,
+          "Z": 9749.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Zoe_ItemSearchArea": {
+        "Position": {
+          "X": -298590.34,
+          "Y": 242941.06,
+          "Z": -1775.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Farmer01": {
+        "Position": {
+          "X": -346423.0,
+          "Y": 197007.0,
+          "Z": 1029.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Farmer02": {
+        "Position": {
+          "X": -329082.0,
+          "Y": 163717.0,
+          "Z": -1311.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Farmer03": {
+        "Position": {
+          "X": -337585.0,
+          "Y": 230200.0,
+          "Z": -1656.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Farmer04": {
+        "Position": {
+          "X": -291046.0,
+          "Y": 203720.0,
+          "Z": -993.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Scholar01": {
+        "Position": {
+          "X": -272761.97,
+          "Y": 185543.62,
+          "Z": 480.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Scholar02": {
+        "Position": {
+          "X": -83350.34,
+          "Y": 137191.16,
+          "Z": 8023.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Scholar03": {
+        "Position": {
+          "X": -272547.06,
+          "Y": 264756.25,
+          "Z": -1464.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Scholar04": {
+        "Position": {
+          "X": -606867.0,
+          "Y": -482761.84,
+          "Z": 6967.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Breeder01": {
+        "Position": {
+          "X": -340952.0,
+          "Y": 107575.0,
+          "Z": -1115.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Breeder02": {
+        "Position": {
+          "X": -14110.0,
+          "Y": -135560.0,
+          "Z": 4790.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Breeder03": {
+        "Position": {
+          "X": -48296.0,
+          "Y": 288135.0,
+          "Z": 673.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Breeder04": {
+        "Position": {
+          "X": -697180.75,
+          "Y": -322452.22,
+          "Z": 15741.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger01": {
+        "Position": {
+          "X": 29076.0,
+          "Y": 406040.0,
+          "Z": 15773.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger02": {
+        "Position": {
+          "X": -350489.75,
+          "Y": -6617.2056,
+          "Z": 1747.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger03": {
+        "Position": {
+          "X": -852833.56,
+          "Y": -413666.56,
+          "Z": 7089.509
+        },
+        "Range": -1.0
+      },
+      "Sub_Ranger04": {
+        "Position": {
+          "X": -181690.0,
+          "Y": 237584.0,
+          "Z": -1597.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Nomad01": {
+        "Position": {
+          "X": 89040.0,
+          "Y": 94145.67,
+          "Z": 67399.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Nomad02": {
+        "Position": {
+          "X": -511240.0,
+          "Y": -221020.0,
+          "Z": 176.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Nomad03": {
+        "Position": {
+          "X": -368051.2,
+          "Y": 223406.34,
+          "Z": 578.1756
+        },
+        "Range": -1.0
+      },
+      "Sub_Nomad04": {
+        "Position": {
+          "X": -20307.0,
+          "Y": -131533.0,
+          "Z": 5981.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Angler01": {
+        "Position": {
+          "X": -331671.0,
+          "Y": 335454.0,
+          "Z": -1903.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Zoe": {
+        "Position": {
+          "X": -312772.03,
+          "Y": 187810.4,
+          "Z": 3468.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Food": {
+        "Position": {
+          "X": 44605.547,
+          "Y": 315538.9,
+          "Z": 2301.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDex": {
+        "Position": {
+          "X": -345081.28,
+          "Y": 193384.17,
+          "Z": 19.0
+        },
+        "Range": -1.0
+      },
+      "Sub_CaptureCount": {
+        "Position": {
+          "X": -468269.0,
+          "Y": -61422.785,
+          "Z": -1360.0
+        },
+        "Range": -1.0
+      },
+      "Sub_BossDefeat": {
+        "Position": {
+          "X": -341803.0,
+          "Y": 194394.58,
+          "Z": -704.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispA": {
+        "Position": {
+          "X": -346305.6,
+          "Y": 191641.64,
+          "Z": -108.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispB": {
+        "Position": {
+          "X": -318564.22,
+          "Y": 126650.75,
+          "Z": -2046.638
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispC": {
+        "Position": {
+          "X": -236349.0,
+          "Y": 190469.89,
+          "Z": 3857.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispD": {
+        "Position": {
+          "X": -219882.45,
+          "Y": 226270.0,
+          "Z": -1785.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispE": {
+        "Position": {
+          "X": 32165.47,
+          "Y": 323071.12,
+          "Z": -286.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispF": {
+        "Position": {
+          "X": -416565.1,
+          "Y": -89154.97,
+          "Z": 23489.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispG": {
+        "Position": {
+          "X": -118635.71,
+          "Y": 138001.8,
+          "Z": -957.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispH": {
+        "Position": {
+          "X": -63106.17,
+          "Y": -54686.895,
+          "Z": -1467.0
+        },
+        "Range": -1.0
+      },
+      "Sub_PalDispI": {
+        "Position": {
+          "X": -589501.5,
+          "Y": -254102.72,
+          "Z": 1109.0
+        },
+        "Range": -1.0
+      },
+      "Sub_Kigurumi01": {
+        "Position": {
+          "X": -229596.77,
+          "Y": 167702.84,
+          "Z": -1751.0
+        },
+        "Range": -1.0
+      },
+      "AlternativeTracking_TreeToMW5": {
+        "Position": {
+          "X": 512700.0,
+          "Y": -510600.0,
+          "Z": 43500.0
+        },
+        "Range": 0.0
+      },
+      "AlternativeTracking_MW5ToTree": {
+        "Position": {
+          "X": -679474.0,
+          "Y": -640347.0,
+          "Z": 1000.0
+        },
+        "Range": 0.0
+      },
+      "Main_TalkGrassBoss": {
+        "Position": {
+          "X": -320250.0,
+          "Y": 209420.0,
+          "Z": 86.539345
+        },
+        "Range": -1.0
+      },
+      "Main_TalkSkyBoss": {
+        "Position": {
+          "X": -780340.0,
+          "Y": -37160.0,
+          "Z": 61820.41
+        },
+        "Range": -1.0
+      },
+      "Main_TalkSkyBossAgain": {
+        "Position": {
+          "X": -780340.0,
+          "Y": -37160.0,
+          "Z": 61820.41
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatKingWhale": {
+        "Position": {
+          "X": -108045.74,
+          "Y": 77931.16,
+          "Z": 823.6899
+        },
+        "Range": -1.0
+      },
+      "Main_ReachWorldTree": {
+        "Position": {
+          "X": 202647.22,
+          "Y": -225509.84,
+          "Z": 9206.756
+        },
+        "Range": -1.0
+      },
+      "Main_TalkWorldTreeNPC": {
+        "Position": {
+          "X": 504140.0,
+          "Y": -546170.0,
+          "Z": 33212.77
+        },
+        "Range": -1.0
+      },
+      "Main_WorldTreeAbyss_Unseal": {
+        "Position": {
+          "X": 495610.0,
+          "Y": -756851.44,
+          "Z": 42600.0
+        },
+        "Range": -1.0
+      },
+      "Main_WorldTreeAbyss_Reach": {
+        "Position": {
+          "X": 500842.0,
+          "Y": -750639.7,
+          "Z": 41618.85
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan01_Return": {
+        "Position": {
+          "X": -343431.56,
+          "Y": 150790.31,
+          "Z": 10314.826
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan02_Return": {
+        "Position": {
+          "X": 16770.0,
+          "Y": -4890.0,
+          "Z": 6709.674
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan03_KillEnemy": {
+        "Position": {
+          "X": -826820.0,
+          "Y": 37410.0,
+          "Z": 48770.723
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan03_Return": {
+        "Position": {
+          "X": -818965.25,
+          "Y": 32377.395,
+          "Z": 48570.8
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan05_Return": {
+        "Position": {
+          "X": 20270.0,
+          "Y": -152410.0,
+          "Z": -2060.0
+        },
+        "Range": -1.0
+      },
+      "Main_TutorialStart": {
+        "Position": {
+          "X": -357517.66,
+          "Y": 268655.16,
+          "Z": 7966.269
+        },
+        "Range": -1.0
+      },
+      "Main_SmallVillage": {
+        "Position": {
+          "X": -342504.97,
+          "Y": 192853.36,
+          "Z": -892.88947
+        },
+        "Range": -1.0
+      },
+      "Test_UnlockAreaBarrier": {
+        "Position": {
+          "X": 30066.314,
+          "Y": 30641.648,
+          "Z": 19.999977
+        },
+        "Range": 0.0
+      },
+      "Test_UnlockAreaBarrier2": {
+        "Position": {
+          "X": 30806.799,
+          "Y": 30653.578,
+          "Z": 20.000004
+        },
+        "Range": 0.0
+      },
+      "Sub_StrongOldMan01_KillEnemy": {
+        "Position": {
+          "X": -344344.78,
+          "Y": 149804.31,
+          "Z": 10102.82
+        },
+        "Range": -1.0
+      },
+      "Main_DesertBoss_TalkResidents_DesertVillage002": {
+        "Position": {
+          "X": 40630.008,
+          "Y": 315086.62,
+          "Z": 1717.1989
+        },
+        "Range": 0.0
+      },
+      "Main_DesertBoss_TalkResidents_DesertVillage003": {
+        "Position": {
+          "X": 38166.19,
+          "Y": 316564.6,
+          "Z": 1717.584
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Order": {
+        "Position": {
+          "X": -187239.92,
+          "Y": 55564.676,
+          "Z": 1339.6652
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Investigate": {
+        "Position": {
+          "X": -231421.89,
+          "Y": 68246.59,
+          "Z": 2672.3965
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Report": {
+        "Position": {
+          "X": -187239.92,
+          "Y": 55564.676,
+          "Z": 1339.6652
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Investigate_LilyHouse": {
+        "Position": {
+          "X": -237100.86,
+          "Y": 101704.914,
+          "Z": -1941.5906
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Report_2": {
+        "Position": {
+          "X": -187239.92,
+          "Y": 55564.676,
+          "Z": 1339.6652
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_ForestBoss_Complete": {
+        "Position": {
+          "X": -187239.92,
+          "Y": 55564.676,
+          "Z": 1339.6652
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VolcanoBoss_Order": {
+        "Position": {
+          "X": -468146.7,
+          "Y": -64293.4,
+          "Z": -1640.3163
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VolcanoBoss_TalkVillager": {
+        "Position": {
+          "X": -467899.97,
+          "Y": -60219.848,
+          "Z": -1380.9744
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VolcanoBoss_TalkCarrier": {
+        "Position": {
+          "X": -432882.38,
+          "Y": -89394.59,
+          "Z": 14553.789
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VolcanoBoss_Report": {
+        "Position": {
+          "X": -468146.7,
+          "Y": -64293.4,
+          "Z": -1640.3163
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VolcanoBoss_Report_2": {
+        "Position": {
+          "X": -468146.7,
+          "Y": -64293.4,
+          "Z": -1640.3163
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Order": {
+        "Position": {
+          "X": 36777.44,
+          "Y": 318631.9,
+          "Z": 1497.2125
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Report": {
+        "Position": {
+          "X": 36777.44,
+          "Y": 318631.9,
+          "Z": 1497.2125
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Investigate": {
+        "Position": {
+          "X": 28601.053,
+          "Y": 400697.34,
+          "Z": -787.4456
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Investigate2": {
+        "Position": {
+          "X": 63641.508,
+          "Y": 315444.44,
+          "Z": 2352.6143
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Report2": {
+        "Position": {
+          "X": 36777.44,
+          "Y": 318631.9,
+          "Z": 1497.2125
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Report3": {
+        "Position": {
+          "X": 36777.44,
+          "Y": 318631.9,
+          "Z": 1497.2125
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_Order": {
+        "Position": {
+          "X": 15387.158,
+          "Y": 112280.53,
+          "Z": 2585.2578
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_KillEnemy": {
+        "Position": {
+          "X": 5476.0894,
+          "Y": 95852.836,
+          "Z": 5069.774
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_SearchSphere": {
+        "Position": {
+          "X": 5458.7173,
+          "Y": 95994.05,
+          "Z": 5035.305
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_ReturnSphere": {
+        "Position": {
+          "X": 15387.158,
+          "Y": 112280.53,
+          "Z": 2585.2578
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_Investigate": {
+        "Position": {
+          "X": -47800.883,
+          "Y": 109078.22,
+          "Z": 8960.125
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_Report": {
+        "Position": {
+          "X": 15387.158,
+          "Y": 112280.53,
+          "Z": 2585.2578
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_SearchResearcher": {
+        "Position": {
+          "X": 14462.134,
+          "Y": 32685.293,
+          "Z": 15800.209
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_Report2": {
+        "Position": {
+          "X": 15387.158,
+          "Y": 112280.53,
+          "Z": 2585.2578
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SnowBoss_Report3": {
+        "Position": {
+          "X": 15387.158,
+          "Y": 112280.53,
+          "Z": 2585.2578
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_Order": {
+        "Position": {
+          "X": -16798.604,
+          "Y": -122092.83,
+          "Z": 6075.181
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_KillEnemy": {
+        "Position": {
+          "X": -8859.001,
+          "Y": -138378.98,
+          "Z": 4260.32
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_SearchKatana": {
+        "Position": {
+          "X": -8862.824,
+          "Y": -138553.14,
+          "Z": 4078.0645
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_ReturnKatana": {
+        "Position": {
+          "X": -16798.604,
+          "Y": -122092.83,
+          "Z": 6075.181
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_Investigate": {
+        "Position": {
+          "X": -20864.63,
+          "Y": -132642.42,
+          "Z": 5939.5205
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_Report": {
+        "Position": {
+          "X": -16798.604,
+          "Y": -122092.83,
+          "Z": 6075.181
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SakurajimaBoss_Report2": {
+        "Position": {
+          "X": -16798.604,
+          "Y": -122092.83,
+          "Z": 6075.181
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Order": {
+        "Position": {
+          "X": -550559.0,
+          "Y": -311612.7,
+          "Z": 10441.998
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Investigate": {
+        "Position": {
+          "X": -702079.4,
+          "Y": -316679.3,
+          "Z": 21403.506
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Report": {
+        "Position": {
+          "X": -550559.0,
+          "Y": -311612.7,
+          "Z": 10441.998
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Investigate2": {
+        "Position": {
+          "X": -729249.06,
+          "Y": -337032.12,
+          "Z": 15653.566
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Report2": {
+        "Position": {
+          "X": -550559.0,
+          "Y": -311612.7,
+          "Z": 10441.998
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_VikingBoss_Report3": {
+        "Position": {
+          "X": -550559.0,
+          "Y": -311612.7,
+          "Z": 10441.998
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Order": {
+        "Position": {
+          "X": -797140.6,
+          "Y": 27788.91,
+          "Z": 53439.973
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_1": {
+        "Position": {
+          "X": -765677.5,
+          "Y": 38957.93,
+          "Z": 42077.47
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_2": {
+        "Position": {
+          "X": -797914.25,
+          "Y": 52119.68,
+          "Z": 51389.2
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_3": {
+        "Position": {
+          "X": -812685.8,
+          "Y": -107511.37,
+          "Z": 56751.9
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_4": {
+        "Position": {
+          "X": -822680.56,
+          "Y": -42634.39,
+          "Z": 40896.3
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_5": {
+        "Position": {
+          "X": -742232.06,
+          "Y": -59805.137,
+          "Z": 32701.643
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Barrier_6": {
+        "Position": {
+          "X": -728915.3,
+          "Y": -94041.21,
+          "Z": 48009.926
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Report": {
+        "Position": {
+          "X": -797140.6,
+          "Y": 27788.91,
+          "Z": 53439.973
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_DefeatBoss": {
+        "Position": {
+          "X": -778215.9,
+          "Y": -36025.996,
+          "Z": 60895.82
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_SkyIslandBoss_Report2": {
+        "Position": {
+          "X": -797140.6,
+          "Y": 27788.91,
+          "Z": 53439.973
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_CollectBones_1": {
+        "Position": {
+          "X": -364630.0,
+          "Y": 214880.0,
+          "Z": 379.8737
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_CollectBones_2": {
+        "Position": {
+          "X": -174350.0,
+          "Y": 321130.0,
+          "Z": -2082.3086
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_CollectBones_3": {
+        "Position": {
+          "X": -375800.0,
+          "Y": -78780.0,
+          "Z": 21137.588
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_CollectBones_4": {
+        "Position": {
+          "X": 98970.0,
+          "Y": 37750.0,
+          "Z": 18051.012
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Order": {
+        "Position": {
+          "X": -108082.18,
+          "Y": 77959.26,
+          "Z": 834.9688
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Talk": {
+        "Position": {
+          "X": -108321.49,
+          "Y": 78553.266,
+          "Z": 601.2017
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Report": {
+        "Position": {
+          "X": -108321.49,
+          "Y": 78553.266,
+          "Z": 601.2017
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Investigate": {
+        "Position": {
+          "X": -108082.18,
+          "Y": 77959.26,
+          "Z": 834.9688
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Defeat": {
+        "Position": {
+          "X": -108082.18,
+          "Y": 77959.26,
+          "Z": 834.9688
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatKingWhale_Report2": {
+        "Position": {
+          "X": -108321.49,
+          "Y": 78553.266,
+          "Z": 601.2017
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Note": {
+        "Position": {
+          "X": 502837.4,
+          "Y": -751467.4,
+          "Z": 41630.04
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Defeat_1": {
+        "Position": {
+          "X": 608449.44,
+          "Y": -621984.75,
+          "Z": 24569.434
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Defeat_2": {
+        "Position": {
+          "X": 405135.0,
+          "Y": -730345.0,
+          "Z": 22995.0
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Defeat_3": {
+        "Position": {
+          "X": 622417.1,
+          "Y": -735542.7,
+          "Z": 24535.496
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Return": {
+        "Position": {
+          "X": 500623.5,
+          "Y": -750888.56,
+          "Z": 41637.363
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam01_DefeatPal": {
+        "Position": {
+          "X": -327129.62,
+          "Y": 97129.58,
+          "Z": -437.56454
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam01_Talk": {
+        "Position": {
+          "X": -328241.6,
+          "Y": 98265.28,
+          "Z": -295.56418
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam02_DefeatPal": {
+        "Position": {
+          "X": -448276.62,
+          "Y": -142760.44,
+          "Z": 6608.0317
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam02_Search": {
+        "Position": {
+          "X": -444289.3,
+          "Y": -137778.7,
+          "Z": 7480.4634
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam02_Talk": {
+        "Position": {
+          "X": -464947.03,
+          "Y": -147226.86,
+          "Z": -1429.4865
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam03_Medicine": {
+        "Position": {
+          "X": 37686.98,
+          "Y": 315628.34,
+          "Z": 1716.6296
+        },
+        "Range": -1.0
+      },
+      "RookieExpeditionTeam04_Defeat": {
+        "Position": {
+          "X": -61097.773,
+          "Y": -150289.14,
+          "Z": 1887.7485
+        },
+        "Range": -1.0
+      },
+      "LoneWolf01_Cure": {
+        "Position": {
+          "X": -18010.982,
+          "Y": -130340.57,
+          "Z": 5974.2256
+        },
+        "Range": -1.0
+      },
+      "LoneWolf01_Feed": {
+        "Position": {
+          "X": -18010.982,
+          "Y": -130340.57,
+          "Z": 5974.2256
+        },
+        "Range": -1.0
+      },
+      "LoneWolf01_CheckBag": {
+        "Position": {
+          "X": -18148.396,
+          "Y": -130343.96,
+          "Z": 5824.2256
+        },
+        "Range": -1.0
+      },
+      "LoneWolf02_Investigate": {
+        "Position": {
+          "X": -544429.2,
+          "Y": -227035.42,
+          "Z": 6480.8193
+        },
+        "Range": -1.0
+      },
+      "LoneWolf02_Defeat": {
+        "Position": {
+          "X": -544613.5,
+          "Y": -230970.56,
+          "Z": 6445.3164
+        },
+        "Range": -1.0
+      },
+      "LoneWolf03_Investigate": {
+        "Position": {
+          "X": -544450.0,
+          "Y": -227420.0,
+          "Z": 6500.0
+        },
+        "Range": -1.0
+      },
+      "LoneWolf03_Defeat": {
+        "Position": {
+          "X": -544450.0,
+          "Y": -227420.0,
+          "Z": 6500.0
+        },
+        "Range": -1.0
+      },
+      "LoneWolf03_Report": {
+        "Position": {
+          "X": -554528.0,
+          "Y": -316703.75,
+          "Z": 9784.172
+        },
+        "Range": -1.0
+      },
+      "Sulfur_Deliver": {
+        "Position": {
+          "X": -466489.44,
+          "Y": -61781.918,
+          "Z": -1378.1243
+        },
+        "Range": -1.0
+      },
+      "Wood_Fine_Deliver": {
+        "Position": {
+          "X": -467705.16,
+          "Y": -59369.582,
+          "Z": -1435.4758
+        },
+        "Range": -1.0
+      },
+      "Quartz_Deliver": {
+        "Position": {
+          "X": 15587.085,
+          "Y": 112232.96,
+          "Z": 2585.324
+        },
+        "Range": -1.0
+      },
+      "RainbowCrystal_Deliver": {
+        "Position": {
+          "X": -552401.9,
+          "Y": -315405.62,
+          "Z": 8901.053
+        },
+        "Range": -1.0
+      },
+      "SkyIslandOre_Deliver": {
+        "Position": {
+          "X": -761836.1,
+          "Y": 2829.9126,
+          "Z": 43273.562
+        },
+        "Range": -1.0
+      },
+      "HowSurviveWorldTree_Report": {
+        "Position": {
+          "X": 513231.66,
+          "Y": -511084.22,
+          "Z": 43678.9
+        },
+        "Range": -1.0
+      },
+      "Main_DefeatWorldTreeDragon": {
+        "Position": {
+          "X": 495610.0,
+          "Y": -756851.44,
+          "Z": 42600.0
+        },
+        "Range": -1.0
+      },
+      "Main_WorldTreeAbyss_Reach_2": {
+        "Position": {
+          "X": 496990.0,
+          "Y": -755180.0,
+          "Z": 42010.0
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DesertBoss_Investigate_Enter": {
+        "Position": {
+          "X": 33973.043,
+          "Y": 386763.78,
+          "Z": 1490.4777
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan02_KillEnemy": {
+        "Position": {
+          "X": 14750.0,
+          "Y": -4230.0,
+          "Z": 6810.0
+        },
+        "Range": -1.0
+      },
+      "Sub_StrongOldMan05_KillEnemy": {
+        "Position": {
+          "X": 18840.0,
+          "Y": -151550.0,
+          "Z": -1774.8003
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Defeat_1_2": {
+        "Position": {
+          "X": 630703.1,
+          "Y": -612728.6,
+          "Z": 28595.0
+        },
+        "Range": -1.0
+      },
+      "MainQuestBlock_DefeatWorldTreeMiddleBoss_Defeat_3_2": {
+        "Position": {
+          "X": 622547.5,
+          "Y": -759171.06,
+          "Z": 21355.781
+        },
+        "Range": -1.0
+      }
+    }
+  }
+]

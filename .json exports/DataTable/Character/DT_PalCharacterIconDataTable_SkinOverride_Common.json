@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalCharacterIconDataTable_SkinOverride_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Character/DT_PalCharacterIconDataTable_SkinOverride_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCharacterIconDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PinkCat_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_PinkCat_Skin001_icon_normal.T_PinkCat_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Skin001_icon_normal.T_WeaselDragon_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LazyDragon_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_LazyDragon_Skin001_icon_normal.T_LazyDragon_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SkyDragon_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_SkyDragon_Skin001_icon_normal.T_SkyDragon_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PlantSlime_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_PlantSlime_Skin001_icon_normal.T_PlantSlime_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceHorse_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_IceHorse_Skin001_icon_normal.T_IceHorse_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Penguin_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_Penguin_Skin001_icon_normal.T_Penguin_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NegativeKoala_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_NegativeKoala_Skin001_icon_normal.T_NegativeKoala_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CatMage_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_CatMage_Skin001_icon_normal.T_CatMage_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkCat_Skin003": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_PinkCat_Skin003_icon_normal.T_PinkCat_Skin003_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KendoFrog_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_KendoFrog_Skin001_icon_normal.T_KendoFrog_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Skin002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Skin002_icon_normal.T_WeaselDragon_Skin002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Fire_Skin002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Fire_Skin002_icon_normal.T_WeaselDragon_Fire_Skin002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceHorse_Skin002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_IceHorse_Skin002_icon_normal.T_IceHorse_Skin002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackGriffon_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_BlackGriffon_Skin001_icon_normal.T_BlackGriffon_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkCat_Skin004": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_PinkCat_Skin004_icon_normal.T_PinkCat_Skin004_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Skin003": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Skin003_icon_normal.T_WeaselDragon_Skin003_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Fire_Skin003": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Fire_Skin003_icon_normal.T_WeaselDragon_Fire_Skin003_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LilyQueen_Skin002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_LilyQueen_Skin002_icon_normal.T_LilyQueen_Skin002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LilyQueen_Dark_Skin002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_LilyQueen_Dark_Skin002_icon_normal.T_LilyQueen_Dark_Skin002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "JetDragon_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_JetDragon_Skin001_Icon_Normal.T_JetDragon_Skin001_Icon_Normal",
+          "SubPathString": ""
+        }
+      },
+      "Anubis_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_Anubis_Skin001_Icon_Normal.T_Anubis_Skin001_Icon_Normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Skin004": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_WeaselDragon_Skin004_Icon_Normal.T_WeaselDragon_Skin004_Icon_Normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_Human_GrassBoss_Skin001_icon_normal.T_Human_GrassBoss_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GYM_ElecPanda_Otomo_Skin001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/SKin/T_Human_GYM_ElecPanda_Otomo_Skin001_icon_normal.T_Human_GYM_ElecPanda_Otomo_Skin001_icon_normal",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

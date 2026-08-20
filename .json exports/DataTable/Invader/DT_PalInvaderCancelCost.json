@@ -1,0 +1,257 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalInvaderCancelCost",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Invader/DT_PalInvaderCancelCost",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalInvaderCancelCostRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Money": 500
+      },
+      "2": {
+        "Money": 500
+      },
+      "3": {
+        "Money": 500
+      },
+      "4": {
+        "Money": 500
+      },
+      "5": {
+        "Money": 500
+      },
+      "6": {
+        "Money": 500
+      },
+      "7": {
+        "Money": 500
+      },
+      "8": {
+        "Money": 500
+      },
+      "9": {
+        "Money": 500
+      },
+      "10": {
+        "Money": 500
+      },
+      "11": {
+        "Money": 1000
+      },
+      "12": {
+        "Money": 1000
+      },
+      "13": {
+        "Money": 1000
+      },
+      "14": {
+        "Money": 1000
+      },
+      "15": {
+        "Money": 1000
+      },
+      "16": {
+        "Money": 1000
+      },
+      "17": {
+        "Money": 1000
+      },
+      "18": {
+        "Money": 1000
+      },
+      "19": {
+        "Money": 1000
+      },
+      "20": {
+        "Money": 1000
+      },
+      "21": {
+        "Money": 2000
+      },
+      "22": {
+        "Money": 2000
+      },
+      "23": {
+        "Money": 2000
+      },
+      "24": {
+        "Money": 2000
+      },
+      "25": {
+        "Money": 2000
+      },
+      "26": {
+        "Money": 2000
+      },
+      "27": {
+        "Money": 2000
+      },
+      "28": {
+        "Money": 2000
+      },
+      "29": {
+        "Money": 2000
+      },
+      "30": {
+        "Money": 2000
+      },
+      "31": {
+        "Money": 3000
+      },
+      "32": {
+        "Money": 3000
+      },
+      "33": {
+        "Money": 3000
+      },
+      "34": {
+        "Money": 3000
+      },
+      "35": {
+        "Money": 3000
+      },
+      "36": {
+        "Money": 3000
+      },
+      "37": {
+        "Money": 3000
+      },
+      "38": {
+        "Money": 3000
+      },
+      "39": {
+        "Money": 3000
+      },
+      "40": {
+        "Money": 3000
+      },
+      "41": {
+        "Money": 5000
+      },
+      "42": {
+        "Money": 5000
+      },
+      "43": {
+        "Money": 5000
+      },
+      "44": {
+        "Money": 5000
+      },
+      "45": {
+        "Money": 5000
+      },
+      "46": {
+        "Money": 5000
+      },
+      "47": {
+        "Money": 5000
+      },
+      "48": {
+        "Money": 5000
+      },
+      "49": {
+        "Money": 5000
+      },
+      "50": {
+        "Money": 5000
+      },
+      "51": {
+        "Money": 10000
+      },
+      "52": {
+        "Money": 10000
+      },
+      "53": {
+        "Money": 10000
+      },
+      "54": {
+        "Money": 10000
+      },
+      "55": {
+        "Money": 10000
+      },
+      "56": {
+        "Money": 10000
+      },
+      "57": {
+        "Money": 10000
+      },
+      "58": {
+        "Money": 10000
+      },
+      "59": {
+        "Money": 10000
+      },
+      "60": {
+        "Money": 10000
+      },
+      "61": {
+        "Money": 20000
+      },
+      "62": {
+        "Money": 20000
+      },
+      "63": {
+        "Money": 20000
+      },
+      "64": {
+        "Money": 20000
+      },
+      "65": {
+        "Money": 20000
+      },
+      "66": {
+        "Money": 20000
+      },
+      "67": {
+        "Money": 20000
+      },
+      "68": {
+        "Money": 20000
+      },
+      "69": {
+        "Money": 20000
+      },
+      "70": {
+        "Money": 20000
+      },
+      "71": {
+        "Money": 40000
+      },
+      "72": {
+        "Money": 40000
+      },
+      "73": {
+        "Money": 40000
+      },
+      "74": {
+        "Money": 40000
+      },
+      "75": {
+        "Money": 40000
+      },
+      "76": {
+        "Money": 40000
+      },
+      "77": {
+        "Money": 40000
+      },
+      "78": {
+        "Money": 40000
+      },
+      "79": {
+        "Money": 40000
+      },
+      "80": {
+        "Money": 40000
+      }
+    }
+  }
+]

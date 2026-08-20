@@ -1,0 +1,221 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PassiveSkillEffectCondition",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkillEffectCondition",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalPassiveSkillEffectConditionDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "JumpCount_Increase": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "AirDash": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "MaxInventoryWeight": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevel": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "BreedSpeed_InBaseCamp": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": false
+      },
+      "AdditionalEffect_Stun": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Poison": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Burn": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Wetness": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Freeze": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Electrical": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Muddy": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_IvyCling": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "AdditionalEffect_Darkness": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "TemperatureResist_Heat": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "TemperatureResist_Cold": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "Fishing_GoodTalentPalProbability": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "PlayerElementStepAttack_Fire": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "PlayerElementStepAttack_Water": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "PlayerElementStepAttack_Leaf": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "PlayerInflictEffect_AttackBurning_ApplyExplosion": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "PlayerInflictEffect_AttackElectrified_ApplySpark": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "Player_ArrowExplosion": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "PlayerInflictEffect_AttackPoisoned_ApplyAttackDown": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_EmitFlame": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Watering": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Seeding": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_GenerateElectricity": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Handcraft": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Collection": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Deforest": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Mining": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_OilExtraction": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_ProductMedicine": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Cool": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_Transport": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "WorkSuitabilityAddRank_MonsterFarm": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "BulletHit_StackBuff": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": false
+      },
+      "DefeatEnemy_StackBuff": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": false
+      },
+      "AvoidDurationUp_PartnerSkill": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "AvoidDurationUp_EquipSkill": {
+        "bIsHighestOnly": true,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Poison": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Burn": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Wetness": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Freeze": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Electrical": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Muddy": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_IvyCling": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevelUpIfTarget_Darkness": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "CaptureLevel_SneakBonus": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      },
+      "RideJumpCount_Increase": {
+        "bIsHighestOnly": false,
+        "bIsFixedValue": true
+      }
+    }
+  }
+]

@@ -1,0 +1,3535 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_SkillDescText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_SkillDescText",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_SkillDescText_Common'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Text/DT_SkillDescText_Common.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "ACTION_SKILL_Human_Punch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Human_Punch_TextData",
+          "SourceString": "己の拳を信じて、パンチする。",
+          "LocalizedString": "己の拳を信じて、パンチする。"
+        }
+      },
+      "ACTION_SKILL_Throw": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Throw_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Scratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Scratch_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_EnergyShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_EnergyShot_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_HyperBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HyperBeam_TextData",
+          "SourceString": "破壊エネルギーをチャージし\r\n前方広範囲に超強力なビームを発射する。",
+          "LocalizedString": "破壊エネルギーをチャージし\r\n前方広範囲に超強力なビームを発射する。"
+        }
+      },
+      "ACTION_SKILL_PowerShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerShot_TextData",
+          "SourceString": "エネルギーをチャージし\r\n弾丸にして発射する。",
+          "LocalizedString": "エネルギーをチャージし\r\n弾丸にして発射する。"
+        }
+      },
+      "ACTION_SKILL_PowerBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerBall_TextData",
+          "SourceString": "大量のエネルギーをチャージし\r\n巨大な球体にして発射する。",
+          "LocalizedString": "大量のエネルギーをチャージし\r\n巨大な球体にして発射する。"
+        }
+      },
+      "ACTION_SKILL_AirCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirCanon_TextData",
+          "SourceString": "高速で飛ぶ空気の塊を発射する。",
+          "LocalizedString": "高速で飛ぶ空気の塊を発射する。"
+        }
+      },
+      "ACTION_SKILL_StardustArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StardustArrow_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Intimidate": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Intimidate_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_StarMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StarMine_TextData",
+          "SourceString": "触れると爆発する星を敵の周囲に生成する。\r\n星は時間経過によっても爆発する。",
+          "LocalizedString": "触れると爆発する星を敵の周囲に生成する。\r\n星は時間経過によっても爆発する。"
+        }
+      },
+      "ACTION_SKILL_AirBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirBlade_TextData",
+          "SourceString": "鋭い空気の刃を扇状に飛ばす。",
+          "LocalizedString": "鋭い空気の刃を扇状に飛ばす。"
+        }
+      },
+      "ACTION_SKILL_HolyBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HolyBlast_TextData",
+          "SourceString": "敵のいる地点とその周囲に\r\n広範囲の光の爆発を起こす。",
+          "LocalizedString": "敵のいる地点とその周囲に\r\n広範囲の光の爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_Weapon_Use": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Weapon_Use_TextData",
+          "SourceString": "所持している武器を使って攻撃する。",
+          "LocalizedString": "所持している武器を使って攻撃する。"
+        }
+      },
+      "ACTION_SKILL_RadiantBarrage": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RadiantBarrage_TextData",
+          "SourceString": "ゆっくりと敵を追いかける光球を発射する。\r\n光球は対象に近づくと無数の光弾へと分裂し、襲いかかる。",
+          "LocalizedString": "ゆっくりと敵を追いかける光球を発射する。\r\n光球は対象に近づくと無数の光弾へと分裂し、襲いかかる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_LowRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_LowRoundKick_TextData",
+          "SourceString": "<characterName id=|Anubis|/>の専用スキル。\r\n強靭な脚で回し蹴りをして、周囲を広範囲に薙ぎ払う。",
+          "LocalizedString": "<characterName id=|Anubis|/>の専用スキル。\r\n強靭な脚で回し蹴りをして、周囲を広範囲に薙ぎ払う。"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_GroundPunch_TextData",
+          "SourceString": "<characterName id=|Anubis|/>の専用スキル。\r\n空高く跳び上がり、地面に向かってパンチする。\r\n地面に衝撃が広がり、広範囲にダメージを与える。",
+          "LocalizedString": "<characterName id=|Anubis|/>の専用スキル。\r\n空高く跳び上がり、地面に向かってパンチする。\r\n地面に衝撃が広がり、広範囲にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_Tackle_TextData",
+          "SourceString": "<characterName id=|Anubis|/>の専用スキル。\r\n敵を追いかけるように高速で移動し、\r\nエネルギーを放出しながら強力なパンチを繰り出す。",
+          "LocalizedString": "<characterName id=|Anubis|/>の専用スキル。\r\n敵を追いかけるように高速で移動し、\r\nエネルギーを放出しながら強力なパンチを繰り出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_Deer_PushupHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Deer_PushupHorn_TextData",
+          "SourceString": "ツノガミ種の専用スキル。\r\n敵に向かって突進し、角を振り上げて攻撃する。\r\nライド中に発動すると、進行方向を操作できる。",
+          "LocalizedString": "ツノガミ種の専用スキル。\r\n敵に向かって突進し、角を振り上げて攻撃する。\r\nライド中に発動すると、進行方向を操作できる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Deer_Ground_DirtyHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Deer_Ground_DirtyHorn_TextData",
+          "SourceString": "ヤマガミの専用スキル。\r\n敵に向かって突進し、角で泥を巻き上げて攻撃する。\r\nライド中に発動すると、進行方向を操作できる。",
+          "LocalizedString": "ヤマガミの専用スキル。\r\n敵に向かって突進し、角で泥を巻き上げて攻撃する。\r\nライド中に発動すると、進行方向を操作できる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Garm_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Garm_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Boar_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Boar_Tackle_TextData",
+          "SourceString": "<characterName id=|Boar|/>の専用スキル。\r\n敵に狙いを定め、猛烈な勢いで猛進する。",
+          "LocalizedString": "<characterName id=|Boar|/>の専用スキル。\r\n敵に狙いを定め、猛烈な勢いで猛進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_PinkCat_CatPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PinkCat_CatPunch_TextData",
+          "SourceString": "<characterName id=|PinkCat|/>の専用スキル。\r\n敵を追いかけながら両腕を振り回し、\r\n連続でパンチを繰り出す。",
+          "LocalizedString": "<characterName id=|PinkCat|/>の専用スキル。\r\n敵を追いかけながら両腕を振り回し、\r\n連続でパンチを繰り出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerDinosaur_Whip": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerDinosaur_Whip_TextData",
+          "SourceString": "アロアリュー種の専用スキル。\r\n大きな尻尾を使って前方の地面をたたきつけ、\r\n直線状に衝撃を与える。",
+          "LocalizedString": "アロアリュー種の専用スキル。\r\n大きな尻尾を使って前方の地面をたたきつけ、\r\n直線状に衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerDinosaur_Electric_ThunderWhip": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerDinosaur_Electric_ThunderWhip_TextData",
+          "SourceString": "ビリビリューの専用スキル。\r\n大きな尻尾を使って前方の地面をたたきつけ、\r\n直線状に雷撃を与える。",
+          "LocalizedString": "ビリビリューの専用スキル。\r\n大きな尻尾を使って前方の地面をたたきつけ、\r\n直線状に雷撃を与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_SheepBall_Roll": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SheepBall_Roll_TextData",
+          "SourceString": "<characterName id=|SheepBall|/>の専用スキル。\r\nコロコロと転がりながら、敵を追いかける。\r\n攻撃後は目が回って動けなくなってしまう。",
+          "LocalizedString": "<characterName id=|SheepBall|/>の専用スキル。\r\nコロコロと転がりながら、敵を追いかける。\r\n攻撃後は目が回って動けなくなってしまう。"
+        }
+      },
+      "ACTION_SKILL_Unique_ChickenPal_ChickenPeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ChickenPal_ChickenPeck_TextData",
+          "SourceString": "<characterName id=|ChickenPal|/>の専用スキル。\r\n敵を目がけて飛び掛かり、尖ったくちばしで突撃する。",
+          "LocalizedString": "<characterName id=|ChickenPal|/>の専用スキル。\r\n敵を目がけて飛び掛かり、尖ったくちばしで突撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_FlareBird": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_FlareBird_TextData",
+          "SourceString": "<characterName id=|Horus|/>の専用スキル。\r\n灼熱の竜巻を巻き起こしたあと、\r\n身体に獄炎を纏い、滑空しながら突進する。",
+          "LocalizedString": "<characterName id=|Horus|/>の専用スキル。\r\n灼熱の竜巻を巻き起こしたあと、\r\n身体に獄炎を纏い、滑空しながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_Water_AquaStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_Water_AquaStorm_TextData",
+          "SourceString": "<characterName id=|Horus_Water|/>の専用スキル。\r\n大渦の竜巻を巻き起こしたあと、\r\n身体に水を纏い、滑空しながら突進する。",
+          "LocalizedString": "<characterName id=|Horus_Water|/>の専用スキル。\r\n大渦の竜巻を巻き起こしたあと、\r\n身体に水を纏い、滑空しながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_ElecScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_ElecScratch_TextData",
+          "SourceString": "<characterName id=|ElecPanda|/>の専用スキル。\r\n敵に向かって飛び掛かり、電気を纏った爪で切り裂く。\r\n2回飛び掛かった後、最後は地面に向かって爪をたて、\r\n広範囲に電撃を拡げる。",
+          "LocalizedString": "<characterName id=|ElecPanda|/>の専用スキル。\r\n敵に向かって飛び掛かり、電気を纏った爪で切り裂く。\r\n2回飛び掛かった後、最後は地面に向かって爪をたて、\r\n広範囲に電撃を拡げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_FairyDragon_FairyTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FairyDragon_FairyTornado_TextData",
+          "SourceString": "シルフィア種の専用スキル。\r\n不思議な力が込められた竜巻を2つ発射し、\r\n敵を追いかける。",
+          "LocalizedString": "シルフィア種の専用スキル。\r\n不思議な力が込められた竜巻を2つ発射し、\r\n敵を追いかける。"
+        }
+      },
+      "ACTION_SKILL_Unique_Gorilla_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Gorilla_GroundPunch_TextData",
+          "SourceString": "<characterName id=|Gorilla|/>種の専用スキル。\r\n地面を2度たたきつけたあとに飛び上がり、\r\n最後に強烈なパンチをお見舞いする。",
+          "LocalizedString": "<characterName id=|Gorilla|/>種の専用スキル。\r\n地面を2度たたきつけたあとに飛び上がり、\r\n最後に強烈なパンチをお見舞いする。"
+        }
+      },
+      "ACTION_SKILL_Unique_Gorilla_Ground_EarthPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Gorilla_Ground_EarthPunch_TextData",
+          "SourceString": "<characterName id=|Gorilla_Ground|/>の専用スキル。\r\n地面を2度たたきつけたあとに飛び上がり、\r\n大地の力を込めたパンチをお見舞いする。",
+          "LocalizedString": "<characterName id=|Gorilla_Ground|/>の専用スキル。\r\n地面を2度たたきつけたあとに飛び上がり、\r\n大地の力を込めたパンチをお見舞いする。"
+        }
+      },
+      "ACTION_SKILL_Unique_Grassmammoth_Earthquake": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Grassmammoth_Earthquake_TextData",
+          "SourceString": "グランモス種の専用スキル。\r\nその巨体で大地を揺るがし、\r\n自身を中心に広範囲へダメージを与える。",
+          "LocalizedString": "グランモス種の専用スキル。\r\nその巨体で大地を揺るがし、\r\n自身を中心に広範囲へダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_MusclePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_MusclePunch_TextData",
+          "SourceString": "<characterName id=|GrassPanda|/>の専用スキル。\r\n右腕をグルグル回し、前方に強烈なパンチを繰り出す。",
+          "LocalizedString": "<characterName id=|GrassPanda|/>の専用スキル。\r\n右腕をグルグル回し、前方に強烈なパンチを繰り出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch_TextData",
+          "SourceString": "<characterName id=|GrassPanda_Electric|/>の専用スキル。\r\n右腕をグルグル回し、前方に電撃のパンチを繰り出す。",
+          "LocalizedString": "<characterName id=|GrassPanda_Electric|/>の専用スキル。\r\n右腕をグルグル回し、前方に電撃のパンチを繰り出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_Alpaca_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Alpaca_Tackle_TextData",
+          "SourceString": "<characterName id=|Alpaca|/>の専用スキル。\r\nかわいいオーラをまといながら突進する。",
+          "LocalizedString": "<characterName id=|Alpaca|/>の専用スキル。\r\nかわいいオーラをまといながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge_TextData",
+          "SourceString": "<characterName id=|AmaterasuWolf|/>の専用スキル。\r\n全身に青い炎をまとい、勢いをつけて突進する。",
+          "LocalizedString": "<characterName id=|AmaterasuWolf|/>の専用スキル。\r\n全身に青い炎をまとい、勢いをつけて突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge_TextData",
+          "SourceString": "<characterName id=|AmaterasuWolf_Dark|/>の専用スキル。\r\n全身に紫色の炎をまとい、勢いをつけて突進する。",
+          "LocalizedString": "<characterName id=|AmaterasuWolf_Dark|/>の専用スキル。\r\n全身に紫色の炎をまとい、勢いをつけて突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Baphomet_SwallowKite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Baphomet_SwallowKite_TextData",
+          "SourceString": "ヘルゴート種の専用スキル。\r\n接近しながら左手の爪で切り上げつつ跳躍し、\r\n続けざまに右手の爪を素早く切り下ろす。",
+          "LocalizedString": "ヘルゴート種の専用スキル。\r\n接近しながら左手の爪で切り上げつつ跳躍し、\r\n続けざまに右手の爪を素早く切り下ろす。"
+        }
+      },
+      "ACTION_SKILL_Unique_Baphomet_Dark_DarkKite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Baphomet_Dark_DarkKite_TextData",
+          "SourceString": "アビスゴートの専用スキル。\r\n接近しながら左手の闇爪で切り上げつつ跳躍し、\r\n続けざまに右手の闇爪を素早く切り下ろす。",
+          "LocalizedString": "アビスゴートの専用スキル。\r\n接近しながら左手の闇爪で切り上げつつ跳躍し、\r\n続けざまに右手の闇爪を素早く切り下ろす。"
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_FireBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_FireBreath_TextData",
+          "SourceString": "<characterName id=|BirdDragon|/>の専用スキル。\r\n口から炎を吐きながら前進する。",
+          "LocalizedString": "<characterName id=|BirdDragon|/>の専用スキル。\r\n口から炎を吐きながら前進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath_TextData",
+          "SourceString": "<characterName id=|BirdDragon_Ice|/>の専用スキル。\r\n口から冷気を吐きながら前進する。",
+          "LocalizedString": "<characterName id=|BirdDragon_Ice|/>の専用スキル。\r\n口から冷気を吐きながら前進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes_TextData",
+          "SourceString": "<characterName id=|BlackCentaur|/>の専用スキル。\r\n旋風をまとった両腕の槍を\r\n左右交互に突き出しながら突進する。",
+          "LocalizedString": "<characterName id=|BlackCentaur|/>の専用スキル。\r\n旋風をまとった両腕の槍を\r\n左右交互に突き出しながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser_TextData",
+          "SourceString": "<characterName id=|BlackGriffon|/>の専用スキル。\r\n突進しながら、光の球体を出現させる。\r\n光球は敵を自動で捕捉し、無数のレーザーを放つ。",
+          "LocalizedString": "<characterName id=|BlackGriffon|/>の専用スキル。\r\n突進しながら、光の球体を出現させる。\r\n光球は敵を自動で捕捉し、無数のレーザーを放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch_TextData",
+          "SourceString": "<characterName id=|BlackMetalDragon|/>の専用スキル。\r\n前方に2回パンチを繰り出した後、\r\n下に向かって竜属性のブレスを吐きつける。",
+          "LocalizedString": "<characterName id=|BlackMetalDragon|/>の専用スキル。\r\n前方に2回パンチを繰り出した後、\r\n下に向かって竜属性のブレスを吐きつける。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkCrow_TelePoke": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkCrow_TelePoke_TextData",
+          "SourceString": "<characterName id=|DarkCrow|/>の専用スキル。\r\n敵のそばに瞬間移動した後、\r\nくちばしによる攻撃を行う。",
+          "LocalizedString": "<characterName id=|DarkCrow|/>の専用スキル。\r\n敵のそばに瞬間移動した後、\r\nくちばしによる攻撃を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMutant_DarkTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMutant_DarkTackle_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkScorpion_Pierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkScorpion_Pierce_TextData",
+          "SourceString": "デスティング種の専用スキル。\r\n高く跳び上がり、尻尾で勢いよく獲物を突き刺す。\r\n尻尾には毒が含まれている。",
+          "LocalizedString": "デスティング種の専用スキル。\r\n高く跳び上がり、尻尾で勢いよく獲物を突き刺す。\r\n尻尾には毒が含まれている。"
+        }
+      },
+      "ACTION_SKILL_Unique_DrillGame_ShellAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DrillGame_ShellAttack_TextData",
+          "SourceString": "<characterName id=|DrillGame|/>の専用スキル。\r\n全身を高速で回転させながら移動する。\r\n敵をドリルで削り、連続でダメージを与える。",
+          "LocalizedString": "<characterName id=|DrillGame|/>の専用スキル。\r\n全身を高速で回転させながら移動する。\r\n敵をドリルで削り、連続でダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_Eagle_GlidingNail": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Eagle_GlidingNail_TextData",
+          "SourceString": "<characterName id=|Eagle|/>の専用スキル。\r\n足爪を前に出しながら\r\n勢い良く滑空突進を行う。",
+          "LocalizedString": "<characterName id=|Eagle|/>の専用スキル。\r\n足爪を前に出しながら\r\n勢い良く滑空突進を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest_TextData",
+          "SourceString": "<characterName id=|FengyunDeeper|/>の専用スキル。\r\n大気を操作し、風圧を纏いながら突進する。",
+          "LocalizedString": "<characterName id=|FengyunDeeper|/>の専用スキル。\r\n大気を操作し、風圧を纏いながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest_TextData",
+          "SourceString": "<characterName id=|FengyunDeeper_Electric|/>の専用スキル。\r\n大気を操作し、雷雲を纏いながら突進する。",
+          "LocalizedString": "<characterName id=|FengyunDeeper_Electric|/>の専用スキル。\r\n大気を操作し、雷雲を纏いながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Tackle_TextData",
+          "SourceString": "<characterName id=|FireKirin|/>の専用スキル。\r\n炎をまといながら突進する。\r\nその軌道上には火が燃え残る。",
+          "LocalizedString": "<characterName id=|FireKirin|/>の専用スキル。\r\n炎をまといながら突進する。\r\nその軌道上には火が燃え残る。"
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin_TextData",
+          "SourceString": "<characterName id=|FireKirin_Dark|/>の専用スキル。\r\n暗黒の炎をまといながら突進する。\r\nその軌道上には火が燃え残る。",
+          "LocalizedString": "<characterName id=|FireKirin_Dark|/>の専用スキル。\r\n暗黒の炎をまといながら突進する。\r\nその軌道上には火が燃え残る。"
+        }
+      },
+      "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn_TextData",
+          "SourceString": "<characterName id=|FlameBuffalo|/>の専用スキル。\r\n敵に狙いを定めた後、\r\n猛烈な勢いで突進しながら角を振り上げる。",
+          "LocalizedString": "<characterName id=|FlameBuffalo|/>の専用スキル。\r\n敵に狙いを定めた後、\r\n猛烈な勢いで突進しながら角を振り上げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostBeast_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostBeast_Tossin_TextData",
+          "SourceString": "<characterName id=|GhostBeast|/>の専用スキル。\r\nゆっくりと走りながら、揺らめく炎の玉を\r\n敵に向かって飛ばし続ける。",
+          "LocalizedString": "<characterName id=|GhostBeast|/>の専用スキル。\r\nゆっくりと走りながら、揺らめく炎の玉を\r\n敵に向かって飛ばし続ける。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick_TextData",
+          "SourceString": "<characterName id=|GrassRabbitMan|/>の専用スキル。\r\n前方にジャンプしながら高速回転キックで\r\n周囲を薙ぎ払う。",
+          "LocalizedString": "<characterName id=|GrassRabbitMan|/>の専用スキル。\r\n前方にジャンプしながら高速回転キックで\r\n周囲を薙ぎ払う。"
+        }
+      },
+      "ACTION_SKILL_Unique_HawkBird_Storm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HawkBird_Storm_TextData",
+          "SourceString": "<characterName id=|HawkBird|/>の専用スキル。\r\n前方に竜巻を発生させた後、\r\n滑空しながら敵に突進する。",
+          "LocalizedString": "<characterName id=|HawkBird|/>の専用スキル。\r\n前方に竜巻を発生させた後、\r\n滑空しながら敵に突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle_TextData",
+          "SourceString": "<characterName id=|HerculesBeetle|/>種の専用スキル。\r\n4本の堅牢な角で敵を串刺しにする。",
+          "LocalizedString": "<characterName id=|HerculesBeetle|/>種の専用スキル。\r\n4本の堅牢な角で敵を串刺しにする。"
+        }
+      },
+      "ACTION_SKILL_Unique_IceDeer_IceHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceDeer_IceHorn_TextData",
+          "SourceString": "<characterName id=|IceDeer|/>の専用スキル。\r\n突進しながら荘厳な氷の角で敵を突き上げる。",
+          "LocalizedString": "<characterName id=|IceDeer|/>の専用スキル。\r\n突進しながら荘厳な氷の角で敵を突き上げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_IceHorse_IceBladeAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceHorse_IceBladeAttack_TextData",
+          "SourceString": "グレイシャル種の専用スキル。\r\n冷気を凝縮して翼に氷をまとわせ\r\n疾走しながら氷翼で敵を切り裂く。",
+          "LocalizedString": "グレイシャル種の専用スキル。\r\n冷気を凝縮して翼に氷をまとわせ\r\n疾走しながら氷翼で敵を切り裂く。"
+        }
+      },
+      "ACTION_SKILL_Unique_IceHorse_Dark_DarkBladeAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceHorse_Dark_DarkBladeAttack_TextData",
+          "SourceString": "グレイシャドウの専用スキル。\r\n闇のエネルギーを翼にまとわせ\r\n疾走しながら翼で敵を切り裂く。\r\n最後に闇のエネルギーが追尾する弾に変化する。",
+          "LocalizedString": "グレイシャドウの専用スキル。\r\n闇のエネルギーを翼にまとわせ\r\n疾走しながら翼で敵を切り裂く。\r\n最後に闇のエネルギーが追尾する弾に変化する。"
+        }
+      },
+      "ACTION_SKILL_Unique_JetDragon_JumpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_JetDragon_JumpBeam_TextData",
+          "SourceString": "<characterName id=|JetDragon|/>の専用スキル。\r\n翼を光らせ、敵めがけて飛んでいく\r\n無数のビームを発射する。\r\nビームは着弾時に爆発を引き起こす。",
+          "LocalizedString": "<characterName id=|JetDragon|/>の専用スキル。\r\n翼を光らせ、敵めがけて飛んでいく\r\n無数のビームを発射する。\r\nビームは着弾時に爆発を引き起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingAlpaca_BodyPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingAlpaca_BodyPress_TextData",
+          "SourceString": "アルパオー種の専用スキル。\r\n大きく跳び上がった後、\r\nふくよかな巨体で敵を押しつぶす。",
+          "LocalizedString": "アルパオー種の専用スキル。\r\n大きく跳び上がった後、\r\nふくよかな巨体で敵を押しつぶす。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingAlpaca_Ice_IcePress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingAlpaca_Ice_IcePress_TextData",
+          "SourceString": "アオパオーの専用スキル。\r\n大きく跳び上がった後、\r\nその巨体と氷で敵を押しつぶす。",
+          "LocalizedString": "アオパオーの専用スキル。\r\n大きく跳び上がった後、\r\nその巨体と氷で敵を押しつぶす。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_AirCrash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_AirCrash_TextData",
+          "SourceString": "ボルドラゴの専用スキル。\r\n大きく跳び上がった後、空中を高速で移動しつつ\r\n力を溜め、渾身のパンチを繰り出す。",
+          "LocalizedString": "ボルドラゴの専用スキル。\r\n大きく跳び上がった後、空中を高速で移動しつつ\r\n力を溜め、渾身のパンチを繰り出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_Kirin_LightningTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Kirin_LightningTackle_TextData",
+          "SourceString": "<characterName id=|Kirin|/>の専用スキル。\r\n自身の周囲に落雷を発生させながら、\r\n敵に向かって突進する。",
+          "LocalizedString": "<characterName id=|Kirin|/>の専用スキル。\r\n自身の周囲に落雷を発生させながら、\r\n敵に向かって突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Manticore_InfernoStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Manticore_InfernoStrike_TextData",
+          "SourceString": "<characterName id=|Manticore|/>種の専用スキル。\r\n勢いをつけながら敵に容赦なく飛びかかり、\r\n飛びかかった先で炎を炸裂させる。",
+          "LocalizedString": "<characterName id=|Manticore|/>種の専用スキル。\r\n勢いをつけながら敵に容赦なく飛びかかり、\r\n飛びかかった先で炎を炸裂させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_NaughtyCat_CatPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NaughtyCat_CatPress_TextData",
+          "SourceString": "<characterName id=|NaughtyCat|/>の専用スキル。\r\n不敵な笑みを浮かべながら跳び上がり、\r\n全身で敵を押しつぶす。",
+          "LocalizedString": "<characterName id=|NaughtyCat|/>の専用スキル。\r\n不敵な笑みを浮かべながら跳び上がり、\r\n全身で敵を押しつぶす。"
+        }
+      },
+      "ACTION_SKILL_Unique_QueenBee_SpinLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_QueenBee_SpinLance_TextData",
+          "SourceString": "<characterName id=|QueenBee|/>の専用スキル。\r\n杖にパワーを集め、回転しながら解き放つ。",
+          "LocalizedString": "<characterName id=|QueenBee|/>の専用スキル。\r\n杖にパワーを集め、回転しながら解き放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_RedArmorBird_TriplePeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RedArmorBird_TriplePeck_TextData",
+          "SourceString": "<characterName id=|RedArmorBird|/>の専用スキル。\r\n前方に羽ばたきながら正面、右、左と\r\nくちばしを突き立てて着火し、\r\n小規模な爆発を起こす。",
+          "LocalizedString": "<characterName id=|RedArmorBird|/>の専用スキル。\r\n前方に羽ばたきながら正面、右、左と\r\nくちばしを突き立てて着火し、\r\n小規模な爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_RobinHood_BowSnipe": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RobinHood_BowSnipe_TextData",
+          "SourceString": "フェザーロ種の専用スキル。\r\n弓を引き絞って敵に狙いを定め\r\n敵に射撃を行う。",
+          "LocalizedString": "フェザーロ種の専用スキル。\r\n弓を引き絞って敵に狙いを定め\r\n敵に射撃を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_TextData",
+          "SourceString": "<characterName id=|Ronin|/>種の専用スキル。\r\n刀を構えた後、一瞬で敵の目の前に現れて\r\n超高速の抜刀攻撃を放つ。",
+          "LocalizedString": "<characterName id=|Ronin|/>種の専用スキル。\r\n刀を構えた後、一瞬で敵の目の前に現れて\r\n超高速の抜刀攻撃を放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes_TextData",
+          "SourceString": "<characterName id=|SaintCentaur|/>の専用スキル。\r\n聖なる力をその身にまとい\r\n左手の槍を前に突き出しながら突進する。\r\n突進中、右手の盾はあらゆる攻撃を防ぐ。",
+          "LocalizedString": "<characterName id=|SaintCentaur|/>の専用スキル。\r\n聖なる力をその身にまとい\r\n左手の槍を前に突き出しながら突進する。\r\n突進中、右手の盾はあらゆる攻撃を防ぐ。"
+        }
+      },
+      "ACTION_SKILL_Unique_SakuraSaurus_SideTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SakuraSaurus_SideTackle_TextData",
+          "SourceString": "ラブラドン種の専用スキル。\r\n体を横向きに構え、\r\n前方にタックルをかまして敵を吹き飛ばす。",
+          "LocalizedString": "ラブラドン種の専用スキル。\r\n体を横向きに構え、\r\n前方にタックルをかまして敵を吹き飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_SakuraSaurus_Water_SplashTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SakuraSaurus_Water_SplashTackle_TextData",
+          "SourceString": "スプラドンの専用スキル。\r\n体を横向きに構えて前方にタックルし、\r\n水しぶきを上げながら敵を吹き飛ばす。",
+          "LocalizedString": "スプラドンの専用スキル。\r\n体を横向きに構えて前方にタックルし、\r\n水しぶきを上げながら敵を吹き飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_SoldierBee_NeedleLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SoldierBee_NeedleLance_TextData",
+          "SourceString": "<characterName id=|SoldierBee|/>の専用スキル。\r\n敵に向かって高速で突進する。\r\n最後にダメ押しで槍を突く。",
+          "LocalizedString": "<characterName id=|SoldierBee|/>の専用スキル。\r\n敵に向かって高速で突進する。\r\n最後にダメ押しで槍を突く。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderBird_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderBird_ThunderStorm_TextData",
+          "SourceString": "<characterName id=|ThunderBird|/>の専用スキル。\r\nまず、敵のいる地点に雷を落とす。\r\nそして滑空突進しながら左右に雷を落としていく。",
+          "LocalizedString": "<characterName id=|ThunderBird|/>の専用スキル。\r\nまず、敵のいる地点に雷を落とす。\r\nそして滑空突進しながら左右に雷を落としていく。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_InazumaShorai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_InazumaShorai_TextData",
+          "SourceString": "<characterName id=|ThunderDog|/>の専用スキル。\r\n前方に次々と稲妻を呼び寄せ、\r\n降り注いだ稲妻の間を高速で突進していく。",
+          "LocalizedString": "<characterName id=|ThunderDog|/>の専用スキル。\r\n前方に次々と稲妻を呼び寄せ、\r\n降り注いだ稲妻の間を高速で突進していく。"
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_WindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_WindingTackle_TextData",
+          "SourceString": "<characterName id=|Umihebi|/>の専用スキル。\r\n雄たけびを上げ、水をまとった体をくねらせながら敵に向かって突進していく。",
+          "LocalizedString": "<characterName id=|Umihebi|/>の専用スキル。\r\n雄たけびを上げ、水をまとった体をくねらせながら敵に向かって突進していく。"
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle_TextData",
+          "SourceString": "<characterName id=|Umihebi_Fire|/>の専用スキル。\r\n雄たけびを上げ、炎をまとった体をくねらせながら敵に向かって突進していく。",
+          "LocalizedString": "<characterName id=|Umihebi_Fire|/>の専用スキル。\r\n雄たけびを上げ、炎をまとった体をくねらせながら敵に向かって突進していく。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack_TextData",
+          "SourceString": "<characterName id=|VolcanicMonster|/>の専用スキル。\r\n前足を振り上げて地面に叩きつけ\r\n敵のいる地点を噴火させる。\r\n噴火時、周囲に火山弾が降りかかる。",
+          "LocalizedString": "<characterName id=|VolcanicMonster|/>の専用スキル。\r\n前足を振り上げて地面に叩きつけ\r\n敵のいる地点を噴火させる。\r\n噴火時、周囲に火山弾が降りかかる。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack_TextData",
+          "SourceString": "<characterName id=|VolcanicMonster_Ice|/>の専用スキル。\r\n前足を振り上げて地面に叩きつけ\r\n敵のいる地点に雪を噴出させる。\r\n噴出時、周囲に雪の玉が降りかかる。",
+          "LocalizedString": "<characterName id=|VolcanicMonster_Ice|/>の専用スキル。\r\n前足を振り上げて地面に叩きつけ\r\n敵のいる地点に雪を噴出させる。\r\n噴出時、周囲に雪の玉が降りかかる。"
+        }
+      },
+      "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle_TextData",
+          "SourceString": "オコチョ種の専用スキル。\r\n少し力を溜めた後、前方に飛びかかる。\r\n着地の瞬間はいつも怖くて目を瞑ってしまうようだ。",
+          "LocalizedString": "オコチョ種の専用スキル。\r\n少し力を溜めた後、前方に飛びかかる。\r\n着地の瞬間はいつも怖くて目を瞑ってしまうようだ。"
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Scratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Scratch_TextData",
+          "SourceString": "<characterName id=|WereWolf|/>の専用スキル。\r\n前方に跳び上がり、素早く2回引っかく。\r\nその斬撃には闇属性の力が込められている。",
+          "LocalizedString": "<characterName id=|WereWolf|/>の専用スキル。\r\n前方に跳び上がり、素早く2回引っかく。\r\nその斬撃には闇属性の力が込められている。"
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch_TextData",
+          "SourceString": "<characterName id=|WereWolf_Ice|/>の専用スキル。\r\n前方に跳び上がり、素早く2回引っかく。\r\nその斬撃には氷属性の力が込められている。",
+          "LocalizedString": "<characterName id=|WereWolf_Ice|/>の専用スキル。\r\n前方に跳び上がり、素早く2回引っかく。\r\nその斬撃には氷属性の力が込められている。"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_IceScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_IceScratch_TextData",
+          "SourceString": "<characterName id=|WhiteTiger|/>の専用スキル。\r\n1撃、2撃と爪で切り裂き、最後に全身を\r\n使って大きく切り裂く。爪を振るう際、\r\n前方に氷柱を3本扇状に飛ばす。",
+          "LocalizedString": "<characterName id=|WhiteTiger|/>の専用スキル。\r\n1撃、2撃と爪で切り裂き、最後に全身を\r\n使って大きく切り裂く。爪を振るう際、\r\n前方に氷柱を3本扇状に飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch_TextData",
+          "SourceString": "<characterName id=|WhiteTiger_Ground|/>の専用スキル。\r\n1撃、2撃と爪で切り裂き、最後に全身を\r\n使って大きく切り裂く。爪を振るう際、\r\n前方に岩石を3本扇状に飛ばす。",
+          "LocalizedString": "<characterName id=|WhiteTiger_Ground|/>の専用スキル。\r\n1撃、2撃と爪で切り裂き、最後に全身を\r\n使って大きく切り裂く。爪を振るう際、\r\n前方に岩石を3本扇状に飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_SnowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_SnowBall_TextData",
+          "SourceString": "<characterName id=|Yeti|/>の専用スキル。\r\n雪でつくった玉を転がしながら進んでいき、\r\n大きくなりきったところで投げつけて炸裂させる。",
+          "LocalizedString": "<characterName id=|Yeti|/>の専用スキル。\r\n雪でつくった玉を転がしながら進んでいき、\r\n大きくなりきったところで投げつけて炸裂させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_Grass_GrassBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_Grass_GrassBall_TextData",
+          "SourceString": "<characterName id=|Yeti_Grass|/>の専用スキル。\r\n草でつくった玉を転がしながら進んでいき、\r\n大きくなりきったところで投げつけて炸裂させる。",
+          "LocalizedString": "<characterName id=|Yeti_Grass|/>の専用スキル。\r\n草でつくった玉を転がしながら進んでいき、\r\n大きくなりきったところで投げつけて炸裂させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack_TextData",
+          "SourceString": "<characterName id=|ThunderDragonMan|/>の専用スキル。\r\n飛び上がって雷槍を召喚し、\r\n敵に向かって投げつける。",
+          "LocalizedString": "<characterName id=|ThunderDragonMan|/>の専用スキル。\r\n飛び上がって雷槍を召喚し、\r\n敵に向かって投げつける。"
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_BodySlide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_BodySlide_TextData",
+          "SourceString": "<characterName id=|CaptainPenguin|/>の専用スキル。\r\n地面にお腹をつけ、全身から冷気を発して\r\n滑りながら敵にぶつかっていく。",
+          "LocalizedString": "<characterName id=|CaptainPenguin|/>の専用スキル。\r\n地面にお腹をつけ、全身から冷気を発して\r\n滑りながら敵にぶつかっていく。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight_TextData",
+          "SourceString": "<characterName id=|NightLady|/>の専用スキル。\r\n不意に姿を消し、現れた瞬間に無数の光線を放つ。",
+          "LocalizedString": "<characterName id=|NightLady|/>の専用スキル。\r\n不意に姿を消し、現れた瞬間に無数の光線を放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_TextData",
+          "SourceString": "<characterName id=|NightLady_Dark|/>の専用スキル。\r\n不意に姿を消し、現れた瞬間に無数の光線を放つ。\r\n光線は花開くかのごとく拡散する。",
+          "LocalizedString": "<characterName id=|NightLady_Dark|/>の専用スキル。\r\n不意に姿を消し、現れた瞬間に無数の光線を放つ。\r\n光線は花開くかのごとく拡散する。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_FlameNightmare": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_FlameNightmare_TextData",
+          "SourceString": "<characterName id=|NightLady_Dark|/>の専用スキル。\r\nゆらりと舞いながら\r\n周囲に広がる炎の輪を発生させる。\r\nさらに敵を追尾する妖しい炎を発射する。",
+          "LocalizedString": "<characterName id=|NightLady_Dark|/>の専用スキル。\r\nゆらりと舞いながら\r\n周囲に広がる炎の輪を発生させる。\r\nさらに敵を追尾する妖しい炎を発射する。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_ArmSmash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_ArmSmash_TextData",
+          "SourceString": "ボルカイザー種の専用スキル。\r\n腕を振りかぶり、大きく膨らませた後に\r\n叩き合わせて周囲に大爆発を起こす。",
+          "LocalizedString": "ボルカイザー種の専用スキル。\r\n腕を振りかぶり、大きく膨らませた後に\r\n叩き合わせて周囲に大爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBeam_TextData",
+          "SourceString": "セレムーンの専用スキル。\r\n背中の月にエネルギーを溜め、\r\n前方に三日月型のビームを発射する。",
+          "LocalizedString": "セレムーンの専用スキル。\r\n背中の月にエネルギーを溜め、\r\n前方に三日月型のビームを発射する。"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBlade_TextData",
+          "SourceString": "セレムーンの専用スキル。\r\n月光の力を宿した高速の刃を2連続で飛ばす。",
+          "LocalizedString": "セレムーンの専用スキル。\r\n月光の力を宿した高速の刃を2連続で飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_WingGolem_RoundCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WingGolem_RoundCutter_TextData",
+          "SourceString": "テラナイトの専用スキル。\r\n大きく振りかぶって背中の輪を投げる。\r\n輪は円を描くような軌道で飛んでいく。",
+          "LocalizedString": "テラナイトの専用スキル。\r\n大きく振りかぶって背中の輪を投げる。\r\n輪は円を描くような軌道で飛んでいく。"
+        }
+      },
+      "ACTION_SKILL_Unique_FeatherOstrich_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FeatherOstrich_Tossin_TextData",
+          "SourceString": "トリステップの専用スキル。\r\n一気に加速し、前方に高速突進する。",
+          "LocalizedString": "トリステップの専用スキル。\r\n一気に加速し、前方に高速突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkAlien_JumpScractch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkAlien_JumpScractch_TextData",
+          "SourceString": "ゼノベーダの専用スキル。\r\n素早く跳びかかり、左手で切り裂く。",
+          "LocalizedString": "ゼノベーダの専用スキル。\r\n素早く跳びかかり、左手で切り裂く。"
+        }
+      },
+      "ACTION_SKILL_Unique_ScorpionMan_UpperCut": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ScorpionMan_UpperCut_TextData",
+          "SourceString": "ブッサソリの専用スキル。\r\n敵との距離を高速で詰め、\r\n思い切りハサミを振り上げる。",
+          "LocalizedString": "ブッサソリの専用スキル。\r\n敵との距離を高速で詰め、\r\n思い切りハサミを振り上げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_SifuDog_Counter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SifuDog_Counter_TextData",
+          "SourceString": "ワンフーの専用スキル。\r\n合気の構えをとる。構え中は攻撃を受けても無効化し、\r\nさらに一瞬で敵に迫って渾身の掌底を放つ。",
+          "LocalizedString": "ワンフーの専用スキル。\r\n合気の構えをとる。構え中は攻撃を受けても無効化し、\r\nさらに一瞬で敵に迫って渾身の掌底を放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_GatlingAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_GatlingAttack_TextData",
+          "SourceString": "エレパンダの専用スキル。\r\nどこからか取り出したミニガンをぶっ放す。\r\n最後に少しチャージした後、強力な弾を1発放つ。",
+          "LocalizedString": "エレパンダの専用スキル。\r\nどこからか取り出したミニガンをぶっ放す。\r\n最後に少しチャージした後、強力な弾を1発放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_LilyHealing": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_LilyHealing_TextData",
+          "SourceString": "リリクインの専用スキル。\r\n癒しの力により、範囲内にいる味方全員のHPを回復する。",
+          "LocalizedString": "リリクインの専用スキル。\r\n癒しの力により、範囲内にいる味方全員のHPを回復する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack_TextData",
+          "SourceString": "ボルゼクスの専用スキル。\r\n数多の雷槍を召喚し、敵に向かって投げつける。\r\n最初の1本は雷の力を溜め込み、数秒後に爆発する。",
+          "LocalizedString": "ボルゼクスの専用スキル。\r\n数多の雷槍を召喚し、敵に向かって投げつける。\r\n最初の1本は雷の力を溜め込み、数秒後に爆発する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_PerfectStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_PerfectStorm_TextData",
+          "SourceString": "<characterName id=|Horus|/>の専用スキル。\r\n複数の灼熱の竜巻を巻き起こしたあと、滑空しながら突進する。\r\n竜巻は中央に集まっていき、最後は一つの巨大な竜巻になる。",
+          "LocalizedString": "<characterName id=|Horus|/>の専用スキル。\r\n複数の灼熱の竜巻を巻き起こしたあと、滑空しながら突進する。\r\n竜巻は中央に集まっていき、最後は一つの巨大な竜巻になる。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2_TextData",
+          "SourceString": "ゼノグリフの専用スキル。\r\n突進しつつ、体の光輪から無数の青い光線を放つ。\r\n光線は敵を自動で捕捉し、追尾する。",
+          "LocalizedString": "ゼノグリフの専用スキル。\r\n突進しつつ、体の光輪から無数の青い光線を放つ。\r\n光線は敵を自動で捕捉し、追尾する。"
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade_TextData",
+          "SourceString": "セレムーンの専用スキル。\r\n月光の力を宿した高速の刃を3連続で飛ばす。",
+          "LocalizedString": "セレムーンの専用スキル。\r\n月光の力を宿した高速の刃を3連続で飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_WindBarrier": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_WindBarrier_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet_TextData",
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n光の速さで宙に舞い上がり、無数の流星弾を放つ。\r\nその後、自ら彗星となって突進し、\r\n衝突した場所に大爆発を引き起こす。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n光の速さで宙に舞い上がり、無数の流星弾を放つ。\r\nその後、自ら彗星となって突進し、\r\n衝突した場所に大爆発を引き起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash_TextData",
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n右手で高出力の剣を生成し、\r\n高速で移動しながら２回切りつける。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n右手で高出力の剣を生成し、\r\n高速で移動しながら２回切りつける。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel_TextData",
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n自動攻撃機能を持つ衛星型の羽を４本生成する。\r\nこの羽は次の攻撃を放つ時に\r\n自動で敵を追尾して攻撃する。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n自動攻撃機能を持つ衛星型の羽を４本生成する。\r\nこの羽は次の攻撃を放つ時に\r\n自動で敵を追尾して攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam_TextData",
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n暗黒に満ちたエネルギーを収束させ、\r\n直線状に一気に放出する。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n暗黒に満ちたエネルギーを収束させ、\r\n直線状に一気に放出する。"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser_TextData",
+          "SourceString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n亜空間から呼び寄せた破滅の光を\r\n縦横無尽に放ち続け、\r\nその目に映る全てを焼き尽くす。",
+          "LocalizedString": "<characterName id=|DarkMechaDragon|/>の専用スキル。\r\n亜空間から呼び寄せた破滅の光を\r\n縦横無尽に放ち続け、\r\nその目に映る全てを焼き尽くす。"
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash_TextData",
+          "SourceString": "<characterName id=|SnowTigerBeastman|/>の専用スキル。\r\n地面を踏みしだき、\r\n前方に氷の裂け目を発生させる。\r\nその後一気に近づき、右手で切り裂く。",
+          "LocalizedString": "<characterName id=|SnowTigerBeastman|/>の専用スキル。\r\n地面を踏みしだき、\r\n前方に氷の裂け目を発生させる。\r\nその後一気に近づき、右手で切り裂く。"
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact_TextData",
+          "SourceString": "<characterName id=|SnowTigerBeastman|/>の専用スキル。\r\n大きく咆哮して跳び上がった後、\r\n両腕を地面に埋め込んで巨大な氷の亀裂を作る。\r\nそのまま地面に力を込め続け、\r\n最終的に氷属性の大爆発を起こす。",
+          "LocalizedString": "<characterName id=|SnowTigerBeastman|/>の専用スキル。\r\n大きく咆哮して跳び上がった後、\r\n両腕を地面に埋め込んで巨大な氷の亀裂を作る。\r\nそのまま地面に力を込め続け、\r\n最終的に氷属性の大爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid_TextData",
+          "SourceString": "<characterName id=|PurpleSpider|/>の専用スキル。\r\n糸玉を吐き、当たった獲物を絡めとる。\r\nその後、獲物のところまで全速力で駆け寄り、\r\n３回引っかいてとどめを刺す。",
+          "LocalizedString": "<characterName id=|PurpleSpider|/>の専用スキル。\r\n糸玉を吐き、当たった獲物を絡めとる。\r\nその後、獲物のところまで全速力で駆け寄り、\r\n３回引っかいてとどめを刺す。"
+        }
+      },
+      "ACTION_SKILL_Unique_MysteryMask_LifeSteal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MysteryMask_LifeSteal_TextData",
+          "SourceString": "<characterName id=|MysteryMask|/>の専用スキル。\r\n急に敵の近くに現れて両腕でがっちり拘束し、\r\n拘束された敵のHPを吸収する。",
+          "LocalizedString": "<characterName id=|MysteryMask|/>の専用スキル。\r\n急に敵の近くに現れて両腕でがっちり拘束し、\r\n拘束された敵のHPを吸収する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrimGirl_BrutalMachete": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrimGirl_BrutalMachete_TextData",
+          "SourceString": "<characterName id=|GrimGirl|/>の専用スキル。\r\nその場から瞬間移動して斬撃を飛ばす。\r\nさらに敵の頭上に瞬間移動し、\r\n得物を突き立てて闇の波動を発生させる。",
+          "LocalizedString": "<characterName id=|GrimGirl|/>の専用スキル。\r\nその場から瞬間移動して斬撃を飛ばす。\r\nさらに敵の頭上に瞬間移動し、\r\n得物を突き立てて闇の波動を発生させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle_TextData",
+          "SourceString": "<characterName id=|WhiteShieldDragon|/>の専用スキル。\r\n前方にあらゆる攻撃を軽減するシールドを展開し、\r\n突進しながら敵を圧し潰す。",
+          "LocalizedString": "<characterName id=|WhiteShieldDragon|/>の専用スキル。\r\n前方にあらゆる攻撃を軽減するシールドを展開し、\r\n突進しながら敵を圧し潰す。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_DeathStep": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_DeathStep_TextData",
+          "SourceString": "<characterName id=|NightBlueHorse|/>の専用スキル。\r\n揺らめくステップで敵を翻弄しながら、\r\n鋭利な角で斬撃を飛ばす。",
+          "LocalizedString": "<characterName id=|NightBlueHorse|/>の専用スキル。\r\n揺らめくステップで敵を翻弄しながら、\r\n鋭利な角で斬撃を飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash_TextData",
+          "SourceString": "<characterName id=|BlueThunderHorse|/>の専用スキル。\r\n雷のごとき速さで移動し、\r\n軌道上に存在するもの全てを巻き込む。",
+          "LocalizedString": "<characterName id=|BlueThunderHorse|/>の専用スキル。\r\n雷のごとき速さで移動し、\r\n軌道上に存在するもの全てを巻き込む。"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteDeer_HolyPillar": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteDeer_HolyPillar_TextData",
+          "SourceString": "<characterName id=|WhiteDeer|/>の専用スキル。\r\n前方広範囲に聖なる光の爆発を引き起こした後、\r\n歩きながら、自身の周囲に聖なる光を発生させる。",
+          "LocalizedString": "<characterName id=|WhiteDeer|/>の専用スキル。\r\n前方広範囲に聖なる光の爆発を引き起こした後、\r\n歩きながら、自身の周囲に聖なる光を発生させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_StoneDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_StoneDash_TextData",
+          "SourceString": "<characterName id=|GoldenHorse|/>の専用スキル。\r\n勢い良く左右に岩を飛ばしながら突進する。",
+          "LocalizedString": "<characterName id=|GoldenHorse|/>の専用スキル。\r\n勢い良く左右に岩を飛ばしながら突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin_TextData",
+          "SourceString": "<characterName id=|TentacleTurtle|/>種の専用スキル。\r\nジェット噴射による推進力を利用し、\r\n高速回転しながら敵に向かって飛んでいく。",
+          "LocalizedString": "<characterName id=|TentacleTurtle|/>種の専用スキル。\r\nジェット噴射による推進力を利用し、\r\n高速回転しながら敵に向かって飛んでいく。"
+        }
+      },
+      "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser_TextData",
+          "SourceString": "<characterName id=|PoseidonOrca|/>の専用スキル。\r\n少し浮き上がりながら、口元に水を集める。\r\nその後、高圧水流を縦横に三度なぎ払う。\r\nなぎ払われた地点には裂け目ができ、水が噴出する。",
+          "LocalizedString": "<characterName id=|PoseidonOrca|/>の専用スキル。\r\n少し浮き上がりながら、口元に水を集める。\r\nその後、高圧水流を縦横に三度なぎ払う。\r\nなぎ払われた地点には裂け目ができ、水が噴出する。"
+        }
+      },
+      "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn_TextData",
+          "SourceString": "<characterName id=|IceNarwhal|/>種の専用スキル。\r\n直進して一瞬潜った後、\r\n天高く飛び出して攻撃する。\r\n飛び出す際、氷属性の爆発が起きる。",
+          "LocalizedString": "<characterName id=|IceNarwhal|/>種の専用スキル。\r\n直進して一瞬潜った後、\r\n天高く飛び出して攻撃する。\r\n飛び出す際、氷属性の爆発が起きる。"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait_TextData",
+          "SourceString": "<characterName id=|GhostAnglerfish|/>の専用スキル。\r\n頭部にある長い提灯で前方を大きくなぎ払う。",
+          "LocalizedString": "<characterName id=|GhostAnglerfish|/>の専用スキル。\r\n頭部にある長い提灯で前方を大きくなぎ払う。"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire_TextData",
+          "SourceString": "<characterName id=|GhostAnglerfish_Fire|/>の専用スキル。\r\n頭部にある炎をまとった提灯で前方を大きくなぎ払う。",
+          "LocalizedString": "<characterName id=|GhostAnglerfish_Fire|/>の専用スキル。\r\n頭部にある炎をまとった提灯で前方を大きくなぎ払う。"
+        }
+      },
+      "ACTION_SKILL_Unique_OctopursGirl_Inkjet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_OctopursGirl_Inkjet_TextData",
+          "SourceString": "<characterName id=|OctopusGirl|/>種の専用スキル。\r\n前方にスモークを発生させて自身の姿を隠し、\r\n見えない状態から頭突きで強襲をかける。",
+          "LocalizedString": "<characterName id=|OctopusGirl|/>種の専用スキル。\r\n前方にスモークを発生させて自身の姿を隠し、\r\n見えない状態から頭突きで強襲をかける。"
+        }
+      },
+      "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon_TextData",
+          "SourceString": "<characterName id=|StuffedShark|/>種の専用スキル。\r\n口の中から二丁の水鉄砲を取り出し、\r\n左右交互に水弾を6発撃つ。\r\n最後は二丁を合わせ、強力な1発を放つ。",
+          "LocalizedString": "<characterName id=|StuffedShark|/>種の専用スキル。\r\n口の中から二丁の水鉄砲を取り出し、\r\n左右交互に水弾を6発撃つ。\r\n最後は二丁を合わせ、強力な1発を放つ。"
+        }
+      },
+      "ACTION_SKILL_Unique_IceCrocodile_SpitAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceCrocodile_SpitAttack_TextData",
+          "SourceString": "<characterName id=|IceCrocodile|/>の専用スキル。\r\n体内で消化されず冷やされていたグレネードを\r\n3つポンポン吐いて攻撃する。\r\nたまにもっと危険なものを吐くことも…？",
+          "LocalizedString": "<characterName id=|IceCrocodile|/>の専用スキル。\r\n体内で消化されず冷やされていたグレネードを\r\n3つポンポン吐いて攻撃する。\r\nたまにもっと危険なものを吐くことも…？"
+        }
+      },
+      "ACTION_SKILL_Unique_LeafMomonga_SomerSault": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LeafMomonga_SomerSault_TextData",
+          "SourceString": "<characterName id=|LeafMomonga|/>の専用スキル。\r\n一瞬身構えた後、\r\n敵に高速でぶつかって行きながら宙返りする。",
+          "LocalizedString": "<characterName id=|LeafMomonga|/>の専用スキル。\r\n一瞬身構えた後、\r\n敵に高速でぶつかって行きながら宙返りする。"
+        }
+      },
+      "ACTION_SKILL_Unique_Plesiosaur_LongBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Plesiosaur_LongBreath_TextData",
+          "SourceString": "<characterName id=|Plesiosaur|/>の専用スキル。\r\nその長い首元から首先にかけ、\r\n徐々に草属性の息吹を拡散させていく。",
+          "LocalizedString": "<characterName id=|Plesiosaur|/>の専用スキル。\r\nその長い首元から首先にかけ、\r\n徐々に草属性の息吹を拡散させていく。"
+        }
+      },
+      "ACTION_SKILL_Unique_TropicalOstrich_DashKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TropicalOstrich_DashKick_TextData",
+          "SourceString": "<characterName id=|TropicalOstrich|/>の専用スキル。\r\nダッシュで勢いをつけながら、\r\n敵に強烈な飛び蹴りを浴びせる。",
+          "LocalizedString": "<characterName id=|TropicalOstrich|/>の専用スキル。\r\nダッシュで勢いをつけながら、\r\n敵に強烈な飛び蹴りを浴びせる。"
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric_TextData",
+          "SourceString": "<characterName id=|CaptainPenguin_Black|/>の専用スキル。\r\n地面にお腹をつけ、全身から電気を発して\r\n滑りながら敵にぶつかっていく。",
+          "LocalizedString": "<characterName id=|CaptainPenguin_Black|/>の専用スキル。\r\n地面にお腹をつけ、全身から電気を発して\r\n滑りながら敵にぶつかっていく。"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_EyeTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_EyeTossin_TextData",
+          "SourceString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n敵に向かって何度か突進する。",
+          "LocalizedString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n敵に向かって何度か突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_MouthTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_MouthTossin_TextData",
+          "SourceString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n敵に向かって猛スピードで何度も突進する。",
+          "LocalizedString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n敵に向かって猛スピードで何度も突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_SummonServant": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_SummonServant_TextData",
+          "SourceString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n４体のしもべを召喚する。しもべは敵に向かっていき、ぶつかってダメージを与える。しもべは攻撃されるか一定時間が経過すると消滅する。",
+          "LocalizedString": "<characterName id=|YakushimaBoss001|/>の専用スキル。\r\n４体のしもべを召喚する。しもべは敵に向かっていき、ぶつかってダメージを与える。しもべは攻撃されるか一定時間が経過すると消滅する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001_Pink|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001_Pink|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001_Blue|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001_Blue|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001_Red|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001_Red|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001_Purple|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001_Purple|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster001_Rainbow|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。",
+          "LocalizedString": "<characterName id=|YakushimaMonster001_Rainbow|/>の専用スキル。\r\n敵に向かってジャンプして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge_TextData",
+          "SourceString": "<characterName id=|YakushimaBoss001_Small|/>の専用スキル。\r\n敵めがけて突進する。地面や壁に当たると跳ねる。",
+          "LocalizedString": "<characterName id=|YakushimaBoss001_Small|/>の専用スキル。\r\n敵めがけて突進する。地面や壁に当たると跳ねる。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster002|/>の専用スキル。\r\n敵めがけて突き攻撃を行う。",
+          "LocalizedString": "<characterName id=|YakushimaMonster002|/>の専用スキル。\r\n敵めがけて突き攻撃を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge_TextData",
+          "SourceString": "<characterName id=|YakushimaMonster003|/>の専用スキル。\r\n全身を使い、敵に襲いかかる。地面や壁に当たると跳ねる。",
+          "LocalizedString": "<characterName id=|YakushimaMonster003|/>の専用スキル。\r\n全身を使い、敵に襲いかかる。地面や壁に当たると跳ねる。"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n一瞬姿を消したのち、自身を中心とした広範囲に大量の光柱が降り注ぐ。",
+          "LocalizedString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n一瞬姿を消したのち、自身を中心とした広範囲に大量の光柱が降り注ぐ。"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n後方へ跳び上がって背中に光翼を生み出し、\r\n空中から敵に向かって突進する。",
+          "LocalizedString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n後方へ跳び上がって背中に光翼を生み出し、\r\n空中から敵に向かって突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo_TextData",
+          "SourceString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n上空に跳びあがり、莫大なエネルギーを凝縮して地面へと放つ。\r\n舞い降りた光球は、地上の全てを浄化する",
+          "LocalizedString": "<characterName id=|LegendDeer|/>の専用スキル。\r\n上空に跳びあがり、莫大なエネルギーを凝縮して地面へと放つ。\r\n舞い降りた光球は、地上の全てを浄化する"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_WaveTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_WaveTackle_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n全身を敵にぶつけ、波を発生させる。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n全身を敵にぶつけ、波を発生させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_Breaching": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_Breaching_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n水中に潜り、少し経った後に大きく飛び出す。\r\n飛び出した勢いで、周囲に広がる波紋が発生する。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n水中に潜り、少し経った後に大きく飛び出す。\r\n飛び出した勢いで、周囲に広がる波紋が発生する。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_HomingBubble": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_HomingBubble_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n追尾する泡を大量に発射する。\r\n泡は着弾後もその場に留まる。\r\n泡は触れるか数秒経つと弾け、ダメージを与える。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n追尾する泡を大量に発射する。\r\n泡は着弾後もその場に留まる。\r\n泡は触れるか数秒経つと弾け、ダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_CreepingBubble": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CreepingBubble_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n敵の周りに大量の泡を生成し、取り囲んで攻撃する。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n敵の周りに大量の泡を生成し、取り囲んで攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_AquaBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_AquaBlade_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n鋭い水の刃を飛ばして攻撃する。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n鋭い水の刃を飛ばして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_Maelstrom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_Maelstrom_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n敵の周りに、渦を生成する。\r\n渦は敵を引き寄せながら中心に向かって収縮していき、\r\n最後は爆発して水柱を上げる。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n敵の周りに、渦を生成する。\r\n渦は敵を引き寄せながら中心に向かって収縮していき、\r\n最後は爆発して水柱を上げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_KingWhale_AquaTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingWhale_AquaTornado_TextData",
+          "SourceString": "<characterName id=|KingWhale|/>の専用スキル。\r\n天に向かって飛翔し、複数の巨大な竜巻を発生させる。\r\n竜巻はゆっくりと敵を追尾していく。",
+          "LocalizedString": "<characterName id=|KingWhale|/>の専用スキル。\r\n天に向かって飛翔し、複数の巨大な竜巻を発生させる。\r\n竜巻はゆっくりと敵を追尾していく。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_Tossin_TextData",
+          "SourceString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n全身に水をまとい、真っすぐ突進する。",
+          "LocalizedString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n全身に水をまとい、真っすぐ突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_SweepBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_SweepBreath_TextData",
+          "SourceString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n竜属性の炎をなぎ払うように吐き、\r\n一帯を焦土と化す。",
+          "LocalizedString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n竜属性の炎をなぎ払うように吐き、\r\n一帯を焦土と化す。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueSkyDragon_DrainStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueSkyDragon_DrainStorm_TextData",
+          "SourceString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n天まで届く巨大な渦を呼び起こす。\r\n渦は周囲の敵を呑み込み、一網打尽にする。",
+          "LocalizedString": "<characterName id=|BlueSkyDragon|/>の専用スキル。\r\n天まで届く巨大な渦を呼び起こす。\r\n渦は周囲の敵を呑み込み、一網打尽にする。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_VolcanicLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_VolcanicLaser_TextData",
+          "SourceString": "<characterName id=|VolcanoDragon|/>の専用スキル。\r\n口からあふれ出る熱線で大地を焼き尽くす。\r\n熱された地面にはマグマ溜まりができ、\r\n触れた敵にダメージを与える。",
+          "LocalizedString": "<characterName id=|VolcanoDragon|/>の専用スキル。\r\n口からあふれ出る熱線で大地を焼き尽くす。\r\n熱された地面にはマグマ溜まりができ、\r\n触れた敵にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_MagmaSpit": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_MagmaSpit_TextData",
+          "SourceString": "<characterName id=|VolcanoDragon|/>の専用スキル。\r\n口からマグマの塊を吐いて飛ばす。\r\n着弾地点にはマグマ溜まりができ、\r\n触れた敵にダメージを与える。",
+          "LocalizedString": "<characterName id=|VolcanoDragon|/>の専用スキル。\r\n口からマグマの塊を吐いて飛ばす。\r\n着弾地点にはマグマ溜まりができ、\r\n触れた敵にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_Ice_IceLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_Ice_IceLaser_TextData",
+          "SourceString": "<characterName id=|VolcanoDragon_Ice|/>の専用スキル。\r\n口から凍結光線を吐き、大地を凍てつかせる。\r\n凍てついた地面には霜溜まりができ、\r\n触れた敵を凍らせてダメージを与える。",
+          "LocalizedString": "<characterName id=|VolcanoDragon_Ice|/>の専用スキル。\r\n口から凍結光線を吐き、大地を凍てつかせる。\r\n凍てついた地面には霜溜まりができ、\r\n触れた敵を凍らせてダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanoDragon_Ice_IcicleSpit": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanoDragon_Ice_IcicleSpit_TextData",
+          "SourceString": "<characterName id=|VolcanoDragon_Ice|/>の専用スキル。\r\n口から氷の塊を吐いて飛ばす。\r\n凍てついた地面には霜溜まりができ、\r\n触れた敵を凍らせてダメージを与える。",
+          "LocalizedString": "<characterName id=|VolcanoDragon_Ice|/>の専用スキル。\r\n口から氷の塊を吐いて飛ばす。\r\n凍てついた地面には霜溜まりができ、\r\n触れた敵を凍らせてダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_RocketPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_RocketPunch_TextData",
+          "SourceString": "<characterName id=|GrassGolem|/>種の専用スキル。\r\n左腕を本体から切り離し、敵をなぎ払う。\r\nその後、右腕を射出する。",
+          "LocalizedString": "<characterName id=|GrassGolem|/>種の専用スキル。\r\n左腕を本体から切り離し、敵をなぎ払う。\r\nその後、右腕を射出する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_ArmCannon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_ArmCannon_TextData",
+          "SourceString": "<characterName id=|GrassGolem|/>の専用スキル。\r\n腕から草属性のエネルギー弾を発射する。\r\n弾は着弾後しつこく敵を追う根となり、足元から貫く。",
+          "LocalizedString": "<characterName id=|GrassGolem|/>の専用スキル。\r\n腕から草属性のエネルギー弾を発射する。\r\n弾は着弾後しつこく敵を追う根となり、足元から貫く。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassGolem_Dark_DarkArmCannon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassGolem_Dark_DarkArmCannon_TextData",
+          "SourceString": "<characterName id=|GrassGolem_Dark|/>の専用スキル。\r\n腕から闇属性のエネルギー弾を発射する。\r\n弾は着弾後しつこく敵を追う根となり、足元から貫く。",
+          "LocalizedString": "<characterName id=|GrassGolem_Dark|/>の専用スキル。\r\n腕から闇属性のエネルギー弾を発射する。\r\n弾は着弾後しつこく敵を追う根となり、足元から貫く。"
+        }
+      },
+      "ACTION_SKILL_Unique_Sekhmet_SomersaultScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Sekhmet_SomersaultScratch_TextData",
+          "SourceString": "<characterName id=|Sekhmet|/>の専用スキル。\r\n敵を引っかきつつ後ろへ宙返りして距離を取る。",
+          "LocalizedString": "<characterName id=|Sekhmet|/>の専用スキル。\r\n敵を引っかきつつ後ろへ宙返りして距離を取る。"
+        }
+      },
+      "ACTION_SKILL_Unique_Sekhmet_RollingScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Sekhmet_RollingScratch_TextData",
+          "SourceString": "<characterName id=|Sekhmet|/>の専用スキル。\r\n回転しながら敵との距離を一気に詰め、引っかく。",
+          "LocalizedString": "<characterName id=|Sekhmet|/>の専用スキル。\r\n回転しながら敵との距離を一気に詰め、引っかく。"
+        }
+      },
+      "ACTION_SKILL_Unique_MonochromeQueen_BalletJump": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MonochromeQueen_BalletJump_TextData",
+          "SourceString": "<characterName id=|MonochromeQueen|/>の専用スキル。\r\n斜め方向にジャンプし、黒く鋭い羽根を投げつける。",
+          "LocalizedString": "<characterName id=|MonochromeQueen|/>の専用スキル。\r\n斜め方向にジャンプし、黒く鋭い羽根を投げつける。"
+        }
+      },
+      "ACTION_SKILL_Unique_LanternButler_LanternFlame": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LanternButler_LanternFlame_TextData",
+          "SourceString": "<characterName id=|LanternButler|/>の専用スキル。\r\nランタンを掲げ、執念深く敵を追いかける\r\n怨念をいくつも呼び出す。",
+          "LocalizedString": "<characterName id=|LanternButler|/>の専用スキル。\r\nランタンを掲げ、執念深く敵を追いかける\r\n怨念をいくつも呼び出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_RockBeast_RockHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RockBeast_RockHorn_TextData",
+          "SourceString": "<characterName id=|RockBeast|/>の専用スキル。\r\n角で地面をえぐりつつ振り上げ、\r\n敵に向かって岩石弾を飛ばす。",
+          "LocalizedString": "<characterName id=|RockBeast|/>の専用スキル。\r\n角で地面をえぐりつつ振り上げ、\r\n敵に向かって岩石弾を飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_RockBeast_Ice_IceHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RockBeast_Ice_IceHorn_TextData",
+          "SourceString": "<characterName id=|RockBeast_Ice|/>の専用スキル。\r\n角で地面をえぐりつつ振り上げ、\r\n敵に向かって雪塊を飛ばす。",
+          "LocalizedString": "<characterName id=|RockBeast_Ice|/>の専用スキル。\r\n角で地面をえぐりつつ振り上げ、\r\n敵に向かって雪塊を飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_ClownRabbit_TrickShow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ClownRabbit_TrickShow_TextData",
+          "SourceString": "<characterName id=|ClownRabbit|/>の専用スキル。\r\n2体の幻影を作り出して敵を翻弄し、\r\n本体がシルクハットから炎の鳥を飛ばして攻撃する。",
+          "LocalizedString": "<characterName id=|ClownRabbit|/>の専用スキル。\r\n2体の幻影を作り出して敵を翻弄し、\r\n本体がシルクハットから炎の鳥を飛ばして攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_CubeTurtle_CubePress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CubeTurtle_CubePress_TextData",
+          "SourceString": "<characterName id=|CubeTurtle|/>の専用スキル。\r\n空中に浮かぶように跳躍し、\r\n圧倒的な重量で敵を圧し潰す。",
+          "LocalizedString": "<characterName id=|CubeTurtle|/>の専用スキル。\r\n空中に浮かぶように跳躍し、\r\n圧倒的な重量で敵を圧し潰す。"
+        }
+      },
+      "ACTION_SKILL_Unique_CubeTurtle_Neutral_HolyPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CubeTurtle_Neutral_HolyPress_TextData",
+          "SourceString": "<characterName id=|CubeTurtle_Neutral|/>の専用スキル。\r\n空中に浮かぶように跳躍して敵を圧し潰す。\r\nそこから光が広がっていき、光の柱で追撃する。",
+          "LocalizedString": "<characterName id=|CubeTurtle_Neutral|/>の専用スキル。\r\n空中に浮かぶように跳躍して敵を圧し潰す。\r\nそこから光が広がっていき、光の柱で追撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_DashSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_DashSlash_TextData",
+          "SourceString": "<characterName id=|SamuraiDog|/>の専用スキル。\r\n全力で走りながら、口にくわえた棒で敵を斬りつける。\r\nこれを2連続で行う。",
+          "LocalizedString": "<characterName id=|SamuraiDog|/>の専用スキル。\r\n全力で走りながら、口にくわえた棒で敵を斬りつける。\r\nこれを2連続で行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_MummyPal_MummyAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MummyPal_MummyAttack_TextData",
+          "SourceString": "<characterName id=|MummyPal|/>の専用スキル。\r\n手から包帯を伸ばし、連続攻撃を行う。",
+          "LocalizedString": "<characterName id=|MummyPal|/>の専用スキル。\r\n手から包帯を伸ばし、連続攻撃を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_SumoDog_SumoStomp": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SumoDog_SumoStomp_TextData",
+          "SourceString": "<characterName id=|SumoDog|/>の専用スキル。\r\n右後脚を大きく振りかぶって踏みしだき、\r\n衝撃波で前方扇状を攻撃する。",
+          "LocalizedString": "<characterName id=|SumoDog|/>の専用スキル。\r\n右後脚を大きく振りかぶって踏みしだき、\r\n衝撃波で前方扇状を攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_LotusDragon_LotusBloom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LotusDragon_LotusBloom_TextData",
+          "SourceString": "<characterName id=|LotusDragon|/>の専用スキル。\r\n地面に潜って姿をくらます。\r\nつぼみとなって地表に現れた後、花開いて広範囲を攻撃する。",
+          "LocalizedString": "<characterName id=|LotusDragon|/>の専用スキル。\r\n地面に潜って姿をくらます。\r\nつぼみとなって地表に現れた後、花開いて広範囲を攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_DomeArmorDragon_ExplosiveMissile": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DomeArmorDragon_ExplosiveMissile_TextData",
+          "SourceString": "<characterName id=|DomeArmorDragon|/>の専用スキル。\r\n羽から無数の炸裂ミサイルを発射して攻撃する。",
+          "LocalizedString": "<characterName id=|DomeArmorDragon|/>の専用スキル。\r\n羽から無数の炸裂ミサイルを発射して攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostDragon_TailSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostDragon_TailSlash_TextData",
+          "SourceString": "<characterName id=|GhostDragon|/>種の専用スキル。\r\n敵に高速で接近し、尻尾で切り裂くように攻撃する。",
+          "LocalizedString": "<characterName id=|GhostDragon|/>種の専用スキル。\r\n敵に高速で接近し、尻尾で切り裂くように攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GhostDragon_PhosphorousBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostDragon_PhosphorousBeam_TextData",
+          "SourceString": "<characterName id=|GhostDragon|/>種の専用スキル。\r\n高熱の光線を一定時間吐き続ける。\r\n最後の瞬間、光線を吐いていた地点に大爆発を起こす。",
+          "LocalizedString": "<characterName id=|GhostDragon|/>種の専用スキル。\r\n高熱の光線を一定時間吐き続ける。\r\n最後の瞬間、光線を吐いていた地点に大爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_BullRush_Lower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_BullRush_Lower_TextData",
+          "SourceString": "<characterName id=|GrassMinotaur|/>の専用スキル。\r\n荒々しく身を奮い立たせ、\r\n２連続で草属性の突進を行う。",
+          "LocalizedString": "<characterName id=|GrassMinotaur|/>の専用スキル。\r\n荒々しく身を奮い立たせ、\r\n２連続で草属性の突進を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_BullRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_BullRush_TextData",
+          "SourceString": "<characterName id=|GrassMinotaur|/>の専用スキル。\r\n激しく身を奮い立たせ、\r\n４連続で怒りの草属性突進を行う。",
+          "LocalizedString": "<characterName id=|GrassMinotaur|/>の専用スキル。\r\n激しく身を奮い立たせ、\r\n４連続で怒りの草属性突進を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_Lower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_Lower_TextData",
+          "SourceString": "<characterName id=|GrassMinotaur_Ice|/>の専用スキル。\r\n荒々しく身を奮い立たせ、\r\n２連続で氷属性の突進を行う。",
+          "LocalizedString": "<characterName id=|GrassMinotaur_Ice|/>の専用スキル。\r\n荒々しく身を奮い立たせ、\r\n２連続で氷属性の突進を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassMinotaur_Ice_BullRush_TextData",
+          "SourceString": "<characterName id=|GrassMinotaur_Ice|/>の専用スキル。\r\n激しく身を奮い立たせ、\r\n４連続で怒りの氷属性突進を行う。",
+          "LocalizedString": "<characterName id=|GrassMinotaur_Ice|/>の専用スキル。\r\n激しく身を奮い立たせ、\r\n４連続で怒りの氷属性突進を行う。"
+        }
+      },
+      "ACTION_SKILL_Unique_PandaGirl_RapidKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PandaGirl_RapidKick_TextData",
+          "SourceString": "<characterName id=|PandaGirl|/>の専用スキル。\r\n素早く連続で回し蹴りを行い、最後に気功の波動を飛ばす。",
+          "LocalizedString": "<characterName id=|PandaGirl|/>の専用スキル。\r\n素早く連続で回し蹴りを行い、最後に気功の波動を飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecSnail_ShellCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecSnail_ShellCharge_TextData",
+          "SourceString": "<characterName id=|ElecSnail|/>種の専用スキル。\r\n殻にこもってダメージを軽減し、電気エネルギーをチャージする。\r\nチャージが完了すると放電し、周囲の敵にダメージを与える。\r\n放電後、一定時間このパルが使う雷属性スキルの攻撃力が増加する。",
+          "LocalizedString": "<characterName id=|ElecSnail|/>種の専用スキル。\r\n殻にこもってダメージを軽減し、電気エネルギーをチャージする。\r\nチャージが完了すると放電し、周囲の敵にダメージを与える。\r\n放電後、一定時間このパルが使う雷属性スキルの攻撃力が増加する。"
+        }
+      },
+      "ACTION_SKILL_Unique_CuteMole_DiggingAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CuteMole_DiggingAttack_TextData",
+          "SourceString": "<characterName id=|CuteMole|/>の専用スキル。\r\n地中に潜り、敵の足元から勢い良く飛び出す。",
+          "LocalizedString": "<characterName id=|CuteMole|/>の専用スキル。\r\n地中に潜り、敵の足元から勢い良く飛び出す。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlueThunderHorse_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueThunderHorse_Tossin_TextData",
+          "SourceString": "<characterName id=|BlueThunderHorse|/>の専用スキル。\r\n雷をまといながら、敵に向かって高速で突進する。",
+          "LocalizedString": "<characterName id=|BlueThunderHorse|/>の専用スキル。\r\n雷をまといながら、敵に向かって高速で突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Tossin_TextData",
+          "SourceString": "<characterName id=|NightBlueHorse|/>の専用スキル。\r\n揺らめく炎をまといながら、敵に突進する。",
+          "LocalizedString": "<characterName id=|NightBlueHorse|/>の専用スキル。\r\n揺らめく炎をまといながら、敵に突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Neutral_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Neutral_Tossin_TextData",
+          "SourceString": "<characterName id=|NightBlueHorse_Neutral|/>の専用スキル。\r\n輝く炎をまといながら、敵に突進する。",
+          "LocalizedString": "<characterName id=|NightBlueHorse_Neutral|/>の専用スキル。\r\n輝く炎をまといながら、敵に突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_Neutral_AirStep": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_Neutral_AirStep_TextData",
+          "SourceString": "<characterName id=|NightBlueHorse_Neutral|/>の専用スキル。\r\n華麗なステップで敵を翻弄しながら、\r\n鋭利な角で斬撃を飛ばす。",
+          "LocalizedString": "<characterName id=|NightBlueHorse_Neutral|/>の専用スキル。\r\n華麗なステップで敵を翻弄しながら、\r\n鋭利な角で斬撃を飛ばす。"
+        }
+      },
+      "ACTION_SKILL_Unique_Kirin_Ice_IceTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Kirin_Ice_IceTackle_TextData",
+          "SourceString": "<characterName id=|Kirin_Ice|/>の専用スキル。\r\n自身の周囲に氷柱を発生させながら、\r\n敵に向かって突進する。",
+          "LocalizedString": "<characterName id=|Kirin_Ice|/>の専用スキル。\r\n自身の周囲に氷柱を発生させながら、\r\n敵に向かって突進する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_KoriShorai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_KoriShorai_TextData",
+          "SourceString": "<characterName id=|ThunderDog_Ice|/>の専用スキル。\r\n前方に次々と氷柱を生成し、\r\n生成した氷柱の間を高速で突進していく。",
+          "LocalizedString": "<characterName id=|ThunderDog_Ice|/>の専用スキル。\r\n前方に次々と氷柱を生成し、\r\n生成した氷柱の間を高速で突進していく。"
+        }
+      },
+      "ACTION_SKILL_Unique_ScorpionMan_Erectric_UpperThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ScorpionMan_Erectric_UpperThunder_TextData",
+          "SourceString": "<characterName id=|ScorpionMan_Electric|/>の専用スキル。\r\n超電導により敵との距離を一気に詰め、\r\n思い切りハサミを振り上げる。",
+          "LocalizedString": "<characterName id=|ScorpionMan_Electric|/>の専用スキル。\r\n超電導により敵との距離を一気に詰め、\r\n思い切りハサミを振り上げる。"
+        }
+      },
+      "ACTION_SKILL_Unique_WingGolem_Fire_FlameCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WingGolem_Fire_FlameCutter_TextData",
+          "SourceString": "<characterName id=|WingGolem_Fire|/>の専用スキル。\r\n大きく振りかぶって背中の炎輪を投げる。\r\n炎輪は円を描くような軌道で飛んでいく。",
+          "LocalizedString": "<characterName id=|WingGolem_Fire|/>の専用スキル。\r\n大きく振りかぶって背中の炎輪を投げる。\r\n炎輪は円を描くような軌道で飛んでいく。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderBird_Ice_SnowStrom": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderBird_Ice_SnowStrom_TextData",
+          "SourceString": "<characterName id=|ThunderBird_Ice|/>の専用スキル。\r\nまず、敵のいる地点から氷を突き上げる。\r\nそして滑空突進しながら左右に氷を突き上げていく。",
+          "LocalizedString": "<characterName id=|ThunderBird_Ice|/>の専用スキル。\r\nまず、敵のいる地点から氷を突き上げる。\r\nそして滑空突進しながら左右に氷を突き上げていく。"
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteDeer_Dark_DarkPillar": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteDeer_Dark_DarkPillar_TextData",
+          "SourceString": "<characterName id=|WhiteDeer_Dark|/>の専用スキル。\r\n前方広範囲に闇属性の爆発を引き起こした後、\r\n歩きながら、自身の周囲に闇の柱を発生させる。",
+          "LocalizedString": "<characterName id=|WhiteDeer_Dark|/>の専用スキル。\r\n前方広範囲に闇属性の爆発を引き起こした後、\r\n歩きながら、自身の周囲に闇の柱を発生させる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Garm_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Garm_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_RedFlowerBird_JumpKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RedFlowerBird_JumpKick_TextData",
+          "SourceString": "<characterName id=|RedFlowerBird|/>の専用スキル。\r\nふわりと宙に浮きあがり、鋭い爪を勢いよく地面に叩きつける。",
+          "LocalizedString": "<characterName id=|RedFlowerBird|/>の専用スキル。\r\nふわりと宙に浮きあがり、鋭い爪を勢いよく地面に叩きつける。"
+        }
+      },
+      "ACTION_SKILL_Unique_SnakeGirl_SnakeShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnakeGirl_SnakeShot_TextData",
+          "SourceString": "<characterName id=|SnakeGirl|/>の専用スキル。\r\n頭部の蛇が放物線状に飛ぶ毒玉を吐き散らす。\r\n着弾地点に広がる毒の沼は、触れた者を毒状態にする。",
+          "LocalizedString": "<characterName id=|SnakeGirl|/>の専用スキル。\r\n頭部の蛇が放物線状に飛ぶ毒玉を吐き散らす。\r\n着弾地点に広がる毒の沼は、触れた者を毒状態にする。"
+        }
+      },
+      "ACTION_SKILL_Unique_GuardianDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GuardianDog_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GuardianDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GuardianDog_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPomeranian_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPomeranian_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPomeranian_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPomeranian_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_Ice_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_Ice_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_SamuraiDog_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SamuraiDog_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackPuppy_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackPuppy_Bite_TextData",
+          "SourceString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く飛び掛かり、噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackPuppy_BiteV2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackPuppy_BiteV2_TextData",
+          "SourceString": "敵に向かって素早く連続で噛みついて攻撃する。",
+          "LocalizedString": "敵に向かって素早く連続で噛みついて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerPrince_PoisonGasDance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerPrince_PoisonGasDance_TextData",
+          "SourceString": "<characterName id=|FlowerPrince|/>の専用スキル。\r\n踊りながら腐蝕霧を噴射する。\r\n噴射された腐蝕霧は、一定時間その場に残留する。",
+          "LocalizedString": "<characterName id=|FlowerPrince|/>の専用スキル。\r\n踊りながら腐蝕霧を噴射する。\r\n噴射された腐蝕霧は、一定時間その場に残留する。"
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerPrince_PoisonGasTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerPrince_PoisonGasTackle_TextData",
+          "SourceString": "<characterName id=|FlowerPrince|/>の専用スキル。\r\n腐蝕霧を噴射しながら、地面を滑るように突進する。\r\n噴射された腐蝕霧は、一定時間その場に残留する。",
+          "LocalizedString": "<characterName id=|FlowerPrince|/>の専用スキル。\r\n腐蝕霧を噴射しながら、地面を滑るように突進する。\r\n噴射された腐蝕霧は、一定時間その場に残留する。"
+        }
+      },
+      "ACTION_SKILL_Unique_Mothman_GiantSpore": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Mothman_GiantSpore_TextData",
+          "SourceString": "<characterName id=|Mothman|/>の専用スキル。\r\n敵を追尾する巨大な胞子を発射する。\r\n着弾すると爆発し、広範囲に爆風が広がる。",
+          "LocalizedString": "<characterName id=|Mothman|/>の専用スキル。\r\n敵を追尾する巨大な胞子を発射する。\r\n着弾すると爆発し、広範囲に爆風が広がる。"
+        }
+      },
+      "ACTION_SKILL_Unique_Mothman_SporeScatter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Mothman_SporeScatter_TextData",
+          "SourceString": "<characterName id=|Mothman|/>の専用スキル。\r\n爆発する胞子を広範囲にばら撒き、\r\n一定時間後に一気に起爆する。",
+          "LocalizedString": "<characterName id=|Mothman|/>の専用スキル。\r\n爆発する胞子を広範囲にばら撒き、\r\n一定時間後に一気に起爆する。"
+        }
+      },
+      "ACTION_SKILL_PoisonFog": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonFog_TextData",
+          "SourceString": "前方に毒の霧を発生させ、\r\n相手を毒状態にする。",
+          "LocalizedString": "前方に毒の霧を発生させ、\r\n相手を毒状態にする。"
+        }
+      },
+      "ACTION_SKILL_SelfDestruct": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_TextData",
+          "SourceString": "命をかけて爆散する。\r\n自身は戦闘不能になる。",
+          "LocalizedString": "命をかけて爆散する。\r\n自身は戦闘不能になる。"
+        }
+      },
+      "ACTION_SKILL_SelfDestruct_Bee": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_Bee_TextData",
+          "SourceString": "命をかけて爆散する。\r\n自身も殉職する名誉の技。",
+          "LocalizedString": "命をかけて爆散する。\r\n自身も殉職する名誉の技。"
+        }
+      },
+      "ACTION_SKILL_SelfExplosion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfExplosion_TextData",
+          "SourceString": "命をかけた大爆発を起こす。\r\n自身は命を散らし、夜空に輝く星となる。",
+          "LocalizedString": "命をかけた大爆発を起こす。\r\n自身は命を散らし、夜空に輝く星となる。"
+        }
+      },
+      "ACTION_SKILL_FireBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBlast_TextData",
+          "SourceString": "敵をめがけて、一直線に飛んでゆく\r\n炎の弾を発射する。",
+          "LocalizedString": "敵をめがけて、一直線に飛んでゆく\r\n炎の弾を発射する。"
+        }
+      },
+      "ACTION_SKILL_Flamethrower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Flamethrower_TextData",
+          "SourceString": "敵に向かって火炎を放出し、\r\n継続的にダメージを与える。",
+          "LocalizedString": "敵に向かって火炎を放出し、\r\n継続的にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_FireBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBall_TextData",
+          "SourceString": "頭上に巨大な火球を作り出し、敵に向かって発射する。\r\n着弾すると爆発し、広範囲に爆風が広がる。",
+          "LocalizedString": "頭上に巨大な火球を作り出し、敵に向かって発射する。\r\n着弾すると爆発し、広範囲に爆風が広がる。"
+        }
+      },
+      "ACTION_SKILL_FlareArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareArrow_TextData",
+          "SourceString": "敵を追尾する、高速な火の矢を\r\n3本連続で発射する。",
+          "LocalizedString": "敵を追尾する、高速な火の矢を\r\n3本連続で発射する。"
+        }
+      },
+      "ACTION_SKILL_FireSeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireSeed_TextData",
+          "SourceString": "敵に向かって火の玉を発射する。\r\n少し進むと破裂して\r\n小さな火の玉が前方に広がる。",
+          "LocalizedString": "敵に向かって火の玉を発射する。\r\n少し進むと破裂して\r\n小さな火の玉が前方に広がる。"
+        }
+      },
+      "ACTION_SKILL_FlareTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTornado_TextData",
+          "SourceString": "左右に灼熱の竜巻を発生させ\r\n敵にけしかける。",
+          "LocalizedString": "左右に灼熱の竜巻を発生させ\r\n敵にけしかける。"
+        }
+      },
+      "ACTION_SKILL_Inferno": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Inferno_TextData",
+          "SourceString": "敵の周囲の地面を活性化させ\r\n一定時間後に爆裂させる。",
+          "LocalizedString": "敵の周囲の地面を活性化させ\r\n一定時間後に爆裂させる。"
+        }
+      },
+      "ACTION_SKILL_FlameWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameWall_TextData",
+          "SourceString": "敵のいる地点に燃え上がる炎の壁を発生させる。\r\n炎の壁はしばらく残り続け、\r\n触れた敵にダメージを与える。",
+          "LocalizedString": "敵のいる地点に燃え上がる炎の壁を発生させる。\r\n炎の壁はしばらく残り続け、\r\n触れた敵にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_Eruption": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Eruption_TextData",
+          "SourceString": "上空に向かって無数の火山弾を発射する。\r\nしばらく経つと発射された火山弾が\r\n発動者の周囲に降り注ぐ。",
+          "LocalizedString": "上空に向かって無数の火山弾を発射する。\r\nしばらく経つと発射された火山弾が\r\n発動者の周囲に降り注ぐ。"
+        }
+      },
+      "ACTION_SKILL_FlameFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameFunnel_TextData",
+          "SourceString": "炎エネルギーをもつ球を複数作り出し、\r\nそこから敵に向かっていく無数の火球を発射する。",
+          "LocalizedString": "炎エネルギーをもつ球を複数作り出し、\r\nそこから敵に向かっていく無数の火球を発射する。"
+        }
+      },
+      "ACTION_SKILL_FlareTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTwister_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_WaterGun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterGun_TextData",
+          "SourceString": "対象に向かって一直線に飛んでゆく\r\n水の弾を発射する。",
+          "LocalizedString": "対象に向かって一直線に飛んでゆく\r\n水の弾を発射する。"
+        }
+      },
+      "ACTION_SKILL_WaterWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterWave_TextData",
+          "SourceString": "水の竜巻で前方に壁を作りだし\r\nゆっくりと前進させる。",
+          "LocalizedString": "水の竜巻で前方に壁を作りだし\r\nゆっくりと前進させる。"
+        }
+      },
+      "ACTION_SKILL_HydroPump": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroPump_TextData",
+          "SourceString": "すごい勢いで水を放出し\r\n前方広範囲を薙ぎ払う。",
+          "LocalizedString": "すごい勢いで水を放出し\r\n前方広範囲を薙ぎ払う。"
+        }
+      },
+      "ACTION_SKILL_WaterBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterBall_TextData",
+          "SourceString": "頭上に巨大な水球を作り出し\r\n敵めがけて発射する。",
+          "LocalizedString": "頭上に巨大な水球を作り出し\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_TidalWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TidalWave_TextData",
+          "SourceString": "広範囲に小さな波を起こし\r\n敵の動きを遅くしたあとに\r\n大きな波で敵を攻撃する。",
+          "LocalizedString": "広範囲に小さな波を起こし\r\n敵の動きを遅くしたあとに\r\n大きな波で敵を攻撃する。"
+        }
+      },
+      "ACTION_SKILL_AquaJet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AquaJet_TextData",
+          "SourceString": "敵に向かって\r\n高速の水弾を発射する。",
+          "LocalizedString": "敵に向かって\r\n高速の水弾を発射する。"
+        }
+      },
+      "ACTION_SKILL_BubbleShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShot_TextData",
+          "SourceString": "敵をゆっくりと追尾する\r\nたくさんの泡を発射する。",
+          "LocalizedString": "敵をゆっくりと追尾する\r\nたくさんの泡を発射する。"
+        }
+      },
+      "ACTION_SKILL_AcidRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AcidRain_TextData",
+          "SourceString": "酸性の雲を作り出し\r\n敵の頭上から酸の雨を降らせる。",
+          "LocalizedString": "酸性の雲を作り出し\r\n敵の頭上から酸の雨を降らせる。"
+        }
+      },
+      "ACTION_SKILL_LineGeyser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineGeyser_TextData",
+          "SourceString": "一直線に進む水の柱を発生させる。",
+          "LocalizedString": "一直線に進む水の柱を発生させる。"
+        }
+      },
+      "ACTION_SKILL_WallSplash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WallSplash_TextData",
+          "SourceString": "水柱でできた壁を敵のいる地点に連続で発生させる。",
+          "LocalizedString": "水柱でできた壁を敵のいる地点に連続で発生させる。"
+        }
+      },
+      "ACTION_SKILL_SeaGush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeaGush_TextData",
+          "SourceString": "敵のいる地点とその周囲に\r\n大量の水柱を噴出させる。",
+          "LocalizedString": "敵のいる地点とその周囲に\r\n大量の水柱を噴出させる。"
+        }
+      },
+      "ACTION_SKILL_RipTide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RipTide_TextData",
+          "SourceString": "敵の周囲から押し寄せる波を発生させる。\r\n波は最後、中心点で爆発して水柱を上げる。",
+          "LocalizedString": "敵の周囲から押し寄せる波を発生させる。\r\n波は最後、中心点で爆発して水柱を上げる。"
+        }
+      },
+      "ACTION_SKILL_DiversionLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiversionLaser_TextData",
+          "SourceString": "前方に高圧水流を発射する。\r\n水流は少し時間をおいて左右に分岐する。",
+          "LocalizedString": "前方に高圧水流を発射する。\r\n水流は少し時間をおいて左右に分岐する。"
+        }
+      },
+      "ACTION_SKILL_HydroSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroSlicer_TextData",
+          "SourceString": "圧縮された水流で前方をなぎ払う。\r\nなぎ払われた場所からは時間差で水が噴出する。",
+          "LocalizedString": "圧縮された水流で前方をなぎ払う。\r\nなぎ払われた場所からは時間差で水が噴出する。"
+        }
+      },
+      "ACTION_SKILL_WindCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindCutter_TextData",
+          "SourceString": "敵をめがけて、一直線に飛んでゆく\r\n超高速な風の刃を発射する。",
+          "LocalizedString": "敵をめがけて、一直線に飛んでゆく\r\n超高速な風の刃を発射する。"
+        }
+      },
+      "ACTION_SKILL_GrassTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GrassTornado_TextData",
+          "SourceString": "左右に竜巻を発生させ\r\n敵にけしかける。",
+          "LocalizedString": "左右に竜巻を発生させ\r\n敵にけしかける。"
+        }
+      },
+      "ACTION_SKILL_SolarBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SolarBeam_TextData",
+          "SourceString": "太陽の力をチャージして\r\n敵めがけて強力なビームを発射する。",
+          "LocalizedString": "太陽の力をチャージして\r\n敵めがけて強力なビームを発射する。"
+        }
+      },
+      "ACTION_SKILL_SeedMachinegun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMachinegun_TextData",
+          "SourceString": "たくさんの固い種を放出し\r\n前方の敵を攻撃する。",
+          "LocalizedString": "たくさんの固い種を放出し\r\n前方の敵を攻撃する。"
+        }
+      },
+      "ACTION_SKILL_SeedMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMine_TextData",
+          "SourceString": "危険なタネを発射する。\r\n敵に当たると弾けて爆発する。",
+          "LocalizedString": "危険なタネを発射する。\r\n敵に当たると弾けて爆発する。"
+        }
+      },
+      "ACTION_SKILL_SpecialCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpecialCutter_TextData",
+          "SourceString": "敵をめがけて一直線に飛んでゆく\r\n超高速な風の刃を3発発射する。",
+          "LocalizedString": "敵をめがけて一直線に飛んでゆく\r\n超高速な風の刃を3発発射する。"
+        }
+      },
+      "ACTION_SKILL_RootAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootAttack_TextData",
+          "SourceString": "地中の鋭い根が敵を追いかけ\r\n足元から敵を貫く。",
+          "LocalizedString": "地中の鋭い根が敵を追いかけ\r\n足元から敵を貫く。"
+        }
+      },
+      "ACTION_SKILL_RootLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootLance_TextData",
+          "SourceString": "敵のいる地点とその周囲に\r\n鋭い根を突き出す。",
+          "LocalizedString": "敵のいる地点とその周囲に\r\n鋭い根を突き出す。"
+        }
+      },
+      "ACTION_SKILL_RaidCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RaidCutter_TextData",
+          "SourceString": "敵をめがけて飛んでいく\r\n無数の風の刃を発射する。",
+          "LocalizedString": "敵をめがけて飛んでいく\r\n無数の風の刃を発射する。"
+        }
+      },
+      "ACTION_SKILL_WindEdge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindEdge_TextData",
+          "SourceString": "鋭利な風の刃を扇状に飛ばす。",
+          "LocalizedString": "鋭利な風の刃を扇状に飛ばす。"
+        }
+      },
+      "ACTION_SKILL_CrossWind": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossWind_TextData",
+          "SourceString": "敵の前方に生成した風の刃を\r\nクロスさせて攻撃する。",
+          "LocalizedString": "敵の前方に生成した風の刃を\r\nクロスさせて攻撃する。"
+        }
+      },
+      "ACTION_SKILL_ReflectiveShuriken": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ReflectiveShuriken_TextData",
+          "SourceString": "敵や木に当たると跳ね返って連続攻撃になる\r\n風の刃を飛ばす。\r\n最大4回まで跳ね返る。",
+          "LocalizedString": "敵や木に当たると跳ね返って連続攻撃になる\r\n風の刃を飛ばす。\r\n最大4回まで跳ね返る。"
+        }
+      },
+      "ACTION_SKILL_WindBurst": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindBurst_TextData",
+          "SourceString": "自身の周りに巨大な風の渦を呼び起こし、\r\n大威力の攻撃を行う。",
+          "LocalizedString": "自身の周りに巨大な風の渦を呼び起こし、\r\n大威力の攻撃を行う。"
+        }
+      },
+      "ACTION_SKILL_ThunderRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderRain_TextData",
+          "SourceString": "雷を呼んで\r\n一定時間後にたくさんの落雷を起こす。",
+          "LocalizedString": "雷を呼んで\r\n一定時間後にたくさんの落雷を起こす。"
+        }
+      },
+      "ACTION_SKILL_ThunderBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderBall_TextData",
+          "SourceString": "ゆっくりと敵を追いかける\r\n雷の球を発射する。",
+          "LocalizedString": "ゆっくりと敵を追いかける\r\n雷の球を発射する。"
+        }
+      },
+      "ACTION_SKILL_LineThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineThunder_TextData",
+          "SourceString": "一直線に進む雷撃を発生させる。",
+          "LocalizedString": "一直線に進む雷撃を発生させる。"
+        }
+      },
+      "ACTION_SKILL_CrossThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossThunder_TextData",
+          "SourceString": "敵の左右をふさぐように\r\n2方向に進む雷撃を発生させる。",
+          "LocalizedString": "敵の左右をふさぐように\r\n2方向に進む雷撃を発生させる。"
+        }
+      },
+      "ACTION_SKILL_ThreeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeThunder_TextData",
+          "SourceString": "敵の頭上から、3度の落雷を発生させる。",
+          "LocalizedString": "敵の頭上から、3度の落雷を発生させる。"
+        }
+      },
+      "ACTION_SKILL_ElecWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ElecWave_TextData",
+          "SourceString": "素早く放電し\r\n周囲に衝撃を与える。",
+          "LocalizedString": "素早く放電し\r\n周囲に衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_Thunderbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Thunderbolt_TextData",
+          "SourceString": "雷の力をチャージして\r\n敵めがけて強力な電撃を放出する。",
+          "LocalizedString": "雷の力をチャージして\r\n敵めがけて強力な電撃を放出する。"
+        }
+      },
+      "ACTION_SKILL_ThunderFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderFunnel_TextData",
+          "SourceString": "雷エネルギーをもつ2つの球を作り出し\r\nそこから、敵めがけて無数の雷球を発射する。",
+          "LocalizedString": "雷エネルギーをもつ2つの球を作り出し\r\nそこから、敵めがけて無数の雷球を発射する。"
+        }
+      },
+      "ACTION_SKILL_SpreadPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpreadPulse_TextData",
+          "SourceString": "扇状に広がる\r\n雷の球を発射する。",
+          "LocalizedString": "扇状に広がる\r\n雷の球を発射する。"
+        }
+      },
+      "ACTION_SKILL_LockonLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LockonLaser_TextData",
+          "SourceString": "敵に狙いを定めたあとに\r\n超高速な雷のレーザーを発射する。",
+          "LocalizedString": "敵に狙いを定めたあとに\r\n超高速な雷のレーザーを発射する。"
+        }
+      },
+      "ACTION_SKILL_LightningStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LightningStrike_TextData",
+          "SourceString": "自らを避雷針として雷を落とし、\r\nその場に放電爆発を引き起こす。",
+          "LocalizedString": "自らを避雷針として雷を落とし、\r\nその場に放電爆発を引き起こす。"
+        }
+      },
+      "ACTION_SKILL_TriSpark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TriSpark_TextData",
+          "SourceString": "直線状に飛ぶ高速の雷球と\r\n敵を追尾する遅めの雷球を同時に発射する。",
+          "LocalizedString": "直線状に飛ぶ高速の雷球と\r\n敵を追尾する遅めの雷球を同時に発射する。"
+        }
+      },
+      "ACTION_SKILL_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderStorm_TextData",
+          "SourceString": "巨大な雷の竜巻を発生させる。\r\n竜巻は敵に向かってゆっくりと移動する。",
+          "LocalizedString": "巨大な雷の竜巻を発生させる。\r\n竜巻は敵に向かってゆっくりと移動する。"
+        }
+      },
+      "ACTION_SKILL_RangeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RangeThunder_TextData",
+          "SourceString": "一直線に進む雷撃を全方位に発生させる。",
+          "LocalizedString": "一直線に進む雷撃を全方位に発生させる。"
+        }
+      },
+      "ACTION_SKILL_Railbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Railbolt_TextData",
+          "SourceString": "限界まで雷の力をチャージして\r\n敵めがけて強力な電撃を複数同時発射する。",
+          "LocalizedString": "限界まで雷の力をチャージして\r\n敵めがけて強力な電撃を複数同時発射する。"
+        }
+      },
+      "ACTION_SKILL_ShokeiLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShokeiLaser_TextData",
+          "SourceString": "敵に狙いを定めたあと、\r\n超高速な雷のレーザーを複数発射する。",
+          "LocalizedString": "敵に狙いを定めたあと、\r\n超高速な雷のレーザーを複数発射する。"
+        }
+      },
+      "ACTION_SKILL_ThunderSpear": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderSpear_TextData",
+          "SourceString": "直線状に飛んでいく雷の槍を\r\n敵めがけて高速で発射する。",
+          "LocalizedString": "直線状に飛んでいく雷の槍を\r\n敵めがけて高速で発射する。"
+        }
+      },
+      "ACTION_SKILL_IceMissile": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceMissile_TextData",
+          "SourceString": "上空に尖った氷を生成し\r\n敵めがけてそれらを発射する。",
+          "LocalizedString": "上空に尖った氷を生成し\r\n敵めがけてそれらを発射する。"
+        }
+      },
+      "ACTION_SKILL_BlizzardLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlizzardLance_TextData",
+          "SourceString": "敵の足元から\r\n鋭い氷の刃を出現させる。",
+          "LocalizedString": "敵の足元から\r\n鋭い氷の刃を出現させる。"
+        }
+      },
+      "ACTION_SKILL_Snowstorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Snowstorm_TextData",
+          "SourceString": "凍える力を周囲に集めて\r\n近くの者を攻撃したあとで\r\n敵めがけて吹雪を放出する。",
+          "LocalizedString": "凍える力を周囲に集めて\r\n近くの者を攻撃したあとで\r\n敵めがけて吹雪を放出する。"
+        }
+      },
+      "ACTION_SKILL_IcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleThrow_TextData",
+          "SourceString": "巨大な氷塊を作り出し\r\n敵めがけて高速で発射する。\r\n着弾すると、周囲にも衝撃を与える。",
+          "LocalizedString": "巨大な氷塊を作り出し\r\n敵めがけて高速で発射する。\r\n着弾すると、周囲にも衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_IceBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceBlade_TextData",
+          "SourceString": "三日月状の氷の刃を作り出し\r\n前方に発射する。",
+          "LocalizedString": "三日月状の氷の刃を作り出し\r\n前方に発射する。"
+        }
+      },
+      "ACTION_SKILL_FrostBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FrostBreath_TextData",
+          "SourceString": "敵に向かって冷気を放出し\r\n継続的にダメージを与える。",
+          "LocalizedString": "敵に向かって冷気を放出し\r\n継続的にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_DiamondFall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiamondFall_TextData",
+          "SourceString": "敵の頭上に氷の塊を生成し\r\n次々と降らせる。",
+          "LocalizedString": "敵の頭上に氷の塊を生成し\r\n次々と降らせる。"
+        }
+      },
+      "ACTION_SKILL_IcicleLine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleLine_TextData",
+          "SourceString": "一直線に進む氷柱を三方向に発生させる。",
+          "LocalizedString": "一直線に進む氷柱を三方向に発生させる。"
+        }
+      },
+      "ACTION_SKILL_DoubleIcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DoubleIcicleThrow_TextData",
+          "SourceString": "巨大な氷塊を2つ作り出し\r\n敵めがけて続けざまに発射する。\r\n着弾すると、周囲にも衝撃を与える。",
+          "LocalizedString": "巨大な氷塊を2つ作り出し\r\n敵めがけて続けざまに発射する。\r\n着弾すると、周囲にも衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_IceAge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceAge_TextData",
+          "SourceString": "敵の足元から広範囲に氷柱を突き立てる。",
+          "LocalizedString": "敵の足元から広範囲に氷柱を突き立てる。"
+        }
+      },
+      "ACTION_SKILL_IciclePierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IciclePierce_TextData",
+          "SourceString": "上空に尖った氷を複数生成し\r\n敵めがけてそれらを発射する。",
+          "LocalizedString": "上空に尖った氷を複数生成し\r\n敵めがけてそれらを発射する。"
+        }
+      },
+      "ACTION_SKILL_IceWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceWall_TextData",
+          "SourceString": "地面から氷の壁を出現させる。\r\n氷の壁はしばらく残り続け、\r\n一定ダメージを受けると壊れる。",
+          "LocalizedString": "地面から氷の壁を出現させる。\r\n氷の壁はしばらく残り続け、\r\n一定ダメージを受けると壊れる。"
+        }
+      },
+      "ACTION_SKILL_SandTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTornado_TextData",
+          "SourceString": "左右に砂の竜巻を発生させ\r\n敵にけしかける。",
+          "LocalizedString": "左右に砂の竜巻を発生させ\r\n敵にけしかける。"
+        }
+      },
+      "ACTION_SKILL_ThrowRock": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThrowRock_TextData",
+          "SourceString": "目の前の地面から岩を取り出し\r\n敵めがけて発射する。",
+          "LocalizedString": "目の前の地面から岩を取り出し\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_RockLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockLance_TextData",
+          "SourceString": "敵の足元から\r\n鋭い岩の槍を出現させる。",
+          "LocalizedString": "敵の足元から\r\n鋭い岩の槍を出現させる。"
+        }
+      },
+      "ACTION_SKILL_MudShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_MudShot_TextData",
+          "SourceString": "ベタベタの泥を\r\n敵めがけて発射する。",
+          "LocalizedString": "ベタベタの泥を\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_StoneShotgun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StoneShotgun_TextData",
+          "SourceString": "無数の小さな石のつぶてを\r\n前方に発射する。",
+          "LocalizedString": "無数の小さな石のつぶてを\r\n前方に発射する。"
+        }
+      },
+      "ACTION_SKILL_Tremor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Tremor_TextData",
+          "SourceString": "地面を揺らし\r\n大きな岩の塊を周囲に飛ばす。",
+          "LocalizedString": "地面を揺らし\r\n大きな岩の塊を周囲に飛ばす。"
+        }
+      },
+      "ACTION_SKILL_SandTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTwister_TextData",
+          "SourceString": "複数の砂の竜巻を発生させる。\r\n竜巻は円を描くようにグルグルと回り続ける。",
+          "LocalizedString": "複数の砂の竜巻を発生させる。\r\n竜巻は円を描くようにグルグルと回り続ける。"
+        }
+      },
+      "ACTION_SKILL_RockBeat": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockBeat_TextData",
+          "SourceString": "地面を震わせ\r\n巨大な岩塊を浮き上がらせる。",
+          "LocalizedString": "地面を震わせ\r\n巨大な岩塊を浮き上がらせる。"
+        }
+      },
+      "ACTION_SKILL_DarkLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLaser_TextData",
+          "SourceString": "闇の力をチャージし\r\n敵めがけて強力なビームを発射する。",
+          "LocalizedString": "闇の力をチャージし\r\n敵めがけて強力なビームを発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkWave_TextData",
+          "SourceString": "素早く闇の力を放出し\r\n周囲に衝撃を与える。",
+          "LocalizedString": "素早く闇の力を放出し\r\n周囲に衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_Psychokinesis": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Psychokinesis_TextData",
+          "SourceString": "重力を操って敵の自由を奪い\r\n高い所から地面に叩きつける。",
+          "LocalizedString": "重力を操って敵の自由を奪い\r\n高い所から地面に叩きつける。"
+        }
+      },
+      "ACTION_SKILL_ShadowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShadowBall_TextData",
+          "SourceString": "大きな闇の球を作り出し\r\n敵めがけて高速で発射する。",
+          "LocalizedString": "大きな闇の球を作り出し\r\n敵めがけて高速で発射する。"
+        }
+      },
+      "ACTION_SKILL_GhostFlame": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GhostFlame_TextData",
+          "SourceString": "執念深く敵を追いかける\r\n3つの怨念を発射する。",
+          "LocalizedString": "執念深く敵を追いかける\r\n3つの怨念を発射する。"
+        }
+      },
+      "ACTION_SKILL_PoisonShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonShot_TextData",
+          "SourceString": "毒の力がこもったヘドロを\r\n敵めがけて発射する。",
+          "LocalizedString": "毒の力がこもったヘドロを\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkBall_TextData",
+          "SourceString": "ゆっくりと敵を追いかける\r\n闇の球を発射する。",
+          "LocalizedString": "ゆっくりと敵を追いかける\r\n闇の球を発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkLegion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLegion_TextData",
+          "SourceString": "敵を追いかける闇の球をいくつも発射する。",
+          "LocalizedString": "敵を追いかける闇の球をいくつも発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkCanon_TextData",
+          "SourceString": "闇の力がこもった高速のエネルギー弾を\r\n敵めがけて発射する。",
+          "LocalizedString": "闇の力がこもった高速のエネルギー弾を\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkArrow_TextData",
+          "SourceString": "闇の力で敵を追尾する複数の矢を\r\n連続かつ高速で発射する。",
+          "LocalizedString": "闇の力で敵を追尾する複数の矢を\r\n連続かつ高速で発射する。"
+        }
+      },
+      "ACTION_SKILL_DarkPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkPulse_TextData",
+          "SourceString": "扇状に広がる\r\n高速の闇の球を発射する。",
+          "LocalizedString": "扇状に広がる\r\n高速の闇の球を発射する。"
+        }
+      },
+      "ACTION_SKILL_Apocalypse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Apocalypse_TextData",
+          "SourceString": "敵の周囲にいくつもの暗黒の竜巻を発生させる。",
+          "LocalizedString": "敵の周囲にいくつもの暗黒の竜巻を発生させる。"
+        }
+      },
+      "ACTION_SKILL_ChaosLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChaosLaser_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "ACTION_SKILL_BubbleShower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShower_TextData",
+          "SourceString": "体に力を込め\r\n全方位に毒の球をまき散らす。",
+          "LocalizedString": "体に力を込め\r\n全方位に毒の球をまき散らす。"
+        }
+      },
+      "ACTION_SKILL_GravityShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GravityShot_TextData",
+          "SourceString": "徐々に加速して飛んでゆく\r\n暗黒のエネルギー弾を発射する。",
+          "LocalizedString": "徐々に加速して飛んでゆく\r\n暗黒のエネルギー弾を発射する。"
+        }
+      },
+      "ACTION_SKILL_DragonMeteor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonMeteor_TextData",
+          "SourceString": "小さな隕石をたくさん呼び出して\r\n敵めがけて発射する。",
+          "LocalizedString": "小さな隕石をたくさん呼び出して\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_DragonBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonBreath_TextData",
+          "SourceString": "竜の力がこもった息吹を\r\n前方に吹き付け、継続的にダメージを与える。",
+          "LocalizedString": "竜の力がこもった息吹を\r\n前方に吹き付け、継続的にダメージを与える。"
+        }
+      },
+      "ACTION_SKILL_DragonWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonWave_TextData",
+          "SourceString": "素早く竜の力を放出し\r\n周囲に衝撃を与える。",
+          "LocalizedString": "素早く竜の力を放出し\r\n周囲に衝撃を与える。"
+        }
+      },
+      "ACTION_SKILL_DragonCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonCanon_TextData",
+          "SourceString": "竜の力がこもったエネルギー弾を\r\n敵めがけて発射する。",
+          "LocalizedString": "竜の力がこもったエネルギー弾を\r\n敵めがけて発射する。"
+        }
+      },
+      "ACTION_SKILL_BeamSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BeamSlicer_TextData",
+          "SourceString": "竜の力がこもった光線で前方をなぎ払う。\r\nなぎ払われた場所は時間差で爆発する。",
+          "LocalizedString": "竜の力がこもった光線で前方をなぎ払う。\r\nなぎ払われた場所は時間差で爆発する。"
+        }
+      },
+      "ACTION_SKILL_Commet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Commet_TextData",
+          "SourceString": "隕石を垂直に落とし、\r\n周囲に衝撃波を発生させる。",
+          "LocalizedString": "隕石を垂直に落とし、\r\n周囲に衝撃波を発生させる。"
+        }
+      },
+      "ACTION_SKILL_ThreeCommet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeCommet_TextData",
+          "SourceString": "隕石を続けざまに落とし、\r\n周囲に衝撃波を発生させる。",
+          "LocalizedString": "隕石を続けざまに落とし、\r\n周囲に衝撃波を発生させる。"
+        }
+      },
+      "ACTION_SKILL_CommetRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CommetRain_TextData",
+          "SourceString": "無数の隕石を落とし、\r\n周囲に衝撃波を発生させる。",
+          "LocalizedString": "無数の隕石を落とし、\r\n周囲に衝撃波を発生させる。"
+        }
+      },
+      "ACTION_SKILL_BlastCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlastCanon_TextData",
+          "SourceString": "敵のいる地点に竜の力がこもったエネルギー弾を発射する。\r\nエネルギー弾は着弾時に拡散し、\r\n前方広範囲に爆発を起こす。",
+          "LocalizedString": "敵のいる地点に竜の力がこもったエネルギー弾を発射する。\r\nエネルギー弾は着弾時に拡散し、\r\n前方広範囲に爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_ChargeCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChargeCanon_TextData",
+          "SourceString": "竜の力を溜めたエネルギー弾を\r\n敵めがけて発射する。弾は着弾時に\r\n広範囲の爆発を起こす。",
+          "LocalizedString": "竜の力を溜めたエネルギー弾を\r\n敵めがけて発射する。弾は着弾時に\r\n広範囲の爆発を起こす。"
+        }
+      },
+      "ACTION_SKILL_TripleCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TripleCanon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PASSIVE_TrainerATK_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerATK_UP_1_TextData",
+          "SourceString": "プレイヤーの攻撃増加{EffectValue1}%",
+          "LocalizedString": "プレイヤーの攻撃増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerDEF_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerDEF_UP_1_TextData",
+          "SourceString": "プレイヤーの防御増加{EffectValue1}%",
+          "LocalizedString": "プレイヤーの防御増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerWorkSpeed_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerWorkSpeed_UP_1_TextData",
+          "SourceString": "プレイヤーの作業速度増加{EffectValue1}%",
+          "LocalizedString": "プレイヤーの作業速度増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerMining_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerMining_up1_TextData",
+          "SourceString": "プレイヤーの採掘効率増加{EffectValue1}%",
+          "LocalizedString": "プレイヤーの採掘効率増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_TrainerLogging_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerLogging_up1_TextData",
+          "SourceString": "プレイヤーの伐採効率増加{EffectValue1}%",
+          "LocalizedString": "プレイヤーの伐採効率増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Normal_1_PAL_TextData",
+          "SourceString": "無属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "無属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Fire_1_PAL_TextData",
+          "SourceString": "炎属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "炎属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Aqua_1_PAL_TextData",
+          "SourceString": "水属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "水属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Thunder_1_PAL_TextData",
+          "SourceString": "雷属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "雷属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Leaf_1_PAL_TextData",
+          "SourceString": "草属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "草属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Ice_1_PAL_TextData",
+          "SourceString": "氷属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "氷属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Earth_1_PAL_TextData",
+          "SourceString": "地属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "地属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dark_1_PAL_TextData",
+          "SourceString": "闇属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "闇属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementResist_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dragon_1_PAL_TextData",
+          "SourceString": "竜属性ダメージ軽減{EffectValue1}%",
+          "LocalizedString": "竜属性ダメージ軽減{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_1_PAL_TextData",
+          "SourceString": "無属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "無属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_1_PAL_TextData",
+          "SourceString": "炎属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "炎属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Aqua_1_PAL_TextData",
+          "SourceString": "水属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "水属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Thunder_1_PAL_TextData",
+          "SourceString": "雷属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "雷属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Leaf_1_PAL_TextData",
+          "SourceString": "草属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "草属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Ice_1_PAL_TextData",
+          "SourceString": "氷属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "氷属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Earth_1_PAL_TextData",
+          "SourceString": "地属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "地属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_1_PAL_TextData",
+          "SourceString": "闇属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "闇属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dragon_1_PAL_TextData",
+          "SourceString": "竜属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "竜属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Ice_1_PAL_TextData",
+          "SourceString": "闇属性攻撃ダメージ増加{EffectValue1}%\r\n氷属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "闇属性攻撃ダメージ増加{EffectValue1}%\r\n氷属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_1_TextData",
+          "SourceString": "満腹度が減りやすい <NumRed_13>+10.0%</>",
+          "LocalizedString": "満腹度が減りやすい <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_2_TextData",
+          "SourceString": "満腹度が減りやすい <NumRed_13>+15.0%</>",
+          "LocalizedString": "満腹度が減りやすい <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_1_TextData",
+          "SourceString": "満腹度が減りにくい <NumBlue_13>+10.0%</>",
+          "LocalizedString": "満腹度が減りにくい <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_2_TextData",
+          "SourceString": "満腹度が減りにくい <NumBlue_13>+15.0%</>",
+          "LocalizedString": "満腹度が減りにくい <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_3_TextData",
+          "SourceString": "満腹度が減りにくい <NumBlue_13>+20.0%</>",
+          "LocalizedString": "満腹度が減りにくい <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_1_TextData",
+          "SourceString": "SAN値が減りやすい <NumRed_13>+10.0%</>",
+          "LocalizedString": "SAN値が減りやすい <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_2_TextData",
+          "SourceString": "SAN値が減りやすい <NumRed_13>+15.0%</>",
+          "LocalizedString": "SAN値が減りやすい <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_1_TextData",
+          "SourceString": "SAN値が減りにくい <NumBlue_13>+10.0%</>",
+          "LocalizedString": "SAN値が減りにくい <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_2_TextData",
+          "SourceString": "SAN値が減りにくい <NumBlue_13>+15.0%</>",
+          "LocalizedString": "SAN値が減りにくい <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_3_TextData",
+          "SourceString": "SAN値が減りにくい <NumBlue_13>+20.0%</>",
+          "LocalizedString": "SAN値が減りにくい <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_1_TextData",
+          "SourceString": "移動速度上昇{EffectValue1}%",
+          "LocalizedString": "移動速度上昇{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_2_TextData",
+          "SourceString": "移動速度上昇{EffectValue1}%",
+          "LocalizedString": "移動速度上昇{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_3_TextData",
+          "SourceString": "移動速度上昇{EffectValue1}%",
+          "LocalizedString": "移動速度上昇{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Legend_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Legend_DESC_TextData",
+          "SourceString": "攻撃+{EffectValue1}%\r\n防御+{EffectValue2}%\r\n移動速度上昇{EffectValue3}%",
+          "LocalizedString": "攻撃+{EffectValue1}%\r\n防御+{EffectValue2}%\r\n移動速度上昇{EffectValue3}%"
+        }
+      },
+      "PASSIVE_NonKilling_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_NonKilling_DESC_TextData",
+          "SourceString": "平和主義者。\r\n攻撃対象のHPを1未満にできない。",
+          "LocalizedString": "平和主義者。\r\n攻撃対象のHPを1未満にできない。"
+        }
+      },
+      "PASSIVE_Nocturnal_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nocturnal_DESC_TextData",
+          "SourceString": "夜になっても眠らず、働き続ける。",
+          "LocalizedString": "夜になっても眠らず、働き続ける。"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_1_DESC_TextData",
+          "SourceString": "アクティブスキルのクールタイム短縮{EffectValue1}%\r\n攻撃+{EffectValue2}%",
+          "LocalizedString": "アクティブスキルのクールタイム短縮{EffectValue1}%\r\n攻撃+{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_2_DESC_TextData",
+          "SourceString": "アクティブスキルのクールタイム短縮{EffectValue1}%",
+          "LocalizedString": "アクティブスキルのクールタイム短縮{EffectValue1}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_3_DESC_TextData",
+          "SourceString": "アクティブスキルのクールタイム短縮{EffectValue1}%\r\n攻撃+{EffectValue2}%",
+          "LocalizedString": "アクティブスキルのクールタイム短縮{EffectValue1}%\r\n攻撃+{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Down_1_DESC_TextData",
+          "SourceString": "アクティブスキルのクールタイム延長{EffectValue1}%",
+          "LocalizedString": "アクティブスキルのクールタイム延長{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Stamina_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_1_DESC_TextData",
+          "SourceString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効",
+          "LocalizedString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効"
+        }
+      },
+      "PASSIVE_Stamina_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_2_DESC_TextData",
+          "SourceString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効",
+          "LocalizedString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効"
+        }
+      },
+      "PASSIVE_Stamina_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_3_DESC_TextData",
+          "SourceString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効",
+          "LocalizedString": "最大スタミナ+{EffectValue1}%\r\n※ライド可能なパルのみ有効"
+        }
+      },
+      "PASSIVE_Stamina_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Down_1_DESC_TextData",
+          "SourceString": "最大スタミナ{EffectValue1}%\r\n※ライド可能なパルのみ有効",
+          "LocalizedString": "最大スタミナ{EffectValue1}%\r\n※ライド可能なパルのみ有効"
+        }
+      },
+      "PASSIVE_SalePrice_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_1_DESC_TextData",
+          "SourceString": "取引価格が改善+{EffectValue1}%",
+          "LocalizedString": "取引価格が改善+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_2_DESC_TextData",
+          "SourceString": "取引価格が改善+{EffectValue1}%",
+          "LocalizedString": "取引価格が改善+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Down_1_DESC_TextData",
+          "SourceString": "取引価格が悪化{EffectValue1}%",
+          "LocalizedString": "取引価格が悪化{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Alien_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Alien_DESC_TextData",
+          "SourceString": "攻撃+{EffectValue1}%\r\n炎属性ダメージ軽減{EffectValue2}%\r\n雷属性ダメージ軽減{EffectValue3}%",
+          "LocalizedString": "攻撃+{EffectValue1}%\r\n炎属性ダメージ軽減{EffectValue2}%\r\n雷属性ダメージ軽減{EffectValue3}%"
+        }
+      },
+      "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC_TextData",
+          "SourceString": "配合牧場にアサインされてる間、タマゴ生成速度が{EffectValue1}%増加する",
+          "LocalizedString": "配合牧場にアサインされてる間、タマゴ生成速度が{EffectValue1}%増加する"
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_Electric_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_Electric_1_PAL_TextData",
+          "SourceString": "炎属性攻撃ダメージ増加{EffectValue1}%\r\n雷属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "炎属性攻撃ダメージ増加{EffectValue1}%\r\n雷属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Vampire_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Vampire_DESC_TextData",
+          "SourceString": "与えたダメージの{EffectValue2}%を吸収し、HPを回復する。\r\n夜になっても眠らず、働き続ける。",
+          "LocalizedString": "与えたダメージの{EffectValue2}%を吸収し、HPを回復する。\r\n夜になっても眠らず、働き続ける。"
+        }
+      },
+      "PASSIVE_JumpPower_Increase": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpPower_Increase_TextData",
+          "SourceString": "ジャンプ力強化",
+          "LocalizedString": "ジャンプ力強化"
+        }
+      },
+      "PASSIVE_JumpCount_Increase1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase1_TextData",
+          "SourceString": "ジャンプ回数増加+1",
+          "LocalizedString": "ジャンプ回数増加+1"
+        }
+      },
+      "PASSIVE_JumpCount_Increase2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase2_TextData",
+          "SourceString": "ジャンプ回数増加+2",
+          "LocalizedString": "ジャンプ回数増加+2"
+        }
+      },
+      "PASSIVE_JumpCount_Increase3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase3_TextData",
+          "SourceString": "ジャンプ回数増加+3",
+          "LocalizedString": "ジャンプ回数増加+3"
+        }
+      },
+      "PASSIVE_AirDash_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_1_TextData",
+          "SourceString": "空中ダッシュ+1",
+          "LocalizedString": "空中ダッシュ+1"
+        }
+      },
+      "PASSIVE_AirDash_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_2_TextData",
+          "SourceString": "空中ダッシュ+2",
+          "LocalizedString": "空中ダッシュ+2"
+        }
+      },
+      "PASSIVE_AirDash_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_3_TextData",
+          "SourceString": "空中ダッシュ+3",
+          "LocalizedString": "空中ダッシュ+3"
+        }
+      },
+      "PASSIVE_AirDash_4": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_4_TextData",
+          "SourceString": "空中ダッシュ+4",
+          "LocalizedString": "空中ダッシュ+4"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Dragon_1_PAL_TextData",
+          "SourceString": "闇属性攻撃ダメージ増加{EffectValue1}%\r\n竜属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "闇属性攻撃ダメージ増加{EffectValue1}%\r\n竜属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Nushi": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nushi_TextData",
+          "SourceString": "水属性攻撃ダメージ増加{EffectValue1}%\r\n氷属性攻撃ダメージ増加{EffectValue1}%\r\n防御+{EffectValue1}%",
+          "LocalizedString": "水属性攻撃ダメージ増加{EffectValue1}%\r\n氷属性攻撃ダメージ増加{EffectValue1}%\r\n防御+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SwimSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SwimSpeed_up_1_TextData",
+          "SourceString": "水上の移動速度上昇{EffectValue1}%",
+          "LocalizedString": "水上の移動速度上昇{EffectValue1}%"
+        }
+      },
+      "PASSIVE_GYM_NAME_Meadow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_GYM_NAME_Meadow_TextData",
+          "SourceString": "攻撃+{EffectValue1}%\r\n移動速度上昇{EffectValue2}%",
+          "LocalizedString": "攻撃+{EffectValue1}%\r\n移動速度上昇{EffectValue2}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_Leaf_1_PAL_TextData",
+          "SourceString": "無属性攻撃ダメージ増加{EffectValue1}%\r\n草属性攻撃ダメージ増加{EffectValue1}%",
+          "LocalizedString": "無属性攻撃ダメージ増加{EffectValue1}%\r\n草属性攻撃ダメージ増加{EffectValue1}%"
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill_TextData",
+          "SourceString": "<characterName id=|Ronin|/>種の専用スキル。\r\n刀を構えた後、一瞬で敵の目の前に現れて\r\n超高速の抜刀攻撃を放つ。",
+          "LocalizedString": "<characterName id=|Ronin|/>種の専用スキル。\r\n刀を構えた後、一瞬で敵の目の前に現れて\r\n超高速の抜刀攻撃を放つ。"
+        }
+      },
+      "PASSIVE_Deffence_up2_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_2_TextData",
+          "SourceString": "防御+{EffectValue1}%\r\n吹き飛び無効",
+          "LocalizedString": "防御+{EffectValue1}%\r\n吹き飛び無効"
+        }
+      },
+      "PASSIVE_WorldTree_CraftSpeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_CraftSpeed_TextData",
+          "SourceString": "作業速度 <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN値が減りやすい <NumRed_13>+15.0%</>\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "作業速度 <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\nSAN値が減りやすい <NumRed_13>+15.0%</>\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_WorldTree_FullStomach": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_FullStomach_TextData",
+          "SourceString": "満腹度が減りにくい <NumBlue_13>+50.0%</>\r\nHP {EffectValue2}<NumRed_13>%</>\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "満腹度が減りにくい <NumBlue_13>+50.0%</>\r\nHP {EffectValue2}<NumRed_13>%</>\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_WorldTree_Sanity": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_Sanity_TextData",
+          "SourceString": "SAN値が減りにくい <NumBlue_13>+50.0%</>\r\n作業速度 {EffectValue2}<NumRed_13>%</>\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "SAN値が減りにくい <NumBlue_13>+50.0%</>\r\n作業速度 {EffectValue2}<NumRed_13>%</>\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_WorldTree_MoveSpeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_MoveSpeed_TextData",
+          "SourceString": "移動速度上昇 <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\n満腹度が減りやすい <NumRed_13>+15.0%</>\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "移動速度上昇 <NumBlue_13>+</>{EffectValue1}<NumBlue_13>%</>\r\n満腹度が減りやすい <NumRed_13>+15.0%</>\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_NightOwl": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_NightOwl_TextData",
+          "SourceString": "夜中まで起きているせいか、昼寝をしがち。",
+          "LocalizedString": "夜中まで起きているせいか、昼寝をしがち。"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_1_TextData",
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_2_TextData",
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_SelfDeathAddItemDrop_up_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SelfDeathAddItemDrop_up_3_TextData",
+          "SourceString": "このパルのドロップアイテム+{EffectValue1}%",
+          "LocalizedString": "このパルのドロップアイテム+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_1_TextData",
+          "SourceString": "<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>の<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+1</>",
+          "LocalizedString": "<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>の<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+1</>"
+        }
+      },
+      "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_WorkSuitabilityAddRank_MonsterFarm_2_TextData",
+          "SourceString": "<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>の<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+2</>",
+          "LocalizedString": "<uiCommon id=|COMMON_WORK_SUITABILITY_MonsterFarm|/>の<uiCommon id=|COMMON_WORK_SUITABILITY_PALDEX|/><NumBlue_13>+2</>"
+        }
+      },
+      "PASSIVE_MutationPal_Babysitter_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Babysitter_DESC_TextData",
+          "SourceString": "拠点にいる間、配合牧場にアサインしたパルの\r\nタマゴ生成速度+{EffectValue2}%、孵化速度+{EffectValue1}%",
+          "LocalizedString": "拠点にいる間、配合牧場にアサインしたパルの\r\nタマゴ生成速度+{EffectValue2}%、孵化速度+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_MutationPal_Mutant_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Mutant_DESC_TextData",
+          "SourceString": "パルとプレイヤーのHP自然回復量+{EffectValue1}%\r\n防御+{EffectValue4}%\r\n毒状態異常ダメージ<Status_Up>無効</>\r\n炎上状態異常ダメージ<Status_Up>無効</>",
+          "LocalizedString": "パルとプレイヤーのHP自然回復量+{EffectValue1}%\r\n防御+{EffectValue4}%\r\n毒状態異常ダメージ<Status_Up>無効</>\r\n炎上状態異常ダメージ<Status_Up>無効</>"
+        }
+      },
+      "PASSIVE_MutationPal_Immortal_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_Immortal_DESC_TextData",
+          "SourceString": "与えたダメージの{EffectValue1}%を吸収し、HPを回復する。\r\nパルのHP自然回復量+{EffectValue2}%\r\n攻撃+{EffectValue3}%",
+          "LocalizedString": "与えたダメージの{EffectValue1}%を吸収し、HPを回復する。\r\nパルのHP自然回復量+{EffectValue2}%\r\n攻撃+{EffectValue3}%"
+        }
+      },
+      "PASSIVE_MutationPal_ExplosionResist_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_MutationPal_ExplosionResist_DESC_TextData",
+          "SourceString": "爆破ダメージ<Status_Up>無効</>",
+          "LocalizedString": "爆破ダメージ<Status_Up>無効</>"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_1_DESC_TextData",
+          "SourceString": "木材のドロップ量がやや増加する",
+          "LocalizedString": "木材のドロップ量がやや増加する"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_2_DESC_TextData",
+          "SourceString": "木材のドロップ量が増加する",
+          "LocalizedString": "木材のドロップ量が増加する"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_3_DESC_TextData",
+          "SourceString": "木材のドロップ量が大きく増加する",
+          "LocalizedString": "木材のドロップ量が大きく増加する"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_4_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_4_DESC_TextData",
+          "SourceString": "木材のドロップ量がかなり増加する",
+          "LocalizedString": "木材のドロップ量がかなり増加する"
+        }
+      },
+      "PASSIVE_WoodDrop_Boost_5_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WoodDrop_Boost_5_DESC_TextData",
+          "SourceString": "木材のドロップ量が非常に大きく増加する",
+          "LocalizedString": "木材のドロップ量が非常に大きく増加する"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_1_DESC_TextData",
+          "SourceString": "石材・鉱石のドロップ量がやや増加する",
+          "LocalizedString": "石材・鉱石のドロップ量がやや増加する"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_2_DESC_TextData",
+          "SourceString": "石材・鉱石のドロップ量が増加する",
+          "LocalizedString": "石材・鉱石のドロップ量が増加する"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_3_DESC_TextData",
+          "SourceString": "石材・鉱石のドロップ量が大きく増加する",
+          "LocalizedString": "石材・鉱石のドロップ量が大きく増加する"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_4_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_4_DESC_TextData",
+          "SourceString": "石材・鉱石のドロップ量がかなり増加する",
+          "LocalizedString": "石材・鉱石のドロップ量がかなり増加する"
+        }
+      },
+      "PASSIVE_StonDrop_Boost_5_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonDrop_Boost_5_DESC_TextData",
+          "SourceString": "石材・鉱石のドロップ量が非常に大きく増加する",
+          "LocalizedString": "石材・鉱石のドロップ量が非常に大きく増加する"
+        }
+      },
+      "PASSIVE_Deffence_up2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_TextData",
+          "SourceString": "防御+{EffectValue1}%\r\nひるみ無効",
+          "LocalizedString": "防御+{EffectValue1}%\r\nひるみ無効"
+        }
+      },
+      "PASSIVE_Deffence_up3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up3_TextData",
+          "SourceString": "防御+{EffectValue1}%\r\nひるみ無効\r\n吹き飛び無効",
+          "LocalizedString": "防御+{EffectValue1}%\r\nひるみ無効\r\n吹き飛び無効"
+        }
+      },
+      "PASSIVE_RideJumpCount_Increase1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_RideJumpCount_Increase1_DESC_TextData",
+          "SourceString": "ライド中のジャンプ回数<NumBlue_13>+1</>",
+          "LocalizedString": "ライド中のジャンプ回数<NumBlue_13>+1</>"
+        }
+      },
+      "PASSIVE_RideJumpCount_Increase2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_RideJumpCount_Increase2_DESC_TextData",
+          "SourceString": "ライド中のジャンプ回数<NumBlue_13>+2</>",
+          "LocalizedString": "ライド中のジャンプ回数<NumBlue_13>+2</>"
+        }
+      },
+      "PASSIVE_WorldTree_ATK": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_ATK_TextData",
+          "SourceString": "攻撃<NumBlue_13>+</>{EffectValue1}%\r\n防御{EffectValue2}%\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "攻撃<NumBlue_13>+</>{EffectValue1}%\r\n防御{EffectValue2}%\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_WorldTree_DEF": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_DEF_TextData",
+          "SourceString": "防御<NumBlue_13>+</>{EffectValue1}%\r\n攻撃{EffectValue2}%\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "防御<NumBlue_13>+</>{EffectValue1}%\r\n攻撃{EffectValue2}%\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_WorldTree_ATK_DEF": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_WorldTree_ATK_DEF_TextData",
+          "SourceString": "攻撃<NumBlue_13>+</>{EffectValue1}%\r\n防御<NumBlue_13>+</>{EffectValue2}%\r\n最大HP{EffectValue3}%\r\n世界樹の木・岩に近づいても消滅しない",
+          "LocalizedString": "攻撃<NumBlue_13>+</>{EffectValue1}%\r\n防御<NumBlue_13>+</>{EffectValue2}%\r\n最大HP{EffectValue3}%\r\n世界樹の木・岩に近づいても消滅しない"
+        }
+      },
+      "PASSIVE_PlayerSP_DecreaseRate_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PlayerSP_DecreaseRate_1_TextData",
+          "SourceString": "プレイヤーのスタミナ消費量軽減+<NumBlue_13>5.0</>%",
+          "LocalizedString": "プレイヤーのスタミナ消費量軽減+<NumBlue_13>5.0</>%"
+        }
+      },
+      "PASSIVE_AutoHPRegeneRate_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AutoHPRegeneRate_1_TextData",
+          "SourceString": "プレイヤーのHP自然回復量+{EffectValue1}%",
+          "LocalizedString": "プレイヤーのHP自然回復量+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_ReloadSpeedUp_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ReloadSpeedUp_1_TextData",
+          "SourceString": "プレイヤーのリロード速度上昇+{EffectValue1}%",
+          "LocalizedString": "プレイヤーのリロード速度上昇+{EffectValue1}%"
+        }
+      },
+      "PASSIVE_StonWoodDrop_Boost_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_StonWoodDrop_Boost_DESC_TextData",
+          "SourceString": "木材・石材・鉱石のドロップ量がかなり増加する",
+          "LocalizedString": "木材・石材・鉱石のドロップ量がかなり増加する"
+        }
+      }
+    }
+  }
+]

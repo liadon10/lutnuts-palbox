@@ -1,0 +1,1961 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DungeonRewardSpawnerLotteryDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Dungeon/DT_DungeonRewardSpawnerLotteryDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalDungeonRewardSpawnerLotteryData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "BaseInsurance": {
+        "SpawnAreaId": "BaseInsurance",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::BaseInsurance",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_TreasureBox01": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_TreasureBox02": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_02.BP_PalMapObjectSpawner_Treasure_Grass_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_CageMushroom": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_Egg01": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_SkillFruits01": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_PalSpawner01": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "50_1_dungeon_grass_mimic",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_50_1_dungeon_grass_mimic",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/Spawner/SheetsVariant/BP_PalSpawner_Sheets_50_1_dungeon_grass_mimic.BP_PalSpawner_Sheets_50_1_dungeon_grass_mimic_C",
+          "SubPathString": ""
+        }
+      },
+      "TestDebug01_Easy01_Cage01": {
+        "SpawnAreaId": "TestDebug01",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Grass",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass001_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Easy01_Mushroom01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Easy01_Junk01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_02.BP_PalMapObjectSpawner_Treasure_Grass_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Cage01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Grass",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass001_Medium01_Junk01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Lotus01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Egg01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_01.bp_palmapobjectspawner_palegg_grass_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Egg02": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_02.bp_palmapobjectspawner_palegg_grass_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Medium01_Mimic": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass001_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_02.BP_PalMapObjectSpawner_Treasure_Grass_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard1_Lotus01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard1_Egg01": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_03.bp_palmapobjectspawner_palegg_grass_grade_03_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard1_Egg02": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_04.bp_palmapobjectspawner_palegg_grass_grade_04_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard01_Mimic": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass001_Hard01_Fruit": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass001_Hard01_Cage01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Grass",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass002_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Easy01_Mushroom01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Easy01_Junk01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_02.BP_PalMapObjectSpawner_Treasure_Grass_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Cage01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Grass2",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass002_Medium01_Junk01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Lotus01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Egg01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_01.bp_palmapobjectspawner_palegg_grass_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Egg02": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_02.bp_palmapobjectspawner_palegg_grass_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Medium01_Mimic": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass002_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_01.BP_PalMapObjectSpawner_Treasure_Grass_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Grass_Grade_02.BP_PalMapObjectSpawner_Treasure_Grass_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard1_Lotus01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard1_Egg01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_03.bp_palmapobjectspawner_palegg_grass_grade_03_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard1_Egg02": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_04.bp_palmapobjectspawner_palegg_grass_grade_04_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard01_Mimic": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass002_Hard01_Fruit": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Hard01_Cage01": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Grass2",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest001_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Easy01_Mushroom01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Easy01_Junk01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_02.BP_PalMapObjectSpawner_Treasure_Forest_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Cage01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Forest1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest001_Medium01_Junk01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Lotus01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Egg01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_01.bp_palmapobjectspawner_palegg_grass_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Egg02": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_02.bp_palmapobjectspawner_palegg_grass_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Medium01_Mimic": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest001_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_02.BP_PalMapObjectSpawner_Treasure_Forest_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard1_Lotus01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard1_Egg01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_03.bp_palmapobjectspawner_palegg_grass_grade_03_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard1_Egg02": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_04.bp_palmapobjectspawner_palegg_grass_grade_04_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard01_Mimic": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest001_Hard01_Fruit": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Hard01_Cage01": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Forest1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest002_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Easy01_Mushroom01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Easy01_Junk01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_02.BP_PalMapObjectSpawner_Treasure_Forest_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Cage01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Forest1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest002_Medium01_Junk01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Grass1",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Grass1.BP_PalMapObjectSpawner_Junk_Grass1_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Lotus01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Egg01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_01.bp_palmapobjectspawner_palegg_grass_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Egg02": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_02.bp_palmapobjectspawner_palegg_grass_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Medium01_Mimic": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest002_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_01.BP_PalMapObjectSpawner_Treasure_Forest_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Forest_Grade_02.BP_PalMapObjectSpawner_Treasure_Forest_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard1_Lotus01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Grass01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Grass01.BP_PalMapObjectSpawner_Lotus_Grass01_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard1_Egg01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_03",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_03.bp_palmapobjectspawner_palegg_grass_grade_03_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard1_Egg02": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_04",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_04.bp_palmapobjectspawner_palegg_grass_grade_04_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard01_Mimic": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Forest002_Hard01_Fruit": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Grass",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Grass.BP_PalMapObjectSpawner_SkillFruits_Grass_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Hard01_Cage01": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Forest1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Dessert001_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_01.BP_PalMapObjectSpawner_Treasure_desert_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Easy01_Mushroom01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Easy01_Junk01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Dessert",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Dessert",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Dessert.BP_PalMapObjectSpawner_Junk_Dessert_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_01.BP_PalMapObjectSpawner_Treasure_desert_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_02.BP_PalMapObjectSpawner_Treasure_desert_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Cage01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Desert1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Dessert001_Medium01_Junk01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_01.BP_PalMapObjectSpawner_Treasure_desert_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Lotus01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Desert01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Desert01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Desert01.BP_PalMapObjectSpawner_Lotus_Desert01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Egg01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_01.bp_palmapobjectspawner_palegg_grass_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Egg02": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_grass_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_grass_grade_02.bp_palmapobjectspawner_palegg_grass_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Medium01_Mimic": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Dessert001_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_01.BP_PalMapObjectSpawner_Treasure_desert_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_desert_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_desert_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_desert_02.BP_PalMapObjectSpawner_Treasure_desert_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard1_Lotus01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Desert01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Desert01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Desert01.BP_PalMapObjectSpawner_Lotus_Desert01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard1_Egg01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_desert_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_desert_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_desert_grade_01.bp_palmapobjectspawner_palegg_desert_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard1_Egg02": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_desert_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_desert_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_desert_grade_01.bp_palmapobjectspawner_palegg_desert_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard01_Mimic": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Dessert001_Hard01_Fruit": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Desert",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Desert",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Desert.BP_PalMapObjectSpawner_SkillFruits_Desert_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Hard01_Cage01": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Desert1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Volcano001_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01.BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Easy01_Mushroom01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Easy01_Junk01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Volcano",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Volcano",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Volcano.BP_PalMapObjectSpawner_Junk_Volcano_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01.BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02.BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Cage01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Volcano1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Volcano001_Medium01_Junk01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Volcano",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Volcano",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Volcano.BP_PalMapObjectSpawner_Junk_Volcano_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Lotus01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Volcano01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Volcano01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Volcano01.BP_PalMapObjectSpawner_Lotus_Volcano01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Egg01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_volcanic_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_volcanic_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_volcanic_grade_01.bp_palmapobjectspawner_palegg_volcanic_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Egg02": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_volcanic_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_volcanic_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_volcanic_grade_02.bp_palmapobjectspawner_palegg_volcanic_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Medium01_Mimic": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Volcano001_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01.BP_PalMapObjectSpawner_Treasure_Volcano_Grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02.BP_PalMapObjectSpawner_Treasure_Volcano_Grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard1_Lotus01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Volcano01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Volcano01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Volcano01.BP_PalMapObjectSpawner_Lotus_Volcano01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard1_Egg01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_volcanic_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_volcanic_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_volcanic_grade_01.bp_palmapobjectspawner_palegg_volcanic_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard1_Egg02": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_volcanic_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_volcanic_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_volcanic_grade_02.bp_palmapobjectspawner_palegg_volcanic_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard01_Mimic": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Volcano001_Hard01_Fruit": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Volcano",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Volcano",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Volcano.BP_PalMapObjectSpawner_SkillFruits_Volcano_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Hard01_Cage01": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Volcano1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Snow001_Easy01_Tresurebox01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_SnowyMountain_01.BP_PalMapObjectSpawner_Treasure_SnowyMountain_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Easy01_Mushroom01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Mushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Mushroom.BP_PalMapObjectSpawner_Mushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Easy01_Junk01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Snow",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Snow",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Snow.BP_PalMapObjectSpawner_Junk_Snow_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Easy01_CaveMushroom01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Easy01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_CaveMushroom",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_CaveMushroom.BP_PalMapObjectSpawner_CaveMushroom_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Tresurebox01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_SnowyMountain_01.BP_PalMapObjectSpawner_Treasure_SnowyMountain_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Tresurebox02": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_SnowyMountain_02.BP_PalMapObjectSpawner_Treasure_SnowyMountain_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Cage01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Snow1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Snow001_Medium01_Junk01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Junk_Snow",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Junk_Snow",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Junk_Snow.BP_PalMapObjectSpawner_Junk_Snow_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Lotus01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Snow01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Snow01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Snow01.BP_PalMapObjectSpawner_Lotus_Snow01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Egg01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_glacier_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_glacier_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_glacier_grade_01.bp_palmapobjectspawner_palegg_glacier_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Egg02": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_glacier_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_glacier_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_glacier_grade_02.bp_palmapobjectspawner_palegg_glacier_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Medium01_Mimic": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Medium01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Snow001_Hard1_Tresurebox01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_SnowyMountain_01.BP_PalMapObjectSpawner_Treasure_SnowyMountain_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard1_Tresurebox02": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_02",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_SnowyMountain_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/BP_PalMapObjectSpawner_Treasure_SnowyMountain_02.BP_PalMapObjectSpawner_Treasure_SnowyMountain_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard1_Lotus01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Lotus_Snow01",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Lotus_Snow01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Lotus/BP_PalMapObjectSpawner_Lotus_Snow01.BP_PalMapObjectSpawner_Lotus_Snow01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard1_Egg01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_glacier_grade_01",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_glacier_grade_01",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_glacier_grade_01.bp_palmapobjectspawner_palegg_glacier_grade_01_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard1_Egg02": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.5,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "bp_palmapobjectspawner_palegg_glacier_grade_02",
+        "LotteryValueBlueprintClassName": "bp_palmapobjectspawner_palegg_glacier_grade_02",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/bp_palmapobjectspawner_palegg_glacier_grade_02.bp_palmapobjectspawner_palegg_glacier_grade_02_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard01_Mimic": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 0.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::PalSpawner",
+        "LotteryValue": "None",
+        "LotteryValueBlueprintClassName": "BP_PalSpawner_Sheets_",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Snow001_Hard01_Fruit": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_SkillFruits_Snow",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_SkillFruits_Snow",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/SkillFruits/BP_PalMapObjectSpawner_SkillFruits_Snow.BP_PalMapObjectSpawner_SkillFruits_Snow_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Hard01_Cage01": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard01",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::Cage",
+        "LotteryValue": "Snow1",
+        "LotteryValueBlueprintClassName": "None",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "Grass001_Dungeon_Elixir": {
+        "SpawnAreaId": "Grass001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Grass002_Dungeon_Elixir": {
+        "SpawnAreaId": "Grass002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Island001_Dungeon_Elixir": {
+        "SpawnAreaId": "Island001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Island002_Dungeon_Elixir": {
+        "SpawnAreaId": "Island002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Grass002_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Island003_Dungeon_Elixir": {
+        "SpawnAreaId": "Island003",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Grass001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest001_Dungeon_Elixir": {
+        "SpawnAreaId": "Forest001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Forest001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Forest001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Forest002_Dungeon_Elixir": {
+        "SpawnAreaId": "Forest002",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Forest002_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Forest002_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Forest002_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Forest002_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Dessert001_Dungeon_Elixir": {
+        "SpawnAreaId": "Dessert001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Dessert001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Dessert001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Dessert001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Dessert001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Volcano001_Dungeon_Elixir": {
+        "SpawnAreaId": "Volcano001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Volcano001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Volcano001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Volcano001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Volcano001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Snow001_Dungeon_Elixir": {
+        "SpawnAreaId": "Snow001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Snow001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Snow001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Snow001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Snow001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Sakura001_Dungeon_Elixir": {
+        "SpawnAreaId": "Sakura001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Sakura001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Sakura001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Sakura001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Sakura001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Viking001_Dungeon_Elixir": {
+        "SpawnAreaId": "Viking001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Viking001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Viking001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Viking001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Viking001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Yakushima001_Dungeon_Elixir": {
+        "SpawnAreaId": "Yakushima001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Yakushima001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Yakushima001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Yakushima001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Yakushima001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      },
+      "Skyland001_Dungeon_Elixir": {
+        "SpawnAreaId": "Skyland001",
+        "RewardSpawnerType": "EPalDungeonRewardSpawnerType::Hard03",
+        "Weight": 1.0,
+        "SpawnerContentType": "EPalDungeonRewardSpawnerContentType::MapObjectSpawner",
+        "LotteryValue": "BP_PalMapObjectSpawner_Treasure_Skyland001_Dungeon_Elixir",
+        "LotteryValueBlueprintClassName": "BP_PalMapObjectSpawner_Treasure_Skyland001_Dungeon_Elixir",
+        "LotteryValueBlueprintSoftClass": {
+          "AssetPathName": "/Game/Pal/Blueprint/MapObject/Spawner/Dungeon/Elixir/BP_PalMapObjectSpawner_Treasure_Skyland001_Dungeon_Elixir.BP_PalMapObjectSpawner_Treasure_Skyland001_Dungeon_Elixir_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

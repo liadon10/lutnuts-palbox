@@ -1,0 +1,4409 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildObjectDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_BuildObjectDescText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "BUILDOBJECT_DESC_BlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace_TextData",
+          "SourceString": "<itemName id=|CopperIngot|/>を製錬することができる。\r\nあまり質は良くなく、速度は遅い。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "<itemName id=|CopperIngot|/>を製錬することができる。\r\nあまり質は良くなく、速度は遅い。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace2_TextData",
+          "SourceString": "<itemName id=|IronIngot|/>を製錬することができる。\r\nいくらか質は向上したが、まだ速度は不十分といえる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "<itemName id=|IronIngot|/>を製錬することができる。\r\nいくらか質は向上したが、まだ速度は不十分といえる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace3_TextData",
+          "SourceString": "<itemName id=|StealIngot|/>を製錬することができる。\r\n電気を必要とするが、より早い製錬が可能である。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "<itemName id=|StealIngot|/>を製錬することができる。\r\n電気を必要とするが、より早い製錬が可能である。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace4_Old": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace4_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace5": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_CampFire": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CampFire_TextData",
+          "SourceString": "食材を調理する際に必要な施設。\r\n簡単な素材を焼く程度のことしかできない。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "食材を調理する際に必要な施設。\r\n簡単な素材を焼く程度のことしかできない。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_CharacterRankUp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CharacterRankUp_TextData",
+          "SourceString": "パルのランクを上昇させる施設。\r\n絞り出したパルのエキスを濃縮し同種のパルへと\r\n注ぎ込むことで、肉体の限界を突破できる。",
+          "LocalizedString": "パルのランクを上昇させる施設。\r\n絞り出したパルのエキスを濃縮し同種のパルへと\r\n注ぎ込むことで、肉体の限界を突破できる。"
+        }
+      },
+      "BUILDOBJECT_DESC_CookingStove": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CookingStove_TextData",
+          "SourceString": "食材を調理する際に必要な施設。\r\n鍋を用いることで、調理の幅が広がった。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "食材を調理する際に必要な施設。\r\n鍋を用いることで、調理の幅が広がった。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseGatlingGun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseGatlingGun_TextData",
+          "SourceString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nガトリング砲を駆使し拠点を守り続ける。",
+          "LocalizedString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nガトリング砲を駆使し拠点を守り続ける。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMachinegun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMachinegun_TextData",
+          "SourceString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nマシンガンを駆使し拠点を守り続ける。",
+          "LocalizedString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nマシンガンを駆使し拠点を守り続ける。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMinigun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMinigun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMissile": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMissile_TextData",
+          "SourceString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nミサイルランチャーを駆使し拠点を守り続ける。",
+          "LocalizedString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nミサイルランチャーを駆使し拠点を守り続ける。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseBowGun": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseBowGun_TextData",
+          "SourceString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nクロスボウを駆使し拠点を守り続ける。",
+          "LocalizedString": "パルを配置して戦いに備える防衛施設。\r\n「手作業」の適性を持つパルをアサインすると、\r\nクロスボウを駆使し拠点を守り続ける。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWait": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWait_TextData",
+          "SourceString": "敵から拠点を守るための防衛施設。\r\nパルを配置しておくと、他の作業をせず\r\n見張りをしながら戦闘に備える。",
+          "LocalizedString": "敵から拠点を守るための防衛施設。\r\nパルを配置しておくと、他の作業をせず\r\n見張りをしながら戦闘に備える。"
+        }
+      },
+      "BUILDOBJECT_DESC_DisplayCharacter": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DisplayCharacter_TextData",
+          "SourceString": "捕まえたパルの鑑賞用ケージ。\r\n中にいるパルは戦闘も作業もできないが、\r\nお腹が減ったりすることもない。",
+          "LocalizedString": "捕まえたパルの鑑賞用ケージ。\r\n中にいるパルは戦闘も作業もできないが、\r\nお腹が減ったりすることもない。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_TextData",
+          "SourceString": "雷パルが発電した電気を蓄えておく施設。\r\nこれがなければ電動の施設は動かない。",
+          "LocalizedString": "雷パルが発電した電気を蓄えておく施設。\r\nこれがなければ電動の施設は動かない。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator_Slave": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_Slave_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricKitchen_TextData",
+          "SourceString": "食材を調理する際に必要な施設。\r\n電気を必要とするが、たくさんの食材を手早く調理できる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "食材を調理する際に必要な施設。\r\n電気を必要とするが、たくさんの食材を手早く調理できる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Comfortable_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Comfortable_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Comfortable_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Comfortable_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_01_TextData",
+          "SourceString": "アイテムや防具を作るための<mapObjectName id=|Factory_Hard_01|/>。\r\nまだ作業場は小さく、あまり早く作成はできない。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "アイテムや防具を作るための<mapObjectName id=|Factory_Hard_01|/>。\r\nまだ作業場は小さく、あまり早く作成はできない。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_02_TextData",
+          "SourceString": "アイテムや防具を作るための工場。\r\n手分けすることで、それなりの速度で作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "アイテムや防具を作るための工場。\r\n手分けすることで、それなりの速度で作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_03_TextData",
+          "SourceString": "アイテムや防具を作るための工場。\r\n作業は細分化され、かなり手早く作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "アイテムや防具を作るための工場。\r\n作業は細分化され、かなり手早く作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlock_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Grade03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Grade03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_wheet": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_wheet_TextData",
+          "SourceString": "<itemName id=|Wheat|/>を育てることができる農園。\r\n収穫までにかかる時間は平均的。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Wheat|/>を育てることができる農園。\r\n収穫までにかかる時間は平均的。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_tomato": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_tomato_TextData",
+          "SourceString": "<itemName id=|Tomato|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Tomato|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Lettuce": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Lettuce_TextData",
+          "SourceString": "<itemName id=|Lettuce|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Lettuce|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Berries": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Berries_TextData",
+          "SourceString": "<itemName id=|Berries|/>を育てることができる農園。\r\n収穫までの時間は短いが、食べてもあまり腹は膨れない。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Berries|/>を育てることができる農園。\r\n収穫までの時間は短いが、食べてもあまり腹は膨れない。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FastTravelPoint_TextData",
+          "SourceString": "<characterName id=|ChickenPal|/>を模した石碑。\r\n配置することでファストトラベルが可能になる。",
+          "LocalizedString": "<characterName id=|ChickenPal|/>を模した石碑。\r\n配置することでファストトラベルが可能になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Floor_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Floor_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_HighTechKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HighTechKitchen_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_TextData",
+          "SourceString": "アイテムを収納できる。\r\n木製のため、もろい。\r\n貴重品を入れるには心もとない。",
+          "LocalizedString": "アイテムを収納できる。\r\n木製のため、もろい。\r\n貴重品を入れるには心もとない。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_02_TextData",
+          "SourceString": "アイテムを収納できる。\r\n金属で補強されており少し頑丈。\r\n大きくなった分、収納できる容量も増えた。",
+          "LocalizedString": "アイテムを収納できる。\r\n金属で補強されており少し頑丈。\r\n大きくなった分、収納できる容量も増えた。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_03_TextData",
+          "SourceString": "アイテムを収納できる。\r\n精錬金属製のためかなり頑丈。\r\n巨大で安全な倉庫として使おう。",
+          "LocalizedString": "アイテムを収納できる。\r\n精錬金属製のためかなり頑丈。\r\n巨大で安全な倉庫として使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_02_TextData",
+          "SourceString": "パル用のわらのベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n硬いが何も無いよりはマシだ。",
+          "LocalizedString": "パル用のわらのベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n硬いが何も無いよりはマシだ。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_03_TextData",
+          "SourceString": "パル用のよく眠れるふかふかなベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\nふかふかなのでパルも喜ぶだろう。",
+          "LocalizedString": "パル用のよく眠れるふかふかなベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\nふかふかなのでパルも喜ぶだろう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_04_TextData",
+          "SourceString": "パル用のよく眠れる大きなベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n大きなパルもゆったり眠れるだろう。",
+          "LocalizedString": "パル用のよく眠れる大きなベッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n大きなパルもゆったり眠れるだろう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_01_TextData",
+          "SourceString": "パルの病気を治す薬をつくるための設備。\r\nまだ簡単な薬しか作れない。\r\n作業は製薬ができるパルに任せよう。",
+          "LocalizedString": "パルの病気を治す薬をつくるための設備。\r\nまだ簡単な薬しか作れない。\r\n作業は製薬ができるパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_02_TextData",
+          "SourceString": "パルの病気を治す薬をつくるための設備。\r\n電気を必要とするが、上位の薬も作れる。\r\n作業は製薬ができるパルに任せよう。",
+          "LocalizedString": "パルの病気を治す薬をつくるための設備。\r\n電気を必要とするが、上位の薬も作れる。\r\n作業は製薬ができるパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_03_Old": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_03_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_PalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalFoodBox_TextData",
+          "SourceString": "パルのエサを入れておく箱。\r\nお腹が空いたパルはここでエサを食べる。\r\nエサは切らさないようにしよう。",
+          "LocalizedString": "パルのエサを入れておく箱。\r\nお腹が空いたパルはここでエサを食べる。\r\nエサは切らさないようにしよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalStorage_TextData",
+          "SourceString": "捕獲したパルを保管しておくための施設。\r\nこの施設を中心とした範囲が拠点となる。\r\nパルと一緒に自分だけの拠点を作ろう。",
+          "LocalizedString": "捕獲したパルを保管しておくための施設。\r\nこの施設を中心とした範囲が拠点となる。\r\nパルと一緒に自分だけの拠点を作ろう。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalBoxV2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalBoxV2_TextData",
+          "SourceString": "捕獲したパルを保管しておくための施設。\r\nボックス内のパルは、徐々にHPが回復する。\r\nこの施設を中心とした範囲が拠点となる。",
+          "LocalizedString": "捕獲したパルを保管しておくための施設。\r\nボックス内のパルは、徐々にHPが回復する。\r\nこの施設を中心とした範囲が拠点となる。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_02_TextData",
+          "SourceString": "人間用のぼろぼろのベッド。\r\n傷ついたときや夜に寝るために使おう。\r\n屋根の下じゃないと不安で眠れない。",
+          "LocalizedString": "人間用のぼろぼろのベッド。\r\n傷ついたときや夜に寝るために使おう。\r\n屋根の下じゃないと不安で眠れない。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_03_TextData",
+          "SourceString": "人間用のよく眠れるふかふかなベッド。\r\n傷ついたときや夜に寝るために使おう。\r\n屋根の下じゃないと不安で眠れない。",
+          "LocalizedString": "人間用のよく眠れるふかふかなベッド。\r\n傷ついたときや夜に寝るために使おう。\r\n屋根の下じゃないと不安で眠れない。"
+        }
+      },
+      "BUILDOBJECT_DESC_PlayerBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PlayerBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_ShippingItemBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ShippingItemBox_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_01_TextData",
+          "SourceString": "パルを捕獲するスフィアの作業台。\r\nまだ作業場は小さく、あまり早くスフィアは作成できない。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "パルを捕獲するスフィアの作業台。\r\nまだ作業場は小さく、あまり早くスフィアは作成できない。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_02_TextData",
+          "SourceString": "パルを捕獲するスフィアの工場。\r\n手分けすることで、それなりの速度で作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "パルを捕獲するスフィアの工場。\r\n手分けすることで、それなりの速度で作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_03_TextData",
+          "SourceString": "パルを捕獲するスフィアの工場。\r\n作業は細分化され、手早くスフィアを作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "パルを捕獲するスフィアの工場。\r\n作業は細分化され、手早くスフィアを作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_White_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_White_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Stonehouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stonehouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_StonePit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StonePit_TextData",
+          "SourceString": "<itemName id=|Stone|/>を生産するための施設。\r\n<itemName id=|Stone|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Stone|/>を生産するための施設。\r\n<itemName id=|Stone|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperMine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperMine_TextData",
+          "SourceString": "<itemName id=|CopperOre|/>を生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業はより過酷で体力が必要だ。\r\n採掘がより得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|CopperOre|/>を生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業はより過酷で体力が必要だ。\r\n採掘がより得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_SteelMine": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SteelMine_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Strawhouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Strawhouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Wall_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wall_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_DUMMY": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DUMMY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Clean_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Clean_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponChest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_01_TextData",
+          "SourceString": "武器や弾薬を生産するための作業台。\r\nまだ作業場は小さく、上位の武器は作成できない。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "武器や弾薬を生産するための作業台。\r\nまだ作業場は小さく、上位の武器は作成できない。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_02_TextData",
+          "SourceString": "武器や弾薬を生産するための工場。\r\n手分けすることで、それなりの武器を作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "武器や弾薬を生産するための工場。\r\n手分けすることで、それなりの武器を作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_03_TextData",
+          "SourceString": "武器や弾薬を生産するための工場。\r\n作業は細分化され、上位の武器を早く作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "武器や弾薬を生産するための工場。\r\n作業は細分化され、上位の武器を早く作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactry_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Well": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Well_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Woodhouse1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Woodhouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_TextData",
+          "SourceString": "簡単なアイテムを作るための<mapObjectName id=|WorkBench|/>。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "簡単なアイテムを作るための<mapObjectName id=|WorkBench|/>。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_RecoverOtomo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_RecoverOtomo_TextData",
+          "SourceString": "パルのHPを回復させるための装置。\r\nパルジウムの力でスフィア内を満たし、安らぎを与える。",
+          "LocalizedString": "パルのHPを回復させるための装置。\r\nパルジウムの力でスフィア内を満たし、安らぎを与える。"
+        }
+      },
+      "BUILDOBJECT_DESC_HatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HatchingPalEgg_TextData",
+          "SourceString": "パルのタマゴを孵化させるための装置。\r\nパルのタマゴを置いておけば、時間はかかるが自動で孵化する。",
+          "LocalizedString": "パルのタマゴを孵化させるための装置。\r\nパルのタマゴを置いておけば、時間はかかるが自動で孵化する。"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest2_TextData",
+          "SourceString": "<itemName id=|Wood|/>を生産するための施設。\r\n木を切る作業は過酷で体力が必要だ。\r\n伐採が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Wood|/>を生産するための施設。\r\n木を切る作業は過酷で体力が必要だ。\r\n伐採が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench_SkillUnlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_SkillUnlock_TextData",
+          "SourceString": "パルが使う道具を作る<mapObjectName id=|WorkBench|/>。\r\nサドルを作ってパルに乗ったり、\r\n銃を作ってパルに撃たせたりしよう。",
+          "LocalizedString": "パルが使う道具を作る<mapObjectName id=|WorkBench|/>。\r\nサドルを作ってパルに乗ったり、\r\n銃を作ってパルに撃たせたりしよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkBench_SkillCard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkBench_SkillCard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Foundation_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Roof_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Stairs": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stairs_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n木製のため、もろい。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n木製のため、もろい。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Heater": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Heater_TextData",
+          "SourceString": "温風を送り拠点の温度を上げる装置。\r\nそこまで暖かくはないが、多少の寒さであればしのげる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "温風を送り拠点の温度を上げる装置。\r\nそこまで暖かくはないが、多少の寒さであればしのげる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricHeater": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricHeater_TextData",
+          "SourceString": "温風を送り拠点の温度を上げる装置。\r\n電気の力を使うことで、温度を高くできるようになった。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "温風を送り拠点の温度を上げる装置。\r\n電気の力を使うことで、温度を高くできるようになった。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Cooler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Cooler_TextData",
+          "SourceString": "冷風を送り拠点の温度を下げる装置。\r\nそこまで涼しくはないが、多少の暑さであればしのげる。\r\n氷パルが冷却する必要がある。",
+          "LocalizedString": "冷風を送り拠点の温度を下げる装置。\r\nそこまで涼しくはないが、多少の暑さであればしのげる。\r\n氷パルが冷却する必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricCooler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricCooler_TextData",
+          "SourceString": "冷風を送り拠点の温度を下げる装置。\r\n電気の力を使うことで、温度を低くできるようになった。\r\n氷パルが冷却する必要がある。",
+          "LocalizedString": "冷風を送り拠点の温度を下げる装置。\r\n電気の力を使うことで、温度を低くできるようになった。\r\n氷パルが冷却する必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Torch": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Torch_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallTorch": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallTorch_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\n壁に設置することができる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\n壁に設置することができる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Lamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Lamp_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\n電力が必要だが、より広範囲を照らせるようになった。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\n電力が必要だが、より広範囲を照らせるようになった。"
+        }
+      },
+      "BUILDOBJECT_DESC_CeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CeilingLamp_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\n天井に設置することができる。\r\n電力が必要だが、より広範囲を照らせるようになった。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\n天井に設置することができる。\r\n電力が必要だが、より広範囲を照らせるようになった。"
+        }
+      },
+      "BUILDOBJECT_DESC_LargeLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LargeLamp_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\nより電力が必要だが、さらに広範囲を照らせるようになった。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\nより電力が必要だが、さらに広範囲を照らせるようになった。"
+        }
+      },
+      "BUILDOBJECT_DESC_LargeCeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LargeCeilingLamp_TextData",
+          "SourceString": "暗い夜でも拠点を明るくする光源。\r\n天井に設置することができる。\r\nより電力が必要だが、さらに広範囲を照らせるようになった。",
+          "LocalizedString": "暗い夜でも拠点を明るくする光源。\r\n天井に設置することができる。\r\nより電力が必要だが、さらに広範囲を照らせるようになった。"
+        }
+      },
+      "BUILDOBJECT_DESC_BuildableGoddessStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BuildableGoddessStatue_TextData",
+          "SourceString": "パルパゴス島の伝承に記された石像。\r\n<itemName id=|Relic|/>を捧げることで\r\n不思議な力を授けてくれる。",
+          "LocalizedString": "パルパゴス島の伝承に記された石像。\r\n<itemName id=|Relic|/>を捧げることで\r\n不思議な力を授けてくれる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa_TextData",
+          "SourceString": "疲れた拠点パルが休みに行く施設。\r\n労働で溜まった疲れを癒し、SAN値を回復する。",
+          "LocalizedString": "疲れた拠点パルが休みに行く施設。\r\n労働で溜まった疲れを癒し、SAN値を回復する。"
+        }
+      },
+      "BUILDOBJECT_DESC_Spa2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa2_TextData",
+          "SourceString": "疲れた拠点パルが休みに行く施設。\r\nより快適になり、SAN値をさらに回復することができる。",
+          "LocalizedString": "疲れた拠点パルが休みに行く施設。\r\nより快適になり、SAN値をさらに回復することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_TextData",
+          "SourceString": "外敵の侵入を防ぐための巨大な防壁。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "外敵の侵入を防ぐための巨大な防壁。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Crusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Crusher_TextData",
+          "SourceString": "<itemName id=|Stone|/>や<itemName id=|Wood|/>を粉砕して\r\n他の素材に変換することができる施設。\r\n水車を回すための「水やり」適性のパルが必要。",
+          "LocalizedString": "<itemName id=|Stone|/>や<itemName id=|Wood|/>を粉砕して\r\n他の素材に変換することができる施設。\r\n水車を回すための「水やり」適性のパルが必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodCrusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodCrusher_TextData",
+          "SourceString": "<itemName id=|Wood|/>を切断して<itemName id=|Fiber|/>を\r\n取り出すことができる施設。",
+          "LocalizedString": "<itemName id=|Wood|/>を切断して<itemName id=|Fiber|/>を\r\n取り出すことができる施設。"
+        }
+      },
+      "BUILDOBJECT_DESC_FlourMill": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FlourMill_TextData",
+          "SourceString": "<itemName id=|Wheat|/>を挽いて<itemName id=|Flour|/>を\r\n生産することができる施設。\r\n水車を回すための「水やり」適性のパルが必要。",
+          "LocalizedString": "<itemName id=|Wheat|/>を挽いて<itemName id=|Flour|/>を\r\n生産することができる施設。\r\n水車を回すための「水やり」適性のパルが必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_LegHold": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_LegHold_TextData",
+          "SourceString": "上を歩いたパルを足止めする罠。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n小さなパルにのみ有効。",
+          "LocalizedString": "上を歩いたパルを足止めする罠。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n小さなパルにのみ有効。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_LegHold_Big": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_LegHold_Big_TextData",
+          "SourceString": "大型パルの動きを止めるためのトラバサミ。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n大きなパルにのみ有効で、小さいパルは引っかからない。",
+          "LocalizedString": "大型パルの動きを止めるためのトラバサミ。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n大きなパルにのみ有効で、小さいパルは引っかからない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MovingPanel": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MovingPanel_TextData",
+          "SourceString": "移動パネルの説明文",
+          "LocalizedString": "移動パネルの説明文"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineElecShock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineElecShock_TextData",
+          "SourceString": "踏んだパルを感電させる罠。\r\n感電しているパルは、スフィアでの捕獲率が上がる。",
+          "LocalizedString": "踏んだパルを感電させる罠。\r\n感電しているパルは、スフィアでの捕獲率が上がる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineFreeze": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineFreeze_TextData",
+          "SourceString": "踏んだパルを氷結させる罠。\r\n氷結しているパルは、スフィアでの捕獲率が上がる。",
+          "LocalizedString": "踏んだパルを氷結させる罠。\r\n氷結しているパルは、スフィアでの捕獲率が上がる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_MineAttack": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_MineAttack_TextData",
+          "SourceString": "踏んだパルを爆破する罠。\r\n広い範囲に対してダメージを与える。",
+          "LocalizedString": "踏んだパルを爆破する罠。\r\n広い範囲に対してダメージを与える。"
+        }
+      },
+      "BUILDOBJECT_DESC_BreedFarm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BreedFarm_TextData",
+          "SourceString": "2匹の♂♀のパルをアサインすることで、\r\nタマゴを産ませることができる。\r\n施設に<itemName id=|Cake|/>を入れておく必要がある。",
+          "LocalizedString": "2匹の♂♀のパルをアサインすることで、\r\nタマゴを産ませることができる。\r\n施設に<itemName id=|Cake|/>を入れておく必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToolBoxV1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToolBoxV1_TextData",
+          "SourceString": "拠点に配置していると\r\n手作業の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n手作業の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToolBoxV2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToolBoxV2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard_TextData",
+          "SourceString": "拠点内のパルの働き方や、\r\n個別の作業ごとの許可/禁止を指示できる。",
+          "LocalizedString": "拠点内のパルの働き方や、\r\n個別の作業ごとの許可/禁止を指示できる。"
+        }
+      },
+      "BUILDOBJECT_DESC_OlympicCauldron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OlympicCauldron_TextData",
+          "SourceString": "拠点に配置していると\r\n火おこしの作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n火おこしの作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Fountain": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Fountain_TextData",
+          "SourceString": "拠点に配置していると\r\n水やりの作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n水やりの作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Silo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Silo_TextData",
+          "SourceString": "拠点に配置していると\r\n種まきの作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n種まきの作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_TransmissionTower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TransmissionTower_TextData",
+          "SourceString": "拠点に配置していると\r\n発電の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n発電の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FlowerBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FlowerBed_TextData",
+          "SourceString": "拠点に配置していると\r\n採集の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n採集の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stump": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stump_TextData",
+          "SourceString": "拠点に配置していると\r\n伐採の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n伐採の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_MiningTool": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MiningTool_TextData",
+          "SourceString": "拠点に配置していると\r\n採掘の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n採掘の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Cauldron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Cauldron_TextData",
+          "SourceString": "拠点に配置していると\r\n製薬の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n製薬の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Snowman": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Snowman_TextData",
+          "SourceString": "拠点に配置していると\r\n冷却の作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "拠点に配置していると\r\n冷却の作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoolerBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoolerBox_TextData",
+          "SourceString": "小さな食料保管庫。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。",
+          "LocalizedString": "小さな食料保管庫。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Refrigerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Refrigerator_TextData",
+          "SourceString": "大容量の食料保管庫。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。",
+          "LocalizedString": "大容量の食料保管庫。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_MonsterFarm": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MonsterFarm_TextData",
+          "SourceString": "羊や鶏などのパルを放牧する牧場。\r\n特殊なパートナースキルを持つパルを\r\nアサインすると、アイテムを生産する。",
+          "LocalizedString": "羊や鶏などのパルを放牧する牧場。\r\n特殊なパートナースキルを持つパルを\r\nアサインすると、アイテムを生産する。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_Gate_TextData",
+          "SourceString": "大きめのパルも通れる門。\r\n木製のため、もろい。",
+          "LocalizedString": "大きめのパルも通れる門。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Gate_TextData",
+          "SourceString": "大きめのパルも通れる門。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "大きめのパルも通れる門。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_Gate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_Gate_TextData",
+          "SourceString": "大きめのパルも通れる門。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "大きめのパルも通れる門。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Trap_Noose": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Trap_Noose_TextData",
+          "SourceString": "通過したパルを捕らえる罠。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n小さなパルにのみ有効。",
+          "LocalizedString": "通過したパルを捕らえる罠。\r\nかかったパルは、スフィアでの捕獲率が上がる。\r\n小さなパルにのみ有効。"
+        }
+      },
+      "BUILDOBJECT_DESC_RepairBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_RepairBench_TextData",
+          "SourceString": "破損した道具を修理する作業台。\r\n素材を消費することで修理が可能。",
+          "LocalizedString": "破損した道具を修理する作業台。\r\n素材を消費することで修理が可能。"
+        }
+      },
+      "BUILDOBJECT_DESC_DamagedScarecrow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DamagedScarecrow_TextData",
+          "SourceString": "<characterName id=|Penguin|/>を模した、訓練用のかかし。\r\n広いところにしか置けない。",
+          "LocalizedString": "<characterName id=|Penguin|/>を模した、訓練用のかかし。\r\n広いところにしか置けない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Signboard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Signboard_TextData",
+          "SourceString": "文字を書くことができる看板。\r\n記録やコミュニケーションのために使おう。",
+          "LocalizedString": "文字を書くことができる看板。\r\n記録やコミュニケーションのために使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampBattleDirector": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampBattleDirector_TextData",
+          "SourceString": "拠点内のパルの警戒状態を変更する鐘。\r\n外敵を迎え撃つ状態と、作業に専念する状態を\r\n好きなタイミングで変更できる。",
+          "LocalizedString": "拠点内のパルの警戒状態を変更する鐘。\r\n外敵を迎え撃つ状態と、作業に専念する状態を\r\n好きなタイミングで変更できる。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_Wood_TextData",
+          "SourceString": "外敵の侵入を防ぐための巨大な防壁。\r\n木製のため、もろい。",
+          "LocalizedString": "外敵の侵入を防ぐための巨大な防壁。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseWall_Metal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseWall_Metal_TextData",
+          "SourceString": "外敵の侵入を防ぐための巨大な防壁。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "外敵の侵入を防ぐための巨大な防壁。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare_Wood_TextData",
+          "SourceString": "装飾用の四角いテーブル。\r\n",
+          "LocalizedString": "装飾用の四角いテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular_Wood_TextData",
+          "SourceString": "装飾用の丸いテーブル。\r\n",
+          "LocalizedString": "装飾用の丸いテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Bench_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Bench_Wood_TextData",
+          "SourceString": "装飾用の木のベンチ。\r\n",
+          "LocalizedString": "装飾用の木のベンチ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool_Wood_TextData",
+          "SourceString": "装飾用の木のスツール。\r\n",
+          "LocalizedString": "装飾用の木のスツール。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Decal_PalSticker_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Decal_PalSticker_PinkCat_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool_High_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool_High_Wood_TextData",
+          "SourceString": "装飾用の木のハイスツール。\r\n",
+          "LocalizedString": "装飾用の木のハイスツール。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel_Wood_TextData",
+          "SourceString": "アイテムを収納できる木の樽。",
+          "LocalizedString": "アイテムを収納できる木の樽。"
+        }
+      },
+      "BUILDOBJECT_DESC_Box_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box_Wood_TextData",
+          "SourceString": "アイテムを収納できる木の箱。",
+          "LocalizedString": "アイテムを収納できる木の箱。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Wood_TextData",
+          "SourceString": "アイテムを収納できる木の棚。",
+          "LocalizedString": "アイテムを収納できる木の棚。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Cask_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Cask_Wood_TextData",
+          "SourceString": "アイテムを収納できる木の樽棚。",
+          "LocalizedString": "アイテムを収納できる木の樽棚。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Hang01_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Hang01_Wood_TextData",
+          "SourceString": "アイテムを収納できる木の棚。\r\n壁に設置することができる。",
+          "LocalizedString": "アイテムを収納できる木の棚。\r\n壁に設置することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf_Hang02_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf_Hang02_Wood_TextData",
+          "SourceString": "装飾用の木の棚。\r\n壁に設置することができる。",
+          "LocalizedString": "装飾用の木の棚。\r\n壁に設置することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Counter_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Counter_Wood_TextData",
+          "SourceString": "装飾用の木のカウンター。\r\n",
+          "LocalizedString": "装飾用の木のカウンター。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy01_TextData",
+          "SourceString": "装飾用の大きなツタ。\r\n壁に設置することができる。\r\n",
+          "LocalizedString": "装飾用の大きなツタ。\r\n壁に設置することができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy02_TextData",
+          "SourceString": "装飾用の小さなツタ。\r\n壁に設置することができる。\r\n",
+          "LocalizedString": "装飾用の小さなツタ。\r\n壁に設置することができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Ivy03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ivy03_TextData",
+          "SourceString": "装飾用の横長のツタ。\r\n壁に設置することができる。\r\n",
+          "LocalizedString": "装飾用の横長のツタ。\r\n壁に設置することができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Wood": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Wood_TextData",
+          "SourceString": "装飾用の木の椅子。\r\n",
+          "LocalizedString": "装飾用の木の椅子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel01_Iron_TextData",
+          "SourceString": "装飾用の赤色のドラム缶。\r\n",
+          "LocalizedString": "装飾用の赤色のドラム缶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel02_Iron_TextData",
+          "SourceString": "装飾用の青色のドラム缶。\r\n",
+          "LocalizedString": "装飾用の青色のドラム缶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Barrel03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Barrel03_Iron_TextData",
+          "SourceString": "装飾用の緑色のドラム缶。\r\n",
+          "LocalizedString": "装飾用の緑色のドラム缶。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Box01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box01_Iron_TextData",
+          "SourceString": "アイテムを収納できる小さなコンテナ。",
+          "LocalizedString": "アイテムを収納できる小さなコンテナ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Box02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box02_Iron_TextData",
+          "SourceString": "アイテムを収納できる布付きコンテナ。",
+          "LocalizedString": "アイテムを収納できる布付きコンテナ。"
+        }
+      },
+      "BUILDOBJECT_DESC_CableCoil01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CableCoil01_Iron_TextData",
+          "SourceString": "装飾用のケーブルドラム。\r\n",
+          "LocalizedString": "装飾用のケーブルドラム。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Iron_TextData",
+          "SourceString": "装飾用の革張りの椅子。",
+          "LocalizedString": "装飾用の革張りの椅子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair02_Iron_TextData",
+          "SourceString": "装飾用の鉄製の椅子。\r\n",
+          "LocalizedString": "装飾用の鉄製の椅子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Clock01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clock01_Wall_Iron_TextData",
+          "SourceString": "装飾用の壁掛け時計。\r\n壊れており、時間を知ることはできない。",
+          "LocalizedString": "装飾用の壁掛け時計。\r\n壊れており、時間を知ることはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Container01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Container01_Iron_TextData",
+          "SourceString": "アイテムを収納できる大型コンテナ。\r\n古代に栄えた文明の遺品を模したデザイン。",
+          "LocalizedString": "アイテムを収納できる大型コンテナ。\r\n古代に栄えた文明の遺品を模したデザイン。"
+        }
+      },
+      "BUILDOBJECT_DESC_GarbageBag_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GarbageBag_Iron_TextData",
+          "SourceString": "装飾用のゴミぶくろ。\r\n",
+          "LocalizedString": "装飾用のゴミぶくろ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_GoalSoccer_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GoalSoccer_Iron_TextData",
+          "SourceString": "装飾用のサッカーゴール。\r\n<characterName id=|SheepBall|/>を入れても点数は獲得できない。",
+          "LocalizedString": "装飾用のサッカーゴール。\r\n<characterName id=|SheepBall|/>を入れても点数は獲得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_MachineGame01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MachineGame01_Iron_TextData",
+          "SourceString": "装飾用のクレーンゲーム。\r\n壊れており、遊ぶことはできない。",
+          "LocalizedString": "装飾用のクレーンゲーム。\r\n壊れており、遊ぶことはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_MachineVending01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MachineVending01_Iron_TextData",
+          "SourceString": "装飾用のコーラ自動販売機。\r\nアイテムを購入することはできない。",
+          "LocalizedString": "装飾用のコーラ自動販売機。\r\nアイテムを購入することはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_PipeClay01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PipeClay01_Iron_TextData",
+          "SourceString": "装飾用の土管。\r\n",
+          "LocalizedString": "装飾用の土管。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Iron_TextData",
+          "SourceString": "アイテムを収納できるアイアン系の棚。",
+          "LocalizedString": "アイテムを収納できるアイアン系の棚。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf02_Iron_TextData",
+          "SourceString": "アイテムを収納できるアイアン系の横長の棚。",
+          "LocalizedString": "アイテムを収納できるアイアン系の横長の棚。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf03_Iron_TextData",
+          "SourceString": "アイテムを収納できるオレンジのロッカー。\r\nパルのシールが貼られている。",
+          "LocalizedString": "アイテムを収納できるオレンジのロッカー。\r\nパルのシールが貼られている。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf04_Iron_TextData",
+          "SourceString": "アイテムを収納できるロッカー。\r\nパルのシールが貼られている。",
+          "LocalizedString": "アイテムを収納できるロッカー。\r\nパルのシールが貼られている。"
+        }
+      },
+      "BUILDOBJECT_DESC_SignExit_Ceiling_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SignExit_Ceiling_Iron_TextData",
+          "SourceString": "装飾用の非常口サイン。\r\n天井に付けることができる。\r\n",
+          "LocalizedString": "装飾用の非常口サイン。\r\n天井に付けることができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_SignExit_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SignExit_Wall_Iron_TextData",
+          "SourceString": "装飾用の非常口サイン。\r\n壁に付けることができる。\r\n",
+          "LocalizedString": "装飾用の非常口サイン。\r\n壁に付けることができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa01_Iron_TextData",
+          "SourceString": "装飾用の革張りの1人用ソファ。",
+          "LocalizedString": "装飾用の革張りの1人用ソファ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa02_Iron_TextData",
+          "SourceString": "装飾用の革張りの2人用ソファ。",
+          "LocalizedString": "装飾用の革張りの2人用ソファ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool01_Iron_TextData",
+          "SourceString": "装飾用のアイアンのスツール。\r\n",
+          "LocalizedString": "装飾用のアイアンのスツール。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular01_Iron_TextData",
+          "SourceString": "装飾用のアイアンの丸テーブル。\r\n",
+          "LocalizedString": "装飾用のアイアンの丸テーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSide01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSide01_Iron_TextData",
+          "SourceString": "装飾用のアイアンウッドのサイドテーブル。\r\n",
+          "LocalizedString": "装飾用のアイアンウッドのサイドテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare01_Iron_TextData",
+          "SourceString": "装飾用のアイアンウッドのテーブル。\r\n",
+          "LocalizedString": "装飾用のアイアンウッドのテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare02_Iron_TextData",
+          "SourceString": "装飾用のアイアンウッドのローテーブル。\r\n",
+          "LocalizedString": "装飾用のアイアンウッドのローテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Tire01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Tire01_Iron_TextData",
+          "SourceString": "装飾用のタイヤ。\r\n",
+          "LocalizedString": "装飾用のタイヤ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade01_Iron_TextData",
+          "SourceString": "装飾用のバリケード。\r\n",
+          "LocalizedString": "装飾用のバリケード。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade02_Iron_TextData",
+          "SourceString": "装飾用のオレンジのバリケード。\r\n",
+          "LocalizedString": "装飾用のオレンジのバリケード。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade03_Iron_TextData",
+          "SourceString": "装飾用の鉄の赤色バリケード。\r\n",
+          "LocalizedString": "装飾用の鉄の赤色バリケード。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade04_Iron_TextData",
+          "SourceString": "装飾用の鉄の白色バリケード。\r\n",
+          "LocalizedString": "装飾用の鉄の白色バリケード。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficBarricade05_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficBarricade05_Iron_TextData",
+          "SourceString": "装飾用のアイアンのフェンス。\r\n",
+          "LocalizedString": "装飾用のアイアンのフェンス。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone01_Iron_TextData",
+          "SourceString": "装飾用の三角コーン。\r\n",
+          "LocalizedString": "装飾用の三角コーン。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone02_Iron_TextData",
+          "SourceString": "装飾用の太いロードコーン。\r\n",
+          "LocalizedString": "装飾用の太いロードコーン。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficCone03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficCone03_Iron_TextData",
+          "SourceString": "装飾用の細いロードコーン。\r\n",
+          "LocalizedString": "装飾用の細いロードコーン。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficLight01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficLight01_Iron_TextData",
+          "SourceString": "装飾用の信号機。\r\n",
+          "LocalizedString": "装飾用の信号機。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_BathTub_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BathTub_Stone_TextData",
+          "SourceString": "装飾用のアンティークなバスタブ。\r\n",
+          "LocalizedString": "装飾用のアンティークなバスタブ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Box01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Box01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな編かごの箱。\r\n",
+          "LocalizedString": "装飾用のアンティークな編かごの箱。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな木の椅子。\r\n",
+          "LocalizedString": "装飾用のアンティークな木の椅子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair02_Stone_TextData",
+          "SourceString": "装飾用のアンティークな木の緑椅子。\r\n",
+          "LocalizedString": "装飾用のアンティークな木の緑椅子。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Clock01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clock01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな柱時計。\r\n壊れており、時間を知ることはできない。",
+          "LocalizedString": "装飾用のアンティークな柱時計。\r\n壊れており、時間を知ることはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Curtain01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Curtain01_Wall_Stone_TextData",
+          "SourceString": "装飾用のアンティークなカーテン。\r\n壁に設置することができる。\r\n",
+          "LocalizedString": "装飾用のアンティークなカーテン。\r\n壁に設置することができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Desk01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Desk01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなデスク。\r\n",
+          "LocalizedString": "装飾用のアンティークなデスク。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Globe01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Globe01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな球体地理模型。\r\n",
+          "LocalizedString": "装飾用のアンティークな球体地理模型。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな楕円鏡。\r\n",
+          "LocalizedString": "装飾用のアンティークな楕円鏡。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror02_Stone_TextData",
+          "SourceString": "装飾用のアンティークな鏡。\r\n",
+          "LocalizedString": "装飾用のアンティークな鏡。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Mirror01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Mirror01_Wall_Stone_TextData",
+          "SourceString": "装飾用のアンティークなウォールミラー。\r\n壁に設置することができる。\r\n",
+          "LocalizedString": "装飾用のアンティークなウォールミラー。\r\n壁に設置することができる。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Partition_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Partition_Stone_TextData",
+          "SourceString": "装飾用のアンティークなパーテーション。\r\n",
+          "LocalizedString": "装飾用のアンティークなパーテーション。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Piano01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Piano01_Stone_TextData",
+          "SourceString": "装飾用のグランドピアノ。\r\n演奏することはできない。",
+          "LocalizedString": "装飾用のグランドピアノ。\r\n演奏することはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Piano02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Piano02_Stone_TextData",
+          "SourceString": "装飾用のアップライトピアノ。\r\n演奏することはできない。",
+          "LocalizedString": "装飾用のアップライトピアノ。\r\n演奏することはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなカーペット。\r\n",
+          "LocalizedString": "装飾用のアンティークなカーペット。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug02_Stone_TextData",
+          "SourceString": "装飾用のアンティークな赤カーペット。\r\n",
+          "LocalizedString": "装飾用のアンティークな赤カーペット。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug03_Stone_TextData",
+          "SourceString": "装飾用のアンティークな緑カーペット。\r\n",
+          "LocalizedString": "装飾用のアンティークな緑カーペット。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Rug04_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Rug04_Stone_TextData",
+          "SourceString": "装飾用のアンティークな細長カーペット。\r\n",
+          "LocalizedString": "装飾用のアンティークな細長カーペット。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークな本棚。",
+          "LocalizedString": "アイテムを収納できるアンティークな本棚。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf02_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークなワードローブ。",
+          "LocalizedString": "アイテムを収納できるアンティークなワードローブ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf03_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークなチェスト。\r\nパルの写真が飾られている。",
+          "LocalizedString": "アイテムを収納できるアンティークなチェスト。\r\nパルの写真が飾られている。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf04_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf04_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークなサイドチェスト。\r\nパルの写真が飾られている。",
+          "LocalizedString": "アイテムを収納できるアンティークなサイドチェスト。\r\nパルの写真が飾られている。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf05_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf05_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークなキャビネット。",
+          "LocalizedString": "アイテムを収納できるアンティークなキャビネット。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf06_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf06_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークな横長キャビネット。\r\nパルの写真が飾られている。",
+          "LocalizedString": "アイテムを収納できるアンティークな横長キャビネット。\r\nパルの写真が飾られている。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf07_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf07_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークな大型キャビネット。",
+          "LocalizedString": "アイテムを収納できるアンティークな大型キャビネット。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Wall_Stone_TextData",
+          "SourceString": "アイテムを収納できるアンティークなキャビネット。\r\n壁に設置することができる。",
+          "LocalizedString": "アイテムを収納できるアンティークなキャビネット。\r\n壁に設置することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな1人用ソファ。\r\n",
+          "LocalizedString": "装飾用のアンティークな1人用ソファ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa02_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa02_Stone_TextData",
+          "SourceString": "装飾用のアンティークな2人用ソファ。\r\n",
+          "LocalizedString": "装飾用のアンティークな2人用ソファ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Sofa03_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Sofa03_Stone_TextData",
+          "SourceString": "装飾用のアンティークなオットマン。\r\n",
+          "LocalizedString": "装飾用のアンティークなオットマン。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stool01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stool01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなスツール。\r\n",
+          "LocalizedString": "装飾用のアンティークなスツール。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Stove01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stove01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなストーブ。\r\n",
+          "LocalizedString": "装飾用のアンティークなストーブ。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな丸いテーブル。\r\n",
+          "LocalizedString": "装飾用のアンティークな丸いテーブル。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TableDresser01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableDresser01_Stone_TextData",
+          "SourceString": "自分の姿を見直すためのドレッサー。\r\nキャラクターの見た目を変えられる。",
+          "LocalizedString": "自分の姿を見直すためのドレッサー。\r\nキャラクターの見た目を変えられる。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSink01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSink01_Stone_TextData",
+          "SourceString": "装飾用のアンティークな洗面台。\r\n",
+          "LocalizedString": "装飾用のアンティークな洗面台。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Toilet01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Toilet01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなトイレ。\r\nここで用を足すことはできない。",
+          "LocalizedString": "装飾用のアンティークなトイレ。\r\nここで用を足すことはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_ToiletHolder01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ToiletHolder01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなトイレットペーパーホルダー。\r\n",
+          "LocalizedString": "装飾用のアンティークなトイレットペーパーホルダー。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_TowlRack01_Stone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TowlRack01_Stone_TextData",
+          "SourceString": "装飾用のアンティークなタオルラック。\r\n",
+          "LocalizedString": "装飾用のアンティークなタオルラック。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant01_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant01_Plant_TextData",
+          "SourceString": "装飾用の観葉植物。\r\n",
+          "LocalizedString": "装飾用の観葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant02_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant02_Plant_TextData",
+          "SourceString": "装飾用のイス付き観葉植物。\r\n",
+          "LocalizedString": "装飾用のイス付き観葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant03_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant03_Plant_TextData",
+          "SourceString": "装飾用の卓上観葉植物。\r\n",
+          "LocalizedString": "装飾用の卓上観葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Plant04_Plant": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Plant04_Plant_TextData",
+          "SourceString": "装飾用の鉢入り観葉植物。\r\n",
+          "LocalizedString": "装飾用の鉢入り観葉植物。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FloorLamp01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FloorLamp01_TextData",
+          "SourceString": "光源になるアンティークな茶色フロアランプ。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるアンティークな茶色フロアランプ。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FloorLamp02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FloorLamp02_TextData",
+          "SourceString": "光源になるアンティークな赤色フロアランプ。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるアンティークな赤色フロアランプ。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole01_TextData",
+          "SourceString": "光源になるシンプルな街灯。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるシンプルな街灯。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole02_TextData",
+          "SourceString": "光源になる二股の街灯。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になる二股の街灯。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole03_TextData",
+          "SourceString": "光源になるレトロな街灯。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるレトロな街灯。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_LightPole04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_LightPole04_TextData",
+          "SourceString": "光源になるおしゃれな街灯。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるおしゃれな街灯。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FirePlace01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FirePlace01_TextData",
+          "SourceString": "光源になるレンガの暖炉。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "光源になるレンガの暖炉。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_FirePlace02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_FirePlace02_TextData",
+          "SourceString": "光源になる暖炉。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "光源になる暖炉。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_CandleSticks_Top": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_CandleSticks_Top_TextData",
+          "SourceString": "光源になるシャンデリア。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になるシャンデリア。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Light_CandleSticks_Wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Light_CandleSticks_Wall_TextData",
+          "SourceString": "光源になる壁掛けランプ。\r\n点灯するためには電気が必要。",
+          "LocalizedString": "光源になる壁掛けランプ。\r\n点灯するためには電気が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_Television01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Television01_Iron_TextData",
+          "SourceString": "装飾用の古いテレビ。\r\n古代文明の遺物で、今ではペンタマたちの\r\n映像が流れるだけだ。",
+          "LocalizedString": "装飾用の古いテレビ。\r\n古代文明の遺物で、今ではペンタマたちの\r\n映像が流れるだけだ。"
+        }
+      },
+      "BUILDOBJECT_DESC_Desk01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Desk01_Iron_TextData",
+          "SourceString": "装飾用のアイアンのデスク。\r\n",
+          "LocalizedString": "装飾用のアイアンのデスク。\r\n"
+        }
+      },
+      "BUILDOBJECT_DESC_Shelf01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shelf01_Wall_Iron_TextData",
+          "SourceString": "アイテムを収納できるアイアンの壁付け棚。\r\n壁に設置することができる。",
+          "LocalizedString": "アイテムを収納できるアイアンの壁付け棚。\r\n壁に設置することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign01_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign01_Iron_TextData",
+          "SourceString": "装飾用のパル通行止めの道路標識。\r\n古代では使用されていたが、形骸化してしまった。",
+          "LocalizedString": "装飾用のパル通行止めの道路標識。\r\n古代では使用されていたが、形骸化してしまった。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign02_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign02_Iron_TextData",
+          "SourceString": "装飾用の一時停止の道路標識。\r\n古代では使用されていたが、形骸化してしまった。",
+          "LocalizedString": "装飾用の一時停止の道路標識。\r\n古代では使用されていたが、形骸化してしまった。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign03_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign03_Iron_TextData",
+          "SourceString": "装飾用のツノガミ注意の標識。\r\n古代文明では、ツノガミとパルとの\r\n追突事故が相次いでいたという。",
+          "LocalizedString": "装飾用のツノガミ注意の標識。\r\n古代文明では、ツノガミとパルとの\r\n追突事故が相次いでいたという。"
+        }
+      },
+      "BUILDOBJECT_DESC_TrafficSign04_Iron": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TrafficSign04_Iron_TextData",
+          "SourceString": "装飾用のグランモス注意の標識。\r\n古代文明では、グランモスの怒りを買った者が\r\n死ぬ事件が多発していたという。",
+          "LocalizedString": "装飾用のグランモス注意の標識。\r\n古代文明では、グランモスの怒りを買った者が\r\n死ぬ事件が多発していたという。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Chair01_Pal": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Chair01_Pal_TextData",
+          "SourceString": "装飾用のかわいらしいイス。",
+          "LocalizedString": "装飾用のかわいらしいイス。"
+        }
+      },
+      "BUILDOBJECT_DESC_Altar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Altar_TextData",
+          "SourceString": "パルの描かれた石板を捧げることで\r\n強大なパルを拠点に召喚できる。\r\n戦闘に備え、十分な用意が必要だ。",
+          "LocalizedString": "パルの描かれた石板を捧げることで\r\n強大なパルを拠点に召喚できる。\r\n戦闘に備え、十分な用意が必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperPit_TextData",
+          "SourceString": "<itemName id=|CopperOre|/>を生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|CopperOre|/>を生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_CopperPit_2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CopperPit_2_TextData",
+          "SourceString": "<itemName id=|CopperOre|/>を大量生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|CopperOre|/>を大量生産するための施設。\r\n<itemName id=|CopperOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricHatchingPalEgg_TextData",
+          "SourceString": "パルのタマゴを孵化させるための装置。\r\n電力の供給が必要だが、孵化器の内部を\r\n自動的に最適な温度に保ってくれる。",
+          "LocalizedString": "パルのタマゴを孵化させるための装置。\r\n電力の供給が必要だが、孵化器の内部を\r\n自動的に最適な温度に保ってくれる。"
+        }
+      },
+      "BUILDOBJECT_DESC_OilPump": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OilPump_TextData",
+          "SourceString": "油田から<itemName id=|CrudeOil|/>を抽出するために必要な装置。\r\n動かすためには大量の電力の供給が必要。",
+          "LocalizedString": "油田から<itemName id=|CrudeOil|/>を抽出するために必要な装置。\r\n動かすためには大量の電力の供給が必要。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoolerPalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoolerPalFoodBox_TextData",
+          "SourceString": "保冷ができるエサ箱。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。",
+          "LocalizedString": "保冷ができるエサ箱。\r\n氷パルをアサインすると、\r\n中にある食料が腐敗しにくくなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SulfurPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SulfurPit_TextData",
+          "SourceString": "<itemName id=|Sulfur|/>を生産するための施設。\r\n<itemName id=|Sulfur|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Sulfur|/>を生産するための施設。\r\n<itemName id=|Sulfur|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_CoalPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CoalPit_TextData",
+          "SourceString": "<itemName id=|Coal|/>を生産するための施設。\r\n<itemName id=|Coal|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Coal|/>を生産するための施設。\r\n<itemName id=|Coal|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_IceCrusher": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_IceCrusher_TextData",
+          "SourceString": "<itemName id=|CopperOre|/>を粉砕して\r\n他の素材に変換することができる施設。\r\n動かすには電力供給と「冷却」適性のパルが必要だが、効率よく作業可能。",
+          "LocalizedString": "<itemName id=|CopperOre|/>を粉砕して\r\n他の素材に変換することができる施設。\r\n動かすには電力供給と「冷却」適性のパルが必要だが、効率よく作業可能。"
+        }
+      },
+      "BUILDOBJECT_DESC_DismantlingConveyor": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DismantlingConveyor_TextData",
+          "SourceString": "入れたパルを自動で解体してくれる夢のような設備。",
+          "LocalizedString": "入れたパルを自動で解体してくれる夢のような設備。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallSignboard": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallSignboard_TextData",
+          "SourceString": "文字を書くことができる看板。\r\n壁に掛けることができる。",
+          "LocalizedString": "文字を書くことができる看板。\r\n壁に掛けることができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_ElectricGenerator_Large": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ElectricGenerator_Large_TextData",
+          "SourceString": "雷パルが発電した電気を蓄えておく施設。\r\n大型化し、発電の効率も向上した。",
+          "LocalizedString": "雷パルが発電した電気を蓄えておく施設。\r\n大型化し、発電の効率も向上した。"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Electric": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Electric_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Ivy": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Ivy_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_DESC_TreasureBox_Ice": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "MAPOBJECT_DESC_TreasureBox_Ice_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_Pillar_TextData",
+          "SourceString": "建物を支えるための柱。\r\n木製のため、もろい。",
+          "LocalizedString": "建物を支えるための柱。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Pillar_TextData",
+          "SourceString": "建物を支えるための柱。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "建物を支えるための柱。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Metal_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Metal_Pillars_TextData",
+          "SourceString": "建物を支えるための柱。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "建物を支えるための柱。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_Pillars_TextData",
+          "SourceString": "建物を支えるための柱。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "建物を支えるための柱。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkinChange": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkinChange_TextData",
+          "SourceString": "スキン変更用施設。\r\nパルを特別な見た目に変更できる施設。\r\nゲーム外などで手に入れたスキンの適用が可能。",
+          "LocalizedString": "スキン変更用施設。\r\nパルを特別な見た目に変更できる施設。\r\nゲーム外などで手に入れたスキンの適用が可能。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_wall_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_wall_01_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_wall_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_wall_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_01_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_02_TextData",
+          "SourceString": "土台の上に建てて入り口になる室内用の障子。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて入り口になる室内用の障子。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DoorWall_03_TextData",
+          "SourceString": "土台の上に建てて入り口になる室内用の襖。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて入り口になる室内用の襖。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_ConnectingWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_ConnectingWall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_roof_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_roof_01_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n上面が畳になっている。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n上面が畳になっている。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_roof_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_roof_02_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n上面が瓦になっている。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n上面が瓦になっている。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_Pillar": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_Pillar_TextData",
+          "SourceString": "建物を支えるための柱。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "建物を支えるための柱。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemBooth": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemBooth_TextData",
+          "SourceString": "アイテムを販売するための施設。\r\n他のプレイヤーにアイテムを販売できる。\r\n氷パルをアサインすると、中にある食料が腐敗しにくくなる。",
+          "LocalizedString": "アイテムを販売するための施設。\r\n他のプレイヤーにアイテムを販売できる。\r\n氷パルをアサインすると、中にある食料が腐敗しにくくなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalBooth": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalBooth_TextData",
+          "SourceString": "パルを販売するための施設。\r\n他のプレイヤーにパルを販売できる。\r\n氷パルをアサインすると、売上の食料が腐敗しにくくなる。",
+          "LocalizedString": "パルを販売するための施設。\r\n他のプレイヤーにパルを販売できる。\r\n氷パルをアサインすると、売上の食料が腐敗しにくくなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Carrot": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Carrot_TextData",
+          "SourceString": "<itemName id=|Carrot|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Carrot|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Onion": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Onion_TextData",
+          "SourceString": "<itemName id=|Onion|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Onion|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FarmBlockV2_Potato": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FarmBlockV2_Potato_TextData",
+          "SourceString": "<itemName id=|Potato|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。",
+          "LocalizedString": "<itemName id=|Potato|/>を育てることができる農園。\r\n収穫までに時間がかかるが、料理のバリエーションが広がる。\r\n種まきと水やり、収穫のためにいくつかのパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_SphereFactory_Black_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SphereFactory_Black_04_TextData",
+          "SourceString": "パルを捕獲するスフィアの工場。\r\n高性能な機械を導入し、高速でスフィアを作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "パルを捕獲するスフィアの工場。\r\n高性能な機械を導入し、高速でスフィアを作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_MultiElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiElectricHatchingPalEgg_TextData",
+          "SourceString": "パルのタマゴを孵化させるための装置。\r\n電力の供給が必要だが、最適な温度で\r\n複数のタマゴを並行して孵化させることができる。",
+          "LocalizedString": "パルのタマゴを孵化させるための装置。\r\n電力の供給が必要だが、最適な温度で\r\n複数のタマゴを並行して孵化させることができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_HugeKitchen": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_HugeKitchen_TextData",
+          "SourceString": "食材を調理する際に必要な施設。\r\n巨大化することで複数のパルで協力して調理できる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "食材を調理する際に必要な施設。\r\n巨大化することで複数のパルで協力して調理できる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Hard_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Hard_04_TextData",
+          "SourceString": "アイテムや防具を作るための工場。\r\n高性能な機械を導入し、高速で作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "アイテムや防具を作るための工場。\r\n高性能な機械を導入し、高速で作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_WeaponFactory_Dirty_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WeaponFactory_Dirty_04_TextData",
+          "SourceString": "武器や弾薬を生産するための工場。\r\n高性能な機械を導入し、高速で武器を作れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "武器や弾薬を生産するための工場。\r\n高性能な機械を導入し、高速で武器を作れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_SanityDecrease1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SanityDecrease1_TextData",
+          "SourceString": "パルをリラックスさせるα波を発生させる装置。\r\n拠点内のパルのSAN値が減りにくくなる。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "パルをリラックスさせるα波を発生させる装置。\r\n拠点内のパルのSAN値が減りにくくなる。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_WorkSpeedIncrease1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WorkSpeedIncrease1_TextData",
+          "SourceString": "パルの活動を活発にさせるβ波を発生させる装置。\r\n拠点内のパルの作業速度が上昇する。\r\n2つ以上配置しても効果はない。",
+          "LocalizedString": "パルの活動を活発にさせるβ波を発生させる装置。\r\n拠点内のパルの作業速度が上昇する。\r\n2つ以上配置しても効果はない。"
+        }
+      },
+      "BUILDOBJECT_DESC_QuartzPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_QuartzPit_TextData",
+          "SourceString": "<itemName id=|Quartz|/>を生産するための施設。\r\n<itemName id=|Quartz|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Quartz|/>を生産するための施設。\r\n<itemName id=|Quartz|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Factory_Money": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Factory_Money_TextData",
+          "SourceString": "<itemName id=|Money|/>を製造する工場。\r\n精神に負荷がかかるため、作業者はSAN値が低下する。手作業のできるパルが必要だ。\r\nこれを建てていると、自警団の苛烈な取り締まりに遭う可能性があるため注意。",
+          "LocalizedString": "<itemName id=|Money|/>を製造する工場。\r\n精神に負荷がかかるため、作業者はSAN値が低下する。手作業のできるパルが必要だ。\r\nこれを建てていると、自警団の苛烈な取り締まりに遭う可能性があるため注意。"
+        }
+      },
+      "BUILDOBJECT_DESC_ItemChest_04": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ItemChest_04_TextData",
+          "SourceString": "アイテムを収納できる。\r\nかなり頑丈で、収納スペースも多い。\r\n巨大で安全な倉庫として使おう。",
+          "LocalizedString": "アイテムを収納できる。\r\nかなり頑丈で、収納スペースも多い。\r\n巨大で安全な倉庫として使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicalPalBed_05": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicalPalBed_05_TextData",
+          "SourceString": "パル用の回復用ポッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n技術革新により回復量が上昇した。",
+          "LocalizedString": "パル用の回復用ポッド。\r\n傷ついたときや夜にパルが寝るために使う。\r\n技術革新により回復量が上昇した。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampItemDispenser": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampItemDispenser_TextData",
+          "SourceString": "配置した拠点にあるすべてのチェスト内のアイテムを\r\n自由に取り出すことができる装置。",
+          "LocalizedString": "配置した拠点にあるすべてのチェスト内のアイテムを\r\n自由に取り出すことができる装置。"
+        }
+      },
+      "BUILDOBJECT_DESC_GuildChest": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GuildChest_TextData",
+          "SourceString": "亜空間を経由して瞬間的に中身を送受信できるチェスト。\r\n各拠点に配置したこのチェストの中身が共有される。",
+          "LocalizedString": "亜空間を経由して瞬間的に中身を送受信できるチェスト。\r\n各拠点に配置したこのチェストの中身が共有される。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodCreator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodCreator_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_Expedition": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Expedition_TextData",
+          "SourceString": "パルをダンジョンなどに遠征させることができる施設。\r\n派遣されたパルは各地で収集や戦闘を行い、\r\n拠点に資源を持ち帰る。",
+          "LocalizedString": "パルをダンジョンなどに遠征させることができる施設。\r\n派遣されたパルは各地で収集や戦闘を行い、\r\n拠点に資源を持ち帰る。"
+        }
+      },
+      "BUILDOBJECT_DESC_Lab": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Lab_TextData",
+          "SourceString": "パルの各作業に関する研究を行う施設。\r\nこの施設でパルに作業をさせることで\r\n研究が進み、様々な効果を得ることができる。",
+          "LocalizedString": "パルの各作業に関する研究を行う施設。\r\nこの施設でパルに作業をさせることで\r\n研究が進み、様々な効果を得ることができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_OperatingTable": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OperatingTable_TextData",
+          "SourceString": "パルに対して手術を行うことで、\r\nパルの性別やパッシブスキルを変更することができる施設。",
+          "LocalizedString": "パルに対して手術を行うことで、\r\nパルの性別やパッシブスキルを変更することができる施設。"
+        }
+      },
+      "BUILDOBJECT_DESC_ManualElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ManualElectricGenerator_TextData",
+          "SourceString": "回転運動を電気エネルギーに変換する施設。\r\n効率は悪く、作業するパルはSAN値が低下するが、\r\n経験値を獲得することができる。",
+          "LocalizedString": "回転運動を電気エネルギーに変換する施設。\r\n効率は悪く、作業するパルはSAN値が低下するが、\r\n経験値を獲得することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Farm_SkillFruits": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Farm_SkillFruits_TextData",
+          "SourceString": "技の実を栽培できる農園。\r\n元となる実を地面に植えることで、\r\n同じ種類の実を複数個収穫することができる。",
+          "LocalizedString": "技の実を栽培できる農園。\r\n元となる実を地面に植えることで、\r\n同じ種類の実を複数個収穫することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_ladder": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_ladder_TextData",
+          "SourceString": "少し高いところに上ることができるはしご。",
+          "LocalizedString": "少し高いところに上ることができるはしご。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalMedicineBox": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalMedicineBox_TextData",
+          "SourceString": "パルの薬を入れておく棚。\r\n病気になってしまったパルはここで薬を飲む。\r\n薬は切らさないようにしよう。",
+          "LocalizedString": "パルの薬を入れておく棚。\r\n病気になってしまったパルはここで薬を飲む。\r\n薬は切らさないようにしよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_EnergyStorage_Electric": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_EnergyStorage_Electric_TextData",
+          "SourceString": "<mapObjectName id=|ElectricGenerator|/>で発電した\r\n余剰の電気を蓄えておく施設。",
+          "LocalizedString": "<mapObjectName id=|ElectricGenerator|/>で発電した\r\n余剰の電気を蓄えておく施設。"
+        }
+      },
+      "BUILDOBJECT_DESC_BlastFurnace4": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BlastFurnace4_TextData",
+          "SourceString": "<itemName id=|StainlessSteel|/>を製錬することができる。\r\n巨大化することで複数のパルで協力して製錬が可能になる。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "<itemName id=|StainlessSteel|/>を製錬することができる。\r\n巨大化することで複数のパルで協力して製錬が可能になる。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_MedicineFacility_03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MedicineFacility_03_TextData",
+          "SourceString": "パルの病気を治す薬をつくるための設備。\r\n未来の技術で、未知の薬も作れる。\r\n作業は製薬ができるパルに任せよう。",
+          "LocalizedString": "パルの病気を治す薬をつくるための設備。\r\n未来の技術で、未知の薬も作れる。\r\n作業は製薬ができるパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Headstone": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Headstone_TextData",
+          "SourceString": "文字を書くことができる墓石。\r\n記録のために使おう。",
+          "LocalizedString": "文字を書くことができる墓石。\r\n記録のために使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Byobu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Byobu_TextData",
+          "SourceString": "装飾用の屏風。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の屏風。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Kakejiku": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Kakejiku_TextData",
+          "SourceString": "装飾用の掛け軸。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の掛け軸。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Zaisu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Zaisu_TextData",
+          "SourceString": "装飾用の座椅子。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の座椅子。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Zabuton": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Zabuton_TextData",
+          "SourceString": "装飾用の座布団。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の座布団。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Irori": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Irori_TextData",
+          "SourceString": "装飾用の囲炉裏。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の囲炉裏。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Toro": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Toro_TextData",
+          "SourceString": "装飾用の石灯籠。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の石灯籠。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Andon": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Andon_TextData",
+          "SourceString": "装飾用の行灯。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の行灯。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shishiodoshi": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shishiodoshi_TextData",
+          "SourceString": "装飾用のししおどし。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用のししおどし。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Bonsai": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Bonsai_TextData",
+          "SourceString": "装飾用の盆栽。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の盆栽。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Koro": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Koro_TextData",
+          "SourceString": "装飾用の香炉。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の香炉。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Seika": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Seika_TextData",
+          "SourceString": "装飾用の生花。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の生花。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Tansu": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Tansu_TextData",
+          "SourceString": "アイテムを収納できるタンス。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "アイテムを収納できるタンス。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Fudukue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Fudukue_TextData",
+          "SourceString": "装飾用の文机。\r\n和風の建築をする際に使おう。",
+          "LocalizedString": "装飾用の文机。\r\n和風の建築をする際に使おう。"
+        }
+      },
+      "BUILDOBJECT_DESC_GlobalPalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GlobalPalStorage_TextData",
+          "SourceString": "パルの遺伝子データを保存したり、保存した遺伝子データから\r\nパルを復元することができる施設。保存された遺伝子データは\r\n他のワールドにも引き継ぐことができる。",
+          "LocalizedString": "パルの遺伝子データを保存したり、保存した遺伝子データから\r\nパルを復元することができる施設。保存された遺伝子データは\r\n他のワールドにも引き継ぐことができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_CompositeDesk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CompositeDesk_TextData",
+          "SourceString": "複数の設計図を組み合わせることで、より高度な設計図を\r\n作り上げることができる施設。",
+          "LocalizedString": "複数の設計図を組み合わせることで、より高度な設計図を\r\n作り上げることができる施設。"
+        }
+      },
+      "BUILDOBJECT_DESC_DimensionPalStorage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DimensionPalStorage_TextData",
+          "SourceString": "捕獲したパルを大量に保管できる施設。\r\nギルドメンバーであれば、だれでもパルの出し入れが可能。\r\nプライベート設定にすれば、自分だけのパル保管庫として使える。",
+          "LocalizedString": "捕獲したパルを大量に保管できる施設。\r\nギルドメンバーであれば、だれでもパルの出し入れが可能。\r\nプライベート設定にすれば、自分だけのパル保管庫として使える。"
+        }
+      },
+      "BUILDOBJECT_DESC_CrystalPit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CrystalPit_TextData",
+          "SourceString": "<itemName id=|RainbowCrystal|/>を生産するための施設。\r\n<itemName id=|RainbowCrystal|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|RainbowCrystal|/>を生産するための施設。\r\n<itemName id=|RainbowCrystal|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Spa3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Spa3_TextData",
+          "SourceString": "疲れた拠点パルが休みに行く施設。\r\n和風の癒しの空間で、SAN値をさらに回復することができる。",
+          "LocalizedString": "疲れた拠点パルが休みに行く施設。\r\n和風の癒しの空間で、SAN値をさらに回復することができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkerExtraStation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkerExtraStation_TextData",
+          "SourceString": "遠隔でパルボックスを操作できる端末。\r\nパルを出したい場所に配置して、自由な拠点づくりを進めよう。",
+          "LocalizedString": "遠隔でパルボックスを操作できる端末。\r\nパルを出したい場所に配置して、自由な拠点づくりを進めよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wire_Fence_TextData",
+          "SourceString": "装飾用のワイヤーフェンス。",
+          "LocalizedString": "装飾用のワイヤーフェンス。"
+        }
+      },
+      "BUILDOBJECT_DESC_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LilyQueenStatue_TextData",
+          "SourceString": "装飾用のリリクインの像。",
+          "LocalizedString": "装飾用のリリクインの像。"
+        }
+      },
+      "BUILDOBJECT_DESC_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ConservationGroupBannerA_TextData",
+          "SourceString": "装飾用のパル愛護団体の旗。",
+          "LocalizedString": "装飾用のパル愛護団体の旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ConservationGroupBannerB_TextData",
+          "SourceString": "装飾用のパル愛護団体の横幕。",
+          "LocalizedString": "装飾用のパル愛護団体の横幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_GangFlag_TextData",
+          "SourceString": "装飾用の密猟団の旗。",
+          "LocalizedString": "装飾用の密猟団の旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_PalCage": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_PalCage_TextData",
+          "SourceString": "装飾用の空の檻。",
+          "LocalizedString": "装飾用の空の檻。"
+        }
+      },
+      "BUILDOBJECT_DESC_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WoodenBarricade_TextData",
+          "SourceString": "装飾用の木製のバリケード。",
+          "LocalizedString": "装飾用の木製のバリケード。"
+        }
+      },
+      "BUILDOBJECT_DESC_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_WallTorch02_TextData",
+          "SourceString": "永炎の同志らが崇める火を灯した物々しい松明。\r\n壁に設置することができる光源。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "永炎の同志らが崇める火を灯した物々しい松明。\r\n壁に設置することができる光源。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_CandleStand_TextData",
+          "SourceString": "永炎の同志らが崇める火を灯した物々しい燭台。\r\n床に設置することができる光源。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "永炎の同志らが崇める火を灯した物々しい燭台。\r\n床に設置することができる光源。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_FireStand": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireStand_TextData",
+          "SourceString": "永炎の同志らが崇める火を灯した儀式用の燭台。\r\n床に設置することができる光源。\r\n炎パルが火を付ける必要がある。",
+          "LocalizedString": "永炎の同志らが崇める火を灯した儀式用の燭台。\r\n床に設置することができる光源。\r\n炎パルが火を付ける必要がある。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n木製のため、もろい。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_LanternTop_TextData",
+          "SourceString": "装飾用の提灯。",
+          "LocalizedString": "装飾用の提灯。"
+        }
+      },
+      "BUILDOBJECT_DESC_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Shrine_Lantern_TextData",
+          "SourceString": "装飾用の灯籠。",
+          "LocalizedString": "装飾用の灯籠。"
+        }
+      },
+      "BUILDOBJECT_DESC_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_GuardianDogStatue_TextData",
+          "SourceString": "装飾用のヤクモマルの像。",
+          "LocalizedString": "装飾用のヤクモマルの像。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Pillars_TextData",
+          "SourceString": "建物を支えるための柱。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "建物を支えるための柱。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Desk_TextData",
+          "SourceString": "装飾用の研究室風の机。",
+          "LocalizedString": "装飾用の研究室風の机。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_Chair_TextData",
+          "SourceString": "装飾用の研究室風の椅子。",
+          "LocalizedString": "装飾用の研究室風の椅子。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_Flag_TextData",
+          "SourceString": "装飾用の密猟団の団旗。",
+          "LocalizedString": "装飾用の密猟団の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Hunter_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Hunter_Banner_TextData",
+          "SourceString": "装飾用の密猟団の縦幕。",
+          "LocalizedString": "装飾用の密猟団の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_Believer_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Believer_Flag_TextData",
+          "SourceString": "装飾用のパル愛護団体の団旗。",
+          "LocalizedString": "装飾用のパル愛護団体の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Believer_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Believer_Banner_TextData",
+          "SourceString": "装飾用のパル愛護団体の縦幕。",
+          "LocalizedString": "装飾用のパル愛護団体の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_FireCult_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireCult_Flag_TextData",
+          "SourceString": "装飾用の永炎の同志の団旗。",
+          "LocalizedString": "装飾用の永炎の同志の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_FireCult_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FireCult_Banner_TextData",
+          "SourceString": "装飾用の永炎の同志の縦幕。",
+          "LocalizedString": "装飾用の永炎の同志の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_Police_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Police_Flag_TextData",
+          "SourceString": "装飾用の自警団の団旗。",
+          "LocalizedString": "装飾用の自警団の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Police_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Police_Banner_TextData",
+          "SourceString": "装飾用の自警団の縦幕。",
+          "LocalizedString": "装飾用の自警団の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_Scientist_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Scientist_Flag_TextData",
+          "SourceString": "装飾用の遺伝子研究部隊の団旗。",
+          "LocalizedString": "装飾用の遺伝子研究部隊の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Scientist_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Scientist_Banner_TextData",
+          "SourceString": "装飾用の遺伝子研究部隊の縦幕。",
+          "LocalizedString": "装飾用の遺伝子研究部隊の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ninja_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ninja_Flag_TextData",
+          "SourceString": "装飾用の月花衆の団旗。",
+          "LocalizedString": "装飾用の月花衆の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ninja_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ninja_Banner_TextData",
+          "SourceString": "装飾用の月花衆の縦幕。",
+          "LocalizedString": "装飾用の月花衆の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_FishingPond1": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FishingPond1_TextData",
+          "SourceString": "釣り道具が用意された釣り堀。\r\nパルをアサインすることで、のんびり釣りをしてくれる。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "釣り道具が用意された釣り堀。\r\nパルをアサインすることで、のんびり釣りをしてくれる。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_FishingPond2": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FishingPond2_TextData",
+          "SourceString": "釣り道具が用意された大きな釣り堀。\r\n広い水場により、より大きなパルが釣れるようになった。\r\n手作業のできるパルが必要だ。",
+          "LocalizedString": "釣り道具が用意された大きな釣り堀。\r\n広い水場により、より大きなパルが釣れるようになった。\r\n手作業のできるパルが必要だ。"
+        }
+      },
+      "BUILDOBJECT_DESC_MultiHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiHatchingPalEgg_TextData",
+          "SourceString": "パルのタマゴを孵化させるための装置。\r\n自動的にある程度適切な温度になり、\r\n複数のタマゴを並行して孵化させることができる。",
+          "LocalizedString": "パルのタマゴを孵化させるための装置。\r\n自動的にある程度適切な温度になり、\r\n複数のタマゴを並行して孵化させることができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_YakushimaBoss002_Relic_TextData",
+          "SourceString": "[テラリア コラボ]\r\n黄金に輝く<characterName id=|RAID_YakushimaBoss002|/>の像。\r\n絶望的な戦いを乗り越えた、強者の証。",
+          "LocalizedString": "[テラリア コラボ]\r\n黄金に輝く<characterName id=|RAID_YakushimaBoss002|/>の像。\r\n絶望的な戦いを乗り越えた、強者の証。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n木製のため、もろい。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n木製のため、もろい。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wood_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wood_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n木製のため、もろい。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n木製のため、もろい。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_01_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n上面が畳になっている。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n上面が畳になっている。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleRoof_02_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n上面が瓦になっている。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n上面が瓦になっている。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_01_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleStairsCorner_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Green_TextData",
+          "SourceString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Green_TextData",
+          "SourceString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Green_TextData",
+          "SourceString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Red_TextData",
+          "SourceString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Red_TextData",
+          "SourceString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Red": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Red_TextData",
+          "SourceString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の紅葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Yellow_TextData",
+          "SourceString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Yellow_TextData",
+          "SourceString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Yellow_TextData",
+          "SourceString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の黄葉樹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Cherry_TextData",
+          "SourceString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Cherry_TextData",
+          "SourceString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Cherry": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Cherry_TextData",
+          "SourceString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の桜。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Tropical_TextData",
+          "SourceString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Tropical_TextData",
+          "SourceString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Tropical_TextData",
+          "SourceString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の南国の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Snow_TextData",
+          "SourceString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Snow_TextData",
+          "SourceString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Snow_TextData",
+          "SourceString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の雪の積もった樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Desert_TextData",
+          "SourceString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Desert_TextData",
+          "SourceString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Desert": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Desert_TextData",
+          "SourceString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の砂漠の樹木。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree01_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree01_Bamboo_TextData",
+          "SourceString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree02_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree02_Bamboo_TextData",
+          "SourceString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureTree03_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureTree03_Bamboo_TextData",
+          "SourceString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の竹。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Green": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Green_TextData",
+          "SourceString": "装飾用の模型の茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Yellow_TextData",
+          "SourceString": "装飾用の模型の黄葉した茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の黄葉した茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Flower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Flower_TextData",
+          "SourceString": "装飾用の模型の花が咲いている茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の花が咲いている茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush02_Flower": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush02_Flower_TextData",
+          "SourceString": "装飾用の模型の花が咲いている茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の花が咲いている茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Tropical_TextData",
+          "SourceString": "装飾用の模型の南国の茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の南国の茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureBush01_Snow": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureBush01_Snow_TextData",
+          "SourceString": "装飾用の模型の白い茂み。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の白い茂み。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_FurnitureStone01": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_FurnitureStone01_TextData",
+          "SourceString": "装飾用の模型の岩。\r\nこの建築物から素材は取得できない。",
+          "LocalizedString": "装飾用の模型の岩。\r\nこの建築物から素材は取得できない。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableCircular_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableCircular_Wood_None_TextData",
+          "SourceString": "装飾用の片付いた丸いテーブル。",
+          "LocalizedString": "装飾用の片付いた丸いテーブル。"
+        }
+      },
+      "BUILDOBJECT_DESC_TableSquare_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_TableSquare_Wood_None_TextData",
+          "SourceString": "装飾用の片付いた四角いテーブル。",
+          "LocalizedString": "装飾用の片付いた四角いテーブル。"
+        }
+      },
+      "BUILDOBJECT_DESC_JetDragonStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JetDragonStatue_TextData",
+          "SourceString": "装飾用のジェッドランの像。",
+          "LocalizedString": "装飾用のジェッドランの像。"
+        }
+      },
+      "BUILDOBJECT_DESC_IceHorseStatue": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_IceHorseStatue_TextData",
+          "SourceString": "装飾用のグレイシャルの像。",
+          "LocalizedString": "装飾用のグレイシャルの像。"
+        }
+      },
+      "BUILDOBJECT_DESC_ArcadeVideoGame": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_ArcadeVideoGame_TextData",
+          "SourceString": "装飾用のアーケードゲーム筐体。\r\n壊れており、遊ぶことはできない。",
+          "LocalizedString": "装飾用のアーケードゲーム筐体。\r\n壊れており、遊ぶことはできない。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleFoundation_TextData",
+          "SourceString": "上に壁や施設を建てるための三角土台。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "上に壁や施設を建てるための三角土台。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_DiagonalWall_TextData",
+          "SourceString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "三角土台の上に建てて侵入者を防ぐための対角壁。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための三角屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleStairsCorner_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための角屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための角屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleWallReverse_TextData",
+          "SourceString": "土台の上に建てるための三角壁(反転)。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てるための三角壁(反転)。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_WallGate": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_WallGate_TextData",
+          "SourceString": "土台の上に建てて出入り口になるパル用の通路口。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てて出入り口になるパル用の通路口。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlopedRoofCorner_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_PyramidRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための錐型の屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_foundation": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_foundation_TextData",
+          "SourceString": "上に壁や施設を建てるための土台。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "上に壁や施設を建てるための土台。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_wall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_wall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための壁。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための壁。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_roof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_roof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_stair": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_stair_TextData",
+          "SourceString": "土台や屋根の下に置いて登れるようにする階段。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台や屋根の下に置いて登れるようにする階段。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_DoorWall_TextData",
+          "SourceString": "土台の上に建てて入り口になるドア。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てて入り口になるドア。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_TriangleWall_TextData",
+          "SourceString": "土台の上に建てるための三角壁。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てるための三角壁。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlantedRoof_TextData",
+          "SourceString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "壁の上に建てて雨風をしのぐための斜め屋根。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_WindowWall_TextData",
+          "SourceString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台の上に建てて侵入者を防ぐための窓付きの壁。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Pillars": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Pillars_TextData",
+          "SourceString": "建物を支えるための柱。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "建物を支えるための柱。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientWorkBench": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientWorkBench_TextData",
+          "SourceString": "すべてのアイテムを一か所で製作できる、パル専用の複合施設。\r\nプレイヤーは作業できず、製作速度も通常設備と変わらない。\r\n高度な設備のため、運用には高位の手作業と製薬の適性を持つパルが必要になる。",
+          "LocalizedString": "すべてのアイテムを一か所で製作できる、パル専用の複合施設。\r\nプレイヤーは作業できず、製作速度も通常設備と変わらない。\r\n高度な設備のため、運用には高位の手作業と製薬の適性を持つパルが必要になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientElectricGenerator_TextData",
+          "SourceString": "失われた古代技術を復元した、超高効率の発電機。\r\n莫大な電力を生み出せる反面、稼働中はオーバーヒートの危険を伴う。\r\n運用には高位の発電の適性を持つパルの他に、水やりの適性を持つパルが必要になる。",
+          "LocalizedString": "失われた古代技術を復元した、超高効率の発電機。\r\n莫大な電力を生み出せる反面、稼働中はオーバーヒートの危険を伴う。\r\n運用には高位の発電の適性を持つパルの他に、水やりの適性を持つパルが必要になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientBlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientBlastFurnace_TextData",
+          "SourceString": "すべてのインゴットを製錬できる、古代文明の技術を応用した特殊な炉。\r\n炎の熱で素材を溶かし、氷の力で一気に冷やし固めることで製錬を行う。\r\n稼働には、高位の火おこしと冷却の適性を持つパルが必要になる。",
+          "LocalizedString": "すべてのインゴットを製錬できる、古代文明の技術を応用した特殊な炉。\r\n炎の熱で素材を溶かし、氷の力で一気に冷やし固めることで製錬を行う。\r\n稼働には、高位の火おこしと冷却の適性を持つパルが必要になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientCookingStove": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientCookingStove_TextData",
+          "SourceString": "既存の料理から未知の新作まで作り出せる、古代文明のキッチン。\r\n炎で熱を蓄え、手作業で仕上げることで、あらゆる料理を完成させる。\r\n稼働には、高位の火おこしと手作業の適性を持つパルが必要になる。",
+          "LocalizedString": "既存の料理から未知の新作まで作り出せる、古代文明のキッチン。\r\n炎で熱を蓄え、手作業で仕上げることで、あらゆる料理を完成させる。\r\n稼働には、高位の火おこしと手作業の適性を持つパルが必要になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientMultiProduct": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientMultiProduct_TextData",
+          "SourceString": "世界樹の力を利用し、あらゆる木材や鉱石を生み出せる古代文明の生成器。\r\n複雑な構造のため、アサインできるパルは1体のみとなる。",
+          "LocalizedString": "世界樹の力を利用し、あらゆる木材や鉱石を生み出せる古代文明の生成器。\r\n複雑な構造のため、アサインできるパルは1体のみとなる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientFarmBlock": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientFarmBlock_TextData",
+          "SourceString": "世界樹の力で、パルパゴス島のあらゆる植物を育てられる古代文明の栽培器。\r\nベリー農園よりはるかに小型で屋内にも設置できるが、栽培の流れ自体は従来通り。\r\n稼働には、高位の種まき、水やり、採集の適性を持つパルが必要になる。",
+          "LocalizedString": "世界樹の力で、パルパゴス島のあらゆる植物を育てられる古代文明の栽培器。\r\nベリー農園よりはるかに小型で屋内にも設置できるが、栽培の流れ自体は従来通り。\r\n稼働には、高位の種まき、水やり、採集の適性を持つパルが必要になる。"
+        }
+      },
+      "BUILDOBJECT_DESC_DefenseMachinegun_AutoTurret": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DefenseMachinegun_AutoTurret_TextData",
+          "SourceString": "ロケットランチャー級のサイズと火力を備えた、古代文明の無人タレット。\r\n弾薬もパルの配置も不要で、電力だけで全自動の迎撃を行ってくれる。\r\n非常に強力な反面、稼働には膨大な電力を必要とする。",
+          "LocalizedString": "ロケットランチャー級のサイズと火力を備えた、古代文明の無人タレット。\r\n弾薬もパルの配置も不要で、電力だけで全自動の迎撃を行ってくれる。\r\n非常に強力な反面、稼働には膨大な電力を必要とする。"
+        }
+      },
+      "BUILDOBJECT_DESC_MultiElectricHatchingPalEggWithBreed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_MultiElectricHatchingPalEggWithBreed_TextData",
+          "SourceString": "電子ガラスに覆われた、古代文明の高度な配合施設。\r\nタマゴの生産から孵化までを全自動かつ高速で行い、希少なスキルの遺伝率も高める。\r\nパルはホログラム制御で管理されるため、広い牧場スペースを必要としない。",
+          "LocalizedString": "電子ガラスに覆われた、古代文明の高度な配合施設。\r\nタマゴの生産から孵化までを全自動かつ高速で行い、希少なスキルの遺伝率も高める。\r\nパルはホログラム制御で管理されるため、広い牧場スペースを必要としない。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard03": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard03_TextData",
+          "SourceString": "赤いパルジウムを埋め込んだ、古代テクノロジーによる監視台。\r\nホログラムのインターフェースで拠点全体に指示を出しながら、パルのSAN値減少を抑える。\r\n特殊な波長が拠点を包み込み、過酷な労働環境でもパルの心を穏やかに保ってくれる。",
+          "LocalizedString": "赤いパルジウムを埋め込んだ、古代テクノロジーによる監視台。\r\nホログラムのインターフェースで拠点全体に指示を出しながら、パルのSAN値減少を抑える。\r\n特殊な波長が拠点を包み込み、過酷な労働環境でもパルの心を穏やかに保ってくれる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_MedicalPalBed_TextData",
+          "SourceString": "生命を癒やす古代のポッドに柔らかな布を敷いた、最高級のパル用ベッド。\r\nあらゆるパルベッドの中でも特に高いSAN値回復量を誇り、疲労をすばやく取り除いてくれる。\r\n大きなパルベッドと同じサイズで、大型のパルも快適に休ませることができる。",
+          "LocalizedString": "生命を癒やす古代のポッドに柔らかな布を敷いた、最高級のパル用ベッド。\r\nあらゆるパルベッドの中でも特に高いSAN値回復量を誇り、疲労をすばやく取り除いてくれる。\r\n大きなパルベッドと同じサイズで、大型のパルも快適に休ませることができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientAirConditioner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientAirConditioner_TextData",
+          "SourceString": "拠点全体の温度を制御する、古代技術を用いた空調機。\r\n従来の冷暖房設備より小型で、通電しているだけで体感気温を快適な状態に保つ。\r\n温度調整用のパルは不要で、電力さえあれば過酷な気候も無効化できる。",
+          "LocalizedString": "拠点全体の温度を制御する、古代技術を用いた空調機。\r\n従来の冷暖房設備より小型で、通電しているだけで体感気温を快適な状態に保つ。\r\n温度調整用のパルは不要で、電力さえあれば過酷な気候も無効化できる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Spa": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Spa_TextData",
+          "SourceString": "パルジウム成分を溶かし込んだ特別な湯をたたえる、古代テクノロジーの温泉。\r\n全ての温泉の中でも最高クラスのSAN値回復量を誇り、あわせて体力も回復させる。\r\nサイズは従来の温泉と変わらず、傷ついたパルたちを極限まで癒やしてくれる。",
+          "LocalizedString": "パルジウム成分を溶かし込んだ特別な湯をたたえる、古代テクノロジーの温泉。\r\n全ての温泉の中でも最高クラスのSAN値回復量を誇り、あわせて体力も回復させる。\r\nサイズは従来の温泉と変わらず、傷ついたパルたちを極限まで癒やしてくれる。"
+        }
+      },
+      "BUILDOBJECT_DESC_AncientRelicRecycler": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_AncientRelicRecycler_TextData",
+          "SourceString": "失われた文明の技術を転用した、古代の物質変換装置。\r\n「古代文明の遺物」に遺された技術を紐解き、新たな形態へと昇華させる。\r\n遺物を無駄なく活用するための、極めて特殊な設備である。",
+          "LocalizedString": "失われた文明の技術を転用した、古代の物質変換装置。\r\n「古代文明の遺物」に遺された技術を紐解き、新たな形態へと昇華させる。\r\n遺物を無駄なく活用するための、極めて特殊な設備である。"
+        }
+      },
+      "BUILDOBJECT_DESC_Clinic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Clinic_TextData",
+          "SourceString": "拠点で働くパルたちの健康を管理するための基礎的な医療施設。\r\n製薬が得意なパルをアサインすることで、SAN値の減少を抑え、病気や怪我の発生を抑えることができる。\r\n維持できる衛生環境には一定の上限が存在するが、序盤の拠点運営における衛生管理の要となる。",
+          "LocalizedString": "拠点で働くパルたちの健康を管理するための基礎的な医療施設。\r\n製薬が得意なパルをアサインすることで、SAN値の減少を抑え、病気や怪我の発生を抑えることができる。\r\n維持できる衛生環境には一定の上限が存在するが、序盤の拠点運営における衛生管理の要となる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Clinic": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Clinic_TextData",
+          "SourceString": "古代の高度な医療技術を現代に再現した、最高峰の医療施設。\r\n一般的な診療所を大きく上回る保護能力を有している。\r\n熟練の製薬パルをアサインすれば、過酷な労働を強いる拠点であっても、最高の衛生レベルを維持することが可能。",
+          "LocalizedString": "古代の高度な医療技術を現代に再現した、最高峰の医療施設。\r\n一般的な診療所を大きく上回る保護能力を有している。\r\n熟練の製薬パルをアサインすれば、過酷な労働を強いる拠点であっても、最高の衛生レベルを維持することが可能。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIslandOrePit": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIslandOrePit_TextData",
+          "SourceString": "<itemName id=|SkyIslandOre|/>を生産するための施設。\r\n<itemName id=|SkyIslandOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|SkyIslandOre|/>を生産するための施設。\r\n<itemName id=|SkyIslandOre|/>を掘る作業は過酷で体力が必要だ。\r\n採掘が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_DarkIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DarkIsland_Flag_TextData",
+          "SourceString": "装飾用の天落の民の団旗。",
+          "LocalizedString": "装飾用の天落の民の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_DarkIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_DarkIsland_Banner_TextData",
+          "SourceString": "装飾用の天落の民の縦幕。",
+          "LocalizedString": "装飾用の天落の民の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIsland_Flag_TextData",
+          "SourceString": "装飾用の蒼天の盟約の団旗。",
+          "LocalizedString": "装飾用の蒼天の盟約の団旗。"
+        }
+      },
+      "BUILDOBJECT_DESC_SkyIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SkyIsland_Banner_TextData",
+          "SourceString": "装飾用の蒼天の盟約の縦幕。",
+          "LocalizedString": "装飾用の蒼天の盟約の縦幕。"
+        }
+      },
+      "BUILDOBJECT_DESC_StationDeforest3": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_StationDeforest3_TextData",
+          "SourceString": "<itemName id=|Wood_Fine|/>を生産するための施設。\r\n木を切る作業は過酷で体力が必要だ。\r\n伐採が得意なパルに任せよう。",
+          "LocalizedString": "<itemName id=|Wood_Fine|/>を生産するための施設。\r\n木を切る作業は過酷で体力が必要だ。\r\n伐採が得意なパルに任せよう。"
+        }
+      },
+      "BUILDOBJECT_DESC_BaseCampWorkHard02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_BaseCampWorkHard02_TextData",
+          "SourceString": "素材と構造を見直し、より洗練された造りになった監視台。\r\n従来通りの作業指示を出せるうえに、拠点内のパルのSAN値が減りにくくなる。\r\n労働環境が少しだけ改善され、パルたちも不満を抱えにくくなるだろう。",
+          "LocalizedString": "素材と構造を見直し、より洗練された造りになった監視台。\r\n従来通りの作業指示を出せるうえに、拠点内のパルのSAN値が減りにくくなる。\r\n労働環境が少しだけ改善され、パルたちも不満を抱えにくくなるだろう。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_Fence": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_Fence_TextData",
+          "SourceString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "土台や屋根の上に建てて落下を防ぐための柵。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_Wooden_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Wooden_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n木製のため、もろい。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n木製のため、もろい。"
+        }
+      },
+      "BUILDOBJECT_DESC_Stone_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Stone_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n石で出来ているため、それなりに頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n石で出来ているため、それなりに頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Iron_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Iron_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n金属で出来ているためとても頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n金属で出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_Glass_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Glass_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n硬いガラスで出来ているためとても頑丈。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n硬いガラスで出来ているためとても頑丈。"
+        }
+      },
+      "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_JapaneseStyle_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n和風でおしゃれな建築ができる。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n和風でおしゃれな建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_SF_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_SF_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\nクリーンで近未来的な建築ができる。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\nクリーンで近未来的な建築ができる。"
+        }
+      },
+      "BUILDOBJECT_DESC_Ancient_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_Ancient_SlopedRoofCornerReverse_TextData",
+          "SourceString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n古代文明の建築様式を再現している。",
+          "LocalizedString": "対角壁の上に建てて雨風をしのぐための三角斜め屋根(反転)。\r\n古代文明の建築様式を再現している。"
+        }
+      },
+      "BUILDOBJECT_DESC_OilPump02": {
+        "TextData": {
+          "Namespace": "DT_BuildObjectDescText_Common",
+          "Key": "BUILDOBJECT_DESC_OilPump02_TextData",
+          "SourceString": "地下深くから<itemName id=|CrudeOil|/>を汲み上げ、抽出する装置。\r\n油田のない場所でも<itemName id=|CrudeOil|/>を生み出せるが、建築物のない地上にしか置けない。\r\n<mapObjectName id=|OilPump|/>よりも莫大な電力の供給が必要。",
+          "LocalizedString": "地下深くから<itemName id=|CrudeOil|/>を汲み上げ、抽出する装置。\r\n油田のない場所でも<itemName id=|CrudeOil|/>を生み出せるが、建築物のない地上にしか置けない。\r\n<mapObjectName id=|OilPump|/>よりも莫大な電力の供給が必要。"
+        }
+      }
+    }
+  }
+]

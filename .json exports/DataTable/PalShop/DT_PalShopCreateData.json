@@ -1,0 +1,408 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalShopCreateData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/PalShop/DT_PalShopCreateData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalPalShopCreateDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Test_00": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "ChickenPal"
+          },
+          {
+            "Key": "PinkCat"
+          },
+          {
+            "Key": "SheepBall"
+          },
+          {
+            "Key": "Kitsunebi"
+          },
+          {
+            "Key": "Penguin"
+          },
+          {
+            "Key": "Carbunclo"
+          },
+          {
+            "Key": "LeafMomonga"
+          },
+          {
+            "Key": "HawkBird"
+          },
+          {
+            "Key": "Garm"
+          },
+          {
+            "Key": "Deer"
+          }
+        ],
+        "MinCharacterLevel": 10,
+        "MaxCharacterLevel": 15
+      },
+      "Test_01": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "FlowerRabbit"
+          },
+          {
+            "Key": "SweetsSheep"
+          },
+          {
+            "Key": "Hedgehog_Ice"
+          },
+          {
+            "Key": "Bastet"
+          },
+          {
+            "Key": "Eagle"
+          },
+          {
+            "Key": "PinkRabbit"
+          },
+          {
+            "Key": "MopKing"
+          },
+          {
+            "Key": "ColorfulBird"
+          },
+          {
+            "Key": "LizardMan"
+          },
+          {
+            "Key": "Serpent"
+          },
+          {
+            "Key": "Alpaca"
+          },
+          {
+            "Key": "MopBaby"
+          },
+          {
+            "Key": "NegativeOctopus"
+          },
+          {
+            "Key": "NightFox"
+          },
+          {
+            "Key": "RobinHood"
+          },
+          {
+            "Key": "CatBat"
+          },
+          {
+            "Key": "LazyCatfish"
+          },
+          {
+            "Key": "LittleBriarRose"
+          },
+          {
+            "Key": "CatMage"
+          },
+          {
+            "Key": "CatVampire"
+          },
+          {
+            "Key": "Werewolf"
+          },
+          {
+            "Key": "GhostBeast"
+          },
+          {
+            "Key": "Bastet_Ice"
+          },
+          {
+            "Key": "WhiteTiger"
+          },
+          {
+            "Key": "WeaselDragon"
+          },
+          {
+            "Key": "HawkBird"
+          },
+          {
+            "Key": "VioletFairy"
+          },
+          {
+            "Key": "Baphomet"
+          },
+          {
+            "Key": "FairyDragon"
+          },
+          {
+            "Key": "Baphomet_Dark"
+          },
+          {
+            "Key": "FlowerDinosaur"
+          },
+          {
+            "Key": "LavaGirl"
+          },
+          {
+            "Key": "WoolFox"
+          },
+          {
+            "Key": "RaijinDaughter"
+          },
+          {
+            "Key": "HerculesBeetle"
+          },
+          {
+            "Key": "FlowerDoll"
+          },
+          {
+            "Key": "LazyDragon"
+          },
+          {
+            "Key": "Mutant"
+          },
+          {
+            "Key": "SoldierBee"
+          },
+          {
+            "Key": "Eagle"
+          },
+          {
+            "Key": "CuteFox"
+          },
+          {
+            "Key": "CuteMole"
+          },
+          {
+            "Key": "WindChimes"
+          },
+          {
+            "Key": "DarkCrow"
+          },
+          {
+            "Key": "KingAlpaca"
+          },
+          {
+            "Key": "CaptainPenguin"
+          },
+          {
+            "Key": "Kitsunebi_Ice"
+          }
+        ],
+        "MinCharacterLevel": 5,
+        "MaxCharacterLevel": 10
+      },
+      "Desert_00": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "RaijinDaughter"
+          },
+          {
+            "Key": "CactusDoll"
+          },
+          {
+            "Key": "DarkCrow"
+          },
+          {
+            "Key": "DrillGame"
+          },
+          {
+            "Key": "FlowerDinosaur_Electric"
+          },
+          {
+            "Key": "Gorilla_Ground"
+          },
+          {
+            "Key": "FeatherOstrich"
+          },
+          {
+            "Key": "Serpent_Ground"
+          }
+        ],
+        "MinCharacterLevel": 40,
+        "MaxCharacterLevel": 45
+      },
+      "Volcano_00": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "LavaGirl"
+          },
+          {
+            "Key": "LizardMan"
+          },
+          {
+            "Key": "BluePlatypus_Fire"
+          },
+          {
+            "Key": "Kelpie_Fire"
+          },
+          {
+            "Key": "TentacleTurtle"
+          },
+          {
+            "Key": "SharkKid_Fire"
+          },
+          {
+            "Key": "FlameBuffalo"
+          },
+          {
+            "Key": "BirdDragon"
+          }
+        ],
+        "MinCharacterLevel": 30,
+        "MaxCharacterLevel": 35
+      },
+      "Dark_01": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "GhostBlackCat"
+          },
+          {
+            "Key": "LazyCatfish"
+          },
+          {
+            "Key": "CatBat"
+          },
+          {
+            "Key": "SoldierBee"
+          },
+          {
+            "Key": "GrassPanda"
+          },
+          {
+            "Key": "GrassMinotaur"
+          },
+          {
+            "Key": "CatMage"
+          },
+          {
+            "Key": "RobinHood"
+          },
+          {
+            "Key": "HadesBird"
+          },
+          {
+            "Key": "GrassMammoth"
+          },
+          {
+            "Key": "HerculesBeetle"
+          }
+        ],
+        "MinCharacterLevel": 20,
+        "MaxCharacterLevel": 30
+      },
+      "Dark_02": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "LizardMan_Fire"
+          },
+          {
+            "Key": "FoxMage"
+          },
+          {
+            "Key": "Baphomet"
+          },
+          {
+            "Key": "Ronin"
+          },
+          {
+            "Key": "Manticore"
+          },
+          {
+            "Key": "RedArmorBird"
+          },
+          {
+            "Key": "VolcanoDragon"
+          },
+          {
+            "Key": "FireKirin"
+          },
+          {
+            "Key": "LazyDragon"
+          }
+        ],
+        "MinCharacterLevel": 35,
+        "MaxCharacterLevel": 40
+      },
+      "Dark_03": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "Gorilla_Ground"
+          },
+          {
+            "Key": "MummyPal"
+          },
+          {
+            "Key": "DarkScorpion"
+          },
+          {
+            "Key": "LazyDragon_Electric"
+          },
+          {
+            "Key": "ThunderBird"
+          },
+          {
+            "Key": "TropicalOstrich"
+          },
+          {
+            "Key": "Sekhmet"
+          },
+          {
+            "Key": "PinkLizard"
+          }
+        ],
+        "MinCharacterLevel": 42,
+        "MaxCharacterLevel": 48
+      },
+      "Dark_04": {
+        "MaxLostPalNum": 5,
+        "CharacterNum": 5,
+        "CharacterIDArray": [
+          {
+            "Key": "IceFox"
+          },
+          {
+            "Key": "WhiteTiger"
+          },
+          {
+            "Key": "Mutant"
+          },
+          {
+            "Key": "SkyDragon"
+          },
+          {
+            "Key": "Yeti"
+          },
+          {
+            "Key": "GrassMammoth_Ice"
+          },
+          {
+            "Key": "IceWitch"
+          },
+          {
+            "Key": "GrassGolem"
+          }
+        ],
+        "MinCharacterLevel": 50,
+        "MaxCharacterLevel": 55
+      }
+    }
+  }
+]

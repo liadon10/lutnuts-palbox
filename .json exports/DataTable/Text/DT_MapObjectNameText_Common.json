@@ -1,0 +1,4953 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapObjectNameText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_MapObjectNameText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MAPOBJECT_NAME_DummyFoliage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DummyFoliage_TextData",
+          "SourceString": "木",
+          "LocalizedString": "木"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace_TextData",
+          "SourceString": "原始的な炉",
+          "LocalizedString": "原始的な炉"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace2_TextData",
+          "SourceString": "改善された炉",
+          "LocalizedString": "改善された炉"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace3_TextData",
+          "SourceString": "電気炉",
+          "LocalizedString": "電気炉"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace5": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_CampFire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CampFire_TextData",
+          "SourceString": "キャンプファイア",
+          "LocalizedString": "キャンプファイア"
+        }
+      },
+      "MAPOBJECT_NAME_CharacterRankUp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CharacterRankUp_TextData",
+          "SourceString": "パル濃縮ポッド",
+          "LocalizedString": "パル濃縮ポッド"
+        }
+      },
+      "MAPOBJECT_NAME_CookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CookingStove_TextData",
+          "SourceString": "調理鍋",
+          "LocalizedString": "調理鍋"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0001_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0002": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0002_TextData",
+          "SourceString": "金属鉱石",
+          "LocalizedString": "金属鉱石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0003": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0003_TextData",
+          "SourceString": "ピュアクォーツ",
+          "LocalizedString": "ピュアクォーツ"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0004": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0004_TextData",
+          "SourceString": "石炭",
+          "LocalizedString": "石炭"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0005": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0005_TextData",
+          "SourceString": "パルジウム鉱石",
+          "LocalizedString": "パルジウム鉱石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0006": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0006_TextData",
+          "SourceString": "硫黄",
+          "LocalizedString": "硫黄"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0007": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0007_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0008": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0008_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0009": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0009_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0010": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0010_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0011": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0011_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0012": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0012_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0013": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0013_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0014": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0014_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0015": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0015_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0016": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0016_TextData",
+          "SourceString": "石",
+          "LocalizedString": "石"
+        }
+      },
+      "MAPOBJECT_NAME_DeathPenaltyChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DeathPenaltyChest_TextData",
+          "SourceString": "死亡時チェスト",
+          "LocalizedString": "死亡時チェスト"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseGatlingGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseGatlingGun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_TextData",
+          "SourceString": "設置型マシンガン",
+          "LocalizedString": "設置型マシンガン"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMinigun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMinigun_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMissile": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMissile_TextData",
+          "SourceString": "設置型ミサイルランチャー",
+          "LocalizedString": "設置型ミサイルランチャー"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseBowGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseBowGun_TextData",
+          "SourceString": "設置型クロスボウ",
+          "LocalizedString": "設置型クロスボウ"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWait": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWait_TextData",
+          "SourceString": "土嚢",
+          "LocalizedString": "土嚢"
+        }
+      },
+      "MAPOBJECT_NAME_DUMMY": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DUMMY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_TextData",
+          "SourceString": "発電機",
+          "LocalizedString": "発電機"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Slave": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Slave_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricKitchen_TextData",
+          "SourceString": "電気キッチン",
+          "LocalizedString": "電気キッチン"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Comfortable_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Comfortable_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_01_TextData",
+          "SourceString": "上質な作業台",
+          "LocalizedString": "上質な作業台"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_02_TextData",
+          "SourceString": "作業ライン工場",
+          "LocalizedString": "作業ライン工場"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_03_TextData",
+          "SourceString": "作業ライン工場Ⅱ",
+          "LocalizedString": "作業ライン工場Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlock_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Grade03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Grade03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_wheet": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_wheet_TextData",
+          "SourceString": "小麦農園",
+          "LocalizedString": "小麦農園"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_tomato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_tomato_TextData",
+          "SourceString": "トマト農園",
+          "LocalizedString": "トマト農園"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Lettuce": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Lettuce_TextData",
+          "SourceString": "レタス農園",
+          "LocalizedString": "レタス農園"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Berries": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Berries_TextData",
+          "SourceString": "ベリー農園",
+          "LocalizedString": "ベリー農園"
+        }
+      },
+      "MAPOBJECT_NAME_FastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FastTravelPoint_TextData",
+          "SourceString": "大鷲の像",
+          "LocalizedString": "大鷲の像"
+        }
+      },
+      "MAPOBJECT_NAME_Floor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Floor_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Floor_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_FoliageLogTest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FoliageLogTest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_HighTechKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HighTechKitchen_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_TextData",
+          "SourceString": "木のチェスト",
+          "LocalizedString": "木のチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_02_TextData",
+          "SourceString": "金属のチェスト",
+          "LocalizedString": "金属のチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_03_TextData",
+          "SourceString": "精錬金属のチェスト",
+          "LocalizedString": "精錬金属のチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_02_TextData",
+          "SourceString": "わらのパルベッド",
+          "LocalizedString": "わらのパルベッド"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_03_TextData",
+          "SourceString": "ふかふかパルベッド",
+          "LocalizedString": "ふかふかパルベッド"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_04_TextData",
+          "SourceString": "大きなパルベッド",
+          "LocalizedString": "大きなパルベッド"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_01_TextData",
+          "SourceString": "中世の製薬台",
+          "LocalizedString": "中世の製薬台"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_02_TextData",
+          "SourceString": "電気製薬台",
+          "LocalizedString": "電気製薬台"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03_Old": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_Old_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalFoodBox_TextData",
+          "SourceString": "エサ箱",
+          "LocalizedString": "エサ箱"
+        }
+      },
+      "MAPOBJECT_NAME_PalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalStorage_TextData",
+          "SourceString": "パルボックス",
+          "LocalizedString": "パルボックス"
+        }
+      },
+      "MAPOBJECT_NAME_PalBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBoxV2_TextData",
+          "SourceString": "パルボックス",
+          "LocalizedString": "パルボックス"
+        }
+      },
+      "MAPOBJECT_NAME_DisplayCharacter": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DisplayCharacter_TextData",
+          "SourceString": "鑑賞用ケージ",
+          "LocalizedString": "鑑賞用ケージ"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Flint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Flint_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Log": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Log_TextData",
+          "SourceString": "木材",
+          "LocalizedString": "木材"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_RedBerry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_RedBerry_TextData",
+          "SourceString": "赤いベリー",
+          "LocalizedString": "赤いベリー"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Stone_TextData",
+          "SourceString": "小石",
+          "LocalizedString": "小石"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Potato_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_02_TextData",
+          "SourceString": "低質なベッド",
+          "LocalizedString": "低質なベッド"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_03_TextData",
+          "SourceString": "上質なベッド",
+          "LocalizedString": "上質なベッド"
+        }
+      },
+      "MAPOBJECT_NAME_PlayerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PlayerBed_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ShippingItemBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ShippingItemBox_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_01_TextData",
+          "SourceString": "スフィア製作台",
+          "LocalizedString": "スフィア製作台"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_02_TextData",
+          "SourceString": "スフィアライン工場",
+          "LocalizedString": "スフィアライン工場"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_03_TextData",
+          "SourceString": "スフィアライン工場Ⅱ",
+          "LocalizedString": "スフィアライン工場Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_White_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_White_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Stonehouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stonehouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_StonePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StonePit_TextData",
+          "SourceString": "採石場",
+          "LocalizedString": "採石場"
+        }
+      },
+      "MAPOBJECT_NAME_CopperMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperMine_TextData",
+          "SourceString": "金属採掘場",
+          "LocalizedString": "金属採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_SteelMine": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SteelMine_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Strawhouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Strawhouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_TEST_TestGlobalContainer": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TEST_TestGlobalContainer_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Stone_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wall_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponChest_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Base": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Base_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Clean_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Clean_03_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_01_TextData",
+          "SourceString": "武器製作台",
+          "LocalizedString": "武器製作台"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_02_TextData",
+          "SourceString": "武器ライン工場",
+          "LocalizedString": "武器ライン工場"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_03_TextData",
+          "SourceString": "武器ライン工場Ⅱ",
+          "LocalizedString": "武器ライン工場Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactry_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Well": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Well_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WoodHouse1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodHouse1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_TextData",
+          "SourceString": "原始的な作業台",
+          "LocalizedString": "原始的な作業台"
+        }
+      },
+      "MAPOBJECT_NAME_RecoverOtomo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RecoverOtomo_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Fire_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Water_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Leaf": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Leaf_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Electricity": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Electricity_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Ice_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Earth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Earth_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dark": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dark_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_PalEgg_Dragon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalEgg_Dragon_TextData",
+          "SourceString": "パルのタマゴ",
+          "LocalizedString": "パルのタマゴ"
+        }
+      },
+      "MAPOBJECT_NAME_HatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HatchingPalEgg_TextData",
+          "SourceString": "タマゴ孵化器",
+          "LocalizedString": "タマゴ孵化器"
+        }
+      },
+      "MAPOBJECT_NAME_TowerFastTravelPoint": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowerFastTravelPoint_TextData",
+          "SourceString": "大鷲の像",
+          "LocalizedString": "大鷲の像"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest2_TextData",
+          "SourceString": "伐採場",
+          "LocalizedString": "伐採場"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillUnlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillUnlock_TextData",
+          "SourceString": "パルギア製作台",
+          "LocalizedString": "パルギア製作台"
+        }
+      },
+      "MAPOBJECT_NAME_WorkBench_SkillCard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkBench_SkillCard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Foundation_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Roof_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Stairs": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stairs_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_foundation_TextData",
+          "SourceString": "木の土台",
+          "LocalizedString": "木の土台"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_wall_TextData",
+          "SourceString": "木の壁",
+          "LocalizedString": "木の壁"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_roof_TextData",
+          "SourceString": "木の屋根",
+          "LocalizedString": "木の屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_stair_TextData",
+          "SourceString": "木の階段",
+          "LocalizedString": "木の階段"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DoorWall_TextData",
+          "SourceString": "木のドア",
+          "LocalizedString": "木のドア"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_foundation_TextData",
+          "SourceString": "石の土台",
+          "LocalizedString": "石の土台"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_wall_TextData",
+          "SourceString": "石の壁",
+          "LocalizedString": "石の壁"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_roof_TextData",
+          "SourceString": "石の屋根",
+          "LocalizedString": "石の屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_stair_TextData",
+          "SourceString": "石の階段",
+          "LocalizedString": "石の階段"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_foundation_TextData",
+          "SourceString": "金属の土台",
+          "LocalizedString": "金属の土台"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_wall_TextData",
+          "SourceString": "金属の壁",
+          "LocalizedString": "金属の壁"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_roof_TextData",
+          "SourceString": "金属の屋根",
+          "LocalizedString": "金属の屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_stair_TextData",
+          "SourceString": "金属の階段",
+          "LocalizedString": "金属の階段"
+        }
+      },
+      "MAPOBJECT_NAME_Heater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Heater_TextData",
+          "SourceString": "炎のヒーター",
+          "LocalizedString": "炎のヒーター"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHeater": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHeater_TextData",
+          "SourceString": "電気ヒーター",
+          "LocalizedString": "電気ヒーター"
+        }
+      },
+      "MAPOBJECT_NAME_Cooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cooler_TextData",
+          "SourceString": "氷のクーラー",
+          "LocalizedString": "氷のクーラー"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricCooler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricCooler_TextData",
+          "SourceString": "電気クーラー",
+          "LocalizedString": "電気クーラー"
+        }
+      },
+      "MAPOBJECT_NAME_Torch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Torch_TextData",
+          "SourceString": "設置たいまつ",
+          "LocalizedString": "設置たいまつ"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch_TextData",
+          "SourceString": "壁掛けたいまつ",
+          "LocalizedString": "壁掛けたいまつ"
+        }
+      },
+      "MAPOBJECT_NAME_Lamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lamp_TextData",
+          "SourceString": "設置ランプ",
+          "LocalizedString": "設置ランプ"
+        }
+      },
+      "MAPOBJECT_NAME_CeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CeilingLamp_TextData",
+          "SourceString": "天井ランプ",
+          "LocalizedString": "天井ランプ"
+        }
+      },
+      "MAPOBJECT_NAME_LargeLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeLamp_TextData",
+          "SourceString": "設置大型ランプ",
+          "LocalizedString": "設置大型ランプ"
+        }
+      },
+      "MAPOBJECT_NAME_LargeCeilingLamp": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LargeCeilingLamp_TextData",
+          "SourceString": "大型天井ランプ",
+          "LocalizedString": "大型天井ランプ"
+        }
+      },
+      "MAPOBJECT_NAME_BuildableGoddessStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BuildableGoddessStatue_TextData",
+          "SourceString": "力の石像",
+          "LocalizedString": "力の石像"
+        }
+      },
+      "MAPOBJECT_NAME_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa_TextData",
+          "SourceString": "温泉",
+          "LocalizedString": "温泉"
+        }
+      },
+      "MAPOBJECT_NAME_Spa2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa2_TextData",
+          "SourceString": "上質な温泉",
+          "LocalizedString": "上質な温泉"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Mushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Mushroom_TextData",
+          "SourceString": "キノコ",
+          "LocalizedString": "キノコ"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Poppy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Poppy_TextData",
+          "SourceString": "きれいな花",
+          "LocalizedString": "きれいな花"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_TextData",
+          "SourceString": "石の防壁",
+          "LocalizedString": "石の防壁"
+        }
+      },
+      "MAPOBJECT_NAME_Crusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Crusher_TextData",
+          "SourceString": "粉砕機",
+          "LocalizedString": "粉砕機"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCrusher_TextData",
+          "SourceString": "木材解体台",
+          "LocalizedString": "木材解体台"
+        }
+      },
+      "MAPOBJECT_NAME_FlourMill": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlourMill_TextData",
+          "SourceString": "製粉機",
+          "LocalizedString": "製粉機"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_TextData",
+          "SourceString": "とらばさみ(小)",
+          "LocalizedString": "とらばさみ(小)"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_LegHold_Big": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_LegHold_Big_TextData",
+          "SourceString": "とらばさみ(大)",
+          "LocalizedString": "とらばさみ(大)"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_Noose": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_Noose_TextData",
+          "SourceString": "宙吊り罠",
+          "LocalizedString": "宙吊り罠"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MovingPanel": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MovingPanel_TextData",
+          "SourceString": "移動パネル",
+          "LocalizedString": "移動パネル"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineElecShock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineElecShock_TextData",
+          "SourceString": "感電地雷",
+          "LocalizedString": "感電地雷"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineFreeze": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineFreeze_TextData",
+          "SourceString": "氷結地雷",
+          "LocalizedString": "氷結地雷"
+        }
+      },
+      "MAPOBJECT_NAME_Trap_MineAttack": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Trap_MineAttack_TextData",
+          "SourceString": "地雷",
+          "LocalizedString": "地雷"
+        }
+      },
+      "MAPOBJECT_NAME_BreedFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BreedFarm_TextData",
+          "SourceString": "配合牧場",
+          "LocalizedString": "配合牧場"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_ToolBoxV1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToolBoxV1_TextData",
+          "SourceString": "大きな工具箱",
+          "LocalizedString": "大きな工具箱"
+        }
+      },
+      "MAPOBJECT_NAME_OlympicCauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OlympicCauldron_TextData",
+          "SourceString": "聖火台",
+          "LocalizedString": "聖火台"
+        }
+      },
+      "MAPOBJECT_NAME_Fountain": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fountain_TextData",
+          "SourceString": "噴水",
+          "LocalizedString": "噴水"
+        }
+      },
+      "MAPOBJECT_NAME_Silo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Silo_TextData",
+          "SourceString": "サイロ",
+          "LocalizedString": "サイロ"
+        }
+      },
+      "MAPOBJECT_NAME_TransmissionTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TransmissionTower_TextData",
+          "SourceString": "送電塔",
+          "LocalizedString": "送電塔"
+        }
+      },
+      "MAPOBJECT_NAME_FlowerBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FlowerBed_TextData",
+          "SourceString": "花壇",
+          "LocalizedString": "花壇"
+        }
+      },
+      "MAPOBJECT_NAME_Stump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stump_TextData",
+          "SourceString": "切り株と斧",
+          "LocalizedString": "切り株と斧"
+        }
+      },
+      "MAPOBJECT_NAME_MiningTool": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MiningTool_TextData",
+          "SourceString": "採掘ワゴン",
+          "LocalizedString": "採掘ワゴン"
+        }
+      },
+      "MAPOBJECT_NAME_Cauldron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Cauldron_TextData",
+          "SourceString": "魔女の鍋",
+          "LocalizedString": "魔女の鍋"
+        }
+      },
+      "MAPOBJECT_NAME_Snowman": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Snowman_TextData",
+          "SourceString": "雪だるま",
+          "LocalizedString": "雪だるま"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DoorWall_TextData",
+          "SourceString": "石のドア",
+          "LocalizedString": "石のドア"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_DoorWall_TextData",
+          "SourceString": "金属のドア",
+          "LocalizedString": "金属のドア"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerBox_TextData",
+          "SourceString": "クーラーボックス",
+          "LocalizedString": "クーラーボックス"
+        }
+      },
+      "MAPOBJECT_NAME_Refrigerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Refrigerator_TextData",
+          "SourceString": "冷蔵庫",
+          "LocalizedString": "冷蔵庫"
+        }
+      },
+      "MAPOBJECT_NAME_Decal_PalSticker_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Decal_PalSticker_PinkCat_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_MonsterFarm": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MonsterFarm_TextData",
+          "SourceString": "家畜牧場",
+          "LocalizedString": "家畜牧場"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Gate_TextData",
+          "SourceString": "木の門",
+          "LocalizedString": "木の門"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Gate_TextData",
+          "SourceString": "石の門",
+          "LocalizedString": "石の門"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Gate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Gate_TextData",
+          "SourceString": "金属の門",
+          "LocalizedString": "金属の門"
+        }
+      },
+      "MAPOBJECT_NAME_RepairBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_RepairBench_TextData",
+          "SourceString": "修理台",
+          "LocalizedString": "修理台"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard_TextData",
+          "SourceString": "監視台",
+          "LocalizedString": "監視台"
+        }
+      },
+      "MAPOBJECT_NAME_Signboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Signboard_TextData",
+          "SourceString": "看板",
+          "LocalizedString": "看板"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampBattleDirector": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampBattleDirector_TextData",
+          "SourceString": "警鐘",
+          "LocalizedString": "警鐘"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_TextData",
+          "SourceString": "四角いテーブル",
+          "LocalizedString": "四角いテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_TextData",
+          "SourceString": "丸いテーブル",
+          "LocalizedString": "丸いテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_Bench_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bench_Wood_TextData",
+          "SourceString": "木のベンチ",
+          "LocalizedString": "木のベンチ"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_Wood_TextData",
+          "SourceString": "木のスツール",
+          "LocalizedString": "木のスツール"
+        }
+      },
+      "MAPOBJECT_NAME_Stool_High_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool_High_Wood_TextData",
+          "SourceString": "木のハイスツール",
+          "LocalizedString": "木のハイスツール"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel_Wood_TextData",
+          "SourceString": "木の樽",
+          "LocalizedString": "木の樽"
+        }
+      },
+      "MAPOBJECT_NAME_Box_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box_Wood_TextData",
+          "SourceString": "木の箱",
+          "LocalizedString": "木の箱"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Wood_TextData",
+          "SourceString": "木の棚",
+          "LocalizedString": "木の棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Cask_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Cask_Wood_TextData",
+          "SourceString": "木の樽棚",
+          "LocalizedString": "木の樽棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang01_Wood_TextData",
+          "SourceString": "木の壁付け棚",
+          "LocalizedString": "木の壁付け棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf_Hang02_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf_Hang02_Wood_TextData",
+          "SourceString": "木の壁付け装飾棚",
+          "LocalizedString": "木の壁付け装飾棚"
+        }
+      },
+      "MAPOBJECT_NAME_Counter_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Counter_Wood_TextData",
+          "SourceString": "木のカウンター",
+          "LocalizedString": "木のカウンター"
+        }
+      },
+      "MAPOBJECT_NAME_Rug_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug_Wood_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy01_TextData",
+          "SourceString": "壁掛けの大きなツタ",
+          "LocalizedString": "壁掛けの大きなツタ"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy02_TextData",
+          "SourceString": "壁掛けの小さなツタ",
+          "LocalizedString": "壁掛けの小さなツタ"
+        }
+      },
+      "MAPOBJECT_NAME_Ivy03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ivy03_TextData",
+          "SourceString": "壁掛け横長のツタ",
+          "LocalizedString": "壁掛け横長のツタ"
+        }
+      },
+      "MAPOBJECT_NAME_DamagedScarecrow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagedScarecrow_TextData",
+          "SourceString": "ダメージかかし",
+          "LocalizedString": "ダメージかかし"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Wood_TextData",
+          "SourceString": "木の椅子",
+          "LocalizedString": "木の椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel01_Iron_TextData",
+          "SourceString": "赤色のドラム缶",
+          "LocalizedString": "赤色のドラム缶"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel02_Iron_TextData",
+          "SourceString": "青色のドラム缶",
+          "LocalizedString": "青色のドラム缶"
+        }
+      },
+      "MAPOBJECT_NAME_Barrel03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Barrel03_Iron_TextData",
+          "SourceString": "緑色のドラム缶",
+          "LocalizedString": "緑色のドラム缶"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Iron_TextData",
+          "SourceString": "小さなコンテナ",
+          "LocalizedString": "小さなコンテナ"
+        }
+      },
+      "MAPOBJECT_NAME_Box02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box02_Iron_TextData",
+          "SourceString": "布付きコンテナ",
+          "LocalizedString": "布付きコンテナ"
+        }
+      },
+      "MAPOBJECT_NAME_CableCoil01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CableCoil01_Iron_TextData",
+          "SourceString": "ケーブルドラム",
+          "LocalizedString": "ケーブルドラム"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Iron_TextData",
+          "SourceString": "皮張りの椅子",
+          "LocalizedString": "皮張りの椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Iron_TextData",
+          "SourceString": "鉄製の椅子",
+          "LocalizedString": "鉄製の椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Wall_Iron_TextData",
+          "SourceString": "壁掛け時計",
+          "LocalizedString": "壁掛け時計"
+        }
+      },
+      "MAPOBJECT_NAME_Container01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Container01_Iron_TextData",
+          "SourceString": "大型コンテナ",
+          "LocalizedString": "大型コンテナ"
+        }
+      },
+      "MAPOBJECT_NAME_GarbageBag_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GarbageBag_Iron_TextData",
+          "SourceString": "ゴミぶくろ",
+          "LocalizedString": "ゴミぶくろ"
+        }
+      },
+      "MAPOBJECT_NAME_GoalSoccer_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GoalSoccer_Iron_TextData",
+          "SourceString": "サッカーゴール",
+          "LocalizedString": "サッカーゴール"
+        }
+      },
+      "MAPOBJECT_NAME_MachineGame01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineGame01_Iron_TextData",
+          "SourceString": "クレーンゲーム",
+          "LocalizedString": "クレーンゲーム"
+        }
+      },
+      "MAPOBJECT_NAME_MachineVending01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MachineVending01_Iron_TextData",
+          "SourceString": "コーラ自動販売機",
+          "LocalizedString": "コーラ自動販売機"
+        }
+      },
+      "MAPOBJECT_NAME_PipeClay01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PipeClay01_Iron_TextData",
+          "SourceString": "土管",
+          "LocalizedString": "土管"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Iron_TextData",
+          "SourceString": "アイアン系の棚",
+          "LocalizedString": "アイアン系の棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Iron_TextData",
+          "SourceString": "アイアン系の横長の棚",
+          "LocalizedString": "アイアン系の横長の棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Iron_TextData",
+          "SourceString": "オレンジのロッカー",
+          "LocalizedString": "オレンジのロッカー"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Iron_TextData",
+          "SourceString": "ロッカー",
+          "LocalizedString": "ロッカー"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Ceiling_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Ceiling_Iron_TextData",
+          "SourceString": "非常口サイン天井付け",
+          "LocalizedString": "非常口サイン天井付け"
+        }
+      },
+      "MAPOBJECT_NAME_SignExit_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SignExit_Wall_Iron_TextData",
+          "SourceString": "非常口サイン壁付け",
+          "LocalizedString": "非常口サイン壁付け"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Iron_TextData",
+          "SourceString": "皮張りの1人用ソファ",
+          "LocalizedString": "皮張りの1人用ソファ"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Iron_TextData",
+          "SourceString": "皮張りの2人用ソファ",
+          "LocalizedString": "皮張りの2人用ソファ"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Iron_TextData",
+          "SourceString": "アイアンのスツール",
+          "LocalizedString": "アイアンのスツール"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Iron_TextData",
+          "SourceString": "アイアンの丸テーブル",
+          "LocalizedString": "アイアンの丸テーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableSide01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSide01_Iron_TextData",
+          "SourceString": "アイアンウッドのサイドテーブル",
+          "LocalizedString": "アイアンウッドのサイドテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare01_Iron_TextData",
+          "SourceString": "アイアンウッドのテーブル",
+          "LocalizedString": "アイアンウッドのテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare02_Iron_TextData",
+          "SourceString": "アイアンウッドのローテーブル",
+          "LocalizedString": "アイアンウッドのローテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_Tire01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tire01_Iron_TextData",
+          "SourceString": "タイヤ",
+          "LocalizedString": "タイヤ"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade01_Iron_TextData",
+          "SourceString": "バリケード",
+          "LocalizedString": "バリケード"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade02_Iron_TextData",
+          "SourceString": "オレンジのバリケード",
+          "LocalizedString": "オレンジのバリケード"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade03_Iron_TextData",
+          "SourceString": "鉄の赤色バリケード",
+          "LocalizedString": "鉄の赤色バリケード"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade04_Iron_TextData",
+          "SourceString": "鉄の白色バリケード",
+          "LocalizedString": "鉄の白色バリケード"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficBarricade05_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficBarricade05_Iron_TextData",
+          "SourceString": "アイアンのフェンス",
+          "LocalizedString": "アイアンのフェンス"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone01_Iron_TextData",
+          "SourceString": "三角コーン",
+          "LocalizedString": "三角コーン"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone02_Iron_TextData",
+          "SourceString": "太いロードコーン",
+          "LocalizedString": "太いロードコーン"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficCone03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficCone03_Iron_TextData",
+          "SourceString": "細いロードコーン",
+          "LocalizedString": "細いロードコーン"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficLight01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficLight01_Iron_TextData",
+          "SourceString": "信号機",
+          "LocalizedString": "信号機"
+        }
+      },
+      "MAPOBJECT_NAME_BathTub_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BathTub_Stone_TextData",
+          "SourceString": "アンティークなバスタブ",
+          "LocalizedString": "アンティークなバスタブ"
+        }
+      },
+      "MAPOBJECT_NAME_Box01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Box01_Stone_TextData",
+          "SourceString": "アンティークな網かごの箱",
+          "LocalizedString": "アンティークな網かごの箱"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Stone_TextData",
+          "SourceString": "アンティークな木の椅子",
+          "LocalizedString": "アンティークな木の椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Chair02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair02_Stone_TextData",
+          "SourceString": "アンティークな木の緑椅子",
+          "LocalizedString": "アンティークな木の緑椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Clock01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clock01_Stone_TextData",
+          "SourceString": "アンティークな柱時計",
+          "LocalizedString": "アンティークな柱時計"
+        }
+      },
+      "MAPOBJECT_NAME_Curtain01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Curtain01_Wall_Stone_TextData",
+          "SourceString": "アンティークなカーテン",
+          "LocalizedString": "アンティークなカーテン"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Stone_TextData",
+          "SourceString": "アンティークなデスク",
+          "LocalizedString": "アンティークなデスク"
+        }
+      },
+      "MAPOBJECT_NAME_Globe01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Globe01_Stone_TextData",
+          "SourceString": "アンティークな球体地理模型",
+          "LocalizedString": "アンティークな球体地理模型"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Stone_TextData",
+          "SourceString": "アンティークな楕円鏡",
+          "LocalizedString": "アンティークな楕円鏡"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror02_Stone_TextData",
+          "SourceString": "アンティークな鏡",
+          "LocalizedString": "アンティークな鏡"
+        }
+      },
+      "MAPOBJECT_NAME_Mirror01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Mirror01_Wall_Stone_TextData",
+          "SourceString": "アンティークなウォールミラー",
+          "LocalizedString": "アンティークなウォールミラー"
+        }
+      },
+      "MAPOBJECT_NAME_Partition_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Partition_Stone_TextData",
+          "SourceString": "アンティークなパーテーション",
+          "LocalizedString": "アンティークなパーテーション"
+        }
+      },
+      "MAPOBJECT_NAME_Piano01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano01_Stone_TextData",
+          "SourceString": "グランドピアノ",
+          "LocalizedString": "グランドピアノ"
+        }
+      },
+      "MAPOBJECT_NAME_Piano02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Piano02_Stone_TextData",
+          "SourceString": "アップライトピアノ",
+          "LocalizedString": "アップライトピアノ"
+        }
+      },
+      "MAPOBJECT_NAME_Rug01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug01_Stone_TextData",
+          "SourceString": "アンティークなカーペット",
+          "LocalizedString": "アンティークなカーペット"
+        }
+      },
+      "MAPOBJECT_NAME_Rug02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug02_Stone_TextData",
+          "SourceString": "アンティークな赤カーペット",
+          "LocalizedString": "アンティークな赤カーペット"
+        }
+      },
+      "MAPOBJECT_NAME_Rug03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug03_Stone_TextData",
+          "SourceString": "アンティークな緑カーペット",
+          "LocalizedString": "アンティークな緑カーペット"
+        }
+      },
+      "MAPOBJECT_NAME_Rug04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Rug04_Stone_TextData",
+          "SourceString": "アンティークな細長カーペット",
+          "LocalizedString": "アンティークな細長カーペット"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Stone_TextData",
+          "SourceString": "アンティークな本棚",
+          "LocalizedString": "アンティークな本棚"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf02_Stone_TextData",
+          "SourceString": "アンティークなワードローブ",
+          "LocalizedString": "アンティークなワードローブ"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf03_Stone_TextData",
+          "SourceString": "アンティークなチェスト",
+          "LocalizedString": "アンティークなチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf04_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf04_Stone_TextData",
+          "SourceString": "アンティークなサイドチェスト",
+          "LocalizedString": "アンティークなサイドチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf05_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf05_Stone_TextData",
+          "SourceString": "アンティークなキャビネット",
+          "LocalizedString": "アンティークなキャビネット"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf06_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf06_Stone_TextData",
+          "SourceString": "アンティークな横長キャビネット",
+          "LocalizedString": "アンティークな横長キャビネット"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf07_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf07_Stone_TextData",
+          "SourceString": "アンティークな大型キャビネット",
+          "LocalizedString": "アンティークな大型キャビネット"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Stone_TextData",
+          "SourceString": "アンティークなウォールキャビネット",
+          "LocalizedString": "アンティークなウォールキャビネット"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa01_Stone_TextData",
+          "SourceString": "アンティークな1人用ソファ",
+          "LocalizedString": "アンティークな1人用ソファ"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa02_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa02_Stone_TextData",
+          "SourceString": "アンティークな2人用ソファ",
+          "LocalizedString": "アンティークな2人用ソファ"
+        }
+      },
+      "MAPOBJECT_NAME_Sofa03_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Sofa03_Stone_TextData",
+          "SourceString": "アンティークなオットマン",
+          "LocalizedString": "アンティークなオットマン"
+        }
+      },
+      "MAPOBJECT_NAME_Stool01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stool01_Stone_TextData",
+          "SourceString": "アンティークなスツール",
+          "LocalizedString": "アンティークなスツール"
+        }
+      },
+      "MAPOBJECT_NAME_Stove01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stove01_Stone_TextData",
+          "SourceString": "アンティークなストーブ",
+          "LocalizedString": "アンティークなストーブ"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular01_Stone_TextData",
+          "SourceString": "アンティークな丸いテーブル",
+          "LocalizedString": "アンティークな丸いテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableDresser01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableDresser01_Stone_TextData",
+          "SourceString": "アンティークなドレッサー",
+          "LocalizedString": "アンティークなドレッサー"
+        }
+      },
+      "MAPOBJECT_NAME_TableSink01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSink01_Stone_TextData",
+          "SourceString": "アンティークな洗面台",
+          "LocalizedString": "アンティークな洗面台"
+        }
+      },
+      "MAPOBJECT_NAME_Toilet01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toilet01_Stone_TextData",
+          "SourceString": "アンティークなトイレ",
+          "LocalizedString": "アンティークなトイレ"
+        }
+      },
+      "MAPOBJECT_NAME_ToiletHolder01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ToiletHolder01_Stone_TextData",
+          "SourceString": "アンティークなトイレットペーパーホルダー",
+          "LocalizedString": "アンティークなトイレットペーパーホルダー"
+        }
+      },
+      "MAPOBJECT_NAME_TowlRack01_Stone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TowlRack01_Stone_TextData",
+          "SourceString": "アンティークなタオルラック",
+          "LocalizedString": "アンティークなタオルラック"
+        }
+      },
+      "MAPOBJECT_NAME_Plant01_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant01_Plant_TextData",
+          "SourceString": "観葉植物",
+          "LocalizedString": "観葉植物"
+        }
+      },
+      "MAPOBJECT_NAME_Plant02_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant02_Plant_TextData",
+          "SourceString": "イス付き観葉植物",
+          "LocalizedString": "イス付き観葉植物"
+        }
+      },
+      "MAPOBJECT_NAME_Plant03_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant03_Plant_TextData",
+          "SourceString": "卓上観葉植物",
+          "LocalizedString": "卓上観葉植物"
+        }
+      },
+      "MAPOBJECT_NAME_Plant04_Plant": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Plant04_Plant_TextData",
+          "SourceString": "鉢入り観葉植物",
+          "LocalizedString": "鉢入り観葉植物"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp01_TextData",
+          "SourceString": "アンティークな茶色フロアランプ",
+          "LocalizedString": "アンティークな茶色フロアランプ"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FloorLamp02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FloorLamp02_TextData",
+          "SourceString": "アンティークな赤色フロアランプ",
+          "LocalizedString": "アンティークな赤色フロアランプ"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole01_TextData",
+          "SourceString": "シンプルな街灯",
+          "LocalizedString": "シンプルな街灯"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole02_TextData",
+          "SourceString": "二股の街灯",
+          "LocalizedString": "二股の街灯"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole03_TextData",
+          "SourceString": "レトロな街灯",
+          "LocalizedString": "レトロな街灯"
+        }
+      },
+      "MAPOBJECT_NAME_Light_LightPole04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_LightPole04_TextData",
+          "SourceString": "おしゃれな街灯",
+          "LocalizedString": "おしゃれな街灯"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace01_TextData",
+          "SourceString": "レンガの暖炉",
+          "LocalizedString": "レンガの暖炉"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Wood": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Wood_TextData",
+          "SourceString": "木の防壁",
+          "LocalizedString": "木の防壁"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseWall_Metal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseWall_Metal_TextData",
+          "SourceString": "金属の防壁",
+          "LocalizedString": "金属の防壁"
+        }
+      },
+      "MAPOBJECT_NAME_Light_FirePlace02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_FirePlace02_TextData",
+          "SourceString": "暖炉",
+          "LocalizedString": "暖炉"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Top": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Top_TextData",
+          "SourceString": "シャンデリア",
+          "LocalizedString": "シャンデリア"
+        }
+      },
+      "MAPOBJECT_NAME_Light_CandleSticks_Wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Light_CandleSticks_Wall_TextData",
+          "SourceString": "壁掛けランプ",
+          "LocalizedString": "壁掛けランプ"
+        }
+      },
+      "MAPOBJECT_NAME_Television01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Television01_Iron_TextData",
+          "SourceString": "古いテレビ",
+          "LocalizedString": "古いテレビ"
+        }
+      },
+      "MAPOBJECT_NAME_Desk01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Desk01_Iron_TextData",
+          "SourceString": "アイアンのデスク",
+          "LocalizedString": "アイアンのデスク"
+        }
+      },
+      "MAPOBJECT_NAME_Shelf01_Wall_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shelf01_Wall_Iron_TextData",
+          "SourceString": "アイアンの壁付け棚",
+          "LocalizedString": "アイアンの壁付け棚"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign01_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign01_Iron_TextData",
+          "SourceString": "パル通行止めの道路標識",
+          "LocalizedString": "パル通行止めの道路標識"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign02_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign02_Iron_TextData",
+          "SourceString": "一時停止の道路標識",
+          "LocalizedString": "一時停止の道路標識"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign03_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign03_Iron_TextData",
+          "SourceString": "ツノガミ注意の標識",
+          "LocalizedString": "ツノガミ注意の標識"
+        }
+      },
+      "MAPOBJECT_NAME_TrafficSign04_Iron": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TrafficSign04_Iron_TextData",
+          "SourceString": "グランモス注意の標識",
+          "LocalizedString": "グランモス注意の標識"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_WindowWall_TextData",
+          "SourceString": "木の窓付き壁",
+          "LocalizedString": "木の窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WindowWall_TextData",
+          "SourceString": "石の窓付き壁",
+          "LocalizedString": "石の窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_WindowWall_TextData",
+          "SourceString": "金属の窓付き壁",
+          "LocalizedString": "金属の窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWall_TextData",
+          "SourceString": "木の三角壁",
+          "LocalizedString": "木の三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWall_TextData",
+          "SourceString": "石の三角壁",
+          "LocalizedString": "石の三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_TriangleWall_TextData",
+          "SourceString": "金属の三角壁",
+          "LocalizedString": "金属の三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_SlantedRoof_TextData",
+          "SourceString": "木の斜め屋根",
+          "LocalizedString": "木の斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlantedRoof_TextData",
+          "SourceString": "石の斜め屋根",
+          "LocalizedString": "石の斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_SlantedRoof_TextData",
+          "SourceString": "金属の斜め屋根",
+          "LocalizedString": "金属の斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Chair01_Pal": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Chair01_Pal_TextData",
+          "SourceString": "カエルチェア",
+          "LocalizedString": "カエルチェア"
+        }
+      },
+      "MAPOBJECT_NAME_Altar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Altar_TextData",
+          "SourceString": "召喚の祭壇",
+          "LocalizedString": "召喚の祭壇"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_TextData",
+          "SourceString": "金属採掘場",
+          "LocalizedString": "金属採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_CopperPit_2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CopperPit_2_TextData",
+          "SourceString": "金属採掘場Ⅱ",
+          "LocalizedString": "金属採掘場Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricHatchingPalEgg_TextData",
+          "SourceString": "電動タマゴ孵化器",
+          "LocalizedString": "電動タマゴ孵化器"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_CaveMushroom": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_CaveMushroom_TextData",
+          "SourceString": "洞窟キノコ",
+          "LocalizedString": "洞窟キノコ"
+        }
+      },
+      "MAPOBJECT_NAME_CoolerPalFoodBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoolerPalFoodBox_TextData",
+          "SourceString": "保冷エサ箱",
+          "LocalizedString": "保冷エサ箱"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_LaserTower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_LaserTower_TextData",
+          "SourceString": "対空レーザー塔",
+          "LocalizedString": "対空レーザー塔"
+        }
+      },
+      "MAPOBJECT_NAME_AntiAircraft_MachineGun": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AntiAircraft_MachineGun_TextData",
+          "SourceString": "対空機銃",
+          "LocalizedString": "対空機銃"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Oilrig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Oilrig_TextData",
+          "SourceString": "オイルリグ宝箱",
+          "LocalizedString": "オイルリグ宝箱"
+        }
+      },
+      "MAPOBJECT_NAME_OilRig": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilRig_TextData",
+          "SourceString": "原油採掘場",
+          "LocalizedString": "原油採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_SulfurPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SulfurPit_TextData",
+          "SourceString": "硫黄採掘場",
+          "LocalizedString": "硫黄採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_CoalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CoalPit_TextData",
+          "SourceString": "石炭採掘場",
+          "LocalizedString": "石炭採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_IceCrusher": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceCrusher_TextData",
+          "SourceString": "凍結粉砕機",
+          "LocalizedString": "凍結粉砕機"
+        }
+      },
+      "MAPOBJECT_NAME_DismantlingConveyor": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DismantlingConveyor_TextData",
+          "SourceString": "パル解体コンベア",
+          "LocalizedString": "パル解体コンベア"
+        }
+      },
+      "MAPOBJECT_NAME_WallSignboard": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallSignboard_TextData",
+          "SourceString": "壁掛け看板",
+          "LocalizedString": "壁掛け看板"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_foundation_TextData",
+          "SourceString": "ガラスの土台",
+          "LocalizedString": "ガラスの土台"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_wall_TextData",
+          "SourceString": "ガラスの壁",
+          "LocalizedString": "ガラスの壁"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_roof_TextData",
+          "SourceString": "ガラスの屋根",
+          "LocalizedString": "ガラスの屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_stair_TextData",
+          "SourceString": "ガラスの階段",
+          "LocalizedString": "ガラスの階段"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DoorWall_TextData",
+          "SourceString": "ガラスのドア付き壁",
+          "LocalizedString": "ガラスのドア付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWall_TextData",
+          "SourceString": "ガラスの三角壁",
+          "LocalizedString": "ガラスの三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlantedRoof_TextData",
+          "SourceString": "ガラスの斜め屋根",
+          "LocalizedString": "ガラスの斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WindowWall_TextData",
+          "SourceString": "ガラスの窓付き壁",
+          "LocalizedString": "ガラスの窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_Pillar_TextData",
+          "SourceString": "木の柱",
+          "LocalizedString": "木の柱"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Pillar_TextData",
+          "SourceString": "石の柱",
+          "LocalizedString": "石の柱"
+        }
+      },
+      "MAPOBJECT_NAME_Metal_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Metal_Pillars_TextData",
+          "SourceString": "金属の柱",
+          "LocalizedString": "金属の柱"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Pillars_TextData",
+          "SourceString": "ガラスの柱",
+          "LocalizedString": "ガラスの柱"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorFall_TextData",
+          "SourceString": "隕石",
+          "LocalizedString": "隕石"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_pickup": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_pickup_TextData",
+          "SourceString": "隕石",
+          "LocalizedString": "隕石"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyFall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyFall_TextData",
+          "SourceString": "補給物資",
+          "LocalizedString": "補給物資"
+        }
+      },
+      "MAPOBJECT_NAME_SupplyDrop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SupplyDrop_TextData",
+          "SourceString": "補給物資",
+          "LocalizedString": "補給物資"
+        }
+      },
+      "MAPOBJECT_NAME_MeteorDrop_Damagable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MeteorDrop_Damagable_TextData",
+          "SourceString": "隕石",
+          "LocalizedString": "隕石"
+        }
+      },
+      "MAPOBJECT_NAME_ElectricGenerator_Large": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ElectricGenerator_Large_TextData",
+          "SourceString": "大型発電機",
+          "LocalizedString": "大型発電機"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump_TextData",
+          "SourceString": "原油抽出機",
+          "LocalizedString": "原油抽出機"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_RequiredLongHold": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_RequiredLongHold_TextData",
+          "SourceString": "ガラクタ(長押しで採取)",
+          "LocalizedString": "ガラクタ(長押しで採取)"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_01_TextData",
+          "SourceString": "パワー・ロータス（小）",
+          "LocalizedString": "パワー・ロータス（小）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Attack_02_TextData",
+          "SourceString": "パワー・ロータス（大）",
+          "LocalizedString": "パワー・ロータス（大）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_01_TextData",
+          "SourceString": "ライフ・ロータス（小）",
+          "LocalizedString": "ライフ・ロータス（小）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_HP_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_HP_02_TextData",
+          "SourceString": "ライフ・ロータス（大）",
+          "LocalizedString": "ライフ・ロータス（大）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_01_TextData",
+          "SourceString": "スタミナ・ロータス（小）",
+          "LocalizedString": "スタミナ・ロータス（小）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Stamina_02_TextData",
+          "SourceString": "スタミナ・ロータス（大）",
+          "LocalizedString": "スタミナ・ロータス（大）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_01_TextData",
+          "SourceString": "スピード・ロータス（小）",
+          "LocalizedString": "スピード・ロータス（小）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Workspeed_02_TextData",
+          "SourceString": "スピード・ロータス（大）",
+          "LocalizedString": "スピード・ロータス（大）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_01_TextData",
+          "SourceString": "キャリー・ロータス（小）",
+          "LocalizedString": "キャリー・ロータス（小）"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_Lotus_Weight_02_TextData",
+          "SourceString": "キャリー・ロータス（大）",
+          "LocalizedString": "キャリー・ロータス（大）"
+        }
+      },
+      "MAPOBJECT_NAME_SkinChange": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkinChange_TextData",
+          "SourceString": "パルおめかし装置",
+          "LocalizedString": "パルおめかし装置"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_DogCoin": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_DogCoin_TextData",
+          "SourceString": "ドッグコイン",
+          "LocalizedString": "ドッグコイン"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_01_TextData",
+          "SourceString": "和風な壁",
+          "LocalizedString": "和風な壁"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_wall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_wall_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_01_TextData",
+          "SourceString": "和風なドア付き壁A",
+          "LocalizedString": "和風なドア付き壁A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_02_TextData",
+          "SourceString": "和風なドア付き壁B",
+          "LocalizedString": "和風なドア付き壁B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DoorWall_03_TextData",
+          "SourceString": "和風なドア付き壁C",
+          "LocalizedString": "和風なドア付き壁C"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_ConnectingWall_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_01_TextData",
+          "SourceString": "和風な屋根A",
+          "LocalizedString": "和風な屋根A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_roof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_roof_02_TextData",
+          "SourceString": "和風な屋根B",
+          "LocalizedString": "和風な屋根B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlantedRoof_TextData",
+          "SourceString": "和風な斜め屋根",
+          "LocalizedString": "和風な斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWall_TextData",
+          "SourceString": "和風な三角壁",
+          "LocalizedString": "和風な三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WindowWall_TextData",
+          "SourceString": "和風な窓付き壁",
+          "LocalizedString": "和風な窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_foundation_TextData",
+          "SourceString": "和風な土台",
+          "LocalizedString": "和風な土台"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_stair_TextData",
+          "SourceString": "和風な階段",
+          "LocalizedString": "和風な階段"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Pillar": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Pillar_TextData",
+          "SourceString": "和風な柱",
+          "LocalizedString": "和風な柱"
+        }
+      },
+      "MAPOBJECT_NAME_ItemBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemBooth_TextData",
+          "SourceString": "フリーマーケット（アイテム）",
+          "LocalizedString": "フリーマーケット（アイテム）"
+        }
+      },
+      "MAPOBJECT_NAME_PalBooth": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalBooth_TextData",
+          "SourceString": "フリーマーケット（パル）",
+          "LocalizedString": "フリーマーケット（パル）"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Carrot": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Carrot_TextData",
+          "SourceString": "にんじん農園",
+          "LocalizedString": "にんじん農園"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Onion": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Onion_TextData",
+          "SourceString": "たまねぎ農園",
+          "LocalizedString": "たまねぎ農園"
+        }
+      },
+      "MAPOBJECT_NAME_FarmBlockV2_Potato": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FarmBlockV2_Potato_TextData",
+          "SourceString": "じゃがいも農園",
+          "LocalizedString": "じゃがいも農園"
+        }
+      },
+      "MAPOBJECT_NAME_SphereFactory_Black_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SphereFactory_Black_04_TextData",
+          "SourceString": "高度文明のスフィア工場",
+          "LocalizedString": "高度文明のスフィア工場"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEgg_TextData",
+          "SourceString": "大型電動タマゴ孵化器",
+          "LocalizedString": "大型電動タマゴ孵化器"
+        }
+      },
+      "MAPOBJECT_NAME_HugeKitchen": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_HugeKitchen_TextData",
+          "SourceString": "大型キッチン",
+          "LocalizedString": "大型キッチン"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Hard_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Hard_04_TextData",
+          "SourceString": "高度文明の作業工場",
+          "LocalizedString": "高度文明の作業工場"
+        }
+      },
+      "MAPOBJECT_NAME_WeaponFactory_Dirty_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WeaponFactory_Dirty_04_TextData",
+          "SourceString": "高度文明の武器工場",
+          "LocalizedString": "高度文明の武器工場"
+        }
+      },
+      "MAPOBJECT_NAME_SanityDecrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SanityDecrease1_TextData",
+          "SourceString": "α波発生装置",
+          "LocalizedString": "α波発生装置"
+        }
+      },
+      "MAPOBJECT_NAME_WorkSpeedIncrease1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WorkSpeedIncrease1_TextData",
+          "SourceString": "β波発生装置",
+          "LocalizedString": "β波発生装置"
+        }
+      },
+      "MAPOBJECT_NAME_QuartzPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_QuartzPit_TextData",
+          "SourceString": "ピュアクォーツ採掘場",
+          "LocalizedString": "ピュアクォーツ採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_Factory_Money": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Factory_Money_TextData",
+          "SourceString": "金貨製造工場",
+          "LocalizedString": "金貨製造工場"
+        }
+      },
+      "MAPOBJECT_NAME_ItemChest_04": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ItemChest_04_TextData",
+          "SourceString": "高度文明のチェスト",
+          "LocalizedString": "高度文明のチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_MedicalPalBed_05": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicalPalBed_05_TextData",
+          "SourceString": "高度文明のパルポッド",
+          "LocalizedString": "高度文明のパルポッド"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampItemDispenser": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampItemDispenser_TextData",
+          "SourceString": "アイテム取り出し機",
+          "LocalizedString": "アイテム取り出し機"
+        }
+      },
+      "MAPOBJECT_NAME_GuildChest": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuildChest_TextData",
+          "SourceString": "ギルドチェスト",
+          "LocalizedString": "ギルドチェスト"
+        }
+      },
+      "MAPOBJECT_NAME_WoodCreator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodCreator_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_Expedition": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Expedition_TextData",
+          "SourceString": "パル遠征所",
+          "LocalizedString": "パル遠征所"
+        }
+      },
+      "MAPOBJECT_NAME_Lab": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Lab_TextData",
+          "SourceString": "パル作業研究所",
+          "LocalizedString": "パル作業研究所"
+        }
+      },
+      "MAPOBJECT_NAME_OperatingTable": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OperatingTable_TextData",
+          "SourceString": "パル手術台",
+          "LocalizedString": "パル手術台"
+        }
+      },
+      "MAPOBJECT_NAME_ManualElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ManualElectricGenerator_TextData",
+          "SourceString": "人力発電機",
+          "LocalizedString": "人力発電機"
+        }
+      },
+      "MAPOBJECT_NAME_Farm_SkillFruits": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Farm_SkillFruits_TextData",
+          "SourceString": "技の実農園",
+          "LocalizedString": "技の実農園"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_ladder": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_ladder_TextData",
+          "SourceString": "はしご",
+          "LocalizedString": "はしご"
+        }
+      },
+      "MAPOBJECT_NAME_PalMedicineBox": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalMedicineBox_TextData",
+          "SourceString": "薬棚",
+          "LocalizedString": "薬棚"
+        }
+      },
+      "MAPOBJECT_NAME_EnergyStorage_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_EnergyStorage_Electric_TextData",
+          "SourceString": "蓄電器",
+          "LocalizedString": "蓄電器"
+        }
+      },
+      "MAPOBJECT_NAME_BlastFurnace4": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BlastFurnace4_TextData",
+          "SourceString": "巨大な炉",
+          "LocalizedString": "巨大な炉"
+        }
+      },
+      "MAPOBJECT_NAME_MedicineFacility_03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MedicineFacility_03_TextData",
+          "SourceString": "高度文明の製薬台",
+          "LocalizedString": "高度文明の製薬台"
+        }
+      },
+      "MAPOBJECT_NAME_PickupItem_NightStone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PickupItem_NightStone_TextData",
+          "SourceString": "夜星砂",
+          "LocalizedString": "夜星砂"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Fire": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Fire_TextData",
+          "SourceString": "業火の宝箱",
+          "LocalizedString": "業火の宝箱"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Water": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Water_TextData",
+          "SourceString": "流水の宝箱",
+          "LocalizedString": "流水の宝箱"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Electric": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Electric_TextData",
+          "SourceString": "雷鳴の宝箱",
+          "LocalizedString": "雷鳴の宝箱"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ivy": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ivy_TextData",
+          "SourceString": "属性宝箱（草）",
+          "LocalizedString": "属性宝箱（草）"
+        }
+      },
+      "MAPOBJECT_NAME_TreasureBox_Ice": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TreasureBox_Ice_TextData",
+          "SourceString": "属性宝箱（氷）",
+          "LocalizedString": "属性宝箱（氷）"
+        }
+      },
+      "MAPOBJECT_NAME_Headstone": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Headstone_TextData",
+          "SourceString": "墓石",
+          "LocalizedString": "墓石"
+        }
+      },
+      "MAPOBJECT_NAME_Byobu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Byobu_TextData",
+          "SourceString": "屏風",
+          "LocalizedString": "屏風"
+        }
+      },
+      "MAPOBJECT_NAME_Kakejiku": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Kakejiku_TextData",
+          "SourceString": "掛け軸",
+          "LocalizedString": "掛け軸"
+        }
+      },
+      "MAPOBJECT_NAME_Zaisu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zaisu_TextData",
+          "SourceString": "座椅子",
+          "LocalizedString": "座椅子"
+        }
+      },
+      "MAPOBJECT_NAME_Zabuton": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Zabuton_TextData",
+          "SourceString": "座布団",
+          "LocalizedString": "座布団"
+        }
+      },
+      "MAPOBJECT_NAME_Irori": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Irori_TextData",
+          "SourceString": "囲炉裏",
+          "LocalizedString": "囲炉裏"
+        }
+      },
+      "MAPOBJECT_NAME_Toro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Toro_TextData",
+          "SourceString": "石灯籠",
+          "LocalizedString": "石灯籠"
+        }
+      },
+      "MAPOBJECT_NAME_Andon": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Andon_TextData",
+          "SourceString": "行灯",
+          "LocalizedString": "行灯"
+        }
+      },
+      "MAPOBJECT_NAME_Shishiodoshi": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shishiodoshi_TextData",
+          "SourceString": "ししおどし",
+          "LocalizedString": "ししおどし"
+        }
+      },
+      "MAPOBJECT_NAME_Bonsai": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Bonsai_TextData",
+          "SourceString": "盆栽",
+          "LocalizedString": "盆栽"
+        }
+      },
+      "MAPOBJECT_NAME_Koro": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Koro_TextData",
+          "SourceString": "香炉",
+          "LocalizedString": "香炉"
+        }
+      },
+      "MAPOBJECT_NAME_Seika": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Seika_TextData",
+          "SourceString": "生花",
+          "LocalizedString": "生花"
+        }
+      },
+      "MAPOBJECT_NAME_Tansu": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Tansu_TextData",
+          "SourceString": "タンス",
+          "LocalizedString": "タンス"
+        }
+      },
+      "MAPOBJECT_NAME_Fudukue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Fudukue_TextData",
+          "SourceString": "文机",
+          "LocalizedString": "文机"
+        }
+      },
+      "MAPOBJECT_NAME_GlobalPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GlobalPalStorage_TextData",
+          "SourceString": "グローバルパルボックス",
+          "LocalizedString": "グローバルパルボックス"
+        }
+      },
+      "MAPOBJECT_NAME_CompositeDesk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CompositeDesk_TextData",
+          "SourceString": "製図台",
+          "LocalizedString": "製図台"
+        }
+      },
+      "MAPOBJECT_NAME_DimensionPalStorage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DimensionPalStorage_TextData",
+          "SourceString": "パル次元ストレージ",
+          "LocalizedString": "パル次元ストレージ"
+        }
+      },
+      "MAPOBJECT_NAME_Wire_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wire_Fence_TextData",
+          "SourceString": "ワイヤーフェンス",
+          "LocalizedString": "ワイヤーフェンス"
+        }
+      },
+      "MAPOBJECT_NAME_LilyQueenStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LilyQueenStatue_TextData",
+          "SourceString": "リリクイン像",
+          "LocalizedString": "リリクイン像"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerA": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerA_TextData",
+          "SourceString": "パル愛護団体の旗",
+          "LocalizedString": "パル愛護団体の旗"
+        }
+      },
+      "MAPOBJECT_NAME_ConservationGroupBannerB": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ConservationGroupBannerB_TextData",
+          "SourceString": "パル愛護団体の横幕",
+          "LocalizedString": "パル愛護団体の横幕"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_GangFlag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_GangFlag_TextData",
+          "SourceString": "密猟団の旗",
+          "LocalizedString": "密猟団の旗"
+        }
+      },
+      "MAPOBJECT_NAME_PalCage": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_PalCage_TextData",
+          "SourceString": "空の檻",
+          "LocalizedString": "空の檻"
+        }
+      },
+      "MAPOBJECT_NAME_WoodenBarricade": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WoodenBarricade_TextData",
+          "SourceString": "木製のバリケード",
+          "LocalizedString": "木製のバリケード"
+        }
+      },
+      "MAPOBJECT_NAME_WallTorch02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_WallTorch02_TextData",
+          "SourceString": "厳かな壁掛けたいまつ",
+          "LocalizedString": "厳かな壁掛けたいまつ"
+        }
+      },
+      "MAPOBJECT_NAME_CandleStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CandleStand_TextData",
+          "SourceString": "厳かな燭台",
+          "LocalizedString": "厳かな燭台"
+        }
+      },
+      "MAPOBJECT_NAME_FireStand": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireStand_TextData",
+          "SourceString": "儀式用の燭台",
+          "LocalizedString": "儀式用の燭台"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_Fence_TextData",
+          "SourceString": "木の柵",
+          "LocalizedString": "木の柵"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_Fence_TextData",
+          "SourceString": "石の柵",
+          "LocalizedString": "石の柵"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_Fence_TextData",
+          "SourceString": "金属の柵",
+          "LocalizedString": "金属の柵"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_Fence_TextData",
+          "SourceString": "ガラスの柵",
+          "LocalizedString": "ガラスの柵"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_Fence_TextData",
+          "SourceString": "和風な柵",
+          "LocalizedString": "和風な柵"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Fence_TextData",
+          "SourceString": "クリーンな柵",
+          "LocalizedString": "クリーンな柵"
+        }
+      },
+      "MAPOBJECT_NAME_CrystalPit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_CrystalPit_TextData",
+          "SourceString": "ヘクソクォーツ採掘場",
+          "LocalizedString": "ヘクソクォーツ採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_Spa3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Spa3_TextData",
+          "SourceString": "和風な温泉",
+          "LocalizedString": "和風な温泉"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkerExtraStation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkerExtraStation_TextData",
+          "SourceString": "パルボックス操作端末",
+          "LocalizedString": "パルボックス操作端末"
+        }
+      },
+      "MAPOBJECT_NAME_LanternTop": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_LanternTop_TextData",
+          "SourceString": "提灯",
+          "LocalizedString": "提灯"
+        }
+      },
+      "MAPOBJECT_NAME_Shrine_Lantern": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Shrine_Lantern_TextData",
+          "SourceString": "灯籠",
+          "LocalizedString": "灯籠"
+        }
+      },
+      "MAPOBJECT_NAME_GuardianDogStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_GuardianDogStatue_TextData",
+          "SourceString": "ヤクモマル像",
+          "LocalizedString": "ヤクモマル像"
+        }
+      },
+      "MAPOBJECT_NAME_MultiHatchingPalEgg": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiHatchingPalEgg_TextData",
+          "SourceString": "大型タマゴ孵化器",
+          "LocalizedString": "大型タマゴ孵化器"
+        }
+      },
+      "MAPOBJECT_NAME_SF_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_foundation_TextData",
+          "SourceString": "クリーンな土台",
+          "LocalizedString": "クリーンな土台"
+        }
+      },
+      "MAPOBJECT_NAME_SF_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_wall_TextData",
+          "SourceString": "クリーンな壁",
+          "LocalizedString": "クリーンな壁"
+        }
+      },
+      "MAPOBJECT_NAME_SF_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_roof_TextData",
+          "SourceString": "クリーンな屋根",
+          "LocalizedString": "クリーンな屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_stair_TextData",
+          "SourceString": "クリーンな階段",
+          "LocalizedString": "クリーンな階段"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DoorWall_TextData",
+          "SourceString": "クリーンなドア付き壁",
+          "LocalizedString": "クリーンなドア付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWall_TextData",
+          "SourceString": "クリーンな三角壁",
+          "LocalizedString": "クリーンな三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlantedRoof_TextData",
+          "SourceString": "クリーンな斜め屋根",
+          "LocalizedString": "クリーンな斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WindowWall_TextData",
+          "SourceString": "クリーンな窓付き壁",
+          "LocalizedString": "クリーンな窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Pillars_TextData",
+          "SourceString": "クリーンな柱",
+          "LocalizedString": "クリーンな柱"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Desk": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Desk_TextData",
+          "SourceString": "研究室風のデスク",
+          "LocalizedString": "研究室風のデスク"
+        }
+      },
+      "MAPOBJECT_NAME_SF_Chair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_Chair_TextData",
+          "SourceString": "研究室風のチェア",
+          "LocalizedString": "研究室風のチェア"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Flag_TextData",
+          "SourceString": "密猟団の団旗",
+          "LocalizedString": "密猟団の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_Hunter_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Hunter_Banner_TextData",
+          "SourceString": "密猟団の縦幕",
+          "LocalizedString": "密猟団の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Flag_TextData",
+          "SourceString": "パル愛護団体の団旗",
+          "LocalizedString": "パル愛護団体の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_Believer_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Believer_Banner_TextData",
+          "SourceString": "パル愛護団体の縦幕",
+          "LocalizedString": "パル愛護団体の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Flag_TextData",
+          "SourceString": "永炎の同志の団旗",
+          "LocalizedString": "永炎の同志の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_FireCult_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FireCult_Banner_TextData",
+          "SourceString": "永炎の同志の縦幕",
+          "LocalizedString": "永炎の同志の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Flag_TextData",
+          "SourceString": "自警団の団旗",
+          "LocalizedString": "自警団の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_Police_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Police_Banner_TextData",
+          "SourceString": "自警団の縦幕",
+          "LocalizedString": "自警団の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Flag_TextData",
+          "SourceString": "遺伝子研究部隊の団旗",
+          "LocalizedString": "遺伝子研究部隊の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_Scientist_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Scientist_Banner_TextData",
+          "SourceString": "遺伝子研究部隊の縦幕",
+          "LocalizedString": "遺伝子研究部隊の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Flag_TextData",
+          "SourceString": "月花衆の団旗",
+          "LocalizedString": "月花衆の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_Ninja_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ninja_Banner_TextData",
+          "SourceString": "月花衆の縦幕",
+          "LocalizedString": "月花衆の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond1": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond1_TextData",
+          "SourceString": "釣り堀",
+          "LocalizedString": "釣り堀"
+        }
+      },
+      "MAPOBJECT_NAME_FishingPond2": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FishingPond2_TextData",
+          "SourceString": "大きな釣り堀",
+          "LocalizedString": "大きな釣り堀"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0019": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0019_TextData",
+          "SourceString": "ヘクソクォーツ",
+          "LocalizedString": "ヘクソクォーツ"
+        }
+      },
+      "MAPOBJECT_NAME_YakushimaBoss002_Relic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_YakushimaBoss002_Relic_TextData",
+          "SourceString": "ムーンロードの像",
+          "LocalizedString": "ムーンロードの像"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleFoundation_TextData",
+          "SourceString": "木の三角土台",
+          "LocalizedString": "木の三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_DiagonalWall_TextData",
+          "SourceString": "木の対角壁",
+          "LocalizedString": "木の対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleRoof_TextData",
+          "SourceString": "木の三角屋根",
+          "LocalizedString": "木の三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_TriangleStairsCorner_TextData",
+          "SourceString": "木の角屋根",
+          "LocalizedString": "木の角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Wood_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wood_TriangleWallReverse_TextData",
+          "SourceString": "木の三角壁(反転)",
+          "LocalizedString": "木の三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_WallGate_TextData",
+          "SourceString": "木のパル用通路口",
+          "LocalizedString": "木のパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCorner_TextData",
+          "SourceString": "木の三角斜め屋根",
+          "LocalizedString": "木の三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_PyramidRoof_TextData",
+          "SourceString": "木のピラミッド屋根",
+          "LocalizedString": "木のピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleFoundation_TextData",
+          "SourceString": "石の三角土台",
+          "LocalizedString": "石の三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_DiagonalWall_TextData",
+          "SourceString": "石の対角壁",
+          "LocalizedString": "石の対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleRoof_TextData",
+          "SourceString": "石の三角屋根",
+          "LocalizedString": "石の三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleStairsCorner_TextData",
+          "SourceString": "石の角屋根",
+          "LocalizedString": "石の角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_TriangleWallReverse_TextData",
+          "SourceString": "石の三角壁(反転)",
+          "LocalizedString": "石の三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_WallGate_TextData",
+          "SourceString": "石のパル用通路口",
+          "LocalizedString": "石のパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCorner_TextData",
+          "SourceString": "石の三角斜め屋根",
+          "LocalizedString": "石の三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_PyramidRoof_TextData",
+          "SourceString": "石のピラミッド屋根",
+          "LocalizedString": "石のピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleFoundation_TextData",
+          "SourceString": "金属の三角土台",
+          "LocalizedString": "金属の三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_DiagonalWall_TextData",
+          "SourceString": "金属の対角壁",
+          "LocalizedString": "金属の対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleRoof_TextData",
+          "SourceString": "金属の三角屋根",
+          "LocalizedString": "金属の三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleStairsCorner_TextData",
+          "SourceString": "金属の角屋根",
+          "LocalizedString": "金属の角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_TriangleWallReverse_TextData",
+          "SourceString": "金属の三角壁(反転)",
+          "LocalizedString": "金属の三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_WallGate_TextData",
+          "SourceString": "金属のパル用通路口",
+          "LocalizedString": "金属のパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCorner_TextData",
+          "SourceString": "金属の三角斜め屋根",
+          "LocalizedString": "金属の三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_PyramidRoof_TextData",
+          "SourceString": "金属のピラミッド屋根",
+          "LocalizedString": "金属のピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleFoundation_TextData",
+          "SourceString": "ガラスの三角土台",
+          "LocalizedString": "ガラスの三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_DiagonalWall_TextData",
+          "SourceString": "ガラスの対角壁",
+          "LocalizedString": "ガラスの対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleRoof_TextData",
+          "SourceString": "ガラスの三角屋根",
+          "LocalizedString": "ガラスの三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleStairsCorner_TextData",
+          "SourceString": "ガラスの角屋根",
+          "LocalizedString": "ガラスの角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_TriangleWallReverse_TextData",
+          "SourceString": "ガラスの三角壁(反転)",
+          "LocalizedString": "ガラスの三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_WallGate_TextData",
+          "SourceString": "ガラスのパル用通路口",
+          "LocalizedString": "ガラスのパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCorner_TextData",
+          "SourceString": "ガラスの三角斜め屋根",
+          "LocalizedString": "ガラスの三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_PyramidRoof_TextData",
+          "SourceString": "ガラスのピラミッド屋根",
+          "LocalizedString": "ガラスのピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleFoundation_TextData",
+          "SourceString": "和風な三角土台",
+          "LocalizedString": "和風な三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_DiagonalWall_TextData",
+          "SourceString": "和風な対角壁",
+          "LocalizedString": "和風な対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_01_TextData",
+          "SourceString": "和風な三角屋根A",
+          "LocalizedString": "和風な三角屋根A"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleRoof_02_TextData",
+          "SourceString": "和風な三角屋根B",
+          "LocalizedString": "和風な三角屋根B"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_01_TextData",
+          "SourceString": "和風な角屋根",
+          "LocalizedString": "和風な角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleStairsCorner_02_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_TriangleWallReverse_TextData",
+          "SourceString": "和風な三角壁(反転)",
+          "LocalizedString": "和風な三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_WallGate_TextData",
+          "SourceString": "和風なパル用通路口",
+          "LocalizedString": "和風なパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCorner_TextData",
+          "SourceString": "和風な三角斜め屋根",
+          "LocalizedString": "和風な三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_PyramidRoof_TextData",
+          "SourceString": "和風なピラミッド屋根",
+          "LocalizedString": "和風なピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleFoundation_TextData",
+          "SourceString": "クリーンな三角土台",
+          "LocalizedString": "クリーンな三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_SF_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_DiagonalWall_TextData",
+          "SourceString": "クリーンな対角壁",
+          "LocalizedString": "クリーンな対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleRoof_TextData",
+          "SourceString": "クリーンな三角屋根",
+          "LocalizedString": "クリーンな三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleStairsCorner_TextData",
+          "SourceString": "クリーンな角屋根",
+          "LocalizedString": "クリーンな角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_TriangleWallReverse_TextData",
+          "SourceString": "クリーンな三角壁(反転)",
+          "LocalizedString": "クリーンな三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_WallGate_TextData",
+          "SourceString": "クリーンなパル用通路口",
+          "LocalizedString": "クリーンなパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCorner_TextData",
+          "SourceString": "クリーンな三角斜め屋根",
+          "LocalizedString": "クリーンな三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_SF_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_PyramidRoof_TextData",
+          "SourceString": "クリーンなピラミッド屋根",
+          "LocalizedString": "クリーンなピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_AncientRelicRecycler": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientRelicRecycler_TextData",
+          "SourceString": "古代文明の遺物変換機",
+          "LocalizedString": "古代文明の遺物変換機"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableBone0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableBone0001_TextData",
+          "SourceString": "古代の遺骨",
+          "LocalizedString": "古代の遺骨"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0022": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0022_TextData",
+          "SourceString": "古代の溶岩塊",
+          "LocalizedString": "古代の溶岩塊"
+        }
+      },
+      "MAPOBJECT_NAME_AncientWorkBench": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientWorkBench_TextData",
+          "SourceString": "古代文明の作業台",
+          "LocalizedString": "古代文明の作業台"
+        }
+      },
+      "MAPOBJECT_NAME_AncientElectricGenerator": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientElectricGenerator_TextData",
+          "SourceString": "古代文明の発電機",
+          "LocalizedString": "古代文明の発電機"
+        }
+      },
+      "MAPOBJECT_NAME_AncientBlastFurnace": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientBlastFurnace_TextData",
+          "SourceString": "古代文明の炉",
+          "LocalizedString": "古代文明の炉"
+        }
+      },
+      "MAPOBJECT_NAME_AncientCookingStove": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientCookingStove_TextData",
+          "SourceString": "古代文明のキッチン",
+          "LocalizedString": "古代文明のキッチン"
+        }
+      },
+      "MAPOBJECT_NAME_AncientMultiProduct": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientMultiProduct_TextData",
+          "SourceString": "古代文明の物質生成器",
+          "LocalizedString": "古代文明の物質生成器"
+        }
+      },
+      "MAPOBJECT_NAME_AncientFarmBlock": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_AncientFarmBlock_TextData",
+          "SourceString": "古代文明の栽培器",
+          "LocalizedString": "古代文明の栽培器"
+        }
+      },
+      "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DefenseMachinegun_AutoTurret_TextData",
+          "SourceString": "古代文明のタレット",
+          "LocalizedString": "古代文明のタレット"
+        }
+      },
+      "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_MultiElectricHatchingPalEggWithBreed_TextData",
+          "SourceString": "古代文明の配合器",
+          "LocalizedString": "古代文明の配合器"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableRock0020": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableRock0020_TextData",
+          "SourceString": "ソルライト",
+          "LocalizedString": "ソルライト"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard03": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard03_TextData",
+          "SourceString": "古代文明の監視台",
+          "LocalizedString": "古代文明の監視台"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleFoundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleFoundation_TextData",
+          "SourceString": "古代文明の三角土台",
+          "LocalizedString": "古代文明の三角土台"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DiagonalWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DiagonalWall_TextData",
+          "SourceString": "古代文明の対角壁",
+          "LocalizedString": "古代文明の対角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleRoof_TextData",
+          "SourceString": "古代文明の三角屋根",
+          "LocalizedString": "古代文明の三角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleStairsCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleStairsCorner_TextData",
+          "SourceString": "古代文明の角屋根",
+          "LocalizedString": "古代文明の角屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWallReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWallReverse_TextData",
+          "SourceString": "古代文明の三角壁(反転)",
+          "LocalizedString": "古代文明の三角壁(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WallGate": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WallGate_TextData",
+          "SourceString": "古代文明のパル用通路口",
+          "LocalizedString": "古代文明のパル用通路口"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCorner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCorner_TextData",
+          "SourceString": "古代文明の三角斜め屋根",
+          "LocalizedString": "古代文明の三角斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_PyramidRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_PyramidRoof_TextData",
+          "SourceString": "古代文明のピラミッド屋根",
+          "LocalizedString": "古代文明のピラミッド屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_foundation": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_foundation_TextData",
+          "SourceString": "古代文明の土台",
+          "LocalizedString": "古代文明の土台"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_wall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_wall_TextData",
+          "SourceString": "古代文明の壁",
+          "LocalizedString": "古代文明の壁"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_roof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_roof_TextData",
+          "SourceString": "古代文明の屋根",
+          "LocalizedString": "古代文明の屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_stair": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_stair_TextData",
+          "SourceString": "古代文明の階段",
+          "LocalizedString": "古代文明の階段"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_DoorWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_DoorWall_TextData",
+          "SourceString": "古代文明のドア付き壁",
+          "LocalizedString": "古代文明のドア付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_TriangleWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_TriangleWall_TextData",
+          "SourceString": "古代文明の三角壁",
+          "LocalizedString": "古代文明の三角壁"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlantedRoof": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlantedRoof_TextData",
+          "SourceString": "古代文明の斜め屋根",
+          "LocalizedString": "古代文明の斜め屋根"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_WindowWall": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_WindowWall_TextData",
+          "SourceString": "古代文明の窓付き壁",
+          "LocalizedString": "古代文明の窓付き壁"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Pillars": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Pillars_TextData",
+          "SourceString": "古代文明の柱",
+          "LocalizedString": "古代文明の柱"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Fence": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Fence_TextData",
+          "SourceString": "古代文明の柵",
+          "LocalizedString": "古代文明の柵"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Green_TextData",
+          "SourceString": "模型の樹木A",
+          "LocalizedString": "模型の樹木A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Green_TextData",
+          "SourceString": "模型の樹木B",
+          "LocalizedString": "模型の樹木B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Green_TextData",
+          "SourceString": "模型の樹木C",
+          "LocalizedString": "模型の樹木C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Red_TextData",
+          "SourceString": "模型の紅葉樹A",
+          "LocalizedString": "模型の紅葉樹A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Red_TextData",
+          "SourceString": "模型の紅葉樹B",
+          "LocalizedString": "模型の紅葉樹B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Red": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Red_TextData",
+          "SourceString": "模型の紅葉樹C",
+          "LocalizedString": "模型の紅葉樹C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Yellow_TextData",
+          "SourceString": "模型の黄葉樹A",
+          "LocalizedString": "模型の黄葉樹A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Yellow_TextData",
+          "SourceString": "模型の黄葉樹B",
+          "LocalizedString": "模型の黄葉樹B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Yellow_TextData",
+          "SourceString": "模型の黄葉樹C",
+          "LocalizedString": "模型の黄葉樹C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Cherry_TextData",
+          "SourceString": "模型の桜A",
+          "LocalizedString": "模型の桜A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Cherry_TextData",
+          "SourceString": "模型の桜B",
+          "LocalizedString": "模型の桜B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Cherry": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Cherry_TextData",
+          "SourceString": "模型の桜C",
+          "LocalizedString": "模型の桜C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Tropical_TextData",
+          "SourceString": "模型の南国の樹木A",
+          "LocalizedString": "模型の南国の樹木A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Tropical_TextData",
+          "SourceString": "模型の南国の樹木B",
+          "LocalizedString": "模型の南国の樹木B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Tropical_TextData",
+          "SourceString": "模型の南国の樹木C",
+          "LocalizedString": "模型の南国の樹木C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Snow_TextData",
+          "SourceString": "模型の雪の積もった樹木A",
+          "LocalizedString": "模型の雪の積もった樹木A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Snow_TextData",
+          "SourceString": "模型の雪の積もった樹木B",
+          "LocalizedString": "模型の雪の積もった樹木B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Snow_TextData",
+          "SourceString": "模型の雪の積もった樹木C",
+          "LocalizedString": "模型の雪の積もった樹木C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Desert_TextData",
+          "SourceString": "模型の砂漠の樹木A",
+          "LocalizedString": "模型の砂漠の樹木A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Desert_TextData",
+          "SourceString": "模型の砂漠の樹木B",
+          "LocalizedString": "模型の砂漠の樹木B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Desert": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Desert_TextData",
+          "SourceString": "模型の砂漠の樹木C",
+          "LocalizedString": "模型の砂漠の樹木C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree01_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree01_Bamboo_TextData",
+          "SourceString": "模型の竹A",
+          "LocalizedString": "模型の竹A"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree02_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree02_Bamboo_TextData",
+          "SourceString": "模型の竹B",
+          "LocalizedString": "模型の竹B"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureTree03_Bamboo": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureTree03_Bamboo_TextData",
+          "SourceString": "模型の竹C",
+          "LocalizedString": "模型の竹C"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Green": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Green_TextData",
+          "SourceString": "模型の茂み",
+          "LocalizedString": "模型の茂み"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Yellow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Yellow_TextData",
+          "SourceString": "模型の黄葉した茂み",
+          "LocalizedString": "模型の黄葉した茂み"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Flower_TextData",
+          "SourceString": "模型の花が咲いている茂みA",
+          "LocalizedString": "模型の花が咲いている茂みA"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush02_Flower": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush02_Flower_TextData",
+          "SourceString": "模型の花が咲いている茂みB",
+          "LocalizedString": "模型の花が咲いている茂みB"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Tropical": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Tropical_TextData",
+          "SourceString": "模型の南国の茂み",
+          "LocalizedString": "模型の南国の茂み"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureBush01_Snow": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureBush01_Snow_TextData",
+          "SourceString": "模型の白い茂み",
+          "LocalizedString": "模型の白い茂み"
+        }
+      },
+      "MAPOBJECT_NAME_FurnitureStone01": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_FurnitureStone01_TextData",
+          "SourceString": "模型の岩",
+          "LocalizedString": "模型の岩"
+        }
+      },
+      "MAPOBJECT_NAME_TableCircular_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableCircular_Wood_None_TextData",
+          "SourceString": "片付いた丸いテーブル",
+          "LocalizedString": "片付いた丸いテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_TableSquare_Wood_None": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_TableSquare_Wood_None_TextData",
+          "SourceString": "片付いた四角いテーブル",
+          "LocalizedString": "片付いた四角いテーブル"
+        }
+      },
+      "MAPOBJECT_NAME_JetDragonStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JetDragonStatue_TextData",
+          "SourceString": "ジェッドラン像",
+          "LocalizedString": "ジェッドラン像"
+        }
+      },
+      "MAPOBJECT_NAME_IceHorseStatue": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_IceHorseStatue_TextData",
+          "SourceString": "グレイシャル像",
+          "LocalizedString": "グレイシャル像"
+        }
+      },
+      "MAPOBJECT_NAME_ArcadeVideoGame": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_ArcadeVideoGame_TextData",
+          "SourceString": "アーケードゲーム筐体",
+          "LocalizedString": "アーケードゲーム筐体"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_MedicalPalBed": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_MedicalPalBed_TextData",
+          "SourceString": "古代文明のパルベッド",
+          "LocalizedString": "古代文明のパルベッド"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_AirConditioner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_AirConditioner_TextData",
+          "SourceString": "古代文明の空調機",
+          "LocalizedString": "古代文明の空調機"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Spa": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Spa_TextData",
+          "SourceString": "古代文明の温泉",
+          "LocalizedString": "古代文明の温泉"
+        }
+      },
+      "MAPOBJECT_NAME_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Clinic_TextData",
+          "SourceString": "診療所",
+          "LocalizedString": "診療所"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_Clinic": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_Clinic_TextData",
+          "SourceString": "古代文明の診療所",
+          "LocalizedString": "古代文明の診療所"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIslandOrePit": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIslandOrePit_TextData",
+          "SourceString": "ソルライト採掘場",
+          "LocalizedString": "ソルライト採掘場"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Flag_TextData",
+          "SourceString": "天落の民の団旗",
+          "LocalizedString": "天落の民の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_DarkIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DarkIsland_Banner_TextData",
+          "SourceString": "天落の民の縦幕",
+          "LocalizedString": "天落の民の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Flag": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Flag_TextData",
+          "SourceString": "蒼天の盟約の団旗",
+          "LocalizedString": "蒼天の盟約の団旗"
+        }
+      },
+      "MAPOBJECT_NAME_SkyIsland_Banner": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SkyIsland_Banner_TextData",
+          "SourceString": "蒼天の盟約の縦幕",
+          "LocalizedString": "蒼天の盟約の縦幕"
+        }
+      },
+      "MAPOBJECT_NAME_StationDeforest3": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_StationDeforest3_TextData",
+          "SourceString": "伐採場Ⅱ",
+          "LocalizedString": "伐採場Ⅱ"
+        }
+      },
+      "MAPOBJECT_NAME_BaseCampWorkHard02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_BaseCampWorkHard02_TextData",
+          "SourceString": "上質な監視台",
+          "LocalizedString": "上質な監視台"
+        }
+      },
+      "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Wooden_SlopedRoofCornerReverse_TextData",
+          "SourceString": "木の三角斜め屋根(反転)",
+          "LocalizedString": "木の三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Stone_SlopedRoofCornerReverse_TextData",
+          "SourceString": "石の三角斜め屋根(反転)",
+          "LocalizedString": "石の三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Iron_SlopedRoofCornerReverse_TextData",
+          "SourceString": "金属の三角斜め屋根(反転)",
+          "LocalizedString": "金属の三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Glass_SlopedRoofCornerReverse_TextData",
+          "SourceString": "ガラスの三角斜め屋根(反転)",
+          "LocalizedString": "ガラスの三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_JapaneseStyle_SlopedRoofCornerReverse_TextData",
+          "SourceString": "和風な三角斜め屋根(反転)",
+          "LocalizedString": "和風な三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_SF_SlopedRoofCornerReverse_TextData",
+          "SourceString": "クリーンな三角斜め屋根(反転)",
+          "LocalizedString": "クリーンな三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_Ancient_SlopedRoofCornerReverse_TextData",
+          "SourceString": "古代文明の三角斜め屋根(反転)",
+          "LocalizedString": "古代文明の三角斜め屋根(反転)"
+        }
+      },
+      "MAPOBJECT_NAME_OilPump02": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_OilPump02_TextData",
+          "SourceString": "原油抽出機・高圧型",
+          "LocalizedString": "原油抽出機・高圧型"
+        }
+      },
+      "MAPOBJECT_NAME_DamagableWood0001": {
+        "TextData": {
+          "Namespace": "DT_MapObjectNameText_Common",
+          "Key": "MAPOBJECT_NAME_DamagableWood0001_TextData",
+          "SourceString": "古代の樹皮",
+          "LocalizedString": "古代の樹皮"
+        }
+      }
+    }
+  }
+]

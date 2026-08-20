@@ -1,0 +1,215 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalBossNPCIcon_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Character/DT_PalBossNPCIcon_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCharacterIconDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "BOSS_Hunter_Rifle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Hunter.T_BOSS_NPC_Hunter",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Hunter_Fat_GatlingGun": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Hunter_Fat.T_BOSS_NPC_Hunter_Fat",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Believer_CrossBow": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Believer.T_BOSS_NPC_Believer",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Believer_Fat_GiantClub": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Believer_Fat.T_BOSS_NPC_Believer_Fat",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Police_Rifle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Police.T_BOSS_NPC_Police",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_FireCult_FlameThrower": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_FireCult.T_BOSS_NPC_FireCult",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Scientist_LaserRifle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Scientist.T_BOSS_NPC_Male_Scientist",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Ninja": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Ninja.T_BOSS_NPC_Male_Ninja",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_NinjaElite": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_NinjaElite.T_BOSS_NPC_Male_NinjaElite",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_Soldier": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female_Soldier.T_BOSS_NPC_Female_Soldier",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_Soldier02": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female_Soldier02.T_BOSS_NPC_Female_Soldier02",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_Soldier03": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female_Soldier03.T_BOSS_NPC_Female_Soldier03",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_Soldier04": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female_Soldier04.T_BOSS_NPC_Female_Soldier04",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Soldier": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Soldier.T_BOSS_NPC_Male_Soldier",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Soldier02": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Soldier02.T_BOSS_NPC_Male_Soldier02",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Soldier03": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Soldier03.T_BOSS_NPC_Male_Soldier03",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Soldier04": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Soldier04.T_BOSS_NPC_Male_Soldier04",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_People": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female.T_BOSS_NPC_Female",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_People02": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female02.T_BOSS_NPC_Female02",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_People03": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female03.T_BOSS_NPC_Female03",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_People": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male.T_BOSS_NPC_Male",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_People2": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male.T_BOSS_NPC_Male",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_People02": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male02.T_BOSS_NPC_Male02",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_People03": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male03.T_BOSS_NPC_Male03",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_DesertPeople": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_DesertPeople.T_BOSS_NPC_Male_DesertPeople",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Female_DesertPeople": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Female_DesertPeople.T_BOSS_NPC_Female_DesertPeople",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Viking": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Viking.T_BOSS_NPC_Viking",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_VikingElite": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_VikingElite.T_BOSS_NPC_VikingElite",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Police_old": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Police_Old.T_BOSS_NPC_Police_Old",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_DarkTrader": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_DarkTrader.T_BOSS_NPC_DarkTrader",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Trader01": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Trader01.T_BOSS_NPC_Male_Trader01",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Trader02": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Trader02.T_BOSS_NPC_Male_Trader02",
+          "SubPathString": ""
+        }
+      },
+      "BOSS_Male_Trader03": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/NPC/T_BOSS_NPC_Male_Trader03.T_BOSS_NPC_Male_Trader03",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "C_PickingGameKeyTurn_VeryHard",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameKeyTurn_VeryHard",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.24999996,
+            "ArriveTangent": -8.130952,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -8.130952,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.1,
+            "Value": 0.024999948,
+            "ArriveTangent": -0.1341806,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.046604652,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.2,
+            "Value": 0.025000008,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7,
+            "Value": 4.7575657E-08,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 3.429254E-08,
+            "ArriveTangent": -0.6976666,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.6976666,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

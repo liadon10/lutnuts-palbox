@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalRecruitDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRecruitDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "BaseCampLevelMin": 7,
+        "BaseCampLevelMax": 13,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_Grass'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_Grass.0"
+        }
+      },
+      "2": {
+        "BaseCampLevelMin": 14,
+        "BaseCampLevelMax": 17,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_Forest_Volcano'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_Forest_Volcano.0"
+        }
+      },
+      "3": {
+        "BaseCampLevelMin": 18,
+        "BaseCampLevelMax": 21,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_Desert_Snow'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_Desert_Snow.0"
+        }
+      },
+      "4": {
+        "BaseCampLevelMin": 22,
+        "BaseCampLevelMax": 25,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_Sakurajima'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_Sakurajima.0"
+        }
+      },
+      "5": {
+        "BaseCampLevelMin": 26,
+        "BaseCampLevelMax": 30,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_DarkIsland'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_DarkIsland.0"
+        }
+      },
+      "6": {
+        "BaseCampLevelMin": 31,
+        "BaseCampLevelMax": 99,
+        "PalRecruitMonsterInfo": {
+          "ObjectName": "DataTable'DT_PalRecruitMonster_SkyIsland'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/Invader/PalRecruiter/DT_PalRecruitMonster_SkyIsland.0"
+        }
+      }
+    }
+  }
+]

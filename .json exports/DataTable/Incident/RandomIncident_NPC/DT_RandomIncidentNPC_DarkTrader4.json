@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentNPC_DarkTrader4",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_NPC/DT_RandomIncidentNPC_DarkTrader4",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnNPCData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NPC_SHOP": {
+        "CharacterID": {
+          "Key": "None"
+        },
+        "UniqueNPCID": {
+          "Key": "DarkTrader04"
+        },
+        "OtomoName": {
+          "Key": "None"
+        },
+        "Level": 40,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 0.0,
+        "RotZ_Degree": 0.0,
+        "WalkPathName": "None",
+        "WalkRadius": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_NPCAIController_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/NPC/BP_NPCAIController.0"
+        },
+        "DefaultAIActionClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIAction_NPC_Relax_SalesPerson_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/NPC/Relax/BP_AIAction_NPC_Relax_SalesPerson.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palworld Palbox Canvas Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+
+  <header class="header-container">
+    <div class="title-bar">
+      <h1>🐾 Lutnut's Palbox</h1>
+      <div class="header-right-group">
+        <button id="addPalBtn" class="btn-action btn-add">➕ Add Pal</button>
+        <button id="addTeamBtn" class="btn-action btn-add-team">⚔️ Add Team</button>
+        <div class="stats-badge">Showing <span id="visibleCount">0</span> of <span id="totalCount">0</span> Pals</div>
+        <button id="syncMyPalsBtn" class="btn-action btn-export">☁️ Sync to My Pals</button>
+        <button id="resetDataBtn" class="btn-action btn-reset" title="Reset to original save data">🔄 Reset</button>
+      </div>
+    </div>
+
+    <div class="controls-card">
+      <!-- Search Input -->
+      <div class="search-group">
+        <input type="text" id="searchInput" placeholder="🔍 Search by Pal Name, Paldeck #, or Skill..."
+          autocomplete="off">
+      </div>
+
+      <!-- Filters & View Controls Row -->
+      <div class="filter-controls-row">
+        <!-- Element Filter with Custom PNG Icons -->
+        <div class="filter-item">
+          <div class="custom-select-wrapper" id="customElemDropdown">
+            <button type="button" class="custom-select-trigger" id="elemDropdownTrigger">
+              <span id="elemDropdownSelected">All Elements</span>
+              <span class="custom-select-arrow">▼</span>
+            </button>
+            <div class="custom-select-options" id="elemDropdownOptions">
+              <div class="custom-option active" data-value="">All Elements</div>
+              <div class="custom-option" data-value="Neutral"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Neutral.png" alt="Neutral"> Neutral</div>
+              <div class="custom-option" data-value="Fire"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Fire.png" alt="Fire"> Fire</div>
+              <div class="custom-option" data-value="Water"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Water.png" alt="Water"> Water</div>
+              <div class="custom-option" data-value="Grass"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Grass.png" alt="Grass"> Grass</div>
+              <div class="custom-option" data-value="Electric"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Electric.png" alt="Electric"> Electric</div>
+              <div class="custom-option" data-value="Ice"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ice.png" alt="Ice"> Ice</div>
+              <div class="custom-option" data-value="Ground"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ground.png" alt="Ground"> Ground</div>
+              <div class="custom-option" data-value="Dragon"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dragon.png" alt="Dragon"> Dragon</div>
+              <div class="custom-option" data-value="Dark"><img class="custom-icon-img"
+                  src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dark.png" alt="Dark"> Dark</div>
+            </div>
+            <input type="hidden" id="elemFilter" value="">
+          </div>
+        </div>
+
+        <!-- Location Filter -->
+        <div class="filter-item">
+          <select id="locationFilter">
+            <option value="">All Locations</option>
+            <option value="Active Party">⚔️ Active Party</option>
+            <option value="Base">🏠 Base Camp</option>
+            <option value="Palbox Storage">📦 Palbox Storage</option>
+            <option value="Global Palbox">🌐 Global Palbox</option>
+          </select>
+        </div>
+
+        <!-- Rank Filter -->
+        <div class="filter-item">
+          <select id="rankFilter">
+            <option value="">All Ranks</option>
+            <option value="-">0★ (Uncondensed)</option>
+            <option value="★">★ (1 Star)</option>
+            <option value="★★">★★ (2 Stars)</option>
+            <option value="★★★">★★★ (3 Stars)</option>
+            <option value="★★★★">★★★★ (4 Stars Max)</option>
+          </select>
+        </div>
+
+        <!-- Sort Option -->
+        <div class="filter-item">
+          <select id="sortSelect">
+            <option value="paldeck">Sort by Paldeck #</option>
+            <option value="level_desc">Sort by Level (High → Low)</option>
+            <option value="stars_desc">Sort by Rank (High → Low)</option>
+            <option value="name_asc">Sort by Name (A → Z)</option>
+            <option value="location_asc">Sort by Location (A → Z)</option>
+          </select>
+        </div>
+
+        <!-- Combat Synergy Page Toggle & Layout Mode Toggle (Far Right) -->
+        <div class="view-controls-group">
+          <button id="synergyViewBtn" class="btn-action btn-synergy">⚔️ Combat Teams</button>
+          <div class="view-mode-toggle">
+            <button id="gridModeBtn" class="btn-view active" title="Card Grid View">🔲 Grid</button>
+            <button id="listModeBtn" class="btn-view" title="Table List View">≡ List</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pal-grid" id="palGrid">
+    <!-- Pal Cards rendered dynamically via app.js -->
+  </main>
+
+  <!-- Modal for Adding / Editing Pal -->
+  <div id="palModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="modalTitle">Edit Pal</h2>
+        <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      </div>
+
+      <form id="palForm">
+        <input type="hidden" id="editInstanceGuid">
+
+        <div class="form-grid-2">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="editName">Pal Name</label>
+            <input type="text" id="editName" required placeholder="e.g. Cattiva">
+          </div>
+
+          <!-- Paldeck # -->
+          <div class="form-group">
+            <label for="editPaldeckNum">Paldeck #</label>
+            <input type="text" id="editPaldeckNum" placeholder="e.g. #002">
+          </div>
+
+          <!-- Level -->
+          <div class="form-group">
+            <label for="editLevel">Level</label>
+            <input type="number" id="editLevel" min="1" max="100" value="1">
+          </div>
+
+          <!-- Gender -->
+          <div class="form-group">
+            <label for="editGender">Gender</label>
+            <select id="editGender">
+              <option value="male">Male (♂)</option>
+              <option value="female">Female (♀)</option>
+              <option value="unknown">Unknown (⚪)</option>
+            </select>
+          </div>
+
+          <!-- Location -->
+          <div class="form-group">
+            <label for="editLocation">Location</label>
+            <select id="editLocation">
+              <option value="Active Party">⚔️ Active Party</option>
+              <option value="Base Camp">🏠 Base Camp</option>
+              <option value="Palbox Storage">📦 Palbox Storage</option>
+              <option value="Global Palbox">🌐 Global Palbox</option>
+            </select>
+          </div>
+
+          <!-- Condensed / Rank -->
+          <div class="form-group">
+            <label for="editStars">Condensed Rank</label>
+            <select id="editStars">
+              <option value="-">0★ (Uncondensed)</option>
+              <option value="★">★ (1 Star)</option>
+              <option value="★★">★★ (2 Stars)</option>
+              <option value="★★★">★★★ (3 Stars)</option>
+              <option value="★★★★">★★★★ (4 Stars Max)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Alpha Toggle next to Condensed rank -->
+        <div class="form-group-checkbox">
+          <label class="checkbox-label">
+            <input type="checkbox" id="editIsBoss">
+            <img
+              src="https://static.wikia.nocookie.net/palworld/images/a/a3/Alpha_Pals_icon.png/revision/latest/scale-to-width-down/24?cb=20250111071440"
+              alt="Alpha Icon" class="alpha-inline-icon" onerror="this.outerHTML='🔴';">
+            <span>Is Alpha Pal (Boss)</span>
+          </label>
+        </div>
+
+        <!-- Elements -->
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="editElement1">Primary Element</label>
+            <select id="editElement1">
+              <option value="Neutral">⚪ Neutral</option>
+              <option value="Fire">🔥 Fire</option>
+              <option value="Water">💧 Water</option>
+              <option value="Grass">🌱 Grass</option>
+              <option value="Electric">⚡ Electric</option>
+              <option value="Ice">❄️ Ice</option>
+              <option value="Ground">⛏️ Ground</option>
+              <option value="Dragon">🐉 Dragon</option>
+              <option value="Dark">💀 Dark</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="editElement2">Secondary Element (Optional)</label>
+            <select id="editElement2">
+              <option value="">None</option>
+              <option value="Neutral">⚪ Neutral</option>
+              <option value="Fire">🔥 Fire</option>
+              <option value="Water">💧 Water</option>
+              <option value="Grass">🌱 Grass</option>
+              <option value="Electric">⚡ Electric</option>
+              <option value="Ice">❄️ Ice</option>
+              <option value="Ground">⛏️ Ground</option>
+              <option value="Dragon">🐉 Dragon</option>
+              <option value="Dark">💀 Dark</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Passive Skills (4 slots) -->
+        <div class="modal-section-title">Passive Skills (Up to 4)</div>
+        <div class="passives-edit-grid">
+          <div class="passive-edit-item">
+            <input type="text" id="passive1_name" placeholder="Passive 1 (e.g. Ferocious)">
+            <select id="passive1_tier">
+              <option value="3">Tier 3 (Gold)</option>
+              <option value="2">Tier 2 (Gold/Silver)</option>
+              <option value="1">Tier 1 (Silver)</option>
+              <option value="0">Tier 0 (White)</option>
+              <option value="-1">Negative (Red)</option>
+            </select>
+          </div>
+          <div class="passive-edit-item">
+            <input type="text" id="passive2_name" placeholder="Passive 2 (e.g. Musclehead)">
+            <select id="passive2_tier">
+              <option value="3">Tier 3 (Gold)</option>
+              <option value="2">Tier 2 (Gold/Silver)</option>
+              <option value="1">Tier 1 (Silver)</option>
+              <option value="0">Tier 0 (White)</option>
+              <option value="-1">Negative (Red)</option>
+            </select>
+          </div>
+          <div class="passive-edit-item">
+            <input type="text" id="passive3_name" placeholder="Passive 3 (e.g. Legend)">
+            <select id="passive3_tier">
+              <option value="3">Tier 3 (Gold)</option>
+              <option value="2">Tier 2 (Gold/Silver)</option>
+              <option value="1">Tier 1 (Silver)</option>
+              <option value="0">Tier 0 (White)</option>
+              <option value="-1">Negative (Red)</option>
+            </select>
+          </div>
+          <div class="passive-edit-item">
+            <input type="text" id="passive4_name" placeholder="Passive 4 (e.g. Artisan)">
+            <select id="passive4_tier">
+              <option value="3">Tier 3 (Gold)</option>
+              <option value="2">Tier 2 (Gold/Silver)</option>
+              <option value="1">Tier 1 (Silver)</option>
+              <option value="0">Tier 0 (White)</option>
+              <option value="-1">Negative (Red)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Work Suitabilities -->
+        <div class="modal-section-title">Work Suitabilities</div>
+        <div class="work-suit-edit-grid" id="workSuitContainer">
+          <!-- Dynamically populated 12 suitabilities -->
+        </div>
+
+        <!-- Modal Actions -->
+        <div class="modal-actions">
+          <button type="button" class="btn-danger" id="deletePalBtn" style="display:none;">🗑️ Delete Pal</button>
+          <div class="actions-right">
+            <button type="button" class="btn-secondary" id="modalCancelBtn">Cancel</button>
+            <button type="submit" class="btn-primary" id="savePalBtn">Save Pal</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal for Editing Combat Team -->
+  <div id="teamModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="teamModalTitle">Edit Combat Team</h2>
+        <button class="modal-close-btn" id="teamModalCloseBtn">&times;</button>
+      </div>
+
+      <form id="teamForm">
+        <input type="hidden" id="editTeamId">
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="editTeamName">Team Name</label>
+            <input type="text" id="editTeamName" required placeholder="e.g. Ground Pounders">
+          </div>
+
+          <div class="form-group">
+            <label for="editTeamType">Primary Element Type</label>
+            <select id="editTeamType">
+              <option value="Ground">Ground</option>
+              <option value="Fire">Fire</option>
+              <option value="Water">Water</option>
+              <option value="Grass">Grass</option>
+              <option value="Electric">Electric</option>
+              <option value="Ice">Ice</option>
+              <option value="Dragon">Dragon</option>
+              <option value="Dark">Dark</option>
+              <option value="Neutral">Neutral</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="modal-section-title">Team Members (Slots 1 to 5)</div>
+        <div class="team-members-edit-list" style="display:flex; flex-direction:column; gap:10px;">
+          <div class="work-suit-edit-item">
+            <span>Slot 1 (Main DPS / Mount):</span>
+            <select id="team_member_0_select"></select>
+          </div>
+          <div class="work-suit-edit-item">
+            <span>Slot 2 (Synergist / Element):</span>
+            <select id="team_member_1_select"></select>
+          </div>
+          <div class="work-suit-edit-item">
+            <span>Slot 3 (Infusion / Support):</span>
+            <select id="team_member_2_select"></select>
+          </div>
+          <div class="work-suit-edit-item">
+            <span>Slot 4 (Core Support 1):</span>
+            <select id="team_member_3_select"></select>
+          </div>
+          <div class="work-suit-edit-item">
+            <span>Slot 5 (Core Support 2):</span>
+            <select id="team_member_4_select"></select>
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top:16px;">
+          <label for="editSynergyDesc">Synergy Breakdown & Strategy</label>
+          <textarea id="editSynergyDesc" rows="3"
+            style="width:100%; background:var(--bg-input); border:1px solid var(--border-card); color:var(--text-main); padding:10px; border-radius:8px; font-family:inherit;"
+            placeholder="Describe team synergy strategy..."></textarea>
+        </div>
+
+        <div class="form-group" style="margin-top:12px;">
+          <label for="editTeamRecs">Min/Max Recommendations & Target Content</label>
+          <input type="text" id="editTeamRecs" placeholder="e.g. Blazamut Ryu / Raid">
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn-danger" id="deleteTeamBtn" style="display:none;">🗑️ Delete Team</button>
+          <div class="actions-right">
+            <button type="button" class="btn-secondary" id="teamModalCancelBtn">Cancel</button>
+            <button type="submit" class="btn-primary" id="saveTeamBtn">Save Team</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Expanded Pal Detail View Modal -->
+  <div class="modal-overlay" id="palDetailModal" style="display: none;">
+    <div class="modal-content pal-detail-modal-content">
+      <div class="modal-header">
+        <h2 id="detailPalTitle">🐾 Pal Details</h2>
+        <button class="modal-close-btn" id="detailModalCloseBtn">&times;</button>
+      </div>
+
+      <!-- Common Header Info Banner (Name, portrait, Alpha status, paldeck #, Level, Rank, Gender, Location, Total owned) -->
+      <div id="palDetailHeaderBanner"></div>
+
+      <!-- Main Pal Details Body (Stats, Skills, Work Suitabilities, Possible Item Drops) -->
+      <div class="pal-detail-body" id="palDetailBodyStats" style="display: block;">
+        <!-- Dynamically rendered detailed pal stats, skills, work suitabilities, and drops -->
+      </div>
+
+      <div class="modal-actions" style="margin-top:20px;">
+        <button type="button" class="btn-secondary" id="detailModalCloseBottomBtn">Close</button>
+        <div class="actions-right">
+          <a id="detailPalGgBtn" class="btn-synergy" href="#" target="_blank" rel="noopener"
+            style="text-decoration:none;">🌐 View on Palworld.gg</a>
+          <button type="button" class="btn-primary" id="detailEditPalBtn">✏️ Edit Pal</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="pals.js"></script>
+  <script src="passives_db.js"></script>
+  <script src="synergy_teams.js"></script>
+  <script src="partner_skills_db.js"></script>
+  <script src="pal_drops_spawns_db.js"></script>
+  <script src="pal_habitat_data.js"></script>
+  <script src="pal_mapgenie_spawns.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

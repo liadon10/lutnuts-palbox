@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OptionWorldModePresetTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Option/DT_OptionWorldModePresetTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalOptionWorldModePresetRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Single": {
+        "WorldMode": "EPalOptionWorldMode::Single",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": false,
+        "bIsStartLocationSelectByMap": false,
+        "bExistPlayerAfterLogout": false,
+        "bEnableDefenseOtherGuildPlayer": false
+      },
+      "ListenMulti": {
+        "WorldMode": "EPalOptionWorldMode::ListenMulti",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": false,
+        "bIsStartLocationSelectByMap": false,
+        "bExistPlayerAfterLogout": false,
+        "bEnableDefenseOtherGuildPlayer": false
+      },
+      "Dedicated_PvE": {
+        "WorldMode": "EPalOptionWorldMode::Dedicated_PvE",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": false,
+        "bEnableNonLoginPenalty": true,
+        "bIsStartLocationSelectByMap": true,
+        "bExistPlayerAfterLogout": false,
+        "bEnableDefenseOtherGuildPlayer": false
+      },
+      "Dedicated_PvP": {
+        "WorldMode": "EPalOptionWorldMode::Dedicated_PvP",
+        "bEnablePlayerToPlayerDamage": false,
+        "bCanPickupOtherGuildDeathPenaltyDrop": true,
+        "bEnableNonLoginPenalty": true,
+        "bIsStartLocationSelectByMap": true,
+        "bExistPlayerAfterLogout": true,
+        "bEnableDefenseOtherGuildPlayer": true
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] Decompressing Palworld zlib save stream...
+[!] Standard 12-byte header decompression failed: Error -3 while decompressing data: incorrect header check
+[!] Error during extraction: Failed to decompress Level.sav or find valid GVAS header.
+[!] No Pal data recovered from save.
+
+[✓] [15:48:22] Sync complete. Exiting script.

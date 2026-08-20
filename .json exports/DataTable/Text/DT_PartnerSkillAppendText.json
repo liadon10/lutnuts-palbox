@@ -1,0 +1,1210 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PartnerSkillAppendText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_PartnerSkillAppendText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TEST_TEXT_RANK_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_1_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_2_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_3_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_4_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "TEST_TEXT_RANK_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "TEST_TEXT_RANK_5_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "DamageUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "DamageUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_2_TextData",
+          "SourceString": "（ダメージ増加：<Status_Up>小</>）",
+          "LocalizedString": "（ダメージ増加：<Status_Up>小</>）"
+        }
+      },
+      "DamageUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_3_TextData",
+          "SourceString": "（ダメージ増加：<Status_Up>中</>）",
+          "LocalizedString": "（ダメージ増加：<Status_Up>中</>）"
+        }
+      },
+      "DamageUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_4_TextData",
+          "SourceString": "（ダメージ増加：<Status_Up>大</>）",
+          "LocalizedString": "（ダメージ増加：<Status_Up>大</>）"
+        }
+      },
+      "DamageUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_Rank_5_TextData",
+          "SourceString": "（ダメージ増加：<Status_Up>特大</>）",
+          "LocalizedString": "（ダメージ増加：<Status_Up>特大</>）"
+        }
+      },
+      "CooldownReduction_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_2_TextData",
+          "SourceString": "（クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_3_TextData",
+          "SourceString": "（クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_4_TextData",
+          "SourceString": "（クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CooldownReduction_Rank_5_TextData",
+          "SourceString": "（クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（クールタイム短縮：<Status_Up>特大</>）"
+        }
+      },
+      "MiningUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_2_TextData",
+          "SourceString": "（採掘効率上昇：<Status_Up>小</>）",
+          "LocalizedString": "（採掘効率上昇：<Status_Up>小</>）"
+        }
+      },
+      "MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_3_TextData",
+          "SourceString": "（採掘効率上昇：<Status_Up>中</>）",
+          "LocalizedString": "（採掘効率上昇：<Status_Up>中</>）"
+        }
+      },
+      "MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_4_TextData",
+          "SourceString": "（採掘効率上昇：<Status_Up>大</>）",
+          "LocalizedString": "（採掘効率上昇：<Status_Up>大</>）"
+        }
+      },
+      "MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "MiningUp_Rank_5_TextData",
+          "SourceString": "（採掘効率上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（採掘効率上昇：<Status_Up>特大</>）"
+        }
+      },
+      "RideSpeedUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "RideSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_2_TextData",
+          "SourceString": "（ライド時の移動速度：<Status_Up>10%</>上昇）",
+          "LocalizedString": "（ライド時の移動速度：<Status_Up>10%</>上昇）"
+        }
+      },
+      "RideSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_3_TextData",
+          "SourceString": "（ライド時の移動速度：<Status_Up>12%</>上昇）",
+          "LocalizedString": "（ライド時の移動速度：<Status_Up>12%</>上昇）"
+        }
+      },
+      "RideSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_4_TextData",
+          "SourceString": "（ライド時の移動速度：<Status_Up>15%</>上昇）",
+          "LocalizedString": "（ライド時の移動速度：<Status_Up>15%</>上昇）"
+        }
+      },
+      "RideSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_Rank_5_TextData",
+          "SourceString": "（ライド時の移動速度：<Status_Up>20%</>上昇）",
+          "LocalizedString": "（ライド時の移動速度：<Status_Up>20%</>上昇）"
+        }
+      },
+      "SwimSpeedUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "SwimSpeedUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_2_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>10%</>上昇）",
+          "LocalizedString": "（水上移動速度：<Status_Up>10%</>上昇）"
+        }
+      },
+      "SwimSpeedUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_3_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>14%</>上昇）",
+          "LocalizedString": "（水上移動速度：<Status_Up>14%</>上昇）"
+        }
+      },
+      "SwimSpeedUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_4_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>18%</>上昇）",
+          "LocalizedString": "（水上移動速度：<Status_Up>18%</>上昇）"
+        }
+      },
+      "SwimSpeedUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_Rank_5_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>25%</>上昇）",
+          "LocalizedString": "（水上移動速度：<Status_Up>25%</>上昇）"
+        }
+      },
+      "LoggingUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "LoggingUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_2_TextData",
+          "SourceString": "（伐採効率上昇：<Status_Up>小</>）",
+          "LocalizedString": "（伐採効率上昇：<Status_Up>小</>）"
+        }
+      },
+      "LoggingUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_3_TextData",
+          "SourceString": "（伐採効率上昇：<Status_Up>中</>）",
+          "LocalizedString": "（伐採効率上昇：<Status_Up>中</>）"
+        }
+      },
+      "LoggingUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_4_TextData",
+          "SourceString": "（伐採効率上昇：<Status_Up>大</>）",
+          "LocalizedString": "（伐採効率上昇：<Status_Up>大</>）"
+        }
+      },
+      "LoggingUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_Rank_5_TextData",
+          "SourceString": "（伐採効率上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（伐採効率上昇：<Status_Up>特大</>）"
+        }
+      },
+      "DropUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "DropUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_2_TextData",
+          "SourceString": "（アイテム獲得量増加：<Status_Up>小</>）",
+          "LocalizedString": "（アイテム獲得量増加：<Status_Up>小</>）"
+        }
+      },
+      "DropUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_3_TextData",
+          "SourceString": "（アイテム獲得量増加：<Status_Up>中</>）",
+          "LocalizedString": "（アイテム獲得量増加：<Status_Up>中</>）"
+        }
+      },
+      "DropUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_4_TextData",
+          "SourceString": "（アイテム獲得量増加：<Status_Up>大</>）",
+          "LocalizedString": "（アイテム獲得量増加：<Status_Up>大</>）"
+        }
+      },
+      "DropUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DropUp_Rank_5_TextData",
+          "SourceString": "（アイテム獲得量増加：<Status_Up>特大</>）",
+          "LocalizedString": "（アイテム獲得量増加：<Status_Up>特大</>）"
+        }
+      },
+      "FishingAssist_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "FishingAssist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_2_TextData",
+          "SourceString": "（釣りアシスト効果上昇：<Status_Up>小</>）",
+          "LocalizedString": "（釣りアシスト効果上昇：<Status_Up>小</>）"
+        }
+      },
+      "FishingAssist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_3_TextData",
+          "SourceString": "（釣りアシスト効果上昇：<Status_Up>中</>）",
+          "LocalizedString": "（釣りアシスト効果上昇：<Status_Up>中</>）"
+        }
+      },
+      "FishingAssist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_4_TextData",
+          "SourceString": "（釣りアシスト効果上昇：<Status_Up>大</>）",
+          "LocalizedString": "（釣りアシスト効果上昇：<Status_Up>大</>）"
+        }
+      },
+      "FishingAssist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FishingAssist_Rank_5_TextData",
+          "SourceString": "（釣りアシスト効果上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（釣りアシスト効果上昇：<Status_Up>特大</>）"
+        }
+      },
+      "LifeSteal_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "LifeSteal_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_2_TextData",
+          "SourceString": "（ライフスティール効果上昇：<Status_Up>小</>）",
+          "LocalizedString": "（ライフスティール効果上昇：<Status_Up>小</>）"
+        }
+      },
+      "LifeSteal_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_3_TextData",
+          "SourceString": "（ライフスティール効果上昇：<Status_Up>中</>）",
+          "LocalizedString": "（ライフスティール効果上昇：<Status_Up>中</>）"
+        }
+      },
+      "LifeSteal_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_4_TextData",
+          "SourceString": "（ライフスティール効果上昇：<Status_Up>大</>）",
+          "LocalizedString": "（ライフスティール効果上昇：<Status_Up>大</>）"
+        }
+      },
+      "LifeSteal_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LifeSteal_Rank_5_TextData",
+          "SourceString": "（ライフスティール効果上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（ライフスティール効果上昇：<Status_Up>特大</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "（移動速度上昇・クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（移動速度上昇・クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "（移動速度上昇・クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（移動速度上昇・クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "（移動速度上昇・クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（移動速度上昇・クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "RideSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "RideSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "（移動速度上昇・クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（移動速度上昇・クールタイム短縮：<Status_Up>特大</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>10%</>上昇・クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（水上移動速度：<Status_Up>10%</>上昇・クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>14%</>上昇・クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（水上移動速度：<Status_Up>14%</>上昇・クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>18%</>上昇・クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（水上移動速度：<Status_Up>18%</>上昇・クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "SwimSpeedUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SwimSpeedUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "（水上移動速度：<Status_Up>25%</>上昇・クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（水上移動速度：<Status_Up>25%</>上昇・クールタイム短縮：<Status_Up>特大</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "LoggingUp_MiningUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_2_TextData",
+          "SourceString": "（伐採・採掘効率上昇：<Status_Up>小</>）",
+          "LocalizedString": "（伐採・採掘効率上昇：<Status_Up>小</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_3_TextData",
+          "SourceString": "（伐採・採掘効率上昇：<Status_Up>中</>）",
+          "LocalizedString": "（伐採・採掘効率上昇：<Status_Up>中</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_4_TextData",
+          "SourceString": "（伐採・採掘効率上昇：<Status_Up>大</>）",
+          "LocalizedString": "（伐採・採掘効率上昇：<Status_Up>大</>）"
+        }
+      },
+      "LoggingUp_MiningUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "LoggingUp_MiningUp_Rank_5_TextData",
+          "SourceString": "（伐採・採掘効率上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（伐採・採掘効率上昇：<Status_Up>特大</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ElementPassive_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_2_TextData",
+          "SourceString": "（闇属性パル攻撃力上昇：<Status_Up>小</>）",
+          "LocalizedString": "（闇属性パル攻撃力上昇：<Status_Up>小</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_3_TextData",
+          "SourceString": "（闇属性パル攻撃力上昇：<Status_Up>中</>）",
+          "LocalizedString": "（闇属性パル攻撃力上昇：<Status_Up>中</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_4_TextData",
+          "SourceString": "（闇属性パル攻撃力上昇：<Status_Up>大</>）",
+          "LocalizedString": "（闇属性パル攻撃力上昇：<Status_Up>大</>）"
+        }
+      },
+      "ElementPassive_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementPassive_Dark_Rank_5_TextData",
+          "SourceString": "（闇属性パル攻撃力上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（闇属性パル攻撃力上昇：<Status_Up>特大</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ItemCollectRangeUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_2_TextData",
+          "SourceString": "（アイテム回収範囲増加：<Status_Up>小</>）",
+          "LocalizedString": "（アイテム回収範囲増加：<Status_Up>小</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_3_TextData",
+          "SourceString": "（アイテム回収範囲増加：<Status_Up>中</>）",
+          "LocalizedString": "（アイテム回収範囲増加：<Status_Up>中</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_4_TextData",
+          "SourceString": "（アイテム回収範囲増加：<Status_Up>大</>）",
+          "LocalizedString": "（アイテム回収範囲増加：<Status_Up>大</>）"
+        }
+      },
+      "ItemCollectRangeUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ItemCollectRangeUp_Rank_5_TextData",
+          "SourceString": "（アイテム回収範囲増加：<Status_Up>特大</>）",
+          "LocalizedString": "（アイテム回収範囲増加：<Status_Up>特大</>）"
+        }
+      },
+      "SANDownResist_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "SANDownResist_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_2_TextData",
+          "SourceString": "（SAN値減少耐性上昇：<Status_Up>小</>）",
+          "LocalizedString": "（SAN値減少耐性上昇：<Status_Up>小</>）"
+        }
+      },
+      "SANDownResist_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_3_TextData",
+          "SourceString": "（SAN値減少耐性上昇：<Status_Up>中</>）",
+          "LocalizedString": "（SAN値減少耐性上昇：<Status_Up>中</>）"
+        }
+      },
+      "SANDownResist_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_4_TextData",
+          "SourceString": "（SAN値減少耐性上昇：<Status_Up>大</>）",
+          "LocalizedString": "（SAN値減少耐性上昇：<Status_Up>大</>）"
+        }
+      },
+      "SANDownResist_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SANDownResist_Rank_5_TextData",
+          "SourceString": "（SAN値減少耐性上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（SAN値減少耐性上昇：<Status_Up>特大</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ElementBoost_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_2_TextData",
+          "SourceString": "（闇属性攻撃強化 ：<Status_Up>小</>）",
+          "LocalizedString": "（闇属性攻撃強化 ：<Status_Up>小</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_3_TextData",
+          "SourceString": "（闇属性攻撃強化 ：<Status_Up>中</>）",
+          "LocalizedString": "（闇属性攻撃強化 ：<Status_Up>中</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_4_TextData",
+          "SourceString": "（闇属性攻撃強化 ：<Status_Up>大</>）",
+          "LocalizedString": "（闇属性攻撃強化 ：<Status_Up>大</>）"
+        }
+      },
+      "ElementBoost_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Dark_Rank_5_TextData",
+          "SourceString": "（闇属性攻撃強化 ：<Status_Up>特大</>）",
+          "LocalizedString": "（闇属性攻撃強化 ：<Status_Up>特大</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_2_TextData",
+          "SourceString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>小</>）",
+          "LocalizedString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>小</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_3_TextData",
+          "SourceString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>中</>）",
+          "LocalizedString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>中</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_4_TextData",
+          "SourceString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>大</>）",
+          "LocalizedString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>大</>）"
+        }
+      },
+      "SyncroPassiveWhenCapture_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SyncroPassiveWhenCapture_Rank_5_TextData",
+          "SourceString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>特大</>）",
+          "LocalizedString": "（同一パッシブ所持パル遭遇率上昇 ：<Status_Up>特大</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_2_TextData",
+          "SourceString": "（作物の成長速度上昇：<Status_Up>小</>）",
+          "LocalizedString": "（作物の成長速度上昇：<Status_Up>小</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_3_TextData",
+          "SourceString": "（作物の成長速度上昇：<Status_Up>中</>）",
+          "LocalizedString": "（作物の成長速度上昇：<Status_Up>中</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_4_TextData",
+          "SourceString": "（作物の成長速度上昇：<Status_Up>大</>）",
+          "LocalizedString": "（作物の成長速度上昇：<Status_Up>大</>）"
+        }
+      },
+      "FarmCropGrowupSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropGrowupSpeed_Rank_5_TextData",
+          "SourceString": "（作物の成長速度上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（作物の成長速度上昇：<Status_Up>特大</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "GriderPerformanceUp_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_2_TextData",
+          "SourceString": "（グライダー性能強化：<Status_Up>小</>）",
+          "LocalizedString": "（グライダー性能強化：<Status_Up>小</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_3_TextData",
+          "SourceString": "（グライダー性能強化：<Status_Up>中</>）",
+          "LocalizedString": "（グライダー性能強化：<Status_Up>中</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_4_TextData",
+          "SourceString": "（グライダー性能強化：<Status_Up>大</>）",
+          "LocalizedString": "（グライダー性能強化：<Status_Up>大</>）"
+        }
+      },
+      "GriderPerformanceUp_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "GriderPerformanceUp_Rank_5_TextData",
+          "SourceString": "（グライダー性能強化：<Status_Up>特大</>）",
+          "LocalizedString": "（グライダー性能強化：<Status_Up>特大</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_2_TextData",
+          "SourceString": "（作物の収穫量増加 ：<Status_Up>小</>）",
+          "LocalizedString": "（作物の収穫量増加 ：<Status_Up>小</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_3_TextData",
+          "SourceString": "（作物の収穫量増加 ：<Status_Up>中</>）",
+          "LocalizedString": "（作物の収穫量増加 ：<Status_Up>中</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_4_TextData",
+          "SourceString": "（作物の収穫量増加 ：<Status_Up>大</>）",
+          "LocalizedString": "（作物の収穫量増加 ：<Status_Up>大</>）"
+        }
+      },
+      "FarmCropHarvestNumRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "FarmCropHarvestNumRate_Rank_5_TextData",
+          "SourceString": "（作物の収穫量増加 ：<Status_Up>特大</>）",
+          "LocalizedString": "（作物の収穫量増加 ：<Status_Up>特大</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_2_TextData",
+          "SourceString": "（無属性・闇属性攻撃強化：<Status_Up>小</>）",
+          "LocalizedString": "（無属性・闇属性攻撃強化：<Status_Up>小</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_3_TextData",
+          "SourceString": "（無属性・闇属性攻撃強化：<Status_Up>中</>）",
+          "LocalizedString": "（無属性・闇属性攻撃強化：<Status_Up>中</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_4_TextData",
+          "SourceString": "（無属性・闇属性攻撃強化：<Status_Up>大</>）",
+          "LocalizedString": "（無属性・闇属性攻撃強化：<Status_Up>大</>）"
+        }
+      },
+      "ElementBoost_Neutral_Dark_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ElementBoost_Neutral_Dark_Rank_5_TextData",
+          "SourceString": "（無属性・闇属性攻撃強化：<Status_Up>特大</>）",
+          "LocalizedString": "（無属性・闇属性攻撃強化：<Status_Up>特大</>）"
+        }
+      },
+      "Funnel_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "Funnel_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_2_TextData",
+          "SourceString": "（追撃強化：<Status_Up>小</>）",
+          "LocalizedString": "（追撃強化：<Status_Up>小</>）"
+        }
+      },
+      "Funnel_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_3_TextData",
+          "SourceString": "（追撃強化：<Status_Up>中</>）",
+          "LocalizedString": "（追撃強化：<Status_Up>中</>）"
+        }
+      },
+      "Funnel_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_4_TextData",
+          "SourceString": "（追撃強化：<Status_Up>大</>）",
+          "LocalizedString": "（追撃強化：<Status_Up>大</>）"
+        }
+      },
+      "Funnel_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Funnel_Rank_5_TextData",
+          "SourceString": "（追撃強化：<Status_Up>特大</>）",
+          "LocalizedString": "（追撃強化：<Status_Up>特大</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_2_TextData",
+          "SourceString": "（ダメージ増加・クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（ダメージ増加・クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_3_TextData",
+          "SourceString": "（ダメージ増加・クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（ダメージ増加・クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_4_TextData",
+          "SourceString": "（ダメージ増加・クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（ダメージ増加・クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "DamageUp_CooldownReduction_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "DamageUp_CooldownReduction_Rank_5_TextData",
+          "SourceString": "（ダメージ増加・クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（ダメージ増加・クールタイム短縮：<Status_Up>特大</>）"
+        }
+      },
+      "Talent_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "Talent_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_2_TextData",
+          "SourceString": "（才能のあるパルが釣れる確率上昇：<Status_Up>小</>）",
+          "LocalizedString": "（才能のあるパルが釣れる確率上昇：<Status_Up>小</>）"
+        }
+      },
+      "Talent_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_3_TextData",
+          "SourceString": "（才能のあるパルが釣れる確率上昇：<Status_Up>中</>）",
+          "LocalizedString": "（才能のあるパルが釣れる確率上昇：<Status_Up>中</>）"
+        }
+      },
+      "Talent_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_4_TextData",
+          "SourceString": "（才能のあるパルが釣れる確率上昇：<Status_Up>大</>）",
+          "LocalizedString": "（才能のあるパルが釣れる確率上昇：<Status_Up>大</>）"
+        }
+      },
+      "Talent_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Talent_Rank_5_TextData",
+          "SourceString": "（才能のあるパルが釣れる確率上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（才能のあるパルが釣れる確率上昇：<Status_Up>特大</>）"
+        }
+      },
+      "StealthTime_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_1_TextData",
+          "SourceString": "<Status_Up>10</>",
+          "LocalizedString": "<Status_Up>10</>"
+        }
+      },
+      "StealthTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_2_TextData",
+          "SourceString": "<Status_Up>12</>",
+          "LocalizedString": "<Status_Up>12</>"
+        }
+      },
+      "StealthTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_3_TextData",
+          "SourceString": "<Status_Up>14</>",
+          "LocalizedString": "<Status_Up>14</>"
+        }
+      },
+      "StealthTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_4_TextData",
+          "SourceString": "<Status_Up>16</>",
+          "LocalizedString": "<Status_Up>16</>"
+        }
+      },
+      "StealthTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "StealthTime_Rank_5_TextData",
+          "SourceString": "<Status_Up>20</>",
+          "LocalizedString": "<Status_Up>20</>"
+        }
+      },
+      "ShortDashSpeed_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ShortDashSpeed_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_2_TextData",
+          "SourceString": "（ダッシュ速度上昇：<Status_Up>小</>）",
+          "LocalizedString": "（ダッシュ速度上昇：<Status_Up>小</>）"
+        }
+      },
+      "ShortDashSpeed_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_3_TextData",
+          "SourceString": "（ダッシュ速度上昇：<Status_Up>中</>）",
+          "LocalizedString": "（ダッシュ速度上昇：<Status_Up>中</>）"
+        }
+      },
+      "ShortDashSpeed_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_4_TextData",
+          "SourceString": "（ダッシュ速度上昇：<Status_Up>大</>）",
+          "LocalizedString": "（ダッシュ速度上昇：<Status_Up>大</>）"
+        }
+      },
+      "ShortDashSpeed_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeed_Rank_5_TextData",
+          "SourceString": "（ダッシュ速度上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（ダッシュ速度上昇：<Status_Up>特大</>）"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_2_TextData",
+          "SourceString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_3_TextData",
+          "SourceString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_4_TextData",
+          "SourceString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "ShortDashSpeedCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "ShortDashSpeedCoolTime_Rank_5_TextData",
+          "SourceString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（ダッシュ速度上昇・クールタイム短縮：<Status_Up>特大</>）"
+        }
+      },
+      "Waza_Rank_1": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_1_TextData",
+          "SourceString": "<Status_Up>110%</>",
+          "LocalizedString": "<Status_Up>110%</>"
+        }
+      },
+      "Waza_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_2_TextData",
+          "SourceString": "<Status_Up>130%</>",
+          "LocalizedString": "<Status_Up>130%</>"
+        }
+      },
+      "Waza_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_3_TextData",
+          "SourceString": "<Status_Up>160%</>",
+          "LocalizedString": "<Status_Up>160%</>"
+        }
+      },
+      "Waza_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_4_TextData",
+          "SourceString": "<Status_Up>200%</>",
+          "LocalizedString": "<Status_Up>200%</>"
+        }
+      },
+      "Waza_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "Waza_Rank_5_TextData",
+          "SourceString": "<Status_Up>250%</>",
+          "LocalizedString": "<Status_Up>250%</>"
+        }
+      },
+      "CaptureRate_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "CaptureRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_2_TextData",
+          "SourceString": "（捕獲確率上昇：<Status_Up>小</>）",
+          "LocalizedString": "（捕獲確率上昇：<Status_Up>小</>）"
+        }
+      },
+      "CaptureRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_3_TextData",
+          "SourceString": "（捕獲確率上昇：<Status_Up>中</>）",
+          "LocalizedString": "（捕獲確率上昇：<Status_Up>中</>）"
+        }
+      },
+      "CaptureRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_4_TextData",
+          "SourceString": "（捕獲確率上昇：<Status_Up>大</>）",
+          "LocalizedString": "（捕獲確率上昇：<Status_Up>大</>）"
+        }
+      },
+      "CaptureRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "CaptureRate_Rank_5_TextData",
+          "SourceString": "（捕獲確率上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（捕獲確率上昇：<Status_Up>特大</>）"
+        }
+      },
+      "EnemySightRate_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "EnemySightRate_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_2_TextData",
+          "SourceString": "（見つかりにくさ上昇：<Status_Up>小</>）",
+          "LocalizedString": "（見つかりにくさ上昇：<Status_Up>小</>）"
+        }
+      },
+      "EnemySightRate_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_3_TextData",
+          "SourceString": "（見つかりにくさ上昇：<Status_Up>中</>）",
+          "LocalizedString": "（見つかりにくさ上昇：<Status_Up>中</>）"
+        }
+      },
+      "EnemySightRate_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_4_TextData",
+          "SourceString": "（見つかりにくさ上昇：<Status_Up>大</>）",
+          "LocalizedString": "（見つかりにくさ上昇：<Status_Up>大</>）"
+        }
+      },
+      "EnemySightRate_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "EnemySightRate_Rank_5_TextData",
+          "SourceString": "（見つかりにくさ上昇：<Status_Up>特大</>）",
+          "LocalizedString": "（見つかりにくさ上昇：<Status_Up>特大</>）"
+        }
+      },
+      "SearchAreaCoolTime_Rank_1": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "SearchAreaCoolTime_Rank_2": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_2_TextData",
+          "SourceString": "（探知範囲拡大・クールタイム短縮：<Status_Up>小</>）",
+          "LocalizedString": "（探知範囲拡大・クールタイム短縮：<Status_Up>小</>）"
+        }
+      },
+      "SearchAreaCoolTime_Rank_3": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_3_TextData",
+          "SourceString": "（探知範囲拡大・クールタイム短縮：<Status_Up>中</>）",
+          "LocalizedString": "（探知範囲拡大・クールタイム短縮：<Status_Up>中</>）"
+        }
+      },
+      "SearchAreaCoolTime_Rank_4": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_4_TextData",
+          "SourceString": "（探知範囲拡大・クールタイム短縮：<Status_Up>大</>）",
+          "LocalizedString": "（探知範囲拡大・クールタイム短縮：<Status_Up>大</>）"
+        }
+      },
+      "SearchAreaCoolTime_Rank_5": {
+        "TextData": {
+          "Namespace": "DT_PartnerSkillAppendText",
+          "Key": "SearchAreaCoolTime_Rank_5_TextData",
+          "SourceString": "（探知範囲拡大・クールタイム短縮：<Status_Up>特大</>）",
+          "LocalizedString": "（探知範囲拡大・クールタイム短縮：<Status_Up>特大</>）"
+        }
+      }
+    }
+  }
+]

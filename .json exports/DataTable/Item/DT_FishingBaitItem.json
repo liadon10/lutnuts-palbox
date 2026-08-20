@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FishingBaitItem",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_FishingBaitItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishingBaitDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "FishingBait_1": {
+        "HitBarSizeRate": 1.0,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_2": {
+        "HitBarSizeRate": 1.0,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.5,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_3": {
+        "HitBarSizeRate": 1.15,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_1_A": {
+        "HitBarSizeRate": 1.0,
+        "MissFightAmountRate": 0.68,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_1_B": {
+        "HitBarSizeRate": 1.0,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.5,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_2_A": {
+        "HitBarSizeRate": 1.25,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 40.0,
+        "ItemLotteryAddDropPercent": 40.0
+      },
+      "FishingBait_2_B": {
+        "HitBarSizeRate": 1.25,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.5,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 0.0,
+        "ItemLotteryAddDropPercent": 0.0
+      },
+      "FishingBait_3_A": {
+        "HitBarSizeRate": 1.3,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 40.0,
+        "ItemLotteryAddDropPercent": 40.0
+      },
+      "FishingBait_3_B": {
+        "HitBarSizeRate": 1.3,
+        "MissFightAmountRate": 1.0,
+        "SuccessFightAmountRate": 1.0,
+        "SearchProbabilityRate": 1.0,
+        "StartProgressAmountPercent": 0.0,
+        "EnemyAddDropPercent": 80.0,
+        "ItemLotteryAddDropPercent": 80.0
+      }
+    }
+  }
+]

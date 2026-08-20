@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Gift_PresentNPC_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/DT_Gift_PresentNPC_01",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'FPalPresentLotteryDataTableRow'",
+        "ObjectPath": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/FPalPresentLotteryDataTableRow.0"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_EmitFlame",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "2": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Watering",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "3": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Seeding",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "4": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_GenerateElectricity",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "5": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Handcraft",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "6": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Collection",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "7": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Deforest",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "8": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Mining",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "10": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_ProductMedicine",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "11": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Cool",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      },
+      "12": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "WorkSuitability_AddTicket_Transport",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 1,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 1,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 1.0
+      }
+    }
+  }
+]

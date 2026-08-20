@@ -1,0 +1,1970 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PlayerStatusRankMasterDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Player/DT_PlayerStatusRankMasterDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalPlayerStatusRankMasterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "1": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "2": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 2,
+        "RequiredRelicNum": 2,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "3": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 3,
+        "RequiredRelicNum": 3,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "4": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 4,
+        "RequiredRelicNum": 4,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "5": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 5,
+        "RequiredRelicNum": 5,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "6": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 6,
+        "RequiredRelicNum": 6,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "7": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 7,
+        "RequiredRelicNum": 7,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "8": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 8,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "9": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 9,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "10": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 10,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "11": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 11,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "12": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 12,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "13": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 13,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "14": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 14,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "15": {
+        "RelicType": "EPalRelicType::CapturePower",
+        "Rank": 15,
+        "RequiredRelicNum": 9,
+        "EffectRate": 0.0,
+        "ResetRequiredMoney": 1
+      },
+      "16": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "17": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "18": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "19": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "20": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "21": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "22": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "23": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "24": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "25": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "26": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "27": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "28": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "29": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "30": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "31": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "32": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "33": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "34": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 47.5,
+        "ResetRequiredMoney": 1
+      },
+      "35": {
+        "RelicType": "EPalRelicType::HungerReduction",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "36": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "37": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "38": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "39": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "40": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "41": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "42": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "43": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "44": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "45": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "46": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 55.0,
+        "ResetRequiredMoney": 1
+      },
+      "47": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 60.0,
+        "ResetRequiredMoney": 1
+      },
+      "48": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 65.0,
+        "ResetRequiredMoney": 1
+      },
+      "49": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 70.0,
+        "ResetRequiredMoney": 1
+      },
+      "50": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 75.0,
+        "ResetRequiredMoney": 1
+      },
+      "51": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 80.0,
+        "ResetRequiredMoney": 1
+      },
+      "52": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 85.0,
+        "ResetRequiredMoney": 1
+      },
+      "53": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 90.0,
+        "ResetRequiredMoney": 1
+      },
+      "54": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 95.0,
+        "ResetRequiredMoney": 1
+      },
+      "55": {
+        "RelicType": "EPalRelicType::SwimSpeed",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 100.0,
+        "ResetRequiredMoney": 1
+      },
+      "56": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "57": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "58": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "59": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "60": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "61": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "62": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "63": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "64": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "65": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "66": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "67": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "68": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "69": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "70": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "71": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "72": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "73": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "74": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 47.5,
+        "ResetRequiredMoney": 1
+      },
+      "75": {
+        "RelicType": "EPalRelicType::FoodDecayReduction",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "76": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "77": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "78": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "79": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "80": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "81": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "82": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "83": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "84": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "85": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "86": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "87": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "88": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "89": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "90": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "91": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "92": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "93": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "94": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 47.5,
+        "ResetRequiredMoney": 1
+      },
+      "95": {
+        "RelicType": "EPalRelicType::JumpPower",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "96": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 1.5,
+        "ResetRequiredMoney": 1
+      },
+      "97": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 3.0,
+        "ResetRequiredMoney": 1
+      },
+      "98": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 4.5,
+        "ResetRequiredMoney": 1
+      },
+      "99": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 6.0,
+        "ResetRequiredMoney": 1
+      },
+      "100": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "101": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 9.0,
+        "ResetRequiredMoney": 1
+      },
+      "102": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.5,
+        "ResetRequiredMoney": 1
+      },
+      "103": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.0,
+        "ResetRequiredMoney": 1
+      },
+      "104": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 13.5,
+        "ResetRequiredMoney": 1
+      },
+      "105": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "106": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 16.5,
+        "ResetRequiredMoney": 1
+      },
+      "107": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 18.0,
+        "ResetRequiredMoney": 1
+      },
+      "108": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 19.5,
+        "ResetRequiredMoney": 1
+      },
+      "109": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 21.0,
+        "ResetRequiredMoney": 1
+      },
+      "110": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "111": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 24.0,
+        "ResetRequiredMoney": 1
+      },
+      "112": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.5,
+        "ResetRequiredMoney": 1
+      },
+      "113": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.0,
+        "ResetRequiredMoney": 1
+      },
+      "114": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 28.5,
+        "ResetRequiredMoney": 1
+      },
+      "115": {
+        "RelicType": "EPalRelicType::GliderSpeed",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "116": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "117": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "118": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "119": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "120": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "121": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "122": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "123": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "124": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "125": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "126": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 55.0,
+        "ResetRequiredMoney": 1
+      },
+      "127": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 60.0,
+        "ResetRequiredMoney": 1
+      },
+      "128": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 65.0,
+        "ResetRequiredMoney": 1
+      },
+      "129": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 70.0,
+        "ResetRequiredMoney": 1
+      },
+      "130": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 75.0,
+        "ResetRequiredMoney": 1
+      },
+      "131": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 80.0,
+        "ResetRequiredMoney": 1
+      },
+      "132": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 85.0,
+        "ResetRequiredMoney": 1
+      },
+      "133": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 90.0,
+        "ResetRequiredMoney": 1
+      },
+      "134": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 95.0,
+        "ResetRequiredMoney": 1
+      },
+      "135": {
+        "RelicType": "EPalRelicType::ClimbSpeed",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 100.0,
+        "ResetRequiredMoney": 1
+      },
+      "136": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "137": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "138": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "139": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "140": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "141": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "142": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "143": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "144": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "145": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "146": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "147": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "148": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "149": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "150": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "151": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "152": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "153": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "154": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 47.5,
+        "ResetRequiredMoney": 1
+      },
+      "155": {
+        "RelicType": "EPalRelicType::StatusAilmentResist",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "156": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "157": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "158": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "159": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "160": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 5,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "161": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 6,
+        "RequiredRelicNum": 1,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "162": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 7,
+        "RequiredRelicNum": 1,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "163": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 8,
+        "RequiredRelicNum": 1,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "164": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 9,
+        "RequiredRelicNum": 1,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "165": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 10,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "166": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 11,
+        "RequiredRelicNum": 1,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "167": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 12,
+        "RequiredRelicNum": 1,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "168": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 13,
+        "RequiredRelicNum": 1,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "169": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 14,
+        "RequiredRelicNum": 1,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "170": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 15,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "171": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 16,
+        "RequiredRelicNum": 1,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "172": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 17,
+        "RequiredRelicNum": 1,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "173": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 18,
+        "RequiredRelicNum": 1,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "174": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 19,
+        "RequiredRelicNum": 1,
+        "EffectRate": 47.5,
+        "ResetRequiredMoney": 1
+      },
+      "175": {
+        "RelicType": "EPalRelicType::StaminaReduction",
+        "Rank": 20,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "176": {
+        "RelicType": "EPalRelicType::SphereHoming",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "177": {
+        "RelicType": "EPalRelicType::SphereHoming",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "178": {
+        "RelicType": "EPalRelicType::SphereHoming",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 75.0,
+        "ResetRequiredMoney": 1
+      },
+      "179": {
+        "RelicType": "EPalRelicType::SphereHoming",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 100.0,
+        "ResetRequiredMoney": 1
+      },
+      "180": {
+        "RelicType": "EPalRelicType::ExpBonus",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 12.0,
+        "ResetRequiredMoney": 1
+      },
+      "181": {
+        "RelicType": "EPalRelicType::ExpBonus",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "182": {
+        "RelicType": "EPalRelicType::ExpBonus",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 37.0,
+        "ResetRequiredMoney": 1
+      },
+      "183": {
+        "RelicType": "EPalRelicType::ExpBonus",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      },
+      "184": {
+        "RelicType": "EPalRelicType::RainbowPassiveRate",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 1.0,
+        "ResetRequiredMoney": 1
+      },
+      "185": {
+        "RelicType": "EPalRelicType::RainbowPassiveRate",
+        "Rank": 2,
+        "RequiredRelicNum": 1,
+        "EffectRate": 2.0,
+        "ResetRequiredMoney": 1
+      },
+      "186": {
+        "RelicType": "EPalRelicType::RainbowPassiveRate",
+        "Rank": 3,
+        "RequiredRelicNum": 1,
+        "EffectRate": 3.0,
+        "ResetRequiredMoney": 1
+      },
+      "187": {
+        "RelicType": "EPalRelicType::RainbowPassiveRate",
+        "Rank": 4,
+        "RequiredRelicNum": 1,
+        "EffectRate": 4.0,
+        "ResetRequiredMoney": 1
+      },
+      "188": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 1,
+        "RequiredRelicNum": 1,
+        "EffectRate": 0.5,
+        "ResetRequiredMoney": 1
+      },
+      "189": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 2,
+        "RequiredRelicNum": 3,
+        "EffectRate": 1.0,
+        "ResetRequiredMoney": 1
+      },
+      "190": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 3,
+        "RequiredRelicNum": 3,
+        "EffectRate": 1.5,
+        "ResetRequiredMoney": 1
+      },
+      "191": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 4,
+        "RequiredRelicNum": 3,
+        "EffectRate": 2.0,
+        "ResetRequiredMoney": 1
+      },
+      "192": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 5,
+        "RequiredRelicNum": 3,
+        "EffectRate": 2.5,
+        "ResetRequiredMoney": 1
+      },
+      "193": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 6,
+        "RequiredRelicNum": 3,
+        "EffectRate": 3.0,
+        "ResetRequiredMoney": 1
+      },
+      "194": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 7,
+        "RequiredRelicNum": 3,
+        "EffectRate": 3.5,
+        "ResetRequiredMoney": 1
+      },
+      "195": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 8,
+        "RequiredRelicNum": 3,
+        "EffectRate": 4.0,
+        "ResetRequiredMoney": 1
+      },
+      "196": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 9,
+        "RequiredRelicNum": 3,
+        "EffectRate": 4.5,
+        "ResetRequiredMoney": 1
+      },
+      "197": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 10,
+        "RequiredRelicNum": 3,
+        "EffectRate": 5.0,
+        "ResetRequiredMoney": 1
+      },
+      "198": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 11,
+        "RequiredRelicNum": 3,
+        "EffectRate": 5.5,
+        "ResetRequiredMoney": 1
+      },
+      "199": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 12,
+        "RequiredRelicNum": 3,
+        "EffectRate": 6.0,
+        "ResetRequiredMoney": 1
+      },
+      "200": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 13,
+        "RequiredRelicNum": 3,
+        "EffectRate": 6.5,
+        "ResetRequiredMoney": 1
+      },
+      "201": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 14,
+        "RequiredRelicNum": 3,
+        "EffectRate": 7.0,
+        "ResetRequiredMoney": 1
+      },
+      "202": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 15,
+        "RequiredRelicNum": 3,
+        "EffectRate": 7.5,
+        "ResetRequiredMoney": 1
+      },
+      "203": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 16,
+        "RequiredRelicNum": 3,
+        "EffectRate": 8.0,
+        "ResetRequiredMoney": 1
+      },
+      "204": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 17,
+        "RequiredRelicNum": 3,
+        "EffectRate": 8.5,
+        "ResetRequiredMoney": 1
+      },
+      "205": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 18,
+        "RequiredRelicNum": 3,
+        "EffectRate": 9.0,
+        "ResetRequiredMoney": 1
+      },
+      "206": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 19,
+        "RequiredRelicNum": 3,
+        "EffectRate": 9.5,
+        "ResetRequiredMoney": 1
+      },
+      "207": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 20,
+        "RequiredRelicNum": 3,
+        "EffectRate": 10.0,
+        "ResetRequiredMoney": 1
+      },
+      "208": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 21,
+        "RequiredRelicNum": 3,
+        "EffectRate": 10.5,
+        "ResetRequiredMoney": 1
+      },
+      "209": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 22,
+        "RequiredRelicNum": 3,
+        "EffectRate": 11.0,
+        "ResetRequiredMoney": 1
+      },
+      "210": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 23,
+        "RequiredRelicNum": 3,
+        "EffectRate": 11.5,
+        "ResetRequiredMoney": 1
+      },
+      "211": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 24,
+        "RequiredRelicNum": 3,
+        "EffectRate": 12.0,
+        "ResetRequiredMoney": 1
+      },
+      "212": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 25,
+        "RequiredRelicNum": 3,
+        "EffectRate": 12.5,
+        "ResetRequiredMoney": 1
+      },
+      "213": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 26,
+        "RequiredRelicNum": 3,
+        "EffectRate": 13.0,
+        "ResetRequiredMoney": 1
+      },
+      "214": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 27,
+        "RequiredRelicNum": 3,
+        "EffectRate": 13.5,
+        "ResetRequiredMoney": 1
+      },
+      "215": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 28,
+        "RequiredRelicNum": 3,
+        "EffectRate": 14.0,
+        "ResetRequiredMoney": 1
+      },
+      "216": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 29,
+        "RequiredRelicNum": 3,
+        "EffectRate": 14.5,
+        "ResetRequiredMoney": 1
+      },
+      "217": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 30,
+        "RequiredRelicNum": 3,
+        "EffectRate": 15.0,
+        "ResetRequiredMoney": 1
+      },
+      "218": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 31,
+        "RequiredRelicNum": 3,
+        "EffectRate": 15.5,
+        "ResetRequiredMoney": 1
+      },
+      "219": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 32,
+        "RequiredRelicNum": 3,
+        "EffectRate": 16.0,
+        "ResetRequiredMoney": 1
+      },
+      "220": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 33,
+        "RequiredRelicNum": 3,
+        "EffectRate": 16.5,
+        "ResetRequiredMoney": 1
+      },
+      "221": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 34,
+        "RequiredRelicNum": 3,
+        "EffectRate": 17.0,
+        "ResetRequiredMoney": 1
+      },
+      "222": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 35,
+        "RequiredRelicNum": 3,
+        "EffectRate": 17.5,
+        "ResetRequiredMoney": 1
+      },
+      "223": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 36,
+        "RequiredRelicNum": 3,
+        "EffectRate": 18.0,
+        "ResetRequiredMoney": 1
+      },
+      "224": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 37,
+        "RequiredRelicNum": 3,
+        "EffectRate": 18.5,
+        "ResetRequiredMoney": 1
+      },
+      "225": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 38,
+        "RequiredRelicNum": 3,
+        "EffectRate": 19.0,
+        "ResetRequiredMoney": 1
+      },
+      "226": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 39,
+        "RequiredRelicNum": 3,
+        "EffectRate": 19.5,
+        "ResetRequiredMoney": 1
+      },
+      "227": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 40,
+        "RequiredRelicNum": 3,
+        "EffectRate": 20.0,
+        "ResetRequiredMoney": 1
+      },
+      "228": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 41,
+        "RequiredRelicNum": 3,
+        "EffectRate": 20.5,
+        "ResetRequiredMoney": 1
+      },
+      "229": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 42,
+        "RequiredRelicNum": 3,
+        "EffectRate": 21.0,
+        "ResetRequiredMoney": 1
+      },
+      "230": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 43,
+        "RequiredRelicNum": 3,
+        "EffectRate": 21.5,
+        "ResetRequiredMoney": 1
+      },
+      "231": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 44,
+        "RequiredRelicNum": 3,
+        "EffectRate": 22.0,
+        "ResetRequiredMoney": 1
+      },
+      "232": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 45,
+        "RequiredRelicNum": 3,
+        "EffectRate": 22.5,
+        "ResetRequiredMoney": 1
+      },
+      "233": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 46,
+        "RequiredRelicNum": 3,
+        "EffectRate": 23.0,
+        "ResetRequiredMoney": 1
+      },
+      "234": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 47,
+        "RequiredRelicNum": 3,
+        "EffectRate": 23.5,
+        "ResetRequiredMoney": 1
+      },
+      "235": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 48,
+        "RequiredRelicNum": 3,
+        "EffectRate": 24.0,
+        "ResetRequiredMoney": 1
+      },
+      "236": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 49,
+        "RequiredRelicNum": 3,
+        "EffectRate": 24.5,
+        "ResetRequiredMoney": 1
+      },
+      "237": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 50,
+        "RequiredRelicNum": 3,
+        "EffectRate": 25.0,
+        "ResetRequiredMoney": 1
+      },
+      "238": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 51,
+        "RequiredRelicNum": 3,
+        "EffectRate": 25.5,
+        "ResetRequiredMoney": 1
+      },
+      "239": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 52,
+        "RequiredRelicNum": 3,
+        "EffectRate": 26.0,
+        "ResetRequiredMoney": 1
+      },
+      "240": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 53,
+        "RequiredRelicNum": 3,
+        "EffectRate": 26.5,
+        "ResetRequiredMoney": 1
+      },
+      "241": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 54,
+        "RequiredRelicNum": 3,
+        "EffectRate": 27.0,
+        "ResetRequiredMoney": 1
+      },
+      "242": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 55,
+        "RequiredRelicNum": 3,
+        "EffectRate": 27.5,
+        "ResetRequiredMoney": 1
+      },
+      "243": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 56,
+        "RequiredRelicNum": 3,
+        "EffectRate": 28.0,
+        "ResetRequiredMoney": 1
+      },
+      "244": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 57,
+        "RequiredRelicNum": 3,
+        "EffectRate": 28.5,
+        "ResetRequiredMoney": 1
+      },
+      "245": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 58,
+        "RequiredRelicNum": 3,
+        "EffectRate": 29.0,
+        "ResetRequiredMoney": 1
+      },
+      "246": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 59,
+        "RequiredRelicNum": 3,
+        "EffectRate": 29.5,
+        "ResetRequiredMoney": 1
+      },
+      "247": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 60,
+        "RequiredRelicNum": 3,
+        "EffectRate": 30.0,
+        "ResetRequiredMoney": 1
+      },
+      "248": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 61,
+        "RequiredRelicNum": 3,
+        "EffectRate": 30.5,
+        "ResetRequiredMoney": 1
+      },
+      "249": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 62,
+        "RequiredRelicNum": 3,
+        "EffectRate": 31.0,
+        "ResetRequiredMoney": 1
+      },
+      "250": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 63,
+        "RequiredRelicNum": 3,
+        "EffectRate": 31.5,
+        "ResetRequiredMoney": 1
+      },
+      "251": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 64,
+        "RequiredRelicNum": 3,
+        "EffectRate": 32.0,
+        "ResetRequiredMoney": 1
+      },
+      "252": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 65,
+        "RequiredRelicNum": 3,
+        "EffectRate": 32.5,
+        "ResetRequiredMoney": 1
+      },
+      "253": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 66,
+        "RequiredRelicNum": 3,
+        "EffectRate": 33.0,
+        "ResetRequiredMoney": 1
+      },
+      "254": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 67,
+        "RequiredRelicNum": 3,
+        "EffectRate": 33.5,
+        "ResetRequiredMoney": 1
+      },
+      "255": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 68,
+        "RequiredRelicNum": 3,
+        "EffectRate": 34.0,
+        "ResetRequiredMoney": 1
+      },
+      "256": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 69,
+        "RequiredRelicNum": 3,
+        "EffectRate": 34.5,
+        "ResetRequiredMoney": 1
+      },
+      "257": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 70,
+        "RequiredRelicNum": 3,
+        "EffectRate": 35.0,
+        "ResetRequiredMoney": 1
+      },
+      "258": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 71,
+        "RequiredRelicNum": 3,
+        "EffectRate": 35.5,
+        "ResetRequiredMoney": 1
+      },
+      "259": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 72,
+        "RequiredRelicNum": 3,
+        "EffectRate": 36.0,
+        "ResetRequiredMoney": 1
+      },
+      "260": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 73,
+        "RequiredRelicNum": 3,
+        "EffectRate": 36.5,
+        "ResetRequiredMoney": 1
+      },
+      "261": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 74,
+        "RequiredRelicNum": 3,
+        "EffectRate": 37.0,
+        "ResetRequiredMoney": 1
+      },
+      "262": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 75,
+        "RequiredRelicNum": 3,
+        "EffectRate": 37.5,
+        "ResetRequiredMoney": 1
+      },
+      "263": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 76,
+        "RequiredRelicNum": 3,
+        "EffectRate": 38.0,
+        "ResetRequiredMoney": 1
+      },
+      "264": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 77,
+        "RequiredRelicNum": 3,
+        "EffectRate": 38.5,
+        "ResetRequiredMoney": 1
+      },
+      "265": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 78,
+        "RequiredRelicNum": 3,
+        "EffectRate": 39.0,
+        "ResetRequiredMoney": 1
+      },
+      "266": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 79,
+        "RequiredRelicNum": 3,
+        "EffectRate": 39.5,
+        "ResetRequiredMoney": 1
+      },
+      "267": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 80,
+        "RequiredRelicNum": 4,
+        "EffectRate": 40.0,
+        "ResetRequiredMoney": 1
+      },
+      "268": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 81,
+        "RequiredRelicNum": 4,
+        "EffectRate": 40.5,
+        "ResetRequiredMoney": 1
+      },
+      "269": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 82,
+        "RequiredRelicNum": 4,
+        "EffectRate": 41.0,
+        "ResetRequiredMoney": 1
+      },
+      "270": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 83,
+        "RequiredRelicNum": 4,
+        "EffectRate": 41.5,
+        "ResetRequiredMoney": 1
+      },
+      "271": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 84,
+        "RequiredRelicNum": 4,
+        "EffectRate": 42.0,
+        "ResetRequiredMoney": 1
+      },
+      "272": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 85,
+        "RequiredRelicNum": 4,
+        "EffectRate": 42.5,
+        "ResetRequiredMoney": 1
+      },
+      "273": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 86,
+        "RequiredRelicNum": 4,
+        "EffectRate": 43.0,
+        "ResetRequiredMoney": 1
+      },
+      "274": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 87,
+        "RequiredRelicNum": 4,
+        "EffectRate": 43.5,
+        "ResetRequiredMoney": 1
+      },
+      "275": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 88,
+        "RequiredRelicNum": 4,
+        "EffectRate": 44.0,
+        "ResetRequiredMoney": 1
+      },
+      "276": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 89,
+        "RequiredRelicNum": 4,
+        "EffectRate": 44.5,
+        "ResetRequiredMoney": 1
+      },
+      "277": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 90,
+        "RequiredRelicNum": 4,
+        "EffectRate": 45.0,
+        "ResetRequiredMoney": 1
+      },
+      "278": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 91,
+        "RequiredRelicNum": 4,
+        "EffectRate": 46.0,
+        "ResetRequiredMoney": 1
+      },
+      "279": {
+        "RelicType": "EPalRelicType::MoveSpeed",
+        "Rank": 92,
+        "RequiredRelicNum": 4,
+        "EffectRate": 50.0,
+        "ResetRequiredMoney": 1
+      }
+    }
+  }
+]

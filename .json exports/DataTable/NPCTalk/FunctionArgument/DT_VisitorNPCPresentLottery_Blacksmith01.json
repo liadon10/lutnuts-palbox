@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VisitorNPCPresentLottery_Blacksmith01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/DT_VisitorNPCPresentLottery_Blacksmith01",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'FPalPresentLotteryDataTableRow'",
+        "ObjectPath": "Pal/Content/Pal/DataTable/NPCTalk/FunctionArgument/FPalPresentLotteryDataTableRow.0"
+      }
+    },
+    "Rows": {
+      "2": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "Charcoal",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 30,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 40,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 100.0
+      },
+      "4": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "Coal",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 30,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 40,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 100.0
+      },
+      "4_0": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "CopperOre",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 30,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 40,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 80.0
+      },
+      "4_1": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "Quartz",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 20,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 30,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 80.0
+      },
+      "4_2": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "CopperIngot",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 20,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 30,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 50.0
+      },
+      "4_3": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "IronIngot",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 20,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 30,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 40.0
+      },
+      "4_4": {
+        "ItemName_2_BD5693AE46A268A165B9F0A534652D84": "Plastic",
+        "ItemNum_Min_25_5D424FC741B30676B343719C44549878": 20,
+        "ItemNum_Max_26_36F7E42D491FCECB7399F78070B5B7A7": 30,
+        "UnitNum_27_27848ED645752B16DF5FC38F2915DEB8": 1,
+        "Weight_8_F7EB66974C769D7AA8EA0B99E234AE6B": 10.0
+      }
+    }
+  }
+]

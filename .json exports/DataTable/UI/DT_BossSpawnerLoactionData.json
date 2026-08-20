@@ -1,0 +1,1607 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BossSpawnerLoactionData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/UI/DT_BossSpawnerLoactionData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalUIBossSpawnerLoactionData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "0": {
+        "SpawnerID": "yamijima_IceLand_pink_D_BOSS",
+        "CharacterID": "BOSS_Horus_Water",
+        "Location": {
+          "X": -867560.9,
+          "Y": -441338.22,
+          "Z": 18640.152
+        },
+        "Level": 66
+      },
+      "1": {
+        "SpawnerID": "yamijima_plateau_pink_G_BOSS_2",
+        "CharacterID": "BOSS_GrimGirl",
+        "Location": {
+          "X": -791868.2,
+          "Y": -337175.94,
+          "Z": 35122.785
+        },
+        "Level": 65
+      },
+      "2": {
+        "SpawnerID": "yamijima_forest_purple_C_BOSS",
+        "CharacterID": "BOSS_HerculesBeetle_Ground",
+        "Location": {
+          "X": -691248.6,
+          "Y": -309680.34,
+          "Z": 16072.18
+        },
+        "Level": 64
+      },
+      "3": {
+        "SpawnerID": "yamijima_forest_purple_A_BOSS",
+        "CharacterID": "BOSS_GoldenHorse",
+        "Location": {
+          "X": -772213.2,
+          "Y": -273563.47,
+          "Z": 5318.775
+        },
+        "Level": 63
+      },
+      "4": {
+        "SpawnerID": "yamijima_rock_purple_BOSS",
+        "CharacterID": "BOSS_MysteryMask",
+        "Location": {
+          "X": -550552.06,
+          "Y": -166886.31,
+          "Z": -476.0845
+        },
+        "Level": 60
+      },
+      "5": {
+        "SpawnerID": "yamijima_rock_pink_E_BOSS",
+        "CharacterID": "BOSS_WhiteTiger_Ground",
+        "Location": {
+          "X": -721639.0,
+          "Y": -432015.0,
+          "Z": 10210.874
+        },
+        "Level": 62
+      },
+      "6": {
+        "SpawnerID": "yamijima_forest_purple_A_BOSS_2",
+        "CharacterID": "BOSS_NightBlueHorse",
+        "Location": {
+          "X": -717565.94,
+          "Y": -251787.33,
+          "Z": 175.19714
+        },
+        "Level": 63
+      },
+      "7": {
+        "SpawnerID": "yamijima_beach_purple_BOSS",
+        "CharacterID": "BOSS_RaijinDaughter_Water",
+        "Location": {
+          "X": -516157.0,
+          "Y": -393151.12,
+          "Z": -721.86566
+        },
+        "Level": 60
+      },
+      "8": {
+        "SpawnerID": "yamijima_plateau_pink_F_BOSS",
+        "CharacterID": "BOSS_AmaterasuWolf_Dark",
+        "Location": {
+          "X": -723782.7,
+          "Y": -230996.66,
+          "Z": 7282.106
+        },
+        "Level": 65
+      },
+      "9": {
+        "SpawnerID": "yamijima_IceLand_pink_F_BOSS",
+        "CharacterID": "BOSS_BlueThunderHorse",
+        "Location": {
+          "X": -889441.3,
+          "Y": -361294.3,
+          "Z": -1930.7573
+        },
+        "Level": 66
+      },
+      "10": {
+        "SpawnerID": "yamijima_forest_pink_D_WhiteDeer",
+        "CharacterID": "BOSS_WhiteDeer",
+        "Location": {
+          "X": -661871.9,
+          "Y": -284991.84,
+          "Z": 1422.1023
+        },
+        "Level": 65
+      },
+      "11": {
+        "SpawnerID": "yamijima_plateau_purple_BOSS",
+        "CharacterID": "BOSS_BadCatgirl",
+        "Location": {
+          "X": -544943.3,
+          "Y": -264111.88,
+          "Z": 2902.397
+        },
+        "Level": 60
+      },
+      "12": {
+        "SpawnerID": "yamijima_plateau_purple_BOSS_2",
+        "CharacterID": "BOSS_WhiteShieldDragon",
+        "Location": {
+          "X": -593253.1,
+          "Y": -294034.56,
+          "Z": 1152.5956
+        },
+        "Level": 62
+      },
+      "13": {
+        "SpawnerID": "yamijima_plateau_purple_C_BOSS",
+        "CharacterID": "BOSS_FengyunDeeper_Electric",
+        "Location": {
+          "X": -649837.06,
+          "Y": -235616.66,
+          "Z": 17616.092
+        },
+        "Level": 60
+      },
+      "14": {
+        "SpawnerID": "yamijima_IceLand_pink_A_BOSS",
+        "CharacterID": "BOSS_Werewolf_Ice",
+        "Location": {
+          "X": -773027.4,
+          "Y": -368265.88,
+          "Z": 4287.2188
+        },
+        "Level": 66
+      },
+      "15": {
+        "SpawnerID": "remainsIsland_1_GrassGolem_FBOSS",
+        "CharacterID": "BOSS_GrassGolem",
+        "Location": {
+          "X": 517450.0,
+          "Y": -626940.0,
+          "Z": 10980.0
+        },
+        "Level": 75
+      },
+      "16": {
+        "SpawnerID": "worldtree_9_11_N_FBOSS_1",
+        "CharacterID": "BOSS_WhiteDeer_Dark",
+        "Location": {
+          "X": 520440.0,
+          "Y": -727175.0,
+          "Z": 41054.54
+        },
+        "Level": 79
+      },
+      "17": {
+        "SpawnerID": "worldtree_9_02_B_FBOSS_1",
+        "CharacterID": "BOSS_IceNarwhal_Fire",
+        "Location": {
+          "X": 526910.2,
+          "Y": -581727.6,
+          "Z": 18204.207
+        },
+        "Level": 74
+      },
+      "18": {
+        "SpawnerID": "worldtree_9_10_L_FBOSS_1",
+        "CharacterID": "BOSS_MushroomLady",
+        "Location": {
+          "X": 458095.0,
+          "Y": -694560.0,
+          "Z": 19325.0
+        },
+        "Level": 78
+      },
+      "19": {
+        "SpawnerID": "worldtree_9_07_I_FBOSS_1",
+        "CharacterID": "BOSS_VolcanoDragon_Ice",
+        "Location": {
+          "X": 571870.0,
+          "Y": -733420.0,
+          "Z": 18000.0
+        },
+        "Level": 78
+      },
+      "20": {
+        "SpawnerID": "worldtree_9_05_D_FBOSS_1",
+        "CharacterID": "BOSS_KabukiMan",
+        "Location": {
+          "X": 601096.75,
+          "Y": -572063.06,
+          "Z": 30180.0
+        },
+        "Level": 78
+      },
+      "21": {
+        "SpawnerID": "worldtree_9_13_M_FBOSS_1",
+        "CharacterID": "BOSS_DomeArmorDragon",
+        "Location": {
+          "X": 491580.78,
+          "Y": -725697.06,
+          "Z": 12042.806
+        },
+        "Level": 79
+      },
+      "22": {
+        "SpawnerID": "81_2_dessert_FBOSS_FlowerDinosaur_Electric",
+        "CharacterID": "BOSS_FlowerDinosaur_Electric",
+        "Location": {
+          "X": -46108.395,
+          "Y": 302547.8,
+          "Z": -1928.4937
+        },
+        "Level": 47
+      },
+      "23": {
+        "SpawnerID": "81_2_dessert_FBOSS_1",
+        "CharacterID": "BOSS_Suzaku",
+        "Location": {
+          "X": 97716.31,
+          "Y": 307499.7,
+          "Z": 17330.396
+        },
+        "Level": 45
+      },
+      "24": {
+        "SpawnerID": "81_2_dessert_FBOSS_3",
+        "CharacterID": "BOSS_DarkScorpion",
+        "Location": {
+          "X": 122760.0,
+          "Y": 318710.0,
+          "Z": 320.0
+        },
+        "Level": 44
+      },
+      "25": {
+        "SpawnerID": "81_2_dessert_FBOSS_5",
+        "CharacterID": "BOSS_CubeTurtle",
+        "Location": {
+          "X": 50564.78,
+          "Y": 357757.47,
+          "Z": 29.70578
+        },
+        "Level": 55
+      },
+      "26": {
+        "SpawnerID": "81_2_dessert_FBOSS_2",
+        "CharacterID": "BOSS_SaintCentaur",
+        "Location": {
+          "X": 187731.2,
+          "Y": 359897.25,
+          "Z": 2647.323
+        },
+        "Level": 60
+      },
+      "27": {
+        "SpawnerID": "volcanoiskand_1_FBOSS",
+        "CharacterID": "BOSS_VolcanoDragon",
+        "Location": {
+          "X": -1033347.94,
+          "Y": -358750.8,
+          "Z": 7958.069
+        },
+        "Level": 70
+      },
+      "28": {
+        "SpawnerID": "volcanoiskand_2_FBOSS",
+        "CharacterID": "BOSS_RockBeast",
+        "Location": {
+          "X": 90345.45,
+          "Y": 534007.8,
+          "Z": 3685.1067
+        },
+        "Level": 50
+      },
+      "29": {
+        "SpawnerID": "desertisland_2_FBOSS",
+        "CharacterID": "BOSS_CactusDoll",
+        "Location": {
+          "X": -450359.53,
+          "Y": 356886.22,
+          "Z": 3561.4421
+        },
+        "Level": 40
+      },
+      "30": {
+        "SpawnerID": "desertisland_1_FBOSS",
+        "CharacterID": "BOSS_ScorpionMan_Electric",
+        "Location": {
+          "X": -404768.2,
+          "Y": -444910.75,
+          "Z": -695.8824
+        },
+        "Level": 70
+      },
+      "31": {
+        "SpawnerID": "remainsIsland_2_GrassGolem_Dark_FBOSS",
+        "CharacterID": "BOSS_GrassGolem_Dark",
+        "Location": {
+          "X": -558869.94,
+          "Y": -619480.75,
+          "Z": -1819.6837
+        },
+        "Level": 70
+      },
+      "32": {
+        "SpawnerID": "remainsIsland_1_GrassGolem_FBOSS",
+        "CharacterID": "BOSS_GrassGolem",
+        "Location": {
+          "X": -169138.25,
+          "Y": 575683.1,
+          "Z": -1814.1444
+        },
+        "Level": 55
+      },
+      "33": {
+        "SpawnerID": "snow_orange_I_BOSS",
+        "CharacterID": "BOSS_KingAlpaca_Ice",
+        "Location": {
+          "X": 39324.883,
+          "Y": -18772.695,
+          "Z": 6701.4897
+        },
+        "Level": 46
+      },
+      "34": {
+        "SpawnerID": "81_6_Ocean_FBOSS_1",
+        "CharacterID": "BOSS_IceNarwhal",
+        "Location": {
+          "X": 262730.0,
+          "Y": 75740.0,
+          "Z": -3182.9998
+        },
+        "Level": 55
+      },
+      "35": {
+        "SpawnerID": "81_3_snow_FBOSS_1",
+        "CharacterID": "BOSS_IceHorse",
+        "Location": {
+          "X": 109790.0,
+          "Y": -5880.0,
+          "Z": 22180.0
+        },
+        "Level": 60
+      },
+      "36": {
+        "SpawnerID": "sakura_purple_D_LilyQueen",
+        "CharacterID": "BOSS_LilyQueen",
+        "Location": {
+          "X": 14681.052,
+          "Y": -132067.56,
+          "Z": 2994.49
+        },
+        "Level": 58
+      },
+      "37": {
+        "SpawnerID": "sakura_red_B_BOSS",
+        "CharacterID": "BOSS_DarkScorpion_Ground",
+        "Location": {
+          "X": 21745.545,
+          "Y": -109001.64,
+          "Z": -1343.3158
+        },
+        "Level": 55
+      },
+      "38": {
+        "SpawnerID": "sakura_purple_D_LilyQueen_Dark",
+        "CharacterID": "BOSS_LilyQueen_Dark",
+        "Location": {
+          "X": 15843.516,
+          "Y": -130382.9,
+          "Z": 3160.8438
+        },
+        "Level": 58
+      },
+      "39": {
+        "SpawnerID": "skyisland_8_07_G_mountain_FBOSS_1",
+        "CharacterID": "BOSS_FoxExorcist",
+        "Location": {
+          "X": -821552.1,
+          "Y": 46132.06,
+          "Z": 51332.957
+        },
+        "Level": 68
+      },
+      "40": {
+        "SpawnerID": "skyisland_8_15_1_lake_FBOSS_1",
+        "CharacterID": "BOSS_GhostDragon",
+        "Location": {
+          "X": -822007.0,
+          "Y": -66402.0,
+          "Z": 40122.793
+        },
+        "Level": 69
+      },
+      "41": {
+        "SpawnerID": "skyisland_8_04_B_highland_FBOSS_1",
+        "CharacterID": "BOSS_JetDragon",
+        "Location": {
+          "X": -735438.4,
+          "Y": -95932.93,
+          "Z": 47396.836
+        },
+        "Level": 70
+      },
+      "42": {
+        "SpawnerID": "skyisland_8_07_G_mountain_FBOSS_2",
+        "CharacterID": "BOSS_ThunderFluffyBird",
+        "Location": {
+          "X": -822824.0,
+          "Y": 16747.0,
+          "Z": 45679.0
+        },
+        "Level": 67
+      },
+      "43": {
+        "SpawnerID": "skyisland_8_10_D_swamp_FBOSS_1",
+        "CharacterID": "BOSS_ElecLizard",
+        "Location": {
+          "X": -746847.06,
+          "Y": -10678.006,
+          "Z": 41413.113
+        },
+        "Level": 66
+      },
+      "44": {
+        "SpawnerID": "skyisland_8_06_C_lotsulake_FBOSS_1",
+        "CharacterID": "BOSS_LotusDragon",
+        "Location": {
+          "X": -802420.0,
+          "Y": -112610.0,
+          "Z": 51608.094
+        },
+        "Level": 69
+      },
+      "45": {
+        "SpawnerID": "skyisland_8_11_E_meadow_FBOSS_1",
+        "CharacterID": "BOSS_ElecSnail",
+        "Location": {
+          "X": -772844.0,
+          "Y": -11173.0,
+          "Z": 39727.0
+        },
+        "Level": 65
+      },
+      "46": {
+        "SpawnerID": "81_1_grass_FBOSS_14",
+        "CharacterID": "Boss_Anubis",
+        "Location": {
+          "X": -167230.0,
+          "Y": 96430.0,
+          "Z": -1737.1323
+        },
+        "Level": 55
+      },
+      "47": {
+        "SpawnerID": "81_1_grass_FBOSS_1",
+        "CharacterID": "BOSS_GrassMammoth",
+        "Location": {
+          "X": -343155.0,
+          "Y": 244585.0,
+          "Z": -95.0
+        },
+        "Level": 38
+      },
+      "48": {
+        "SpawnerID": "1_10_plain_F_Boss_FairyDragon",
+        "CharacterID": "BOSS_WeaselDragon",
+        "Location": {
+          "X": -315583.53,
+          "Y": 237116.97,
+          "Z": 2448.4133
+        },
+        "Level": 11
+      },
+      "49": {
+        "SpawnerID": "81_1_grass_FBOSS_16",
+        "CharacterID": "BOSS_FengyunDeeper",
+        "Location": {
+          "X": -333940.0,
+          "Y": 39610.0,
+          "Z": 1600.0
+        },
+        "Level": 25
+      },
+      "50": {
+        "SpawnerID": "81_1_grass_FBOSS_23",
+        "CharacterID": "BOSS_Kirin",
+        "Location": {
+          "X": -372950.0,
+          "Y": 104400.0,
+          "Z": -770.0
+        },
+        "Level": 31
+      },
+      "51": {
+        "SpawnerID": "81_1_grass_FBOSS_4",
+        "CharacterID": "BOSS_ThunderBird",
+        "Location": {
+          "X": -113197.67,
+          "Y": 201490.47,
+          "Z": 2063.3916
+        },
+        "Level": 37
+      },
+      "52": {
+        "SpawnerID": "81_1_grass_FBOSS_31",
+        "CharacterID": "BOSS_BlueDragon",
+        "Location": {
+          "X": -246100.0,
+          "Y": 77200.0,
+          "Z": -1460.0
+        },
+        "Level": 40
+      },
+      "53": {
+        "SpawnerID": "81_1_grass_FBOSS_18",
+        "CharacterID": "BOSS_NaughtyCat",
+        "Location": {
+          "X": -236727.1,
+          "Y": 321310.12,
+          "Z": -1909.3772
+        },
+        "Level": 17
+      },
+      "54": {
+        "SpawnerID": "81_1_grass_FBOSS_2",
+        "CharacterID": "BOSS_KingAlpaca",
+        "Location": {
+          "X": -335225.0,
+          "Y": 180735.0,
+          "Z": 475.0
+        },
+        "Level": 23
+      },
+      "55": {
+        "SpawnerID": "81_1_grass_FBOSS_24",
+        "CharacterID": "BOSS_SakuraSaurus",
+        "Location": {
+          "X": -431050.44,
+          "Y": 56140.586,
+          "Z": -1864.7648
+        },
+        "Level": 23
+      },
+      "56": {
+        "SpawnerID": "81_1_grass_FBOSS_13",
+        "CharacterID": "BOSS_Umihebi",
+        "Location": {
+          "X": -162910.0,
+          "Y": 318720.0,
+          "Z": -2382.3545
+        },
+        "Level": 55
+      },
+      "57": {
+        "SpawnerID": "81_1_forest_FBOSS_7",
+        "CharacterID": "BOSS_FairyDragon",
+        "Location": {
+          "X": -254060.0,
+          "Y": 178050.0,
+          "Z": 4000.0
+        },
+        "Level": 30
+      },
+      "58": {
+        "SpawnerID": "81_1_grass_FBOSS_27",
+        "CharacterID": "BOSS_LazyCatfish",
+        "Location": {
+          "X": -122060.0,
+          "Y": 15810.0,
+          "Z": -1460.0
+        },
+        "Level": 14
+      },
+      "59": {
+        "SpawnerID": "81_1_grass_FBOSS_22",
+        "CharacterID": "BOSS_HawkBird",
+        "Location": {
+          "X": -155950.0,
+          "Y": 31260.0,
+          "Z": -1960.0
+        },
+        "Level": 18
+      },
+      "60": {
+        "SpawnerID": "81_1_grass_FBOSS_30",
+        "CharacterID": "BOSS_PurpleSpider",
+        "Location": {
+          "X": -239436.58,
+          "Y": 345.74753,
+          "Z": 7166.6885
+        },
+        "Level": 35
+      },
+      "61": {
+        "SpawnerID": "81_1_grass_FBOSS_25",
+        "CharacterID": "BOSS_PlantSlime",
+        "Location": {
+          "X": -412259.28,
+          "Y": 106237.67,
+          "Z": -2035.6112
+        },
+        "Level": 11
+      },
+      "62": {
+        "SpawnerID": "81_1_grass_FBOSS_21",
+        "CharacterID": "BOSS_MopKing",
+        "Location": {
+          "X": -396003.12,
+          "Y": 53772.16,
+          "Z": -1575.8013
+        },
+        "Level": 11
+      },
+      "63": {
+        "SpawnerID": "81_1_grass_FBOSS_26",
+        "CharacterID": "BOSS_GrassPanda_Electric",
+        "Location": {
+          "X": -206970.0,
+          "Y": 363810.0,
+          "Z": 1140.0
+        },
+        "Level": 31
+      },
+      "64": {
+        "SpawnerID": "81_1_grass_FBOSS_29",
+        "CharacterID": "BOSS_Yeti_Grass",
+        "Location": {
+          "X": -147370.0,
+          "Y": 364010.0,
+          "Z": -1940.0
+        },
+        "Level": 38
+      },
+      "65": {
+        "SpawnerID": "81_1_forest_FBOSS_6",
+        "CharacterID": "BOSS_QueenBee",
+        "Location": {
+          "X": -162481.34,
+          "Y": 233115.23,
+          "Z": 5175.2114
+        },
+        "Level": 39
+      },
+      "66": {
+        "SpawnerID": "81_4_Sakurajima_FBOSS_2",
+        "CharacterID": "BOSS_WingGolem",
+        "Location": {
+          "X": -238810.95,
+          "Y": -110487.63,
+          "Z": -205.30737
+        },
+        "Level": 55
+      },
+      "67": {
+        "SpawnerID": "81_3_volcano_FBOSS_2",
+        "CharacterID": "BOSS_VolcanicMonster",
+        "Location": {
+          "X": -322819.97,
+          "Y": -93429.84,
+          "Z": 18739.184
+        },
+        "Level": 50
+      },
+      "68": {
+        "SpawnerID": "81_3_volcano_FBOSS_3",
+        "CharacterID": "BOSS_KingBahamut",
+        "Location": {
+          "X": -276069.47,
+          "Y": -180092.97,
+          "Z": 8181.594
+        },
+        "Level": 52
+      },
+      "69": {
+        "SpawnerID": "sanctuary_2_volcano_FBOSS",
+        "CharacterID": "BOSS_BlackMetalDragon",
+        "Location": {
+          "X": -174578.95,
+          "Y": -158213.75,
+          "Z": -1710.3036
+        },
+        "Level": 55
+      },
+      "70": {
+        "SpawnerID": "sanctuary_1_forest_FBOSS",
+        "CharacterID": "BOSS_ElecPanda",
+        "Location": {
+          "X": -443860.8,
+          "Y": 183689.42,
+          "Z": -1496.6549
+        },
+        "Level": 30
+      },
+      "71": {
+        "SpawnerID": "sanctuary_3_dessert_FBOSS",
+        "CharacterID": "BOSS_IceHorse_Dark",
+        "Location": {
+          "X": 173548.3,
+          "Y": 474295.44,
+          "Z": 192.48369
+        },
+        "Level": 65
+      },
+      "72": {
+        "SpawnerID": "BOSS_Female_Soldier02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -712045.56,
+          "Y": -229952.92,
+          "Z": 8893.03
+        },
+        "Level": 56
+      },
+      "73": {
+        "SpawnerID": "BOSS_Male_People03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -335675.2,
+          "Y": 148683.03,
+          "Z": 6384.3687
+        },
+        "Level": 10
+      },
+      "74": {
+        "SpawnerID": "BOSS_Viking",
+        "CharacterID": "None",
+        "Location": {
+          "X": -584187.7,
+          "Y": -181661.73,
+          "Z": 978.42706
+        },
+        "Level": 57
+      },
+      "75": {
+        "SpawnerID": "BOSS_Police_Rifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": 45909.48,
+          "Y": 304971.44,
+          "Z": -1015.37305
+        },
+        "Level": 40
+      },
+      "76": {
+        "SpawnerID": "BOSS_Believer_CrossBow",
+        "CharacterID": "None",
+        "Location": {
+          "X": -164164.23,
+          "Y": 152549.42,
+          "Z": -1410.9744
+        },
+        "Level": 23
+      },
+      "77": {
+        "SpawnerID": "BOSS_Hunter_Fat_GatlingGun",
+        "CharacterID": "None",
+        "Location": {
+          "X": -242340.0,
+          "Y": 36220.0,
+          "Z": 13020.0
+        },
+        "Level": 20
+      },
+      "78": {
+        "SpawnerID": "BOSS_Ninja",
+        "CharacterID": "None",
+        "Location": {
+          "X": -124623.98,
+          "Y": 232502.7,
+          "Z": 7801.965
+        },
+        "Level": 28
+      },
+      "79": {
+        "SpawnerID": "BOSS_VikingElite",
+        "CharacterID": "None",
+        "Location": {
+          "X": -805295.06,
+          "Y": -478475.2,
+          "Z": -815.0132
+        },
+        "Level": 58
+      },
+      "80": {
+        "SpawnerID": "BOSS_DarkTrader",
+        "CharacterID": "None",
+        "Location": {
+          "X": -666737.7,
+          "Y": -409956.38,
+          "Z": 25605.273
+        },
+        "Level": 59
+      },
+      "81": {
+        "SpawnerID": "BOSS_Male_Trader03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -538826.5,
+          "Y": -337667.7,
+          "Z": -426.02618
+        },
+        "Level": 57
+      },
+      "82": {
+        "SpawnerID": "BOSS_Believer_Fat_GiantClub",
+        "CharacterID": "None",
+        "Location": {
+          "X": -79599.086,
+          "Y": 192658.28,
+          "Z": 6188.3384
+        },
+        "Level": 30
+      },
+      "83": {
+        "SpawnerID": "BOSS_Male_Soldier03",
+        "CharacterID": "None",
+        "Location": {
+          "X": 21850.117,
+          "Y": -8346.555,
+          "Z": 6712.4634
+        },
+        "Level": 49
+      },
+      "84": {
+        "SpawnerID": "BOSS_Male_Soldier04",
+        "CharacterID": "None",
+        "Location": {
+          "X": -217110.73,
+          "Y": 127090.61,
+          "Z": 6141.974
+        },
+        "Level": 21
+      },
+      "85": {
+        "SpawnerID": "BOSS_Scientist_LaserRifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": 10215.881,
+          "Y": 153782.08,
+          "Z": 3150.0002
+        },
+        "Level": 45
+      },
+      "86": {
+        "SpawnerID": "BOSS_Police_Old",
+        "CharacterID": "None",
+        "Location": {
+          "X": -686537.5,
+          "Y": -380252.66,
+          "Z": 32747.375
+        },
+        "Level": 57
+      },
+      "87": {
+        "SpawnerID": "BOSS_Female_People03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -300962.38,
+          "Y": 157210.73,
+          "Z": -164.24446
+        },
+        "Level": 15
+      },
+      "88": {
+        "SpawnerID": "BOSS_Female_Soldier04",
+        "CharacterID": "None",
+        "Location": {
+          "X": -75788.086,
+          "Y": -82304.96,
+          "Z": -960.0
+        },
+        "Level": 52
+      },
+      "89": {
+        "SpawnerID": "BOSS_Male_Trader01",
+        "CharacterID": "None",
+        "Location": {
+          "X": -57544.383,
+          "Y": 116422.49,
+          "Z": 9060.125
+        },
+        "Level": 42
+      },
+      "90": {
+        "SpawnerID": "BOSS_Male_DesertPeople",
+        "CharacterID": "None",
+        "Location": {
+          "X": -62624.902,
+          "Y": 402438.94,
+          "Z": 12180.669
+        },
+        "Level": 36
+      },
+      "91": {
+        "SpawnerID": "BOSS_Female_DesertPeople",
+        "CharacterID": "None",
+        "Location": {
+          "X": 147119.08,
+          "Y": 347473.56,
+          "Z": -856.4007
+        },
+        "Level": 37
+      },
+      "92": {
+        "SpawnerID": "BOSS_FireCult_FlameThrower",
+        "CharacterID": "None",
+        "Location": {
+          "X": -331690.16,
+          "Y": -40407.434,
+          "Z": 15982.14
+        },
+        "Level": 41
+      },
+      "93": {
+        "SpawnerID": "BOSS_Male_NinjaElite",
+        "CharacterID": "None",
+        "Location": {
+          "X": -18160.0,
+          "Y": -151400.0,
+          "Z": 2360.0
+        },
+        "Level": 53
+      },
+      "94": {
+        "SpawnerID": "BOSS_Hunter_Rifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": -359201.56,
+          "Y": 181724.28,
+          "Z": 5179.0977
+        },
+        "Level": 12
+      },
+      "95": {
+        "SpawnerID": "BOSS_Male_People",
+        "CharacterID": "None",
+        "Location": {
+          "X": -126584.234,
+          "Y": 318232.75,
+          "Z": -1519.0695
+        },
+        "Level": 26
+      },
+      "96": {
+        "SpawnerID": "BOSS_Male_Soldier02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -224118.3,
+          "Y": 277672.06,
+          "Z": -864.3568
+        },
+        "Level": 23
+      },
+      "97": {
+        "SpawnerID": "BOSS_Male_People02",
+        "CharacterID": "None",
+        "Location": {
+          "X": 97107.99,
+          "Y": 68422.43,
+          "Z": 42381.047
+        },
+        "Level": 43
+      },
+      "98": {
+        "SpawnerID": "BOSS_Male_Soldier",
+        "CharacterID": "None",
+        "Location": {
+          "X": -409430.0,
+          "Y": 24820.0,
+          "Z": 1880.0
+        },
+        "Level": 15
+      },
+      "99": {
+        "SpawnerID": "BOSS_Female_People",
+        "CharacterID": "None",
+        "Location": {
+          "X": -470651.97,
+          "Y": -80708.37,
+          "Z": -2009.124
+        },
+        "Level": 38
+      },
+      "100": {
+        "SpawnerID": "BOSS_Female_Soldier",
+        "CharacterID": "None",
+        "Location": {
+          "X": -177380.0,
+          "Y": 9850.0,
+          "Z": 6230.0
+        },
+        "Level": 19
+      },
+      "101": {
+        "SpawnerID": "BOSS_Female_Soldier03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -231660.0,
+          "Y": -113810.0,
+          "Z": -1150.0
+        },
+        "Level": 39
+      },
+      "102": {
+        "SpawnerID": "BOSS_Female_People02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -304539.22,
+          "Y": 35742.273,
+          "Z": 2271.2825
+        },
+        "Level": 16
+      },
+      "103": {
+        "SpawnerID": "BOSS_Male_Trader02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -907334.1,
+          "Y": -389724.44,
+          "Z": -1882.6733
+        },
+        "Level": 57
+      },
+      "104": {
+        "SpawnerID": "BOSS_Male_People2",
+        "CharacterID": "None",
+        "Location": {
+          "X": -124753.86,
+          "Y": 318055.84,
+          "Z": -1920.7535
+        },
+        "Level": 26
+      },
+      "105": {
+        "SpawnerID": "5_2_island_iceblock_FBOSS_1",
+        "CharacterID": "BOSS_PoseidonOrca",
+        "Location": {
+          "X": 175142.77,
+          "Y": 221586.5,
+          "Z": -2024.6559
+        },
+        "Level": 60
+      },
+      "106": {
+        "SpawnerID": "81_1_forest_FBOSS_3",
+        "CharacterID": "BOSS_GrassRabbitMan",
+        "Location": {
+          "X": -119314.516,
+          "Y": 288958.4,
+          "Z": 3096.7297
+        },
+        "Level": 35
+      },
+      "107": {
+        "SpawnerID": "81_1_grass_FBOSS_9",
+        "CharacterID": "BOSS_CaptainPenguin",
+        "Location": {
+          "X": -285331.3,
+          "Y": 210162.69,
+          "Z": 766.80945
+        },
+        "Level": 15
+      },
+      "108": {
+        "SpawnerID": "81_1_grass_FBOSS_28",
+        "CharacterID": "BOSS_BerryGoat_Dark",
+        "Location": {
+          "X": -426590.0,
+          "Y": 90670.0,
+          "Z": 110.0
+        },
+        "Level": 23
+      },
+      "109": {
+        "SpawnerID": "81_5_Yamijima_FBOSS_9",
+        "CharacterID": "BOSS_GhostRabbit",
+        "Location": {
+          "X": -589257.2,
+          "Y": -265874.4,
+          "Z": 19702.037
+        },
+        "Level": 60
+      },
+      "110": {
+        "SpawnerID": "81_5_Yamijima_FBOSS_8",
+        "CharacterID": "BOSS_BlackPuppy",
+        "Location": {
+          "X": -797364.2,
+          "Y": -245386.88,
+          "Z": 183.86575
+        },
+        "Level": 60
+      },
+      "111": {
+        "SpawnerID": "81_1_forest_FBOSS_2",
+        "CharacterID": "BOSS_FoxMage",
+        "Location": {
+          "X": -226362.23,
+          "Y": 231993.33,
+          "Z": -1897.7047
+        },
+        "Level": 28
+      },
+      "112": {
+        "SpawnerID": "81_1_grass_FBOSS_20",
+        "CharacterID": "BOSS_IceFox",
+        "Location": {
+          "X": -276240.0,
+          "Y": 268990.0,
+          "Z": -1300.0
+        },
+        "Level": 15
+      },
+      "113": {
+        "SpawnerID": "81_1_forest_FBOSS_4",
+        "CharacterID": "BOSS_Mutant",
+        "Location": {
+          "X": -147025.53,
+          "Y": 217379.17,
+          "Z": 2767.2039
+        },
+        "Level": 35
+      },
+      "114": {
+        "SpawnerID": "81_1_forest_FBOSS_5",
+        "CharacterID": "BOSS_WhiteMoth",
+        "Location": {
+          "X": -92059.77,
+          "Y": 273741.9,
+          "Z": 18877.033
+        },
+        "Level": 40
+      },
+      "115": {
+        "SpawnerID": "81_1_forest_FBOSS_1",
+        "CharacterID": "BOSS_VioletFairy",
+        "Location": {
+          "X": -245458.9,
+          "Y": 149122.0,
+          "Z": 822.97565
+        },
+        "Level": 27
+      },
+      "116": {
+        "SpawnerID": "skyisland_8_09_D_forest_FBOSS_2",
+        "CharacterID": "BOSS_MoonChild",
+        "Location": {
+          "X": -773523.9,
+          "Y": 51495.863,
+          "Z": 45252.0
+        },
+        "Level": 66
+      },
+      "117": {
+        "SpawnerID": "81_1_grass_FBOSS_6",
+        "CharacterID": "BOSS_Ronin",
+        "Location": {
+          "X": -282853.72,
+          "Y": 64952.2,
+          "Z": 5267.476
+        },
+        "Level": 25
+      },
+      "118": {
+        "SpawnerID": "81_5_Yamijima_FBOSS_16",
+        "CharacterID": "BOSS_CubeTurtle_Neutral",
+        "Location": {
+          "X": -729794.06,
+          "Y": -338535.5,
+          "Z": 15500.139
+        },
+        "Level": 60
+      },
+      "119": {
+        "SpawnerID": "81_1_grass_FBOSS_10",
+        "CharacterID": "BOSS_Manticore",
+        "Location": {
+          "X": -183818.9,
+          "Y": 40647.84,
+          "Z": 8457.058
+        },
+        "Level": 30
+      },
+      "120": {
+        "SpawnerID": "81_1_grass_FBOSS_FlameBuffalo",
+        "CharacterID": "BOSS_FlameBuffalo",
+        "Location": {
+          "X": -349072.88,
+          "Y": 104534.984,
+          "Z": -211.34375
+        },
+        "Level": 15
+      },
+      "121": {
+        "SpawnerID": "81_5_Yamijima_FBOSS_11",
+        "CharacterID": "BOSS_BlueberryFairy",
+        "Location": {
+          "X": -568029.2,
+          "Y": -464143.12,
+          "Z": -1848.0032
+        },
+        "Level": 63
+      },
+      "122": {
+        "SpawnerID": "81_1_grass_FBOSS_15",
+        "CharacterID": "BOSS_Kitsunebi_Ice",
+        "Location": {
+          "X": -149050.0,
+          "Y": -30550.0,
+          "Z": -1380.0
+        },
+        "Level": 15
+      },
+      "123": {
+        "SpawnerID": "REGION_Oilrig_3",
+        "CharacterID": "None",
+        "Location": {
+          "X": -789847.9,
+          "Y": -636231.0,
+          "Z": -250.0003
+        },
+        "Level": 60
+      },
+      "124": {
+        "SpawnerID": "REGION_Oilrig_1",
+        "CharacterID": "None",
+        "Location": {
+          "X": -321274.9,
+          "Y": 424944.06,
+          "Z": -2102.6147
+        },
+        "Level": 55
+      },
+      "125": {
+        "SpawnerID": "REGION_Oilrig_2",
+        "CharacterID": "None",
+        "Location": {
+          "X": -250672.6,
+          "Y": 232290.08,
+          "Z": -2100.0
+        },
+        "Level": 30
+      },
+      "126": {
+        "SpawnerID": "BOSS_Female_Soldier02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -712045.56,
+          "Y": -229952.92,
+          "Z": 8893.03
+        },
+        "Level": 56
+      },
+      "127": {
+        "SpawnerID": "BOSS_Male_People03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -335675.2,
+          "Y": 148683.03,
+          "Z": 6384.3687
+        },
+        "Level": 10
+      },
+      "128": {
+        "SpawnerID": "BOSS_Police_Rifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": 45909.48,
+          "Y": 304971.44,
+          "Z": -1015.37305
+        },
+        "Level": 40
+      },
+      "129": {
+        "SpawnerID": "BOSS_Believer_CrossBow",
+        "CharacterID": "None",
+        "Location": {
+          "X": -164164.23,
+          "Y": 152549.42,
+          "Z": -1410.9744
+        },
+        "Level": 23
+      },
+      "130": {
+        "SpawnerID": "BOSS_Ninja",
+        "CharacterID": "None",
+        "Location": {
+          "X": -124623.98,
+          "Y": 232502.7,
+          "Z": 7801.965
+        },
+        "Level": 28
+      },
+      "131": {
+        "SpawnerID": "BOSS_DarkTrader",
+        "CharacterID": "None",
+        "Location": {
+          "X": -666737.7,
+          "Y": -409956.38,
+          "Z": 25605.273
+        },
+        "Level": 59
+      },
+      "132": {
+        "SpawnerID": "BOSS_Male_Trader03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -538826.5,
+          "Y": -337667.7,
+          "Z": -426.02618
+        },
+        "Level": 57
+      },
+      "133": {
+        "SpawnerID": "BOSS_Believer_Fat_GiantClub",
+        "CharacterID": "None",
+        "Location": {
+          "X": -79599.086,
+          "Y": 192658.28,
+          "Z": 6188.3384
+        },
+        "Level": 30
+      },
+      "134": {
+        "SpawnerID": "BOSS_Male_Soldier03",
+        "CharacterID": "None",
+        "Location": {
+          "X": 21850.117,
+          "Y": -8346.555,
+          "Z": 6712.4634
+        },
+        "Level": 49
+      },
+      "135": {
+        "SpawnerID": "BOSS_Male_Soldier04",
+        "CharacterID": "None",
+        "Location": {
+          "X": -217110.73,
+          "Y": 127090.61,
+          "Z": 6141.974
+        },
+        "Level": 21
+      },
+      "136": {
+        "SpawnerID": "BOSS_Police_Old",
+        "CharacterID": "None",
+        "Location": {
+          "X": -686537.5,
+          "Y": -380252.66,
+          "Z": 32747.375
+        },
+        "Level": 57
+      },
+      "137": {
+        "SpawnerID": "BOSS_Female_People03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -300962.38,
+          "Y": 157210.73,
+          "Z": -164.24446
+        },
+        "Level": 15
+      },
+      "138": {
+        "SpawnerID": "BOSS_Female_Soldier04",
+        "CharacterID": "None",
+        "Location": {
+          "X": -75788.086,
+          "Y": -82304.96,
+          "Z": -960.0
+        },
+        "Level": 52
+      },
+      "139": {
+        "SpawnerID": "BOSS_Male_Trader01",
+        "CharacterID": "None",
+        "Location": {
+          "X": -57544.383,
+          "Y": 116422.49,
+          "Z": 9060.125
+        },
+        "Level": 42
+      },
+      "140": {
+        "SpawnerID": "BOSS_Male_DesertPeople",
+        "CharacterID": "None",
+        "Location": {
+          "X": -62624.902,
+          "Y": 402438.94,
+          "Z": 12180.669
+        },
+        "Level": 36
+      },
+      "141": {
+        "SpawnerID": "BOSS_Female_DesertPeople",
+        "CharacterID": "None",
+        "Location": {
+          "X": 147119.08,
+          "Y": 347473.56,
+          "Z": -856.4007
+        },
+        "Level": 37
+      },
+      "142": {
+        "SpawnerID": "BOSS_FireCult_FlameThrower",
+        "CharacterID": "None",
+        "Location": {
+          "X": -331690.16,
+          "Y": -40407.434,
+          "Z": 15982.14
+        },
+        "Level": 41
+      },
+      "143": {
+        "SpawnerID": "BOSS_Male_NinjaElite",
+        "CharacterID": "None",
+        "Location": {
+          "X": -18160.0,
+          "Y": -151400.0,
+          "Z": 2360.0
+        },
+        "Level": 53
+      },
+      "144": {
+        "SpawnerID": "BOSS_Hunter_Rifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": -359201.56,
+          "Y": 181724.28,
+          "Z": 5179.0977
+        },
+        "Level": 12
+      },
+      "145": {
+        "SpawnerID": "BOSS_Male_People",
+        "CharacterID": "None",
+        "Location": {
+          "X": -126584.234,
+          "Y": 318232.75,
+          "Z": -1519.0695
+        },
+        "Level": 26
+      },
+      "146": {
+        "SpawnerID": "BOSS_Male_Soldier02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -224118.3,
+          "Y": 277672.06,
+          "Z": -864.3568
+        },
+        "Level": 23
+      },
+      "147": {
+        "SpawnerID": "BOSS_Male_People02",
+        "CharacterID": "None",
+        "Location": {
+          "X": 97107.99,
+          "Y": 68422.43,
+          "Z": 42381.047
+        },
+        "Level": 43
+      },
+      "148": {
+        "SpawnerID": "BOSS_Male_Soldier",
+        "CharacterID": "None",
+        "Location": {
+          "X": -409430.0,
+          "Y": 24820.0,
+          "Z": 1880.0
+        },
+        "Level": 15
+      },
+      "149": {
+        "SpawnerID": "BOSS_Female_People",
+        "CharacterID": "None",
+        "Location": {
+          "X": -470651.97,
+          "Y": -80708.37,
+          "Z": -2009.124
+        },
+        "Level": 38
+      },
+      "150": {
+        "SpawnerID": "BOSS_Female_Soldier03",
+        "CharacterID": "None",
+        "Location": {
+          "X": -231660.0,
+          "Y": -113810.0,
+          "Z": -1150.0
+        },
+        "Level": 39
+      },
+      "151": {
+        "SpawnerID": "BOSS_Female_People02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -304539.22,
+          "Y": 35742.273,
+          "Z": 2271.2825
+        },
+        "Level": 16
+      },
+      "152": {
+        "SpawnerID": "BOSS_Male_Trader02",
+        "CharacterID": "None",
+        "Location": {
+          "X": -907334.1,
+          "Y": -389724.44,
+          "Z": -1882.6733
+        },
+        "Level": 57
+      },
+      "153": {
+        "SpawnerID": "BOSS_Male_People2",
+        "CharacterID": "None",
+        "Location": {
+          "X": -124753.86,
+          "Y": 318055.84,
+          "Z": -1920.7535
+        },
+        "Level": 26
+      },
+      "154": {
+        "SpawnerID": "BOSS_Viking",
+        "CharacterID": "None",
+        "Location": {
+          "X": -584187.7,
+          "Y": -181661.73,
+          "Z": 978.42706
+        },
+        "Level": 57
+      },
+      "155": {
+        "SpawnerID": "BOSS_Hunter_Fat_GatlingGun",
+        "CharacterID": "None",
+        "Location": {
+          "X": -242340.0,
+          "Y": 36220.0,
+          "Z": 13020.0
+        },
+        "Level": 20
+      },
+      "156": {
+        "SpawnerID": "BOSS_VikingElite",
+        "CharacterID": "None",
+        "Location": {
+          "X": -805295.06,
+          "Y": -478475.2,
+          "Z": -815.0132
+        },
+        "Level": 58
+      },
+      "157": {
+        "SpawnerID": "BOSS_Scientist_LaserRifle",
+        "CharacterID": "None",
+        "Location": {
+          "X": 10215.881,
+          "Y": 153782.08,
+          "Z": 3150.0002
+        },
+        "Level": 45
+      },
+      "158": {
+        "SpawnerID": "BOSS_Female_Soldier",
+        "CharacterID": "None",
+        "Location": {
+          "X": -177380.0,
+          "Y": 9850.0,
+          "Z": 6230.0
+        },
+        "Level": 19
+      }
+    }
+  }
+]

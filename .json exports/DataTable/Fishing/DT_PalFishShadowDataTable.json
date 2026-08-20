@@ -1,0 +1,2177 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalFishShadowDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Fishing/DT_PalFishShadowDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalFishShadowDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Fish_Small_A": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "TentacleTurtle",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Small_B": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "OctopusGirl",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 150.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Middle_A": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "JetDragon",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 50.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Middle_B": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "JellyfishGhost",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 50.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Big_A": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "IceSeal",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Big_B": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "GhostAnglerfish",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Giant_A": {
+        "FishShadowSize": "EPalFishShadowSizeType::D",
+        "PalId": "IceNarwhal",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 10.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Test": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JetDragon",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Check1": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Check1R": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta_Rare.BP_FishShadow001_FlyingManta_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "Fish_Check2": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "Fish_Check2R": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "Fish_Check3": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "Fish_Check3R": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "Fish_Check4": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "Fish_Check4R": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "Fish_Check5": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "Fish_Check5R": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy_Rare.BP_FishShadow005_JellyfishFairy_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 300.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Penguin_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Penguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Penguin_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Penguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Penguin_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Penguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Penguin_Electric_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Penguin_Electric",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Penguin_Electric_Rare_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Penguin_Electric",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Penguin_Electric_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Penguin_Electric",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_BluePlatypus_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "BluePlatypus",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_BluePlatypus_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_BluePlatypus",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_BluePlatypus_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_BluePlatypus",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_BluePlatypus_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "BluePlatypus_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_BluePlatypus_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_BluePlatypus_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_BluePlatypus_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_BluePlatypus_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_CaptainPenguin_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "CaptainPenguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_CaptainPenguin_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_CaptainPenguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_CaptainPenguin_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_CaptainPenguin",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_CaptainPenguin_Black_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "CaptainPenguin_Black",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_CaptainPenguin_Black_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_CaptainPenguin_Black",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_CaptainPenguin_Black_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_CaptainPenguin_Black",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_OctopusGirl_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "OctopusGirl",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_OctopusGirl_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_OctopusGirl",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_OctopusGirl_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_OctopusGirl",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_KendoFrog_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "KendoFrog",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_KendoFrog_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_KendoFrog",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_KendoFrog_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_KendoFrog",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_KendoFrog_Dark_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "KendoFrog_Dark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_KendoFrog_Dark_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_KendoFrog_Dark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_KendoFrog_Dark_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_KendoFrog_Dark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_StuffedShark_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "StuffedShark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_StuffedShark_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_StuffedShark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_StuffedShark_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_StuffedShark",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_StuffedShark_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "StuffedShark_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_StuffedShark_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_StuffedShark_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_StuffedShark_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_StuffedShark_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_FlyingManta_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "FlyingManta",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_FlyingManta_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_FlyingManta",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_FlyingManta_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_FlyingManta",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta_Rare.BP_FishShadow001_FlyingManta_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_FlyingManta_Thunder_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "FlyingManta_Thunder",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_FlyingManta_Thunder_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_FlyingManta_Thunder",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_FlyingManta_Thunder_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_FlyingManta_Thunder",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta_Rare.BP_FishShadow001_FlyingManta_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_NegativeOctopus_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "NegativeOctopus",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_NegativeOctopus_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_NegativeOctopus",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_NegativeOctopus_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_NegativeOctopus",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta_Rare.BP_FishShadow001_FlyingManta_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_NegativeOctopus_Neutral_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "NegativeOctopus_Neutral",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_NegativeOctopus_Neutral_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_NegativeOctopus_Neutral",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta.BP_FishShadow001_FlyingManta_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_NegativeOctopus_Neutral_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_NegativeOctopus_Neutral",
+        "BlueprintClassName": "BP_FishShadow001_FlyingManta_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow001_FlyingManta_Rare.BP_FishShadow001_FlyingManta_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_LazyCatfish_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "LazyCatfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_LazyCatfish_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_LazyCatfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_LazyCatfish_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_LazyCatfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_LazyCatfish_Gold_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "LazyCatfish_Gold",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_LazyCatfish_Gold_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_LazyCatfish_Gold",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_LazyCatfish_Gold_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_LazyCatfish_Gold",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_IceSeal_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "IceSeal",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceSeal_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_IceSeal",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceSeal_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_IceSeal",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_IceCrocodile_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "IceCrocodile",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceCrocodile_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_IceCrocodile",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceCrocodile_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_IceCrocodile",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_BlueDragon_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "BlueDragon",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_BlueDragon_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_BlueDragon",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_BlueDragon_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_BlueDragon",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_BlueDragon_Ice_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "BlueDragon_Ice",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_BlueDragon_Ice_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_BlueDragon_Ice",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_BlueDragon_Ice_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_BlueDragon_Ice",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_IceNarwhal_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "IceNarwhal",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_IceNarwhal_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_IceNarwhal",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_IceNarwhal_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_IceNarwhal",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_IceNarwhal_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "IceNarwhal_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_IceNarwhal_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_IceNarwhal_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_IceNarwhal_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_IceNarwhal_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_GhostAnglerfish_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "GhostAnglerfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_GhostAnglerfish_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_GhostAnglerfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_GhostAnglerfish_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_GhostAnglerfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_GhostAnglerfish_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "GhostAnglerfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_GhostAnglerfish_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_GhostAnglerfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_GhostAnglerfish_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_GhostAnglerfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_JellyfishFairy_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_JellyfishFairy_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_JellyfishFairy_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_JellyfishFairy",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy_Rare.BP_FishShadow005_JellyfishFairy_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_JellyfishGhost_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "JellyfishGhost",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_JellyfishGhost_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_JellyfishGhost",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_JellyfishGhost_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_JellyfishGhost",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy_Rare.BP_FishShadow005_JellyfishFairy_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_TentacleTurtle_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "TentacleTurtle",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_TentacleTurtle_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_TentacleTurtle",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_TentacleTurtle_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_TentacleTurtle",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy_Rare.BP_FishShadow005_JellyfishFairy_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_TentacleTurtle_Ground_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "TentacleTurtle_Ground",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_TentacleTurtle_Ground_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_TentacleTurtle_Ground",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy.BP_FishShadow005_JellyfishFairy_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Riser"
+      },
+      "FishShadow_TentacleTurtle_Ground_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_TentacleTurtle_Ground",
+        "BlueprintClassName": "BP_FishShadow005_JellyfishFairy_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow005_JellyfishFairy_Rare.BP_FishShadow005_JellyfishFairy_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Kelpie_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Kelpie",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Kelpie_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Kelpie",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Kelpie_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Kelpie",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Kelpie_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Kelpie_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Kelpie_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Kelpie_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Kelpie_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Kelpie_Fire",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Serpent_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Serpent",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Serpent_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Serpent",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Serpent_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Serpent",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_Serpent_Ground_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "Serpent_Ground",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Serpent_Ground_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_Serpent_Ground",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_Serpent_Ground_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_Serpent_Ground",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_OctopusGirl_Neutral_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "OctopusGirl_Neutral",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_OctopusGirl_Neutral_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_OctopusGirl_Neutral",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark.BP_FishShadow004_StuffedShark_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Normal"
+      },
+      "FishShadow_OctopusGirl_Neutral_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_OctopusGirl_Neutral",
+        "BlueprintClassName": "BP_FishShadow004_StuffedShark_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow004_StuffedShark_Rare.BP_FishShadow004_StuffedShark_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_KingSunfish_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "KingSunfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_KingSunfish_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_KingSunfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_KingSunfish_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_KingSunfish",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_KingSunfish_Thunder_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "KingSunfish_Thunder",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_KingSunfish_Thunder_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_KingSunfish_Thunder",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_KingSunfish_Thunder_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_KingSunfish_Thunder",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_SwordCutlassfish_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "SwordCutlassfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_SwordCutlassfish_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_SwordCutlassfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_SwordCutlassfish_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_SwordCutlassfish",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_SwordCutlassfish_Fire_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "SwordCutlassfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_SwordCutlassfish_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_SwordCutlassfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish.BP_FishShadow003_GhostAnglerfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Diver"
+      },
+      "FishShadow_SwordCutlassfish_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_SwordCutlassfish_Fire",
+        "BlueprintClassName": "BP_FishShadow003_GhostAnglerfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow003_GhostAnglerfish_Rare.BP_FishShadow003_GhostAnglerfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      },
+      "FishShadow_IceSeal_Ground_Common": {
+        "FishShadowSize": "EPalFishShadowSizeType::A",
+        "PalId": "IceSeal_Ground",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 0.1,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceSeal_Ground_Fire_Boss": {
+        "FishShadowSize": "EPalFishShadowSizeType::B",
+        "PalId": "BOSS_IceSeal_Ground",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish.BP_FishShadow002_LazyCatfish_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 100.0,
+        "SearchRadius": 440.0,
+        "SearchProbability": 40.0,
+        "KingPassiveRate": 0.0,
+        "BossPassiveRate": 100.0,
+        "RarePassiveRate": 0.8,
+        "BehaviorType": "EPalFishBattleBehaviorType::Calm"
+      },
+      "FishShadow_IceSeal_Ground_Fire_Nushi": {
+        "FishShadowSize": "EPalFishShadowSizeType::C",
+        "PalId": "BOSS_IceSeal_Ground",
+        "BlueprintClassName": "BP_FishShadow002_LazyCatfish_Rare",
+        "FishShadowBlueprintClassSoft": {
+          "AssetPathName": "/Game/Pal/Blueprint/Fishing/FishShadow/BP_FishShadow002_LazyCatfish_Rare.BP_FishShadow002_LazyCatfish_Rare_C",
+          "SubPathString": ""
+        },
+        "MoveSpeedPerSec": 30.0,
+        "SearchRadius": 540.0,
+        "SearchProbability": 20.0,
+        "KingPassiveRate": 100.0,
+        "BossPassiveRate": 0.0,
+        "RarePassiveRate": 42.0,
+        "BehaviorType": "EPalFishBattleBehaviorType::Jitter"
+      }
+    }
+  }
+]

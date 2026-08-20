@@ -1,0 +1,287 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OperatingTablePassiveSkillDataTable",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/MapObject/DT_OperatingTablePassiveSkillDataTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalOperatingTablePassiveSkillData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PAL_ALLAttack_up1": {
+        "PassiveSkill": "PAL_ALLAttack_up1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "PAL_ALLAttack_up2": {
+        "PassiveSkill": "PAL_ALLAttack_up2",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "Noukin": {
+        "PassiveSkill": "Noukin",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_Noukin"
+      },
+      "PAL_ALLAttack_up3": {
+        "PassiveSkill": "PAL_ALLAttack_up3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_PAL_ALLAttack_up3"
+      },
+      "Deffence_up1": {
+        "PassiveSkill": "Deffence_up1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "Deffence_up2": {
+        "PassiveSkill": "Deffence_up2",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_Deffence_up2"
+      },
+      "Deffence_up3": {
+        "PassiveSkill": "Deffence_up3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_Deffence_up3"
+      },
+      "MoveSpeed_up_1": {
+        "PassiveSkill": "MoveSpeed_up_1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "MoveSpeed_up_2": {
+        "PassiveSkill": "MoveSpeed_up_2",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_MoveSpeed_up_2"
+      },
+      "MoveSpeed_up_3": {
+        "PassiveSkill": "MoveSpeed_up_3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_MoveSpeed_up_3"
+      },
+      "SwimSpeed_up_1": {
+        "PassiveSkill": "SwimSpeed_up_1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "SwimSpeed_up_2": {
+        "PassiveSkill": "SwimSpeed_up_2",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_SwimSpeed_up_2"
+      },
+      "SwimSpeed_up_3": {
+        "PassiveSkill": "SwimSpeed_up_3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_SwimSpeed_up_3"
+      },
+      "Stamina_Up_2": {
+        "PassiveSkill": "Stamina_Up_2",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "Stamina_Up_1": {
+        "PassiveSkill": "Stamina_Up_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_Stamina_Up_1"
+      },
+      "Stamina_Up_3": {
+        "PassiveSkill": "Stamina_Up_3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_Stamina_Up_3"
+      },
+      "CoolTimeReduction_Up_2": {
+        "PassiveSkill": "CoolTimeReduction_Up_2",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "CoolTimeReduction_Up_1": {
+        "PassiveSkill": "CoolTimeReduction_Up_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_CoolTimeReduction_Up_1"
+      },
+      "PAL_FullStomach_Down_1": {
+        "PassiveSkill": "PAL_FullStomach_Down_1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "PAL_FullStomach_Down_2": {
+        "PassiveSkill": "PAL_FullStomach_Down_2",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "PAL_FullStomach_Down_3": {
+        "PassiveSkill": "PAL_FullStomach_Down_3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_PAL_FullStomach_Down_3"
+      },
+      "PAL_Sanity_Down_1": {
+        "PassiveSkill": "PAL_Sanity_Down_1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "PAL_Sanity_Down_2": {
+        "PassiveSkill": "PAL_Sanity_Down_2",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "PAL_Sanity_Down_3": {
+        "PassiveSkill": "PAL_Sanity_Down_3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_PAL_Sanity_Down_3"
+      },
+      "CraftSpeed_up1": {
+        "PassiveSkill": "CraftSpeed_up1",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "PAL_CorporateSlave": {
+        "PassiveSkill": "PAL_CorporateSlave",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "CraftSpeed_up2": {
+        "PassiveSkill": "CraftSpeed_up2",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_CraftSpeed_up2"
+      },
+      "CraftSpeed_up3": {
+        "PassiveSkill": "CraftSpeed_up3",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_CraftSpeed_up3"
+      },
+      "SalePrice_Up_2": {
+        "PassiveSkill": "SalePrice_Up_2",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "SalePrice_Up_1": {
+        "PassiveSkill": "SalePrice_Up_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_SalePrice_Up_1"
+      },
+      "NonKilling": {
+        "PassiveSkill": "NonKilling",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "Test_PalEgg_HatchingSpeed_Up": {
+        "PassiveSkill": "Test_PalEgg_HatchingSpeed_Up",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "Nocturnal": {
+        "PassiveSkill": "Nocturnal",
+        "Price": 10000,
+        "RequireItemId": "None"
+      },
+      "Vampire": {
+        "PassiveSkill": "Vampire",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_Vampire"
+      },
+      "TrainerATK_UP_1": {
+        "PassiveSkill": "TrainerATK_UP_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_TrainerATK_UP_1"
+      },
+      "TrainerDEF_UP_1": {
+        "PassiveSkill": "TrainerDEF_UP_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_TrainerDEF_UP_1"
+      },
+      "PlayerSP_DecreaseRate_Passive": {
+        "PassiveSkill": "PlayerSP_DecreaseRate_Passive",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_PlayerSP_DecreaseRate_Passive"
+      },
+      "AutoHPRegeneRate_Passive": {
+        "PassiveSkill": "AutoHPRegeneRate_Passive",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_AutoHPRegeneRate_Passive"
+      },
+      "ReloadSpeedUp_Passive": {
+        "PassiveSkill": "ReloadSpeedUp_Passive",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_ReloadSpeedUp_Passive"
+      },
+      "TrainerMining_up1": {
+        "PassiveSkill": "TrainerMining_up1",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "TrainerLogging_up1": {
+        "PassiveSkill": "TrainerLogging_up1",
+        "Price": 50000,
+        "RequireItemId": "None"
+      },
+      "TrainerWorkSpeed_UP_1": {
+        "PassiveSkill": "TrainerWorkSpeed_UP_1",
+        "Price": 50000,
+        "RequireItemId": "PalPassiveSkillChange_TrainerWorkSpeed_UP_1"
+      },
+      "WorldTree_ATK": {
+        "PassiveSkill": "WorldTree_ATK",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_ATK"
+      },
+      "WorldTree_DEF": {
+        "PassiveSkill": "WorldTree_DEF",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_DEF"
+      },
+      "WorldTree_ATK_DEF": {
+        "PassiveSkill": "WorldTree_ATK_DEF",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_ATK_DEF"
+      },
+      "WorldTree_MoveSpeed": {
+        "PassiveSkill": "WorldTree_MoveSpeed",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_MoveSpeed"
+      },
+      "WorldTree_FullStomach": {
+        "PassiveSkill": "WorldTree_FullStomach",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_FullStomach"
+      },
+      "WorldTree_Sanity": {
+        "PassiveSkill": "WorldTree_Sanity",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_Sanity"
+      },
+      "WorldTree_CraftSpeed": {
+        "PassiveSkill": "WorldTree_CraftSpeed",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_WorldTree_CraftSpeed"
+      },
+      "MutationPal_Babysitter": {
+        "PassiveSkill": "MutationPal_Babysitter",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Babysitter"
+      },
+      "MutationPal_Mutant": {
+        "PassiveSkill": "MutationPal_Mutant",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Mutant"
+      },
+      "MutationPal_Immortal": {
+        "PassiveSkill": "MutationPal_Immortal",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_Immortal"
+      },
+      "MutationPal_ExplosionResist": {
+        "PassiveSkill": "MutationPal_ExplosionResist",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_MutationPal_ExplosionResist"
+      },
+      "RideJumpCount_Increase2": {
+        "PassiveSkill": "RideJumpCount_Increase2",
+        "Price": 0,
+        "RequireItemId": "PalPassiveSkillChange_Consumable_RideJumpCount_Increase2"
+      }
+    }
+  }
+]

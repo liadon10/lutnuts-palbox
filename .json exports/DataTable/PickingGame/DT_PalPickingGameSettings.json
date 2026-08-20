@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalPickingGameSettings",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/PickingGame/DT_PalPickingGameSettings",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalPickingGameSettingData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "VeryEasy": {
+        "DifficultyLevel": 0,
+        "UnlockableRangeSize": 0.2,
+        "LimitKeyPressureCurve": {
+          "ObjectName": "CurveFloat'C_PickingGameLimitPressure_VeryEasy'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameLimitPressure_VeryEasy.0"
+        },
+        "KeyTurningCurveOutsideUnlockableRange": {
+          "ObjectName": "CurveFloat'C_PickingGameKeyTurn_VeryEasy'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameKeyTurn_VeryEasy.0"
+        }
+      },
+      "Easy": {
+        "DifficultyLevel": 0,
+        "UnlockableRangeSize": 0.0,
+        "LimitKeyPressureCurve": null,
+        "KeyTurningCurveOutsideUnlockableRange": null
+      },
+      "Normal": {
+        "DifficultyLevel": 0,
+        "UnlockableRangeSize": 0.1,
+        "LimitKeyPressureCurve": {
+          "ObjectName": "CurveFloat'C_PickingGameLimitPressure_Normal'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameLimitPressure_Normal.0"
+        },
+        "KeyTurningCurveOutsideUnlockableRange": {
+          "ObjectName": "CurveFloat'C_PickingGameKeyTurn_Normal'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameKeyTurn_Normal.0"
+        }
+      },
+      "Hard": {
+        "DifficultyLevel": 0,
+        "UnlockableRangeSize": 0.01,
+        "LimitKeyPressureCurve": null,
+        "KeyTurningCurveOutsideUnlockableRange": null
+      },
+      "VeryHard": {
+        "DifficultyLevel": 0,
+        "UnlockableRangeSize": 0.05,
+        "LimitKeyPressureCurve": {
+          "ObjectName": "CurveFloat'C_PickingGameLimitPressure_VeryHard'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameLimitPressure_VeryHard.0"
+        },
+        "KeyTurningCurveOutsideUnlockableRange": {
+          "ObjectName": "CurveFloat'C_PickingGameKeyTurn_VeryHard'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/PickingGame/Curves/C_PickingGameKeyTurn_VeryHard.0"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1353 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UniqueNPCText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_UniqueNPCText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_JOHNSON": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_JOHNSON_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_BOBBY": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_BOBBY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_UNIQUE002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_UNIQUE002_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_C": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_C_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_D": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_D_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_E": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_E_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_F": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_F_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_G": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_G_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_H": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_H_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_VILLAGELEADER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_VILLAGELEADER01_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "NAME_NOVICEPALTIMER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_NOVICEPALTIMER_TextData",
+          "SourceString": "先遣隊の生き残り",
+          "LocalizedString": "先遣隊の生き残り"
+        }
+      },
+      "Vigilante_lackey": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Vigilante_lackey_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Head_of_Village": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Head_of_Village_TextData",
+          "SourceString": "集落の長",
+          "LocalizedString": "集落の長"
+        }
+      },
+      "Police_dependable": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_dependable_TextData",
+          "SourceString": "頼りになりそうな自警団",
+          "LocalizedString": "頼りになりそうな自警団"
+        }
+      },
+      "InnkeeperA": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "InnkeeperA_TextData",
+          "SourceString": "宿屋の主人",
+          "LocalizedString": "宿屋の主人"
+        }
+      },
+      "Rumor-loving_villagers": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Rumor-loving_villagers_TextData",
+          "SourceString": "うわさ好きの村人",
+          "LocalizedString": "うわさ好きの村人"
+        }
+      },
+      "Research-oriented_scholar": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Research-oriented_scholar_TextData",
+          "SourceString": "研究熱心な村人",
+          "LocalizedString": "研究熱心な村人"
+        }
+      },
+      "People_cant_leave": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "People_cant_leave_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Sweaty_paltimer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Sweaty_paltimer_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "Shabby_looking_merchant": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Shabby_looking_merchant_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "SKILLED_PALTAMIER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "SKILLED_PALTAMIER_TextData",
+          "SourceString": "手練れの島民",
+          "LocalizedString": "手練れの島民"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "闇商人",
+          "LocalizedString": "闇商人"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_TextData",
+          "SourceString": "ZOE",
+          "LocalizedString": "ZOE"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_PAL_TextData",
+          "SourceString": "GRIZZBOLT",
+          "LocalizedString": "GRIZZBOLT"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_TextData",
+          "SourceString": "AXEL",
+          "LocalizedString": "AXEL"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_PAL_TextData",
+          "SourceString": "ORSERK",
+          "LocalizedString": "ORSERK"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_TextData",
+          "SourceString": "LILY",
+          "LocalizedString": "LILY"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_PAL_TextData",
+          "SourceString": "LYLEEN",
+          "LocalizedString": "LYLEEN"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_TextData",
+          "SourceString": "MARCUS",
+          "LocalizedString": "MARCUS"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_PAL_TextData",
+          "SourceString": "FALERIS",
+          "LocalizedString": "FALERIS"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_TextData",
+          "SourceString": "VICTOR",
+          "LocalizedString": "VICTOR"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL_TextData",
+          "SourceString": "SHADOWBEAK",
+          "LocalizedString": "SHADOWBEAK"
+        }
+      },
+      "DesertVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage001_TextData",
+          "SourceString": "寒がりの砂漠の民",
+          "LocalizedString": "寒がりの砂漠の民"
+        }
+      },
+      "DesertVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage002_TextData",
+          "SourceString": "優しい砂漠の民",
+          "LocalizedString": "優しい砂漠の民"
+        }
+      },
+      "DesertVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage003_TextData",
+          "SourceString": "怖がりの砂漠の民",
+          "LocalizedString": "怖がりの砂漠の民"
+        }
+      },
+      "DesertPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice001_TextData",
+          "SourceString": "自警団のしたっぱ",
+          "LocalizedString": "自警団のしたっぱ"
+        }
+      },
+      "DesertPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice002_TextData",
+          "SourceString": "従順な自警団",
+          "LocalizedString": "従順な自警団"
+        }
+      },
+      "DesertPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice003_TextData",
+          "SourceString": "焚火好きの自警団",
+          "LocalizedString": "焚火好きの自警団"
+        }
+      },
+      "Police001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police001_TextData",
+          "SourceString": "転生したおじさん",
+          "LocalizedString": "転生したおじさん"
+        }
+      },
+      "VolcanoVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage001_TextData",
+          "SourceString": "釣り好きの村人",
+          "LocalizedString": "釣り好きの村人"
+        }
+      },
+      "VolcanoVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage002_TextData",
+          "SourceString": "世話焼きな村人",
+          "LocalizedString": "世話焼きな村人"
+        }
+      },
+      "VolcanoVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage003_TextData",
+          "SourceString": "星好きな村人",
+          "LocalizedString": "星好きな村人"
+        }
+      },
+      "VolcanoVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage004_TextData",
+          "SourceString": "火を信奉する村人",
+          "LocalizedString": "火を信奉する村人"
+        }
+      },
+      "VolcanoPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice001_TextData",
+          "SourceString": "不真面目な自警団",
+          "LocalizedString": "不真面目な自警団"
+        }
+      },
+      "VolcanoPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice002_TextData",
+          "SourceString": "鼻の利く自警団",
+          "LocalizedString": "鼻の利く自警団"
+        }
+      },
+      "RandomBattle_PalTamer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_PalTamer_TextData",
+          "SourceString": "屈強な傭兵",
+          "LocalizedString": "屈強な傭兵"
+        }
+      },
+      "RandomBattle_Police": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_Police_TextData",
+          "SourceString": "屈強な自警団",
+          "LocalizedString": "屈強な自警団"
+        }
+      },
+      "PvPVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage001_TextData",
+          "SourceString": "砂漠からの逃亡者",
+          "LocalizedString": "砂漠からの逃亡者"
+        }
+      },
+      "PvPVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage002_TextData",
+          "SourceString": "流浪の挑戦者",
+          "LocalizedString": "流浪の挑戦者"
+        }
+      },
+      "PvPVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage003_TextData",
+          "SourceString": "膝を怪我した元傭兵",
+          "LocalizedString": "膝を怪我した元傭兵"
+        }
+      },
+      "PvPVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage004_TextData",
+          "SourceString": "怖がりの遭難者",
+          "LocalizedString": "怖がりの遭難者"
+        }
+      },
+      "PvPVillage005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage005_TextData",
+          "SourceString": "臆病な島民",
+          "LocalizedString": "臆病な島民"
+        }
+      },
+      "PvPVillage006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage006_TextData",
+          "SourceString": "諦観した島民",
+          "LocalizedString": "諦観した島民"
+        }
+      },
+      "BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer001_TextData",
+          "SourceString": "かけだしパルテイマー",
+          "LocalizedString": "かけだしパルテイマー"
+        }
+      },
+      "BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer002_TextData",
+          "SourceString": "伸び盛りのパルテイマー",
+          "LocalizedString": "伸び盛りのパルテイマー"
+        }
+      },
+      "BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer003_TextData",
+          "SourceString": "冷酷なパルテイマー",
+          "LocalizedString": "冷酷なパルテイマー"
+        }
+      },
+      "BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer004_TextData",
+          "SourceString": "ベテランパルテイマー",
+          "LocalizedString": "ベテランパルテイマー"
+        }
+      },
+      "BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer005_TextData",
+          "SourceString": "闘魂のパルテイマー",
+          "LocalizedString": "闘魂のパルテイマー"
+        }
+      },
+      "BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer006_TextData",
+          "SourceString": "熟達したパルテイマー",
+          "LocalizedString": "熟達したパルテイマー"
+        }
+      },
+      "MerchantwithPAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MerchantwithPAL_TextData",
+          "SourceString": "目つきの悪いパル商人",
+          "LocalizedString": "目つきの悪いパル商人"
+        }
+      },
+      "Assassin001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin001_TextData",
+          "SourceString": "笑顔を崩さない商人",
+          "LocalizedString": "笑顔を崩さない商人"
+        }
+      },
+      "Assassin002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin002_TextData",
+          "SourceString": "誠実そうな商人",
+          "LocalizedString": "誠実そうな商人"
+        }
+      },
+      "Assassin003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin003_TextData",
+          "SourceString": "眼光の鋭い商人",
+          "LocalizedString": "眼光の鋭い商人"
+        }
+      },
+      "MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MedalTrader_TextData",
+          "SourceString": "メダル商人",
+          "LocalizedString": "メダル商人"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_TextData",
+          "SourceString": "SAYA",
+          "LocalizedString": "SAYA"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL_TextData",
+          "SourceString": "SELYNE",
+          "LocalizedString": "SELYNE"
+        }
+      },
+      "Police_WarningOilrig": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_WarningOilrig_TextData",
+          "SourceString": "警告する自警団",
+          "LocalizedString": "警告する自警団"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_TextData",
+          "SourceString": "BJORN",
+          "LocalizedString": "BJORN"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_PAL_TextData",
+          "SourceString": "BASTIGOR",
+          "LocalizedString": "BASTIGOR"
+        }
+      },
+      "BountyNavigator": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyNavigator_TextData",
+          "SourceString": "賞金首の情報屋",
+          "LocalizedString": "賞金首の情報屋"
+        }
+      },
+      "Presenter001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Presenter001_TextData",
+          "SourceString": "親切なパルテイマー",
+          "LocalizedString": "親切なパルテイマー"
+        }
+      },
+      "BountyTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyTrader_TextData",
+          "SourceString": "自警団の指名手配係",
+          "LocalizedString": "自警団の指名手配係"
+        }
+      },
+      "Yamishima_guide1": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide1_TextData",
+          "SourceString": "聡明な地質学者",
+          "LocalizedString": "聡明な地質学者"
+        }
+      },
+      "Yamishima_guide2": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide2_TextData",
+          "SourceString": "高揚したパル学者",
+          "LocalizedString": "高揚したパル学者"
+        }
+      },
+      "Yamishima_guide3": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide3_TextData",
+          "SourceString": "楽しそうな鉱石研究者",
+          "LocalizedString": "楽しそうな鉱石研究者"
+        }
+      },
+      "Yamishima_guide4": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide4_TextData",
+          "SourceString": "絶望した仕入れ商人",
+          "LocalizedString": "絶望した仕入れ商人"
+        }
+      },
+      "Yamishima_guide5": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide5_TextData",
+          "SourceString": "天落軍の脱走兵",
+          "LocalizedString": "天落軍の脱走兵"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "ブラウン博士",
+          "LocalizedString": "ブラウン博士"
+        }
+      },
+      "NAME_Reward_Food": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Food_TextData",
+          "SourceString": "傲慢な美食家",
+          "LocalizedString": "傲慢な美食家"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "パル生態調査員",
+          "LocalizedString": "パル生態調査員"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "ベテランパルハンター",
+          "LocalizedString": "ベテランパルハンター"
+        }
+      },
+      "NAME_Reward_PalCaptureCount": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalCaptureCount_TextData",
+          "SourceString": "賢い猟師",
+          "LocalizedString": "賢い猟師"
+        }
+      },
+      "NAME_Reward_Emote_A_01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Emote_A_01_TextData",
+          "SourceString": "愛の伝道師",
+          "LocalizedString": "愛の伝道師"
+        }
+      },
+      "NAME_Reward_PalDisplay": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalDisplay_TextData",
+          "SourceString": "不遜なパル品評家",
+          "LocalizedString": "不遜なパル品評家"
+        }
+      },
+      "ArenaShop": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "ArenaShop_TextData",
+          "SourceString": "闘技場の商人",
+          "LocalizedString": "闘技場の商人"
+        }
+      },
+      "NAME_QUEST_FARMER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER01_TextData",
+          "SourceString": "困り果てた農民",
+          "LocalizedString": "困り果てた農民"
+        }
+      },
+      "NAME_QUEST_FARMER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER02_TextData",
+          "SourceString": "料理好きの農民",
+          "LocalizedString": "料理好きの農民"
+        }
+      },
+      "NAME_QUEST_FARMER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER03_TextData",
+          "SourceString": "世話焼きの農民",
+          "LocalizedString": "世話焼きの農民"
+        }
+      },
+      "NAME_QUEST_FARMER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER04_TextData",
+          "SourceString": "愛パル家の農民",
+          "LocalizedString": "愛パル家の農民"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "伝説を追い求める研究員",
+          "LocalizedString": "伝説を追い求める研究員"
+        }
+      },
+      "NAME_QUEST_SCHOLAR02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR02_TextData",
+          "SourceString": "古代文明研究会の研究員",
+          "LocalizedString": "古代文明研究会の研究員"
+        }
+      },
+      "NAME_QUEST_SCHOLAR03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR03_TextData",
+          "SourceString": "カモノスケマニアの研究員",
+          "LocalizedString": "カモノスケマニアの研究員"
+        }
+      },
+      "NAME_QUEST_SCHOLAR04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR04_TextData",
+          "SourceString": "石ころオタクの研究員",
+          "LocalizedString": "石ころオタクの研究員"
+        }
+      },
+      "NAME_QUEST_BREEDER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER01_TextData",
+          "SourceString": "パル育成初心者のブリーダー",
+          "LocalizedString": "パル育成初心者のブリーダー"
+        }
+      },
+      "NAME_QUEST_BREEDER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER02_TextData",
+          "SourceString": "相棒思いのブリーダー",
+          "LocalizedString": "相棒思いのブリーダー"
+        }
+      },
+      "NAME_QUEST_BREEDER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER03_TextData",
+          "SourceString": "高所恐怖症のブリーダー",
+          "LocalizedString": "高所恐怖症のブリーダー"
+        }
+      },
+      "NAME_QUEST_BREEDER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER04_TextData",
+          "SourceString": "熱心なパル繁殖家のブリーダー",
+          "LocalizedString": "熱心なパル繁殖家のブリーダー"
+        }
+      },
+      "NAME_QUEST_RANGER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER01_TextData",
+          "SourceString": "毎日が狩り日和の狩人",
+          "LocalizedString": "毎日が狩り日和の狩人"
+        }
+      },
+      "NAME_QUEST_RANGER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER02_TextData",
+          "SourceString": "正義感の強い狩人",
+          "LocalizedString": "正義感の強い狩人"
+        }
+      },
+      "NAME_QUEST_RANGER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER03_TextData",
+          "SourceString": "大物狙いの狩人",
+          "LocalizedString": "大物狙いの狩人"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "いい香りのする狩人",
+          "LocalizedString": "いい香りのする狩人"
+        }
+      },
+      "NAME_QUEST_NOMAD01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD01_TextData",
+          "SourceString": "片道全力の流浪民",
+          "LocalizedString": "片道全力の流浪民"
+        }
+      },
+      "NAME_QUEST_NOMAD02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD02_TextData",
+          "SourceString": "キラめき求めて三千里の流浪民",
+          "LocalizedString": "キラめき求めて三千里の流浪民"
+        }
+      },
+      "NAME_QUEST_NOMAD03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD03_TextData",
+          "SourceString": "三度の飯より冒険派の流浪民",
+          "LocalizedString": "三度の飯より冒険派の流浪民"
+        }
+      },
+      "NAME_QUEST_NOMAD04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD04_TextData",
+          "SourceString": "風まかせの流浪民",
+          "LocalizedString": "風まかせの流浪民"
+        }
+      },
+      "NAME_QUEST_ANGLER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_ANGLER01_TextData",
+          "SourceString": "スローライフ満喫中の釣り人",
+          "LocalizedString": "スローライフ満喫中の釣り人"
+        }
+      },
+      "CampPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice001_TextData",
+          "SourceString": "見張りの自警団",
+          "LocalizedString": "見張りの自警団"
+        }
+      },
+      "CampPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice002_TextData",
+          "SourceString": "仕事上がりの自警団",
+          "LocalizedString": "仕事上がりの自警団"
+        }
+      },
+      "CampPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice003_TextData",
+          "SourceString": "酒好きの自警団",
+          "LocalizedString": "酒好きの自警団"
+        }
+      },
+      "CampPolice004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice004_TextData",
+          "SourceString": "皮肉屋な自警団",
+          "LocalizedString": "皮肉屋な自警団"
+        }
+      },
+      "CampPolice005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice005_TextData",
+          "SourceString": "トイレ中の自警団",
+          "LocalizedString": "トイレ中の自警団"
+        }
+      },
+      "CampPolice006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice006_TextData",
+          "SourceString": "真面目な自警団",
+          "LocalizedString": "真面目な自警団"
+        }
+      },
+      "CampPolice007": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice007_TextData",
+          "SourceString": "やる気のない署長",
+          "LocalizedString": "やる気のない署長"
+        }
+      },
+      "CampPolice008": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice008_TextData",
+          "SourceString": "おびえる自警団",
+          "LocalizedString": "おびえる自警団"
+        }
+      },
+      "CampPolice009": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice009_TextData",
+          "SourceString": "話好きな自警団",
+          "LocalizedString": "話好きな自警団"
+        }
+      },
+      "CampPolice010": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice010_TextData",
+          "SourceString": "冷静な自警団",
+          "LocalizedString": "冷静な自警団"
+        }
+      },
+      "CampPolice011": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice011_TextData",
+          "SourceString": "宝を守る自警団",
+          "LocalizedString": "宝を守る自警団"
+        }
+      },
+      "CampPolice012": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice012_TextData",
+          "SourceString": "休憩中の自警団",
+          "LocalizedString": "休憩中の自警団"
+        }
+      },
+      "CampPolice013": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice013_TextData",
+          "SourceString": "自堕落な自警団",
+          "LocalizedString": "自堕落な自警団"
+        }
+      },
+      "CampPolice014": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice014_TextData",
+          "SourceString": "仮眠をとる自警団",
+          "LocalizedString": "仮眠をとる自警団"
+        }
+      },
+      "CampPolice015": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice015_TextData",
+          "SourceString": "酔っぱらった自警団",
+          "LocalizedString": "酔っぱらった自警団"
+        }
+      },
+      "CampPolice016": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice016_TextData",
+          "SourceString": "喉が渇いている自警団",
+          "LocalizedString": "喉が渇いている自警団"
+        }
+      },
+      "CampPolice017": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice017_TextData",
+          "SourceString": "訝しがる自警団",
+          "LocalizedString": "訝しがる自警団"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "ゾーイ",
+          "LocalizedString": "ゾーイ"
+        }
+      },
+      "NAME_QUEST_KIGURUMI01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_KIGURUMI01_TextData",
+          "SourceString": "ンダコアラになりたい島民",
+          "LocalizedString": "ンダコアラになりたい島民"
+        }
+      },
+      "NAME_SurveyGirl": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyGirl_TextData",
+          "SourceString": "フィア",
+          "LocalizedString": "フィア"
+        }
+      },
+      "NAME_SurveyWoman": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyWoman_TextData",
+          "SourceString": "カーラ",
+          "LocalizedString": "カーラ"
+        }
+      },
+      "NAME_SurveyMan": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_SurveyMan_TextData",
+          "SourceString": "ガデル",
+          "LocalizedString": "ガデル"
+        }
+      },
+      "NAME_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_StrongOldMan_TextData",
+          "SourceString": "ハロルド",
+          "LocalizedString": "ハロルド"
+        }
+      },
+      "NAME_Male_DTairikuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_DTairikuPeople01_TextData",
+          "SourceString": "竹林の民",
+          "LocalizedString": "竹林の民"
+        }
+      },
+      "NAME_Female_DTairikuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_DTairikuPeople01_TextData",
+          "SourceString": "竹林の民",
+          "LocalizedString": "竹林の民"
+        }
+      },
+      "NAME_Male_TenrakuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_TenrakuPeople01_TextData",
+          "SourceString": "天落の研究者",
+          "LocalizedString": "天落の研究者"
+        }
+      },
+      "NAME_Female_TenrakuPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_TenrakuPeople01_TextData",
+          "SourceString": "天落の研究者",
+          "LocalizedString": "天落の研究者"
+        }
+      },
+      "NAME_Male_SnowPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SnowPeople01_TextData",
+          "SourceString": "極寒の民",
+          "LocalizedString": "極寒の民"
+        }
+      },
+      "NAME_Female_SnowPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SnowPeople01_TextData",
+          "SourceString": "極寒の民",
+          "LocalizedString": "極寒の民"
+        }
+      },
+      "NAME_Male_SakurajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SakurajimaPeople01_TextData",
+          "SourceString": "桜島の民",
+          "LocalizedString": "桜島の民"
+        }
+      },
+      "NAME_Female_SakurajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SakurajimaPeople01_TextData",
+          "SourceString": "桜島の民",
+          "LocalizedString": "桜島の民"
+        }
+      },
+      "NAME_Negotiator": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Negotiator_TextData",
+          "SourceString": "交渉人",
+          "LocalizedString": "交渉人"
+        }
+      },
+      "NAME_Male_WorldTreePeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_WorldTreePeople01_TextData",
+          "SourceString": "世界樹の守り人",
+          "LocalizedString": "世界樹の守り人"
+        }
+      },
+      "NAME_Female_WorldTreePeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_WorldTreePeople01_TextData",
+          "SourceString": "世界樹の守り人",
+          "LocalizedString": "世界樹の守り人"
+        }
+      },
+      "NAME_ArenaNPC_101": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_101_TextData",
+          "SourceString": "Regiultima",
+          "LocalizedString": "Regiultima"
+        }
+      },
+      "NAME_ArenaNPC_102": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_102_TextData",
+          "SourceString": "Shell Knight",
+          "LocalizedString": "Shell Knight"
+        }
+      },
+      "NAME_ArenaNPC_103": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_103_TextData",
+          "SourceString": "こしあんパン",
+          "LocalizedString": "こしあんパン"
+        }
+      },
+      "NAME_ArenaNPC_104": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_104_TextData",
+          "SourceString": "Winget",
+          "LocalizedString": "Winget"
+        }
+      },
+      "NAME_ArenaNPC_105": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_105_TextData",
+          "SourceString": "Nabeau",
+          "LocalizedString": "Nabeau"
+        }
+      },
+      "NAME_ArenaNPC_106": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_106_TextData",
+          "SourceString": "Krissy Komiya",
+          "LocalizedString": "Krissy Komiya"
+        }
+      },
+      "NAME_ArenaNPC_107": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_107_TextData",
+          "SourceString": "Nozomiso",
+          "LocalizedString": "Nozomiso"
+        }
+      },
+      "NAME_ArenaNPC_108": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_108_TextData",
+          "SourceString": "Maximum",
+          "LocalizedString": "Maximum"
+        }
+      },
+      "NAME_ArenaNPC_109": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_109_TextData",
+          "SourceString": "The Cheat Phantom",
+          "LocalizedString": "The Cheat Phantom"
+        }
+      },
+      "NAME_ArenaNPC_110": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_110_TextData",
+          "SourceString": "Prima",
+          "LocalizedString": "Prima"
+        }
+      },
+      "NAME_ArenaNPC_111": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_111_TextData",
+          "SourceString": "Jam4u2",
+          "LocalizedString": "Jam4u2"
+        }
+      },
+      "NAME_ArenaNPC_112": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_112_TextData",
+          "SourceString": "Certified Cynic",
+          "LocalizedString": "Certified Cynic"
+        }
+      },
+      "NAME_ArenaNPC_113": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_113_TextData",
+          "SourceString": "Jeevis",
+          "LocalizedString": "Jeevis"
+        }
+      },
+      "NAME_ArenaNPC_114": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_114_TextData",
+          "SourceString": "RabbitXV",
+          "LocalizedString": "RabbitXV"
+        }
+      },
+      "NAME_ArenaNPC_115": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_115_TextData",
+          "SourceString": "Ashee",
+          "LocalizedString": "Ashee"
+        }
+      },
+      "NAME_ArenaNPC_116": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_116_TextData",
+          "SourceString": "Okaetsu",
+          "LocalizedString": "Okaetsu"
+        }
+      },
+      "NAME_ArenaNPC_117": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_117_TextData",
+          "SourceString": "RedMage",
+          "LocalizedString": "RedMage"
+        }
+      },
+      "NAME_ArenaNPC_118": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_118_TextData",
+          "SourceString": "Ent",
+          "LocalizedString": "Ent"
+        }
+      },
+      "NAME_ArenaNPC_119": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_119_TextData",
+          "SourceString": "Pylar",
+          "LocalizedString": "Pylar"
+        }
+      },
+      "NAME_ArenaNPC_120": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_ArenaNPC_120_TextData",
+          "SourceString": "iori",
+          "LocalizedString": "iori"
+        }
+      },
+      "NAME_AncientResearcher": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_AncientResearcher_TextData",
+          "SourceString": "古代文明の研究者",
+          "LocalizedString": "古代文明の研究者"
+        }
+      },
+      "NAME_Male_SorajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_SorajimaPeople01_TextData",
+          "SourceString": "天陽郷の民",
+          "LocalizedString": "天陽郷の民"
+        }
+      },
+      "NAME_Female_SorajimaPeople01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Female_SorajimaPeople01_TextData",
+          "SourceString": "天陽郷の民",
+          "LocalizedString": "天陽郷の民"
+        }
+      },
+      "BOSSNAME_DEMO_SORAJIMA_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SORAJIMA_LEADER_TextData",
+          "SourceString": "AURI",
+          "LocalizedString": "AURI"
+        }
+      },
+      "BOSSNAME_DEMO_SORAJIMA_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SORAJIMA_LEADER_PAL_TextData",
+          "SourceString": "SHAOLONG",
+          "LocalizedString": "SHAOLONG"
+        }
+      },
+      "NAME_Male_VolcanoPorter": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_VolcanoPorter_TextData",
+          "SourceString": "火山の荷運び",
+          "LocalizedString": "火山の荷運び"
+        }
+      },
+      "NAME_Male_DesertVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Male_DesertVillage004_TextData",
+          "SourceString": "物静かな砂漠の民",
+          "LocalizedString": "物静かな砂漠の民"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,2969 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NamePrefixText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Text/DT_NamePrefixText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PREFIX_NAME_LONELY": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_LONELY_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_PV5012": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV5012_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_PV5014": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV5014_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_PV6012": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV6012_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_PV6013": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV6013_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_ELECLION_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_ELECLION_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_LILYQUEEN_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_LILYQUEEN_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_AMATERASUWOLF_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_AMATERASUWOLF_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_SUZAKU_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_SUZAKU_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_FAIRYDRAGON_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_FAIRYDRAGON_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "PREFIX_NAME_FENGYUNDEEPER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_FENGYUNDEEPER_BOSS_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Alpaca_TextData",
+          "SourceString": "美脚が自慢の",
+          "LocalizedString": "美脚が自慢の"
+        }
+      },
+      "BOSS_NAME_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_AmaterasuWolf_TextData",
+          "SourceString": "蒼炎の守り神",
+          "LocalizedString": "蒼炎の守り神"
+        }
+      },
+      "BOSS_NAME_Anubis": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Anubis_TextData",
+          "SourceString": "昏き太陽の守護者",
+          "LocalizedString": "昏き太陽の守護者"
+        }
+      },
+      "BOSS_NAME_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Baphomet_TextData",
+          "SourceString": "荒野のハイエナ",
+          "LocalizedString": "荒野のハイエナ"
+        }
+      },
+      "BOSS_NAME_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Baphomet_Dark_TextData",
+          "SourceString": "闇夜のハイエナ",
+          "LocalizedString": "闇夜のハイエナ"
+        }
+      },
+      "BOSS_NAME_Bastet": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Bastet_TextData",
+          "SourceString": "高貴な煌めき",
+          "LocalizedString": "高貴な煌めき"
+        }
+      },
+      "BOSS_NAME_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Bastet_Ice_TextData",
+          "SourceString": "清澄な煌めき",
+          "LocalizedString": "清澄な煌めき"
+        }
+      },
+      "BOSS_NAME_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BeardedDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BerryGoat_TextData",
+          "SourceString": "歩く農場",
+          "LocalizedString": "歩く農場"
+        }
+      },
+      "BOSS_NAME_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BirdDragon_TextData",
+          "SourceString": "空からの襲撃者",
+          "LocalizedString": "空からの襲撃者"
+        }
+      },
+      "BOSS_NAME_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BirdDragon_Ice_TextData",
+          "SourceString": "氷天からの襲撃者",
+          "LocalizedString": "氷天からの襲撃者"
+        }
+      },
+      "BOSS_NAME_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackCentaur_TextData",
+          "SourceString": "伝説の黒騎士",
+          "LocalizedString": "伝説の黒騎士"
+        }
+      },
+      "BOSS_NAME_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackFurDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackGriffon_TextData",
+          "SourceString": "未知の生命体",
+          "LocalizedString": "未知の生命体"
+        }
+      },
+      "BOSS_NAME_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackMetalDragon_TextData",
+          "SourceString": "鋼鉄の竜王",
+          "LocalizedString": "鋼鉄の竜王"
+        }
+      },
+      "BOSS_NAME_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueDragon_TextData",
+          "SourceString": "湖の女王",
+          "LocalizedString": "湖の女王"
+        }
+      },
+      "BOSS_NAME_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BluePlatypus_TextData",
+          "SourceString": "やんちゃな波乗り小僧",
+          "LocalizedString": "やんちゃな波乗り小僧"
+        }
+      },
+      "BOSS_NAME_Boar": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Boar_TextData",
+          "SourceString": "森の荒くれもの",
+          "LocalizedString": "森の荒くれもの"
+        }
+      },
+      "BOSS_NAME_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BrownRabbit_TextData",
+          "SourceString": "不倒の爆走者",
+          "LocalizedString": "不倒の爆走者"
+        }
+      },
+      "BOSS_NAME_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CaptainPenguin_TextData",
+          "SourceString": "氷海の開拓者",
+          "LocalizedString": "氷海の開拓者"
+        }
+      },
+      "BOSS_NAME_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Carbunclo_TextData",
+          "SourceString": "草原一の臆病者",
+          "LocalizedString": "草原一の臆病者"
+        }
+      },
+      "BOSS_NAME_CatBat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatBat_TextData",
+          "SourceString": "トリックスター",
+          "LocalizedString": "トリックスター"
+        }
+      },
+      "BOSS_NAME_CatMage": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatMage_TextData",
+          "SourceString": "暗黒猫魔導士",
+          "LocalizedString": "暗黒猫魔導士"
+        }
+      },
+      "BOSS_NAME_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatVampire_TextData",
+          "SourceString": "宵闇の吸血鬼",
+          "LocalizedString": "宵闇の吸血鬼"
+        }
+      },
+      "BOSS_NAME_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ChickenPal_TextData",
+          "SourceString": "たっぷり太った",
+          "LocalizedString": "たっぷり太った"
+        }
+      },
+      "BOSS_NAME_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ColorfulBird_TextData",
+          "SourceString": "爆発こそ我が人生",
+          "LocalizedString": "爆発こそ我が人生"
+        }
+      },
+      "BOSS_NAME_CowPal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CowPal_TextData",
+          "SourceString": "A5ランクの和牛",
+          "LocalizedString": "A5ランクの和牛"
+        }
+      },
+      "BOSS_NAME_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteButterfly_TextData",
+          "SourceString": "夢見る蝶の舞",
+          "LocalizedString": "夢見る蝶の舞"
+        }
+      },
+      "BOSS_NAME_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteFox_TextData",
+          "SourceString": "草原のアイドル",
+          "LocalizedString": "草原のアイドル"
+        }
+      },
+      "BOSS_NAME_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteMole_TextData",
+          "SourceString": "地中の探究者",
+          "LocalizedString": "地中の探究者"
+        }
+      },
+      "BOSS_NAME_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkCrow_TextData",
+          "SourceString": "暗躍する黒鳥",
+          "LocalizedString": "暗躍する黒鳥"
+        }
+      },
+      "BOSS_NAME_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkMutant_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkScorpion_TextData",
+          "SourceString": "全てを穿つ槍",
+          "LocalizedString": "全てを穿つ槍"
+        }
+      },
+      "BOSS_NAME_Deer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Deer_TextData",
+          "SourceString": "群れを守る長",
+          "LocalizedString": "群れを守る長"
+        }
+      },
+      "BOSS_NAME_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Deer_Ground_TextData",
+          "SourceString": "黄金の角",
+          "LocalizedString": "黄金の角"
+        }
+      },
+      "BOSS_NAME_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DreamDemon_TextData",
+          "SourceString": "夢喰い",
+          "LocalizedString": "夢喰い"
+        }
+      },
+      "BOSS_NAME_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DrillGame_TextData",
+          "SourceString": "回転削岩機",
+          "LocalizedString": "回転削岩機"
+        }
+      },
+      "BOSS_NAME_Eagle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Eagle_TextData",
+          "SourceString": "孤高の運び屋",
+          "LocalizedString": "孤高の運び屋"
+        }
+      },
+      "BOSS_NAME_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecCat_TextData",
+          "SourceString": "やんちゃなトラネコ",
+          "LocalizedString": "やんちゃなトラネコ"
+        }
+      },
+      "BOSS_NAME_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecLion_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecPanda_TextData",
+          "SourceString": "雷鳴の双爪",
+          "LocalizedString": "雷鳴の双爪"
+        }
+      },
+      "BOSS_NAME_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FairyDragon_TextData",
+          "SourceString": "温厚な天空竜",
+          "LocalizedString": "温厚な天空竜"
+        }
+      },
+      "BOSS_NAME_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FairyDragon_Water_TextData",
+          "SourceString": "渦潮の怪物",
+          "LocalizedString": "渦潮の怪物"
+        }
+      },
+      "BOSS_NAME_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FeatherOstrich_TextData",
+          "SourceString": "華麗なるステップ",
+          "LocalizedString": "華麗なるステップ"
+        }
+      },
+      "BOSS_NAME_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FengyunDeeper_TextData",
+          "SourceString": "游雲",
+          "LocalizedString": "游雲"
+        }
+      },
+      "BOSS_NAME_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireKirin_TextData",
+          "SourceString": "熱砂を駆ける駿馬",
+          "LocalizedString": "熱砂を駆ける駿馬"
+        }
+      },
+      "BOSS_NAME_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireKirin_Dark_TextData",
+          "SourceString": "闇炎の駿馬",
+          "LocalizedString": "闇炎の駿馬"
+        }
+      },
+      "BOSS_NAME_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlameBuffalo_TextData",
+          "SourceString": "燃え盛る角獣",
+          "LocalizedString": "燃え盛る角獣"
+        }
+      },
+      "BOSS_NAME_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDinosaur_TextData",
+          "SourceString": "花園の守護竜",
+          "LocalizedString": "花園の守護竜"
+        }
+      },
+      "BOSS_NAME_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDinosaur_Electric_TextData",
+          "SourceString": "稲妻の守護竜",
+          "LocalizedString": "稲妻の守護竜"
+        }
+      },
+      "BOSS_NAME_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDoll_TextData",
+          "SourceString": "花園の姫君",
+          "LocalizedString": "花園の姫君"
+        }
+      },
+      "BOSS_NAME_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerRabbit_TextData",
+          "SourceString": "花畑のアイドル",
+          "LocalizedString": "花畑のアイドル"
+        }
+      },
+      "BOSS_NAME_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlyingManta_TextData",
+          "SourceString": "空にたゆたう魚",
+          "LocalizedString": "空にたゆたう魚"
+        }
+      },
+      "BOSS_NAME_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FoxMage_TextData",
+          "SourceString": "炎狐魔導士",
+          "LocalizedString": "炎狐魔導士"
+        }
+      },
+      "BOSS_NAME_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ganesha_TextData",
+          "SourceString": "便利なジョウロ",
+          "LocalizedString": "便利なジョウロ"
+        }
+      },
+      "BOSS_NAME_Garm": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Garm_TextData",
+          "SourceString": "草原の狩人",
+          "LocalizedString": "草原の狩人"
+        }
+      },
+      "BOSS_NAME_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostBeast_TextData",
+          "SourceString": "冥界の使者",
+          "LocalizedString": "冥界の使者"
+        }
+      },
+      "BOSS_NAME_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Gorilla_TextData",
+          "SourceString": "喧嘩上等",
+          "LocalizedString": "喧嘩上等"
+        }
+      },
+      "BOSS_NAME_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassDragon_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMammoth_TextData",
+          "SourceString": "荒ぶる双牙",
+          "LocalizedString": "荒ぶる双牙"
+        }
+      },
+      "BOSS_NAME_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMammoth_Ice_TextData",
+          "SourceString": "凍てつく双牙",
+          "LocalizedString": "凍てつく双牙"
+        }
+      },
+      "BOSS_NAME_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassPanda_TextData",
+          "SourceString": "森の変わり者",
+          "LocalizedString": "森の変わり者"
+        }
+      },
+      "BOSS_NAME_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassPanda_Electric_TextData",
+          "SourceString": "雷を受けた変わり者",
+          "LocalizedString": "雷を受けた変わり者"
+        }
+      },
+      "BOSS_NAME_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassRabbitMan_TextData",
+          "SourceString": "森を駆ける疾風",
+          "LocalizedString": "森を駆ける疾風"
+        }
+      },
+      "BOSS_NAME_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GuardianDog_TextData",
+          "SourceString": "まつろわぬ忠犬",
+          "LocalizedString": "まつろわぬ忠犬"
+        }
+      },
+      "BOSS_NAME_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HadesBird_TextData",
+          "SourceString": "冥府の翼",
+          "LocalizedString": "冥府の翼"
+        }
+      },
+      "BOSS_NAME_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HawkBird_TextData",
+          "SourceString": "大空を舞う翼",
+          "LocalizedString": "大空を舞う翼"
+        }
+      },
+      "BOSS_NAME_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hedgehog_TextData",
+          "SourceString": "触るとキケン！",
+          "LocalizedString": "触るとキケン！"
+        }
+      },
+      "BOSS_NAME_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hedgehog_Ice_TextData",
+          "SourceString": "踏むとキケン！",
+          "LocalizedString": "踏むとキケン！"
+        }
+      },
+      "BOSS_NAME_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HerculesBeetle_TextData",
+          "SourceString": "重鎧の闘士",
+          "LocalizedString": "重鎧の闘士"
+        }
+      },
+      "BOSS_NAME_Horus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Horus_TextData",
+          "SourceString": "炎空の覇者",
+          "LocalizedString": "炎空の覇者"
+        }
+      },
+      "BOSS_NAME_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceDeer_TextData",
+          "SourceString": "氷雪の角獣",
+          "LocalizedString": "氷雪の角獣"
+        }
+      },
+      "BOSS_NAME_IceFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceFox_TextData",
+          "SourceString": "凍てつく氷狐",
+          "LocalizedString": "凍てつく氷狐"
+        }
+      },
+      "BOSS_NAME_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceHorse_TextData",
+          "SourceString": "伝説の氷天馬",
+          "LocalizedString": "伝説の氷天馬"
+        }
+      },
+      "BOSS_NAME_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceHorse_Dark_TextData",
+          "SourceString": "伝説の闇天馬",
+          "LocalizedString": "伝説の闇天馬"
+        }
+      },
+      "BOSS_NAME_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JetDragon_TextData",
+          "SourceString": "伝説の流星龍",
+          "LocalizedString": "伝説の流星龍"
+        }
+      },
+      "BOSS_NAME_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kelpie_TextData",
+          "SourceString": "深海の落とし子",
+          "LocalizedString": "深海の落とし子"
+        }
+      },
+      "BOSS_NAME_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kelpie_Fire_TextData",
+          "SourceString": "溶岩の落とし子",
+          "LocalizedString": "溶岩の落とし子"
+        }
+      },
+      "BOSS_NAME_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingAlpaca_TextData",
+          "SourceString": "モフモフの覇者",
+          "LocalizedString": "モフモフの覇者"
+        }
+      },
+      "BOSS_NAME_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingAlpaca_Ice_TextData",
+          "SourceString": "青モフの覇者",
+          "LocalizedString": "青モフの覇者"
+        }
+      },
+      "BOSS_NAME_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingBahamut_TextData",
+          "SourceString": "煉獄の暴君",
+          "LocalizedString": "煉獄の暴君"
+        }
+      },
+      "BOSS_NAME_Kirin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kirin_TextData",
+          "SourceString": "疾風迅雷",
+          "LocalizedString": "疾風迅雷"
+        }
+      },
+      "BOSS_NAME_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kitsunebi_TextData",
+          "SourceString": "旅路を照らす灯",
+          "LocalizedString": "旅路を照らす灯"
+        }
+      },
+      "BOSS_NAME_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyDragon_TextData",
+          "SourceString": "暴食竜",
+          "LocalizedString": "暴食竜"
+        }
+      },
+      "BOSS_NAME_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyDragon_Electric_TextData",
+          "SourceString": "雷鳴の暴食竜",
+          "LocalizedString": "雷鳴の暴食竜"
+        }
+      },
+      "BOSS_NAME_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LilyQueen_TextData",
+          "SourceString": "百合の女帝",
+          "LocalizedString": "百合の女帝"
+        }
+      },
+      "BOSS_NAME_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LilyQueen_Dark_TextData",
+          "SourceString": "深淵の女帝",
+          "LocalizedString": "深淵の女帝"
+        }
+      },
+      "BOSS_NAME_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LittleBriarRose_TextData",
+          "SourceString": "荊棘の華",
+          "LocalizedString": "荊棘の華"
+        }
+      },
+      "BOSS_NAME_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LizardMan_TextData",
+          "SourceString": "自称天才の",
+          "LocalizedString": "自称天才の"
+        }
+      },
+      "BOSS_NAME_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LizardMan_Fire_TextData",
+          "SourceString": "自称ファッションリーダーの",
+          "LocalizedString": "自称ファッションリーダーの"
+        }
+      },
+      "BOSS_NAME_Manticore": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Manticore_TextData",
+          "SourceString": "百焔の王",
+          "LocalizedString": "百焔の王"
+        }
+      },
+      "BOSS_NAME_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Manticore_Dark_TextData",
+          "SourceString": "暗焔の王",
+          "LocalizedString": "暗焔の王"
+        }
+      },
+      "BOSS_NAME_Monkey": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Monkey_TextData",
+          "SourceString": "器用な指先",
+          "LocalizedString": "器用な指先"
+        }
+      },
+      "BOSS_NAME_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MopBaby_TextData",
+          "SourceString": "謎のモフモフ",
+          "LocalizedString": "謎のモフモフ"
+        }
+      },
+      "BOSS_NAME_MopKing": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MopKing_TextData",
+          "SourceString": "謎のモフモフ王",
+          "LocalizedString": "謎のモフモフ王"
+        }
+      },
+      "BOSS_NAME_Mutant": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Mutant_TextData",
+          "SourceString": "宇宙から来た",
+          "LocalizedString": "宇宙から来た"
+        }
+      },
+      "BOSS_NAME_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NaughtyCat_TextData",
+          "SourceString": "マシュマロ体型の",
+          "LocalizedString": "マシュマロ体型の"
+        }
+      },
+      "BOSS_NAME_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeKoala_TextData",
+          "SourceString": "三徹明けの",
+          "LocalizedString": "三徹明けの"
+        }
+      },
+      "BOSS_NAME_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeOctopus_TextData",
+          "SourceString": "何の感情も持たない",
+          "LocalizedString": "何の感情も持たない"
+        }
+      },
+      "BOSS_NAME_NightFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightFox_TextData",
+          "SourceString": "夜の貴公子",
+          "LocalizedString": "夜の貴公子"
+        }
+      },
+      "BOSS_NAME_Penguin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Penguin_TextData",
+          "SourceString": "食べ過ぎた",
+          "LocalizedString": "食べ過ぎた"
+        }
+      },
+      "BOSS_NAME_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkCat_TextData",
+          "SourceString": "めっちゃイキってる",
+          "LocalizedString": "めっちゃイキってる"
+        }
+      },
+      "BOSS_NAME_PinkKangaroo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkKangaroo_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkLizard_TextData",
+          "SourceString": "愛を貪るパル",
+          "LocalizedString": "愛を貪るパル"
+        }
+      },
+      "BOSS_NAME_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkRabbit_TextData",
+          "SourceString": "キラキラスマイル",
+          "LocalizedString": "キラキラスマイル"
+        }
+      },
+      "BOSS_NAME_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PlantSlime_TextData",
+          "SourceString": "突然変異した",
+          "LocalizedString": "突然変異した"
+        }
+      },
+      "BOSS_NAME_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_QueenBee_TextData",
+          "SourceString": "大軍の女王",
+          "LocalizedString": "大軍の女王"
+        }
+      },
+      "BOSS_NAME_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RaijinDaughter_TextData",
+          "SourceString": "雷雲の末裔",
+          "LocalizedString": "雷雲の末裔"
+        }
+      },
+      "BOSS_NAME_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RedArmorBird_TextData",
+          "SourceString": "豪炎の翼",
+          "LocalizedString": "豪炎の翼"
+        }
+      },
+      "BOSS_NAME_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RobinHood_TextData",
+          "SourceString": "森林の弓使い",
+          "LocalizedString": "森林の弓使い"
+        }
+      },
+      "BOSS_NAME_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RobinHood_Ground_TextData",
+          "SourceString": "砂漠の弓使い",
+          "LocalizedString": "砂漠の弓使い"
+        }
+      },
+      "BOSS_NAME_Ronin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ronin_TextData",
+          "SourceString": "流浪の侍",
+          "LocalizedString": "流浪の侍"
+        }
+      },
+      "BOSS_NAME_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SaintCentaur_TextData",
+          "SourceString": "伝説の聖騎士",
+          "LocalizedString": "伝説の聖騎士"
+        }
+      },
+      "BOSS_NAME_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SakuraSaurus_TextData",
+          "SourceString": "春を告げる風",
+          "LocalizedString": "春を告げる風"
+        }
+      },
+      "BOSS_NAME_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SakuraSaurus_Water_TextData",
+          "SourceString": "夏を告げる波",
+          "LocalizedString": "夏を告げる波"
+        }
+      },
+      "BOSS_NAME_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ScorpionMan_TextData",
+          "SourceString": "バッドボーイ",
+          "LocalizedString": "バッドボーイ"
+        }
+      },
+      "BOSS_NAME_Serpent": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Serpent_TextData",
+          "SourceString": "潮騒の化身",
+          "LocalizedString": "潮騒の化身"
+        }
+      },
+      "BOSS_NAME_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Serpent_Ground_TextData",
+          "SourceString": "砂塵の化身",
+          "LocalizedString": "砂塵の化身"
+        }
+      },
+      "BOSS_NAME_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SkyDragon_TextData",
+          "SourceString": "純白の飛翔者",
+          "LocalizedString": "純白の飛翔者"
+        }
+      },
+      "BOSS_NAME_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SharkKid_TextData",
+          "SourceString": "海の暴れん坊",
+          "LocalizedString": "海の暴れん坊"
+        }
+      },
+      "BOSS_NAME_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SharkKid_Fire_TextData",
+          "SourceString": "火山の暴れん坊",
+          "LocalizedString": "火山の暴れん坊"
+        }
+      },
+      "BOSS_NAME_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SheepBall_TextData",
+          "SourceString": "でっかいもこもこ",
+          "LocalizedString": "でっかいもこもこ"
+        }
+      },
+      "BOSS_NAME_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SifuDog_TextData",
+          "SourceString": "悟りの境地",
+          "LocalizedString": "悟りの境地"
+        }
+      },
+      "BOSS_NAME_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SoldierBee_TextData",
+          "SourceString": "守衛隊長",
+          "LocalizedString": "守衛隊長"
+        }
+      },
+      "BOSS_NAME_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Suzaku_TextData",
+          "SourceString": "天空の王者",
+          "LocalizedString": "天空の王者"
+        }
+      },
+      "BOSS_NAME_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Suzaku_Water_TextData",
+          "SourceString": "天空の蒼王",
+          "LocalizedString": "天空の蒼王"
+        }
+      },
+      "BOSS_NAME_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SweetsSheep_TextData",
+          "SourceString": "特大わたあめ",
+          "LocalizedString": "特大わたあめ"
+        }
+      },
+      "BOSS_NAME_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderBird_TextData",
+          "SourceString": "雷霆の翼",
+          "LocalizedString": "雷霆の翼"
+        }
+      },
+      "BOSS_NAME_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDog_TextData",
+          "SourceString": "雷迅の走者",
+          "LocalizedString": "雷迅の走者"
+        }
+      },
+      "BOSS_NAME_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDragonMan_TextData",
+          "SourceString": "疾走する轟雷",
+          "LocalizedString": "疾走する轟雷"
+        }
+      },
+      "BOSS_NAME_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Umihebi_TextData",
+          "SourceString": "海上の覇者",
+          "LocalizedString": "海上の覇者"
+        }
+      },
+      "BOSS_NAME_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Umihebi_Fire_TextData",
+          "SourceString": "火山の覇者",
+          "LocalizedString": "火山の覇者"
+        }
+      },
+      "BOSS_NAME_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VioletFairy_TextData",
+          "SourceString": "紫紺の幻草",
+          "LocalizedString": "紫紺の幻草"
+        }
+      },
+      "BOSS_NAME_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanicMonster_TextData",
+          "SourceString": "溶岩を貪る獣",
+          "LocalizedString": "溶岩を貪る獣"
+        }
+      },
+      "BOSS_NAME_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanicMonster_Ice_TextData",
+          "SourceString": "砕氷を貪る獣",
+          "LocalizedString": "砕氷を貪る獣"
+        }
+      },
+      "BOSS_NAME_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WaterLizard_TextData",
+          "SourceString": "-",
+          "LocalizedString": "-"
+        }
+      },
+      "BOSS_NAME_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WeaselDragon_TextData",
+          "SourceString": "草原の踊り子",
+          "LocalizedString": "草原の踊り子"
+        }
+      },
+      "BOSS_NAME_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Werewolf_TextData",
+          "SourceString": "月光に揺らぐ",
+          "LocalizedString": "月光に揺らぐ"
+        }
+      },
+      "BOSS_NAME_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteMoth_TextData",
+          "SourceString": "純白の貴婦人",
+          "LocalizedString": "純白の貴婦人"
+        }
+      },
+      "BOSS_NAME_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteTiger_TextData",
+          "SourceString": "雪山の捕食者",
+          "LocalizedString": "雪山の捕食者"
+        }
+      },
+      "BOSS_NAME_WindChimes": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WindChimes_TextData",
+          "SourceString": "幸運の運び手",
+          "LocalizedString": "幸運の運び手"
+        }
+      },
+      "BOSS_NAME_WindChimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WindChimes_Ice_TextData",
+          "SourceString": "氷河の運び手",
+          "LocalizedString": "氷河の運び手"
+        }
+      },
+      "BOSS_NAME_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WingGolem_TextData",
+          "SourceString": "動く巨大鎧",
+          "LocalizedString": "動く巨大鎧"
+        }
+      },
+      "BOSS_NAME_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WizardOwl_TextData",
+          "SourceString": "叡智の伝道者",
+          "LocalizedString": "叡智の伝道者"
+        }
+      },
+      "BOSS_NAME_Yeti": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Yeti_TextData",
+          "SourceString": "雪原の巨人",
+          "LocalizedString": "雪原の巨人"
+        }
+      },
+      "BOSS_NAME_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Yeti_Grass_TextData",
+          "SourceString": "南国の巨人",
+          "LocalizedString": "南国の巨人"
+        }
+      },
+      "BOSS_NAME_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WoolFox_TextData",
+          "SourceString": "愛すべきふわモフ",
+          "LocalizedString": "愛すべきふわモフ"
+        }
+      },
+      "BOSS_NAME_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyCatfish_TextData",
+          "SourceString": "明日から本気出す",
+          "LocalizedString": "明日から本気出す"
+        }
+      },
+      "GYM_NAME_Meadow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Meadow_TextData",
+          "SourceString": "レイン密猟団の幹部",
+          "LocalizedString": "レイン密猟団の幹部"
+        }
+      },
+      "GYM_NAME_Forest": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Forest_TextData",
+          "SourceString": "パル愛護団体 創始者",
+          "LocalizedString": "パル愛護団体 創始者"
+        }
+      },
+      "GYM_NAME_Desert": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Desert_TextData",
+          "SourceString": "パルパゴス島自警団の幹部",
+          "LocalizedString": "パルパゴス島自警団の幹部"
+        }
+      },
+      "GYM_NAME_Volcano": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Volcano_TextData",
+          "SourceString": "永炎の同志 ソウルリーダー",
+          "LocalizedString": "永炎の同志 ソウルリーダー"
+        }
+      },
+      "GYM_NAME_Snow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Snow_TextData",
+          "SourceString": "パル遺伝子研究部隊 隊長",
+          "LocalizedString": "パル遺伝子研究部隊 隊長"
+        }
+      },
+      "GYM_NAME_Sakurajima": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Sakurajima_TextData",
+          "SourceString": "月花衆の長",
+          "LocalizedString": "月花衆の長"
+        }
+      },
+      "GYM_NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Viking_TextData",
+          "SourceString": "天落の民 首領",
+          "LocalizedString": "天落の民 首領"
+        }
+      },
+      "BOSS_NAME_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LavaGirl_TextData",
+          "SourceString": "溶岩娘",
+          "LocalizedString": "溶岩娘"
+        }
+      },
+      "BOSS_NAME_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlameBambi_TextData",
+          "SourceString": "群れの親玉",
+          "LocalizedString": "群れの親玉"
+        }
+      },
+      "BOSS_NAME_NightLady": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightLady_TextData",
+          "SourceString": "狂乱の淑女",
+          "LocalizedString": "狂乱の淑女"
+        }
+      },
+      "BOSS_NAME_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightLady_Dark_TextData",
+          "SourceString": "幽玄の魔女",
+          "LocalizedString": "幽玄の魔女"
+        }
+      },
+      "RAID_NAME_NightLady": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_TextData",
+          "SourceString": "狂乱の淑女",
+          "LocalizedString": "狂乱の淑女"
+        }
+      },
+      "RAID_NAME_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_Dark_TextData",
+          "SourceString": "幽玄の魔女",
+          "LocalizedString": "幽玄の魔女"
+        }
+      },
+      "RAID_NAME_NightLady_Dark_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_Dark_2_TextData",
+          "SourceString": "幽玄の魔女【極】",
+          "LocalizedString": "幽玄の魔女【極】"
+        }
+      },
+      "RAID_NAME_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_KingBahamut_Dragon_TextData",
+          "SourceString": "永炎の顕現",
+          "LocalizedString": "永炎の顕現"
+        }
+      },
+      "RAID_NAME_KingBahamut_Dragon_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_KingBahamut_Dragon_2_TextData",
+          "SourceString": "永炎の顕現【極】",
+          "LocalizedString": "永炎の顕現【極】"
+        }
+      },
+      "BOSS_NAME_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingBahamut_Dragon_TextData",
+          "SourceString": "永炎の顕現",
+          "LocalizedString": "永炎の顕現"
+        }
+      },
+      "BOSS_NAME_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MoonQueen_TextData",
+          "SourceString": "黒夜に浮かぶ月",
+          "LocalizedString": "黒夜に浮かぶ月"
+        }
+      },
+      "BOSS_NAME_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CandleGhost_TextData",
+          "SourceString": "幽遠の炎",
+          "LocalizedString": "幽遠の炎"
+        }
+      },
+      "BOSS_NAME_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkAlien_TextData",
+          "SourceString": "外界からの侵略者",
+          "LocalizedString": "外界からの侵略者"
+        }
+      },
+      "BOSS_NAME_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteAlienDragon_TextData",
+          "SourceString": "惑星を喰らう竜",
+          "LocalizedString": "惑星を喰らう竜"
+        }
+      },
+      "BOSS_NAME_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LeafPrincess_TextData",
+          "SourceString": "花粉症の元凶",
+          "LocalizedString": "花粉症の元凶"
+        }
+      },
+      "BOSS_NAME_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SmallArmadillo_TextData",
+          "SourceString": "完全武装",
+          "LocalizedString": "完全武装"
+        }
+      },
+      "BOSS_NAME_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KendoFrog_TextData",
+          "SourceString": "腹切り上等",
+          "LocalizedString": "腹切り上等"
+        }
+      },
+      "BOSS_NAME_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MimicDog_TextData",
+          "SourceString": "お宝たんまり",
+          "LocalizedString": "お宝たんまり"
+        }
+      },
+      "BOSS_NAME_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MushroomDragon_TextData",
+          "SourceString": "のんびりきのこ",
+          "LocalizedString": "のんびりきのこ"
+        }
+      },
+      "BOSS_NAME_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MushroomDragon_Dark_TextData",
+          "SourceString": "アブナイきのこ",
+          "LocalizedString": "アブナイきのこ"
+        }
+      },
+      "BOSS_NAME_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkScorpion_Ground_TextData",
+          "SourceString": "黄金を穿つ槍",
+          "LocalizedString": "黄金を穿つ槍"
+        }
+      },
+      "BOSS_NAME_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WeaselDragon_Fire_TextData",
+          "SourceString": "桜花の踊り子",
+          "LocalizedString": "桜花の踊り子"
+        }
+      },
+      "BOSS_NAME_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SkyDragon_Grass_TextData",
+          "SourceString": "新緑の飛翔者",
+          "LocalizedString": "新緑の飛翔者"
+        }
+      },
+      "BOSS_NAME_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HerculesBeetle_Ground_TextData",
+          "SourceString": "金鎧の闘士",
+          "LocalizedString": "金鎧の闘士"
+        }
+      },
+      "BOSS_NAME_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Gorilla_Ground_TextData",
+          "SourceString": "乱暴上等",
+          "LocalizedString": "乱暴上等"
+        }
+      },
+      "BOSS_NAME_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HadesBird_Electric_TextData",
+          "SourceString": "冥雷の翼",
+          "LocalizedString": "冥雷の翼"
+        }
+      },
+      "BOSS_NAME_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ronin_Dark_TextData",
+          "SourceString": "闇夜の刺客",
+          "LocalizedString": "闇夜の刺客"
+        }
+      },
+      "BOSS_NAME_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatMage_Fire_TextData",
+          "SourceString": "灼熱猫魔導士",
+          "LocalizedString": "灼熱猫魔導士"
+        }
+      },
+      "BOSS_NAME_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FoxMage_Dark_TextData",
+          "SourceString": "闇狐魔導士",
+          "LocalizedString": "闇狐魔導士"
+        }
+      },
+      "BOSS_NAME_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hunter_Rifle_TextData",
+          "SourceString": "初心者狩り",
+          "LocalizedString": "初心者狩り"
+        }
+      },
+      "BOSS_NAME_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "圧迫面接官",
+          "LocalizedString": "圧迫面接官"
+        }
+      },
+      "BOSS_NAME_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Believer_CrossBow_TextData",
+          "SourceString": "隙あらば自分語り",
+          "LocalizedString": "隙あらば自分語り"
+        }
+      },
+      "BOSS_NAME_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Believer_Fat_GiantClub_TextData",
+          "SourceString": "暴力的愛護",
+          "LocalizedString": "暴力的愛護"
+        }
+      },
+      "BOSS_NAME_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Police_Rifle_TextData",
+          "SourceString": "パワハラ常習犯",
+          "LocalizedString": "パワハラ常習犯"
+        }
+      },
+      "BOSS_NAME_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireCult_FlameThrower_TextData",
+          "SourceString": "黒魔術愛好家",
+          "LocalizedString": "黒魔術愛好家"
+        }
+      },
+      "BOSS_NAME_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Scientist_LaserRifle_TextData",
+          "SourceString": "人さらい",
+          "LocalizedString": "人さらい"
+        }
+      },
+      "BOSS_NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ninja_TextData",
+          "SourceString": "チョンボマスター",
+          "LocalizedString": "チョンボマスター"
+        }
+      },
+      "BOSS_NAME_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NinjaElite_TextData",
+          "SourceString": "辻斬り",
+          "LocalizedString": "辻斬り"
+        }
+      },
+      "BOSS_NAME_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier_TextData",
+          "SourceString": "地面師",
+          "LocalizedString": "地面師"
+        }
+      },
+      "BOSS_NAME_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier02_TextData",
+          "SourceString": "承認欲求モンスター",
+          "LocalizedString": "承認欲求モンスター"
+        }
+      },
+      "BOSS_NAME_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier03_TextData",
+          "SourceString": "パイナップルピザ愛好家",
+          "LocalizedString": "パイナップルピザ愛好家"
+        }
+      },
+      "BOSS_NAME_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier04_TextData",
+          "SourceString": "お団子泥棒",
+          "LocalizedString": "お団子泥棒"
+        }
+      },
+      "BOSS_NAME_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier_TextData",
+          "SourceString": "当たり屋",
+          "LocalizedString": "当たり屋"
+        }
+      },
+      "BOSS_NAME_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier02_TextData",
+          "SourceString": "歩きタバコ",
+          "LocalizedString": "歩きタバコ"
+        }
+      },
+      "BOSS_NAME_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier03_TextData",
+          "SourceString": "トリガーハッピー",
+          "LocalizedString": "トリガーハッピー"
+        }
+      },
+      "BOSS_NAME_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier04_TextData",
+          "SourceString": "牛泥棒",
+          "LocalizedString": "牛泥棒"
+        }
+      },
+      "BOSS_NAME_Female_People": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People_TextData",
+          "SourceString": "放火魔",
+          "LocalizedString": "放火魔"
+        }
+      },
+      "BOSS_NAME_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People02_TextData",
+          "SourceString": "二十股",
+          "LocalizedString": "二十股"
+        }
+      },
+      "BOSS_NAME_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People03_TextData",
+          "SourceString": "バウンティハンターハンター",
+          "LocalizedString": "バウンティハンターハンター"
+        }
+      },
+      "BOSS_NAME_Male_People": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People_TextData",
+          "SourceString": "双子の爆弾魔",
+          "LocalizedString": "双子の爆弾魔"
+        }
+      },
+      "BOSS_NAME_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People02_TextData",
+          "SourceString": "善良な無免許医師",
+          "LocalizedString": "善良な無免許医師"
+        }
+      },
+      "BOSS_NAME_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People03_TextData",
+          "SourceString": "食い逃げ常習犯",
+          "LocalizedString": "食い逃げ常習犯"
+        }
+      },
+      "BOSS_NAME_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_DesertPeople_TextData",
+          "SourceString": "脱獄のプロ",
+          "LocalizedString": "脱獄のプロ"
+        }
+      },
+      "BOSS_NAME_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_DesertPeople_TextData",
+          "SourceString": "ネタバレ常習犯",
+          "LocalizedString": "ネタバレ常習犯"
+        }
+      },
+      "BOSS_NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Viking_TextData",
+          "SourceString": "食人鬼",
+          "LocalizedString": "食人鬼"
+        }
+      },
+      "BOSS_NAME_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VikingElite_TextData",
+          "SourceString": "人間コレクター",
+          "LocalizedString": "人間コレクター"
+        }
+      },
+      "BOSS_NAME_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Police_Old_TextData",
+          "SourceString": "借りパク常習犯",
+          "LocalizedString": "借りパク常習犯"
+        }
+      },
+      "BOSS_NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkTrader_TextData",
+          "SourceString": "押し入り強盗",
+          "LocalizedString": "押し入り強盗"
+        }
+      },
+      "BOSS_NAME_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader01_TextData",
+          "SourceString": "中抜き常習犯",
+          "LocalizedString": "中抜き常習犯"
+        }
+      },
+      "BOSS_NAME_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader02_TextData",
+          "SourceString": "偽造貨幣鋳造人",
+          "LocalizedString": "偽造貨幣鋳造人"
+        }
+      },
+      "BOSS_NAME_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader03_TextData",
+          "SourceString": "馬泥棒",
+          "LocalizedString": "馬泥棒"
+        }
+      },
+      "BOSS_NAME_Hunter_Fat_GatlingGun_Quest_StrongOldMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hunter_Fat_GatlingGun_Quest_StrongOldMan_TextData",
+          "SourceString": "ひったくり",
+          "LocalizedString": "ひったくり"
+        }
+      },
+      "PREDATOR_NAME": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREDATOR_NAME_TextData",
+          "SourceString": "狂暴化した",
+          "LocalizedString": "狂暴化した"
+        }
+      },
+      "RAID_NAME_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_DarkMechaDragon_TextData",
+          "SourceString": "宇宙からの侵略者",
+          "LocalizedString": "宇宙からの侵略者"
+        }
+      },
+      "RAID_NAME_DarkMechaDragon_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_DarkMechaDragon_2_TextData",
+          "SourceString": "宇宙からの侵略者【極】",
+          "LocalizedString": "宇宙からの侵略者【極】"
+        }
+      },
+      "BOSS_NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SecurityDrone_TextData",
+          "SourceString": "密猟団の秘密兵器",
+          "LocalizedString": "密猟団の秘密兵器"
+        }
+      },
+      "BOSS_NAME_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GoldenHorse_TextData",
+          "SourceString": "黄昏の守護獣",
+          "LocalizedString": "黄昏の守護獣"
+        }
+      },
+      "BOSS_NAME_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BadCatgirl_TextData",
+          "SourceString": "夜影の狩人",
+          "LocalizedString": "夜影の狩人"
+        }
+      },
+      "BOSS_NAME_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueberryFairy_TextData",
+          "SourceString": "藍染めの侍女",
+          "LocalizedString": "藍染めの侍女"
+        }
+      },
+      "BOSS_NAME_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkMechaDragon_TextData",
+          "SourceString": "宇宙からの侵略者",
+          "LocalizedString": "宇宙からの侵略者"
+        }
+      },
+      "BOSS_NAME_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostRabbit_TextData",
+          "SourceString": "霊魂の闇兎",
+          "LocalizedString": "霊魂の闇兎"
+        }
+      },
+      "BOSS_NAME_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightBlueHorse_TextData",
+          "SourceString": "紺青の鬣",
+          "LocalizedString": "紺青の鬣"
+        }
+      },
+      "BOSS_NAME_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteShieldDragon_TextData",
+          "SourceString": "鉄壁の守護竜",
+          "LocalizedString": "鉄壁の守護竜"
+        }
+      },
+      "BOSS_NAME_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackPuppy_TextData",
+          "SourceString": "漆黒の小勇者",
+          "LocalizedString": "漆黒の小勇者"
+        }
+      },
+      "BOSS_NAME_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteDeer_TextData",
+          "SourceString": "救いの獣",
+          "LocalizedString": "救いの獣"
+        }
+      },
+      "BOSS_NAME_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MysteryMask_TextData",
+          "SourceString": "百面の使徒",
+          "LocalizedString": "百面の使徒"
+        }
+      },
+      "BOSS_NAME_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrimGirl_TextData",
+          "SourceString": "血染めの解体屋",
+          "LocalizedString": "血染めの解体屋"
+        }
+      },
+      "BOSS_NAME_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PurpleSpider_TextData",
+          "SourceString": "糸界の策略家",
+          "LocalizedString": "糸界の策略家"
+        }
+      },
+      "BOSS_NAME_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueThunderHorse_TextData",
+          "SourceString": "蒼雷の駿馬",
+          "LocalizedString": "蒼雷の駿馬"
+        }
+      },
+      "BOSS_NAME_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnowTigerBeastman_TextData",
+          "SourceString": "氷雪の牙王",
+          "LocalizedString": "氷雪の牙王"
+        }
+      },
+      "BOSS_NAME_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kitsunebi_Ice_TextData",
+          "SourceString": "旅路を彩る氷華",
+          "LocalizedString": "旅路を彩る氷華"
+        }
+      },
+      "BOSS_NAME_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RaijinDaughter_Water_TextData",
+          "SourceString": "黒雲の末裔",
+          "LocalizedString": "黒雲の末裔"
+        }
+      },
+      "BOSS_NAME_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteTiger_Ground_TextData",
+          "SourceString": "大地の捕食者",
+          "LocalizedString": "大地の捕食者"
+        }
+      },
+      "BOSS_NAME_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FengyunDeeper_Electric_TextData",
+          "SourceString": "游雷",
+          "LocalizedString": "游雷"
+        }
+      },
+      "BOSS_NAME_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BerryGoat_Dark_TextData",
+          "SourceString": "暗き農場",
+          "LocalizedString": "暗き農場"
+        }
+      },
+      "BOSS_NAME_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Werewolf_Ice_TextData",
+          "SourceString": "氷月に揺らぐ",
+          "LocalizedString": "氷月に揺らぐ"
+        }
+      },
+      "BOSS_NAME_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Horus_Water_TextData",
+          "SourceString": "水天の覇者",
+          "LocalizedString": "水天の覇者"
+        }
+      },
+      "BOSS_NAME_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkRabbit_Grass_TextData",
+          "SourceString": "キラメキスマイル",
+          "LocalizedString": "キラメキスマイル"
+        }
+      },
+      "BOSS_NAME_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_AmaterasuWolf_Dark_TextData",
+          "SourceString": "闇炎の守り神",
+          "LocalizedString": "闇炎の守り神"
+        }
+      },
+      "BOSS_NAME_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TentacleTurtle_TextData",
+          "SourceString": "小さな要塞",
+          "LocalizedString": "小さな要塞"
+        }
+      },
+      "BOSS_NAME_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_OctopusGirl_TextData",
+          "SourceString": "海のイタズラ娘",
+          "LocalizedString": "海のイタズラ娘"
+        }
+      },
+      "BOSS_NAME_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceNarwhal_TextData",
+          "SourceString": "優しい氷槍",
+          "LocalizedString": "優しい氷槍"
+        }
+      },
+      "BOSS_NAME_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JellyfishFairy_TextData",
+          "SourceString": "日なたに浮かぶ妖精",
+          "LocalizedString": "日なたに浮かぶ妖精"
+        }
+      },
+      "BOSS_NAME_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JellyfishGhost_TextData",
+          "SourceString": "日陰に浮かぶ妖精",
+          "LocalizedString": "日陰に浮かぶ妖精"
+        }
+      },
+      "BOSS_NAME_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostAnglerfish_TextData",
+          "SourceString": "深海に灯る誘惑",
+          "LocalizedString": "深海に灯る誘惑"
+        }
+      },
+      "BOSS_NAME_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceWitch_TextData",
+          "SourceString": "氷結の微笑",
+          "LocalizedString": "氷結の微笑"
+        }
+      },
+      "BOSS_NAME_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LeafMomonga_TextData",
+          "SourceString": "叩けば直る",
+          "LocalizedString": "叩けば直る"
+        }
+      },
+      "BOSS_NAME_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceCrocodile_TextData",
+          "SourceString": "歩く冷蔵庫",
+          "LocalizedString": "歩く冷蔵庫"
+        }
+      },
+      "BOSS_NAME_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_StuffedShark_TextData",
+          "SourceString": "深淵から覗く目",
+          "LocalizedString": "深淵から覗く目"
+        }
+      },
+      "BOSS_NAME_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceSeal_TextData",
+          "SourceString": "氷上のアイドル",
+          "LocalizedString": "氷上のアイドル"
+        }
+      },
+      "BOSS_NAME_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Plesiosaur_TextData",
+          "SourceString": "花咲かす古代竜",
+          "LocalizedString": "花咲かす古代竜"
+        }
+      },
+      "BOSS_NAME_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TropicalOstrich_TextData",
+          "SourceString": "ノーダンスノーライフ",
+          "LocalizedString": "ノーダンスノーライフ"
+        }
+      },
+      "BOSS_NAME_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnowPeafowl_TextData",
+          "SourceString": "雪暦の羽衣",
+          "LocalizedString": "雪暦の羽衣"
+        }
+      },
+      "BOSS_NAME_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PoseidonOrca_TextData",
+          "SourceString": "伝説の海獣",
+          "LocalizedString": "伝説の海獣"
+        }
+      },
+      "BOSS_NAME_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeOctopus_Neutral_TextData",
+          "SourceString": "本当に何の感情も持たない",
+          "LocalizedString": "本当に何の感情も持たない"
+        }
+      },
+      "BOSS_NAME_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Penguin_Electric_TextData",
+          "SourceString": "飲み過ぎた",
+          "LocalizedString": "飲み過ぎた"
+        }
+      },
+      "BOSS_NAME_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CaptainPenguin_Black_TextData",
+          "SourceString": "漆黒の開拓者",
+          "LocalizedString": "漆黒の開拓者"
+        }
+      },
+      "BOSS_NAME_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlyingManta_Thunder_TextData",
+          "SourceString": "空にうなる魚",
+          "LocalizedString": "空にうなる魚"
+        }
+      },
+      "BOSS_NAME_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BluePlatypus_Fire_TextData",
+          "SourceString": "暴走する波乗り小僧",
+          "LocalizedString": "暴走する波乗り小僧"
+        }
+      },
+      "BOSS_NAME_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyCatfish_Gold_TextData",
+          "SourceString": "本気出さなくてもいいや",
+          "LocalizedString": "本気出さなくてもいいや"
+        }
+      },
+      "BOSS_NAME_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TentacleTurtle_Ground_TextData",
+          "SourceString": "金色の要塞",
+          "LocalizedString": "金色の要塞"
+        }
+      },
+      "BOSS_NAME_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KendoFrog_Dark_TextData",
+          "SourceString": "暗殺上等",
+          "LocalizedString": "暗殺上等"
+        }
+      },
+      "BOSS_NAME_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueDragon_Ice_TextData",
+          "SourceString": "氷湖の女王",
+          "LocalizedString": "氷湖の女王"
+        }
+      },
+      "BOSS_NAME_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceNarwhal_Fire_TextData",
+          "SourceString": "優しい紅槍",
+          "LocalizedString": "優しい紅槍"
+        }
+      },
+      "BOSS_NAME_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostAnglerfish_Fire_TextData",
+          "SourceString": "深海に燃える誘惑",
+          "LocalizedString": "深海に燃える誘惑"
+        }
+      },
+      "BOSS_NAME_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_StuffedShark_Fire_TextData",
+          "SourceString": "深炎から覗く目",
+          "LocalizedString": "深炎から覗く目"
+        }
+      },
+      "RAID_NAME_YakushimaBoss002_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_YakushimaBoss002_2_TextData",
+          "SourceString": "【マスター】",
+          "LocalizedString": "【マスター】"
+        }
+      },
+      "BOSS_NAME_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LegendDeer_TextData",
+          "SourceString": "救いの王",
+          "LocalizedString": "救いの王"
+        }
+      },
+      "RAID_NAME_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_LegendDeer_TextData",
+          "SourceString": "救いの王",
+          "LocalizedString": "救いの王"
+        }
+      },
+      "RAID_NAME_LegendDeer_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_LegendDeer_2_TextData",
+          "SourceString": "救いの王【極】",
+          "LocalizedString": "救いの王【極】"
+        }
+      },
+      "BOSS_NAME_ElecPandaBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecPandaBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_LilyQueenBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LilyQueenBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_ThunderDragonManBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDragonManBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_HorusBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HorusBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_BlackGriffonBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackGriffonBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_MoonQueenBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MoonQueenBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_SnowTigerBeastmanBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnowTigerBeastmanBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "BOSS_NAME_BlueSkyDragonBossRush": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueSkyDragonBossRush_TextData",
+          "SourceString": "魔改造",
+          "LocalizedString": "魔改造"
+        }
+      },
+      "GYM_NAME_Sorajima": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Sorajima_TextData",
+          "SourceString": "蒼天の盟約 盟主",
+          "LocalizedString": "蒼天の盟約 盟主"
+        }
+      },
+      "BOSS_NAME_KingWhale": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingWhale_TextData",
+          "SourceString": "伝説の海王",
+          "LocalizedString": "伝説の海王"
+        }
+      },
+      "GYM_NAME_LastBoss": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_LastBoss_TextData",
+          "SourceString": "終星の災厄",
+          "LocalizedString": "終星の災厄"
+        }
+      },
+      "GYM_NAME_LastBoss_Hard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_LastBoss_Hard_TextData",
+          "SourceString": "滅星の災厄",
+          "LocalizedString": "滅星の災厄"
+        }
+      },
+      "BOSS_NAME_WildlifeSanctuaryDrone": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WildlifeSanctuaryDrone_TextData",
+          "SourceString": "古代文明の遺物",
+          "LocalizedString": "古代文明の遺物"
+        }
+      },
+      "BOSS_NAME_VolcanoDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanoDragon_TextData",
+          "SourceString": "焦土を歩む者",
+          "LocalizedString": "焦土を歩む者"
+        }
+      },
+      "BOSS_NAME_VolcanoDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanoDragon_Ice_TextData",
+          "SourceString": "凍土を歩む者",
+          "LocalizedString": "凍土を歩む者"
+        }
+      },
+      "BOSS_NAME_HoodGhost": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HoodGhost_TextData",
+          "SourceString": "消失マジックマスター",
+          "LocalizedString": "消失マジックマスター"
+        }
+      },
+      "BOSS_NAME_Sekhmet": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Sekhmet_TextData",
+          "SourceString": "熾烈なる太陽の蹂躙者",
+          "LocalizedString": "熾烈なる太陽の蹂躙者"
+        }
+      },
+      "BOSS_NAME_RockBeast": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RockBeast_TextData",
+          "SourceString": "歩く大鉱脈",
+          "LocalizedString": "歩く大鉱脈"
+        }
+      },
+      "BOSS_NAME_RockBeast_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RockBeast_Ice_TextData",
+          "SourceString": "歩く大氷脈",
+          "LocalizedString": "歩く大氷脈"
+        }
+      },
+      "BOSS_NAME_MoonChild": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MoonChild_TextData",
+          "SourceString": "夜空を羽織る者",
+          "LocalizedString": "夜空を羽織る者"
+        }
+      },
+      "BOSS_NAME_ClownRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ClownRabbit_TextData",
+          "SourceString": "幻惑の道化兎",
+          "LocalizedString": "幻惑の道化兎"
+        }
+      },
+      "BOSS_NAME_CactusDoll": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CactusDoll_TextData",
+          "SourceString": "歓迎の針千本",
+          "LocalizedString": "歓迎の針千本"
+        }
+      },
+      "BOSS_NAME_CactusDoll_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CactusDoll_Dark_TextData",
+          "SourceString": "拘束の針千本",
+          "LocalizedString": "拘束の針千本"
+        }
+      },
+      "BOSS_NAME_GrassGolem": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassGolem_TextData",
+          "SourceString": "蒼脈の二心同体",
+          "LocalizedString": "蒼脈の二心同体"
+        }
+      },
+      "BOSS_NAME_GrassGolem_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassGolem_Dark_TextData",
+          "SourceString": "紫脈の二心同体",
+          "LocalizedString": "紫脈の二心同体"
+        }
+      },
+      "BOSS_NAME_CubeTurtle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CubeTurtle_TextData",
+          "SourceString": "砂海の巨岩",
+          "LocalizedString": "砂海の巨岩"
+        }
+      },
+      "BOSS_NAME_CubeTurtle_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CubeTurtle_Neutral_TextData",
+          "SourceString": "砂海の守護岩",
+          "LocalizedString": "砂海の守護岩"
+        }
+      },
+      "BOSS_NAME_SamuraiDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SamuraiDog_TextData",
+          "SourceString": "森の熱血ガキ大将",
+          "LocalizedString": "森の熱血ガキ大将"
+        }
+      },
+      "BOSS_NAME_MummyPal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MummyPal_TextData",
+          "SourceString": "冥界の黄金刃",
+          "LocalizedString": "冥界の黄金刃"
+        }
+      },
+      "BOSS_NAME_KingSunfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingSunfish_TextData",
+          "SourceString": "プカプカ帝",
+          "LocalizedString": "プカプカ帝"
+        }
+      },
+      "BOSS_NAME_KingSunfish_Thunder": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingSunfish_Thunder_TextData",
+          "SourceString": "プカプカ将軍",
+          "LocalizedString": "プカプカ将軍"
+        }
+      },
+      "BOSS_NAME_MonochromeQueen": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MonochromeQueen_TextData",
+          "SourceString": "常夜の幻舞姫",
+          "LocalizedString": "常夜の幻舞姫"
+        }
+      },
+      "BOSS_NAME_ElecSnail": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecSnail_TextData",
+          "SourceString": "蒼電の鈍足",
+          "LocalizedString": "蒼電の鈍足"
+        }
+      },
+      "BOSS_NAME_ElecSnail_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecSnail_Ground_TextData",
+          "SourceString": "琥電の鈍足",
+          "LocalizedString": "琥電の鈍足"
+        }
+      },
+      "BOSS_NAME_SumoDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SumoDog_TextData",
+          "SourceString": "横綱級わがままボディ",
+          "LocalizedString": "横綱級わがままボディ"
+        }
+      },
+      "BOSS_NAME_ElecPomeranian": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecPomeranian_TextData",
+          "SourceString": "不機嫌な静電気",
+          "LocalizedString": "不機嫌な静電気"
+        }
+      },
+      "BOSS_NAME_ElecLizard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecLizard_TextData",
+          "SourceString": "帯電するマイペース",
+          "LocalizedString": "帯電するマイペース"
+        }
+      },
+      "BOSS_NAME_RedFlowerBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RedFlowerBird_TextData",
+          "SourceString": "咲き誇るお調子者",
+          "LocalizedString": "咲き誇るお調子者"
+        }
+      },
+      "BOSS_NAME_ThiefBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThiefBird_TextData",
+          "SourceString": "漆黒の手癖",
+          "LocalizedString": "漆黒の手癖"
+        }
+      },
+      "BOSS_NAME_ThunderFluffyBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderFluffyBird_TextData",
+          "SourceString": "電撃のフサフサ",
+          "LocalizedString": "電撃のフサフサ"
+        }
+      },
+      "BOSS_NAME_FluffyBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FluffyBird_TextData",
+          "SourceString": "寒そうで寒くない",
+          "LocalizedString": "寒そうで寒くない"
+        }
+      },
+      "BOSS_NAME_FoxExorcist": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FoxExorcist_TextData",
+          "SourceString": "ご都合主義の未来予想",
+          "LocalizedString": "ご都合主義の未来予想"
+        }
+      },
+      "BOSS_NAME_ClioneTwins": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ClioneTwins_TextData",
+          "SourceString": "仲良しミラクルリンク",
+          "LocalizedString": "仲良しミラクルリンク"
+        }
+      },
+      "BOSS_NAME_DandelionGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DandelionGirl_TextData",
+          "SourceString": "風を待つ新緑の種",
+          "LocalizedString": "風を待つ新緑の種"
+        }
+      },
+      "BOSS_NAME_SleeveRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SleeveRabbit_TextData",
+          "SourceString": "潔癖の長袖",
+          "LocalizedString": "潔癖の長袖"
+        }
+      },
+      "BOSS_NAME_SmallYeti": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SmallYeti_TextData",
+          "SourceString": "雪原の小人",
+          "LocalizedString": "雪原の小人"
+        }
+      },
+      "BOSS_NAME_CloverFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CloverFairy_TextData",
+          "SourceString": "半人前のラッキーコットン",
+          "LocalizedString": "半人前のラッキーコットン"
+        }
+      },
+      "BOSS_NAME_GhostBlackCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostBlackCat_TextData",
+          "SourceString": "キューティゴーストハンド",
+          "LocalizedString": "キューティゴーストハンド"
+        }
+      },
+      "BOSS_NAME_OniGhostGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_OniGhostGirl_TextData",
+          "SourceString": "コワかわいい",
+          "LocalizedString": "コワかわいい"
+        }
+      },
+      "BOSS_NAME_LongCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LongCat_TextData",
+          "SourceString": "紅白の縞を揺らす者",
+          "LocalizedString": "紅白の縞を揺らす者"
+        }
+      },
+      "BOSS_NAME_DarkFlameFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkFlameFox_TextData",
+          "SourceString": "影を焼く妖炎",
+          "LocalizedString": "影を焼く妖炎"
+        }
+      },
+      "BOSS_NAME_LanternButler": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LanternButler_TextData",
+          "SourceString": "真実を照らす",
+          "LocalizedString": "真実を照らす"
+        }
+      },
+      "BOSS_NAME_VenusFlytrap": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VenusFlytrap_TextData",
+          "SourceString": "食わず嫌いはしない",
+          "LocalizedString": "食わず嫌いはしない"
+        }
+      },
+      "BOSS_NAME_SwordCutlassfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SwordCutlassfish_TextData",
+          "SourceString": "命がけの水刃抜刀",
+          "LocalizedString": "命がけの水刃抜刀"
+        }
+      },
+      "BOSS_NAME_SwordCutlassfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SwordCutlassfish_Fire_TextData",
+          "SourceString": "命がけの炎刃抜刀",
+          "LocalizedString": "命がけの炎刃抜刀"
+        }
+      },
+      "BOSS_NAME_SnakeGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnakeGirl_TextData",
+          "SourceString": "美容院嫌いの",
+          "LocalizedString": "美容院嫌いの"
+        }
+      },
+      "BOSS_NAME_MushroomLady": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MushroomLady_TextData",
+          "SourceString": "カワイイきのこ",
+          "LocalizedString": "カワイイきのこ"
+        }
+      },
+      "BOSS_NAME_Mothman": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Mothman_TextData",
+          "SourceString": "悠久の紫影",
+          "LocalizedString": "悠久の紫影"
+        }
+      },
+      "BOSS_NAME_GhostDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostDragon_TextData",
+          "SourceString": "自由の翼",
+          "LocalizedString": "自由の翼"
+        }
+      },
+      "BOSS_NAME_GhostDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostDragon_Fire_TextData",
+          "SourceString": "不信の翼",
+          "LocalizedString": "不信の翼"
+        }
+      },
+      "BOSS_NAME_FlowerPrince": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerPrince_TextData",
+          "SourceString": "樹影に潜む妖霧",
+          "LocalizedString": "樹影に潜む妖霧"
+        }
+      },
+      "BOSS_NAME_GrassMinotaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMinotaur_TextData",
+          "SourceString": "新緑の猛牛",
+          "LocalizedString": "新緑の猛牛"
+        }
+      },
+      "BOSS_NAME_GrassMinotaur_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMinotaur_Ice_TextData",
+          "SourceString": "氷結の猛牛",
+          "LocalizedString": "氷結の猛牛"
+        }
+      },
+      "BOSS_NAME_LotusDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LotusDragon_TextData",
+          "SourceString": "無垢なる水華の竜",
+          "LocalizedString": "無垢なる水華の竜"
+        }
+      },
+      "BOSS_NAME_PandaGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PandaGirl_TextData",
+          "SourceString": "失恋の型を極めし",
+          "LocalizedString": "失恋の型を極めし"
+        }
+      },
+      "BOSS_NAME_KabukiMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KabukiMan_TextData",
+          "SourceString": "喝采を焦がす傾奇者",
+          "LocalizedString": "喝采を焦がす傾奇者"
+        }
+      },
+      "BOSS_NAME_DomeArmorDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DomeArmorDragon_TextData",
+          "SourceString": "光跡を綴る守護竜",
+          "LocalizedString": "光跡を綴る守護竜"
+        }
+      },
+      "BOSS_NAME_WhiteDeer_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteDeer_Dark_TextData",
+          "SourceString": "混沌の獣",
+          "LocalizedString": "混沌の獣"
+        }
+      },
+      "BOSS_NAME_WingGolem_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WingGolem_Fire_TextData",
+          "SourceString": "燃える巨大鎧",
+          "LocalizedString": "燃える巨大鎧"
+        }
+      },
+      "BOSS_NAME_FlowerDoll_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDoll_Fire_TextData",
+          "SourceString": "灰園の姫君",
+          "LocalizedString": "灰園の姫君"
+        }
+      },
+      "BOSS_NAME_IceSeal_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceSeal_Ground_TextData",
+          "SourceString": "砂上のアイドル",
+          "LocalizedString": "砂上のアイドル"
+        }
+      },
+      "BOSS_NAME_WhiteMoth_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteMoth_Neutral_TextData",
+          "SourceString": "金彩の貴婦人",
+          "LocalizedString": "金彩の貴婦人"
+        }
+      },
+      "BOSS_NAME_ThunderBird_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderBird_Ice_TextData",
+          "SourceString": "霜華の翼",
+          "LocalizedString": "霜華の翼"
+        }
+      },
+      "BOSS_NAME_BlackPuppy_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackPuppy_Ice_TextData",
+          "SourceString": "氷寒の小勇者",
+          "LocalizedString": "氷寒の小勇者"
+        }
+      },
+      "BOSS_NAME_GhostRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostRabbit_Grass_TextData",
+          "SourceString": "霊魂の翠兎",
+          "LocalizedString": "霊魂の翠兎"
+        }
+      },
+      "BOSS_NAME_NightBlueHorse_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightBlueHorse_Neutral_TextData",
+          "SourceString": "白銀の鬣",
+          "LocalizedString": "白銀の鬣"
+        }
+      },
+      "BOSS_NAME_SweetsSheep_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SweetsSheep_Ground_TextData",
+          "SourceString": "特大スイーツ",
+          "LocalizedString": "特大スイーツ"
+        }
+      },
+      "BOSS_NAME_ThunderDog_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDog_Ice_TextData",
+          "SourceString": "氷迅の走者",
+          "LocalizedString": "氷迅の走者"
+        }
+      },
+      "BOSS_NAME_OctopusGirl_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_OctopusGirl_Neutral_TextData",
+          "SourceString": "常にイタズラ娘",
+          "LocalizedString": "常にイタズラ娘"
+        }
+      },
+      "BOSS_NAME_ScorpionMan_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ScorpionMan_Electric_TextData",
+          "SourceString": "サンダーボーイ",
+          "LocalizedString": "サンダーボーイ"
+        }
+      },
+      "BOSS_NAME_Kirin_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kirin_Ice_TextData",
+          "SourceString": "氷雪狂嵐",
+          "LocalizedString": "氷雪狂嵐"
+        }
+      },
+      "BOSS_NAME_Monkey_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Monkey_Fire_TextData",
+          "SourceString": "火遊び好きの",
+          "LocalizedString": "火遊び好きの"
+        }
+      },
+      "BOSS_NAME_BlueSkyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueSkyDragon_TextData",
+          "SourceString": "水神",
+          "LocalizedString": "水神"
+        }
+      }
+    }
+  }
+]

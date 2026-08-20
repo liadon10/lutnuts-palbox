@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentMonster_HerculesBeetle_Ground_vs_HerculesBeetle",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_Monster/DT_RandomIncidentMonster_HerculesBeetle_Ground_vs_HerculesBeetle",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnMonsterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MONSTER0": {
+        "CharacterID": {
+          "Key": "HerculesBeetle_Ground"
+        },
+        "Level": 54,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 0.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER0_0": {
+        "CharacterID": {
+          "Key": "HerculesBeetle"
+        },
+        "Level": 54,
+        "Group": 2,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 500.0,
+          "Y": 500.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 230.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      }
+    }
+  }
+]

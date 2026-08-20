@@ -1,0 +1,12 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\66C167B649D78C6448EC92A2D0C95070\Level.sav
+[*] PlM/PlZ Container: target=38MB, compressed=2MB, magic=b'PlM1'
+[*] Performing sliding-window decompression search...
+[!] Error during extraction: Could not decompress Palworld Level.sav. Unsupported container format.
+[!] No Pal data recovered from save.
+
+[✓] [15:57:20] Sync complete. Exiting script.

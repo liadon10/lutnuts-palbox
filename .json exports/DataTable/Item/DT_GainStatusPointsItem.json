@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GainStatusPointsItem",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Item/DT_GainStatusPointsItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalGainStatusPointsItemDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Elixir_hp_01": {
+        "MaxHP": 1,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_stamina_01": {
+        "MaxHP": 0,
+        "MaxSP": 1,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_attack_01": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 1,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_workspeed_01": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 1,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_weight_01": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 1
+      },
+      "Elixir_hp_02": {
+        "MaxHP": 2,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_stamina_02": {
+        "MaxHP": 0,
+        "MaxSP": 2,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_attack_02": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 2,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_workspeed_02": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 2,
+        "MaxInventoryWeight": 0
+      },
+      "Elixir_weight_02": {
+        "MaxHP": 0,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 2
+      },
+      "Elixir_hp_Yakushima": {
+        "MaxHP": 1,
+        "MaxSP": 0,
+        "Power": 0,
+        "WorkSpeed": 0,
+        "MaxInventoryWeight": 0
+      }
+    }
+  }
+]

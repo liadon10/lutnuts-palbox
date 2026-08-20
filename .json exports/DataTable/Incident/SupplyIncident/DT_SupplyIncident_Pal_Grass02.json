@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SupplyIncident_Pal_Grass02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/SupplyIncident/DT_SupplyIncident_Pal_Grass02",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnMonsterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MONSTER0": {
+        "CharacterID": {
+          "Key": "BOSS_DarkAlien"
+        },
+        "Level": 15,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 200.0,
+          "Y": 200.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER0_0": {
+        "CharacterID": {
+          "Key": "DarkAlien"
+        },
+        "Level": 13,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -200.0,
+          "Y": 200.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER0_1": {
+        "CharacterID": {
+          "Key": "DarkAlien"
+        },
+        "Level": 13,
+        "Group": 0,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -200.0,
+          "Y": -200.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      }
+    }
+  }
+]

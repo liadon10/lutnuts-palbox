@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentNPC_WorldTreeHunter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_NPC/DT_RandomIncidentNPC_WorldTreeHunter",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnNPCData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "CharacterID": {
+          "Key": "WorldTree_Hunter_MissileLauncher_test"
+        },
+        "UniqueNPCID": {
+          "Key": "None"
+        },
+        "OtomoName": {
+          "Key": "None"
+        },
+        "Level": 75,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 500.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 0.0,
+        "RotZ_Degree": 0.0,
+        "WalkPathName": "None",
+        "WalkRadius": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_NPCAIController_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/NPC/BP_NPCAIController.0"
+        },
+        "DefaultAIActionClass": null
+      },
+      "NewRow_0": {
+        "CharacterID": {
+          "Key": "WorldTree_Hunter_MissileLauncher_test"
+        },
+        "UniqueNPCID": {
+          "Key": "None"
+        },
+        "OtomoName": {
+          "Key": "None"
+        },
+        "Level": 75,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -250.0,
+          "Y": 433.0127
+        },
+        "SpawnRadius": 0.0,
+        "RotZ_Degree": 120.0,
+        "WalkPathName": "None",
+        "WalkRadius": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_NPCAIController_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/NPC/BP_NPCAIController.0"
+        },
+        "DefaultAIActionClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_AIAction_NPC_Combat_Gun_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/NPC/Combat/BP_AIAction_NPC_Combat_Gun.0"
+        }
+      },
+      "NewRow_1": {
+        "CharacterID": {
+          "Key": "WorldTree_Hunter_MissileLauncher_test"
+        },
+        "UniqueNPCID": {
+          "Key": "None"
+        },
+        "OtomoName": {
+          "Key": "None"
+        },
+        "Level": 75,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -250.0,
+          "Y": -433.0127
+        },
+        "SpawnRadius": 0.0,
+        "RotZ_Degree": 240.0,
+        "WalkPathName": "None",
+        "WalkRadius": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_NPCAIController_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/NPC/BP_NPCAIController.0"
+        },
+        "DefaultAIActionClass": null
+      }
+    }
+  }
+]

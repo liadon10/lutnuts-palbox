@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RandomIncidentMonster_SleeveRabbit_VS_BrownRabbit",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Incident/RandomIncident_Monster/DT_RandomIncidentMonster_SleeveRabbit_VS_BrownRabbit",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomIncidentSpawnMonsterData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MONSTER0": {
+        "CharacterID": {
+          "Key": "SleeveRabbit"
+        },
+        "Level": 68,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 300.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow": {
+        "CharacterID": {
+          "Key": "SleeveRabbit"
+        },
+        "Level": 67,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 400.0,
+          "Y": 100.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow_0": {
+        "CharacterID": {
+          "Key": "SleeveRabbit"
+        },
+        "Level": 66,
+        "Group": 1,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": 400.0,
+          "Y": -100.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "MONSTER0_0": {
+        "CharacterID": {
+          "Key": "BrownRabbit"
+        },
+        "Level": 68,
+        "Group": 2,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -300.0,
+          "Y": 0.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow_1": {
+        "CharacterID": {
+          "Key": "BrownRabbit"
+        },
+        "Level": 67,
+        "Group": 2,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -400.0,
+          "Y": 100.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      },
+      "NewRow_2": {
+        "CharacterID": {
+          "Key": "BrownRabbit"
+        },
+        "Level": 66,
+        "Group": 2,
+        "IsSquad": true,
+        "SpawnLocation": {
+          "X": -400.0,
+          "Y": -100.0
+        },
+        "SpawnRadius": 300.0,
+        "RotZ_Degree": 0.0,
+        "ControllerClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_Wild_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_Wild.0"
+        },
+        "DefaultActionClass": null
+      }
+    }
+  }
+]
