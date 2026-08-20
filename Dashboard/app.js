@@ -43,7 +43,8 @@ async function fetchPalsData() {
         allPals = parsed;
         console.log(`[Palbox] Loaded ${allPals.length} Pals from localStorage.`);
         ensureAllPalsHaveGuids();
-        document.getElementById('totalCount').textContent = allPals.length;
+        const totalCountEl = document.getElementById('totalCount');
+        if (totalCountEl) totalCountEl.textContent = allPals.length;
         renderMainView();
         return;
       }
@@ -58,7 +59,8 @@ async function fetchPalsData() {
     if (Array.isArray(data) && data.length > 0) {
       allPals = data;
       ensureAllPalsHaveGuids();
-      document.getElementById('totalCount').textContent = allPals.length;
+      const totalCountEl = document.getElementById('totalCount');
+      if (totalCountEl) totalCountEl.textContent = allPals.length;
       renderMainView();
       return true;
     }
@@ -101,13 +103,16 @@ async function fetchPalsData() {
     console.warn('Fetch pals.json failed:', err);
   }
 
-  document.getElementById('palGrid').innerHTML = `
-    <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
-      <h3>⚠️ Could not load Pal data</h3>
-      <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
-      <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
-    </div>
-  `;
+  const gridEl = document.getElementById('palGrid');
+  if (gridEl) {
+    gridEl.innerHTML = `
+      <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
+        <h3>⚠️ Could not load Pal data</h3>
+        <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
+        <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent-blue); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
+      </div>
+    `;
+  }
 }
 
 function getSynergyTeamsData() {
@@ -149,28 +154,30 @@ function setupCustomElemDropdown() {
 
   if (!trigger || !optionsContainer || !hiddenInput) return;
 
-  trigger.addEventListener('click', (e) => {
+  trigger.onclick = (e) => {
     e.stopPropagation();
     optionsContainer.classList.toggle('open');
-  });
+  };
 
-  document.addEventListener('click', () => {
-    optionsContainer.classList.remove('open');
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#customElemDropdown')) {
+      optionsContainer.classList.remove('open');
+    }
   });
 
   const options = optionsContainer.querySelectorAll('.custom-option');
   options.forEach(opt => {
-    opt.addEventListener('click', (e) => {
+    opt.onclick = (e) => {
       e.stopPropagation();
       options.forEach(o => o.classList.remove('active'));
       opt.classList.add('active');
 
-      const val = opt.getAttribute('data-value');
+      const val = opt.getAttribute('data-value') || '';
       hiddenInput.value = val;
       selectedSpan.innerHTML = opt.innerHTML;
       optionsContainer.classList.remove('open');
       renderMainView();
-    });
+    };
   });
 }
 
@@ -179,6 +186,9 @@ function handlePalCardClick(e, guid) {
   if (e.target.closest('.card-edit-btn') || 
       e.target.closest('.portrait-link') || 
       e.target.closest('.table-portrait-link') || 
+      e.target.closest('.inline-location-select') ||
+      e.target.closest('.inline-location-select-table') ||
+      e.target.closest('select') ||
       e.target.closest('a')) {
     return;
   }
@@ -193,6 +203,9 @@ function setupGridCardClickDelegation() {
     if (e.target.closest('.card-edit-btn') || 
         e.target.closest('.portrait-link') || 
         e.target.closest('.table-portrait-link') || 
+        e.target.closest('.inline-location-select') ||
+        e.target.closest('.inline-location-select-table') ||
+        e.target.closest('select') ||
         e.target.closest('a')) {
       return;
     }
@@ -225,203 +238,6 @@ function setupEventListeners() {
 
   const syncSaveBtn = document.getElementById('syncSaveBtn');
   if (syncSaveBtn) syncSaveBtn.addEventListener('click', syncFromSaveFile);
-
-  const gridBtn = document.getElementById('gridModeBtn');
-  const listBtn = document.getElementById('listModeBtn');
-  if (gridBtn) gridBtn.addEventListener('click', () => { currentViewMode = 'grid'; renderMainView(); });
-  if (listBtn) listBtn.addEventListener('click', () => { currentViewMode = 'list'; renderMainView(); });
-}
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  fetchPalsData();
-  setupEventListeners();
-  setupCustomElemDropdown();
-  setupGridCardClickDelegation();
-});
-
-function ensureAllPalsHaveGuids() {
-  if (!Array.isArray(allPals)) return;
-  allPals.forEach((p, idx) => {
-    if (!p.instance_guid) {
-      p.instance_guid = `pal-gen-${idx}-${(p.name || '').toLowerCase().replace(/ /g, '-').replace(/['.]/g, '')}`;
-    }
-  });
-}
-
-async function fetchPalsData() {
-  // Helper function to apply PALS_DATA array
-  const applyPalsData = (data) => {
-    if (Array.isArray(data) && data.length > 0) {
-      allPals = data;
-      ensureAllPalsHaveGuids();
-      document.getElementById('totalCount').textContent = allPals.length;
-      renderMainView();
-      return true;
-    }
-    return false;
-  };
-
-  // 1. FIRST: fetch pals.json directly (bypasses script caching/race condition)
-  try {
-    const response = await fetch('pals.json?v=' + Date.now());
-    if (response.ok) {
-      const jsonPals = await response.json();
-      if (applyPalsData(jsonPals)) return;
-    }
-  } catch (err) {
-    console.warn('Fetch pals.json failed, trying window.PALS_DATA:', err);
-  }
-
-  // 2. Poll for window.PALS_DATA (up to 10 seconds)
-  for (let i = 0; i < 100; i++) {
-    await new Promise(r => setTimeout(r, 100));
-    if (applyPalsData(window.PALS_DATA)) return;
-  }
-
-  // 3. Fallback: Dynamically load pals.js
-  try {
-    await loadScript('pals.js');
-    if (applyPalsData(window.PALS_DATA)) return;
-  } catch (err) {
-    console.warn('loadScript("pals.js") failed:', err);
-  }
-
-  // 4. Fallback: fetch pals.json for web server
-  try {
-    const response = await fetch('pals.json');
-    if (response.ok) {
-      const jsonPals = await response.json();
-      if (applyPalsData(jsonPals)) return;
-    }
-  } catch (err) {
-    console.warn('Fetch pals.json failed:', err);
-  }
-
-  document.getElementById('palGrid').innerHTML = `
-    <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
-      <h3>⚠️ Could not load Pal data</h3>
-      <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
-      <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
-    </div>
-  `;
-}
-
-function getSynergyTeamsData() {
-  const savedTeams = localStorage.getItem('synergy_custom_teams');
-  if (savedTeams) {
-    try {
-      const parsed = JSON.parse(savedTeams);
-      if (Array.isArray(parsed) && parsed.length > 0) return parsed;
-    } catch (e) {
-      console.error('Error parsing custom teams:', e);
-    }
-  }
-  return window.SYNERGY_TEAMS || [];
-}
-
-function savePalsState() {
-  localStorage.setItem('palbox_custom_pals', JSON.stringify(allPals));
-}
-
-function saveTeamsState(teams) {
-  localStorage.setItem('synergy_custom_teams', JSON.stringify(teams));
-}
-
-function loadScript(src) {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = src;
-    script.onload = resolve;
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-}
-
-function setupCustomElemDropdown() {
-  const trigger = document.getElementById('elemDropdownTrigger');
-  const optionsContainer = document.getElementById('elemDropdownOptions');
-  const hiddenInput = document.getElementById('elemFilter');
-  const selectedSpan = document.getElementById('elemDropdownSelected');
-
-  if (!trigger || !optionsContainer || !hiddenInput) return;
-
-  trigger.addEventListener('click', (e) => {
-    e.stopPropagation();
-    optionsContainer.classList.toggle('open');
-  });
-
-  document.addEventListener('click', () => {
-    optionsContainer.classList.remove('open');
-  });
-
-  const options = optionsContainer.querySelectorAll('.custom-option');
-  options.forEach(opt => {
-    opt.addEventListener('click', (e) => {
-      e.stopPropagation();
-      options.forEach(o => o.classList.remove('active'));
-      opt.classList.add('active');
-
-      const val = opt.getAttribute('data-value');
-      hiddenInput.value = val;
-      selectedSpan.innerHTML = opt.innerHTML;
-      optionsContainer.classList.remove('open');
-      renderMainView();
-    });
-  });
-}
-
-function handlePalCardClick(e, guid) {
-  if (!guid) return;
-  if (e.target.closest('.card-edit-btn') || 
-      e.target.closest('.portrait-link') || 
-      e.target.closest('.table-portrait-link') || 
-      e.target.closest('a')) {
-    return;
-  }
-  openPalDetailModal(guid);
-}
-
-function setupGridCardClickDelegation() {
-  const grid = document.getElementById('palGrid');
-  if (!grid) return;
-
-  grid.addEventListener('click', (e) => {
-    if (e.target.closest('.card-edit-btn') || 
-        e.target.closest('.portrait-link') || 
-        e.target.closest('.table-portrait-link') || 
-        e.target.closest('a')) {
-      return;
-    }
-
-    const card = e.target.closest('.pal-card, .pal-list-table tbody tr');
-    if (card) {
-      const guid = card.getAttribute('data-guid') || card.dataset.guid;
-      if (guid) {
-        openPalDetailModal(guid);
-      }
-    }
-  });
-}
-
-function setupEventListeners() {
-  const inputs = ['searchInput', 'locationFilter', 'rankFilter', 'sortSelect'];
-  inputs.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.addEventListener('input', renderMainView);
-  });
-
-  const addBtn = document.getElementById('addPalBtn');
-  if (addBtn) addBtn.addEventListener('click', openAddModal);
-
-  const addTeamBtn = document.getElementById('addTeamBtn');
-  if (addTeamBtn) addTeamBtn.addEventListener('click', openAddTeamModal);
-
-  const syncBtn = document.getElementById('syncMyPalsBtn');
-  if (syncBtn) syncBtn.addEventListener('click', syncToMyPalsTable);
-
-  const resetBtn = document.getElementById('resetDataBtn');
-  if (resetBtn) resetBtn.addEventListener('click', resetPalsData);
 
   const gridBtn = document.getElementById('gridModeBtn');
   const listBtn = document.getElementById('listModeBtn');
@@ -511,6 +327,7 @@ function setupEventListeners() {
     });
   }
 }
+
 
 async function syncFromSaveFile() {
   const btn = document.getElementById('syncSaveBtn');
@@ -656,7 +473,7 @@ function openPalDetailModal(identifier) {
           <div class="detail-hero-title-row">
             <span class="detail-pal-name">${palName}</span>
             ${typeHTML}
-            ${pal.is_boss ? `<span class="detail-meta-pill" style="color:#ef4444; border-color:rgba(239,68,68,0.4);">🔴 Alpha Pal (Boss)</span>` : ''}
+            ${pal.is_boss ? `<span class="detail-meta-pill" style="color:#ef4444; border-color:rgba(239,68,68,0.4); display:inline-flex; align-items:center; gap:6px;"><img class="alpha-badge-icon" style="width:18px; height:18px;" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha"> Alpha Pal (Boss)</span>` : ''}
           </div>
           <div class="detail-meta-tags">
             <span class="detail-meta-pill">Paldeck ${paldeckNum}</span>
@@ -1254,7 +1071,7 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
   const starDisplay = pal.stars || '-';
 
   const alphaIconHTML = pal.is_boss 
-    ? `<img class="alpha-badge-icon" src="https://static.wikia.nocookie.net/palworld/images/a/a3/Alpha_Pals_icon.png/revision/latest/scale-to-width-down/24?cb=20250111071440" alt="Alpha Pal" title="Alpha Pal (Boss)" onerror="this.outerHTML='🔴';">`
+    ? `<img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal" title="Alpha Pal (Boss)">`
     : '';
 
   const palLevel = pal.level ? `Lv. ${pal.level}` : 'Lv. ?';
@@ -1460,7 +1277,10 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
       <td>
         <div style="display:flex; align-items:center; gap:10px;">
           ${tablePortraitWrapped}
-          <strong style="color:var(--text-main);">${palName}</strong>
+          <div style="display:flex; align-items:center; gap:6px;">
+            <strong style="color:var(--text-main);">${palName}</strong>
+            ${pal.is_boss ? `<img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal" title="Alpha Pal (Boss)">` : ''}
+          </div>
         </div>
       </td>
       <td>${typeHTML}</td>

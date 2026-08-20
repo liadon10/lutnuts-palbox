@@ -1105,7 +1105,7 @@ select {
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(12px);
-  z-index: 100;
+  z-index: 1000;
   max-height: 280px;
   overflow-y: auto;
   display: none;
@@ -1132,6 +1132,15 @@ select {
   color: var(--accent-blue);
   font-weight: 700;
 }
+
+.custom-icon-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
 
 /* Card & Row Pointer Cursor */
 .pal-card,
