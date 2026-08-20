@@ -179,8 +179,17 @@ select:focus {
 }
 
 select {
+  background-color: #140e1e;
+  border: 1px solid rgba(106, 154, 184, 0.4);
   cursor: pointer;
 }
+
+select option {
+  background-color: #140e1e;
+  color: #f1f5f9;
+  padding: 8px 12px;
+}
+
 
 /* Pal Grid Layout */
 .pal-grid {
@@ -1103,11 +1112,18 @@ select {
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
 }
 
-#elemDropdownSelected {
+.custom-select-trigger span:first-child,
+#elemDropdownSelected,
+#locationDropdownSelected,
+#rankDropdownSelected,
+#sortDropdownSelected {
   display: flex;
   align-items: center;
   gap: 8px;
   pointer-events: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .custom-select-arrow {
@@ -1115,6 +1131,8 @@ select {
   color: var(--text-muted);
   transition: transform 0.2s ease;
   pointer-events: none;
+  flex-shrink: 0;
+  margin-left: 8px;
 }
 
 .custom-select-options {
@@ -1133,6 +1151,20 @@ select {
   display: none;
 }
 
+.custom-select-options::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-select-options::-webkit-scrollbar-track {
+  background: rgba(20, 14, 30, 0.8);
+}
+.custom-select-options::-webkit-scrollbar-thumb {
+  background: rgba(106, 154, 184, 0.5);
+  border-radius: 4px;
+}
+.custom-select-options::-webkit-scrollbar-thumb:hover {
+  background: rgba(106, 154, 184, 0.8);
+}
+
 .custom-select-options.open {
   display: block !important;
 }
@@ -1146,6 +1178,9 @@ select {
   color: var(--text-main);
   cursor: pointer;
   transition: background 0.15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .custom-option:hover,
@@ -1155,7 +1190,6 @@ select {
   font-weight: 700;
 }
 
-
 .custom-icon-img {
   width: 20px;
   height: 20px;
@@ -1163,6 +1197,7 @@ select {
   vertical-align: middle;
   flex-shrink: 0;
 }
+
 
 
 /* Card & Row Pointer Cursor */

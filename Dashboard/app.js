@@ -20,7 +20,7 @@ const WORK_TYPES = [
 document.addEventListener('DOMContentLoaded', () => {
   fetchPalsData();
   setupEventListeners();
-  setupCustomElemDropdown();
+  setupCustomDropdowns();
   setupGridCardClickDelegation();
 });
 
@@ -146,21 +146,29 @@ function loadScript(src) {
   });
 }
 
-function toggleElemDropdown(e) {
+function toggleCustomDropdown(e, optionsContainerId) {
   if (e) e.stopPropagation();
-  const optionsContainer = document.getElementById('elemDropdownOptions');
-  if (optionsContainer) {
-    optionsContainer.classList.toggle('open');
+  const targetContainer = document.getElementById(optionsContainerId);
+  const allContainers = document.querySelectorAll('.custom-select-options');
+  
+  allContainers.forEach(container => {
+    if (container !== targetContainer) {
+      container.classList.remove('open');
+    }
+  });
+
+  if (targetContainer) {
+    targetContainer.classList.toggle('open');
   }
 }
 
-function selectElemFilter(e, elemValue, optionEl) {
+function selectCustomDropdownOption(e, optionsContainerId, hiddenInputId, selectedDisplayId, value, optionEl) {
   if (e) e.stopPropagation();
-  const hiddenInput = document.getElementById('elemFilter');
-  const selectedSpan = document.getElementById('elemDropdownSelected');
-  const optionsContainer = document.getElementById('elemDropdownOptions');
+  const hiddenInput = document.getElementById(hiddenInputId);
+  const selectedSpan = document.getElementById(selectedDisplayId);
+  const optionsContainer = document.getElementById(optionsContainerId);
 
-  if (hiddenInput) hiddenInput.value = elemValue;
+  if (hiddenInput) hiddenInput.value = value;
   if (selectedSpan && optionEl) selectedSpan.innerHTML = optionEl.innerHTML;
 
   if (optionsContainer) {
@@ -173,18 +181,37 @@ function selectElemFilter(e, elemValue, optionEl) {
   renderMainView();
 }
 
+function toggleElemDropdown(e) {
+  toggleCustomDropdown(e, 'elemDropdownOptions');
+}
+
+function selectElemFilter(e, elemValue, optionEl) {
+  selectCustomDropdownOption(e, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', elemValue, optionEl);
+}
+
+window.toggleCustomDropdown = toggleCustomDropdown;
+window.selectCustomDropdownOption = selectCustomDropdownOption;
 window.toggleElemDropdown = toggleElemDropdown;
 window.selectElemFilter = selectElemFilter;
 
-function setupCustomElemDropdown() {
+function setupCustomDropdowns() {
   document.addEventListener('click', (e) => {
-    const customElemDropdown = document.getElementById('customElemDropdown');
-    const optionsContainer = document.getElementById('elemDropdownOptions');
-    if (optionsContainer && customElemDropdown && !customElemDropdown.contains(e.target)) {
-      optionsContainer.classList.remove('open');
+    if (!e.target.closest('.custom-select-wrapper')) {
+      document.querySelectorAll('.custom-select-options.open').forEach(menu => {
+        menu.classList.remove('open');
+      });
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.custom-select-options.open').forEach(menu => {
+        menu.classList.remove('open');
+      });
     }
   });
 }
+
 
 
 function handlePalCardClick(e, guid) {

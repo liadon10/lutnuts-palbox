@@ -36,67 +36,88 @@
         <!-- Element Filter with Custom PNG Icons -->
         <div class="filter-item">
           <div class="custom-select-wrapper" id="customElemDropdown">
-            <button type="button" class="custom-select-trigger" id="elemDropdownTrigger" onclick="toggleElemDropdown(event)">
+            <button type="button" class="custom-select-trigger" id="elemDropdownTrigger" onclick="toggleCustomDropdown(event, 'elemDropdownOptions')">
               <span id="elemDropdownSelected">All Elements</span>
               <span class="custom-select-arrow">▼</span>
             </button>
             <div class="custom-select-options" id="elemDropdownOptions">
-              <div class="custom-option active" data-value="" onclick="selectElemFilter(event, '', this)">All Elements</div>
-              <div class="custom-option" data-value="Neutral" onclick="selectElemFilter(event, 'Neutral', this)"><img class="custom-icon-img"
+              <div class="custom-option active" data-value="" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', '', this)">All Elements</div>
+              <div class="custom-option" data-value="Neutral" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Neutral', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Neutral.png" alt="Neutral"> Neutral</div>
-              <div class="custom-option" data-value="Fire" onclick="selectElemFilter(event, 'Fire', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Fire" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Fire', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Fire.png" alt="Fire"> Fire</div>
-              <div class="custom-option" data-value="Water" onclick="selectElemFilter(event, 'Water', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Water" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Water', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Water.png" alt="Water"> Water</div>
-              <div class="custom-option" data-value="Grass" onclick="selectElemFilter(event, 'Grass', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Grass" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Grass', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Grass.png" alt="Grass"> Grass</div>
-              <div class="custom-option" data-value="Electric" onclick="selectElemFilter(event, 'Electric', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Electric" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Electric', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Electric.png" alt="Electric"> Electric</div>
-              <div class="custom-option" data-value="Ice" onclick="selectElemFilter(event, 'Ice', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Ice" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Ice', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ice.png" alt="Ice"> Ice</div>
-              <div class="custom-option" data-value="Ground" onclick="selectElemFilter(event, 'Ground', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Ground" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Ground', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ground.png" alt="Ground"> Ground</div>
-              <div class="custom-option" data-value="Dragon" onclick="selectElemFilter(event, 'Dragon', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Dragon" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Dragon', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dragon.png" alt="Dragon"> Dragon</div>
-              <div class="custom-option" data-value="Dark" onclick="selectElemFilter(event, 'Dark', this)"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Dark" onclick="selectCustomDropdownOption(event, 'elemDropdownOptions', 'elemFilter', 'elemDropdownSelected', 'Dark', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dark.png" alt="Dark"> Dark</div>
             </div>
             <input type="hidden" id="elemFilter" value="">
           </div>
         </div>
 
-        <!-- Location Filter -->
+        <!-- Location Filter with Custom Dropdown -->
         <div class="filter-item">
-          <select id="locationFilter">
-            <option value="">All Locations</option>
-            <option value="Active Party">⚔️ Active Party</option>
-            <option value="Base">🏠 Base Camp</option>
-            <option value="Palbox Storage">📦 Palbox Storage</option>
-            <option value="Global Palbox">🌐 Global Palbox</option>
-          </select>
+          <div class="custom-select-wrapper" id="customLocationDropdown">
+            <button type="button" class="custom-select-trigger" id="locationDropdownTrigger" onclick="toggleCustomDropdown(event, 'locationDropdownOptions')">
+              <span id="locationDropdownSelected">All Locations</span>
+              <span class="custom-select-arrow">▼</span>
+            </button>
+            <div class="custom-select-options" id="locationDropdownOptions">
+              <div class="custom-option active" data-value="" onclick="selectCustomDropdownOption(event, 'locationDropdownOptions', 'locationFilter', 'locationDropdownSelected', '', this)">All Locations</div>
+              <div class="custom-option" data-value="Active Party" onclick="selectCustomDropdownOption(event, 'locationDropdownOptions', 'locationFilter', 'locationDropdownSelected', 'Active Party', this)">⚔️ Active Party</div>
+              <div class="custom-option" data-value="Base" onclick="selectCustomDropdownOption(event, 'locationDropdownOptions', 'locationFilter', 'locationDropdownSelected', 'Base', this)">🏠 Base Camp</div>
+              <div class="custom-option" data-value="Palbox Storage" onclick="selectCustomDropdownOption(event, 'locationDropdownOptions', 'locationFilter', 'locationDropdownSelected', 'Palbox Storage', this)">📦 Palbox Storage</div>
+              <div class="custom-option" data-value="Global Palbox" onclick="selectCustomDropdownOption(event, 'locationDropdownOptions', 'locationFilter', 'locationDropdownSelected', 'Global Palbox', this)">🌐 Global Palbox</div>
+            </div>
+            <input type="hidden" id="locationFilter" value="">
+          </div>
         </div>
 
-        <!-- Rank Filter -->
+        <!-- Rank Filter with Custom Dropdown -->
         <div class="filter-item">
-          <select id="rankFilter">
-            <option value="">All Ranks</option>
-            <option value="-">0★ (Uncondensed)</option>
-            <option value="★">★ (1 Star)</option>
-            <option value="★★">★★ (2 Stars)</option>
-            <option value="★★★">★★★ (3 Stars)</option>
-            <option value="★★★★">★★★★ (4 Stars Max)</option>
-          </select>
+          <div class="custom-select-wrapper" id="customRankDropdown">
+            <button type="button" class="custom-select-trigger" id="rankDropdownTrigger" onclick="toggleCustomDropdown(event, 'rankDropdownOptions')">
+              <span id="rankDropdownSelected">All Ranks</span>
+              <span class="custom-select-arrow">▼</span>
+            </button>
+            <div class="custom-select-options" id="rankDropdownOptions">
+              <div class="custom-option active" data-value="" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '', this)">All Ranks</div>
+              <div class="custom-option" data-value="-" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '-', this)">0★ (Uncondensed)</div>
+              <div class="custom-option" data-value="★" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '★', this)">★ (1 Star)</div>
+              <div class="custom-option" data-value="★★" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '★★', this)">★★ (2 Stars)</div>
+              <div class="custom-option" data-value="★★★" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '★★★', this)">★★★ (3 Stars)</div>
+              <div class="custom-option" data-value="★★★★" onclick="selectCustomDropdownOption(event, 'rankDropdownOptions', 'rankFilter', 'rankDropdownSelected', '★★★★', this)">★★★★ (4 Stars Max)</div>
+            </div>
+            <input type="hidden" id="rankFilter" value="">
+          </div>
         </div>
 
-        <!-- Sort Option -->
+        <!-- Sort Option with Custom Dropdown -->
         <div class="filter-item">
-          <select id="sortSelect">
-            <option value="paldeck">Sort by Paldeck #</option>
-            <option value="level_desc">Sort by Level (High → Low)</option>
-            <option value="stars_desc">Sort by Rank (High → Low)</option>
-            <option value="name_asc">Sort by Name (A → Z)</option>
-            <option value="location_asc">Sort by Location (A → Z)</option>
-          </select>
+          <div class="custom-select-wrapper" id="customSortDropdown">
+            <button type="button" class="custom-select-trigger" id="sortDropdownTrigger" onclick="toggleCustomDropdown(event, 'sortDropdownOptions')">
+              <span id="sortDropdownSelected">🔢 Sort by Paldeck #</span>
+              <span class="custom-select-arrow">▼</span>
+            </button>
+            <div class="custom-select-options" id="sortDropdownOptions">
+              <div class="custom-option active" data-value="paldeck" onclick="selectCustomDropdownOption(event, 'sortDropdownOptions', 'sortSelect', 'sortDropdownSelected', 'paldeck', this)">🔢 Sort by Paldeck #</div>
+              <div class="custom-option" data-value="level_desc" onclick="selectCustomDropdownOption(event, 'sortDropdownOptions', 'sortSelect', 'sortDropdownSelected', 'level_desc', this)">📈 Sort by Level (High → Low)</div>
+              <div class="custom-option" data-value="stars_desc" onclick="selectCustomDropdownOption(event, 'sortDropdownOptions', 'sortSelect', 'sortDropdownSelected', 'stars_desc', this)">⭐ Sort by Rank (High → Low)</div>
+              <div class="custom-option" data-value="name_asc" onclick="selectCustomDropdownOption(event, 'sortDropdownOptions', 'sortSelect', 'sortDropdownSelected', 'name_asc', this)">🔤 Sort by Name (A → Z)</div>
+              <div class="custom-option" data-value="location_asc" onclick="selectCustomDropdownOption(event, 'sortDropdownOptions', 'sortSelect', 'sortDropdownSelected', 'location_asc', this)">📍 Sort by Location (A → Z)</div>
+            </div>
+            <input type="hidden" id="sortSelect" value="paldeck">
+          </div>
         </div>
 
         <!-- Combat Synergy Page Toggle & Layout Mode Toggle (Far Right) -->
