@@ -253,6 +253,44 @@ function setupGridCardClickDelegation() {
   });
 }
 
+function setMainViewMode(mode) {
+  currentViewMode = mode;
+  const gridBtn = document.getElementById('gridModeBtn');
+  const listBtn = document.getElementById('listModeBtn');
+
+  if (gridBtn && listBtn) {
+    if (mode === 'grid') {
+      gridBtn.classList.add('active');
+      listBtn.classList.remove('active');
+    } else {
+      listBtn.classList.add('active');
+      gridBtn.classList.remove('active');
+    }
+  }
+  renderMainView();
+}
+
+function toggleSynergyView() {
+  const synergyBtn = document.getElementById('synergyViewBtn');
+  if (currentMainView === 'all_pals') {
+    currentMainView = 'synergy_teams';
+    if (synergyBtn) {
+      synergyBtn.classList.add('active');
+      synergyBtn.innerHTML = '🐾 All Pals View';
+    }
+  } else {
+    currentMainView = 'all_pals';
+    if (synergyBtn) {
+      synergyBtn.classList.remove('active');
+      synergyBtn.innerHTML = '⚔️ Combat Teams';
+    }
+  }
+  renderMainView();
+}
+
+window.setMainViewMode = setMainViewMode;
+window.toggleSynergyView = toggleSynergyView;
+
 function setupEventListeners() {
   const inputs = ['searchInput', 'locationFilter', 'rankFilter', 'sortSelect'];
   inputs.forEach(id => {
@@ -273,41 +311,15 @@ function setupEventListeners() {
   if (syncSaveBtn) syncSaveBtn.addEventListener('click', syncFromSaveFile);
 
   const gridBtn = document.getElementById('gridModeBtn');
+  if (gridBtn) gridBtn.addEventListener('click', () => setMainViewMode('grid'));
+
   const listBtn = document.getElementById('listModeBtn');
-
-  if (gridBtn) {
-    gridBtn.addEventListener('click', () => {
-      currentViewMode = 'grid';
-      gridBtn.classList.add('active');
-      if (listBtn) listBtn.classList.remove('active');
-      renderMainView();
-    });
-  }
-
-  if (listBtn) {
-    listBtn.addEventListener('click', () => {
-      currentViewMode = 'list';
-      listBtn.classList.add('active');
-      if (gridBtn) gridBtn.classList.remove('active');
-      renderMainView();
-    });
-  }
+  if (listBtn) listBtn.addEventListener('click', () => setMainViewMode('list'));
 
   const synergyBtn = document.getElementById('synergyViewBtn');
-  if (synergyBtn) {
-    synergyBtn.addEventListener('click', () => {
-      if (currentMainView === 'all_pals') {
-        currentMainView = 'synergy_teams';
-        synergyBtn.classList.add('active');
-        synergyBtn.innerHTML = '🐾 All Pals View';
-      } else {
-        currentMainView = 'all_pals';
-        synergyBtn.classList.remove('active');
-        synergyBtn.innerHTML = '⚔️ Combat Teams';
-      }
-      renderMainView();
-    });
-  }
+  if (synergyBtn) synergyBtn.addEventListener('click', toggleSynergyView);
+
+
 
   const closeBtn = document.getElementById('modalCloseBtn');
   if (closeBtn) closeBtn.addEventListener('click', closeModal);

@@ -122,10 +122,10 @@
 
         <!-- Combat Synergy Page Toggle & Layout Mode Toggle (Far Right) -->
         <div class="view-controls-group">
-          <button id="synergyViewBtn" class="btn-action btn-synergy">⚔️ Combat Teams</button>
+          <button type="button" id="synergyViewBtn" class="btn-action btn-synergy" onclick="toggleSynergyView()">⚔️ Combat Teams</button>
           <div class="view-mode-toggle">
-            <button id="gridModeBtn" class="btn-view active" title="Card Grid View">🔲 Grid</button>
-            <button id="listModeBtn" class="btn-view" title="Table List View">≡ List</button>
+            <button type="button" id="gridModeBtn" class="btn-view active" title="Card Grid View" onclick="setMainViewMode('grid')">🔲 Grid</button>
+            <button type="button" id="listModeBtn" class="btn-view" title="Table List View" onclick="setMainViewMode('list')">≡ List</button>
           </div>
         </div>
       </div>
