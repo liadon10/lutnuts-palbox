@@ -506,7 +506,7 @@ function openPalDetailModal(identifier) {
           <div class="detail-hero-title-row">
             <span class="detail-pal-name">${palName}</span>
             ${typeHTML}
-            ${pal.is_boss ? `<span class="detail-meta-pill" style="color:#ef4444; border-color:rgba(239,68,68,0.4); display:inline-flex; align-items:center; gap:6px;"><img class="alpha-badge-icon" style="width:18px; height:18px;" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha"> Alpha Pal (Boss)</span>` : ''}
+            ${pal.is_boss ? `<span class="detail-meta-pill has-tooltip" style="color:#ef4444; border-color:rgba(239,68,68,0.4); display:inline-flex; align-items:center; gap:6px;"><img class="alpha-badge-icon" style="width:18px; height:18px;" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha"> Alpha Pal (Boss)${getAlphaPalTooltipHTML(pal)}</span>` : ''}
           </div>
           <div class="detail-meta-tags">
             <span class="detail-meta-pill">Paldeck ${paldeckNum}</span>
@@ -836,6 +836,23 @@ function getPassiveTooltipHTML(passiveName) {
   `;
 }
 
+function getAlphaPalTooltipHTML(pal) {
+  const palName = pal ? (pal.name || 'Pal') : 'Pal';
+  let ivStatsRow = '';
+  if (pal && (pal.hp_iv !== undefined || pal.melee_iv !== undefined || pal.def_iv !== undefined)) {
+    ivStatsRow = `<div style="margin-top:4px; padding-top:4px; border-top:1px solid rgba(255,255,255,0.1); color:#fbbf24; font-size:0.72rem;">Talent IVs: HP ${pal.hp_iv || 0}% | ATK ${pal.melee_iv || 0}% | DEF ${pal.def_iv || 0}%</div>`;
+  }
+  return `
+    <div class="tooltip-popup">
+      <span class="tooltip-title" style="color:#f87171;">🔴 Alpha Pal (Field Boss)</span>
+      <span class="tooltip-effect">
+        <strong>${palName}</strong> features <strong>+20%–100% Max HP Multiplier</strong>, massive model size scaling, enhanced durability, and bonus Ancient Civilization drops.${ivStatsRow}
+      </span>
+    </div>
+  `;
+}
+
+
 function formatPartnerSkillRankBreakdown(desc, activeRankIndex) {
   if (!desc) return { html: '', activeValue: '' };
   const matches = [...desc.matchAll(/(\d+(?:\.\d+)?)\s*[~-]\s*(\d+(?:\.\d+)?)(%|\s*multiplier|\s*x)?/g)];
@@ -1104,7 +1121,7 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
   const starDisplay = pal.stars || '-';
 
   const alphaIconHTML = pal.is_boss 
-    ? `<img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal" title="Alpha Pal (Boss)">`
+    ? `<span class="has-tooltip" style="display:inline-flex; align-items:center;"><img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal">${getAlphaPalTooltipHTML(pal)}</span>`
     : '';
 
   const palLevel = pal.level ? `Lv. ${pal.level}` : 'Lv. ?';
@@ -1312,7 +1329,7 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
           ${tablePortraitWrapped}
           <div style="display:flex; align-items:center; gap:6px;">
             <strong style="color:var(--text-main);">${palName}</strong>
-            ${pal.is_boss ? `<img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal" title="Alpha Pal (Boss)">` : ''}
+            ${pal.is_boss ? `<span class="has-tooltip" style="display:inline-flex; align-items:center;"><img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal">${getAlphaPalTooltipHTML(pal)}</span>` : ''}
           </div>
         </div>
       </td>
