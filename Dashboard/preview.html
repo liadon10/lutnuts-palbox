@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palbox Button Palette Previews</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #0a0612;
+      --bg-card: #140e1e;
+      --bg-pill: #241838;
+      --border-card: rgba(58, 26, 94, 0.35);
+      --text-main: #e0dae8;
+      --text-muted: #a87cb8;
+      --accent-blue: #6a9ab8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Lexend', system-ui, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      padding: 40px 24px;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #e0dae8 0%, #b88898 50%, #6a9ab8 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      font-size: 1rem;
+    }
+
+    .preview-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .option-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 10px;
+    }
+
+    .option-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .option-tag {
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--bg-pill);
+      color: var(--text-muted);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .option-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .header-bar-mockup {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10, 6, 18, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 14px;
+      padding: 16px 20px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .mockup-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .title-gradient-text {
+      background: linear-gradient(135deg, #a78bfa 0%, #ef4444 32%, #818cf8 66%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 10px rgba(139, 92, 246, 0.25));
+    }
+
+
+    .header-right-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stats-badge {
+      background: var(--bg-pill);
+      border: 1px solid var(--border-card);
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .stats-badge span {
+      color: var(--accent-blue);
+      font-weight: 800;
+    }
+
+    .btn-action {
+      padding: 9px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+      text-decoration: none;
+      font-family: inherit;
+    }
+
+    .btn-action:hover {
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       OPTION 1: Royal Blurple & Deep Crimson (Alternating 2-Color)
+       ========================================================================== */
+    .opt1-color1 {
+      background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+      color: #ffffff;
+      border: 1px solid rgba(99, 102, 241, 0.45);
+      box-shadow: 0 3px 10px rgba(99, 102, 241, 0.25);
+    }
+    .opt1-color1:hover {
+      background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+      box-shadow: 0 5px 16px rgba(99, 102, 241, 0.45);
+    }
+
+    .opt1-color2 {
+      background: linear-gradient(135deg, #991b1b 0%, #6b1111 100%);
+      color: #ffffff;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      box-shadow: 0 3px 10px rgba(153, 27, 27, 0.25);
+    }
+    .opt1-color2:hover {
+      background: linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%);
+      box-shadow: 0 5px 16px rgba(239, 68, 68, 0.45);
+    }
+
+    /* ==========================================================================
+       OPTION 2: Electric Purple & Sapphire Blue (Alternating 2-Color)
+       ========================================================================== */
+    .opt2-color1 {
+      background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+      color: #ffffff;
+      border: 1px solid rgba(139, 92, 246, 0.45);
+      box-shadow: 0 3px 10px rgba(139, 92, 246, 0.25);
+    }
+    .opt2-color1:hover {
+      background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+      box-shadow: 0 5px 16px rgba(139, 92, 246, 0.45);
+    }
+
+    .opt2-color2 {
+      background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+      color: #ffffff;
+      border: 1px solid rgba(37, 99, 235, 0.45);
+      box-shadow: 0 3px 10px rgba(37, 99, 235, 0.25);
+    }
+    .opt2-color2:hover {
+      background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%);
+      box-shadow: 0 5px 16px rgba(37, 99, 235, 0.45);
+    }
+
+    /* ==========================================================================
+       OPTION 3: Dark Violet & Velvet Wine (Alternating 2-Color)
+       ========================================================================== */
+    .opt3-color1 {
+      background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);
+      color: #ffffff;
+      border: 1px solid rgba(124, 58, 237, 0.45);
+      box-shadow: 0 3px 10px rgba(124, 58, 237, 0.25);
+    }
+    .opt3-color1:hover {
+      background: linear-gradient(135deg, #6d28d9 0%, #3b0764 100%);
+      box-shadow: 0 5px 16px rgba(124, 58, 237, 0.45);
+    }
+
+    .opt3-color2 {
+      background: linear-gradient(135deg, #881337 0%, #4c0519 100%);
+      color: #ffffff;
+      border: 1px solid rgba(225, 29, 72, 0.4);
+      box-shadow: 0 3px 10px rgba(136, 19, 55, 0.25);
+    }
+    .opt3-color2:hover {
+      background: linear-gradient(135deg, #9f1239 0%, #640722 100%);
+      box-shadow: 0 5px 16px rgba(225, 29, 72, 0.45);
+    }
+
+    /* ==========================================================================
+       OPTION 4: 4-Color Blurple Spectrum (Unique Color Per Button)
+       ========================================================================== */
+    .opt4-btn1 {
+      background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+      color: #ffffff;
+      border: 1px solid rgba(139, 92, 246, 0.45);
+      box-shadow: 0 3px 10px rgba(139, 92, 246, 0.25);
+    }
+    .opt4-btn1:hover {
+      background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+      box-shadow: 0 5px 16px rgba(139, 92, 246, 0.45);
+    }
+
+    .opt4-btn2 {
+      background: linear-gradient(135deg, #991b1b 0%, #6b1111 100%);
+      color: #ffffff;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      box-shadow: 0 3px 10px rgba(153, 27, 27, 0.25);
+    }
+    .opt4-btn2:hover {
+      background: linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%);
+      box-shadow: 0 5px 16px rgba(239, 68, 68, 0.45);
+    }
+
+    .opt4-btn3 {
+      background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+      color: #ffffff;
+      border: 1px solid rgba(79, 70, 229, 0.45);
+      box-shadow: 0 3px 10px rgba(79, 70, 229, 0.25);
+    }
+    .opt4-btn3:hover {
+      background: linear-gradient(135deg, #4338ca 0%, #312e81 100%);
+      box-shadow: 0 5px 16px rgba(79, 70, 229, 0.45);
+    }
+
+    .opt4-btn4 {
+      background: linear-gradient(135deg, #881337 0%, #4c0519 100%);
+      color: #ffffff;
+      border: 1px solid rgba(225, 29, 72, 0.4);
+      box-shadow: 0 3px 10px rgba(136, 19, 55, 0.25);
+    }
+    .opt4-btn4:hover {
+      background: linear-gradient(135deg, #9f1239 0%, #640722 100%);
+      box-shadow: 0 5px 16px rgba(225, 29, 72, 0.45);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Lutnut's Palbox &mdash; Button Color Palette Options</h1>
+    <p class="subtitle">Review the live rendered button styles below in the "blurple" (blues, purples, and dark reds) palette.</p>
+
+    <!-- OPTION 1 -->
+    <div class="preview-card">
+      <div class="option-header">
+        <div class="option-title">
+          <span>Option 1: Royal Blurple &amp; Deep Crimson</span>
+          <span class="option-tag">Recommended Alternating</span>
+        </div>
+      </div>
+      <p class="option-desc">Alternates between vibrant Royal Indigo/Blurple (Color 1) and rich Deep Crimson Red (Color 2).</p>
+      <div class="header-bar-mockup">
+        <div class="mockup-title">🐾 Lutnut's Palbox</div>
+        <div class="header-right-group">
+          <div class="stats-badge">Showing <span>216</span> of <span>216</span> Pals</div>
+          <button class="btn-action opt1-color1">➕ Add Pal</button>
+          <button class="btn-action opt1-color2">⚔️ Add Team</button>
+          <button class="btn-action opt1-color1">☁️ Sync to My Pals</button>
+          <button class="btn-action opt1-color2">🔄 Sync from Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 2 -->
+    <div class="preview-card">
+      <div class="option-header">
+        <div class="option-title">
+          <span>Option 2: Electric Purple &amp; Sapphire Blue</span>
+          <span class="option-tag">Classic Neon Blurple</span>
+        </div>
+      </div>
+      <p class="option-desc">Alternates between Electric Cyber Purple (Color 1) and Sapphire Cobalt Blue (Color 2).</p>
+      <div class="header-bar-mockup">
+        <div class="mockup-title">🐾 Lutnut's Palbox</div>
+        <div class="header-right-group">
+          <div class="stats-badge">Showing <span>216</span> of <span>216</span> Pals</div>
+          <button class="btn-action opt2-color1">➕ Add Pal</button>
+          <button class="btn-action opt2-color2">⚔️ Add Team</button>
+          <button class="btn-action opt2-color1">☁️ Sync to My Pals</button>
+          <button class="btn-action opt2-color2">🔄 Sync from Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 3 -->
+    <div class="preview-card">
+      <div class="option-header">
+        <div class="option-title">
+          <span>Option 3: Dark Violet &amp; Velvet Wine</span>
+          <span class="option-tag">Dusk Atmosphere</span>
+        </div>
+      </div>
+      <p class="option-desc">Alternates between Deep Dark Violet (Color 1) and Dark Burgundy / Velvet Wine (Color 2).</p>
+      <div class="header-bar-mockup">
+        <div class="mockup-title">🐾 Lutnut's Palbox</div>
+        <div class="header-right-group">
+          <div class="stats-badge">Showing <span>216</span> of <span>216</span> Pals</div>
+          <button class="btn-action opt3-color1">➕ Add Pal</button>
+          <button class="btn-action opt3-color2">⚔️ Add Team</button>
+          <button class="btn-action opt3-color1">☁️ Sync to My Pals</button>
+          <button class="btn-action opt3-color2">🔄 Sync from Save</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 4 -->
+    <div class="preview-card">
+      <div class="option-header">
+        <div class="option-title">
+          <span>Option 4: 4-Color Blurple Spectrum</span>
+          <span class="option-tag">Distinct Color Per Button</span>
+        </div>
+      </div>
+      <p class="option-desc">Four distinct, harmonized colors from the blurple palette: Electric Purple &rarr; Crimson Red &rarr; Indigo &rarr; Velvet Wine.</p>
+      <div class="header-bar-mockup">
+        <div class="mockup-title">🐾 Lutnut's Palbox</div>
+        <div class="header-right-group">
+          <div class="stats-badge">Showing <span>216</span> of <span>216</span> Pals</div>
+          <button class="btn-action opt4-btn1">➕ Add Pal</button>
+          <button class="btn-action opt4-btn2">⚔️ Add Team</button>
+          <button class="btn-action opt4-btn3">☁️ Sync to My Pals</button>
+          <button class="btn-action opt4-btn4">🔄 Sync from Save</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
