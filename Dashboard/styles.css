@@ -1512,8 +1512,8 @@ select option {
 
 .pal-list-table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
   text-align: left;
   font-size: 0.85rem;
 }
@@ -1523,10 +1523,10 @@ select option {
   color: var(--text-muted);
   font-weight: 700;
   padding: 12px 16px;
-  border-bottom: 1px solid var(--border-card);
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-bottom: 1px solid var(--border-card) !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.5px;
@@ -1539,35 +1539,35 @@ select option {
 
 .pal-list-table td {
   padding: 12px 16px;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  border-left: none;
-  border-right: none;
+  border-top: 1px solid transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  border-left: none !important;
+  border-right: none !important;
   vertical-align: middle;
   transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .pal-list-table tbody tr:hover {
-  background: rgba(106, 154, 184, 0.12);
+  background: rgba(106, 154, 184, 0.14) !important;
 }
 
 .pal-list-table tbody tr:hover td {
-  border-top: 1px solid rgba(106, 154, 184, 0.55);
-  border-bottom: 1px solid rgba(106, 154, 184, 0.55);
-  border-left: none;
-  border-right: none;
+  border-top: 1px solid rgba(106, 154, 184, 0.6) !important;
+  border-bottom: 1px solid rgba(106, 154, 184, 0.6) !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 
 .pal-list-table tbody tr:hover td:first-child {
-  border-left: 1px solid rgba(106, 154, 184, 0.55);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-left: 1px solid rgba(106, 154, 184, 0.6) !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
 }
 
 .pal-list-table tbody tr:hover td:last-child {
-  border-right: 1px solid rgba(106, 154, 184, 0.55);
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-right: 1px solid rgba(106, 154, 184, 0.6) !important;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
 }
 
 .pal-list-table td.col-level-rank,
