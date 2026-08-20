@@ -42,14 +42,20 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             except Exception as e:
                 print(f"[!] Error serving index.html: {e}")
         
-        # Serve app.js and pals.json without caching so changes are always seen
-        if self.path in ('/app.js',) or self.path.startswith('/pals.json'):
+        # Serve styles.css, app.js and pals.json without caching so changes are always seen immediately
+        if self.path.startswith('/styles.css') or self.path.startswith('/app.js') or self.path.startswith('/pals.json'):
             try:
-                file_path = DASHBOARD_DIR / self.path.split('?')[0].lstrip('/')
+                raw_filename = self.path.split('?')[0].lstrip('/')
+                file_path = DASHBOARD_DIR / raw_filename
                 if file_path.exists():
                     content = file_path.read_bytes()
                     ext = file_path.suffix
-                    mime = 'application/javascript' if ext == '.js' else 'application/json'
+                    if ext == '.css':
+                        mime = 'text/css; charset=utf-8'
+                    elif ext == '.js':
+                        mime = 'application/javascript; charset=utf-8'
+                    else:
+                        mime = 'application/json; charset=utf-8'
                     self.send_response(200)
                     self.send_header('Content-type', mime)
                     self.send_header('Content-Length', str(len(content)))
