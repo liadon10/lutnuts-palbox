@@ -146,40 +146,46 @@ function loadScript(src) {
   });
 }
 
-function setupCustomElemDropdown() {
-  const trigger = document.getElementById('elemDropdownTrigger');
+function toggleElemDropdown(e) {
+  if (e) e.stopPropagation();
   const optionsContainer = document.getElementById('elemDropdownOptions');
+  if (optionsContainer) {
+    optionsContainer.classList.toggle('open');
+  }
+}
+
+function selectElemFilter(e, elemValue, optionEl) {
+  if (e) e.stopPropagation();
   const hiddenInput = document.getElementById('elemFilter');
   const selectedSpan = document.getElementById('elemDropdownSelected');
+  const optionsContainer = document.getElementById('elemDropdownOptions');
 
-  if (!trigger || !optionsContainer || !hiddenInput) return;
+  if (hiddenInput) hiddenInput.value = elemValue;
+  if (selectedSpan && optionEl) selectedSpan.innerHTML = optionEl.innerHTML;
 
-  trigger.onclick = (e) => {
-    e.stopPropagation();
-    optionsContainer.classList.toggle('open');
-  };
+  if (optionsContainer) {
+    const allOptions = optionsContainer.querySelectorAll('.custom-option');
+    allOptions.forEach(opt => opt.classList.remove('active'));
+    if (optionEl) optionEl.classList.add('active');
+    optionsContainer.classList.remove('open');
+  }
 
+  renderMainView();
+}
+
+window.toggleElemDropdown = toggleElemDropdown;
+window.selectElemFilter = selectElemFilter;
+
+function setupCustomElemDropdown() {
   document.addEventListener('click', (e) => {
-    if (!e.target.closest('#customElemDropdown')) {
+    const customElemDropdown = document.getElementById('customElemDropdown');
+    const optionsContainer = document.getElementById('elemDropdownOptions');
+    if (optionsContainer && customElemDropdown && !customElemDropdown.contains(e.target)) {
       optionsContainer.classList.remove('open');
     }
   });
-
-  const options = optionsContainer.querySelectorAll('.custom-option');
-  options.forEach(opt => {
-    opt.onclick = (e) => {
-      e.stopPropagation();
-      options.forEach(o => o.classList.remove('active'));
-      opt.classList.add('active');
-
-      const val = opt.getAttribute('data-value') || '';
-      hiddenInput.value = val;
-      selectedSpan.innerHTML = opt.innerHTML;
-      optionsContainer.classList.remove('open');
-      renderMainView();
-    };
-  });
 }
+
 
 function handlePalCardClick(e, guid) {
   if (!guid) return;

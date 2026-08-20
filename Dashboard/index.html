@@ -36,29 +36,29 @@
         <!-- Element Filter with Custom PNG Icons -->
         <div class="filter-item">
           <div class="custom-select-wrapper" id="customElemDropdown">
-            <button type="button" class="custom-select-trigger" id="elemDropdownTrigger">
+            <button type="button" class="custom-select-trigger" id="elemDropdownTrigger" onclick="toggleElemDropdown(event)">
               <span id="elemDropdownSelected">All Elements</span>
               <span class="custom-select-arrow">▼</span>
             </button>
             <div class="custom-select-options" id="elemDropdownOptions">
-              <div class="custom-option active" data-value="">All Elements</div>
-              <div class="custom-option" data-value="Neutral"><img class="custom-icon-img"
+              <div class="custom-option active" data-value="" onclick="selectElemFilter(event, '', this)">All Elements</div>
+              <div class="custom-option" data-value="Neutral" onclick="selectElemFilter(event, 'Neutral', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Neutral.png" alt="Neutral"> Neutral</div>
-              <div class="custom-option" data-value="Fire"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Fire" onclick="selectElemFilter(event, 'Fire', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Fire.png" alt="Fire"> Fire</div>
-              <div class="custom-option" data-value="Water"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Water" onclick="selectElemFilter(event, 'Water', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Water.png" alt="Water"> Water</div>
-              <div class="custom-option" data-value="Grass"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Grass" onclick="selectElemFilter(event, 'Grass', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Grass.png" alt="Grass"> Grass</div>
-              <div class="custom-option" data-value="Electric"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Electric" onclick="selectElemFilter(event, 'Electric', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Electric.png" alt="Electric"> Electric</div>
-              <div class="custom-option" data-value="Ice"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Ice" onclick="selectElemFilter(event, 'Ice', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ice.png" alt="Ice"> Ice</div>
-              <div class="custom-option" data-value="Ground"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Ground" onclick="selectElemFilter(event, 'Ground', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Ground.png" alt="Ground"> Ground</div>
-              <div class="custom-option" data-value="Dragon"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Dragon" onclick="selectElemFilter(event, 'Dragon', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dragon.png" alt="Dragon"> Dragon</div>
-              <div class="custom-option" data-value="Dark"><img class="custom-icon-img"
+              <div class="custom-option" data-value="Dark" onclick="selectElemFilter(event, 'Dark', this)"><img class="custom-icon-img"
                   src="Images/Icons/PalWorld/PalElements/PNG/Colored-Dark.png" alt="Dark"> Dark</div>
             </div>
             <input type="hidden" id="elemFilter" value="">
