@@ -20,7 +20,48 @@ DASHBOARD_DIR = pathlib.Path(__file__).parent.parent
 
 class DashboardHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
+        # Intercept index.html to inject a cache-busting version on pals.js
+        if self.path in ('/', '/index.html'):
+            try:
+                html_path = DASHBOARD_DIR / "index.html"
+                pals_js_path = DASHBOARD_DIR / "pals.js"
+                v = int(pals_js_path.stat().st_mtime) if pals_js_path.exists() else 0
+                content = html_path.read_text(encoding='utf-8')
+                content = content.replace(
+                    'src="pals.js"',
+                    f'src="pals.js?v={v}"'
+                )
+                encoded = content.encode('utf-8')
+                self.send_response(200)
+                self.send_header('Content-type', 'text/html; charset=utf-8')
+                self.send_header('Content-Length', str(len(encoded)))
+                self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                self.end_headers()
+                self.wfile.write(encoded)
+                return
+            except Exception as e:
+                print(f"[!] Error serving index.html: {e}")
+        
+        # Serve app.js and pals.json without caching so changes are always seen
+        if self.path in ('/app.js',) or self.path.startswith('/pals.json'):
+            try:
+                file_path = DASHBOARD_DIR / self.path.split('?')[0].lstrip('/')
+                if file_path.exists():
+                    content = file_path.read_bytes()
+                    ext = file_path.suffix
+                    mime = 'application/javascript' if ext == '.js' else 'application/json'
+                    self.send_response(200)
+                    self.send_header('Content-type', mime)
+                    self.send_header('Content-Length', str(len(content)))
+                    self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                    self.end_headers()
+                    self.wfile.write(content)
+                    return
+            except Exception as e:
+                print(f"[!] Error serving {self.path}: {e}")
+        
         return super().do_GET()
+
 
     def do_POST(self):
         if self.path == "/api/sync" or self.path == "/api/save":

@@ -1,20 +1,20 @@
-﻿let allPals = [];
+let allPals = [];
 let currentViewMode = 'grid'; // 'grid' | 'list'
 let currentMainView = 'all_pals'; // 'all_pals' | 'synergy_teams'
 
 const WORK_TYPES = [
-  { name: 'Kindling', emoji: '🔥' },
-  { name: 'Watering', emoji: '💧' },
-  { name: 'Planting', emoji: '🌱' },
-  { name: 'Generating Electricity', emoji: '⚡' },
-  { name: 'Handiwork', emoji: '🔨' },
-  { name: 'Gathering', emoji: '🌾' },
-  { name: 'Lumbering', emoji: '🪓' },
-  { name: 'Mining', emoji: '⛏' },
-  { name: 'Medicine Production', emoji: '🧪' },
-  { name: 'Cooling', emoji: '❄' },
-  { name: 'Transporting', emoji: '📦' },
-  { name: 'Farming', emoji: '🐣' }
+  { name: 'Kindling', emoji: '≡ƒöÑ' },
+  { name: 'Watering', emoji: '≡ƒÆº' },
+  { name: 'Planting', emoji: '≡ƒî▒' },
+  { name: 'Generating Electricity', emoji: 'ΓÜí' },
+  { name: 'Handiwork', emoji: '≡ƒö¿' },
+  { name: 'Gathering', emoji: '≡ƒî╛' },
+  { name: 'Lumbering', emoji: '≡ƒ¬ô' },
+  { name: 'Mining', emoji: 'Γ¢Å' },
+  { name: 'Medicine Production', emoji: '≡ƒº¬' },
+  { name: 'Cooling', emoji: 'Γ¥ä' },
+  { name: 'Transporting', emoji: '≡ƒôª' },
+  { name: 'Farming', emoji: '≡ƒÉú' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -65,19 +65,11 @@ async function fetchPalsData() {
     return false;
   };
 
-  // 1. FIRST: fetch pals.json directly (bypasses script caching/race condition)
-  try {
-    const response = await fetch('pals.json?v=' + Date.now());
-    if (response.ok) {
-      const jsonPals = await response.json();
-      if (applyPalsData(jsonPals)) return;
-    }
-  } catch (err) {
-    console.warn('Fetch pals.json failed, trying window.PALS_DATA:', err);
-  }
+  // 1. Check if window.PALS_DATA is loaded (pals.js is first script tag)
+  if (applyPalsData(window.PALS_DATA)) return;
 
-  // 2. Poll for window.PALS_DATA (up to 10 seconds)
-  for (let i = 0; i < 100; i++) {
+  // 2. Poll for window.PALS_DATA (up to 3 seconds)
+  for (let i = 0; i < 30; i++) {
     await new Promise(r => setTimeout(r, 100));
     if (applyPalsData(window.PALS_DATA)) return;
   }
@@ -103,7 +95,7 @@ async function fetchPalsData() {
 
   document.getElementById('palGrid').innerHTML = `
     <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
-      <h3>⚠️ Could not load Pal data</h3>
+      <h3>ΓÜá∩╕Å Could not load Pal data</h3>
       <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
       <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
     </div>
@@ -218,19 +210,7 @@ function setupEventListeners() {
   if (addBtn) addBtn.addEventListener('click', openAddModal);
 
   const addTeamBtn = document.getElementById('addTeamBtn');
-  if (addTeamBtn) addTeamBtn.addEventListener('click', openAddSynergyTeamModal);
-
-  const syncBtn = document.getElementById('syncPalsBtn') || document.getElementById('syncMyPalsBtn');
-  if (syncBtn) syncBtn.addEventListener('click', syncPalsToServer);
-
-  const resetBtn = document.getElementById('resetDataBtn');
-  if (resetBtn) resetBtn.addEventListener('click', resetPalsData);
-
-  const gridBtn = document.getElementById('gridModeBtn');
-  const listBtn = document.getElementById('listModeBtn');
-  if (gridBtn) gridBtn.addEventListener('click', () => { currentViewMode = 'grid'; renderMainView(); });
-  if (listBtn) listBtn.addEventListener('click', () => { currentViewMode = 'list'; renderMainView(); });
-}
+];
 
 document.addEventListener('DOMContentLoaded', () => {
   fetchPalsData();
@@ -249,6 +229,25 @@ function ensureAllPalsHaveGuids() {
 }
 
 async function fetchPalsData() {
+  // Always clear stale or empty localStorage on startup if present
+  const savedData = localStorage.getItem('palbox_custom_pals');
+  if (savedData) {
+    try {
+      const parsed = JSON.parse(savedData);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        allPals = parsed;
+        console.log(`[Palbox] Loaded ${allPals.length} Pals from localStorage.`);
+        ensureAllPalsHaveGuids();
+        document.getElementById('totalCount').textContent = allPals.length;
+        renderMainView();
+        return;
+      }
+    } catch (e) {
+      console.error('Error parsing localStorage custom pals:', e);
+    }
+    localStorage.removeItem('palbox_custom_pals');
+  }
+
   // Helper function to apply PALS_DATA array
   const applyPalsData = (data) => {
     if (Array.isArray(data) && data.length > 0) {
@@ -261,19 +260,11 @@ async function fetchPalsData() {
     return false;
   };
 
-  // 1. FIRST: fetch pals.json directly (bypasses script caching/race condition)
-  try {
-    const response = await fetch('pals.json?v=' + Date.now());
-    if (response.ok) {
-      const jsonPals = await response.json();
-      if (applyPalsData(jsonPals)) return;
-    }
-  } catch (err) {
-    console.warn('Fetch pals.json failed, trying window.PALS_DATA:', err);
-  }
+  // 1. Check if window.PALS_DATA is loaded (pals.js is first script tag)
+  if (applyPalsData(window.PALS_DATA)) return;
 
-  // 2. Poll for window.PALS_DATA (up to 10 seconds)
-  for (let i = 0; i < 100; i++) {
+  // 2. Poll for window.PALS_DATA (up to 3 seconds)
+  for (let i = 0; i < 30; i++) {
     await new Promise(r => setTimeout(r, 100));
     if (applyPalsData(window.PALS_DATA)) return;
   }
@@ -299,7 +290,7 @@ async function fetchPalsData() {
 
   document.getElementById('palGrid').innerHTML = `
     <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
-      <h3>⚠️ Could not load Pal data</h3>
+      <h3>ΓÜá∩╕Å Could not load Pal data</h3>
       <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
       <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
     </div>
@@ -449,11 +440,11 @@ function setupEventListeners() {
       if (currentMainView === 'all_pals') {
         currentMainView = 'synergy_teams';
         synergyBtn.classList.add('active');
-        synergyBtn.innerHTML = '🐾 All Pals View';
+        synergyBtn.innerHTML = '≡ƒÉ╛ All Pals View';
       } else {
         currentMainView = 'all_pals';
         synergyBtn.classList.remove('active');
-        synergyBtn.innerHTML = '⚔️ Combat Teams';
+        synergyBtn.innerHTML = 'ΓÜö∩╕Å Combat Teams';
       }
       renderMainView();
     });
@@ -520,11 +511,11 @@ function resetPalsData() {
 
 async function syncToMyPalsTable() {
   const syncBtn = document.getElementById('syncMyPalsBtn');
-  const originalText = syncBtn ? syncBtn.innerHTML : '☁️ Sync to My Pals';
+  const originalText = syncBtn ? syncBtn.innerHTML : 'Γÿü∩╕Å Sync to My Pals';
 
   if (syncBtn) {
     syncBtn.disabled = true;
-    syncBtn.innerHTML = '⌛ Syncing to My Pals...';
+    syncBtn.innerHTML = 'Γî¢ Syncing to My Pals...';
   }
 
   savePalsState();
@@ -538,14 +529,14 @@ async function syncToMyPalsTable() {
 
     if (response.ok) {
       const resData = await response.json();
-      alert(`✅ ${resData.message || "Successfully updated 'My Pals' Google Sheet table!"}`);
+      alert(`Γ£à ${resData.message || "Successfully updated 'My Pals' Google Sheet table!"}`);
     } else {
       throw new Error(`HTTP ${response.status}`);
     }
   } catch (err) {
     console.warn('Backend server API not reachable (file:// mode). Exporting local pals.json:', err);
     exportPalsToJSON();
-    alert("💾 Saved updated Pal data to your local Dashboard/pals.json!\n\nTo upload your edits directly to Google Sheets 'My Pals' table, run:\npython Scripts/sync_dashboard_to_sheet.py");
+    alert("≡ƒÆ╛ Saved updated Pal data to your local Dashboard/pals.json!\n\nTo upload your edits directly to Google Sheets 'My Pals' table, run:\npython Scripts/sync_dashboard_to_sheet.py");
   } finally {
     if (syncBtn) {
       syncBtn.disabled = false;
@@ -605,15 +596,15 @@ function openPalDetailModal(identifier) {
     typeHTML += ` <span class="elem-badge ${elem2Class} has-tooltip" style="font-size:0.85rem; padding:4px 10px;">${elem2Icon} ${pal.element2}${elem2Tooltip}</span>`;
   }
 
-  let genderHTML = '⚪ N/A';
-  if (pal.gender === 'male') genderHTML = '♂ Male';
-  else if (pal.gender === 'female') genderHTML = '♀ Female';
+  let genderHTML = 'ΓÜ¬ N/A';
+  if (pal.gender === 'male') genderHTML = 'ΓÖé Male';
+  else if (pal.gender === 'female') genderHTML = 'ΓÖÇ Female';
 
   const partnerInfo = getPartnerSkillInfo(pal);
   const rankTooltipHTML = getRankTooltipHTML(starDisplay);
 
   const totalOwnedCount = allPals.filter(p => p.name && p.name.toLowerCase() === palName.toLowerCase()).length;
-  const countText = `📦 Total Owned in Palbox: ${totalOwnedCount}`;
+  const countText = `≡ƒôª Total Owned in Palbox: ${totalOwnedCount}`;
 
   // Render Header Info Banner
   const headerBanner = document.getElementById('palDetailHeaderBanner');
@@ -625,14 +616,14 @@ function openPalDetailModal(identifier) {
           <div class="detail-hero-title-row">
             <span class="detail-pal-name">${palName}</span>
             ${typeHTML}
-            ${pal.is_boss ? `<span class="detail-meta-pill" style="color:#ef4444; border-color:rgba(239,68,68,0.4);">🔴 Alpha Pal (Boss)</span>` : ''}
+            ${pal.is_boss ? `<span class="detail-meta-pill" style="color:#ef4444; border-color:rgba(239,68,68,0.4);">≡ƒö┤ Alpha Pal (Boss)</span>` : ''}
           </div>
           <div class="detail-meta-tags">
             <span class="detail-meta-pill">Paldeck ${paldeckNum}</span>
             <span class="detail-meta-pill">${palLevel}</span>
             <span class="detail-meta-pill badge-rank has-tooltip" style="display:inline-flex;">${starDisplay}${rankTooltipHTML}</span>
             <span class="detail-meta-pill">${genderHTML}</span>
-            <span class="detail-meta-pill">📍 ${pal.location || 'Palbox Storage'}</span>
+            <span class="detail-meta-pill">≡ƒôì ${pal.location || 'Palbox Storage'}</span>
             <span class="detail-meta-pill detail-capture-pill">${countText}</span>
           </div>
         </div>
@@ -650,7 +641,7 @@ function openPalDetailModal(identifier) {
 
     ivsHTML = `
       <div class="pal-detail-section">
-        <div class="detail-section-header">📊 Talent IV Stats</div>
+        <div class="detail-section-header">≡ƒôè Talent IV Stats</div>
         <div class="iv-bars-grid">
           <div class="iv-item">
             <div class="iv-label-row"><span>HP Talent</span><span>${hpIv}%</span></div>
@@ -676,7 +667,7 @@ function openPalDetailModal(identifier) {
   // Active Skills
   const activeSkills = pal.active_skills || [];
   const activeSkillsHTML = activeSkills.length > 0
-    ? activeSkills.map(skill => `<span class="active-skill-pill">⚡ ${skill}</span>`).join('')
+    ? activeSkills.map(skill => `<span class="active-skill-pill">ΓÜí ${skill}</span>`).join('')
     : `<span style="color:var(--text-muted); font-size:0.85rem;">No active combat skills listed.</span>`;
 
   // Passives Grid
@@ -747,9 +738,9 @@ function openPalDetailModal(identifier) {
       ${ivsHTML}
 
       <div class="pal-detail-section">
-        <div class="detail-section-header">⚡ Partner Skill</div>
+        <div class="detail-section-header">ΓÜí Partner Skill</div>
         <div style="font-size:0.95rem; font-weight:700; color:#c084fc;">
-          ${partnerInfo.name} <span class="partner-rank-tag">Rank ${partnerInfo.rank} (${partnerInfo.rank === 1 ? '0★' : (partnerInfo.rank - 1) + '★'})</span>
+          ${partnerInfo.name} <span class="partner-rank-tag">Rank ${partnerInfo.rank} (${partnerInfo.rank === 1 ? '0Γÿà' : (partnerInfo.rank - 1) + 'Γÿà'})</span>
           ${partnerInfo.activeValue ? `<span style="margin-left:8px; font-size:0.8rem; background:rgba(192, 132, 252, 0.2); border:1px solid #c084fc; color:#e9d5ff; padding:2px 8px; border-radius:12px;">Active: ${partnerInfo.activeValue}</span>` : ''}
         </div>
         <div style="font-size:0.85rem; color:#cbd5e1; margin-top:4px; line-height:1.4;">
@@ -759,28 +750,28 @@ function openPalDetailModal(identifier) {
       </div>
 
       <div class="pal-detail-section">
-        <div class="detail-section-header">⚔️ Active Combat Skills</div>
+        <div class="detail-section-header">ΓÜö∩╕Å Active Combat Skills</div>
         <div class="active-skills-list">
           ${activeSkillsHTML}
         </div>
       </div>
 
       <div class="pal-detail-section">
-        <div class="detail-section-header">🌟 Passive Skills</div>
+        <div class="detail-section-header">≡ƒîƒ Passive Skills</div>
         <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
           ${passivesHTML}
         </div>
       </div>
 
       <div class="pal-detail-section">
-        <div class="detail-section-header">🔨 Work Suitabilities</div>
+        <div class="detail-section-header">≡ƒö¿ Work Suitabilities</div>
         <div style="display:flex; flex-wrap:wrap; gap:8px;">
           ${workBadgesHTML}
         </div>
       </div>
 
       <div class="pal-detail-section">
-        <div class="detail-section-header">🎁 Possible Item Drops</div>
+        <div class="detail-section-header">≡ƒÄü Possible Item Drops</div>
         <div class="drops-grid">
           ${dropsHTML}
         </div>
@@ -788,7 +779,7 @@ function openPalDetailModal(identifier) {
     `;
   }
 
-  document.getElementById('detailPalTitle').textContent = `🐾 ${palName} Details`;
+  document.getElementById('detailPalTitle').textContent = `≡ƒÉ╛ ${palName} Details`;
   
   const ggBtn = document.getElementById('detailPalGgBtn');
   if (ggBtn) ggBtn.href = palGgURL;
@@ -823,18 +814,18 @@ function getWorkIconHTML(emojiOrName) {
   const e = emojiOrName || '';
   let filename = '';
 
-  if (e.includes('🔥') || e.includes('Kindling')) filename = 'v1Kindling.png';
-  else if (e.includes('💧') || e.includes('Watering')) filename = 'v1Watering.png';
-  else if (e.includes('🌱') || e.includes('Planting')) filename = 'v1Planting.png';
-  else if (e.includes('⚡') || e.includes('Electricity')) filename = 'v1Generating Electricity.png';
-  else if (e.includes('🔨') || e.includes('Handiwork')) filename = 'v1Handiwork.png';
-  else if (e.includes('🌾') || e.includes('Gathering')) filename = 'v1Gathering.png';
-  else if (e.includes('🪓') || e.includes('Lumbering')) filename = 'v1Lumbering.png';
-  else if (e.includes('⛏') || e.includes('Mining')) filename = 'v1Mining.png';
-  else if (e.includes('🧪') || e.includes('Medicine')) filename = 'v1Medicine Production.png';
-  else if (e.includes('❄') || e.includes('Cooling')) filename = 'v1Cooling.png';
-  else if (e.includes('📦') || e.includes('Transporting')) filename = 'v1Transporting.png';
-  else if (e.includes('🐣') || e.includes('Farming')) filename = 'v1Farming.png';
+  if (e.includes('≡ƒöÑ') || e.includes('Kindling')) filename = 'v1Kindling.png';
+  else if (e.includes('≡ƒÆº') || e.includes('Watering')) filename = 'v1Watering.png';
+  else if (e.includes('≡ƒî▒') || e.includes('Planting')) filename = 'v1Planting.png';
+  else if (e.includes('ΓÜí') || e.includes('Electricity')) filename = 'v1Generating Electricity.png';
+  else if (e.includes('≡ƒö¿') || e.includes('Handiwork')) filename = 'v1Handiwork.png';
+  else if (e.includes('≡ƒî╛') || e.includes('Gathering')) filename = 'v1Gathering.png';
+  else if (e.includes('≡ƒ¬ô') || e.includes('Lumbering')) filename = 'v1Lumbering.png';
+  else if (e.includes('Γ¢Å') || e.includes('Mining')) filename = 'v1Mining.png';
+  else if (e.includes('≡ƒº¬') || e.includes('Medicine')) filename = 'v1Medicine Production.png';
+  else if (e.includes('Γ¥ä') || e.includes('Cooling')) filename = 'v1Cooling.png';
+  else if (e.includes('≡ƒôª') || e.includes('Transporting')) filename = 'v1Transporting.png';
+  else if (e.includes('≡ƒÉú') || e.includes('Farming')) filename = 'v1Farming.png';
 
   if (filename) {
     const src = `Images/Icons/PalWorld/WorkSymbols/PNG/${encodeURIComponent(filename)}`;
@@ -881,10 +872,10 @@ function getElementTooltipHTML(elem) {
 
 function getRankTooltipHTML(stars) {
   const tooltips = {
-    '★★★★': 'Rank 4 (MAX): All Work Suitabilities +1 Level, Partner Skill Level 5 (MAX), HP/ATK/DEF +20%.',
-    '★★★': 'Rank 3: Partner Skill Level 4, HP/ATK/DEF +15%.',
-    '★★': 'Rank 2: Partner Skill Level 3, HP/ATK/DEF +10%.',
-    '★': 'Rank 1: Partner Skill Level 2, HP/ATK/DEF +5%.',
+    'ΓÿàΓÿàΓÿàΓÿà': 'Rank 4 (MAX): All Work Suitabilities +1 Level, Partner Skill Level 5 (MAX), HP/ATK/DEF +20%.',
+    'ΓÿàΓÿàΓÿà': 'Rank 3: Partner Skill Level 4, HP/ATK/DEF +15%.',
+    'ΓÿàΓÿà': 'Rank 2: Partner Skill Level 3, HP/ATK/DEF +10%.',
+    'Γÿà': 'Rank 1: Partner Skill Level 2, HP/ATK/DEF +5%.',
     '-': 'Rank 0: Base Pal stats. Condense at Pal Condenser to raise rank & Partner Skill.'
   };
   const desc = tooltips[stars] || 'Pal Condensation Rank.';
@@ -897,7 +888,7 @@ function getRankTooltipHTML(stars) {
 }
 
 function getLocationSvg(loc) {
-  if (!loc) return '<span style="font-size:1.1rem">📦</span>';
+  if (!loc) return '<span style="font-size:1.1rem">≡ƒôª</span>';
   if (loc.includes('Party')) {
     return `<svg class="svg-icon svg-icon-lg" viewBox="0 0 24 24"><path fill="#60a5fa" d="M6.92 5L5 6.92l5.06 5.06L4.1 17.94l1.96 1.96 5.96-5.96L17.08 19 19 17.08l-5.06-5.06 5.96-5.96-1.96-1.96-5.96 5.96z"/></svg>`;
   }
@@ -980,12 +971,12 @@ function formatPartnerSkillRankBreakdown(desc, activeRankIndex) {
       activeValStr = valFormatted;
     }
 
-    const starLabel = r === 0 ? '0★ (Base)' : `${r}★`;
+    const starLabel = r === 0 ? '0Γÿà (Base)' : `${r}Γÿà`;
     const activeStyle = isActive
       ? 'background:rgba(192, 132, 252, 0.25); border:1px solid #c084fc; color:#fff; font-weight:700;'
       : 'background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:var(--text-muted);';
 
-    pillsHTML += `<span class="partner-rank-pill" style="padding:3px 8px; border-radius:6px; font-size:0.78rem; ${activeStyle}">${starLabel}: ${valFormatted}${isActive ? ' ✨' : ''}</span>`;
+    pillsHTML += `<span class="partner-rank-pill" style="padding:3px 8px; border-radius:6px; font-size:0.78rem; ${activeStyle}">${starLabel}: ${valFormatted}${isActive ? ' Γ£¿' : ''}</span>`;
   }
 
   pillsHTML += '</div>';
@@ -1005,10 +996,10 @@ function getPartnerSkillInfo(pal) {
   };
 
   let rankIndex = 0;
-  if (pal.stars === '★★★★') rankIndex = 4;
-  else if (pal.stars === '★★★') rankIndex = 3;
-  else if (pal.stars === '★★') rankIndex = 2;
-  else if (pal.stars === '★') rankIndex = 1;
+  if (pal.stars === 'ΓÿàΓÿàΓÿàΓÿà') rankIndex = 4;
+  else if (pal.stars === 'ΓÿàΓÿàΓÿà') rankIndex = 3;
+  else if (pal.stars === 'ΓÿàΓÿà') rankIndex = 2;
+  else if (pal.stars === 'Γÿà') rankIndex = 1;
 
   const desc = info.desc || '';
   const breakdown = formatPartnerSkillRankBreakdown(desc, rankIndex);
@@ -1062,7 +1053,7 @@ function filterAndSortPals() {
       return (b.level || 0) - (a.level || 0);
     }
     if (sortOption === 'stars_desc') {
-      const starsRank = (s) => s === '★★★★' ? 4 : s === '★★★' ? 3 : s === '★★' ? 2 : s === '★' ? 1 : 0;
+      const starsRank = (s) => s === 'ΓÿàΓÿàΓÿàΓÿà' ? 4 : s === 'ΓÿàΓÿàΓÿà' ? 3 : s === 'ΓÿàΓÿà' ? 2 : s === 'Γÿà' ? 1 : 0;
       return starsRank(b.stars) - starsRank(a.stars);
     }
     if (sortOption === 'name_asc') {
@@ -1216,19 +1207,19 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
   const palGuid = pal.instance_guid || pal.name || '';
   const safeGuid = palGuid.replace(/'/g, "\\'");
 
-  const portraitHTML = `<img class="portrait-img" src="${portraitSrc}" alt="${palName}" onerror="if(!this.dataset.triedRemote && '${pal.portrait_url || ''}'.startsWith('http')){ this.dataset.triedRemote='true'; this.src='${pal.portrait_url}'; } else { this.outerHTML='<span class=\\'portrait-fallback\\'>🐾</span>'; }">`;
+  const portraitHTML = `<img class="portrait-img" src="${portraitSrc}" alt="${palName}" onerror="if(!this.dataset.triedRemote && '${pal.portrait_url || ''}'.startsWith('http')){ this.dataset.triedRemote='true'; this.src='${pal.portrait_url}'; } else { this.outerHTML='<span class=\\'portrait-fallback\\'>≡ƒÉ╛</span>'; }">`;
   const portraitWrappedHTML = `<a href="${palGgURL}" target="_blank" rel="noopener" class="portrait-link" title="View ${palName} on Palworld.gg">${portraitHTML}</a>`;
 
   const paldeckNum = pal.paldeck_num || '#???';
   const starDisplay = pal.stars || '-';
 
   const alphaIconHTML = pal.is_boss 
-    ? `<img class="alpha-badge-icon" src="https://static.wikia.nocookie.net/palworld/images/a/a3/Alpha_Pals_icon.png/revision/latest/scale-to-width-down/24?cb=20250111071440" alt="Alpha Pal" title="Alpha Pal (Boss)" onerror="this.outerHTML='🔴';">`
+    ? `<img class="alpha-badge-icon" src="https://static.wikia.nocookie.net/palworld/images/a/a3/Alpha_Pals_icon.png/revision/latest/scale-to-width-down/24?cb=20250111071440" alt="Alpha Pal" title="Alpha Pal (Boss)" onerror="this.outerHTML='≡ƒö┤';">`
     : '';
 
   const palLevel = pal.level ? `Lv. ${pal.level}` : 'Lv. ?';
 
-  let genderHTML = '<span class="gender-pill gender-unknown">⚪ N/A</span>';
+  let genderHTML = '<span class="gender-pill gender-unknown">ΓÜ¬ N/A</span>';
   if (pal.gender === 'male') {
     genderHTML = `<span class="gender-pill gender-male"><svg class="svg-icon" viewBox="0 0 24 24"><path fill="#60a5fa" d="M20 4v6h-2V7.41l-3.96 3.97a6 6 0 1 1-1.41-1.41L16.59 6H14V4h6zM10 18a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg> Male</span>`;
   } else if (pal.gender === 'female') {
@@ -1290,7 +1281,7 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
     partnerSkillHTML = `
       <div class="partner-skill-badge">
         <div class="partner-skill-header">
-          <span>⚡ ${partnerInfo.name}</span>
+          <span>ΓÜí ${partnerInfo.name}</span>
           <span class="partner-rank-tag">Rank ${partnerInfo.rank}</span>
         </div>
         <div class="partner-skill-desc">${partnerInfo.desc}</div>
@@ -1308,7 +1299,7 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
         </div>
         <div class="card-type-group">
           ${typeHTML}
-          ${pal.instance_guid ? `<button class="card-edit-btn" onclick="openEditModal('${pal.instance_guid}')" title="Edit Pal">✏️</button>` : ''}
+          ${pal.instance_guid ? `<button class="card-edit-btn" onclick="openEditModal('${pal.instance_guid}')" title="Edit Pal">Γ£Å∩╕Å</button>` : ''}
         </div>
       </div>
 
@@ -1340,14 +1331,14 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
         <div class="location-bar-content">
           ${locSvg}
           <select class="inline-location-select" data-guid="${pal.instance_guid}" onchange="inlineLocationChange(event, '${pal.instance_guid}')" onclick="event.stopPropagation()">
-            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>⚔️ Active Party</option>
-            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>📦 Palbox</option>
-            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>🏠 Main Base</option>
-            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>⛏️ Mining Base</option>
-            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>🐑 Ranching Base</option>
-            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>🥚 Breeding Base</option>
-            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>🛢️ Oil Base</option>
-            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>🌐 Global Palbox</option>
+            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>ΓÜö∩╕Å Active Party</option>
+            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>≡ƒôª Palbox</option>
+            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>≡ƒÅá Main Base</option>
+            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>Γ¢Å∩╕Å Mining Base</option>
+            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>≡ƒÉæ Ranching Base</option>
+            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>≡ƒÑÜ Breeding Base</option>
+            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>≡ƒ¢ó∩╕Å Oil Base</option>
+            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>≡ƒîÉ Global Palbox</option>
             ${(!['Active Party', 'Palbox Storage', 'Main Base', 'Mining Base', 'Ranching Base', 'Breeding Base', 'Oil Base', 'Global Palbox'].includes(pal.location || 'Palbox Storage')) ? `<option value="${pal.location}" selected>${pal.location}</option>` : ''}
           </select>
         </div>
@@ -1382,9 +1373,9 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
 
   const rankTooltipHTML = getRankTooltipHTML(starDisplay);
 
-  let genderHTML = '<span class="gender-pill gender-unknown">⚪ N/A</span>';
-  if (pal.gender === 'male') genderHTML = `<span class="gender-pill gender-male">♂ Male</span>`;
-  else if (pal.gender === 'female') genderHTML = `<span class="gender-pill gender-female">♀ Female</span>`;
+  let genderHTML = '<span class="gender-pill gender-unknown">ΓÜ¬ N/A</span>';
+  if (pal.gender === 'male') genderHTML = `<span class="gender-pill gender-male">ΓÖé Male</span>`;
+  else if (pal.gender === 'female') genderHTML = `<span class="gender-pill gender-female">ΓÖÇ Female</span>`;
 
   const workBadgesHTML = (pal.work_suitabilities || []).map(w => {
     const iconImg = getWorkIconHTML(w.emoji);
@@ -1417,7 +1408,7 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
     const partnerInfo = getPartnerSkillInfo(pal);
     partnerTdHTML = `
       <td>
-        <div style="font-size:0.8rem; font-weight:700; color:#c084fc;">⚡ ${partnerInfo.name} <span class="partner-rank-tag">Rank ${partnerInfo.rank}</span></div>
+        <div style="font-size:0.8rem; font-weight:700; color:#c084fc;">ΓÜí ${partnerInfo.name} <span class="partner-rank-tag">Rank ${partnerInfo.rank}</span></div>
         <div style="font-size:0.72rem; color:var(--text-muted); max-width:200px;">${partnerInfo.desc}</div>
       </td>
     `;
@@ -1441,20 +1432,20 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
       <td>
         <span class="has-tooltip" style="color:var(--text-muted);">
           <select class="inline-location-select-table" data-guid="${pal.instance_guid}" onchange="inlineLocationChange(event, '${pal.instance_guid}')" onclick="event.stopPropagation()">
-            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>⚔️ Active Party</option>
-            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>📦 Palbox</option>
-            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>🏠 Main Base</option>
-            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>⛏️ Mining Base</option>
-            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>🐑 Ranching Base</option>
-            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>🥚 Breeding Base</option>
-            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>🛢️ Oil Base</option>
-            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>🌐 Global Palbox</option>
+            <option value="Active Party" ${pal.location === 'Active Party' ? 'selected' : ''}>ΓÜö∩╕Å Active Party</option>
+            <option value="Palbox Storage" ${(!pal.location || pal.location === 'Palbox Storage') ? 'selected' : ''}>≡ƒôª Palbox</option>
+            <option value="Main Base" ${pal.location === 'Main Base' ? 'selected' : ''}>≡ƒÅá Main Base</option>
+            <option value="Mining Base" ${pal.location === 'Mining Base' ? 'selected' : ''}>Γ¢Å∩╕Å Mining Base</option>
+            <option value="Ranching Base" ${pal.location === 'Ranching Base' ? 'selected' : ''}>≡ƒÉæ Ranching Base</option>
+            <option value="Breeding Base" ${pal.location === 'Breeding Base' ? 'selected' : ''}>≡ƒÑÜ Breeding Base</option>
+            <option value="Oil Base" ${pal.location === 'Oil Base' ? 'selected' : ''}>≡ƒ¢ó∩╕Å Oil Base</option>
+            <option value="Global Palbox" ${pal.location === 'Global Palbox' ? 'selected' : ''}>≡ƒîÉ Global Palbox</option>
             ${(!['Active Party', 'Palbox Storage', 'Main Base', 'Mining Base', 'Ranching Base', 'Breeding Base', 'Oil Base', 'Global Palbox'].includes(pal.location || 'Palbox Storage')) ? `<option value="${pal.location}" selected>${pal.location}</option>` : ''}
           </select>
           ${getLocationTooltipHTML(pal.location)}
         </span>
       </td>
-      <td>${pal.instance_guid ? `<button class="card-edit-btn" onclick="openEditModal('${pal.instance_guid}')" title="Edit Pal">✏️ Edit</button>` : '-'}</td>
+      <td>${pal.instance_guid ? `<button class="card-edit-btn" onclick="openEditModal('${pal.instance_guid}')" title="Edit Pal">Γ£Å∩╕Å Edit</button>` : '-'}</td>
     </tr>
   `;
 }
@@ -1474,7 +1465,7 @@ function resolveTeamMemberPal(m, teamType) {
       instance_guid: m.guid || '',
       paldeck_num: '#???',
       level: 50,
-      stars: '★★★★',
+      stars: 'ΓÿàΓÿàΓÿàΓÿà',
       element1: teamType,
       passive_skills: [{ name: 'Legend', tier: 3 }, { name: 'Musclehead', tier: 3 }, { name: 'Ferocious', tier: 3 }],
       location: 'Synergy Team Squad'
@@ -1501,13 +1492,13 @@ function createSynergyTeamCardHTML(team) {
       <div class="synergy-team-header">
         <div>
           <div class="synergy-team-title">
-            <span>⚔️ ${teamName}</span>
+            <span>ΓÜö∩╕Å ${teamName}</span>
             <span class="elem-badge ${getElementBadgeClass(teamType)} has-tooltip" style="font-size:0.85rem; padding:4px 10px;">${getElementIconHTML(teamType)} ${teamType}${getElementTooltipHTML(teamType)}</span>
           </div>
           <div class="synergy-team-desc"><strong>Synergy Breakdown:</strong> ${synergyDesc}</div>
           ${recs ? `<div class="synergy-team-desc" style="color:var(--accent-blue); margin-top:2px;"><strong>Min/Max Note:</strong> ${recs}</div>` : ''}
         </div>
-        <button class="card-edit-btn" onclick="openEditTeamModal('${teamId}')" title="Edit Team" style="padding:6px 12px; font-size:0.85rem;">✏️ Edit Team</button>
+        <button class="card-edit-btn" onclick="openEditTeamModal('${teamId}')" title="Edit Team" style="padding:6px 12px; font-size:0.85rem;">Γ£Å∩╕Å Edit Team</button>
       </div>
       <div class="synergy-team-members">
         ${memberCards}
@@ -1534,13 +1525,13 @@ function createSynergyTeamListTableHTML(team) {
       <div class="synergy-team-header">
         <div>
           <div class="synergy-team-title">
-            <span>⚔️ ${teamName}</span>
+            <span>ΓÜö∩╕Å ${teamName}</span>
             <span class="elem-badge ${getElementBadgeClass(teamType)} has-tooltip" style="font-size:0.85rem; padding:4px 10px;">${getElementIconHTML(teamType)} ${teamType}${getElementTooltipHTML(teamType)}</span>
           </div>
           <div class="synergy-team-desc"><strong>Synergy Breakdown:</strong> ${synergyDesc}</div>
           ${recs ? `<div class="synergy-team-desc" style="color:var(--accent-blue); margin-top:2px;"><strong>Min/Max Note:</strong> ${recs}</div>` : ''}
         </div>
-        <button class="card-edit-btn" onclick="openEditTeamModal('${teamId}')" title="Edit Team" style="padding:6px 12px; font-size:0.85rem;">✏️ Edit Team</button>
+        <button class="card-edit-btn" onclick="openEditTeamModal('${teamId}')" title="Edit Team" style="padding:6px 12px; font-size:0.85rem;">Γ£Å∩╕Å Edit Team</button>
       </div>
       <div class="pal-table-container">
         <table class="pal-list-table">
@@ -1572,7 +1563,7 @@ function createSynergyTeamListTableHTML(team) {
    ========================================================================== */
 
 function openAddTeamModal() {
-  document.getElementById('teamModalTitle').textContent = '➕ Add New Combat Team';
+  document.getElementById('teamModalTitle').textContent = 'Γ₧ò Add New Combat Team';
   document.getElementById('editTeamId').value = '';
   document.getElementById('editTeamName').value = '';
   document.getElementById('editTeamType').value = 'Ground';
@@ -1601,7 +1592,7 @@ function openEditTeamModal(teamId) {
   const team = teams.find(t => t.id === teamId || t.team_name === teamId);
   if (!team) return;
 
-  document.getElementById('teamModalTitle').textContent = `✏️ Edit ${team.team_name}`;
+  document.getElementById('teamModalTitle').textContent = `Γ£Å∩╕Å Edit ${team.team_name}`;
   document.getElementById('editTeamId').value = team.id || team.team_name;
   document.getElementById('editTeamName').value = team.team_name || '';
   document.getElementById('editTeamType').value = team.type || 'Ground';
@@ -1748,7 +1739,7 @@ function renderWorkSuitabilityForm(currentSuitabilities = []) {
 }
 
 function openAddModal() {
-  document.getElementById('modalTitle').textContent = '➕ Add New Pal';
+  document.getElementById('modalTitle').textContent = 'Γ₧ò Add New Pal';
   document.getElementById('editInstanceGuid').value = '';
   document.getElementById('editName').value = '';
   document.getElementById('editPaldeckNum').value = '#';
@@ -1772,7 +1763,7 @@ function openEditModal(instanceGuid) {
   const pal = allPals.find(p => p.instance_guid === instanceGuid || p.name === instanceGuid);
   if (!pal) return;
 
-  document.getElementById('modalTitle').textContent = `✏️ Edit ${pal.name}`;
+  document.getElementById('modalTitle').textContent = `Γ£Å∩╕Å Edit ${pal.name}`;
   document.getElementById('editInstanceGuid').value = pal.instance_guid;
   document.getElementById('editName').value = pal.name || '';
   document.getElementById('editPaldeckNum').value = pal.paldeck_num || '#';
@@ -1898,7 +1889,7 @@ async function inlineLocationChange(event, guid) {
     
     // Auto-sync and push to Git
     const syncBtn = document.getElementById('syncPalsBtn');
-    if (syncBtn) syncBtn.innerHTML = '🔄 Syncing...';
+    if (syncBtn) syncBtn.innerHTML = '≡ƒöä Syncing...';
     
     try {
       const response = await fetch('/api/sync', {
@@ -1910,15 +1901,15 @@ async function inlineLocationChange(event, guid) {
       });
       const data = await response.json();
       if (data.status === 'success') {
-        if (syncBtn) syncBtn.innerHTML = '✅ Synced & Pushed!';
-        setTimeout(() => { if (syncBtn) syncBtn.innerHTML = '☁️ Sync to My Pals'; }, 2000);
+        if (syncBtn) syncBtn.innerHTML = 'Γ£à Synced & Pushed!';
+        setTimeout(() => { if (syncBtn) syncBtn.innerHTML = 'Γÿü∩╕Å Sync to My Pals'; }, 2000);
       } else {
         console.error("Auto-sync failed:", data.message);
-        if (syncBtn) syncBtn.innerHTML = '⚠️ Sync Failed';
+        if (syncBtn) syncBtn.innerHTML = 'ΓÜá∩╕Å Sync Failed';
       }
     } catch (e) {
       console.error('Error during auto-sync:', e);
-      if (syncBtn) syncBtn.innerHTML = '⚠️ Network Error';
+      if (syncBtn) syncBtn.innerHTML = 'ΓÜá∩╕Å Network Error';
     }
   }
 }
