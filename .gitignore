@@ -5,3 +5,4 @@ __pycache__/
 .ignored/
 watch_apse_changes.py
 Dashboard/apse_tables_preview.html
+Dashboard/preview.html
