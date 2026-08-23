@@ -12,3 +12,4 @@ test save/DT_ItemLotteryDataTable.json
 test save/DT_ItemShopDataTable.json
 test save/DT_PalMonsterParamater.json
 test save/DT_PassiveSkill_Main.json
+test save/*

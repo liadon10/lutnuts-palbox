@@ -23,7 +23,7 @@ import psutil
 # CONFIGURATION & DIRECTORIES
 # ==============================================================================
 BASE_SCRIPT_DIR = Path(
-    r"C:\Users\Natha\Desktop\Games\Palworld\Automatic_uploader"
+    r"C:\Users\Natha\Desktop\Games\Palworld\Dashboard"
 )
 LOGS_DIR = BASE_SCRIPT_DIR / "Logs"
 EXPORTS_DIR = BASE_SCRIPT_DIR / ".json exports"
