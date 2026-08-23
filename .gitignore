@@ -6,3 +6,9 @@ __pycache__/
 watch_apse_changes.py
 Dashboard/apse_tables_preview.html
 Dashboard/preview.html
+test save/APSE.json
+test save/BuildAPSE.ps1
+test save/DT_ItemLotteryDataTable.json
+test save/DT_ItemShopDataTable.json
+test save/DT_PalMonsterParamater.json
+test save/DT_PassiveSkill_Main.json
