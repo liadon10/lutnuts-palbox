@@ -191,7 +191,10 @@ select option {
 }
 
 
-/* Pal Grid Layout */
+/* Card Grid Layout */
+.data-grid,
+.card-grid,
+.grid-container,
 .pal-grid {
   max-width: 1400px;
   margin: 0 auto;
@@ -201,8 +204,11 @@ select option {
 }
 
 /* ==========================================================================
-   PAL CARD COMPONENT (Exact Match to User Annotated Picture 1-10)
+   CARD COMPONENT (Data Card & Entity Showcase)
    ========================================================================== */
+.data-card,
+.entity-card,
+.card,
 .pal-card {
   background: var(--bg-card);
   border: 1px solid var(--border-card);
@@ -219,13 +225,16 @@ select option {
   box-sizing: border-box;
 }
 
+.data-card:hover,
+.entity-card:hover,
+.card:hover,
 .pal-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover);
   border-color: var(--border-highlight);
 }
 
-/* Top Bar: [2: #001] [3: Rank] ... [10: Type] */
+/* Top Bar: [ID / Code] [Status / Rank] ... [Type / Category] */
 .card-top-bar {
   display: flex;
   justify-content: space-between;
@@ -239,7 +248,10 @@ select option {
   gap: 8px;
 }
 
-/* 2: Paldeck Number Pill */
+/* ID / Code Pill */
+.badge-id,
+.badge-code,
+.badge-pill,
 .badge-paldeck {
   background: #272a36;
   color: var(--text-main);
@@ -250,8 +262,10 @@ select option {
   letter-spacing: 0.5px;
 }
 
-/* 3: Condensed Rank Pill */
-.badge-rank {
+/* Status / Rank Pill */
+.badge-rank,
+.badge-rating,
+.badge-status-pill {
   background: rgba(139, 92, 246, 0.2);
   color: #c084fc;
   border: 1px solid rgba(168, 85, 247, 0.4);
@@ -261,13 +275,16 @@ select option {
   border-radius: 8px;
 }
 
-/* 10: Pal Type / Element Badges */
-.card-type-group {
+/* Type / Category Badges */
+.card-type-group,
+.badge-group {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
+.type-badge,
+.category-badge,
 .elem-badge {
   font-size: 0.75rem;
   font-weight: 700;
@@ -278,6 +295,7 @@ select option {
   justify-content: center;
 }
 
+.type-badge img,
 .elem-badge img,
 .custom-icon-img {
   width: 20px;
@@ -340,7 +358,7 @@ select option {
   border: 1px solid rgba(100, 116, 139, 0.3);
 }
 
-/* Header Body Layout: Portrait (1), Name (4), Level (5), Gender (6), Work Suitability (8) */
+/* Header Body Layout: Avatar, Name, Level, Gender, Tags */
 .card-header-body {
   display: flex;
   gap: 16px;
@@ -348,7 +366,9 @@ select option {
   margin-bottom: 16px;
 }
 
-/* 1: Pal Portrait */
+/* Avatar / Thumbnail */
+.avatar-container,
+.thumb-container,
 .portrait-container {
   width: 72px;
   height: 72px;
@@ -363,12 +383,14 @@ select option {
   box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05);
 }
 
+.avatar-img,
 .portrait-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+.avatar-fallback,
 .portrait-fallback {
   font-size: 2rem;
 }
@@ -377,6 +399,7 @@ select option {
   flex-grow: 1;
 }
 
+.name-meta-row,
 .name-gender-row {
   display: flex;
   justify-content: space-between;
@@ -384,7 +407,10 @@ select option {
   margin-bottom: 2px;
 }
 
-/* 4: Pal Name */
+/* Item / Entity Name */
+.card-title,
+.item-name,
+.entity-name,
 .pal-name {
   font-family: 'Outfit', sans-serif;
   font-size: 1.25rem;
@@ -393,7 +419,8 @@ select option {
   line-height: 1.2;
 }
 
-/* 6: Gender Pill */
+/* Gender / Meta Pill */
+.meta-pill-gender,
 .gender-pill {
   font-size: 0.85rem;
   font-weight: 600;
@@ -414,7 +441,9 @@ select option {
   color: var(--text-dim);
 }
 
-/* 5: Pal Level */
+/* Item / Entity Subtitle */
+.item-subtitle,
+.entity-subtitle,
 .pal-level {
   font-size: 0.875rem;
   font-weight: 700;
@@ -422,13 +451,15 @@ select option {
   margin-bottom: 10px;
 }
 
-/* 8: Work Suitability Badges Row */
+/* Tags / Work Badges Row */
+.tags-row,
 .work-badges-row {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
 
+.tag-badge,
 .work-badge {
   background: #222532;
   border: 1px solid #313547;
@@ -443,13 +474,14 @@ select option {
 }
 
 /* Divider Line */
+.divider,
 .card-divider {
   height: 1px;
   background: var(--border-card);
   margin: 14px 0;
 }
 
-/* Section Title: Passive Skills (7) */
+/* Section Title */
 .section-title {
   font-size: 0.75rem;
   font-weight: 700;
@@ -459,7 +491,9 @@ select option {
   margin-bottom: 10px;
 }
 
-/* 7: Passive Skills 2x2 Grid (Centered, Full Width, 10px Gap) */
+/* 2x2 Matrix / Heatmap Grid */
+.matrix-grid-2x2,
+.heatmap-grid-2x2,
 .passives-grid-2x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -468,6 +502,9 @@ select option {
   width: 100%;
 }
 
+.matrix-pill,
+.heatmap-pill,
+.status-pill,
 .passive-pill {
   background: var(--bg-pill);
   border: 1px solid var(--border-card);
@@ -486,44 +523,63 @@ select option {
   width: 100%;
 }
 
-/* Passive Skill Tier Heatmap Backgrounds */
+/* Tier Heatmap Backgrounds */
+.tier-3,
+.tier-gold,
+.status-legendary,
 .passive-tier-3 {
   background: rgba(234, 179, 8, 0.15);
   border-color: rgba(234, 179, 8, 0.4);
   color: #fde047;
 }
 
+.tier-2,
+.tier-purple,
+.status-epic,
 .passive-tier-2 {
   background: rgba(168, 85, 247, 0.15);
   border-color: rgba(168, 85, 247, 0.4);
   color: #e9d5ff;
 }
 
+.tier-1,
+.tier-blue,
+.status-rare,
 .passive-tier-1 {
   background: rgba(59, 130, 246, 0.15);
   border-color: rgba(59, 130, 246, 0.4);
   color: #93c5fd;
 }
 
+.tier-neg,
+.tier-danger,
+.status-danger,
 .passive-tier-neg {
   background: rgba(239, 68, 68, 0.15);
   border-color: rgba(239, 68, 68, 0.4);
   color: #fca5a5;
 }
 
+.tier-0,
+.tier-muted,
+.status-neutral,
 .passive-tier-0 {
   background: var(--bg-pill);
   border-color: var(--border-card);
   color: var(--text-muted);
 }
 
+.tier-empty,
+.status-empty,
 .passive-empty {
   background: rgba(255, 255, 255, 0.02);
   border: 1px dashed rgba(255, 255, 255, 0.08);
   color: var(--text-dim);
 }
 
-/* 9: Pal Location Dropdown-style Pill */
+/* Status / Assignment Meta Bar */
+.meta-bar,
+.status-bar,
 .location-bar {
   margin-top: 14px;
   background: #1f222d;
@@ -540,6 +596,7 @@ select option {
   box-sizing: border-box;
 }
 
+.meta-bar-content,
 .location-bar-content {
   display: flex;
   align-items: center;
@@ -548,6 +605,7 @@ select option {
   min-width: 0;
 }
 
+.inline-select,
 .inline-location-select {
   background: transparent;
   border: none;
@@ -561,11 +619,13 @@ select option {
   width: 100%;
 }
 
+.inline-select option,
 .inline-location-select option {
   background-color: var(--card-bg);
   color: var(--text-main);
 }
 
+.inline-table-select,
 .inline-location-select-table {
   background: transparent;
   border: none;
@@ -668,6 +728,7 @@ select option {
   border: 1px solid rgba(139, 92, 246, 0.45);
   box-shadow: 0 3px 10px rgba(139, 92, 246, 0.25);
 }
+
 .btn-electric-purple:hover {
   background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
   box-shadow: 0 5px 16px rgba(139, 92, 246, 0.45);
@@ -679,6 +740,7 @@ select option {
   border: 1px solid rgba(239, 68, 68, 0.4);
   box-shadow: 0 3px 10px rgba(153, 27, 27, 0.25);
 }
+
 .btn-deep-crimson:hover {
   background: linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%);
   box-shadow: 0 5px 16px rgba(239, 68, 68, 0.45);
@@ -690,6 +752,7 @@ select option {
   border: 1px solid rgba(79, 70, 229, 0.45);
   box-shadow: 0 3px 10px rgba(79, 70, 229, 0.25);
 }
+
 .btn-electric-indigo:hover {
   background: linear-gradient(135deg, #4338ca 0%, #312e81 100%);
   box-shadow: 0 5px 16px rgba(79, 70, 229, 0.45);
@@ -701,6 +764,7 @@ select option {
   border: 1px solid rgba(225, 29, 72, 0.4);
   box-shadow: 0 3px 10px rgba(136, 19, 55, 0.25);
 }
+
 .btn-velvet-wine:hover {
   background: linear-gradient(135deg, #9f1239 0%, #640722 100%);
   box-shadow: 0 5px 16px rgba(225, 29, 72, 0.45);
@@ -712,6 +776,7 @@ select option {
   border: 1px solid rgba(99, 102, 241, 0.45);
   box-shadow: 0 3px 10px rgba(99, 102, 241, 0.25);
 }
+
 .btn-royal-blurple:hover {
   background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
   box-shadow: 0 5px 16px rgba(99, 102, 241, 0.45);
@@ -723,6 +788,7 @@ select option {
   border: 1px solid rgba(37, 99, 235, 0.45);
   box-shadow: 0 3px 10px rgba(37, 99, 235, 0.25);
 }
+
 .btn-sapphire-blue:hover {
   background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%);
   box-shadow: 0 5px 16px rgba(37, 99, 235, 0.45);
@@ -734,6 +800,7 @@ select option {
   border: 1px solid rgba(16, 185, 129, 0.4);
   box-shadow: 0 3px 10px rgba(16, 185, 129, 0.25);
 }
+
 .btn-emerald-mint:hover {
   background: linear-gradient(135deg, #059669 0%, #047857 100%);
   box-shadow: 0 5px 16px rgba(16, 185, 129, 0.45);
@@ -745,6 +812,7 @@ select option {
   border: 1px solid rgba(245, 158, 11, 0.45);
   box-shadow: 0 3px 10px rgba(245, 158, 11, 0.25);
 }
+
 .btn-amber-gold:hover {
   background: linear-gradient(135deg, #d97706 0%, #92400e 100%);
   box-shadow: 0 5px 16px rgba(245, 158, 11, 0.45);
@@ -756,6 +824,7 @@ select option {
   border: 1px solid rgba(6, 182, 212, 0.45);
   box-shadow: 0 3px 10px rgba(6, 182, 212, 0.25);
 }
+
 .btn-cyan-teal:hover {
   background: linear-gradient(135deg, #0891b2 0%, #155e75 100%);
   box-shadow: 0 5px 16px rgba(6, 182, 212, 0.45);
@@ -1154,13 +1223,16 @@ select option {
 .custom-select-options::-webkit-scrollbar {
   width: 6px;
 }
+
 .custom-select-options::-webkit-scrollbar-track {
   background: rgba(20, 14, 30, 0.8);
 }
+
 .custom-select-options::-webkit-scrollbar-thumb {
   background: rgba(106, 154, 184, 0.5);
   border-radius: 4px;
 }
+
 .custom-select-options::-webkit-scrollbar-thumb:hover {
   background: rgba(106, 154, 184, 0.8);
 }
@@ -1227,17 +1299,28 @@ select option {
 
 
 /* Card & Row Pointer Cursor */
+.data-card,
+.entity-card,
+.card,
 .pal-card,
+.data-table tbody tr,
+.data-list-table tbody tr,
+.table-glowing tbody tr,
 .pal-list-table tbody tr {
   cursor: pointer;
 }
 
+.data-card:hover,
+.entity-card:hover,
+.card:hover,
 .pal-card:hover {
   border-color: rgba(59, 130, 246, 0.4);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(59, 130, 246, 0.15);
 }
 
-/* Pal Detail Modal Styling */
+/* Detail Modal Styling */
+.detail-modal-content,
+.modal-content-lg,
 .pal-detail-modal-content {
   max-width: 820px;
   width: 95%;
@@ -1245,6 +1328,7 @@ select option {
   overflow-y: auto;
 }
 
+.detail-hero,
 .pal-detail-hero {
   display: flex;
   gap: 24px;
@@ -1256,7 +1340,8 @@ select option {
   margin-bottom: 20px;
 }
 
-.detail-portrait-large {
+.detail-portrait-large,
+.detail-avatar-large {
   width: 110px;
   height: 110px;
   object-fit: cover;
@@ -1280,6 +1365,7 @@ select option {
   flex-wrap: wrap;
 }
 
+.detail-title,
 .detail-pal-name {
   font-size: 1.6rem;
   font-weight: 800;
@@ -1302,7 +1388,8 @@ select option {
   color: var(--text-muted);
 }
 
-.detail-capture-pill {
+.detail-capture-pill,
+.detail-highlight-pill {
   background: rgba(16, 185, 129, 0.15);
   border: 1px solid rgba(16, 185, 129, 0.35);
   color: #34d399;
@@ -1310,6 +1397,7 @@ select option {
 }
 
 /* Detail Sections */
+.detail-section,
 .pal-detail-section {
   background: var(--bg-card);
   border: 1px solid var(--border-card);
@@ -1501,6 +1589,8 @@ select option {
 }
 
 /* List / Table View Layout */
+.table-container,
+.data-table-container,
 .pal-table-container {
   width: 100%;
   overflow-x: auto;
@@ -1510,6 +1600,9 @@ select option {
   box-shadow: var(--shadow-card);
 }
 
+.data-table,
+.data-list-table,
+.table-glowing,
 .pal-list-table {
   width: 100%;
   border-collapse: separate !important;
@@ -1518,12 +1611,21 @@ select option {
   font-size: 0.85rem;
 }
 
+.data-table th,
+.data-list-table th,
+.table-glowing th,
 .pal-list-table th,
+.data-table td,
+.data-list-table td,
+.table-glowing td,
 .pal-list-table td {
   border-left: none !important;
   border-right: none !important;
 }
 
+.data-table th,
+.data-list-table th,
+.table-glowing th,
 .pal-list-table th {
   background: rgba(15, 23, 42, 0.85);
   color: var(--text-muted);
@@ -1536,11 +1638,17 @@ select option {
   letter-spacing: 0.5px;
 }
 
+.data-table tbody tr,
+.data-list-table tbody tr,
+.table-glowing tbody tr,
 .pal-list-table tbody tr {
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+.data-table td,
+.data-list-table td,
+.table-glowing td,
 .pal-list-table td {
   padding: 12px 16px;
   border-top: none !important;
@@ -1549,36 +1657,50 @@ select option {
   transition: background 0.2s ease, box-shadow 0.2s ease, border-radius 0.2s ease;
 }
 
-/* Super Fancy Glowing Row Outline on Hover */
+/* Glowing Row Outline on Hover */
+.data-table tbody tr:hover,
+.data-list-table tbody tr:hover,
+.table-glowing tbody tr:hover,
 .pal-list-table tbody tr:hover {
   background: linear-gradient(90deg, rgba(106, 154, 184, 0.18) 0%, rgba(154, 138, 184, 0.18) 50%, rgba(184, 136, 152, 0.18) 100%) !important;
   filter: drop-shadow(0 0 10px rgba(106, 154, 184, 0.25));
 }
 
+.data-table tbody tr:hover td,
+.data-list-table tbody tr:hover td,
+.table-glowing tbody tr:hover td,
 .pal-list-table tbody tr:hover td {
   border-bottom: 1px solid transparent !important;
   box-shadow: inset 0 1.5px 0 rgba(106, 154, 184, 0.75), inset 0 -1.5px 0 rgba(106, 154, 184, 0.75) !important;
 }
 
+.data-table tbody tr:hover td:first-child,
+.data-list-table tbody tr:hover td:first-child,
+.table-glowing tbody tr:hover td:first-child,
 .pal-list-table tbody tr:hover td:first-child {
   box-shadow: inset 1.5px 1.5px 0 rgba(106, 154, 184, 0.75), inset 0 -1.5px 0 rgba(106, 154, 184, 0.75) !important;
   border-top-left-radius: 10px !important;
   border-bottom-left-radius: 10px !important;
 }
 
+.data-table tbody tr:hover td:last-child,
+.data-list-table tbody tr:hover td:last-child,
+.table-glowing tbody tr:hover td:last-child,
 .pal-list-table tbody tr:hover td:last-child {
   box-shadow: inset -1.5px 1.5px 0 rgba(106, 154, 184, 0.75), inset 0 -1.5px 0 rgba(106, 154, 184, 0.75) !important;
   border-top-right-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
 }
 
+.data-table td.col-level-rank,
+.data-table th.col-level-rank,
 .pal-list-table td.col-level-rank,
 .pal-list-table th.col-level-rank {
   white-space: nowrap;
   min-width: 145px;
 }
 
-/* Pal Detail View Toggle Switch (Dusk Office Neon Styled) */
+/* Detail View Toggle Switch (Dusk Office Neon Styled) */
 .detail-view-toggle {
   display: flex;
   background: var(--bg-input);
@@ -1611,7 +1733,8 @@ select option {
   box-shadow: 0 0 12px rgba(184, 136, 152, 0.35);
 }
 
-/* Palpagos Tactical Map Container & Leaflet Setup */
+/* Tactical Map Container & Leaflet Setup */
+#leafletMap,
 #leafletPalMap {
   width: 100%;
   height: 380px;
@@ -1661,6 +1784,8 @@ select option {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+.tactical-map-container,
+.map-container,
 .palpagos-map-container {
   position: relative;
   width: 100%;
@@ -1773,7 +1898,9 @@ select option {
   font-size: 0.8rem;
 }
 
-/* Drops Grid & Card Styling */
+/* Drops & Item Grid / Compact Card Styling */
+.compact-cards-grid,
+.item-cards-grid,
 .drops-grid,
 .drop-cards-grid {
   display: grid;
@@ -1781,6 +1908,8 @@ select option {
   gap: 12px;
 }
 
+.compact-card,
+.item-card,
 .drop-card {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-card);
@@ -1792,12 +1921,15 @@ select option {
   transition: all 0.2s ease;
 }
 
+.compact-card:hover,
+.item-card:hover,
 .drop-card:hover {
   background: rgba(184, 136, 152, 0.08);
   border-color: var(--border-highlight);
   transform: translateY(-2px);
 }
 
+.item-icon-img,
 .drop-item-img {
   width: 38px;
   height: 38px;
@@ -1805,6 +1937,8 @@ select option {
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
+.compact-card-info,
+.item-card-info,
 .drop-card-info {
   display: flex;
   flex-direction: column;
@@ -1812,12 +1946,14 @@ select option {
   flex: 1;
 }
 
+.item-title,
 .drop-item-name {
   font-size: 0.88rem;
   font-weight: 700;
   color: var(--text-main);
 }
 
+.item-meta-row,
 .drop-item-meta {
   display: flex;
   align-items: center;
@@ -1826,6 +1962,8 @@ select option {
   color: var(--text-muted);
 }
 
+.rate-badge,
+.pill-accent,
 .drop-rate-badge {
   background: rgba(106, 154, 184, 0.2);
   border: 1px solid rgba(106, 154, 184, 0.4);
@@ -1836,67 +1974,7 @@ select option {
   font-size: 0.72rem;
 }
 
-/* List View (Table & Row Cards) Premium Hover Effect */
-.pal-table-container {
-  width: 100%;
-  overflow-x: auto;
-  border-radius: 16px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-card);
-  padding: 12px;
-  box-shadow: var(--shadow-card);
-}
-
-.pal-list-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 6px;
-}
-
-.pal-list-table th {
-  padding: 12px 16px;
-  text-align: left;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 1px solid var(--border-card);
-}
-
-.pal-list-table td {
-  padding: 12px 16px;
-  background: rgba(255, 255, 255, 0.02);
-  border-top: 1px solid var(--border-card);
-  border-bottom: 1px solid var(--border-card);
-  transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.pal-list-table td:first-child {
-  border-left: 1px solid var(--border-card);
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
-}
-
-.pal-list-table td:last-child {
-  border-right: 1px solid var(--border-card);
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-
-.pal-list-table tbody tr {
-  cursor: pointer;
-  transition: transform 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.pal-list-table tbody tr:hover td {
-  background: var(--bg-card-hover) !important;
-  border-color: var(--border-highlight) !important;
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px -4px rgba(184, 136, 152, 0.3);
-}
-
+.table-avatar-img,
 .table-portrait-img {
   width: 42px;
   height: 42px;
@@ -1906,7 +1984,8 @@ select option {
   background: #0f172a;
 }
 
-/* Partner Skill Badge */
+/* Feature / Skill Badges */
+.feature-badge,
 .partner-skill-badge {
   display: inline-flex;
   flex-direction: column;
@@ -1918,6 +1997,7 @@ select option {
   font-size: 0.75rem;
 }
 
+.feature-header,
 .partner-skill-header {
   display: flex;
   align-items: center;
@@ -1927,6 +2007,7 @@ select option {
   color: #c084fc;
 }
 
+.feature-tag,
 .partner-rank-tag {
   background: rgba(192, 132, 252, 0.25);
   color: #f3e8ff;
@@ -1935,13 +2016,16 @@ select option {
   border-radius: 4px;
 }
 
+.feature-desc,
 .partner-skill-desc {
   font-size: 0.72rem;
   color: #cbd5e1;
   margin-top: 3px;
 }
 
-/* Combat Team Synergy View Cards */
+/* Team / Group Cards */
+.group-cards-container,
+.synergy-container,
 .synergy-teams-container {
   display: flex;
   flex-direction: column;
@@ -1949,15 +2033,17 @@ select option {
   width: 100%;
 }
 
+.group-card,
+.synergy-card,
 .synergy-team-card {
   background: var(--bg-card);
   border: 1px solid var(--border-card);
   border-radius: 16px;
   padding: 20px;
   box-shadow: var(--shadow-card);
-
 }
 
+.group-header,
 .synergy-team-header {
   display: flex;
   justify-content: space-between;
@@ -1967,6 +2053,7 @@ select option {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.group-title,
 .synergy-team-title {
   font-size: 1.25rem;
   font-weight: 800;
@@ -1976,12 +2063,14 @@ select option {
   color: var(--text-main);
 }
 
+.group-desc,
 .synergy-team-desc {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-top: 4px;
 }
 
+.group-members-grid,
 .synergy-team-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -2042,15 +2131,22 @@ select option {
     gap: 8px;
   }
 
+  .data-grid,
+  .card-grid,
   .pal-grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
 
+  .data-card,
+  .entity-card,
+  .card,
   .pal-card {
     padding: 16px;
   }
 
+  .detail-modal-content,
+  .modal-content-lg,
   .pal-detail-modal-content {
     width: 95vw;
     max-width: 100%;
@@ -2060,6 +2156,7 @@ select option {
     border-radius: 16px;
   }
 
+  .detail-hero,
   .pal-detail-hero {
     flex-direction: column;
     align-items: center;
@@ -2074,11 +2171,16 @@ select option {
     justify-content: center;
   }
 
+  .compact-cards-grid,
+  .item-cards-grid,
   .drops-grid,
   .drop-cards-grid {
     grid-template-columns: 1fr;
   }
 
+  .data-table,
+  .data-list-table,
+  .table-glowing,
   .pal-list-table {
     display: block;
     overflow-x: auto;
