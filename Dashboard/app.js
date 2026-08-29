@@ -1,4 +1,6 @@
 let allPals = [];
+let savesData = null;
+let activeSaveGuid = null;
 let currentViewMode = 'grid'; // 'grid' | 'list'
 let currentMainView = 'all_pals'; // 'all_pals' | 'synergy_teams'
 
@@ -33,28 +35,99 @@ function ensureAllPalsHaveGuids() {
   });
 }
 
-async function fetchPalsData() {
-  // Always clear stale or empty localStorage on startup if present
-  const savedData = localStorage.getItem('palbox_custom_pals');
-  if (savedData) {
-    try {
-      const parsed = JSON.parse(savedData);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        allPals = parsed;
-        console.log(`[Palbox] Loaded ${allPals.length} Pals from localStorage.`);
-        ensureAllPalsHaveGuids();
-        const totalCountEl = document.getElementById('totalCount');
-        if (totalCountEl) totalCountEl.textContent = allPals.length;
-        renderMainView();
-        return;
-      }
-    } catch (e) {
-      console.error('Error parsing localStorage custom pals:', e);
+function renderCharacterDropdown() {
+  const optionsContainer = document.getElementById('characterDropdownOptions');
+  const triggerText = document.getElementById('characterDropdownSelected');
+  if (!optionsContainer || !savesData || !Array.isArray(savesData.saves)) return;
+
+  const currentSave = savesData.saves.find(s => s.world_guid === activeSaveGuid) || savesData.saves[0];
+  if (currentSave) {
+    activeSaveGuid = currentSave.world_guid;
+    if (triggerText) {
+      triggerText.innerHTML = `👤 <strong>${currentSave.character_name}</strong> <span style="color:var(--text-muted); font-size:0.8rem; margin-left:4px;">(Lv. ${currentSave.player_level})</span>`;
     }
-    localStorage.removeItem('palbox_custom_pals');
   }
 
-  // Helper function to apply PALS_DATA array
+  optionsContainer.innerHTML = savesData.saves.map(save => {
+    const isActive = save.world_guid === activeSaveGuid;
+    return `
+      <div class="custom-option character-option-item ${isActive ? 'active' : ''}" data-value="${save.world_guid}"
+           onclick="selectCharacterSave('${save.world_guid}')">
+        <div class="character-option-header">
+          <span>👤 ${save.character_name} <span style="color:var(--accent-blue); font-size:0.8rem;">(Lv. ${save.player_level})</span></span>
+          <span class="badge-rank" style="font-size:0.75rem; padding:2px 8px;">${save.pals_count} Pals</span>
+        </div>
+        <div class="character-option-meta">
+          <span>🗺️ ${save.world_name}</span>
+          <span>•</span>
+          <span>🕒 ${save.last_modified}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function selectCharacterSave(saveGuid, shouldRender = true) {
+  if (!savesData || !Array.isArray(savesData.saves)) return;
+  const targetSave = savesData.saves.find(s => s.world_guid === saveGuid);
+  if (!targetSave) return;
+
+  activeSaveGuid = saveGuid;
+  localStorage.setItem('palbox_active_save_guid', saveGuid);
+
+  allPals = targetSave.pals || [];
+  ensureAllPalsHaveGuids();
+
+  renderCharacterDropdown();
+
+  const totalCountEl = document.getElementById('totalCount');
+  if (totalCountEl) totalCountEl.textContent = allPals.length;
+
+  // Close dropdown menu if open
+  const menu = document.getElementById('characterDropdownOptions');
+  if (menu) menu.classList.remove('open');
+
+  if (shouldRender) {
+    renderMainView();
+  }
+}
+
+window.selectCharacterSave = selectCharacterSave;
+
+async function fetchPalsData() {
+  // 1. Check for multi-save data in saves_data.json
+  try {
+    const savesRes = await fetch('saves_data.json?v=' + Date.now());
+    if (savesRes.ok) {
+      const data = await savesRes.json();
+      if (data && Array.isArray(data.saves) && data.saves.length > 0) {
+        savesData = data;
+        const storedGuid = localStorage.getItem('palbox_active_save_guid');
+        const initialGuid = (storedGuid && data.saves.some(s => s.world_guid === storedGuid))
+          ? storedGuid
+          : (data.active_save_guid || data.saves[0].world_guid);
+        
+        selectCharacterSave(initialGuid, true);
+        return;
+      }
+    }
+  } catch (err) {
+    console.warn('Fetch saves_data.json failed, checking window.SAVES_DATA:', err);
+  }
+
+  // 2. Check window.SAVES_DATA if loaded via script
+  if (window.SAVES_DATA && Array.isArray(window.SAVES_DATA.saves) && window.SAVES_DATA.saves.length > 0) {
+    savesData = window.SAVES_DATA;
+    const storedGuid = localStorage.getItem('palbox_active_save_guid');
+    const initialGuid = (storedGuid && savesData.saves.some(s => s.world_guid === storedGuid))
+      ? storedGuid
+      : (savesData.active_save_guid || savesData.saves[0].world_guid);
+    
+    selectCharacterSave(initialGuid, true);
+    return;
+  }
+
+  // 3. Fallback: single save mode from pals.json
   const applyPalsData = (data) => {
     if (Array.isArray(data) && data.length > 0) {
       allPals = data;
@@ -67,34 +140,8 @@ async function fetchPalsData() {
     return false;
   };
 
-  // 1. FIRST: fetch pals.json directly (bypasses script caching/race condition)
   try {
     const response = await fetch('pals.json?v=' + Date.now());
-    if (response.ok) {
-      const jsonPals = await response.json();
-      if (applyPalsData(jsonPals)) return;
-    }
-  } catch (err) {
-    console.warn('Fetch pals.json failed, trying window.PALS_DATA:', err);
-  }
-
-  // 2. Poll for window.PALS_DATA (up to 10 seconds)
-  for (let i = 0; i < 100; i++) {
-    await new Promise(r => setTimeout(r, 100));
-    if (applyPalsData(window.PALS_DATA)) return;
-  }
-
-  // 3. Fallback: Dynamically load pals.js
-  try {
-    await loadScript('pals.js');
-    if (applyPalsData(window.PALS_DATA)) return;
-  } catch (err) {
-    console.warn('loadScript("pals.js") failed:', err);
-  }
-
-  // 4. Fallback: fetch pals.json for web server
-  try {
-    const response = await fetch('pals.json');
     if (response.ok) {
       const jsonPals = await response.json();
       if (applyPalsData(jsonPals)) return;
@@ -103,19 +150,21 @@ async function fetchPalsData() {
     console.warn('Fetch pals.json failed:', err);
   }
 
+  if (window.PALS_DATA && applyPalsData(window.PALS_DATA)) return;
+
   const gridEl = document.getElementById('palGrid');
   if (gridEl) {
     gridEl.innerHTML = `
       <div style="grid-column: 1/-1; text-align: center; padding: 48px; color: var(--text-muted);">
         <h3>⚠️ Could not load Pal data</h3>
-        <p>Make sure <code>Dashboard/pals.js</code> is present.</p>
+        <p>Make sure <code>Dashboard/pals.js</code> or <code>saves_data.json</code> is present.</p>
         <button onclick="localStorage.clear(); location.reload();" style="margin-top:16px; padding:8px 16px; background:var(--accent-blue); color:white; border:none; border-radius:6px; cursor:pointer;">Clear Cache & Reload</button>
       </div>
     `;
   }
 }
 
-function getSynergyTeamsData() {
+function getAllSavedSynergyTeams() {
   const savedTeams = localStorage.getItem('synergy_custom_teams');
   if (savedTeams) {
     try {
@@ -126,6 +175,26 @@ function getSynergyTeamsData() {
     }
   }
   return window.SYNERGY_TEAMS || [];
+}
+
+function getSynergyTeamsData() {
+  const allTeams = getAllSavedSynergyTeams();
+  const currentSave = (savesData && Array.isArray(savesData.saves))
+    ? (savesData.saves.find(s => s.world_guid === activeSaveGuid) || savesData.saves[0])
+    : null;
+
+  return allTeams.filter(team => {
+    if (team.world_guid && activeSaveGuid) {
+      return team.world_guid === activeSaveGuid;
+    }
+    if (team.character_name && currentSave) {
+      return team.character_name.toLowerCase() === currentSave.character_name.toLowerCase();
+    }
+    if (currentSave && (currentSave.character_name.toLowerCase() === 'luna' || activeSaveGuid === '66C167B649D78C6448EC92A2D0C95070')) {
+      return true;
+    }
+    return false;
+  });
 }
 
 function savePalsState() {
@@ -150,7 +219,7 @@ function toggleCustomDropdown(e, optionsContainerId) {
   if (e) e.stopPropagation();
   const targetContainer = document.getElementById(optionsContainerId);
   const allContainers = document.querySelectorAll('.custom-select-options');
-  
+
   allContainers.forEach(container => {
     if (container !== targetContainer) {
       container.classList.remove('open');
@@ -216,13 +285,13 @@ function setupCustomDropdowns() {
 
 function handlePalCardClick(e, guid) {
   if (!guid) return;
-  if (e.target.closest('.card-edit-btn') || 
-      e.target.closest('.portrait-link') || 
-      e.target.closest('.table-portrait-link') || 
-      e.target.closest('.inline-location-select') ||
-      e.target.closest('.inline-location-select-table') ||
-      e.target.closest('select') ||
-      e.target.closest('a')) {
+  if (e.target.closest('.card-edit-btn') ||
+    e.target.closest('.portrait-link') ||
+    e.target.closest('.table-portrait-link') ||
+    e.target.closest('.inline-location-select') ||
+    e.target.closest('.inline-location-select-table') ||
+    e.target.closest('select') ||
+    e.target.closest('a')) {
     return;
   }
   openPalDetailModal(guid);
@@ -233,13 +302,13 @@ function setupGridCardClickDelegation() {
   if (!grid) return;
 
   grid.addEventListener('click', (e) => {
-    if (e.target.closest('.card-edit-btn') || 
-        e.target.closest('.portrait-link') || 
-        e.target.closest('.table-portrait-link') || 
-        e.target.closest('.inline-location-select') ||
-        e.target.closest('.inline-location-select-table') ||
-        e.target.closest('select') ||
-        e.target.closest('a')) {
+    if (e.target.closest('.card-edit-btn') ||
+      e.target.closest('.portrait-link') ||
+      e.target.closest('.table-portrait-link') ||
+      e.target.closest('.inline-location-select') ||
+      e.target.closest('.inline-location-select-table') ||
+      e.target.closest('select') ||
+      e.target.closest('a')) {
       return;
     }
 
@@ -270,26 +339,50 @@ function setMainViewMode(mode) {
   renderMainView();
 }
 
-function toggleSynergyView() {
-  const synergyBtn = document.getElementById('synergyViewBtn');
-  if (currentMainView === 'all_pals') {
-    currentMainView = 'synergy_teams';
-    if (synergyBtn) {
-      synergyBtn.classList.add('active');
-      synergyBtn.innerHTML = '🐾 All Pals View';
-    }
-  } else {
-    currentMainView = 'all_pals';
-    if (synergyBtn) {
-      synergyBtn.classList.remove('active');
-      synergyBtn.innerHTML = '⚔️ Combat Teams';
+function getSynergyButton() {
+  return document.getElementById('btn-synergy') ||
+    document.getElementById('synergyViewBtn') ||
+    document.getElementById('btnSynergyToggle') ||
+    document.querySelector('.btn-synergy');
+}
+
+function updateSynergyButtonText() {
+  const btn = getSynergyButton();
+  if (btn) {
+    if (currentMainView === 'synergy_teams') {
+      btn.classList.add('active');
+      btn.innerHTML = '🐾 All Pals View';
+    } else {
+      btn.classList.remove('active');
+      btn.innerHTML = '⚔️ Combat Teams';
     }
   }
+}
+
+let lastSynergyToggleTime = 0;
+function toggleSynergyView(event) {
+  if (event && event.stopPropagation) {
+    event.stopPropagation();
+  }
+  const now = Date.now();
+  if (now - lastSynergyToggleTime < 250) {
+    return;
+  }
+  lastSynergyToggleTime = now;
+
+  if (currentMainView === 'all_pals') {
+    currentMainView = 'synergy_teams';
+  } else {
+    currentMainView = 'all_pals';
+  }
+  updateSynergyButtonText();
   renderMainView();
 }
 
 window.setMainViewMode = setMainViewMode;
 window.toggleSynergyView = toggleSynergyView;
+window.openAddTeamModal = openAddTeamModal;
+window.openAddSynergyTeamModal = openAddTeamModal;
 
 function setupEventListeners() {
   const inputs = ['searchInput', 'locationFilter', 'rankFilter', 'sortSelect'];
@@ -299,25 +392,25 @@ function setupEventListeners() {
   });
 
   const addBtn = document.getElementById('addPalBtn');
-  if (addBtn) addBtn.addEventListener('click', openAddModal);
+  if (addBtn && !addBtn.getAttribute('onclick')) addBtn.addEventListener('click', openAddModal);
 
   const addTeamBtn = document.getElementById('addTeamBtn');
-  if (addTeamBtn) addTeamBtn.addEventListener('click', openAddSynergyTeamModal);
+  if (addTeamBtn && !addTeamBtn.getAttribute('onclick')) addTeamBtn.addEventListener('click', openAddTeamModal);
 
   const syncMyPalsBtn = document.getElementById('syncMyPalsBtn') || document.getElementById('syncPalsBtn');
-  if (syncMyPalsBtn) syncMyPalsBtn.addEventListener('click', syncToMyPalsTable);
+  if (syncMyPalsBtn && !syncMyPalsBtn.getAttribute('onclick')) syncMyPalsBtn.addEventListener('click', syncToMyPalsTable);
 
   const syncSaveBtn = document.getElementById('syncSaveBtn');
-  if (syncSaveBtn) syncSaveBtn.addEventListener('click', syncFromSaveFile);
+  if (syncSaveBtn && !syncSaveBtn.getAttribute('onclick')) syncSaveBtn.addEventListener('click', syncFromSaveFile);
 
   const gridBtn = document.getElementById('gridModeBtn');
-  if (gridBtn) gridBtn.addEventListener('click', () => setMainViewMode('grid'));
+  if (gridBtn && !gridBtn.getAttribute('onclick')) gridBtn.addEventListener('click', () => setMainViewMode('grid'));
 
   const listBtn = document.getElementById('listModeBtn');
-  if (listBtn) listBtn.addEventListener('click', () => setMainViewMode('list'));
+  if (listBtn && !listBtn.getAttribute('onclick')) listBtn.addEventListener('click', () => setMainViewMode('list'));
 
-  const synergyBtn = document.getElementById('synergyViewBtn');
-  if (synergyBtn) synergyBtn.addEventListener('click', toggleSynergyView);
+  const synergyBtn = getSynergyButton();
+  if (synergyBtn && !synergyBtn.getAttribute('onclick')) synergyBtn.addEventListener('click', toggleSynergyView);
 
 
 
@@ -682,7 +775,7 @@ function openPalDetailModal(identifier) {
   }
 
   document.getElementById('detailPalTitle').textContent = `🐾 ${palName} Details`;
-  
+
   const ggBtn = document.getElementById('detailPalGgBtn');
   if (ggBtn) ggBtn.href = palGgURL;
 
@@ -740,7 +833,7 @@ function getElementIconHTML(elem) {
   if (!elem) return '';
   const clean = elem.trim();
   const validElements = ['Dark', 'Dragon', 'Electric', 'Fire', 'Grass', 'Ground', 'Ice', 'Neutral', 'Water'];
-  
+
   for (const v of validElements) {
     if (clean.toLowerCase().includes(v.toLowerCase())) {
       const src = `Images/Icons/PalWorld/PalElements/PNG/Colored-${v}.png`;
@@ -992,6 +1085,7 @@ function filterAndSortPals() {
 }
 
 function renderMainView() {
+  updateSynergyButtonText();
   if (currentMainView === 'synergy_teams') {
     renderSynergyTeamsView();
   } else if (currentViewMode === 'list') {
@@ -1070,13 +1164,23 @@ function renderListView() {
 function renderSynergyTeamsView() {
   const gridContainer = document.getElementById('palGrid');
   const teams = getSynergyTeamsData();
+  const currentSave = (savesData && Array.isArray(savesData.saves))
+    ? (savesData.saves.find(s => s.world_guid === activeSaveGuid) || savesData.saves[0])
+    : null;
+  const charName = currentSave ? currentSave.character_name : 'Current Character';
 
   document.getElementById('visibleCount').textContent = teams.length;
 
   if (teams.length === 0) {
+    gridContainer.style.display = 'block';
     gridContainer.innerHTML = `
-      <div style="grid-column: 1/-1; text-align: center; padding: 64px; color: var(--text-muted);">
-        <h3>No Combat Synergy Teams found</h3>
+      <div style="text-align: center; padding: 64px 20px; color: var(--text-muted); background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 16px; max-width: 800px; margin: 32px auto;">
+        <div style="font-size: 3rem; margin-bottom: 12px;">🛡️</div>
+        <h3 style="font-size: 1.5rem; color: var(--text-main); margin-bottom: 8px;">No Combat Teams available for ${charName}</h3>
+        <p style="font-size: 0.95rem; margin-bottom: 24px; color: var(--text-muted);">Combat teams are personalized per character save file. No combat teams have been created for ${charName} yet.</p>
+        <button onclick="openAddTeamModal()" class="btn-action btn-add-team" style="padding: 10px 24px; font-size: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
+          ✨ Add Combat Team for ${charName}
+        </button>
       </div>
     `;
     return;
@@ -1132,7 +1236,7 @@ function createPalCardHTML(pal, showPartnerSkill = false) {
   const paldeckNum = pal.paldeck_num || '#???';
   const starDisplay = pal.stars || '-';
 
-  const alphaIconHTML = pal.is_boss 
+  const alphaIconHTML = pal.is_boss
     ? `<span class="has-tooltip" style="display:inline-flex; align-items:center;"><img class="alpha-badge-icon" src="Images/Icons/PalWorld/Misc/PNG/Alpha_Pals_icon.png" alt="Alpha Pal">${getAlphaPalTooltipHTML(pal)}</span>`
     : '';
 
@@ -1310,15 +1414,15 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
   const passivesGridHTML = `
     <div class="passives-grid-2x2" style="width: 180px;">
       ${passives.slice(0, 4).map(p => {
-        if (!p.name || p.name === '-') return `<div class="passive-pill passive-empty">-</div>`;
-        let tierClass = 'passive-tier-0';
-        if (p.tier >= 3) tierClass = 'passive-tier-3';
-        else if (p.tier === 2) tierClass = 'passive-tier-2';
-        else if (p.tier === 1) tierClass = 'passive-tier-1';
-        else if (p.tier < 0) tierClass = 'passive-tier-neg';
-        const tooltipHTML = getPassiveTooltipHTML(p.name);
-        return `<div class="passive-pill ${tierClass} ${tooltipHTML ? 'has-tooltip' : ''}">${p.name}${tooltipHTML}</div>`;
-      }).join('')}
+    if (!p.name || p.name === '-') return `<div class="passive-pill passive-empty">-</div>`;
+    let tierClass = 'passive-tier-0';
+    if (p.tier >= 3) tierClass = 'passive-tier-3';
+    else if (p.tier === 2) tierClass = 'passive-tier-2';
+    else if (p.tier === 1) tierClass = 'passive-tier-1';
+    else if (p.tier < 0) tierClass = 'passive-tier-neg';
+    const tooltipHTML = getPassiveTooltipHTML(p.name);
+    return `<div class="passive-pill ${tierClass} ${tooltipHTML ? 'has-tooltip' : ''}">${p.name}${tooltipHTML}</div>`;
+  }).join('')}
     </div>
   `;
 
@@ -1372,13 +1476,14 @@ function createPalTableRowHTML(pal, showPartnerSkill = false) {
   `;
 }
 
-function resolveTeamMemberPal(m, teamType) {
+function resolveTeamMemberPal(m, teamType, saveGuid) {
+  const palRoster = saveGuid ? getPalsForSaveGuid(saveGuid) : allPals;
   let matchedPal = null;
   if (m.guid) {
-    matchedPal = allPals.find(p => p.instance_guid === m.guid);
+    matchedPal = palRoster.find(p => p.instance_guid === m.guid);
   }
   if (!matchedPal && m.name) {
-    matchedPal = allPals.find(p => p.name && p.name.toLowerCase() === m.name.toLowerCase());
+    matchedPal = palRoster.find(p => p.name && p.name.toLowerCase() === m.name.toLowerCase());
   }
 
   if (!matchedPal) {
@@ -1404,8 +1509,14 @@ function createSynergyTeamCardHTML(team) {
   const synergyDesc = team.synergy_desc || 'No synergy breakdown available.';
   const recs = team.recommendations || '';
 
+  const currentSave = (savesData && Array.isArray(savesData.saves))
+    ? (savesData.saves.find(s => s.world_guid === (team.world_guid || activeSaveGuid)) || savesData.saves[0])
+    : null;
+  const saveCharName = team.character_name || (currentSave ? currentSave.character_name : 'Luna');
+  const saveWorldName = currentSave ? currentSave.world_name : '';
+
   const memberCards = members.map(m => {
-    const matchedPal = resolveTeamMemberPal(m, teamType);
+    const matchedPal = resolveTeamMemberPal(m, teamType, team.world_guid || activeSaveGuid);
     return createPalCardHTML(matchedPal, true);
   }).join('');
 
@@ -1416,6 +1527,9 @@ function createSynergyTeamCardHTML(team) {
           <div class="synergy-team-title">
             <span>⚔️ ${teamName}</span>
             <span class="elem-badge ${getElementBadgeClass(teamType)} has-tooltip" style="font-size:0.85rem; padding:4px 10px;">${getElementIconHTML(teamType)} ${teamType}${getElementTooltipHTML(teamType)}</span>
+            <span class="badge-character-save" style="background: rgba(167, 139, 250, 0.15); border: 1px solid rgba(167, 139, 250, 0.4); color: #c084fc; font-size: 0.8rem; font-weight: 700; padding: 3px 10px; border-radius: 9999px; display: inline-flex; align-items: center; gap: 4px;">
+              👤 Save: ${saveCharName}${saveWorldName ? ` (${saveWorldName})` : ''}
+            </span>
           </div>
           <div class="synergy-team-desc"><strong>Synergy Breakdown:</strong> ${synergyDesc}</div>
           ${recs ? `<div class="synergy-team-desc" style="color:var(--accent-blue); margin-top:2px;"><strong>Min/Max Note:</strong> ${recs}</div>` : ''}
@@ -1437,8 +1551,14 @@ function createSynergyTeamListTableHTML(team) {
   const synergyDesc = team.synergy_desc || 'No synergy breakdown available.';
   const recs = team.recommendations || '';
 
+  const currentSave = (savesData && Array.isArray(savesData.saves))
+    ? (savesData.saves.find(s => s.world_guid === (team.world_guid || activeSaveGuid)) || savesData.saves[0])
+    : null;
+  const saveCharName = team.character_name || (currentSave ? currentSave.character_name : 'Luna');
+  const saveWorldName = currentSave ? currentSave.world_name : '';
+
   const memberRows = members.map(m => {
-    const matchedPal = resolveTeamMemberPal(m, teamType);
+    const matchedPal = resolveTeamMemberPal(m, teamType, team.world_guid || activeSaveGuid);
     return createPalTableRowHTML(matchedPal, true);
   }).join('');
 
@@ -1449,6 +1569,9 @@ function createSynergyTeamListTableHTML(team) {
           <div class="synergy-team-title">
             <span>⚔️ ${teamName}</span>
             <span class="elem-badge ${getElementBadgeClass(teamType)} has-tooltip" style="font-size:0.85rem; padding:4px 10px;">${getElementIconHTML(teamType)} ${teamType}${getElementTooltipHTML(teamType)}</span>
+            <span class="badge-character-save" style="background: rgba(167, 139, 250, 0.15); border: 1px solid rgba(167, 139, 250, 0.4); color: #c084fc; font-size: 0.8rem; font-weight: 700; padding: 3px 10px; border-radius: 9999px; display: inline-flex; align-items: center; gap: 4px;">
+              👤 Save: ${saveCharName}${saveWorldName ? ` (${saveWorldName})` : ''}
+            </span>
           </div>
           <div class="synergy-team-desc"><strong>Synergy Breakdown:</strong> ${synergyDesc}</div>
           ${recs ? `<div class="synergy-team-desc" style="color:var(--accent-blue); margin-top:2px;"><strong>Min/Max Note:</strong> ${recs}</div>` : ''}
@@ -1484,64 +1607,102 @@ function createSynergyTeamListTableHTML(team) {
    COMBAT TEAM CREATION & EDITING MODAL CONTROLLERS
    ========================================================================== */
 
-function openAddTeamModal() {
-  document.getElementById('teamModalTitle').textContent = '➕ Add New Combat Team';
-  document.getElementById('editTeamId').value = '';
-  document.getElementById('editTeamName').value = '';
-  document.getElementById('editTeamType').value = 'Ground';
-  document.getElementById('editSynergyDesc').value = '';
-  document.getElementById('editTeamRecs').value = '';
+function getPalsForSaveGuid(saveGuid) {
+  if (savesData && Array.isArray(savesData.saves)) {
+    const targetSave = savesData.saves.find(s => s.world_guid === saveGuid);
+    if (targetSave && Array.isArray(targetSave.pals) && targetSave.pals.length > 0) {
+      return targetSave.pals;
+    }
+  }
+  return allPals;
+}
 
-  const palOptions = `<option value="">-- Empty Slot --</option>` + allPals.map(p => {
-    const guidTag = p.instance_guid ? ` [GUID: ${p.instance_guid.slice(0,8)}...]` : '';
+function updateTeamMemberSelectOptions(saveGuid, preservedValues = []) {
+  const targetPals = getPalsForSaveGuid(saveGuid);
+  const palOptions = `<option value="">-- Empty Slot --</option>` + targetPals.map(p => {
+    const guidTag = p.instance_guid ? ` [GUID: ${p.instance_guid.slice(0, 8)}...]` : '';
     return `<option value="${p.instance_guid || p.name}">${p.name} (Lv. ${p.level || 1} ${p.stars || '-'}) ${guidTag}</option>`;
   }).join('');
 
   for (let i = 0; i < 5; i++) {
     const select = document.getElementById(`team_member_${i}_select`);
     if (select) {
+      const prevVal = preservedValues[i] !== undefined ? preservedValues[i] : select.value;
       select.innerHTML = palOptions;
-      select.value = '';
+      if (prevVal) {
+        select.value = prevVal;
+        if (!select.value && prevVal) {
+          const matchPal = targetPals.find(p => p.instance_guid === prevVal || (p.name && p.name.toLowerCase() === prevVal.toLowerCase()));
+          if (matchPal) select.value = matchPal.instance_guid || matchPal.name;
+        }
+      } else {
+        select.value = '';
+      }
     }
   }
+}
+
+function handleTeamModalCharacterChange() {
+  const saveSelect = document.getElementById('editTeamCharacterSave');
+  const selectedGuid = saveSelect ? saveSelect.value : activeSaveGuid;
+  const currentSelections = [];
+  for (let i = 0; i < 5; i++) {
+    const sel = document.getElementById(`team_member_${i}_select`);
+    currentSelections.push(sel ? sel.value : '');
+  }
+  updateTeamMemberSelectOptions(selectedGuid, currentSelections);
+}
+
+window.handleTeamModalCharacterChange = handleTeamModalCharacterChange;
+
+function populateTeamModalCharacterSelect(selectedGuid) {
+  const select = document.getElementById('editTeamCharacterSave');
+  if (!select) return;
+  if (savesData && Array.isArray(savesData.saves) && savesData.saves.length > 0) {
+    select.innerHTML = savesData.saves.map(s => `
+      <option value="${s.world_guid}" ${(s.world_guid === selectedGuid) ? 'selected' : ''}>
+        👤 ${s.character_name} (Lv. ${s.player_level}) · ${s.world_name}
+      </option>
+    `).join('');
+  } else {
+    select.innerHTML = `<option value="default">👤 Default Save</option>`;
+  }
+}
+
+function openAddTeamModal() {
+  document.getElementById('teamModalTitle').textContent = '➕ Add New Combat Team';
+  document.getElementById('editTeamId').value = '';
+  document.getElementById('editTeamName').value = '';
+  document.getElementById('editTeamType').value = 'Ground';
+  populateTeamModalCharacterSelect(activeSaveGuid);
+  document.getElementById('editSynergyDesc').value = '';
+  document.getElementById('editTeamRecs').value = '';
+
+  updateTeamMemberSelectOptions(activeSaveGuid, ['', '', '', '', '']);
 
   document.getElementById('deleteTeamBtn').style.display = 'none';
   document.getElementById('teamModal').style.display = 'flex';
 }
 
 function openEditTeamModal(teamId) {
-  const teams = getSynergyTeamsData();
-  const team = teams.find(t => t.id === teamId || t.team_name === teamId);
+  const allTeams = getAllSavedSynergyTeams();
+  const team = allTeams.find(t => t.id === teamId || t.team_name === teamId);
   if (!team) return;
+
+  const teamSaveGuid = team.world_guid || activeSaveGuid;
 
   document.getElementById('teamModalTitle').textContent = `✏️ Edit ${team.team_name}`;
   document.getElementById('editTeamId').value = team.id || team.team_name;
   document.getElementById('editTeamName').value = team.team_name || '';
   document.getElementById('editTeamType').value = team.type || 'Ground';
+  populateTeamModalCharacterSelect(teamSaveGuid);
   document.getElementById('editSynergyDesc').value = team.synergy_desc || '';
   document.getElementById('editTeamRecs').value = team.recommendations || '';
 
-  const palOptions = `<option value="">-- Empty Slot --</option>` + allPals.map(p => {
-    const guidTag = p.instance_guid ? ` [GUID: ${p.instance_guid.slice(0,8)}...]` : '';
-    return `<option value="${p.instance_guid || p.name}">${p.name} (Lv. ${p.level || 1} ${p.stars || '-'}) ${guidTag}</option>`;
-  }).join('');
+  const memberValues = (team.members || []).map(m => m.guid || m.name || '');
+  while (memberValues.length < 5) memberValues.push('');
 
-  const members = team.members || [];
-  for (let i = 0; i < 5; i++) {
-    const select = document.getElementById(`team_member_${i}_select`);
-    if (select) {
-      select.innerHTML = palOptions;
-      const m = members[i] || {};
-      const targetVal = m.guid || m.name || '';
-      if (targetVal) {
-        select.value = targetVal;
-        if (!select.value && m.name) {
-          const matchPal = allPals.find(p => p.name.toLowerCase() === m.name.toLowerCase());
-          if (matchPal) select.value = matchPal.instance_guid || matchPal.name;
-        }
-      }
-    }
-  }
+  updateTeamMemberSelectOptions(teamSaveGuid, memberValues);
 
   document.getElementById('deleteTeamBtn').style.display = 'inline-block';
   document.getElementById('teamModal').style.display = 'flex';
@@ -1557,15 +1718,22 @@ function saveTeamFromModal(e) {
   const teamId = document.getElementById('editTeamId').value;
   const teamName = document.getElementById('editTeamName').value.trim();
   const teamType = document.getElementById('editTeamType').value;
+  const selectedSaveGuid = document.getElementById('editTeamCharacterSave') ? document.getElementById('editTeamCharacterSave').value : activeSaveGuid;
   const synergyDesc = document.getElementById('editSynergyDesc').value.trim();
   const recs = document.getElementById('editTeamRecs').value.trim();
+
+  const targetSave = (savesData && Array.isArray(savesData.saves))
+    ? savesData.saves.find(s => s.world_guid === selectedSaveGuid)
+    : null;
+  const targetCharName = targetSave ? targetSave.character_name : 'Luna';
+  const targetPals = targetSave ? (targetSave.pals || []) : allPals;
 
   const newMembers = [];
   for (let i = 0; i < 5; i++) {
     const select = document.getElementById(`team_member_${i}_select`);
     if (select && select.value) {
       const val = select.value;
-      const palMatch = allPals.find(p => p.instance_guid === val || p.name === val);
+      const palMatch = targetPals.find(p => p.instance_guid === val || p.name === val);
       if (palMatch) {
         newMembers.push({
           name: palMatch.name,
@@ -1580,15 +1748,17 @@ function saveTeamFromModal(e) {
     }
   }
 
-  const teams = getSynergyTeamsData();
+  const allTeams = getAllSavedSynergyTeams();
 
   if (teamId) {
-    const teamIndex = teams.findIndex(t => t.id === teamId || t.team_name === teamId);
+    const teamIndex = allTeams.findIndex(t => t.id === teamId || t.team_name === teamId);
     if (teamIndex !== -1) {
-      teams[teamIndex] = {
-        ...teams[teamIndex],
+      allTeams[teamIndex] = {
+        ...allTeams[teamIndex],
         team_name: teamName,
         type: teamType,
+        world_guid: selectedSaveGuid,
+        character_name: targetCharName,
         synergy_desc: synergyDesc,
         recommendations: recs,
         members: newMembers
@@ -1600,14 +1770,16 @@ function saveTeamFromModal(e) {
       id: newTeamId,
       team_name: teamName,
       type: teamType,
+      world_guid: selectedSaveGuid,
+      character_name: targetCharName,
       synergy_desc: synergyDesc,
       recommendations: recs,
       members: newMembers
     };
-    teams.unshift(newTeam);
+    allTeams.unshift(newTeam);
   }
 
-  saveTeamsState(teams);
+  saveTeamsState(allTeams);
   closeTeamModal();
   renderMainView();
 }
@@ -1617,9 +1789,9 @@ function deleteTeamFromModal() {
   if (!teamId) return;
 
   if (confirm('Are you sure you want to delete this Combat Team?')) {
-    let teams = getSynergyTeamsData();
-    teams = teams.filter(t => (t.id || t.team_name) !== teamId);
-    saveTeamsState(teams);
+    let allTeams = getAllSavedSynergyTeams();
+    allTeams = allTeams.filter(t => (t.id || t.team_name) !== teamId);
+    saveTeamsState(allTeams);
     closeTeamModal();
     renderMainView();
   }
@@ -1802,17 +1974,17 @@ function deletePalFromModal() {
 async function inlineLocationChange(event, guid) {
   const newLocation = event.target.value;
   const palIndex = allPals.findIndex(p => p.instance_guid === guid);
-  
+
   if (palIndex > -1) {
     allPals[palIndex].location = newLocation;
     savePalsState();
     // Only re-render the specific card/row if possible, but for simplicity re-render all to apply SVG and sorting
     renderMainView();
-    
+
     // Auto-sync and push to Git
     const syncBtn = document.getElementById('syncPalsBtn');
     if (syncBtn) syncBtn.innerHTML = '🔄 Syncing...';
-    
+
     try {
       const response = await fetch('/api/sync', {
         method: 'POST',

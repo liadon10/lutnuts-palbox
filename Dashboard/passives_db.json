@@ -1,5 +1,4 @@
-// Dynamically generated from game directory *.json and *.lua mod files
-window.PASSIVES_DB = {
+{
   "啟示錄": {
     "name": "啟示錄",
     "key": "ACTION_SKILL_Unique_DarkMutant_DarkTackle",
@@ -53837,4 +53836,4 @@ window.PASSIVES_DB = {
     "category": "Modded DataTable",
     "effects": "Modded Passive Skill (Rank 4)"
   }
-};
+}

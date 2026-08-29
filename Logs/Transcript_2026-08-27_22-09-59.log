@@ -1,0 +1,30 @@
+=================================================================
+       PALWORLD MULTI-SAVE -> GOOGLE SHEETS & DASHBOARD SYNC
+=================================================================
+[*] Palworld is not running. Syncing all world saves on disk...
+[*] Committing disk buffer (3s)...
+[!] Info connecting to Google Sheets prior to save parse: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+[*] Found 3 live Palworld save folders to parse.
+[*] PlM/PlZ Container: target=0MB, compressed=0MB, magic=b'PlM1'
+[OK] Decompressed PlM/Oodle stream (0MB)!
+
+---> Parsing Save: Sylvess Duskblade | World: Sylvess Duskblade (Lv. 32)
+     Path: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\B459735A47E31E0E987E8084EBE265B0\Level.sav
+     Last Modified: 2026-08-26 23:15:39
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\B459735A47E31E0E987E8084EBE265B0\Level.sav
+[*] Palworld Game Directory: E:\SteamLibrary\steamapps\common\Palworld
+[*] Scrubbed 10677 JSON/LUA mod files. Harvested 7125 passive skill definitions & ranks.
+
+[!] Unexpected error during sync execution: '>=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 2445, in run_single_sync
+    pals_rows = parse_palworld_save(save_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 1807, in parse_palworld_save
+    harvest_installed_mod_passives()
+  File "C:\Users\natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 1236, in harvest_game_and_mod_passives
+    export_passives_database_to_dashboard()
+  File "C:\Users\natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 1265, in export_passives_database_to_dashboard
+    if rank_val >= 4:
+       ^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'str' and 'int'

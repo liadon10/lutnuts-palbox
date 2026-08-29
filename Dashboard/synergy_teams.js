@@ -3,7 +3,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-1",
     "team_name": "Ground Pounders",
     "type": "Ground",
-    "icon": "\u26f0\ufe0f",
+    "icon": "⛰️",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Anubis",
@@ -33,7 +35,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-2",
     "team_name": "Ice Breakers",
     "type": "Ice",
-    "icon": "\u2744\ufe0f",
+    "icon": "❄️",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Frostallion",
@@ -63,7 +67,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-3",
     "team_name": "Fire Setters",
     "type": "Fire",
-    "icon": "\ud83d\udd25",
+    "icon": "🔥",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Renjishi",
@@ -93,7 +99,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-4",
     "team_name": "Electric Boogaloos",
     "type": "Electric",
-    "icon": "\u26a1",
+    "icon": "⚡",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Snock",
@@ -123,7 +131,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-5",
     "team_name": "Water Hazard Violations",
     "type": "Water",
-    "icon": "\ud83d\udca7",
+    "icon": "💧",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Ophydia",
@@ -153,7 +163,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-6",
     "team_name": "Grass Touching Avoiders",
     "type": "Grass",
-    "icon": "\ud83c\udf31",
+    "icon": "🌱",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Silvance",
@@ -183,7 +195,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-7",
     "team_name": "Neutral NPC Energy",
     "type": "Neutral",
-    "icon": "\u26aa",
+    "icon": "⚪",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Cremis",
@@ -213,7 +227,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-8",
     "team_name": "Dark Mode Zealots",
     "type": "Dark",
-    "icon": "\ud83c\udf11",
+    "icon": "🌑",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Frostallion Noct",
@@ -243,7 +259,9 @@ window.SYNERGY_TEAMS = [
     "id": "team-9",
     "team_name": "Dragon Wagon Hijackers",
     "type": "Dragon",
-    "icon": "\ud83d\udc09",
+    "icon": "🐉",
+    "character_name": "Luna",
+    "world_guid": "66C167B649D78C6448EC92A2D0C95070",
     "members": [
       {
         "name": "Orserk",

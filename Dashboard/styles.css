@@ -46,7 +46,7 @@ body {
   background-color: var(--bg-main);
   color: var(--text-main);
   min-height: 100vh;
-  padding: 24px;
+  padding: 16px 20px;
   line-height: 1.5;
 }
 
@@ -76,8 +76,9 @@ body {
 
 /* Header & Controls */
 .header-container {
-  max-width: 1400px;
-  margin: 0 auto 32px auto;
+  max-width: 1840px;
+  width: 100%;
+  margin: 0 auto 24px auto;
 }
 
 .title-bar {
@@ -104,6 +105,72 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 10px rgba(139, 92, 246, 0.25));
+}
+
+.title-left-group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.character-select-wrapper {
+  position: relative;
+  min-width: 260px;
+}
+
+.character-select-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--bg-pill);
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  color: var(--text-main);
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+}
+
+.character-select-trigger:hover {
+  background: var(--bg-card-hover);
+  border-color: #c084fc;
+  box-shadow: 0 0 15px rgba(192, 132, 252, 0.3);
+}
+
+.character-dropdown-options {
+  min-width: 320px;
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.character-option-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+}
+
+.character-option-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.character-option-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 
@@ -196,11 +263,12 @@ select option {
 .card-grid,
 .grid-container,
 .pal-grid {
-  max-width: 1400px;
+  max-width: 1840px;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 /* ==========================================================================
@@ -2029,8 +2097,10 @@ select option {
 .synergy-teams-container {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
   width: 100%;
+  max-width: 1840px;
+  margin: 0 auto;
 }
 
 .group-card,
@@ -2039,7 +2109,7 @@ select option {
   background: var(--bg-card);
   border: 1px solid var(--border-card);
   border-radius: 16px;
-  padding: 20px;
+  padding: 18px 20px;
   box-shadow: var(--shadow-card);
 }
 
@@ -2061,6 +2131,20 @@ select option {
   align-items: center;
   gap: 10px;
   color: var(--text-main);
+  flex-wrap: wrap;
+}
+
+.badge-character-save {
+  background: rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  color: #c084fc;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .group-desc,
@@ -2073,8 +2157,15 @@ select option {
 .group-members-grid,
 .synergy-team-members {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 1440px) {
+  .group-members-grid,
+  .synergy-team-members {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 /* ==========================================================================

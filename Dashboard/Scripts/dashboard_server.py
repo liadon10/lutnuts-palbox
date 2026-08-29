@@ -1,10 +1,13 @@
+import functools
 import http.server
-import socketserver
 import json
+import os
 import pathlib
+import socketserver
+import subprocess
 import sys
 import threading
-import subprocess
+import time
 
 # Add Scripts directory to sys.path
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -16,62 +19,19 @@ except ImportError:
     sheet_sync = None
 
 PORT = 8000
-DASHBOARD_DIR = pathlib.Path(__file__).parent.parent
+DASHBOARD_DIR = pathlib.Path(__file__).parent.parent.resolve()
 
 class DashboardHandler(http.server.SimpleHTTPRequestHandler):
-    def do_GET(self):
-        # Intercept index.html to inject a cache-busting version on pals.js
-        if self.path in ('/', '/index.html'):
-            try:
-                html_path = DASHBOARD_DIR / "index.html"
-                pals_js_path = DASHBOARD_DIR / "pals.js"
-                v = int(pals_js_path.stat().st_mtime) if pals_js_path.exists() else 0
-                content = html_path.read_text(encoding='utf-8')
-                content = content.replace(
-                    'src="pals.js"',
-                    f'src="pals.js?v={v}"'
-                )
-                encoded = content.encode('utf-8')
-                self.send_response(200)
-                self.send_header('Content-type', 'text/html; charset=utf-8')
-                self.send_header('Content-Length', str(len(encoded)))
-                self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
-                self.end_headers()
-                self.wfile.write(encoded)
-                return
-            except Exception as e:
-                print(f"[!] Error serving index.html: {e}")
-        
-        # Serve styles.css, app.js and pals.json without caching so changes are always seen immediately
-        if self.path.startswith('/styles.css') or self.path.startswith('/app.js') or self.path.startswith('/pals.json'):
-            try:
-                raw_filename = self.path.split('?')[0].lstrip('/')
-                file_path = DASHBOARD_DIR / raw_filename
-                if file_path.exists():
-                    content = file_path.read_bytes()
-                    ext = file_path.suffix
-                    if ext == '.css':
-                        mime = 'text/css; charset=utf-8'
-                    elif ext == '.js':
-                        mime = 'application/javascript; charset=utf-8'
-                    else:
-                        mime = 'application/json; charset=utf-8'
-                    self.send_response(200)
-                    self.send_header('Content-type', mime)
-                    self.send_header('Content-Length', str(len(content)))
-                    self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
-                    self.end_headers()
-                    self.wfile.write(content)
-                    return
-            except Exception as e:
-                print(f"[!] Error serving {self.path}: {e}")
-        
-        return super().do_GET()
-
+    def end_headers(self):
+        # Aggressive no-cache headers so edits to styles.css / app.js / pals.json update instantly
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
+        super().end_headers()
 
     def do_POST(self):
-        if self.path == "/api/sync" or self.path == "/api/save":
-            content_length = int(self.headers['Content-Length'])
+        if self.path in ("/api/sync", "/api/save"):
+            content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length)
             
             try:
@@ -93,10 +53,11 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
 
                 # 3. Trigger Google Sheet 'My Pals' sync and Git push
                 def bg_sheet_sync():
-                    try:
-                        sheet_sync.sync_dashboard_json_to_sheet()
-                    except Exception as err:
-                        print(f"[!] Background Sheet sync error: {err}")
+                    if sheet_sync:
+                        try:
+                            sheet_sync.sync_dashboard_json_to_sheet()
+                        except Exception as err:
+                            print(f"[!] Background Sheet sync error: {err}")
                     
                     try:
                         print("[Dashboard Server] Pushing changes to GitHub Pages...")
@@ -106,7 +67,6 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                         subprocess.run(["git", "push", "origin", "main"], cwd=repo_dir, check=True)
                         print("[Dashboard Server] Successfully pushed to GitHub!")
                     except subprocess.CalledProcessError as err:
-                        # git commit fails if there are no changes, which is fine
                         print(f"[!] Background Git sync info: {err}")
 
                 threading.Thread(target=bg_sheet_sync, daemon=True).start()
@@ -127,6 +87,7 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
                 return
+
         elif self.path in ("/api/run-palworld-sync", "/api/sync-from-save"):
             try:
                 base_dir = DASHBOARD_DIR.parent
@@ -201,20 +162,19 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
-
 class ThreadedHTTPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     daemon_threads = True
     allow_reuse_address = True
 
-import os
-
 def run_server():
     os.chdir(str(DASHBOARD_DIR))
-    with ThreadedHTTPServer(("", PORT), DashboardHandler) as httpd:
-        print(f"==================================================")
+    socketserver.TCPServer.allow_reuse_address = True
+    handler = functools.partial(DashboardHandler, directory=str(DASHBOARD_DIR))
+    with ThreadedHTTPServer(("", PORT), handler) as httpd:
+        print("==================================================")
         print(f"   PALBOX DASHBOARD THREADED SERVER RUNNING")
         print(f"   URL: http://localhost:{PORT}")
-        print(f"==================================================")
+        print("==================================================")
         httpd.serve_forever()
 
 if __name__ == "__main__":

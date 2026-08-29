@@ -1,0 +1,54 @@
+=================================================================
+       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)
+=================================================================
+[*] Palworld is not running. Syncing latest save on disk...
+[*] Committing disk buffer (3s)...
+[!] Info connecting to Google Sheets prior to save parse: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+[*] Auto-detected most recently updated save folder: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\B459735A47E31E0E987E8084EBE265B0\Level.sav
+    Last modified: 2026-08-26 23:15:39
+[*] Reading: C:\Users\natha\AppData\Local\Pal\Saved\SaveGames\76561198037743723\B459735A47E31E0E987E8084EBE265B0\Level.sav
+[*] Harvested 5325 modded passive skill definitions & ranks across installed mods.
+[*] PlM/PlZ Container: target=1MB, compressed=0MB, magic=b'PlM1'
+[OK] Decompressed PlM/Oodle stream (1MB)!
+[*] Scoping Pal parsing to CharacterSaveParameterMap (1MB)...
+[*] Found 106 potential Pal name signatures in target map.
+[*] PlM/PlZ Container: target=5MB, compressed=0MB, magic=b'PlM1'
+[OK] Decompressed PlM/Oodle stream (5MB)!
+[OK] Extracted 43 Global Palbox Pals from LocalData.sav.
+[OK] Extracted 87 total owned Pals with metadata.
+[!] Google Sheets upload failed: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+Traceback (most recent call last):
+  File "c:\Users\natha\Desktop\Games\Palworld\Automatic_uploader\Scripts\palworld_sync.py", line 1684, in upload_to_google_sheet
+    workbook = client.open(GOOGLE_SHEET_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\client.py", line 145, in open
+    spreadsheet_files, response = self._list_spreadsheet_files(title, folder_id)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\client.py", line 118, in _list_spreadsheet_files
+    response = self.http_client.request("get", url, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gspread\http_client.py", line 114, in request
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\auth\transport\requests.py", line 624, in request
+    self.credentials.before_request(auth_request, method, url, request_headers)
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\auth\credentials.py", line 240, in before_request
+    self._blocking_refresh(request)
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\auth\credentials.py", line 203, in _blocking_refresh
+    self.refresh(request)
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\auth\credentials.py", line 517, in refresh
+    self._perform_refresh_token(request)
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\oauth2\service_account.py", line 461, in _perform_refresh_token
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\oauth2\_client.py", line 307, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\oauth2\_client.py", line 278, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "C:\Users\natha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\google\oauth2\_client.py", line 73, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+[OK] Exported 87 Pals to Dashboard (pals.json and pals.js)
+
+[OK] [02:16:07] Sync complete. Exiting script.

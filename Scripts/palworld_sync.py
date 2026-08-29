@@ -22,13 +22,18 @@ import psutil
 # ==============================================================================
 # CONFIGURATION & DIRECTORIES
 # ==============================================================================
-BASE_SCRIPT_DIR = Path(
-    r"C:\Users\Natha\Desktop\Games\Palworld\Dashboard"
-)
+BASE_SCRIPT_DIR = Path(__file__).resolve().parent.parent
 LOGS_DIR = BASE_SCRIPT_DIR / "Logs"
 EXPORTS_DIR = BASE_SCRIPT_DIR / ".json exports"
 
 GOOGLE_CREDENTIALS_JSON = BASE_SCRIPT_DIR / "credentials.json"
+if not GOOGLE_CREDENTIALS_JSON.exists():
+    # Fallback to current working directory or Dashboard folder
+    for alt_dir in [Path.cwd(), BASE_SCRIPT_DIR / "Dashboard", Path(r"C:\Users\Natha\Desktop\Games\Palworld\Dashboard")]:
+        alt_cred = alt_dir / "credentials.json"
+        if alt_cred.exists():
+            GOOGLE_CREDENTIALS_JSON = alt_cred
+            break
 GOOGLE_SHEET_NAME = "Palworld Master Database"
 
 # Optional: Paste your full Google Sheet URL or Sheet ID here to bypass Drive search
@@ -46,7 +51,7 @@ ELEMENT_NAME_COL = "B"        # Column containing Element text (starting row 3)
 ELEMENT_ICON1_COL = "F"       # Column containing Primary Type Icon (Icon1)
 ELEMENT_ICON2_COL = "G"       # Column containing Secondary Type Icon (Icon2)
 
-PINNED_WORLD_SAVE_GUID = "66C167B649D78C6448EC92A2D0C95070"
+PINNED_WORLD_SAVE_GUID = None  # None = Automatically detect most recently updated save folder
 
 SAVE_DIR = Path(
     os.path.expandvars(r"%LOCALAPPDATA%\Pal\Saved\SaveGames")
@@ -537,17 +542,23 @@ def find_target_save():
         print("[!] No Level.sav files found in SaveGames path.")
         return None
 
-    live_saves = [s for s in all_level_saves if "\\backup\\" not in s and "/backup/" not in s]
+    live_saves = [s for s in all_level_saves if "\\backup\\" not in s.lower() and "/backup/" not in s.lower()]
     if not live_saves:
         live_saves = all_level_saves
 
     if PINNED_WORLD_SAVE_GUID:
         for s in live_saves:
             if PINNED_WORLD_SAVE_GUID.lower() in s.lower():
+                print(f"[*] Using Pinned World Save GUID: {PINNED_WORLD_SAVE_GUID}")
                 return s
 
-    live_saves.sort(key=lambda s: (os.path.getsize(s), os.path.getmtime(s)), reverse=True)
-    return live_saves[0]
+    # Sort strictly by most recently modified Level.sav file
+    live_saves.sort(key=lambda s: os.path.getmtime(s), reverse=True)
+    selected_save = live_saves[0]
+    mtime_str = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(os.path.getmtime(selected_save)))
+    print(f"[*] Auto-detected most recently updated save folder: {selected_save}")
+    print(f"    Last modified: {mtime_str}")
+    return selected_save
 
 
 def decode_palworld_save(raw_bytes: bytes) -> bytes:
@@ -894,24 +905,141 @@ PASSIVE_HEATMAP_HEX_MAP = {
 }
 
 
+# ==============================================================================
+# SELECTABLE GAME DIRECTORY & DYNAMIC PASSIVE SKILL HARVESTER (JSON + LUA)
+# ==============================================================================
+CONFIG_FILE = BASE_SCRIPT_DIR / "config.json"
 MOD_HARVESTED_PASSIVES = {}
 
 
-def harvest_installed_mod_passives():
-    """Scans all installed Palworld mod directories (PalSchema / UE4SS / ManagedMods) for modded passives."""
+def load_app_config():
+    """Loads configuration settings from config.json."""
+    if CONFIG_FILE.exists():
+        try:
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
+def save_app_config(cfg):
+    """Persists configuration settings to config.json."""
+    try:
+        with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+            json.dump(cfg, f, indent=2)
+    except Exception as e:
+        print(f"[!] Could not save config.json: {e}")
+
+
+def get_palworld_game_directory(override_dir=None):
+    """Resolves the Palworld game installation directory dynamically from CLI, config.json, running process, Steam registry, or common drives."""
+    if override_dir and os.path.isdir(override_dir):
+        return Path(override_dir).resolve()
+
+    # 1. Check CLI arguments for --game-dir or -g
+    for i, arg in enumerate(sys.argv):
+        if arg in ("--game-dir", "-g", "--game-path") and i + 1 < len(sys.argv):
+            candidate = sys.argv[i + 1]
+            if os.path.isdir(candidate):
+                return Path(candidate).resolve()
+
+    # 2. Check config.json
+    cfg = load_app_config()
+    cfg_dir = cfg.get("game_directory")
+    if cfg_dir and os.path.isdir(cfg_dir):
+        return Path(cfg_dir).resolve()
+
+    # 3. Check running Palworld process via psutil
+    try:
+        for proc in psutil.process_iter(['name', 'exe']):
+            if proc.info['name'] and 'palworld' in proc.info['name'].lower():
+                exe_path = proc.info.get('exe')
+                if exe_path and os.path.exists(exe_path):
+                    p = Path(exe_path)
+                    for parent in p.parents:
+                        if (parent / "Pal").is_dir() or (parent / "Mods").is_dir() or (parent / "Engine").is_dir():
+                            cfg["game_directory"] = str(parent)
+                            save_app_config(cfg)
+                            return parent
+    except Exception:
+        pass
+
+    # 4. Check Steam registry and libraryfolders.vdf
+    try:
+        import winreg
+        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam")
+        steam_path, _ = winreg.QueryValueEx(key, "SteamPath")
+        vdf_path = Path(steam_path) / "steamapps" / "libraryfolders.vdf"
+        if vdf_path.exists():
+            with open(vdf_path, "r", encoding="utf-8", errors="ignore") as f:
+                vdf_text = f.read()
+            lib_paths = re.findall(r'"path"\s+"([^"]+)"', vdf_text)
+            for lp in lib_paths:
+                clean_lp = lp.replace(r"\\", os.sep).replace("/", os.sep)
+                cand = Path(clean_lp) / "steamapps" / "common" / "Palworld"
+                if cand.is_dir():
+                    cfg["game_directory"] = str(cand)
+                    save_app_config(cfg)
+                    return cand
+    except Exception:
+        pass
+
+    # 5. Check common installation drive candidates
+    candidates = [
+        Path(r"E:\SteamLibrary\steamapps\common\Palworld"),
+        Path(r"C:\Program Files (x86)\Steam\steamapps\common\Palworld"),
+        Path(r"C:\SteamLibrary\steamapps\common\Palworld"),
+        Path(r"D:\SteamLibrary\steamapps\common\Palworld"),
+        Path(r"F:\SteamLibrary\steamapps\common\Palworld"),
+        Path(r"G:\SteamLibrary\steamapps\common\Palworld"),
+        Path(r"C:\XboxGames\Palworld\Content"),
+        Path(r"D:\XboxGames\Palworld\Content"),
+        Path(r"E:\XboxGames\Palworld\Content"),
+    ]
+    for cand in candidates:
+        if cand.is_dir():
+            cfg["game_directory"] = str(cand)
+            save_app_config(cfg)
+            return cand
+
+    return None
+
+
+def harvest_game_and_mod_passives(override_game_dir=None):
+    """Recursively scrubs the selected Palworld game directory for ANY files (*.json, *.jsonc, *.lua) that define or modify Passive Skills."""
     global MOD_HARVESTED_PASSIVES, PASSIVE_SKILL_NAME_MAP
 
-    possible_mod_roots = [
-        r"C:\Program Files (x86)\Steam\steamapps\common\Palworld\Mods\NativeMods\UE4SS\Mods\PalSchema\mods",
-        r"C:\Program Files (x86)\Steam\steamapps\common\Palworld\Mods\ManagedMods",
-        r"E:\SteamLibrary\steamapps\common\Palworld\Mods\NativeMods\UE4SS\Mods\PalSchema\mods",
-        r"E:\SteamLibrary\steamapps\common\Palworld\Mods\ManagedMods",
-    ]
+    game_dir = get_palworld_game_directory(override_game_dir)
+    cfg = load_app_config()
+    custom_paths = cfg.get("custom_mod_paths", [])
 
-    def clean_jsonc(text):
+    search_roots = []
+    if game_dir and game_dir.is_dir():
+        for sub in [
+            game_dir / "Mods",
+            game_dir / "Pal" / "Binaries" / "Win64" / "ue4ss" / "Mods",
+            game_dir / "Pal" / "Content" / "Paks",
+            game_dir / "Pal" / "Binaries" / "Win64" / "Mods"
+        ]:
+            if sub.is_dir():
+                search_roots.append(sub)
+        if not search_roots:
+            search_roots.append(game_dir)
+
+    for cp in custom_paths:
+        cp_path = Path(cp)
+        if cp_path.is_dir() and cp_path not in search_roots:
+            search_roots.append(cp_path)
+
+    if EXPORTS_DIR.is_dir() and EXPORTS_DIR not in search_roots:
+        search_roots.append(EXPORTS_DIR)
+
+    def clean_jsonc_text(text):
         lines = []
         for line in text.splitlines():
-            if line.strip().startswith("//"):
+            s = line.strip()
+            if s.startswith("//") or s.startswith("#"):
                 continue
             lines.append(line)
         cleaned = "\n".join(lines)
@@ -919,71 +1047,284 @@ def harvest_installed_mod_passives():
         cleaned = re.sub(r',\s*([\]}])', r'\1', cleaned)
         return cleaned
 
-    for root_dir in possible_mod_roots:
-        if not os.path.exists(root_dir):
+    def is_valid_passive_key(key_str):
+        if not key_str or not isinstance(key_str, str):
+            return False
+        s = key_str.lower()
+        if any(bad in s for bad in ['action_skill', 'waza_', 'item_', 'weapon_', 'building_', 'monster', 'pal_', 'character', 'yakushimaboss', 'cute_fox', 'sheepball', 'chickenpal', 'wbp_']):
+            if not any(good in s for good in ['passive', 'talent', 'buff', 'trait', 'elementresist', 'speed_', 'workspeed', 'resist_']):
+                return False
+        return True
+
+    def parse_lua_passives(fpath):
+        found = {}
+        try:
+            with open(fpath, 'r', encoding='utf-8', errors='ignore') as f:
+                content = f.read()
+
+            if not any(k in content for k in ['PassiveSkill', 'PASSIVE_', 'passive_skill', 'DT_PassiveSkill', 'Passive_', 'Talent_']) and 'passive' not in str(fpath).lower():
+                return found
+
+            table_pat = re.compile(r'\[\s*[\'"]([A-Za-z0-9_]+)[\'"]\s*\]\s*=\s*\{([^}]+)\}', re.DOTALL)
+            for skill_id, body in table_pat.findall(content):
+                if not is_valid_passive_key(skill_id):
+                    continue
+                if any(k in skill_id.lower() for k in ['passive', '_pal', 'test_', 'talent_', 'buff_']) or any(k in body.lower() for k in ['rank', 'targetrank', 'effect', 'passiveskill']):
+                    rank_m = re.search(r'(?:Rank|rank|TargetRank|tier|Tier)\s*=\s*(-?\d+)', body)
+                    name_m = re.search(r'(?:Name|name|DisplayName|displayName|LocText)\s*=\s*[\'"]([^\'"]+)[\'"]', body)
+                    desc_m = re.search(r'(?:Desc|desc|Description|description|Effect|effect)\s*=\s*[\'"]([^\'"]+)[\'"]', body)
+                    cat_m = re.search(r'(?:Category|category|Type|type)\s*=\s*[\'"]([^\'"]+)[\'"]', body)
+
+                    rank_v = int(rank_m.group(1)) if rank_m else 0
+                    name_v = name_m.group(1) if name_m else skill_id
+                    desc_v = desc_m.group(1) if desc_m else ""
+                    cat_v = cat_m.group(1) if cat_m else "Modded Lua"
+
+                    found[skill_id] = {
+                        "key": skill_id,
+                        "name": name_v,
+                        "rank": rank_v,
+                        "effects": desc_v,
+                        "category": cat_v,
+                        "source": os.path.basename(fpath)
+                    }
+
+            kv_pat = re.compile(r'\[\s*[\'"](PASSIVE_[A-Za-z0-9_]+|[A-Za-z0-9_]+_PAL)[\'"]\s*\]\s*=\s*[\'"]([^\'"]+)[\'"]')
+            for skill_id, disp_name in kv_pat.findall(content):
+                if is_valid_passive_key(skill_id):
+                    if skill_id not in found:
+                        found[skill_id] = {
+                            "key": skill_id,
+                            "name": disp_name,
+                            "rank": 0,
+                            "effects": "",
+                            "category": "Modded Lua Mapping",
+                            "source": os.path.basename(fpath)
+                        }
+                    else:
+                        found[skill_id]["name"] = disp_name
+        except Exception:
+            pass
+        return found
+
+    def parse_json_passives(fpath):
+        found = {}
+        try:
+            with open(fpath, 'r', encoding='utf-8-sig', errors='ignore') as f:
+                raw = f.read()
+            try:
+                data = json.loads(raw, strict=False)
+            except Exception:
+                data = json.loads(clean_jsonc_text(raw), strict=False)
+
+            if not isinstance(data, (dict, list)):
+                return found
+
+            def walk(obj, parent_key=''):
+                if isinstance(obj, dict):
+                    if any(dt in parent_key for dt in ['DT_PassiveSkill', 'PassiveSkill', 'Passives']):
+                        for k, v in obj.items():
+                            if not is_valid_passive_key(k):
+                                continue
+                            if isinstance(v, dict):
+                                rank = v.get('Rank') or v.get('TargetRank') or v.get('tier') or v.get('Rank_14_99BA7BFE43D063A45FAAC5A05AC32742') or 0
+                                name = v.get('Name') or v.get('DisplayName') or v.get('LocText') or v.get('Text') or k
+                                desc = v.get('Desc') or v.get('Description') or v.get('Effect') or ''
+                                cat = v.get('Category') or v.get('Type') or 'Modded DataTable'
+                                found[k] = {
+                                    "key": k,
+                                    "name": str(name),
+                                    "rank": int(rank) if isinstance(rank, (int, str)) and str(rank).lstrip('-').isdigit() else 0,
+                                    "effects": str(desc),
+                                    "category": str(cat),
+                                    "source": os.path.basename(fpath)
+                                }
+                            elif isinstance(v, str) and ('passive' in k.lower() or k.endswith('_PAL') or k.startswith('PASSIVE_')):
+                                base_k = k.replace('_NAME', '').replace('_Name', '').replace('PASSIVE_', '')
+                                if base_k in found:
+                                    found[base_k]["name"] = v
+                                else:
+                                    found[k] = {
+                                        "key": k,
+                                        "name": v,
+                                        "rank": 0,
+                                        "effects": "",
+                                        "category": "Modded Localization",
+                                        "source": os.path.basename(fpath)
+                                    }
+                    elif 'DT_SkillNameText' in parent_key:
+                        for k, v in obj.items():
+                            if isinstance(v, str) and ('passive' in k.lower() or k.endswith('_PAL') or k.startswith('PASSIVE_')):
+                                base_k = k.replace('_NAME', '').replace('_Name', '').replace('PASSIVE_', '')
+                                if base_k in found:
+                                    found[base_k]["name"] = v
+                                else:
+                                    found[k] = {
+                                        "key": k,
+                                        "name": v,
+                                        "rank": 0,
+                                        "effects": "",
+                                        "category": "Modded Localization",
+                                        "source": os.path.basename(fpath)
+                                    }
+                    else:
+                        if ('Rank' in obj or 'rank' in obj) and any(k in str(obj).lower() for k in ['passive', 'talent', 'buff', 'trait']):
+                            skill_id = obj.get('SkillId') or obj.get('Id') or obj.get('key') or parent_key
+                            if skill_id and is_valid_passive_key(skill_id):
+                                rank = obj.get('Rank') or obj.get('rank') or 0
+                                name = obj.get('Name') or obj.get('DisplayName') or skill_id
+                                desc = obj.get('Desc') or obj.get('Description') or ''
+                                cat = obj.get('Category') or obj.get('Type') or 'Modded JSON'
+                                found[skill_id] = {
+                                    "key": skill_id,
+                                    "name": str(name),
+                                    "rank": int(rank) if isinstance(rank, (int, str)) and str(rank).lstrip('-').isdigit() else 0,
+                                    "effects": str(desc),
+                                    "category": str(cat),
+                                    "source": os.path.basename(fpath)
+                                }
+                        for k, v in obj.items():
+                            walk(v, k)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        walk(item, parent_key)
+
+            walk(data)
+        except Exception:
+            pass
+        return found
+
+    scanned_file_count = 0
+    for sroot in search_roots:
+        if not sroot.exists():
             continue
-        for mdir in os.listdir(root_dir):
-            full_m = os.path.join(root_dir, mdir)
-            if not os.path.isdir(full_m):
-                continue
-            
-            mod_ranks = {}
-            mod_names = {}
-            json_files = glob.glob(os.path.join(full_m, '**', '*.json*'), recursive=True)
+        for root, dirs, files in os.walk(sroot):
+            for fname in files:
+                ext = os.path.splitext(fname)[1].lower()
+                fp = Path(root) / fname
+                if ext in ['.json', '.jsonc']:
+                    scanned_file_count += 1
+                    res = parse_json_passives(fp)
+                    for k, entry in res.items():
+                        skill_id = entry['key']
+                        disp_name = entry['name']
+                        rk = entry['rank']
+                        MOD_HARVESTED_PASSIVES[skill_id] = {
+                            'skill_id': skill_id,
+                            'rank': rk,
+                            'display_name': disp_name,
+                            'effects': entry.get('effects', ''),
+                            'category': entry.get('category', 'Modded'),
+                            'mod': entry.get('source', '')
+                        }
+                        MOD_HARVESTED_PASSIVES[skill_id.lower()] = MOD_HARVESTED_PASSIVES[skill_id]
+                        if disp_name:
+                            MOD_HARVESTED_PASSIVES[disp_name.lower()] = MOD_HARVESTED_PASSIVES[skill_id]
+                            if skill_id not in PASSIVE_SKILL_NAME_MAP:
+                                PASSIVE_SKILL_NAME_MAP[skill_id] = disp_name
+                elif ext == '.lua':
+                    scanned_file_count += 1
+                    res = parse_lua_passives(fp)
+                    for k, entry in res.items():
+                        skill_id = entry['key']
+                        disp_name = entry['name']
+                        rk = entry['rank']
+                        MOD_HARVESTED_PASSIVES[skill_id] = {
+                            'skill_id': skill_id,
+                            'rank': rk,
+                            'display_name': disp_name,
+                            'effects': entry.get('effects', ''),
+                            'category': entry.get('category', 'Modded Lua'),
+                            'mod': entry.get('source', '')
+                        }
+                        MOD_HARVESTED_PASSIVES[skill_id.lower()] = MOD_HARVESTED_PASSIVES[skill_id]
+                        if disp_name:
+                            MOD_HARVESTED_PASSIVES[disp_name.lower()] = MOD_HARVESTED_PASSIVES[skill_id]
+                            if skill_id not in PASSIVE_SKILL_NAME_MAP:
+                                PASSIVE_SKILL_NAME_MAP[skill_id] = disp_name
 
-            for jf in json_files:
-                try:
-                    with open(jf, 'r', encoding='utf-8-sig', errors='ignore') as f:
-                        raw = f.read()
-                    try:
-                        data = json.loads(raw, strict=False)
-                    except Exception:
-                        data = json.loads(clean_jsonc(raw), strict=False)
+    unique_passives = len({v['skill_id'] for v in MOD_HARVESTED_PASSIVES.values()}) if MOD_HARVESTED_PASSIVES else 0
+    game_path_display = str(game_dir) if game_dir else "None (Auto-detected)"
+    print(f"[*] Palworld Game Directory: {game_path_display}")
+    print(f"[*] Scrubbed {scanned_file_count} JSON/LUA mod files. Harvested {unique_passives} passive skill definitions & ranks.")
 
-                    if not isinstance(data, dict):
-                        continue
+    export_passives_database_to_dashboard()
 
-                    def walk_dict(d):
-                        for k, v in d.items():
-                            if k in ['DT_PassiveSkill_Main', 'DT_PassiveSkill_Main_Common', 'DT_PassiveSkill'] and isinstance(v, dict):
-                                for skill_id, skill_info in v.items():
-                                    if isinstance(skill_info, dict) and 'Rank' in skill_info:
-                                        mod_ranks[skill_id] = skill_info['Rank']
-                            elif k in ['DT_SkillNameText'] and isinstance(v, dict):
-                                for name_key, dname in v.items():
-                                    if isinstance(dname, str):
-                                        base_id = name_key.replace('_NAME', '').replace('_Name', '')
-                                        mod_names[base_id] = dname
-                                        mod_names[name_key] = dname
-                            elif isinstance(v, dict):
-                                walk_dict(v)
 
-                            if isinstance(v, str) and ('NAME' in k or 'Name' in k):
-                                base_id = k.replace('_NAME', '').replace('_Name', '')
-                                mod_names[base_id] = v
+# Backwards compatibility alias
+harvest_installed_mod_passives = harvest_game_and_mod_passives
 
-                    walk_dict(data)
 
-                except Exception:
-                    pass
+def export_passives_database_to_dashboard():
+    """Merges base game passives with dynamically harvested game/mod passives and exports to Dashboard/passives_db.js and passives_db.json."""
+    dashboard_dir = BASE_SCRIPT_DIR / "Dashboard"
+    if not dashboard_dir.is_dir():
+        return
 
-            for skill_id, rk in mod_ranks.items():
-                disp_name = mod_names.get(skill_id, skill_id)
-                entry = {
-                    'skill_id': skill_id,
-                    'rank': rk,
-                    'display_name': disp_name,
-                    'mod': mdir
-                }
-                MOD_HARVESTED_PASSIVES[skill_id] = entry
-                MOD_HARVESTED_PASSIVES[skill_id.lower()] = entry
-                if disp_name:
-                    MOD_HARVESTED_PASSIVES[disp_name.lower()] = entry
-                    if skill_id not in PASSIVE_SKILL_NAME_MAP:
-                        PASSIVE_SKILL_NAME_MAP[skill_id] = disp_name
+    passives_js_path = dashboard_dir / "passives_db.js"
+    passives_json_path = dashboard_dir / "passives_db.json"
 
-    unique_ids = len({v['skill_id'] for v in MOD_HARVESTED_PASSIVES.values()}) if MOD_HARVESTED_PASSIVES else 0
-    print(f"[*] Harvested {unique_ids} modded passive skill definitions & ranks across installed mods.")
+    db = {}
+    if passives_json_path.exists():
+        try:
+            with open(passives_json_path, "r", encoding="utf-8") as f:
+                db = json.load(f)
+        except Exception:
+            pass
+
+    for k, v in MOD_HARVESTED_PASSIVES.items():
+        skill_id = v.get('skill_id', k)
+        disp_name = v.get('display_name') or PASSIVE_SKILL_NAME_MAP.get(skill_id, skill_id)
+        raw_rank = v.get('rank', 0)
+        try:
+            rank_val = int(raw_rank)
+        except Exception:
+            m = re.search(r'(-?\d+)', str(raw_rank))
+            rank_val = int(m.group(1)) if m else 0
+
+        if rank_val >= 4:
+            rank_str = f"Rank {rank_val} (Rainbow)"
+        elif rank_val == 3:
+            rank_str = "Rank 3 (Gold)"
+        elif rank_val == 2:
+            rank_str = "Rank 2 (Gold)"
+        elif rank_val == 1:
+            rank_str = "Rank 1 (White)"
+        elif rank_val < 0:
+            rank_str = f"Rank {rank_val} (Red)"
+        else:
+            rank_str = "Rank 0 (Normal)"
+
+        slug = disp_name.strip().lower()
+        if slug not in db:
+            db[slug] = {
+                "name": disp_name,
+                "key": skill_id,
+                "rank": rank_str,
+                "category": v.get('category', 'Modded Passive'),
+                "effects": v.get('effects') or f"Modded Passive Skill (Rank {rank_val})"
+            }
+        else:
+            if not db[slug].get("key") or db[slug].get("key") == slug:
+                db[slug]["key"] = skill_id
+            if v.get("effects") and db[slug].get("effects") in ("", f"Modded Passive Skill (Rank {rank_val})"):
+                db[slug]["effects"] = v.get("effects")
+
+    try:
+        with open(passives_json_path, "w", encoding="utf-8") as f:
+            json.dump(db, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[!] Could not write {passives_json_path}: {e}")
+
+    try:
+        with open(passives_js_path, "w", encoding="utf-8") as f:
+            f.write("// Dynamically generated from game directory *.json and *.lua mod files\n")
+            f.write("window.PASSIVES_DB = ")
+            json.dump(db, f, indent=2, ensure_ascii=False)
+            f.write(";\n")
+        print(f"[OK] Exported {len(db)} passive skills to Dashboard/passives_db.js and passives_db.json")
+    except Exception as e:
+        print(f"[!] Could not write {passives_js_path}: {e}")
 
 
 ACTIVE_SKILL_NAME_MAP = {}
@@ -1214,9 +1555,15 @@ def get_passive_skill_level(skill_name: str) -> int:
 
     p_key = skill_name.strip()
     if p_key in MOD_HARVESTED_PASSIVES:
-        return MOD_HARVESTED_PASSIVES[p_key]['rank']
+        try:
+            return int(MOD_HARVESTED_PASSIVES[p_key]['rank'])
+        except Exception:
+            pass
     if p_key.lower() in MOD_HARVESTED_PASSIVES:
-        return MOD_HARVESTED_PASSIVES[p_key.lower()]['rank']
+        try:
+            return int(MOD_HARVESTED_PASSIVES[p_key.lower()]['rank'])
+        except Exception:
+            pass
 
     p_lower = skill_name.lower()
     if any(k in p_lower for k in ["sirenofthevoid", "eternalflame", "holyknight", "darkknight", "prismatic"]):
@@ -1807,189 +2154,349 @@ def is_game_running():
     return False
 
 
-def export_pals_to_dashboard(pals_rows):
-    """Formats raw parsed Pal rows into JSON and writes to Dashboard/pals.json and pals.js"""
+def extract_save_metadata(world_dir: Path) -> dict:
+    world_guid = world_dir.name
+    level_sav = world_dir / "Level.sav"
+    level_meta = world_dir / "LevelMeta.sav"
+    
+    char_name = "Palworld Adventurer"
+    world_name = "Palpagos World"
+    player_level = 1
+    mtime = os.path.getmtime(level_sav) if level_sav.exists() else 0
+    mtime_str = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(mtime))
+    
+    if level_meta.exists():
+        try:
+            m_raw = level_meta.read_bytes()
+            m_decomp = decode_palworld_save(m_raw)
+            for prop in [b"HostPlayerName", b"PlayerName", b"NickName"]:
+                idx = m_decomp.find(prop)
+                if idx != -1:
+                    val_sub = m_decomp[idx:idx + 120]
+                    str_prop_idx = val_sub.find(b"StrProperty\x00")
+                    if str_prop_idx != -1:
+                        payload_after = val_sub[str_prop_idx + len(b"StrProperty\x00") + 9:]
+                        if len(payload_after) >= 4:
+                            str_len = struct.unpack("<I", payload_after[:4])[0]
+                            if 0 < str_len < 64:
+                                name_bytes = payload_after[4:4 + str_len].rstrip(b"\x00")
+                                parsed_name = name_bytes.decode("utf-8", errors="ignore").strip()
+                                if parsed_name:
+                                    char_name = parsed_name
+                                    break
+            idx_w = m_decomp.find(b"WorldName")
+            if idx_w != -1:
+                val_sub = m_decomp[idx_w:idx_w + 120]
+                str_prop_idx = val_sub.find(b"StrProperty\x00")
+                if str_prop_idx != -1:
+                    payload_after = val_sub[str_prop_idx + len(b"StrProperty\x00") + 9:]
+                    if len(payload_after) >= 4:
+                        str_len = struct.unpack("<I", payload_after[:4])[0]
+                        if 0 < str_len < 64:
+                            w_bytes = payload_after[4:4 + str_len].rstrip(b"\x00")
+                            parsed_w = w_bytes.decode("utf-8", errors="ignore").strip()
+                            if parsed_w:
+                                world_name = parsed_w
+            idx_lvl = m_decomp.find(b"HostPlayerLevel")
+            if idx_lvl != -1:
+                val_sub = m_decomp[idx_lvl:idx_lvl + 80]
+                int_prop_idx = val_sub.find(b"IntProperty\x00")
+                if int_prop_idx != -1:
+                    payload_after = val_sub[int_prop_idx + len(b"IntProperty\x00") + 9:]
+                    if len(payload_after) >= 4:
+                        parsed_lvl = struct.unpack("<I", payload_after[:4])[0]
+                        if 1 <= parsed_lvl <= 65:
+                            player_level = parsed_lvl
+        except Exception as e:
+            print(f"[!] Info extracting LevelMeta.sav metadata for {world_guid}: {e}")
+
+    return {
+        "world_guid": world_guid,
+        "character_name": char_name,
+        "world_name": world_name,
+        "player_level": player_level,
+        "last_modified": mtime_str
+    }
+
+
+def find_all_live_saves():
+    if not SAVE_DIR.is_dir():
+        print(f"[!] Save directory does not exist: {SAVE_DIR}")
+        return []
+
+    all_level_saves = glob.glob(str(SAVE_DIR / "**" / "Level.sav"), recursive=True)
+    if not all_level_saves:
+        print("[!] No Level.sav files found in SaveGames path.")
+        return []
+
+    live_saves = [s for s in all_level_saves if "\\backup\\" not in s.lower() and "/backup/" not in s.lower()]
+    live_saves.sort(key=lambda s: os.path.getmtime(s), reverse=True)
+    return live_saves
+
+
+def find_target_save():
+    live_saves = find_all_live_saves()
+    if not live_saves:
+        return None
+    if PINNED_WORLD_SAVE_GUID:
+        for s in live_saves:
+            if PINNED_WORLD_SAVE_GUID.lower() in s.lower():
+                print(f"[*] Using Pinned World Save GUID: {PINNED_WORLD_SAVE_GUID}")
+                return s
+    selected_save = live_saves[0]
+    mtime_str = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(os.path.getmtime(selected_save)))
+    print(f"[*] Auto-detected most recently updated save folder: {selected_save}")
+    print(f"    Last modified: {mtime_str}")
+    return selected_save
+
+
+def format_pals_rows_to_structured(pals_rows, dashboard_dir):
+    structured_pals = []
+    for row in pals_rows:
+        if len(row) < 26:
+            continue
+
+        paldeck_num = row[0]
+        display_name = row[1]
+        raw_id = row[5]
+        level = row[6]
+        star_str = row[7]
+        gender_raw = row[8]
+        fav_str = row[9]
+        location = row[10]
+        origin_str = row[11]
+        work_str = row[12]
+        is_alpha_str = row[13]
+        hp_iv = row[14]
+        melee_iv = row[15]
+        shot_iv = row[16]
+        def_iv = row[17]
+        active_skills = [s for s in row[18:21] if s and s != "-"]
+        passive_skills = [p for p in row[21:25] if p and p != "-"]
+        inst_guid = row[25]
+
+        pal_info = get_pal_info(raw_id)
+        elem1 = pal_info[2] if len(pal_info) > 2 else "Neutral"
+        elem2 = pal_info[3] if len(pal_info) > 3 and pal_info[3] else None
+
+        work_badges = []
+        if work_str and work_str != "-":
+            parts = [p.strip() for p in str(work_str).split(",")]
+            for part in parts:
+                tokens = part.split()
+                if len(tokens) == 2:
+                    emoji, lvl = tokens[0], tokens[1]
+                    work_badges.append({"emoji": emoji, "level": lvl})
+
+        passive_heatmap_map = {
+            5: "#f59e0b",
+            4: "#f59e0b",
+            3: "#4CAF50",
+            2: "#2196F3",
+            1: "#9E9E9E",
+            -1: "#ef4444",
+            -2: "#dc2626",
+            -3: "#b91c1c"
+        }
+
+        passive_objs = []
+        for p_name in passive_skills:
+            lvl = get_passive_skill_level(p_name)
+            hex_color = passive_heatmap_map.get(lvl, "#2a2d34")
+            passive_objs.append({
+                "name": p_name,
+                "tier": lvl,
+                "color": hex_color
+            })
+
+        gender_type = "male" if "♂" in str(gender_raw) else "female" if "♀" in str(gender_raw) else "unknown"
+
+        name_slug = display_name.lower().replace(" ", "-").replace("'", "").replace(".", "")
+        clean_id = raw_id.replace("BOSS_", "").replace("Raid_", "").replace("NPC_", "").replace("SUMMON_", "").lower()
+        clean_id_dash = clean_id.replace("_", "-")
+
+        slug_map = {
+            "astralyn": "astralym.png",
+            "lilyqueen-noct": "lyleen-noct.png",
+            "worldtreedragon": "astralym.png",
+            "lilyqueen_dark": "lyleen-noct.png"
+        }
+
+        img_base_dir = dashboard_dir / "Images" / "Everything Else" / "Palworld Complete Palpedia List"
+        portrait_path = None
+        if name_slug in slug_map:
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[name_slug]}"
+        elif clean_id in slug_map:
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id]}"
+        elif clean_id_dash in slug_map:
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id_dash]}"
+        elif (img_base_dir / f"{name_slug}.png").exists():
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{name_slug}.png"
+        elif (img_base_dir / f"{clean_id}.png").exists():
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id}.png"
+        elif (img_base_dir / f"{clean_id_dash}.png").exists():
+            portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id_dash}.png"
+        else:
+            portrait_path = f"https://raw.githubusercontent.com/palworld-modding/icons/main/pals/{clean_id}.png"
+
+        pal_obj = {
+            "paldeck_num": paldeck_num,
+            "name": display_name,
+            "raw_id": raw_id,
+            "portrait_url": portrait_path,
+            "level": level,
+            "stars": star_str,
+            "gender": gender_type,
+            "gender_symbol": gender_raw,
+            "favorite": fav_str,
+            "location": location,
+            "is_imported": "IMAGE" in str(origin_str) or "Global" in str(location),
+            "element1": elem1,
+            "element2": elem2,
+            "work_suitabilities": work_badges,
+            "is_boss": is_alpha_str == "Yes (Alpha)",
+            "hp_iv": hp_iv,
+            "melee_iv": melee_iv,
+            "shot_iv": shot_iv,
+            "def_iv": def_iv,
+            "active_skills": active_skills,
+            "passive_skills": passive_objs,
+            "instance_guid": inst_guid
+        }
+        structured_pals.append(pal_obj)
+    return structured_pals
+
+
+def export_multi_save_data_to_dashboard(all_saves_data):
+    """Writes multi-save data to saves_data.json, pals.json, and pals.js"""
     try:
         dashboard_dir = BASE_SCRIPT_DIR / "Dashboard"
         if not dashboard_dir.is_dir():
             return
 
-        structured_pals = []
-        for row in pals_rows:
-            if len(row) < 26:
-                continue
+        saves_json_out = dashboard_dir / "saves_data.json"
+        with open(saves_json_out, "w", encoding="utf-8") as f:
+            json.dump(all_saves_data, f, indent=2, ensure_ascii=False)
 
-            paldeck_num = row[0]
-            display_name = row[1]
-            raw_id = row[5]
-            level = row[6]
-            star_str = row[7]
-            gender_raw = row[8]
-            fav_str = row[9]
-            location = row[10]
-            origin_str = row[11]
-            work_str = row[12]
-            is_alpha_str = row[13]
-            hp_iv = row[14]
-            melee_iv = row[15]
-            shot_iv = row[16]
-            def_iv = row[17]
-            active_skills = [s for s in row[18:21] if s and s != "-"]
-            passive_skills = [p for p in row[21:25] if p and p != "-"]
-            inst_guid = row[25]
-
-            pal_info = get_pal_info(raw_id)
-            elem1 = pal_info[2] if len(pal_info) > 2 else "Neutral"
-            elem2 = pal_info[3] if len(pal_info) > 3 and pal_info[3] else None
-
-            work_badges = []
-            if work_str and work_str != "-":
-                parts = [p.strip() for p in str(work_str).split(",")]
-                for part in parts:
-                    tokens = part.split()
-                    if len(tokens) == 2:
-                        emoji, lvl = tokens[0], tokens[1]
-                        work_badges.append({"emoji": emoji, "level": lvl})
-
-            passive_heatmap_map = {
-                5: "#f59e0b",
-                4: "#f59e0b",
-                3: "#4CAF50",
-                2: "#2196F3",
-                1: "#9E9E9E",
-                -1: "#ef4444",
-                -2: "#dc2626",
-                -3: "#b91c1c"
-            }
-
-            passive_objs = []
-            for p_name in passive_skills:
-                lvl = get_passive_skill_level(p_name)
-                hex_color = passive_heatmap_map.get(lvl, "#2a2d34")
-                passive_objs.append({
-                    "name": p_name,
-                    "tier": lvl,
-                    "color": hex_color
-                })
-
-            gender_type = "male" if "♂" in str(gender_raw) else "female" if "♀" in str(gender_raw) else "unknown"
-
-            name_slug = display_name.lower().replace(" ", "-").replace("'", "").replace(".", "")
-            clean_id = raw_id.replace("BOSS_", "").replace("Raid_", "").replace("NPC_", "").replace("SUMMON_", "").lower()
-            clean_id_dash = clean_id.replace("_", "-")
-
-            slug_map = {
-                "astralyn": "astralym.png",
-                "lilyqueen-noct": "lyleen-noct.png",
-                "worldtreedragon": "astralym.png",
-                "lilyqueen_dark": "lyleen-noct.png"
-            }
-
-            img_base_dir = dashboard_dir / "Images" / "Everything Else" / "Palworld Complete Palpedia List"
-            portrait_path = None
-            if name_slug in slug_map:
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[name_slug]}"
-            elif clean_id in slug_map:
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id]}"
-            elif clean_id_dash in slug_map:
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{slug_map[clean_id_dash]}"
-            elif (img_base_dir / f"{name_slug}.png").exists():
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{name_slug}.png"
-            elif (img_base_dir / f"{clean_id}.png").exists():
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id}.png"
-            elif (img_base_dir / f"{clean_id_dash}.png").exists():
-                portrait_path = f"Images/Everything Else/Palworld Complete Palpedia List/{clean_id_dash}.png"
-            else:
-                portrait_path = f"https://raw.githubusercontent.com/palworld-modding/icons/main/pals/{clean_id}.png"
-
-            pal_obj = {
-                "paldeck_num": paldeck_num,
-                "name": display_name,
-                "raw_id": raw_id,
-                "portrait_url": portrait_path,
-                "level": level,
-                "stars": star_str,
-                "gender": gender_type,
-                "gender_symbol": gender_raw,
-                "favorite": fav_str,
-                "location": location,
-                "is_imported": "IMAGE" in str(origin_str) or "Global" in str(location),
-                "element1": elem1,
-                "element2": elem2,
-                "work_suitabilities": work_badges,
-                "is_boss": is_alpha_str == "Yes (Alpha)",
-                "hp_iv": hp_iv,
-                "melee_iv": melee_iv,
-                "shot_iv": shot_iv,
-                "def_iv": def_iv,
-                "active_skills": active_skills,
-                "passive_skills": passive_objs,
-                "instance_guid": inst_guid
-            }
-            structured_pals.append(pal_obj)
-
-        json_out = dashboard_dir / "pals.json"
-        with open(json_out, "w", encoding="utf-8") as f:
-            json.dump(structured_pals, f, indent=2, ensure_ascii=False)
+        active_save = None
+        if all_saves_data.get("saves"):
+            active_save = all_saves_data["saves"][0]
+            pals_json_out = dashboard_dir / "pals.json"
+            with open(pals_json_out, "w", encoding="utf-8") as f:
+                json.dump(active_save["pals"], f, indent=2, ensure_ascii=False)
 
         js_out = dashboard_dir / "pals.js"
         with open(js_out, "w", encoding="utf-8") as f:
+            f.write("window.SAVES_DATA = ")
+            json.dump(all_saves_data, f, indent=2, ensure_ascii=False)
+            f.write(";\n")
             f.write("window.PALS_DATA = ")
-            json.dump(structured_pals, f, indent=2, ensure_ascii=False)
+            if active_save:
+                json.dump(active_save["pals"], f, indent=2, ensure_ascii=False)
+            else:
+                f.write("[]")
             f.write(";\n")
 
-        print(f"[OK] Exported {len(structured_pals)} Pals to Dashboard ({json_out.name} and {js_out.name})")
+        print(f"[OK] Exported {len(all_saves_data.get('saves', []))} world saves to Dashboard ({saves_json_out.name} and {js_out.name})")
     except Exception as e:
-        print(f"[!] Error exporting Pals to Dashboard: {e}")
+        print(f"[!] Error exporting multi-save data to Dashboard: {e}")
+
+
+def export_pals_to_dashboard(pals_rows):
+    """Formats single save rows and writes to Dashboard."""
+    dashboard_dir = BASE_SCRIPT_DIR / "Dashboard"
+    if not dashboard_dir.is_dir():
+        return
+    structured = format_pals_rows_to_structured(pals_rows, dashboard_dir)
+    json_out = dashboard_dir / "pals.json"
+    with open(json_out, "w", encoding="utf-8") as f:
+        json.dump(structured, f, indent=2, ensure_ascii=False)
+    js_out = dashboard_dir / "pals.js"
+    with open(js_out, "w", encoding="utf-8") as f:
+        f.write("window.PALS_DATA = ")
+        json.dump(structured, f, indent=2, ensure_ascii=False)
+        f.write(";\n")
 
 
 def run_single_sync():
     print("=" * 65)
-    print("       PALWORLD SAVE -> GOOGLE SHEETS SYNC (ONE-SHOT)")
+    print("       PALWORLD MULTI-SAVE -> GOOGLE SHEETS & DASHBOARD SYNC")
     print("=" * 65)
 
     try:
-        if not GOOGLE_CREDENTIALS_JSON.is_file():
-            print(f"[X] Google Credentials JSON not found at:\n    {GOOGLE_CREDENTIALS_JSON}")
-            return
-
         if is_game_running():
             print(f"[+] Palworld is currently running. Waiting for process '{PROCESS_NAME}' to exit...")
             while is_game_running():
                 time.sleep(POLL_INTERVAL_SECONDS)
             print(f"[!] Palworld closed at {time.strftime('%X')}.")
         else:
-            print("[*] Palworld is not running. Syncing latest save on disk...")
+            print("[*] Palworld is not running. Syncing all world saves on disk...")
 
         print("[*] Committing disk buffer (3s)...")
         time.sleep(3)
 
         # 1. Connect to Google Sheets & harvest Passives and Implants tab FIRST
-        try:
-            client = gspread.service_account(filename=str(GOOGLE_CREDENTIALS_JSON))
-            if GOOGLE_SHEET_URL_OR_KEY.startswith("http"):
-                workbook = client.open_by_url(GOOGLE_SHEET_URL_OR_KEY)
-            elif len(GOOGLE_SHEET_URL_OR_KEY) > 25:
-                workbook = client.open_by_key(GOOGLE_SHEET_URL_OR_KEY)
-            else:
-                workbook = client.open(GOOGLE_SHEET_NAME)
-            harvest_passives_and_implants_tab(workbook)
-            harvest_skill_fruits_tab(workbook)
-        except Exception as e:
-            print(f"[!] Info connecting to Google Sheets prior to save parse: {e}")
+        if GOOGLE_CREDENTIALS_JSON.is_file():
+            try:
+                client = gspread.service_account(filename=str(GOOGLE_CREDENTIALS_JSON))
+                if GOOGLE_SHEET_URL_OR_KEY.startswith("http"):
+                    workbook = client.open_by_url(GOOGLE_SHEET_URL_OR_KEY)
+                elif len(GOOGLE_SHEET_URL_OR_KEY) > 25:
+                    workbook = client.open_by_key(GOOGLE_SHEET_URL_OR_KEY)
+                else:
+                    workbook = client.open(GOOGLE_SHEET_NAME)
+                harvest_passives_and_implants_tab(workbook)
+                harvest_skill_fruits_tab(workbook)
+            except Exception as e:
+                print(f"[!] Info connecting to Google Sheets prior to save parse: {e}")
 
-        target_save = find_target_save()
-        if target_save:
-            pals = parse_palworld_save(Path(target_save))
-            if pals:
-                upload_to_google_sheet(pals, GOOGLE_CREDENTIALS_JSON)
-                export_pals_to_dashboard(pals)
-            else:
-                print("[!] No Pal data recovered from save.")
-        else:
-            print("[!] Could not locate a valid Level.sav file in SaveGames path.")
+        # 2. Discover all live save folders
+        live_saves = find_all_live_saves()
+        if not live_saves:
+            print("[!] Could not locate any valid Level.sav files in SaveGames path.")
+            return
 
-        print(f"\n[OK] [{time.strftime('%X')}] Sync complete. Exiting script.")
+        print(f"[*] Found {len(live_saves)} live Palworld save folders to parse.")
+        dashboard_dir = BASE_SCRIPT_DIR / "Dashboard"
+
+        saves_list = []
+        for save_path_str in live_saves:
+            save_path = Path(save_path_str)
+            world_dir = save_path.parent
+            metadata = extract_save_metadata(world_dir)
+            print(f"\n---> Parsing Save: {metadata['character_name']} | World: {metadata['world_name']} (Lv. {metadata['player_level']})")
+            print(f"     Path: {save_path}")
+            print(f"     Last Modified: {metadata['last_modified']}")
+
+            pals_rows = parse_palworld_save(save_path)
+            structured_pals = format_pals_rows_to_structured(pals_rows, dashboard_dir) if pals_rows else []
+            
+            save_entry = {
+                "world_guid": metadata["world_guid"],
+                "character_name": metadata["character_name"],
+                "world_name": metadata["world_name"],
+                "player_level": metadata["player_level"],
+                "last_modified": metadata["last_modified"],
+                "pals_count": len(structured_pals),
+                "pals": structured_pals
+            }
+            saves_list.append(save_entry)
+
+            # Upload most recent active save to Google Sheets if credentials present
+            if len(saves_list) == 1 and pals_rows and GOOGLE_CREDENTIALS_JSON.is_file():
+                try:
+                    upload_to_google_sheet(pals_rows, GOOGLE_CREDENTIALS_JSON)
+                except Exception as g_err:
+                    print(f"[!] Google Sheets upload failed: {g_err}")
+
+        all_saves_data = {
+            "active_save_guid": saves_list[0]["world_guid"] if saves_list else "",
+            "saves": saves_list
+        }
+
+        export_multi_save_data_to_dashboard(all_saves_data)
+
+        print(f"\n[OK] [{time.strftime('%X')}] Multi-save sync complete ({len(saves_list)} saves parsed). Exiting script.")
 
     except Exception as e:
         print(f"\n[!] Unexpected error during sync execution: {e}")
